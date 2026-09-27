@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>linguistique-diachronique-intro – Franse taalkunde III: historische en geografische varianten van het Frans (F0AI9a)</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/003-linguistique-historique.html" rel="next">
+<link href="../chapters/001-introduction.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-26ae556258ba27b9aee13e31cd24d084.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-3b1e6eb55080b28dff7a5a065e865421.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-26ae556258ba27b9aee13e31cd24d084.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/001-introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/002-linguistique-diachronique-intro.html">Introduction à la linguistique diachronique</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Franse taalkunde III: historische en geografische varianten van het Frans (F0AI9a)</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/001-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bienvenue</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/002-linguistique-diachronique-intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Introduction à la linguistique diachronique</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/003-linguistique-historique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Notions de linguistique historique</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/003Z-changement-sémantique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Évolutions sémantiques</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/006-changement-phonologique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Évolutions phonétiques</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/007-français-de-france.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">007 Français De France</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/008-français-belgiqueqmd.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">008 Français Belgiqueqmd</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/009-langues-indogènes-belgique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">009 Langues Indogènes Belgique</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/010-français-afrique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Évolutions morpho-syntaxiques</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/011-français-amérique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Évolutions morpho-syntaxiques</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/013-présentations-des-élèves.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Évolutions morpho-syntaxiques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/001-introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/002-linguistique-diachronique-intro.html">Introduction à la linguistique diachronique</a></li></ol></nav></header>
+
+
+
+
+
+<div class="hidden">
+<p>Introduction à la linguistique diachronique</p>
+<hr>
+<p>Linguistique vs grammaire</p>
+<section id="le-lemme-linguistique-dans-le-tlfi" class="level3">
+<h3 class="anchored" data-anchor-id="le-lemme-linguistique-dans-le-tlfi">Le lemme <em>linguistique</em> dans le TLFi</h3>
+<p><img src="images/clipboard-3754285985.png" class="img-fluid"></p>
+<p><img src="images/clipboard-1683819146.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="le-lemme-grammaire-dans-le-tlfi" class="level3">
+<h3 class="anchored" data-anchor-id="le-lemme-grammaire-dans-le-tlfi">Le lemme <em>grammaire</em> dans le TLFi</h3>
+<p><img src="images/clipboard-658805517.png" class="img-fluid"></p>
+<p><img src="images/clipboard-2109517839.png" class="img-fluid"></p>
+<p><img src="images/clipboard-1197071049.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="linguistique-vs-grammaire-1" class="level1">
+<h1>Linguistique vs grammaire :</h1>
+<ul>
+<li>deux disciplines scientifiques ayant pour objet d’étude la langue « sous différents aspects »</li>
+</ul>
+<hr>
+<section id="quatre-différences-fondamentales" class="level2">
+<h2 class="anchored" data-anchor-id="quatre-différences-fondamentales">Quatre différences fondamentales :</h2>
+<ul>
+<li><p>Objet d’étude</p></li>
+<li><p>Objectif poursuivi</p></li>
+<li><p>Organisation de la description</p></li>
+<li><p>Terminologie utilisée</p></li>
+</ul>
+<hr>
+<hr>
+</section>
+<section id="objet-détude" class="level2">
+<h2 class="anchored" data-anchor-id="objet-détude">Objet d’étude</h2>
+<p>Toute variété linguistique se définit par un faisceau unique de variables diasystémiques :</p>
+<section id="les-dimensions-de-la-variation" class="level3">
+<h3 class="anchored" data-anchor-id="les-dimensions-de-la-variation">Les dimensions de la variation</h3>
+<section id="variation-diachronique" class="level4">
+<h4 class="anchored" data-anchor-id="variation-diachronique">Variation diachronique</h4>
+<p>Exemple : Les Serments de Strasbourg (842) vs français moderne</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Très ancien français</th>
+<th>Français moderne</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pro Deo amur et pro christian poblo et nostro commun salvament, d’ist di in avant, in quant Deus savir et podir me dunat, si salvarai eo cist meon fradre Karlo et in aiudha et in cadhuna cosa, si cum om per dreit son fradra salvar dift, in o quid il mi altresi fazet (…).</td>
+<td>Pour l’amour de Dieu et pour le salut du peuple chrétien et notre salut commun, de ce jour en avant, autant que Dieu m’en donnera le savoir et le pouvoir, je défendrai mon frère Charles, et l’aiderai en toute circonstance, comme on doit selon l’équité défendre son frère, pourvu qu’il en fasse autant à mon égard (…).</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Exemple : négation ancien français vs contemporain</p>
+<ol type="1">
+<li><p><em>Jeo ne mange.</em></p></li>
+<li><p><em>Je ne mange pas.</em></p></li>
+<li><p><em>Je mange pas.</em></p></li>
+</ol>
+<hr>
+</section>
+<section id="variation-diatopique" class="level4">
+<h4 class="anchored" data-anchor-id="variation-diatopique">Variation diatopique</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1931647397.png" class="img-fluid figure-img" width="600"></p>
+<figcaption>La variation dialectale en France</figcaption>
+</figure>
+</div>
+<hr>
+<p>Exemple : Variation phonétique Paris vs Midi</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Paris 🗼</th>
+<th>Midi 🌞</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>le lait → [lǝlɜ]</td>
+<td>[lǝle]</td>
+</tr>
+<tr class="even">
+<td>aimerais / aimerai → [emʁɜ] / [emʁe]</td>
+<td>[eməre]</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Exemple : Genre des emprunts anglais : France vs Canada</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Anglais 🇬🇧</th>
+<th>France 🇫🇷</th>
+<th>Canada 🇨🇦</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>the job</td>
+<td>le job</td>
+<td>la job</td>
+</tr>
+<tr class="even">
+<td>the gang</td>
+<td>le gang</td>
+<td>la gang</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Exemple : Chiffres 70 et 90 : France vs Belgique/Suisse</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>France 🇫🇷</th>
+<th>Belgique 🇧🇪 / Suisse 🇨🇭</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>soixante-dix</td>
+<td>septante</td>
+</tr>
+<tr class="even">
+<td>quatre-vingt-dix</td>
+<td>nonante</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="variation-diastratique" class="level4">
+<h4 class="anchored" data-anchor-id="variation-diastratique">Variation diastratique</h4>
+<p>Langue des jeunes :</p>
+<ul>
+<li><p><em>staïve</em>, <em>balec</em></p></li>
+<li><p><em>stremon</em>, <em>meuf</em>, <em>tromé</em></p></li>
+</ul>
+<hr>
+</section>
+<section id="variation-diaphasique" class="level4">
+<h4 class="anchored" data-anchor-id="variation-diaphasique">Variation diaphasique</h4>
+<p>Registre soutenu vs familier</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Soutenu</th>
+<th>Familier</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bonjour !</td>
+<td>Salut !</td>
+</tr>
+<tr class="even">
+<td>Pas de problème.</td>
+<td>Pas d’problème.</td>
+</tr>
+<tr class="odd">
+<td>Je ne sais pas…</td>
+<td>Je sais pas…</td>
+</tr>
+<tr class="even">
+<td>Il y a plusieurs façons de s’exprimer.</td>
+<td>Y’a plusieurs façons de s’exprimer.</td>
+</tr>
+<tr class="odd">
+<td>Arrivederla ! (it.)</td>
+<td>Arrivederci ! Ciao ! (it.)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="variation-diamésique" class="level3">
+<h3 class="anchored" data-anchor-id="variation-diamésique">Variation diamésique</h3>
+<p>Écrit vs oral</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Écrit ✍️</th>
+<th>Oral 💬</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bonjour !</td>
+<td>Salut !</td>
+</tr>
+<tr class="even">
+<td>Il y a plusieurs façons…</td>
+<td>Y’a plusieurs façons…</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="paramètres-diasystémiques-scalaires" class="level3">
+<h3 class="anchored" data-anchor-id="paramètres-diasystémiques-scalaires">Paramètres diasystémiques = scalaires</h3>
+<p><em>Exemple : L’évolution de la langue cristallisée dans <strong>Les Serments de Strasbourg (842)</strong></em></p>
+<ul>
+<li><p><strong>Latin classique (IIe s. av. J.-C. - IIe s. apr. J.-C.)</strong><br>
+&gt; <em>Per Dei amorem et per christiani populi et nostram communem salutem, ab hac die, quantum Deus scire et posse mihi dat, servabo hunc meum fratrem Carolum, et ope mea et in quacumque re, ut quilibet fratrem suum servare iure debet (…).</em></p></li>
+<li><p><strong>Très ancien français (IXe - XIe s.)</strong><br>
+&gt; <em>Pro Deo amur et pro christian poblo et nostro commun salvament, d’ist di in avant, in quant Deus savir et podir me dunat, si salvarai eo cist meon fradre Karlo et in aiudha et in cadhuna cosa, si cum om per dreit son fradra salvar dift, in o quid il mi altresi fazet (…).</em></p></li>
+<li><p><strong>Français contemporain (XXIe s.)</strong><br>
+&gt; <em>Pour l’amour de Dieu et pour le salut du peuple chrétien et notre salut commun, de ce jour en avant, autant que Dieu m’en donnera le savoir et le pouvoir, je défendrai mon frère Charles, et l’aiderai en toute circonstance, comme on doit selon l’équité défendre son frère, pourvu qu’il en fasse autant à mon égard (…).</em></p></li>
+</ul>
+<hr>
+<p><em>Exemple : Le continuum diatopique</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3434876068.png" class="img-fluid figure-img"></p>
+<figcaption>Continuum langues d’oc / langues d’oïl</figcaption>
+</figure>
+</div>
+<hr>
+<p><em>Exemple : le continuum diamésique/diaphasique/diastratique entre le latin écrit et le latin parlé véhiculaire :</em></p>
+<blockquote class="blockquote">
+<p><img src="images/clipboard-2027126486.png" class="img-fluid">Le latin vulgaire comme :</p>
+<p>« the usage, particularly but not exclusively spoken, of the Latin-speaking population who were little or not at all influenced by school education and by literary models » <span class="citation" data-cites="hermanVulgarLatin2000">Herman (<a href="#ref-hermanVulgarLatin2000" role="doc-biblioref">2000</a>)</span></p>
+</blockquote>
+<hr>
+<p><img src="images/clipboard-2439824230.png" class="img-fluid" width="450"></p>
+<hr>
+</section>
+</section>
+</section>
+<section id="et-alors-quelles-variétés-étudie-t-on" class="level1">
+<h1>Et alors, quelles variétés étudie-t-on?</h1>
+<ul>
+<li>Linguistes : toutes les variétés</li>
+</ul>
+<!-- -->
+<ul>
+<li>Grammairiens : langue écrite des « bons écrivains »</li>
+</ul>
+<hr>
+<div class="side-by-side">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-451181514.png" class="img-fluid figure-img"></p>
+<figcaption>Grevisse, M. (1936). Le Bon Usage, Paris : Duculot.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-4155197457.png" class="img-fluid figure-img" width="295"></p>
+<figcaption>Grevisse, M. &amp; A. Goosse (2016). Le Bon Usage, Bruxelles : De Boeck Supérieur.</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+<section id="conséquences-pour-la-grammaire" class="level3">
+<h3 class="anchored" data-anchor-id="conséquences-pour-la-grammaire">Conséquences pour la grammaire</h3>
+<p>Les grammairiens décrivent un bon usage basé sur une variété écrite, souvent en décalage avec l’usage réel.</p>
+<hr>
+<section id="décalage-diachronique" class="level4">
+<h4 class="anchored" data-anchor-id="décalage-diachronique">Décalage diachronique</h4>
+<blockquote class="blockquote">
+<p>« La faute d’aujourd’hui est la norme de demain. » — Alain. Rey</p>
+</blockquote>
+</section>
+<section id="variété-très-circonscrite" class="level4">
+<h4 class="anchored" data-anchor-id="variété-très-circonscrite">Variété très circonscrite</h4>
+<p>Les variétés de langue qui diffèrent de la langue écrite des bons écrivains dévient donc forcément des règles grammaticales établies pour la période et le territoire concernés</p>
+<hr>
+<p>Ex. : l’expression de la négation en français contemporain :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Règle grammaticale</th>
+<th style="text-align: left;">Registre informel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Morphème discontinu</strong></td>
+<td style="text-align: left;"><strong>Morphème simple</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ne <br> pas <br> rien <br> plus <br> jamais <br> …</td>
+<td style="text-align: left;">Ø <br> pas <br> rien <br> plus <br> jamais</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Finalement, les picards peuvent regretter leur début de période raté, en espérant que cela <strong>ne coûtera pas</strong> le match, en définitive.</td>
+<td style="text-align: left;">Je le dis à chaque match : que fait Pavard dans cette équipe ? J’ai rarement vu un latéral autant à la ramasse que lui. J’espère qu’il <strong>coutera pas</strong> le match […].</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="double-constat" class="level3">
+<h3 class="anchored" data-anchor-id="double-constat"><strong>Double constat :</strong></h3>
+<ul>
+<li>Variétés de langue contenant beaucoup de déviations des règles grammaticales : langue parlée, registres moins formels, langue des jeunes, centres urbains, etc.</li>
+</ul>
+<!-- -->
+<ul>
+<li>Variétés de langue privilégiées du déclenchement du changement linguistique : les mêmes variétés</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="les-déviations-des-règles-grammaticales-et-le-changement-linguistique" class="level1">
+<h1><strong>Les déviations des règles grammaticales et le changement linguistique ?</strong></h1>
+<ul>
+<li>Ces déviations (« innovations ») préfigurent le changement linguistique</li>
+<li><strong>Changement linguistique</strong> = conventionnalisation d’une innovation, c.-à-d.&nbsp;d’une déviation d’une règle grammaticale ancienne</li>
+</ul>
+<hr>
+<section id="deux-questions-principales-en-linguistique-historique" class="level3">
+<h3 class="anchored" data-anchor-id="deux-questions-principales-en-linguistique-historique">Deux questions principales en linguistique historique</h3>
+<ul>
+<li>Comment les langues changent-elles ? Comment le <strong>changement linguistique</strong> se réalise-t-il ?</li>
+</ul>
+<!-- -->
+<ul>
+<li>Comment les <strong>déviations des règles grammaticales</strong> se <strong>conventionnalisent</strong>-elles ? Comment la faute d’aujourd’hui devient-elle la norme de demain ?</li>
+</ul>
+<hr>
+</section>
+<section id="comment-étudier-ce-qui-conditionne-le-changement-linguistique" class="level3">
+<h3 class="anchored" data-anchor-id="comment-étudier-ce-qui-conditionne-le-changement-linguistique">Comment étudier ce qui conditionne le changement linguistique ?</h3>
+<ul>
+<li><p>La diachronie se définissant comme une succession de synchronies, la variation linguistique à un état de langue donné (<em>i.e.</em> en synchronie) reflète souvent un changement linguistique en cours.</p></li>
+<li><p>si l’on observe la variation dans le présent, on peut comprendre d’où on vient et éventuellement où on va</p></li>
+<li><p><strong>Variation synchronique ➡️ hypothèses sur le changement linguistique ➡️ linguistique futuriste</strong></p></li>
+</ul>
+<hr>
+<p>Ex. l’expression de la négation en français ?</p>
+<blockquote class="blockquote">
+<p>« En français contemporain, la négation s’exprime par un morphème simple en position postverbale (par ex. Je danse pas). L’emploi d’un morphème discontinu d’une part et d’autre de la forme verbale niée est vieilli et senti comme un archaïsme (par ex. Je ne danse pas). » (JV)</p>
+</blockquote>
+<hr>
+<p>Le cycle de Jespersen</p>
+<p>Ex. : le cycle de <span class="citation" data-cites="jespersenNegationEnglishOther1917">Jespersen (<a href="#ref-jespersenNegationEnglishOther1917" role="doc-biblioref">1917</a>)</span></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 19%">
+<col style="width: 17%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Étape</th>
+<th>Français 🇫🇷</th>
+<th>Anglais 🇬🇧</th>
+<th>Italien 🇮🇹</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Morphème simple en position préverbale</strong></td>
+<td>Jeo ne dis.<br>
+je NEG dire.PRS.1SG<br>
+<em>‘Je ne dis pas.’</em><br>
+(ancien français)</td>
+<td>Ic ne seah.<br>
+je NEG voir.IMPF.1SG<br>
+<em>‘Je ne voyais pas.’</em><br>
+(ancien anglais)</td>
+<td>Non gliel’ho detto.<br>
+NEG lui.le=ai dit<br>
+<em>‘Je ne lui ai pas dit.’</em><br>
+(italien standard / familier)</td>
+</tr>
+<tr class="even">
+<td><strong>Morphème discontinu de part et d’autre de la forme verbale</strong></td>
+<td>Je ne dis pas.<br>
+je NEG dire.PRS.1SG NEG<br>
+<em>‘Je ne dis pas.’</em><br>
+(français moderne standard)</td>
+<td>I ne saugh nawiht.<br>
+je NEG voir.IMPF.1SG NEG<br>
+<em>‘Je ne voyais pas.’</em><br>
+(moyen anglais)</td>
+<td>Non gliel’ho mica detto.<br>
+NEG lui.le=ai MICA dit<br>
+<em>‘Je ne lui ai pas dit.’</em><br>
+(italien familier)</td>
+</tr>
+<tr class="odd">
+<td><strong>Morphème simple en position postverbale</strong></td>
+<td>Je dis pas.<br>
+je dire.PRS.1SG NEG<br>
+<em>‘Je ne dis pas.’</em><br>
+(français moderne véhiculaire)</td>
+<td>I saw not.<br>
+je voyais NEG<br>
+<em>‘Je ne voyais pas.’</em><br>
+(anglais moderne naissant)</td>
+<td>Gliel’ho mica detto.<br>
+lui.le=ai MICA dit<br>
+<em>‘Je ne lui ai pas dit.’</em><br>
+(italien sous-standard / régional)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<ul>
+<li><p>si on condisère la grammaire comme l’« ensemble de règles conventionnelles […] qui déterminent un emploi correct (ou bon usage) de la langue parlée et de la langue écrite » (TLFi) &gt; conventionnalisation de régularités qui émergent de la langue telle qu’elle est utilisée par ses locuteurs dans des situations de communication précises</p></li>
+<li><p>Ces règles sont « variables suivant les époques » (TLFi) : changements dans l’emploi de la langue par ses locuteurs &gt; changements grammaticaux</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="objectif-poursuivi-par-la-linguistique-historique" class="level1">
+<h1>Objectif poursuivi par la linguistique historique</h1>
+<section id="deux-objectifs" class="level2">
+<h2 class="anchored" data-anchor-id="deux-objectifs">Deux objectifs :</h2>
+<ul>
+<li><p>Grammairien : prescriptif / normatif</p></li>
+<li><p>Linguiste : descriptif / explicatif</p></li>
+</ul>
+<hr>
+</section>
+<section id="attitude-face-aux-déviations" class="level2">
+<h2 class="anchored" data-anchor-id="attitude-face-aux-déviations">Attitude face aux déviations :</h2>
+<ul>
+<li><p>Grammairien → fautes</p></li>
+<li><p>Linguiste → alternatives à décrire</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="exemple-n1-la-négation" class="level1">
+<h1>Exemple n°1 : la négation</h1>
+<section id="pas" class="level2">
+<h2 class="anchored" data-anchor-id="pas">Pas</h2>
+<p>**Latin vulgaire** * Non vado. *(NEG tonique)* * NEG aller.PRS.1SG * *‘Je ne vais pas.’*</p>
+<p>**Ancien français (contexte neutre)** * Ne vais. *(NEG tonique)* * NEG aller.PRS.1SG * *‘Je ne vais pas.’*</p>
+<p>**Ancien français (contexte emphatique)** * Ne vais (un) pas. *(NEG clitique)* * NEG aller.PRS.1SG (un) pas *(pas : intensificateur optionnel)* * *‘Je ne vais pas du tout.’* *(&gt; contagion sémantique de pas)*</p>
+<p>**Français médiéval (contexte neutre)** * Ne mange pas. *(NEG clitique)* * NEG manger.PRS.1SG NEG *(perte du sens source de pas)* * *‘Je ne mange pas.’* *(pas moins emphatique)*</p>
+<p>**Français moderne standard** * Je ne mange/vais pas. *(NEG1 clitique)* * je NEG manger/aller.PRS.1SG pas *(pas obligatoire)* * *‘Je ne vais pas.’* *(contagion complète de pas)*</p>
+<p>**Français moderne véhiculaire** * Je mange/vais pas. *(ellipse de NEG1)* * je manger/aller.PRS.1SG pas *(preuve de contagion complète)* * *‘Je ne vais pas.’* *(pas garde place d’origine)*</p>
+<hr>
+</section>
+<section id="mie" class="level2">
+<h2 class="anchored" data-anchor-id="mie">Mie</h2>
+<ul>
+<li><p>**Latin vulgaire**</p>
+<ul>
+<li><p>* Non manduco. *(NEG tonique)*</p></li>
+<li><p>* NEG manger.PRS.1SG *</p></li>
+<li><p>*‘Je ne mange pas.’*</p></li>
+</ul></li>
+<li><p>**Ancien français (contexte neutre)**</p>
+<ul>
+<li><p>* Ne mange. *(NEG tonique)*</p></li>
+<li><p>* NEG manger.PRS.1SG *</p></li>
+<li><p>*‘Je ne mange pas.’*</p></li>
+</ul></li>
+<li><p>**Ancien français (contexte emphatique)**</p>
+<ul>
+<li><p>* Ne mange mie (de pain). *(NEG tonique)*</p></li>
+<li><p>* NEG manger.PRS.1SG miette (de pain) *(pas : intensificateur optionnel)* *</p></li>
+<li><p>*‘Je ne mange rien du tout.’* *(&gt; contagion sémantique de mie)*</p></li>
+</ul></li>
+<li><p>**Français médiéval (contexte neutre)**</p>
+<ul>
+<li><p>* Ne vais mie. *(NEG1 clitique)*</p></li>
+<li><p>* NEG aller.PRS.1SG NEG *(perte du sens source de mie)* *</p></li>
+<li><p>*‘Je ne vais pas.’* *(mie moins emphatique)*</p></li>
+</ul></li>
+<li><p>**Français moderne (vieilli, contexte neutre)**</p>
+<ul>
+<li><p>* Je te prie de ne compter mie sur moi, dimanche […]. *(NEG1 clitique)* * (Mallarmé, *Corresp.*, 1862, p.30)</p></li>
+<li><p>*(mie obligatoire)*</p></li>
+<li><p>*(contagion complète de pas)*</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="exemple-n2-le-genre-de-espèce" class="level1">
+<h1>Exemple n°2 : le genre de <em>espèce</em></h1>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions :</h2>
+<ol type="1">
+<li><p>Quel est son genre ?</p></li>
+<li><p>Quel est son emploi réel ?</p></li>
+<li><p>Attitude grammairien vs linguiste</p></li>
+<li><p>Explication de l’emploi déviant</p></li>
+</ol>
+</section>
+<section id="référence-grammaticale" class="level2">
+<h2 class="anchored" data-anchor-id="référence-grammaticale">Référence grammaticale</h2>
+<p><img src="images/clipboard-2485027561.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="les-données-réelles" class="level2">
+<h2 class="anchored" data-anchor-id="les-données-réelles">Les données réelles</h2>
+<p>Observez les exemples ci-dessous et dégagez-en les règles qui régissent le genre du mot <em>espèce</em>.</p>
+<ol type="1">
+<li><p>Une espèce de con.</p></li>
+<li><p>Une espèce de crapule.</p></li>
+<li><p>Un espèce de moteur.</p></li>
+<li><p>Une espèce de voiture.</p></li>
+<li><p>Un espèce d’individu.</p></li>
+<li><p>Une espèce de fleur.</p></li>
+<li><p>Un espèce de problème.</p></li>
+</ol>
+<hr>
+</section>
+<section id="la-réponse-du-grammairien" class="level2">
+<h2 class="anchored" data-anchor-id="la-réponse-du-grammairien">La réponse du grammairien</h2>
+<p><img src="images/clipboard-1591005596.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="la-réponse-du-linguiste" class="level2">
+<h2 class="anchored" data-anchor-id="la-réponse-du-linguiste">La réponse du linguiste</h2>
+<section id="e-étape-description-du-phénomène" class="level3">
+<h3 class="anchored" data-anchor-id="e-étape-description-du-phénomène">1e étape : description du phénomène</h3>
+<ul>
+<li><p>Malgré son genre inhérent qui est le féminin, le genre du mot espèce tend à varier</p></li>
+<li><p>Le genre du mot espèce ne varie que dans la construction [DET espèce de N] :</p>
+<ol type="1">
+<li><p>Il ne connaît pas cette espèce.</p></li>
+<li><p>*Il ne connaît pas cet espèce.</p></li>
+</ol></li>
+<li><p>Le genre du mot espèce peut être féminin peu importe le genre du N qui suit la préposition de :</p>
+<ol type="1">
+<li><p>Une espèce de voiture.</p></li>
+<li><p>Une espèce de problème.</p></li>
+</ol></li>
+<li><p>Le genre du mot espèce peut être masculin seulement si le genre du N qui suit la préposition de est masculin :</p>
+<ol type="1">
+<li><p>Un espèce de problème.</p></li>
+<li><p>*Un espèce de voiture.</p></li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="e-étape-explication-du-phénomène" class="level3">
+<h3 class="anchored" data-anchor-id="e-étape-explication-du-phénomène">2e étape : explication du phénomène</h3>
+<ul>
+<li><p>Les noms ont un genre inhérent qui n’est souvent visible que sur la morphologie des éléments qui en dépendent et qui sont variables :</p>
+<ol type="1">
+<li><p>Table.</p></li>
+<li><p>La table.</p></li>
+<li><p>L’artiste.</p></li>
+<li><p>L’artiste est triste.</p></li>
+<li><p>L’artiste douée.</p></li>
+<li><p>Une vieille porte.</p></li>
+</ol></li>
+<li><p>Les déterminants et adjectifs s’accordent en genre avec le nom auquel ils se rapportent :</p>
+<ol type="1">
+<li><p>Le père de Marie est heureux.</p></li>
+<li><p>Il a rencontré le propriétaire de la voiture noire garée devant la mairie.</p></li>
+</ol></li>
+<li><p>Quelle est la tête des SN suivants ?</p></li>
+</ul>
+<pre><code>1.  Une espèce de con.
+
+2.  Une espèce de crapule.
+
+3.  Un espèce de moteur.
+
+4.  Une espèce de voiture.
+
+5.  Un espèce d’individu.
+
+6.  Une espèce de fleur.
+
+7.  Un espèce de problème.</code></pre>
+<ul>
+<li><p>Au sein de la construction <span class="math inline">\([DET\textit{ espèce de }N]\)</span>, la fonction de tête tend à glisser vers le <span class="math inline">\(N\)</span> qui suit la préposition <em>de</em>.</p></li>
+<li><p>Qu’est-ce que cela implique pour l’analyse syntaxique de la construction <span class="math inline">\([DET\textit{ espèce de }N]\)</span> et pour le statut du mot <em>espèce</em> ?</p></li>
+<li><p>Au sein de la construction <span class="math inline">\([DET\textit{ espèce de }N]\)</span>, la combinaison du déterminant, du mot <em>espèce</em> et de la préposition <em>de</em> est en train d’être (morpho)syntaxiquement réanalysée comme un déterminant morphologiquement complexe dans lequel le mot <em>espèce</em> ne fonctionne plus comme un nom prototypique.</p></li>
+<li><p>Se crée donc un nouveau déterminant à l’instar des déterminants complexes comme <em>un tas de</em> + <span class="math inline">\(N\)</span>, <em>la plupart de</em> + <span class="math inline">\(GN\)</span>, etc. (&gt; grammaire émergente)</p></li>
+<li><p>Réanalyse (morpho)syntaxique : “the change in the structure of an expression or class of expressions that does not involve any immediate or intrinsic modification of its surface structure” <span class="citation" data-cites="langackerSyntacticReanalysis1977">Langacker (<a href="#ref-langackerSyntacticReanalysis1977" role="doc-biblioref">1977</a>)</span> :</p></li>
+</ul>
+<pre><code>         SN                                      SN
+     /        \                              /        \
+  Dét          GN                         Dét          N
+             /    \                     /     \
+            N      SPrép        un espèce de        problème
+                  /     \
+               Prép      N
+
+ une    espèce    de   problème</code></pre>
+<pre><code></code></pre>
+<ul>
+<li><p>Quelle hypothèse pour le futur ? Deux scénarios récurrents :</p>
+<ol type="1">
+<li><p>Scénario 1 : compétition &gt; remplacement d’une forme ancienne par une nouvelle forme (cf.&nbsp;Leech et al.&nbsp;2009)$^6$ :</p>
+<p>$$\text{Etat source} \xrightarrow{\hspace{6cm}} \text{Etat cible}$$</p>
+<p>$$\begin{array}{lcccc} \text{Forme }\alpha &amp; \quad &amp; \text{Forme }\alpha &amp; \quad &amp; \\ &amp; \quad &amp; \text{Forme }\beta &amp; \quad &amp; \text{Forme }\beta \end{array}$$</p></li>
+<li><p>Scénario 2 : compétition &gt; maintien de la forme ancienne et de la nouvelle forme, mais spécialisation dans des contextes différents (cf.&nbsp;Torres Cacoullos &amp; Walker 2009) :</p>
+<p>$$\text{Etat source} \xrightarrow{\hspace{6cm}} \text{Etat cible}$$</p>
+<p>$$\begin{array}{lcccc} \text{Forme }\alpha &amp; \quad &amp; \text{Forme }\alpha &amp; \quad &amp; \text{Forme }\alpha\text{ dans contexte }\alpha \\ &amp; \quad &amp; \text{Forme }\beta &amp; \quad &amp; \text{Forme }\beta\text{ dans contexte }\beta \end{array}$$</p></li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="résumé" class="level3">
+<h3 class="anchored" data-anchor-id="résumé">Résumé</h3>
+<ul>
+<li><p><em>espèce</em> = féminin inhérent</p></li>
+<li><p>Variation uniquement dans [DET espèce de N]</p></li>
+<li><p>Masculin possible seulement si N est masculin</p></li>
+<li><p>Réanalyse : <em>une espèce de N</em> → déterminant complexe</p></li>
+<li><p>Évolution en cours : coexistence des deux formes</p></li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="linguistique-synchronique-vs-diachronique-vs-historique" class="level1">
+<h1>Linguistique synchronique vs diachronique vs historique</h1>
+<section id="synchronie" class="level2">
+<h2 class="anchored" data-anchor-id="synchronie">Synchronie</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Synchronie &gt; gr. σύν ‘avec’ (lat. syn) + χρόνος ‘temps’ (lat. chronos)</p>
+</div>
+</div>
+<p>• La position de la femme en Europe au Moyen Age</p>
+<p>• L’économie de la France au 21e s.</p>
+<p>• L’expression de la négation en ancien français</p>
+<p>• …</p>
+<p><img src="images/clipboard-1877567029.png" class="img-fluid"></p>
+<p>🚨 Synchronie du passé</p>
+<hr>
+</section>
+<section id="diachronie" class="level2">
+<h2 class="anchored" data-anchor-id="diachronie">Diachronie</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Diachronie &gt; διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat. chronos)</p>
+</div>
+</div>
+<p>• La position de la femme en Europe du Moyen Age au XXe s.</p>
+<p>• L’économie de la France du 19e au 21e s.</p>
+<p>• L’expression de la négation de l’ancien français au français classique</p>
+<p>• …</p>
+<hr>
+</section>
+<section id="opposition-qui-remonte-à-ferdinand-de-saussure" class="level2">
+<h2 class="anchored" data-anchor-id="opposition-qui-remonte-à-ferdinand-de-saussure">Opposition qui remonte à Ferdinand de Saussure</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ol type="1">
+<li>Genève 🇨🇭</li>
+<li>Études de linguistique historique à l’Université de Leipzig, doctorat en 1879</li>
+<li>Mémoire sur le système primitif des voyelles indo-européennes (1877)</li>
+<li>1881 : Maître de conférences à Paris</li>
+<li>1892 : Université de Genève</li>
+<li>1906–1913 : Chaire de linguistique générale</li>
+</ol>
+</div><div class="column" style="width:30%;">
+<p><img src="images/clipboard-1008386988.png" class="img-fluid" width="228"></p>
+</div><p><img src="images/clipboard-562782746.png" class="img-fluid" width="260"></p>
+</div>
+<hr>
+</section>
+</section>
+<section id="linguistique-historique-ou-diachronique" class="level1">
+<h1>Linguistique historique ou diachronique ?</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Linguistique diachronique : histoire interne de la langue</p>
+</div>
+</div>
+<p>Ex. : l’évolution de l’expression de la négation en français</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Linguistique historique : histoire externe de la langue :</p>
+</div>
+</div>
+<p>Ex. : la théorie des strats en Gaule :</p>
+<ol type="1">
+<li><p>Substrat gaulois (celtique P)</p></li>
+<li><p>Superstrat 1 latin (dès le 1er s. BC)</p></li>
+<li><p>Adstrat francique (dès le 3e s. AD)</p></li>
+<li><p>Superstrat 2 francique (Francs saliens)</p></li>
+</ol>
+<hr>
+<p><img src="images/clipboard-2388570064.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="intérêt-de-la-linguistique-diachronique" class="level1">
+<h1>Intérêt de la linguistique diachronique</h1>
+<ul>
+<li><p>Évolution de la langue &gt; fonctionnement de la langue et son emploi innovateur par ses locuteurs</p></li>
+<li><p>Perspective diachronique comparative/typologique &gt; évolutions récurrentes, corrélations entre évolutions, chronologie des évolutions en chaîne, … (&gt; linguistique futuriste)</p></li>
+<li><p>Cognition humaine et fonctionnement du cerveau humain</p></li>
+<li><p>Meilleure compréhension de faits de langue en synchronie</p>
+<ul>
+<li><p>Ex. : l’expression mono-morphématique de la négation en français moderne véhiculaire</p></li>
+<li><p>Ex. : l’emploi « masculin » du mot espèce dans la structure [DET espèce de Nmasculin]</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="perception-du-changement-linguistique" class="level1">
+<h1>Perception du changement linguistique</h1>
+<section id="xixe-siècle" class="level2">
+<h2 class="anchored" data-anchor-id="xixe-siècle">XIXe siècle</h2>
+<div class="side-by-side">
+<blockquote class="blockquote">
+<p>« Plus on remonte dans le temps, plus la forme du langage est belle et parfaite. Plus on s’approche du présent, plus il est pénible de trouver au langage, en décadence, de la force et de la flexibilité. » (Jacob &amp; Guillaume Grimm)</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Brothers_Grimm_Blow.jpg/250px-Brothers_Grimm_Blow.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" class="img-fluid figure-img"></p>
+<figcaption>Description de cette image, également commentée ci-après</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+<div class="side-by-side">
+<blockquote class="blockquote">
+<p>« Les langues à flexion qui sont tombées aujourd’hui en ruines ne pourront jamais de nouveau se relever à leur hauteur primitive. » (August Schleicher)</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/August_Schleicher.jpg/250px-August_Schleicher.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" class="img-fluid figure-img"></p>
+<figcaption>Portrait de August Schleicher</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+</section>
+<section id="perception-traditionnelle" class="level2">
+<h2 class="anchored" data-anchor-id="perception-traditionnelle">Perception traditionnelle</h2>
+<div class="side-by-side">
+<ul>
+<li><p>Primauté des langues classiques (grec ancien, latin, sanscrit, etc.)</p></li>
+<li><p>La disparition de ces langues est déplorable : dégénération, décadence</p></li>
+<li><p>Langues flexionnelles &gt; langues non flexionnelles</p></li>
+<li><p>Idéalisation des systèmes linguistiques du passé, mépris des systèmes linguistiques contemporains et désespoir des systèmes linguistiques futurs</p></li>
+</ul>
+<p><img src="images/clipboard-1698630812.png" class="img-fluid"></p>
+</div>
+<hr>
+</section>
+<section id="aujourdhui" class="level2">
+<h2 class="anchored" data-anchor-id="aujourdhui">Aujourd’hui</h2>
+<ul>
+<li><p><span class="math inline">\(\pm\)</span> neutralité pour des changements dans le passé, mais attitude plutôt normative pour des changements actuels : « les jeunes d’aujourd’hui ne connaissent plus la grammaire, ils font des erreurs de syntaxe »</p></li>
+<li><p>Votre attitude ?</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>Changement linguistique : signe d’une langue en vie</p></li>
+<li><p>Aujourd’hui : le changement linguistique ne peut guère être arrêté pour au moins deux raisons :</p>
+<ul>
+<li><p>La mondialisation : contact linguistique intensifié dans des proportions sans précédent, et à tous les niveaux de la vie quotidienne</p>
+<ul>
+<li><p>Il a buggé ’il a perdu le nord’</p></li>
+<li><p>Je l’ai complètement zappé ’je l’ai complètement oublié’</p></li>
+</ul></li>
+</ul></li>
+<li><p>Diffusion extrêmement rapide de la production langagière écrite et orale non seulement dans une communauté linguistique donnée, mais dans le monde entier :</p>
+<ul>
+<li>Rôle crucial de l’Internet, des médias, des réseaux sociaux, …</li>
+<li>Diffusion rapide d’une innovation, qui est prête à être découverte, diffusée et imitée par des millions de locuteurs natifs ou apprenants dans le monde entier</li>
+</ul></li>
+</ul>
+<p>Bilan : quelle attitude faudrait-il adopter face au changement linguistique ?</p>
+<hr>
+</section>
+</section>
+<section id="difficultés-de-la-linguistique-diachronique" class="level1">
+<h1>Difficultés de la linguistique diachronique</h1>
+<ul>
+<li><p><strong>Besoin d’une base empirique :</strong> un corpus solide et représentatif de textes authentiques couvrant des périodes plus ou moins étendues &gt; dépendance de la transmission textuelle</p></li>
+<li><p>Problèmes :</p>
+<ul>
+<li><p>Transmission textuelle pauvre, voire absente * Ex. langues exotiques, isolées</p></li>
+<li><p>Documentation (relativement) récente (&gt; absence de traces du passé)</p></li>
+<li><p>Ruptures dans la transmission textuelle / périodes de transmission appauvrie * Ex. : les premiers stades des langues romanes</p></li>
+</ul>
+<hr>
+<ul>
+<li><p>Documentation exclusivement écrite jusqu’au XXe s.</p></li>
+<li><p>Sélection des textes transmis : * Duplication de textes : activité très chère, intensive et à refaire périodiquement</p></li>
+<li><p>Sélection dans les types de textes copiés</p></li>
+<li><p>Jusqu’à Gutenberg (1455) : duplication à la main par des copistes &gt; interventions conscientes et inconscientes</p></li>
+<li><p>Néanmoins : certaines langues ont une documentation diachroniquement impressionnante</p>
+<ul>
+<li>Ex. : le latin, les langues romanes, les langues germaniques</li>
+</ul></li>
+</ul>
+<hr></li>
+<li><p><strong>Langues romanes :</strong> la famille de langues la mieux documentée : transmission quasiment ininterrompue depuis leur émergence<strong>5/</strong></p></li>
+<li><p><strong>Situation plus unique encore :</strong> langues romanes &gt; latin donc documentation de plus de deux millénaires (3e s. BC – 21e s. AD) : diachronie large servant de laboratoire pour tester sur corpus des hypothèses formulées en linguistique générale et théorique (en plus : « shift typologique »)</p></li>
+<li><p>Néanmoins : documentation relativement pauvre de la période de transition entre le latin et les langues romanes (le proto-roman, 600 – 800 AD)</p></li>
+</ul>
+<hr>
+<p><strong>Autres problèmes en linguistique diachronique :</strong></p>
+<ul>
+<li>États de langue du passé : absence de locuteurs natifs (&gt; pas de jugements de grammaticalité, de jugements d’acceptabilité, d’intuitions, de tests linguistiques, …)</li>
+<li>Risque de projeter ses propres intuitions sur un état de langue actuel sur des états de langue du passé (&gt; distorsions, biais)</li>
+</ul>
+<hr>
+<div class="side-by-side">
+<p>Actuellement : grand intérêt pour l’évolution du français (&gt; plusieurs projets de recherche nationaux et internationaux)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media1.tenor.com/m/8QP4JDPp85UAAAAC/kido.gif" class="img-fluid figure-img"></p>
+<figcaption>Party GIFs | Tenor</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+</section>
+</div>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Les références</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-hermanVulgarLatin2000" class="csl-entry" role="listitem">
+Herman, József. 2000. <em>Vulgar Latin</em>. Penn State University Press.
+</div>
+<div id="ref-jespersenNegationEnglishOther1917" class="csl-entry" role="listitem">
+Jespersen, Otto. 1917. <em>Negation in English and Other Languages</em>. Vol. 1. B. Luno. <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=Wr-5AAAAIAAJ&amp;oi=fnd&amp;pg=PA4&amp;dq=978+0+271+02001+3Jespersen,+O.+(1917).+Negation+in+English+and+other+languages,+K%C3%B8benhavn+:+H%C3%B8st.&amp;ots=hba7awa05M&amp;sig=tJMEDET6_2HADoik5dgIVtJGcOw">https://books.google.com/books?hl=en&amp;lr=&amp;id=Wr-5AAAAIAAJ&amp;oi=fnd&amp;pg=PA4&amp;dq=978+0+271+02001+3Jespersen,+O.+(1917).+Negation+in+English+and+other+languages,+K%C3%B8benhavn+:+H%C3%B8st.&amp;ots=hba7awa05M&amp;sig=tJMEDET6_2HADoik5dgIVtJGcOw</a>.
+</div>
+<div id="ref-langackerSyntacticReanalysis1977" class="csl-entry" role="listitem">
+Langacker, Ronald W. 1977. <span>«&nbsp;Syntactic reanalysis&nbsp;»</span>. <em>Mechanisms of Syntactic Change</em> 58. <a href="https://doi.org/10.7560/750357-005">https://doi.org/10.7560/750357-005</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/001-introduction.html" class="pagination-link" aria-label="Bienvenue">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Bienvenue</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/003-linguistique-historique.html" class="pagination-link" aria-label="Notions de linguistique historique">
+        <span class="nav-page-text">Notions de linguistique historique</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
