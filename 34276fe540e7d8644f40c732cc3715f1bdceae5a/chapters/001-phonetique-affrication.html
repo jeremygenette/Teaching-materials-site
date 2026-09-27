@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>phonetique-affrication – Français moderne</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/000-intro.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-47df7f5d6c61cab4e4fdebba8c58704f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d60d52e7cd612cc4c48f29939805c5e3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-47df7f5d6c61cab4e4fdebba8c58704f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/001-phonetique-affrication.html">Négation - C’est pas vrai</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Français moderne</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/000-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/001-phonetique-affrication.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Négation - C’est pas vrai</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/001-phonetique-affrication.html">Négation - C’est pas vrai</a></li></ol></nav></header>
+
+
+
+
+
+<div class="hidden">
+<p>Négation - C’est pas vrai</p>
+<p>Introduction</p>
+<p><a href="https://www.lemonde.fr/series-d-ete/article/2021/07/31/le-ne-marque-de-negation-en-voie-de-disparition_6090096_3451060.html?srsltid=AfmBOorawSQY4BAOSbdNoDnmnri6b2thGEbIpUTly88xwK2ipKGz1W7z"><img src="images/clipboard-4256156183.png" class="img-fluid"></a></p>
+<p><img src="images/clipboard-3155544609.png" class="img-fluid"></p>
+<hr>
+<p><video src="images/AQN9VrcnP4vCes3Pw4caJ_TyrY8YYIOVNcX-bGwhTT_PYZ2Cfg1oJERsuoZWn6fe-w3KbmFbdOwKN7wBnim0GBXcT_6uplCtv9GAbeWcgA.mp4" class="img-fluid" controls=""><a href="images/AQN9VrcnP4vCes3Pw4caJ_TyrY8YYIOVNcX-bGwhTT_PYZ2Cfg1oJERsuoZWn6fe-w3KbmFbdOwKN7wBnim0GBXcT_6uplCtv9GAbeWcgA.mp4">Video</a></video></p>
+<hr>
+<p><img src="images/clipboard-2350255848.png" class="img-fluid"></p>
+<hr>
+<div class="side-by-side">
+<section id="ya-pas-moyen" class="level3">
+<h3 class="anchored" data-anchor-id="ya-pas-moyen">y’a pas moyen 🎶</h3>
+</section>
+<section id="aya-nakamura-wikipédia" class="level3">
+<h3 class="anchored" data-anchor-id="aya-nakamura-wikipédia"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaUDupaE1uwhB9LZS0Al-dJkrjQA5deCiemTpv8SYfiQ&amp;s.png" class="img-fluid" alt="Aya Nakamura — Wikipédia"></h3>
+</section>
+</div>
+<hr>
+<p>Comparez</p>
+<ul>
+<li><p><em>Je viens pas.</em></p></li>
+<li><p><em>Je ne viens pas.</em></p></li>
+<li><p><em>*Je ne viens.</em></p>
+<ul>
+<li>Vraiment indispensable?</li>
+</ul></li>
+</ul>
+<hr>
+<p><img src="images/clipboard-3048244221.png" class="img-fluid" width="600"></p>
+<hr>
+<ul>
+<li><p><strong>Le traitement traditionnel dans les dictionnaires :</strong></p>
+<ul>
+<li><p>Des termes comme <em>rien</em> ou <em>personne</em> y sont classés comme <strong>pronoms indéfinis</strong>.</p></li>
+<li><p>Le terme <em>jamais</em> y est répertorié comme un <strong>adverbe de temps</strong>.</p></li>
+<li><p>Selon cette perspective classique, c’est uniquement la présence du mot <em>ne</em> qui leur conférerait une valeur négative.</p></li>
+</ul></li>
+</ul>
+<hr>
+<p>Histoire</p>
+<ul>
+<li><p><strong>Dédoublement du <em>non</em> latin :</strong></p>
+<ul>
+<li><p>Le <em>non</em> latin a évolué vers deux formes distinctes :</p>
+<ul>
+<li><p>La forme tonique : <strong>non</strong></p></li>
+<li><p>La forme atone : <strong>ne</strong></p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Affaiblissement et renforcement (dès le XIIIᵉ siècle) :</strong></p>
+<ul>
+<li><p>Dès le XIIIᵉ siècle, le <em>ne</em> s’affaiblit.</p></li>
+<li><p>Il devient nécessaire de le renforcer à l’aide de mots qui étaient à l’origine des noms communs :</p>
+<ul>
+<li><p><em>un pas</em></p></li>
+<li><p><em>une personne</em></p></li>
+<li><p><em>un rien</em> (issu du latin <em>res</em> = « la chose »)</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Exemples de structures récurrentes :</strong></p>
+<ul>
+<li><p><em>Ne mange mie</em> (ne mange même pas une miette).</p></li>
+<li><p><em>Ne boit goutte</em> (ne boit même pas une goutte).</p></li>
+</ul></li>
+<li><p><strong>Évolution contemporaine :</strong></p>
+<ul>
+<li><p>Des termes comme <em>mie</em> ou <em>goutte</em> ont aujourd’hui disparu de cet usage négatif.</p></li>
+<li><p>En revanche, les autres éléments (<em>pas</em>, <em>personne</em>, <em>rien</em>) sont devenus pleinement négatifs dans le système de la langue.</p></li>
+</ul></li>
+</ul>
+<hr>
+<p>Ex. l’expression de la négation en français ?</p>
+<blockquote class="blockquote">
+<p>« En français contemporain, la négation s’exprime par un morphème simple en position postverbale (par ex. Je danse pas). L’emploi d’un morphème discontinu d’une part et d’autre de la forme verbale niée est vieilli et senti comme un archaïsme (par ex. Je ne danse pas). » (JV)</p>
+</blockquote>
+<hr>
+<p>Le cycle de Jespersen</p>
+<p>Ex. : le cycle de <span class="citation" data-cites="jespersenNegationEnglishOther1917">(<a href="#ref-jespersenNegationEnglishOther1917" role="doc-biblioref"><strong>jespersenNegationEnglishOther1917?</strong></a>)</span></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 19%">
+<col style="width: 17%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Étape</th>
+<th>Français 🇫🇷</th>
+<th>Anglais 🇬🇧</th>
+<th>Italien 🇮🇹</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Morphème simple en position préverbale</strong></td>
+<td>Jeo ne dis.<br>
+je NEG dire.PRS.1SG<br>
+<em>‘Je ne dis pas.’</em><br>
+(ancien français)</td>
+<td>Ic ne seah.<br>
+je NEG voir.IMPF.1SG<br>
+<em>‘Je ne voyais pas.’</em><br>
+(ancien anglais)</td>
+<td>Non gliel’ho detto.<br>
+NEG lui.le=ai dit<br>
+<em>‘Je ne lui ai pas dit.’</em><br>
+(italien standard / familier)</td>
+</tr>
+<tr class="even">
+<td><strong>Morphème discontinu de part et d’autre de la forme verbale</strong></td>
+<td>Je ne dis pas.<br>
+je NEG dire.PRS.1SG NEG<br>
+<em>‘Je ne dis pas.’</em><br>
+(français moderne standard)</td>
+<td>I ne saugh nawiht.<br>
+je NEG voir.IMPF.1SG NEG<br>
+<em>‘Je ne voyais pas.’</em><br>
+(moyen anglais)</td>
+<td>Non gliel’ho mica detto.<br>
+NEG lui.le=ai MICA dit<br>
+<em>‘Je ne lui ai pas dit.’</em><br>
+(italien familier)</td>
+</tr>
+<tr class="odd">
+<td><strong>Morphème simple en position postverbale</strong></td>
+<td>Je dis pas.<br>
+je dire.PRS.1SG NEG<br>
+<em>‘Je ne dis pas.’</em><br>
+(français moderne véhiculaire)</td>
+<td>I saw not.<br>
+je voyais NEG<br>
+<em>‘Je ne voyais pas.’</em><br>
+(anglais moderne naissant)</td>
+<td>Gliel’ho mica detto.<br>
+lui.le=ai MICA dit<br>
+<em>‘Je ne lui ai pas dit.’</em><br>
+(italien sous-standard / régional)</td>
+</tr>
+</tbody>
+</table>
+<!-- 
+Affaiblissement initial du mot négatof avec un accent faible
+- Pour maintenir négation, aon ajout second élément -> on créinterprète comme mot de la négation
+- on peut se passer du premier
+-->
+<hr>
+<section id="et-au-québec" class="level2">
+<h2 class="anchored" data-anchor-id="et-au-québec">Et au Québec</h2>
+<div class="side-by-side">
+<ul>
+<li><p>ne quasi absent à l’oral</p></li>
+<li><p>les mots négtifs puevent même être rebforcé par pas</p>
+<ul>
+<li>j’ai pas vu personne</li>
+</ul></li>
+</ul>
+<p><img src="images/clipboard-1405119325.png" class="img-fluid" width="1049"></p>
+</div>
+<hr>
+<ul>
+<li><p>Aujourd’hui, la valeur négative est véhiculée de manière autonome par les termes : <strong>pas</strong>, <strong>plus</strong>, <strong>jamais</strong>, <strong>aucun</strong>, <strong>nul</strong>, <strong>personne</strong> et <strong>rien</strong>.</p></li>
+<li><p>Ces éléments portent la charge sémantique de la négation dans le système moderne.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>Le statut du <em>ne</em> « tout seul » :</strong></p>
+<ul>
+<li><p>Le <em>ne</em> employé isolément s’observe principalement dans les propositions subordonnées lorsqu’il a une valeur <strong>explétive</strong> (ex. <em>« Je crains qu’il ne vienne »</em>).</p></li>
+<li><p>Dans ce contexte, il ne porte aucune valeur négative et relève d’une marque purement syntaxique et de registre soutenue.</p></li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Astuce</span>Définition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>Explétif :</em> Il existe en français un <em>ne</em> dit <em>explétif</em>, c’est-à-dire qui n’est pas indispensable au sens ou à la syntaxe de la phrase et qui n’a pas son rôle habituel de négation. On le rencontre dans différents types de constructions, presque exclusivement à l’écrit, dans la langue soignée.</p>
+<ul>
+<li><p>Le <em>ne</em> explétif s’emploie avec des adverbes de comparaison comme <em>davantage</em>, <em>plus</em>, <em>moins</em>, <em>mieux</em>, <em>meilleur</em>, <em>pire</em>, <em>moindre</em>, utilisés avec <em>que</em> pour introduire une phrase subordonnée.</p></li>
+<li><p>On le trouve aussi dans certaines subordonnées introduites par des verbes comme <em>craindre</em>, <em>avoir peur</em>, <em>redouter</em>, <em>empêcher</em>, <em>éviter</em> et par d’autres verbes ou expressions de même signification.</p></li>
+<li><p>On utilise également le <em>ne</em> explétif avec certains <strong>subordonnants composésAfficher l’infobulle</strong> comme <em>avant que</em>, <em>à moins que</em>.</p></li>
+</ul>
+</div>
+</div>
+<ul>
+<li><p>Bien que la valeur négative se soit déplacée vers le second élément (<em>pas</em>, <em>plus</em>, <em>jamais</em>, <em>rien</em>, <em>personne</em>), l’évolution n’est pas totalement achevée.</p></li>
+<li><p>Le <em>ne</em> négatif subsiste encore aujourd’hui de façon autonome dans certaines locutions figées.</p></li>
+</ul>
+<hr>
+<p>Règles académiques</p>
+<p>Au XVIIᵉ siècle, le <em>ne</em> n’est pas systématique et <em>pas</em> est concurrencé par <em>point</em>.</p>
+<div class="side-by-side">
+<p>Il ne faut pas omettre le <em>ne</em>, ni le <em>pas</em> ou le <em>point</em>.</p>
+<blockquote class="blockquote">
+<p>C’est une espèce de barbarisme insoutenable d’omettre <em>pas</em> ou <em>point</em>.</p>
+</blockquote>
+<p>C’est-à-dire que le <em>ne</em> n’est pas suffisant.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWl5XYovVZpvkche03YaSxMOpIwNCGSDdWuUpJFojK8A&amp;s=10.png" class="img-fluid figure-img"></p>
+<figcaption>Claude Favre de Vaugelas — Wikipédia</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+<ul>
+<li><p>En 1932, l’Académie dit pourtant que <em>non</em> et <em>ne</em> sont les deux seules formes adverbiales qui aient par elles-mêmes un sens négatif.</p></li>
+<li><p>Mais du coup, pour l’Académie, <em>pas</em>, <em>du tout</em>, <em>plus</em>, <em>jamais</em> n’ont pas de sens négatif ?</p></li>
+<li><p>Et puis, si <em>ne</em> est négatif, que dire de : « Je n’aime que la linguistique » ? Et « Il ne boit pas que de l’eau », qui nie « ne … que » ?</p></li>
+<li><p>L’Académie répond par l’argument suivant : « C’est une locution vicieuse ».</p></li>
+</ul>
+<hr>
+</section>
+<section id="les-règles-scolaires" class="level1">
+<h1>Les règles scolaires</h1>
+<ul>
+<li><p>Depuis le début du XIXᵉ siècle, l’école enseigne la négation avec <em>ne</em>.</p>
+<ul>
+<li><p><em>Ne</em> est considérée comme la plus fiable des négations.</p></li>
+<li><p><em>Ne … point</em> est la plus forte.</p></li>
+<li><p><em>Ne … pas</em> tient le milieu.</p></li>
+</ul></li>
+<li><p><strong>Aujourd’hui</strong></p>
+<ul>
+<li><p>On présente la négation comme bipartite du type :</p></li>
+<li><p>La négation <em>ne … pas</em> est composée de l’adverbe <em>ne</em> et de l’adverbe <em>pas</em>.</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="les-usages-littéraires" class="level1">
+<h1>Les usages littéraires</h1>
+<ul>
+<li><div>
+<p>La phrase négative avec <em>ne</em> reste majoritaire en littérature.</p>
+</div>
+<ul>
+<li><p><strong>Attestations anciennes sans <em>ne</em></strong></p>
+<ul>
+<li><p>On trouve des exemples d’omission de <em>ne</em> chez plusieurs auteurs :</p>
+<ul>
+<li><p><strong>Ronsard :</strong> « <em>Mignonne, allons voir si la rose […] a point perdu ceste vesprée les plis de sa robe pourprée</em> »</p></li>
+<li><p><strong>Madame de La Fayette</strong></p></li>
+<li><p><strong>Voltaire</strong></p></li>
+<li><p><strong>Victor Hugo (correspondance) :</strong> « <em>je suis pas digne de baiser la poussière de tes pieds</em> »</p></li>
+<li><p><strong>Balzac :</strong> « <em>j’avais pas le temps</em> »</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Statut sociolinguistique</strong></p>
+<ul>
+<li>En général, l’absence de <em>ne</em> est considérée comme un trait populaire ou enfantin.</li>
+</ul></li>
+<li><p><strong>Évolution au XXᵉ siècle</strong></p>
+<ul>
+<li><p>C’est surtout au XXᵉ siècle, à partir de 1950, que la négation sans <em>ne</em> s’étend dans la littérature.</p></li>
+<li><p>On la retrouve notamment chez Marcel Proust, Paul Claudel, Jean Dutourd…</p></li>
+<li><p>Sur la base de corpus, à partir de 1980, <em>c’est pas vrai</em> est plus fréquent que <em>ce n’est pas vrai</em>.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="les-usages-ordinaires" class="level1">
+<h1>Les usages ordinaires</h1>
+<ul>
+<li>La baisse de l’usage du <em>ne</em> a évolué à travers l’histoire, mais cela prend du temps.</li>
+<li>Lors de la Première Guerre mondiale, les poilus omettent le <em>ne</em> dans 25 % des cas dans leurs lettres.</li>
+<li>Après 1980, on voit apparaître des négations sans <em>ne</em> sur des affiches publiques.</li>
+</ul>
+<div class="side-by-side">
+<ul>
+<li>SOS Racisme</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcTd0QQ-2o_BrciI9kDgieQ4J5hCaOSdFhL2cqYZygpw&amp;s=10.png" class="img-fluid figure-img"></p>
+<figcaption>Touche pas à mon pote — Wikipédia</figcaption>
+</figure>
+</div>
+</div>
+<div class="side-by-side">
+<ul>
+<li>Campagne gouvernementale</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCod_Un2BwLjJJGLln5KQAv5X9oQ_HjkIeBkJRWWdzhQ&amp;s=10.png" class="img-fluid figure-img"></p>
+<figcaption>ANCIENNE AFFICHE TABAC LE PIEGE Cigarette Boulet EUR 12,94 - PicClick FR</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+<div class="side-by-side">
+<ul>
+<li><em>Fais pas ci, fais pas ça</em></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw1Yq2HL_h5nJ5ymxDLivwDQCDhEzOPtKsgKbCKTb_vQ&amp;s=10.png" class="img-fluid figure-img"></p>
+<figcaption>Fais pas ci, fais pas ça - Série TV 2007 - AlloCiné</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+<hr>
+<section id="en-ligne" class="level2">
+<h2 class="anchored" data-anchor-id="en-ligne">En ligne</h2>
+<ul>
+<li><p>En Suisse, on est à 23 % de phrases négatives avec <em>ne</em> dans les SMS.</p></li>
+<li><p>Sur les forums, on est à 42 % avec <em>ne</em>.</p></li>
+</ul>
+<hr>
+</section>
+<section id="à-loral" class="level2">
+<h2 class="anchored" data-anchor-id="à-loral">À l’oral</h2>
+<ul>
+<li><p>En région parisienne :</p>
+<ul>
+<li><p>En 1970 : 15 % de phrases avec <em>ne</em>.</p></li>
+<li><p>En 1990 : on en observe 83 %.</p></li>
+</ul></li>
+<li><p>Corpus de référence du français parlé :</p>
+<ul>
+<li><p>14 % dans la partie la moins formelle.</p></li>
+<li><p>33 % dans la plus formelle.</p></li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p>Les adultes utilisent plus de <em>ne</em> que les enfants.</p></li>
+<li><p>Les anciens utilisent plus de <em>ne</em> que les jeunes.</p></li>
+<li><p>GGF : dans un corpus récent, le <em>ne</em> dépasse rarement les 10 %.</p></li>
+<li><p>Néanmoins, l’usage du <em>ne</em> continue d’être un marqueur du bien-parler.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="les-règles-robustes" class="level1">
+<h1>Les règles robustes</h1>
+<ul>
+<li><strong>L’approche linguistique</strong>
+<ul>
+<li>Les linguistes ne se demandent pas si c’est « bien » ou « mal ».</li>
+<li>La question est : quand est-ce que le <em>ne</em> est possible ?</li>
+</ul></li>
+<li><strong>Conditions de possibilité du <em>ne</em></strong>
+<ul>
+<li><em>Ne</em> n’est pas possible s’il n’y a pas de verbe :
+<ul>
+<li><em>Pas un mot</em></li>
+<li><em>*Ne pas un mot</em></li>
+</ul></li>
+<li>La négation doit porter sur le verbe :
+<ul>
+<li><em>Ne rien à faire</em> vs <em>Rien à faire</em></li>
+</ul></li>
+<li><em>Ne</em> n’est pas possible si la négation porte sur un autre élément que le verbe :
+<ul>
+<li><em>Je suis venu pour rien</em></li>
+<li><em>*Je ne suis venu pour rien</em></li>
+</ul></li>
+<li><em>Ne</em> n’est pas possible si le sujet est omis (par exemple avec un verbe impersonnel à l’oral) :
+<ul>
+<li><em>Faut pas exagérer</em></li>
+<li><em>*Ne faut pas exagérer</em></li>
+</ul></li>
+<li><em>Ne</em> seul est le plus souvent explétif :
+<ul>
+<li><em>Je crains qu’il ne pleuve</em> signifie « Je crains qu’il pleuve » (et non pas « Je crains qu’il ne pleuve pas »).</li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="conclusions" class="level1">
+<h1>Conclusions</h1>
+<ul>
+<li><strong>Rôle du <em>ne</em></strong>
+<ul>
+<li>Faire croire que <em>ne</em> est négatif et que <em>ne</em> est obligatoire, c’est compliquer la grammaire.</li>
+<li><em>Pas</em>, <em>rien</em>, <em>personne</em> sont bien négatifs.</li>
+<li>On n’a pas besoin de <em>ne</em> pour le sens.</li>
+</ul></li>
+<li><strong>Désambiguïsation</strong>
+<ul>
+<li>Pour le mot « plus », on distingue l’adverbe négatif du comparatif par la prononciation.</li>
+<li>Le <em>ne</em> peut aider, mais le contexte suffit souvent pour comprendre les différences de sens.</li>
+<li>Le <em>ne</em> peut aider pour savoir sur quel verbe porte la négation, mais cela reste un cas très minoritaire :
+<ul>
+<li><em>Il sait ne pas parler</em></li>
+<li><em>Il ne sait pas parler</em></li>
+</ul></li>
+</ul></li>
+<li><strong>Statut sociolinguistique</strong>
+<ul>
+<li><em>Ne</em> ne se maintient que comme marque de style et de prestige social dans la norme subjective de certains locuteurs.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="test" class="level1">
+<h1>Test</h1>
+<p>Que préférez-vous ?</p>
+<ul>
+<li>J’ai vu un film pas mal</li>
+<li>Je n’ai vu un film pas mal</li>
+<li>Ce n’est pas vrai</li>
+<li>C’est pas vrai</li>
+</ul>
+<hr>
+</section>
+<section id="analyse-de-corpus" class="level1">
+<h1>Analyse de corpus</h1>
+<section id="formulation-de-la-question-de-recherche" class="level2">
+<h2 class="anchored" data-anchor-id="formulation-de-la-question-de-recherche">Formulation de la question de recherche</h2>
+<p>Pour opérationnaliser votre sujet, vous pouvez poser une question de recherche formelle et quantifiable :</p>
+<blockquote class="blockquote">
+<p><strong>« Dans quelle mesure le niveau de formalité de la situation d’énonciation influence-t-il la fréquence d’emploi de la particule de négation <em>ne</em> dans les productions verbales ou écrites d’un même locuteur (ou groupe de locuteurs) ? »</strong></p>
+</blockquote>
+<hr>
+<section id="hypothèse-associée" class="level3">
+<h3 class="anchored" data-anchor-id="hypothèse-associée">Hypothèse associée :</h3>
+<ul>
+<li><p><strong>Hypothèse nulle (</strong><span class="math inline">\(H_0\)</span>) : Le contexte de formalité n’a pas d’effet significatif sur le maintien ou l’omission du <em>ne</em>.</p></li>
+<li><p><strong>Hypothèse de travail (</strong><span class="math inline">\(H_1\)</span>) : L’emploi du <em>ne</em> augmente de manière significative lorsque le degré de formalité du contexte augmente (marqueur de style et de prestige social).</p></li>
+</ul>
+<hr>
+</section>
+<section id="cadre-conceptuel-et-opérationnalisation-variables" class="level3">
+<h3 class="anchored" data-anchor-id="cadre-conceptuel-et-opérationnalisation-variables">Cadre conceptuel et opérationnalisation (Variables)</h3>
+<ul>
+<li><p>Pour répondre scientifiquement à cette question selon la démarche de corpus, il faut isoler et manipuler des variables :</p>
+<ul>
+<li><p><strong>Variable Indépendante (VI) — Le contexte de formalité :</strong></p>
+<ul>
+<li><em>Registre / Situation :</em> Formel (ex. entretien d’embauche, conférence, examen oral) vs Informel (ex. discussion entre amis, SMS, forum de discussion).</li>
+</ul></li>
+<li><p><strong>Variable Dépendante (VD) — Le taux de maintien du <em>ne</em> :</strong></p>
+<ul>
+<li>Mesure de la proportion de négations complètes (ex. <em>je ne sais pas</em>) par rapport à l’ensemble des négations exprimées (ex. <em>je sais pas</em> + <em>je ne sais pas</em>).</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>$$\text{Taux de } ne = \frac{\text{Nombre de négations avec } ne}{\text{Nombre total de négations (avec et sans } ne)} \times 100$$</p>
+<hr>
+</section>
+<section id="définir-précisément-la-négation-que-lon-souhaite-étudier" class="level3">
+<h3 class="anchored" data-anchor-id="définir-précisément-la-négation-que-lon-souhaite-étudier">Définir précisément la négation que l’on souhaite étudier</h3>
+<ul>
+<li>Définir précisément les critères de formalité et la sous-catégorie de négation étudiée (ex. <em>ne…pas</em>, <em>ne…rien</em>, <em>ne…personne</em>).</li>
+</ul>
+<hr>
+</section>
+<section id="trouver-ou-constituer-un-corpus" class="level3">
+<h3 class="anchored" data-anchor-id="trouver-ou-constituer-un-corpus">Trouver (ou constituer) un corpus</h3>
+<ul>
+<li><p>Sélectionner un corpus oral ou écrit d’un même locuteur (ou d’un échantillon comparable) enregistré/recueilli dans deux contextes distincts :</p>
+<ul>
+<li><p><strong>Sous-corpus A (Formel) :</strong> Discours académiques, entretiens professionnels, corpus de français parlé dans la partie formelle.</p></li>
+<li><p><strong>Sous-corpus B (Informel) :</strong> Conversations familiales spontanées, interactions sur messagerie instantanée.</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="choix-du-corpus" class="level3">
+<h3 class="anchored" data-anchor-id="choix-du-corpus">Choix du corpus</h3>
+<section id="corpus-de-langue-parlée-oral" class="level4">
+<h4 class="anchored" data-anchor-id="corpus-de-langue-parlée-oral"><strong>Corpus de Langue Parlée (Oral)</strong></h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Corpus</th>
+<th>Description &amp; Contenu</th>
+<th>Volume Orféo / Total</th>
+<th>Source &amp; Référence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>CFPP2000</strong></td>
+<td>Interviews conversationnelles sur les quartiers de Paris et sa proche banlieue.</td>
+<td>~50 h / &gt;700 000 mots <em>(volume Orféo moindre, date antérieure)</em></td>
+<td><a href="http://cfpp2000.univ-paris3.fr/">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>CLAPI</strong></td>
+<td>Interactions multimédias en situation naturelle (professionnelle, médicale, classe, etc.).</td>
+<td>~17 h / ~170 000 mots <em>(sous-ensemble natif)</em></td>
+<td><a href="http://clapi.ish-lyon.cnrs.fr/">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>C-ORAL-ROM</strong></td>
+<td>Corpus comparatifs de langue spontanée des principales langues romanes (FR, IT, PT, ES).</td>
+<td><strong>Totalité partie FR</strong> (123 h / 772 textes au total)</td>
+<td><a href="http://lablita.dit.unifi.it/corpora/descriptions/coralrom/">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>CRFP</strong></td>
+<td>Échantillons de français parlé dans ~40 villes selon divers profils de locuteurs (aligné texte/son).</td>
+<td><strong>Totalité</strong> (~36 h / 440 000 mots / 134 enregistrements)</td>
+<td><a href="http://www.up.univ-mrs.fr/delic/corpus/index.html">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>FLEURON</strong></td>
+<td>Situations de la vie universitaire et quotidienne pour étudiants étrangers.</td>
+<td>~3 h / 35 000 mots</td>
+<td><a href="https://apps.atilf.fr/fleuron/">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>FRENCH ORAL NARRATIVE</strong></td>
+<td>Contes oraux (87 contes par 18 conteurs du CLiO à Vendôme) annotés en TEI.</td>
+<td><strong>Totalité</strong></td>
+<td><a href="http://frenchoralnarrative.qub.ac.uk">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>OFROM</strong></td>
+<td>Entretiens et interactions enregistrés en Suisse romande (aligné texte/son).</td>
+<td>&gt;25 h / ~300 000 mots <em>(actuellement ~80 h / ~1M mots)</em></td>
+<td><a href="http://www.unine.ch/ofrom">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>TCOF</strong></td>
+<td>Interactions adultes-enfants et conversations/récits entre adultes (+ coll. Debaisieux &amp; Caddeo).</td>
+<td>~23 h / ~300 000 mots</td>
+<td><a href="http://www.cnrtl.fr/corpus/tcof/">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>TUFS</strong></td>
+<td>Entretiens recueillis dans des universités françaises (Aix, Paris, Bordeaux) par l’Univ. de Tokyo.</td>
+<td><strong>Totalité</strong> (~54 h / &gt;750 000 mots)</td>
+<td><a href="http://www.coelang.tufs.ac.jp/english/">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>Valibel</strong></td>
+<td>Enregistrements de productions orales en Belgique (Bruxelles et Wallonie).</td>
+<td>~43 h / 500 000 mots <em>(sur 373 h au total)</em></td>
+<td><a href="http://www.uclouvain.be/81834.html">Lien</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="corpus-de-langue-écrite-communication-numérique" class="level4">
+<h4 class="anchored" data-anchor-id="corpus-de-langue-écrite-communication-numérique"><strong>Corpus de Langue Écrite &amp; Communication Numérique</strong></h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Corpus</th>
+<th>Description &amp; Contenu</th>
+<th>Volume Orféo / Total</th>
+<th>Source &amp; Référence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>ANNODIS</strong></td>
+<td>Textes diversifiés enrichis en structures discursives (<em>Est Républicain</em>, <em>Wikipédia</em>, <em>CMLF 2008</em>, <em>IFRI</em>).</td>
+<td><strong>Totalité</strong> (687 000 mots)</td>
+<td><a href="http://redac.univ-tlse2.fr/corpus/annodis">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>Chambers-Rostand</strong></td>
+<td>Presse quotidienne française (<em>Le Monde</em>, <em>L’Humanité</em>, <em>La Dépêche du Midi</em>).</td>
+<td><strong>Totalité</strong> (979 831 mots / 1 723 articles)</td>
+<td><a href="http://ota.ox.ac.uk/desc/2491">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>CoMeRe</strong></td>
+<td>Communication médiée par les réseaux (blogs, tweets, SMS, courriels, forums, etc.) structurée en TEI/CLARIN/OLAC.</td>
+<td><strong>Noyau de corpus</strong></td>
+<td><a href="https://corpuscomere.wordpress.com">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>Frantext (Libre)</strong></td>
+<td>Sous-corpus littéraire (romans et essais hors théâtre/poésie, 1890–1921).</td>
+<td><strong>Totalité</strong> (~1,8 million de tokens / 22 œuvres)</td>
+<td><a href="http://www.cnrtl.fr/corpus/frantext/">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Est Républicain</strong></td>
+<td>Presse Quotidienne Régionale (PQR) du CNRTL (3 éditions quotidiennes d’avril 2002).</td>
+<td><strong>Totalité</strong> (927 035 tokens)</td>
+<td><a href="https://www.google.com/search?q=https://www.ortolang.fr/market/corpora/est_republicain">Lien</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="téléchargement-des-données" class="level4">
+<h4 class="anchored" data-anchor-id="téléchargement-des-données">Téléchargement des données</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>here() starts at /Users/jeremy-ua/Documents/Work/Teaching/Teaching</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dplyr' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Charge le fichier depuis la racine du projet</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>corpus_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="fu">here</span>(<span class="st">"francais-moderne"</span>,<span class="st">"chapters"</span>, <span class="st">"corpus"</span>, <span class="st">"corpus_data.csv"</span>)) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(corpus<span class="sc">==</span><span class="st">"CRFP"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Il faut toujours vérifier les données que l’on a télécharger !</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(corpus_data)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  word_nr       form       lemma upos xpos start_time end_time speaker
+1       1      voilà       voilà  INT  INT       0.18     0.39      L1
+2       2       nous         moi  PRO  PRO       0.40     0.49      L1
+3       3       nous        nous  CLS  CLS       0.50     0.65      L1
+4       4     étions        être  VRB  VRB       0.66     1.01      L1
+5       5 interrompu interrompre  VPP  VPP       1.02     1.79      L1
+6       6         au        à+le  PRE  PRE       2.44     2.76      L1
+             file             utterance name_recording sex age
+1 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+
+2 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+
+3 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+
+4 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+
+5 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+
+6 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+
+           education         occupation         birth_place native_language
+1 études supérieures inconnu (retraité) Centre de la France        français
+2 études supérieures inconnu (retraité) Centre de la France        français
+3 études supérieures inconnu (retraité) Centre de la France        français
+4 études supérieures inconnu (retraité) Centre de la France        français
+5 études supérieures inconnu (retraité) Centre de la France        français
+6 études supérieures inconnu (retraité) Centre de la France        français
+    source_file corpus           setting_place duration
+1 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17
+2 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17
+3 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17
+4 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17
+5 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17
+6 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17
+                           audio_quality interaction sector     channel
+1 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face
+2 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face
+3 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face
+4 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face
+5 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face
+6 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face
+  modality    audio_file
+1     oral PRI-AIX-1.wav
+2     oral PRI-AIX-1.wav
+3     oral PRI-AIX-1.wav
+4     oral PRI-AIX-1.wav
+5     oral PRI-AIX-1.wav
+6     oral PRI-AIX-1.wav
+                                                                                                                    textgrid_path
+1 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid
+2 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid
+3 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid
+4 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid
+5 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid
+6 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid
+  alignment_status
+1          aligned
+2          aligned
+3          aligned
+4          aligned
+5          aligned
+6          aligned</code></pre>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="préparer-les-données-pré-traitement" class="level3">
+<h3 class="anchored" data-anchor-id="préparer-les-données-pré-traitement">Préparer les données (Pré-traitement)</h3>
+<ul>
+<li><p><strong>Tokenisation &amp; Nettoyage :</strong> Traiter les données brutes ou les transcriptions orales.</p></li>
+<li><p><strong>Étiquetage (POS Tagging) / Annotation :</strong> Identifier les structures négatives verbales.</p></li>
+</ul>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Filter for utterances with "pas"</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>selection_negation <span class="ot">&lt;-</span> corpus_data <span class="sc">%&gt;%</span> </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">any</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Print the number of unique utterances</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Number of utterances containing 'pas':"</span>, <span class="fu">n_distinct</span>(selection_negation<span class="sc">$</span>utterance), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Number of utterances containing 'pas': 4497 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Filter for utterances that contain ADN but do NOT contain NOM</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>final_selection <span class="ot">&lt;-</span> selection_negation <span class="sc">%&gt;%</span> </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">any</span>(upos <span class="sc">==</span> <span class="st">"ADN"</span>) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">any</span>(upos <span class="sc">==</span> <span class="st">"NOM"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Print result count</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Number of matching utterances:"</span>, <span class="fu">n_distinct</span>(final_selection<span class="sc">$</span>utterance), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Number of matching utterances: 1383 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="ot">&lt;-</span> final_selection <span class="sc">%&gt;%</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">tag_negation =</span> <span class="fu">case_when</span>(</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Si le mot courant est 'pas' et qu'il y a un 'ne' situé plus haut dans l'énoncé</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>      lemma <span class="sc">==</span> <span class="st">"pas"</span> <span class="sc">&amp;</span> <span class="fu">any</span>(lemma <span class="sc">==</span> <span class="st">"ne"</span> <span class="sc">&amp;</span> word_nr <span class="sc">&lt;</span> word_nr[lemma <span class="sc">==</span> <span class="st">"pas"</span>][<span class="dv">1</span>]) <span class="sc">~</span> <span class="st">"neg_avec_ne"</span>,</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>      </span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Si le mot courant est 'pas' mais sans 'ne' avant</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>      lemma <span class="sc">==</span> <span class="st">"pas"</span> <span class="sc">~</span> <span class="st">"neg_sans_ne"</span>,</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>      </span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Pour tous les autres mots</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(tag_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 2
+  tag_negation     n
+  &lt;chr&gt;        &lt;int&gt;
+1 neg_avec_ne    267
+2 neg_sans_ne   1198</code></pre>
+</div>
+</div>
+<hr>
+</section>
+<section id="analyser-les-données" class="level3">
+<h3 class="anchored" data-anchor-id="analyser-les-données">Analyser les données</h3>
+<ul>
+<li><strong>Calcul des fréquences :</strong> Comparer la fréquence relative (pourcentage) du <em>ne</em> dans le sous-corpus formel versus le sous-corpus informel.</li>
+</ul>
+<hr>
+<section id="minitutoriel-filtrer-sélectionner-un-corpus-en-r-dplyr" class="level4">
+<h4 class="anchored" data-anchor-id="minitutoriel-filtrer-sélectionner-un-corpus-en-r-dplyr">Mini‑tutoriel : Filtrer &amp; Sélectionner un corpus en R (dplyr)</h4>
+<ul>
+<li><p>Comprendre les opérations essentielles pour manipuler un corpus :</p>
+<ul>
+<li><p><strong>filter</strong> : garder certaines lignes</p></li>
+<li><p><strong>select</strong> : garder certaines colonnes</p></li>
+<li><p>Opérateurs logiques : <strong>==</strong>, <strong>!=</strong>, <strong>&amp;</strong>, <strong>|</strong></p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+</section>
+<section id="filtrer-avec-filter" class="level1">
+<h1>Filtrer avec <code>filter()</code></h1>
+<section id="garder-les-lignes-où-une-condition-est-vraie" class="level2">
+<h2 class="anchored" data-anchor-id="garder-les-lignes-où-une-condition-est-vraie">Garder les lignes où une condition est vraie</h2>
+<p>r</p>
+<pre><code>corpus %&gt;% filter(lemma == "pas")</code></pre>
+<hr>
+</section>
+<section id="exclure-une-valeur" class="level2">
+<h2 class="anchored" data-anchor-id="exclure-une-valeur">Exclure une valeur</h2>
+<p>r</p>
+<pre><code>corpus %&gt;% filter(upos != "NOM")</code></pre>
+<hr>
+</section>
+<section id="combiner-conditions-avec-et" class="level2">
+<h2 class="anchored" data-anchor-id="combiner-conditions-avec-et">Combiner conditions avec <strong>ET</strong> (<code>&amp;</code>)</h2>
+<p>r</p>
+<pre><code>corpus %&gt;% filter(lemma == "pas" &amp; upos == "ADV")</code></pre>
+<hr>
+</section>
+<section id="combiner-conditions-avec-ou" class="level2">
+<h2 class="anchored" data-anchor-id="combiner-conditions-avec-ou">Combiner conditions avec <strong>OU</strong> (<code>|</code>)</h2>
+<p>r</p>
+<pre><code>corpus %&gt;% filter(upos == "ADJ" | upos == "ADV")</code></pre>
+<hr>
+</section>
+<section id="exemple-linguistique-énoncés-contenant-pas-mais-sans-ne" class="level2">
+<h2 class="anchored" data-anchor-id="exemple-linguistique-énoncés-contenant-pas-mais-sans-ne">Exemple linguistique : énoncés contenant <em>pas</em> mais sans <em>ne</em></h2>
+<p>r</p>
+<pre><code>corpus %&gt;% 
+  group_by(utterance) %&gt;% 
+  filter(any(lemma == "pas") &amp; !any(lemma == "ne")) %&gt;% 
+  ungroup()</code></pre>
+<hr>
+</section>
+</section>
+<section id="sélectionner-des-colonnes-avec-select" class="level1">
+<h1>Sélectionner des colonnes avec <code>select()</code></h1>
+<section id="garder-seulement-certaines-colonnes" class="level2">
+<h2 class="anchored" data-anchor-id="garder-seulement-certaines-colonnes">Garder seulement certaines colonnes</h2>
+<p>r</p>
+<pre><code>corpus %&gt;% select(utterance, lemma, upos)</code></pre>
+<hr>
+</section>
+<section id="exclure-une-colonne" class="level2">
+<h2 class="anchored" data-anchor-id="exclure-une-colonne">Exclure une colonne</h2>
+<p>r</p>
+<pre><code>corpus %&gt;% select(-speaker_id)</code></pre>
+<hr>
+</section>
+<section id="renommer-une-colonne-en-même-temps" class="level2">
+<h2 class="anchored" data-anchor-id="renommer-une-colonne-en-même-temps">Renommer une colonne en même temps</h2>
+<p>r</p>
+<pre><code>corpus %&gt;% select(token = lemma, pos = upos)</code></pre>
+<hr>
+</section>
+</section>
+<section id="combiner-filter-select" class="level1">
+<h1>Combiner <code>filter()</code> + <code>select()</code></h1>
+<section id="exemple" class="level2">
+<h2 class="anchored" data-anchor-id="exemple">Exemple :</h2>
+<p><strong>Garder les adjectifs produits par des locuteurs masculins, et ne garder que lemma + age</strong></p>
+<p>r</p>
+<pre><code>corpus %&gt;%
+  filter(upos == "ADJ" &amp; sex == "M") %&gt;%
+  select(lemma, age)</code></pre>
+<hr>
+</section>
+</section>
+<section id="résumé-des-opérateurs-logiques" class="level1">
+<h1>Résumé des opérateurs logiques</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 35%">
+<col style="width: 19%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opérateur</th>
+<th>Signification</th>
+<th>Exemple</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>==</strong></td>
+<td>égal à</td>
+<td>lemma == “pas”</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>!=</strong></td>
+<td>différent de</td>
+<td>upos != “NOM”</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>&amp;</strong></td>
+<td>ET logique</td>
+<td>lemma == “pas” &amp; upos == “ADV”</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>**</td>
+<td>**</td>
+<td>OU logique</td>
+<td>upos == “ADJ” \</td>
+<td>upos == “ADV”</td>
+</tr>
+<tr class="odd">
+<td><strong>!</strong></td>
+<td>NON logique</td>
+<td>!any(lemma == “ne”)</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<section id="répondre-à-la-question-conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="répondre-à-la-question-conclusion">Répondre à la question (Conclusion)</h3>
+<ul>
+<li>Valider ou infirmer l’hypothèse de travail <span class="math inline">\(H_1\)</span> selon la significativité statistique des résultats.</li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(interaction) <span class="sc">%&gt;%</span> </span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(tag_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 × 3
+# Groups:   interaction [8]
+   interaction           tag_negation     n
+   &lt;chr&gt;                 &lt;chr&gt;        &lt;int&gt;
+ 1 conversation          neg_avec_ne      4
+ 2 conversation          neg_sans_ne     19
+ 3 cours                 neg_avec_ne     14
+ 4 cours                 neg_sans_ne     23
+ 5 entretien             neg_avec_ne    202
+ 6 entretien             neg_sans_ne   1015
+ 7 explication           neg_avec_ne      4
+ 8 explication           neg_sans_ne     22
+ 9 médias oraux          neg_avec_ne     15
+10 médias oraux          neg_sans_ne     17
+11 narration             neg_avec_ne     18
+12 narration             neg_sans_ne     71
+13 présentation publique neg_sans_ne      2
+14 réunion               neg_avec_ne     10
+15 réunion               neg_sans_ne     29</code></pre>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.4.3</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(interaction, tag_negation) <span class="sc">%&gt;%</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 × 4
+# Groups:   interaction [8]
+   interaction           tag_negation effectif proportion
+   &lt;chr&gt;                 &lt;chr&gt;           &lt;int&gt;      &lt;dbl&gt;
+ 1 conversation          neg_avec_ne         4       17.4
+ 2 conversation          neg_sans_ne        19       82.6
+ 3 cours                 neg_avec_ne        14       37.8
+ 4 cours                 neg_sans_ne        23       62.2
+ 5 entretien             neg_avec_ne       202       16.6
+ 6 entretien             neg_sans_ne      1015       83.4
+ 7 explication           neg_avec_ne         4       15.4
+ 8 explication           neg_sans_ne        22       84.6
+ 9 médias oraux          neg_avec_ne        15       46.9
+10 médias oraux          neg_sans_ne        17       53.1
+11 narration             neg_avec_ne        18       20.2
+12 narration             neg_sans_ne        71       79.8
+13 présentation publique neg_sans_ne         2      100  
+14 réunion               neg_avec_ne        10       25.6
+15 réunion               neg_sans_ne        29       74.4</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> interaction, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon la tâche"</span>,</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Tâche"</span>,</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>)</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="001-phonetique-affrication_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(sex, tag_negation) <span class="sc">%&gt;%</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 5 × 4
+# Groups:   sex [3]
+  sex     tag_negation effectif proportion
+  &lt;chr&gt;   &lt;chr&gt;           &lt;int&gt;      &lt;dbl&gt;
+1 F       neg_avec_ne       128       16.7
+2 F       neg_sans_ne       638       83.3
+3 M       neg_avec_ne       139       19.9
+4 M       neg_sans_ne       558       80.1
+5 inconnu neg_sans_ne         2      100  </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> sex, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon le sexe"</span>,</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sexe"</span>,</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="001-phonetique-affrication_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(education, tag_negation) <span class="sc">%&gt;%</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 × 4
+# Groups:   education [5]
+   education          tag_negation effectif proportion
+   &lt;chr&gt;              &lt;chr&gt;           &lt;int&gt;      &lt;dbl&gt;
+ 1 collège            neg_avec_ne        45       14.9
+ 2 collège            neg_sans_ne       257       85.1
+ 3 inconnu            neg_avec_ne        20       33.9
+ 4 inconnu            neg_sans_ne        39       66.1
+ 5 lycée              neg_avec_ne        47       14.6
+ 6 lycée              neg_sans_ne       275       85.4
+ 7 primaire           neg_avec_ne        15       38.5
+ 8 primaire           neg_sans_ne        24       61.5
+ 9 études supérieures neg_avec_ne       140       18.8
+10 études supérieures neg_sans_ne       603       81.2</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> education, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon le niveau d'éducation"</span>,</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sexe"</span>,</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="001-phonetique-affrication_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<p>No Stress</p>
+<div class="side-by-side">
+<p>J’ai un cadeau pour vous !</p>
+<p><img src="images/clipboard-1811006658.png" class="img-fluid"></p>
+</div>
+<hr>
+<p>Google Colab:</p>
+<p><a href="https://colab.research.google.com/drive/1T9jLQHwhN3Fd9OY2s43wxpgF1l4tWi86?usp=sharing" class="uri">https://colab.research.google.com/drive/1T9jLQHwhN3Fd9OY2s43wxpgF1l4tWi86?usp=sharing</a></p>
+</section>
+</section>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/000-intro.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
