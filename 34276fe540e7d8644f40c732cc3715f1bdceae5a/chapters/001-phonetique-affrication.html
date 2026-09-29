@@ -318,7 +318,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/001-phonetique-affrication.html">Négation - C’est pas vrai</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/001-phonetique-affrication.html">Linguistique de corpus</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
@@ -364,13 +364,13 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/001-phonetique-affrication.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Négation - C’est pas vrai</span></a>
+ <span class="menu-text">Linguistique de corpus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/002-intro-corpus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction et mise en contexte</span></a>
+ <span class="menu-text">Linguistique de corpus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -391,51 +391,115 @@ window.Quarto = {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#et-au-québec" id="toc-et-au-québec" class="nav-link active" data-scroll-target="#et-au-québec"><span class="header-section-number">3.0.1</span> Et au Québec</a></li>
-  <li><a href="#les-règles-scolaires" id="toc-les-règles-scolaires" class="nav-link" data-scroll-target="#les-règles-scolaires"><span class="header-section-number">4.1</span> Les règles scolaires</a></li>
-  <li><a href="#les-usages-littéraires" id="toc-les-usages-littéraires" class="nav-link" data-scroll-target="#les-usages-littéraires"><span class="header-section-number">4.2</span> Les usages littéraires</a></li>
-  <li><a href="#les-usages-ordinaires" id="toc-les-usages-ordinaires" class="nav-link" data-scroll-target="#les-usages-ordinaires"><span class="header-section-number">4.3</span> Les usages ordinaires</a>
+  <li><a href="#quest-ce-quun-corpus" id="toc-quest-ce-quun-corpus" class="nav-link active" data-scroll-target="#quest-ce-quun-corpus"><span class="header-section-number">2.1</span> Qu’est-ce qu’un corpus ?</a></li>
+  <li><a href="#quest-ce-que-la-linguistique-de-corpus" id="toc-quest-ce-que-la-linguistique-de-corpus" class="nav-link" data-scroll-target="#quest-ce-que-la-linguistique-de-corpus"><span class="header-section-number">2.2</span> Qu’est-ce que la linguistique de corpus ?</a></li>
+  <li><a href="#étape-1-question-de-recherche-et-hypothèses" id="toc-étape-1-question-de-recherche-et-hypothèses" class="nav-link" data-scroll-target="#étape-1-question-de-recherche-et-hypothèses"><span class="header-section-number">3.1</span> Étape 1 : Question de recherche et hypothèses</a>
   <ul class="collapse">
-  <li><a href="#en-ligne" id="toc-en-ligne" class="nav-link" data-scroll-target="#en-ligne"><span class="header-section-number">4.3.1</span> En ligne</a></li>
-  <li><a href="#à-loral" id="toc-à-loral" class="nav-link" data-scroll-target="#à-loral"><span class="header-section-number">4.3.2</span> À l’oral</a></li>
-  </ul></li>
-  <li><a href="#les-règles-robustes" id="toc-les-règles-robustes" class="nav-link" data-scroll-target="#les-règles-robustes"><span class="header-section-number">4.4</span> Les règles robustes</a></li>
-  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><span class="header-section-number">4.5</span> Conclusions</a></li>
-  <li><a href="#test" id="toc-test" class="nav-link" data-scroll-target="#test"><span class="header-section-number">4.6</span> Test</a></li>
-  <li><a href="#analyse-de-corpus" id="toc-analyse-de-corpus" class="nav-link" data-scroll-target="#analyse-de-corpus"><span class="header-section-number">4.7</span> Analyse de corpus</a>
+  <li><a href="#exploration-dun-corpus-linguistique" id="toc-exploration-dun-corpus-linguistique" class="nav-link" data-scroll-target="#exploration-dun-corpus-linguistique"><span class="header-section-number">3.1.1</span> Exploration d’un corpus linguistique</a></li>
+  <li><a href="#description-linguistique" id="toc-description-linguistique" class="nav-link" data-scroll-target="#description-linguistique"><span class="header-section-number">3.1.2</span> Description linguistique</a>
   <ul class="collapse">
-  <li><a href="#formulation-de-la-question-de-recherche" id="toc-formulation-de-la-question-de-recherche" class="nav-link" data-scroll-target="#formulation-de-la-question-de-recherche"><span class="header-section-number">4.7.1</span> Formulation de la question de recherche</a>
-  <ul class="collapse">
-  <li><a href="#hypothèse-associée" id="toc-hypothèse-associée" class="nav-link" data-scroll-target="#hypothèse-associée"><span class="header-section-number">4.7.1.1</span> Hypothèse associée :</a></li>
-  <li><a href="#cadre-conceptuel-et-opérationnalisation-variables" id="toc-cadre-conceptuel-et-opérationnalisation-variables" class="nav-link" data-scroll-target="#cadre-conceptuel-et-opérationnalisation-variables"><span class="header-section-number">4.7.1.2</span> Cadre conceptuel et opérationnalisation (Variables)</a></li>
-  <li><a href="#définir-précisément-la-négation-que-lon-souhaite-étudier" id="toc-définir-précisément-la-négation-que-lon-souhaite-étudier" class="nav-link" data-scroll-target="#définir-précisément-la-négation-que-lon-souhaite-étudier"><span class="header-section-number">4.7.1.3</span> Définir précisément la négation que l’on souhaite étudier</a></li>
-  <li><a href="#trouver-ou-constituer-un-corpus" id="toc-trouver-ou-constituer-un-corpus" class="nav-link" data-scroll-target="#trouver-ou-constituer-un-corpus"><span class="header-section-number">4.7.1.4</span> Trouver (ou constituer) un corpus</a></li>
-  <li><a href="#choix-du-corpus" id="toc-choix-du-corpus" class="nav-link" data-scroll-target="#choix-du-corpus"><span class="header-section-number">4.7.1.5</span> Choix du corpus</a></li>
-  <li><a href="#préparer-les-données-pré-traitement" id="toc-préparer-les-données-pré-traitement" class="nav-link" data-scroll-target="#préparer-les-données-pré-traitement"><span class="header-section-number">4.7.1.6</span> Préparer les données (Pré-traitement)</a></li>
-  <li><a href="#analyser-les-données" id="toc-analyser-les-données" class="nav-link" data-scroll-target="#analyser-les-données"><span class="header-section-number">4.7.1.7</span> Analyser les données</a></li>
+  <li><a href="#objectif" id="toc-objectif" class="nav-link" data-scroll-target="#objectif"><span class="header-section-number">3.1.2.1</span> Objectif</a></li>
+  <li><a href="#consigne-à-vous-dinventer" id="toc-consigne-à-vous-dinventer" class="nav-link" data-scroll-target="#consigne-à-vous-dinventer"><span class="header-section-number">3.1.2.2</span> ✍️ Consigne : À vous d’inventer !</a></li>
+  <li><a href="#décomposition-des-variables-exemple-dapplication" id="toc-décomposition-des-variables-exemple-dapplication" class="nav-link" data-scroll-target="#décomposition-des-variables-exemple-dapplication"><span class="header-section-number">3.1.2.3</span> 🔬 Décomposition des variables (Exemple d’application)</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#filtrer-avec-filter" id="toc-filtrer-avec-filter" class="nav-link" data-scroll-target="#filtrer-avec-filter"><span class="header-section-number">4.8</span> Filtrer avec <code>filter()</code></a>
+  <li><a href="#étape-2-trouver-ou-construire-un-corpus" id="toc-étape-2-trouver-ou-construire-un-corpus" class="nav-link" data-scroll-target="#étape-2-trouver-ou-construire-un-corpus"><span class="header-section-number">3.2</span> Étape 2 : Trouver (ou construire) un corpus</a>
   <ul class="collapse">
-  <li><a href="#garder-les-lignes-où-une-condition-est-vraie" id="toc-garder-les-lignes-où-une-condition-est-vraie" class="nav-link" data-scroll-target="#garder-les-lignes-où-une-condition-est-vraie"><span class="header-section-number">4.8.1</span> Garder les lignes où une condition est vraie</a></li>
-  <li><a href="#exclure-une-valeur" id="toc-exclure-une-valeur" class="nav-link" data-scroll-target="#exclure-une-valeur"><span class="header-section-number">4.8.2</span> Exclure une valeur</a></li>
-  <li><a href="#combiner-conditions-avec-et" id="toc-combiner-conditions-avec-et" class="nav-link" data-scroll-target="#combiner-conditions-avec-et"><span class="header-section-number">4.8.3</span> Combiner conditions avec <strong>ET</strong> (<code>&amp;</code>)</a></li>
-  <li><a href="#combiner-conditions-avec-ou" id="toc-combiner-conditions-avec-ou" class="nav-link" data-scroll-target="#combiner-conditions-avec-ou"><span class="header-section-number">4.8.4</span> Combiner conditions avec <strong>OU</strong> (<code>|</code>)</a></li>
-  <li><a href="#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne" id="toc-exemple-linguistique-énoncés-contenant-pas-mais-sans-ne" class="nav-link" data-scroll-target="#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne"><span class="header-section-number">4.8.5</span> Exemple linguistique : énoncés contenant <em>pas</em> mais sans <em>ne</em></a></li>
+  <li><a href="#construction-des-corpus" id="toc-construction-des-corpus" class="nav-link" data-scroll-target="#construction-des-corpus"><span class="header-section-number">3.2.1</span> Construction des corpus</a>
+  <ul class="collapse">
+  <li><a href="#la-documentation-métadonnées" id="toc-la-documentation-métadonnées" class="nav-link" data-scroll-target="#la-documentation-métadonnées"><span class="header-section-number">3.2.1.1</span> 1. La documentation (Métadonnées)</a></li>
+  <li><a href="#lautomatisation" id="toc-lautomatisation" class="nav-link" data-scroll-target="#lautomatisation"><span class="header-section-number">3.2.1.2</span> 2. L’automatisation</a></li>
+  <li><a href="#standardisation-pérennité-et-ouverture-open-source" id="toc-standardisation-pérennité-et-ouverture-open-source" class="nav-link" data-scroll-target="#standardisation-pérennité-et-ouverture-open-source"><span class="header-section-number">3.2.1.3</span> 3. Standardisation, pérennité et ouverture (Open Source)</a></li>
   </ul></li>
-  <li><a href="#sélectionner-des-colonnes-avec-select" id="toc-sélectionner-des-colonnes-avec-select" class="nav-link" data-scroll-target="#sélectionner-des-colonnes-avec-select"><span class="header-section-number">4.9</span> Sélectionner des colonnes avec <code>select()</code></a>
+  <li><a href="#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" id="toc-cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" class="nav-link" data-scroll-target="#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation"><span class="header-section-number">3.2.2</span> Cas spécifique : Les corpus oraux (Transcriptions &amp; anonymisation)</a></li>
+  <li><a href="#cadre-juridique-et-éthique" id="toc-cadre-juridique-et-éthique" class="nav-link" data-scroll-target="#cadre-juridique-et-éthique"><span class="header-section-number">3.2.3</span> Cadre juridique et éthique</a>
   <ul class="collapse">
-  <li><a href="#garder-seulement-certaines-colonnes" id="toc-garder-seulement-certaines-colonnes" class="nav-link" data-scroll-target="#garder-seulement-certaines-colonnes"><span class="header-section-number">4.9.1</span> Garder seulement certaines colonnes</a></li>
-  <li><a href="#exclure-une-colonne" id="toc-exclure-une-colonne" class="nav-link" data-scroll-target="#exclure-une-colonne"><span class="header-section-number">4.9.2</span> Exclure une colonne</a></li>
-  <li><a href="#renommer-une-colonne-en-même-temps" id="toc-renommer-une-colonne-en-même-temps" class="nav-link" data-scroll-target="#renommer-une-colonne-en-même-temps"><span class="header-section-number">4.9.3</span> Renommer une colonne en même temps</a></li>
+  <li><a href="#aspects-juridiques-droit-dauteur-et-diffusion" id="toc-aspects-juridiques-droit-dauteur-et-diffusion" class="nav-link" data-scroll-target="#aspects-juridiques-droit-dauteur-et-diffusion"><span class="header-section-number">3.2.3.1</span> Aspects juridiques : Droit d’auteur et diffusion</a></li>
+  <li><a href="#aspects-éthiques-recueil-privé-et-consentement-éclairé" id="toc-aspects-éthiques-recueil-privé-et-consentement-éclairé" class="nav-link" data-scroll-target="#aspects-éthiques-recueil-privé-et-consentement-éclairé"><span class="header-section-number">3.2.3.2</span> Aspects éthiques : Recueil privé et consentement éclairé</a></li>
+  <li><a href="#respect-de-la-vie-privée-et-anonymisation" id="toc-respect-de-la-vie-privée-et-anonymisation" class="nav-link" data-scroll-target="#respect-de-la-vie-privée-et-anonymisation"><span class="header-section-number">3.2.3.3</span> Respect de la vie privée et anonymisation</a></li>
   </ul></li>
-  <li><a href="#combiner-filter-select" id="toc-combiner-filter-select" class="nav-link" data-scroll-target="#combiner-filter-select"><span class="header-section-number">4.10</span> Combiner <code>filter()</code> + <code>select()</code></a>
-  <ul class="collapse">
-  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple"><span class="header-section-number">4.10.1</span> Exemple :</a></li>
   </ul></li>
-  <li><a href="#résumé-des-opérateurs-logiques" id="toc-résumé-des-opérateurs-logiques" class="nav-link" data-scroll-target="#résumé-des-opérateurs-logiques"><span class="header-section-number">4.11</span> Résumé des opérateurs logiques</a>
+  <li><a href="#étape-3-prétraiter-vos-données" id="toc-étape-3-prétraiter-vos-données" class="nav-link" data-scroll-target="#étape-3-prétraiter-vos-données"><span class="header-section-number">3.3</span> Étape 3 : Prétraiter vos données</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">3.4</span> </a>
   <ul class="collapse">
-  <li><a href="#répondre-à-la-question-conclusion" id="toc-répondre-à-la-question-conclusion" class="nav-link" data-scroll-target="#répondre-à-la-question-conclusion"><span class="header-section-number">4.11.0.1</span> Répondre à la question (Conclusion)</a></li>
+  <li><a href="#annotation" id="toc-annotation" class="nav-link" data-scroll-target="#annotation"><span class="header-section-number">3.4.1</span> Annotation</a>
+  <ul class="collapse">
+  <li><a href="#dans-le-cas-des-corpus-écrits" id="toc-dans-le-cas-des-corpus-écrits" class="nav-link" data-scroll-target="#dans-le-cas-des-corpus-écrits"><span class="header-section-number">3.4.1.1</span> Dans le cas des corpus écrits</a></li>
+  <li><a href="#activité-test-de-tokenisation" id="toc-activité-test-de-tokenisation" class="nav-link" data-scroll-target="#activité-test-de-tokenisation"><span class="header-section-number">3.4.1.2</span> Activité : Test de tokenisation</a></li>
+  <li><a href="#phrase-cible" id="toc-phrase-cible" class="nav-link" data-scroll-target="#phrase-cible"><span class="header-section-number">3.4.1.3</span> Phrase cible</a></li>
+  <li><a href="#méthode-1-tokenisation-stricte-graphique" id="toc-méthode-1-tokenisation-stricte-graphique" class="nav-link" data-scroll-target="#méthode-1-tokenisation-stricte-graphique"><span class="header-section-number">3.4.1.4</span> Méthode 1 : Tokenisation stricte / graphique</a></li>
+  </ul></li>
+  <li><a href="#méthode-2-tokenisation-sémantique-polylexicale" id="toc-méthode-2-tokenisation-sémantique-polylexicale" class="nav-link" data-scroll-target="#méthode-2-tokenisation-sémantique-polylexicale"><span class="header-section-number">3.4.2</span> Méthode 2 : Tokenisation sémantique / polylexicale</a></li>
+  <li><a href="#partitionner-un-corpus" id="toc-partitionner-un-corpus" class="nav-link" data-scroll-target="#partitionner-un-corpus"><span class="header-section-number">3.4.3</span> Partitionner un corpus</a>
+  <ul class="collapse">
+  <li><a href="#critères-et-types-de-partitions" id="toc-critères-et-types-de-partitions" class="nav-link" data-scroll-target="#critères-et-types-de-partitions"><span class="header-section-number">3.4.3.1</span> Critères et types de partitions</a></li>
+  <li><a href="#pourquoi-partitionner" id="toc-pourquoi-partitionner" class="nav-link" data-scroll-target="#pourquoi-partitionner"><span class="header-section-number">3.4.3.2</span> Pourquoi partitionner ?</a></li>
+  <li><a href="#quand-et-comment-y-penser" id="toc-quand-et-comment-y-penser" class="nav-link" data-scroll-target="#quand-et-comment-y-penser"><span class="header-section-number">3.4.3.3</span> Quand et comment y penser ?</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#étape-4-analyser-les-données" id="toc-étape-4-analyser-les-données" class="nav-link" data-scroll-target="#étape-4-analyser-les-données"><span class="header-section-number">3.5</span> Étape 4 : Analyser les données</a>
+  <ul class="collapse">
+  <li><a href="#outils-et-requêtes-pour-explorer-un-corpus" id="toc-outils-et-requêtes-pour-explorer-un-corpus" class="nav-link" data-scroll-target="#outils-et-requêtes-pour-explorer-un-corpus"><span class="header-section-number">3.5.1</span> Outils et requêtes pour explorer un corpus</a>
+  <ul class="collapse">
+  <li><a href="#choix-de-loutil-linguistique-pour-explorer-un-corpus" id="toc-choix-de-loutil-linguistique-pour-explorer-un-corpus" class="nav-link" data-scroll-target="#choix-de-loutil-linguistique-pour-explorer-un-corpus"><span class="header-section-number">3.5.1.1</span> Choix de l’outil linguistique pour explorer un corpus</a></li>
+  <li><a href="#construire-une-requête" id="toc-construire-une-requête" class="nav-link" data-scroll-target="#construire-une-requête"><span class="header-section-number">3.5.1.2</span> Construire une requête</a></li>
+  </ul></li>
+  <li><a href="#mesures-quantitatives-fréquence-et-spécificités" id="toc-mesures-quantitatives-fréquence-et-spécificités" class="nav-link" data-scroll-target="#mesures-quantitatives-fréquence-et-spécificités"><span class="header-section-number">3.5.2</span> Mesures quantitatives : Fréquence et spécificités</a>
+  <ul class="collapse">
+  <li><a href="#fréquence" id="toc-fréquence" class="nav-link" data-scroll-target="#fréquence"><span class="header-section-number">3.5.2.1</span> Fréquence</a></li>
+  <li><a href="#le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" id="toc-le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" class="nav-link" data-scroll-target="#le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités"><span class="header-section-number">3.5.2.2</span> Le pré-traitement appliqué au comptage (Découpage et choix d’unités)</a></li>
+  <li><a href="#mesurer-la-spécificité-textuelle" id="toc-mesurer-la-spécificité-textuelle" class="nav-link" data-scroll-target="#mesurer-la-spécificité-textuelle"><span class="header-section-number">3.5.2.3</span> Mesurer la spécificité textuelle</a></li>
+  <li><a href="#indicateurs-et-indices-statistiques-de-spécificité" id="toc-indicateurs-et-indices-statistiques-de-spécificité" class="nav-link" data-scroll-target="#indicateurs-et-indices-statistiques-de-spécificité"><span class="header-section-number">3.5.2.4</span> Indicateurs et indices statistiques de spécificité</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#étape-5-conclusion-répondre-aux-questions" id="toc-étape-5-conclusion-répondre-aux-questions" class="nav-link" data-scroll-target="#étape-5-conclusion-répondre-aux-questions"><span class="header-section-number">3.6</span> Étape 5 : Conclusion (Répondre aux questions)</a>
+  <ul class="collapse">
+  <li><a href="#et-au-québec" id="toc-et-au-québec" class="nav-link" data-scroll-target="#et-au-québec"><span class="header-section-number">6.0.1</span> Et au Québec</a></li>
+  </ul></li>
+  <li><a href="#les-règles-scolaires" id="toc-les-règles-scolaires" class="nav-link" data-scroll-target="#les-règles-scolaires"><span class="header-section-number">7.1</span> Les règles scolaires</a></li>
+  <li><a href="#les-usages-littéraires" id="toc-les-usages-littéraires" class="nav-link" data-scroll-target="#les-usages-littéraires"><span class="header-section-number">7.2</span> Les usages littéraires</a></li>
+  <li><a href="#les-usages-ordinaires" id="toc-les-usages-ordinaires" class="nav-link" data-scroll-target="#les-usages-ordinaires"><span class="header-section-number">7.3</span> Les usages ordinaires</a>
+  <ul class="collapse">
+  <li><a href="#en-ligne" id="toc-en-ligne" class="nav-link" data-scroll-target="#en-ligne"><span class="header-section-number">7.3.1</span> En ligne</a></li>
+  <li><a href="#à-loral" id="toc-à-loral" class="nav-link" data-scroll-target="#à-loral"><span class="header-section-number">7.3.2</span> À l’oral</a></li>
+  </ul></li>
+  <li><a href="#les-règles-robustes" id="toc-les-règles-robustes" class="nav-link" data-scroll-target="#les-règles-robustes"><span class="header-section-number">7.4</span> Les règles robustes</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><span class="header-section-number">7.5</span> Conclusions</a></li>
+  <li><a href="#test" id="toc-test" class="nav-link" data-scroll-target="#test"><span class="header-section-number">7.6</span> Test</a></li>
+  <li><a href="#analyse-de-corpus" id="toc-analyse-de-corpus" class="nav-link" data-scroll-target="#analyse-de-corpus"><span class="header-section-number">7.7</span> Analyse de corpus</a>
+  <ul class="collapse">
+  <li><a href="#formulation-de-la-question-de-recherche" id="toc-formulation-de-la-question-de-recherche" class="nav-link" data-scroll-target="#formulation-de-la-question-de-recherche"><span class="header-section-number">7.7.1</span> Formulation de la question de recherche</a>
+  <ul class="collapse">
+  <li><a href="#hypothèse-associée" id="toc-hypothèse-associée" class="nav-link" data-scroll-target="#hypothèse-associée"><span class="header-section-number">7.7.1.1</span> Hypothèse associée :</a></li>
+  <li><a href="#cadre-conceptuel-et-opérationnalisation-variables" id="toc-cadre-conceptuel-et-opérationnalisation-variables" class="nav-link" data-scroll-target="#cadre-conceptuel-et-opérationnalisation-variables"><span class="header-section-number">7.7.1.2</span> Cadre conceptuel et opérationnalisation (Variables)</a></li>
+  <li><a href="#définir-précisément-la-négation-que-lon-souhaite-étudier" id="toc-définir-précisément-la-négation-que-lon-souhaite-étudier" class="nav-link" data-scroll-target="#définir-précisément-la-négation-que-lon-souhaite-étudier"><span class="header-section-number">7.7.1.3</span> Définir précisément la négation que l’on souhaite étudier</a></li>
+  <li><a href="#trouver-ou-constituer-un-corpus" id="toc-trouver-ou-constituer-un-corpus" class="nav-link" data-scroll-target="#trouver-ou-constituer-un-corpus"><span class="header-section-number">7.7.1.4</span> Trouver (ou constituer) un corpus</a></li>
+  <li><a href="#choix-du-corpus" id="toc-choix-du-corpus" class="nav-link" data-scroll-target="#choix-du-corpus"><span class="header-section-number">7.7.1.5</span> Choix du corpus</a></li>
+  <li><a href="#préparer-les-données-pré-traitement" id="toc-préparer-les-données-pré-traitement" class="nav-link" data-scroll-target="#préparer-les-données-pré-traitement"><span class="header-section-number">7.7.1.6</span> Préparer les données (Pré-traitement)</a></li>
+  <li><a href="#analyser-les-données" id="toc-analyser-les-données" class="nav-link" data-scroll-target="#analyser-les-données"><span class="header-section-number">7.7.1.7</span> Analyser les données</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#filtrer-avec-filter" id="toc-filtrer-avec-filter" class="nav-link" data-scroll-target="#filtrer-avec-filter"><span class="header-section-number">7.8</span> Filtrer avec <code>filter()</code></a>
+  <ul class="collapse">
+  <li><a href="#garder-les-lignes-où-une-condition-est-vraie" id="toc-garder-les-lignes-où-une-condition-est-vraie" class="nav-link" data-scroll-target="#garder-les-lignes-où-une-condition-est-vraie"><span class="header-section-number">7.8.1</span> Garder les lignes où une condition est vraie</a></li>
+  <li><a href="#exclure-une-valeur" id="toc-exclure-une-valeur" class="nav-link" data-scroll-target="#exclure-une-valeur"><span class="header-section-number">7.8.2</span> Exclure une valeur</a></li>
+  <li><a href="#combiner-conditions-avec-et" id="toc-combiner-conditions-avec-et" class="nav-link" data-scroll-target="#combiner-conditions-avec-et"><span class="header-section-number">7.8.3</span> Combiner conditions avec <strong>ET</strong> (<code>&amp;</code>)</a></li>
+  <li><a href="#combiner-conditions-avec-ou" id="toc-combiner-conditions-avec-ou" class="nav-link" data-scroll-target="#combiner-conditions-avec-ou"><span class="header-section-number">7.8.4</span> Combiner conditions avec <strong>OU</strong> (<code>|</code>)</a></li>
+  <li><a href="#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne" id="toc-exemple-linguistique-énoncés-contenant-pas-mais-sans-ne" class="nav-link" data-scroll-target="#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne"><span class="header-section-number">7.8.5</span> Exemple linguistique : énoncés contenant <em>pas</em> mais sans <em>ne</em></a></li>
+  </ul></li>
+  <li><a href="#sélectionner-des-colonnes-avec-select" id="toc-sélectionner-des-colonnes-avec-select" class="nav-link" data-scroll-target="#sélectionner-des-colonnes-avec-select"><span class="header-section-number">7.9</span> Sélectionner des colonnes avec <code>select()</code></a>
+  <ul class="collapse">
+  <li><a href="#garder-seulement-certaines-colonnes" id="toc-garder-seulement-certaines-colonnes" class="nav-link" data-scroll-target="#garder-seulement-certaines-colonnes"><span class="header-section-number">7.9.1</span> Garder seulement certaines colonnes</a></li>
+  <li><a href="#exclure-une-colonne" id="toc-exclure-une-colonne" class="nav-link" data-scroll-target="#exclure-une-colonne"><span class="header-section-number">7.9.2</span> Exclure une colonne</a></li>
+  <li><a href="#renommer-une-colonne-en-même-temps" id="toc-renommer-une-colonne-en-même-temps" class="nav-link" data-scroll-target="#renommer-une-colonne-en-même-temps"><span class="header-section-number">7.9.3</span> Renommer une colonne en même temps</a></li>
+  </ul></li>
+  <li><a href="#combiner-filter-select" id="toc-combiner-filter-select" class="nav-link" data-scroll-target="#combiner-filter-select"><span class="header-section-number">7.10</span> Combiner <code>filter()</code> + <code>select()</code></a>
+  <ul class="collapse">
+  <li><a href="#exemple" id="toc-exemple" class="nav-link" data-scroll-target="#exemple"><span class="header-section-number">7.10.1</span> Exemple :</a></li>
+  </ul></li>
+  <li><a href="#résumé-des-opérateurs-logiques" id="toc-résumé-des-opérateurs-logiques" class="nav-link" data-scroll-target="#résumé-des-opérateurs-logiques"><span class="header-section-number">7.11</span> Résumé des opérateurs logiques</a>
+  <ul class="collapse">
+  <li><a href="#répondre-à-la-question-conclusion" id="toc-répondre-à-la-question-conclusion" class="nav-link" data-scroll-target="#répondre-à-la-question-conclusion"><span class="header-section-number">7.11.0.1</span> Répondre à la question (Conclusion)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -444,9 +508,9 @@ window.Quarto = {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/001-phonetique-affrication.html">Négation - C’est pas vrai</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/001-phonetique-affrication.html">Linguistique de corpus</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="header-section-number">2</span> Introduction</h1>
+<h1 class="title"><span class="header-section-number">1</span> Linguistique de corpus</h1>
 </div>
 
 
@@ -463,6 +527,733 @@ window.Quarto = {
 </header>
 
 
+<p>Si on vous dit : C’EST PAS CORRECT !</p>
+<ul>
+<li><p>Pourquoi ?</p></li>
+<li><p>Depuis quand ?</p></li>
+<li><p>Où est la règle ?</p></li>
+</ul>
+<hr>
+<p><span class="header-section-number">2</span> La linguistique</p>
+<ul>
+<li><p><strong>Objectif</strong></p>
+<p>Étudier les phénomènes linguistiques à partir de méthodes quantitatives, testables et mesurables.</p>
+<p>Utiliser des méthodes scientifiques pour examiner comment la langue est acquise, représentée et traitée dans le cerveau, et comment nous pouvons la produire.</p></li>
+<li><p><strong>Démarche</strong></p>
+<p>Manipuler systématiquement des variables pour mesurer la langue.</p>
+<p>Examiner la relation entre variables indépendantes et dépendantes.</p></li>
+<li><p><strong>Méthodes</strong></p>
+<ul>
+<li><p>Recherche expérimentale</p></li>
+<li><p>Recherche par corpus</p></li>
+</ul></li>
+</ul>
+<hr>
+<section id="quest-ce-quun-corpus" class="level1">
+<h1><span class="header-section-number">2.1</span> Qu’est-ce qu’un corpus ?</h1>
+<ul>
+<li><p><strong>Définition</strong></p>
+<p>Ensemble de langues naturelles (McEnery, Xiao &amp; Tono, 2006).</p>
+<p>Regroupe des exemples autour d’un prototype.</p>
+<p>Langue dans des contextes spontanés, naturels, écologiques.</p>
+<p>Représentatif d’une langue ou d’un registre spécifique.</p></li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Ensemble de textes établi selon un principe de documentation exhaustive, un critère thématique ou exemplaire en vue de leur étude linguistique</em></p>
+<p>- Trésor de la Langue Française</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>« Une collection de données langagières sélectionnées et organisées selon des critères linguistiques explicites pour servir d’échantillon du langage »</p>
+<p>- John Sinclair</p>
+</blockquote>
+<hr>
+<ul>
+<li><p>Outil puissant pour étudier : acquisition, traitement, variation sociolinguistique, changement sémantique, etc.</p></li>
+<li><p><strong>Pourquoi utiliser des corpus ?</strong></p>
+<p>Progrès technologiques et méthodologiques, tendance vers des résultats objectifs, mesurables et reproductibles.</p>
+<p>Rôle reconnu de la co-occurrence des phénomènes linguistiques dans l’acquisition et le traitement.</p></li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>Types de corpus</strong></p>
+<ul>
+<li><p>Oral vs écrit</p></li>
+<li><p>Supports variés : textes, audio, transcriptions, vidéo</p></li>
+<li><p>Sources : synchronique/diachronique, parole L2, académique, enfant, clinique</p></li>
+<li><p>Tailles variées. Certains “corpus” ne sont pas naturels.</p></li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>Dans quel format ?</strong></p>
+<ul>
+<li>Souvent sous un format informatique permettant son analyse grâce aux outils digitaux</li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>Historique des corpus</strong></p>
+<ul>
+<li><p>Premier recueils de données linguistiques</p></li>
+<li><p>Pour étudier une variété linguistique que l’on ne parle pas, il faut s’appuyer sur des ressources existantes</p></li>
+<li><p>Mais pas recueillies de manière systématique</p></li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>Historique des corpus (suite)</strong></p>
+<ul>
+<li><p>Début de l’informatique dans les années 60 💻</p>
+<ul>
+<li><p>Corpus limités, mais jusqu’à un million de mots</p>
+<ul>
+<li><p>Brown Corpus 🇺🇸</p></li>
+<li><p>Lancaster Oslo Bergen Corpus 🇬🇧</p></li>
+<li><p>Frantext 🇫🇷</p>
+<ul>
+<li><p>Littérature du XIXe et XXe siècle</p></li>
+<li><p>Pour documenter le dictionnaire <em>Trésor de la Langue Française</em></p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>Les années 80 voient la naissance de grands corpus 🕺🏻</p>
+<ul>
+<li>Accès facilité grâce à internet</li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="quest-ce-que-la-linguistique-de-corpus" class="level1">
+<h1><span class="header-section-number">2.2</span> Qu’est-ce que la linguistique de corpus ?</h1>
+<ul>
+<li><p>Branche de la linguistique</p></li>
+<li><p>Objet : réflexion sur données langagières authentiques orales ou écrites</p></li>
+<li><p>Domaine très varié. Il y a <strong>plusieurs</strong> linguistiques de corpus</p></li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 51%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Discipline</strong></td>
+<td><strong>Méthodologie</strong></td>
+</tr>
+<tr class="odd">
+<td>Un véritable cadre théorique</td>
+<td>Appui sur des données</td>
+</tr>
+<tr class="even">
+<td>Approche <strong>guidée</strong> par les corpus</td>
+<td>Approche <strong>basée</strong> sur les corpus</td>
+</tr>
+<tr class="odd">
+<td>❌ modèle théorique préconçu</td>
+<td>✅ théorique préexistant</td>
+</tr>
+<tr class="even">
+<td>❌ prétraitement des données</td>
+<td>✅ études sur des données textuelles</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>Dépend aussi du domaine théorique</p></li>
+<li><p>Lexicographie, analyse automatique du langage vs syntaxe, phonologie</p></li>
+</ul>
+<hr>
+<p><span class="header-section-number">3</span> Démarche du corpus</p>
+<div class="html">
+<svg width="100%" viewbox="0 0 800 150">
+</svg><p><line x1="120" y1="75" x2="160" y2="75" stroke="#95a5a6" stroke-width="2"> <polygon points="160,75 150,70 150,80" fill="#95a5a6"></polygon></line></p>
+<p><circle cx="200" cy="75" r="30" fill="#f39c12"> <text x="200" y="80" text-anchor="middle" font-size="20" font-weight="bold" fill="white">2</text> <text x="200" y="120" text-anchor="middle" font-size="12">Trouver un corpus</text></circle></p>
+<p><line x1="240" y1="75" x2="280" y2="75" stroke="#95a5a6" stroke-width="2"> <polygon points="280,75 270,70 270,80" fill="#95a5a6"></polygon></line></p>
+<p><circle cx="320" cy="75" r="30" fill="#27ae60"> <text x="320" y="80" text-anchor="middle" font-size="20" font-weight="bold" fill="white">3</text> <text x="320" y="120" text-anchor="middle" font-size="12">Préparer les données</text></circle></p>
+<p><line x1="360" y1="75" x2="400" y2="75" stroke="#95a5a6" stroke-width="2"> <polygon points="400,75 390,70 390,80" fill="#95a5a6"></polygon></line></p>
+<p><circle cx="440" cy="75" r="30" fill="#3498db"> <text x="440" y="80" text-anchor="middle" font-size="20" font-weight="bold" fill="white">4</text> <text x="440" y="120" text-anchor="middle" font-size="12">Analyser les données</text></circle></p>
+<p><line x1="480" y1="75" x2="520" y2="75" stroke="#95a5a6" stroke-width="2"> <polygon points="520,75 510,70 510,80" fill="#95a5a6"></polygon></line></p>
+<p><circle cx="560" cy="75" r="30" fill="#8e44ad"> <text x="560" y="80" text-anchor="middle" font-size="20" font-weight="bold" fill="white">5</text> <text x="560" y="120" text-anchor="middle" font-size="12">Répondre aux questions</text></circle></p>
+
+</div>
+</section>
+<section id="étape-1-question-de-recherche-et-hypothèses" class="level1">
+<h1><span class="header-section-number">3.1</span> Étape 1 : Question de recherche et hypothèses</h1>
+<p>La manipulation systématique des variables pour mesurer la langue.</p>
+<p><strong>Cherchez un corpus présentant une variation « contrôlée » dans les variables indépendantes.</strong></p>
+<div class="html">
+<svg width="100%" viewbox="0 0 600 250">
+</svg><p><rect x="50" y="50" width="200" height="120" fill="#e74c3c" opacity="0.2" rx="5"> <text x="150" y="85" text-anchor="middle" font-size="14" font-weight="bold">Variables</text> <text x="150" y="105" text-anchor="middle" font-size="14" font-weight="bold">dépendantes</text> <text x="150" y="140" text-anchor="middle" font-size="12" fill="#555">Ce que vous mesurez</text></rect></p>
+<p><text x="300" y="110" text-anchor="middle" font-size="20" font-weight="bold">VS</text></p>
+<p><rect x="350" y="50" width="200" height="120" fill="#3498db" opacity="0.2" rx="5"> <text x="450" y="85" text-anchor="middle" font-size="14" font-weight="bold">Variables</text> <text x="450" y="105" text-anchor="middle" font-size="14" font-weight="bold">indépendantes</text> <text x="450" y="140" text-anchor="middle" font-size="12" fill="#555">Ce que vous manipulez</text></rect></p>
+
+</div>
+<p>Variables dépendantes Ce que vous mesurez</p>
+<p>VS</p>
+<p>Variables indépendantes Ce que vous manipulez</p>
+<hr>
+<section id="exploration-dun-corpus-linguistique" class="level2">
+<h2 class="anchored" data-anchor-id="exploration-dun-corpus-linguistique"><span class="header-section-number">3.1.1</span> Exploration d’un corpus linguistique</h2>
+<p>2 objectifs possibles :</p>
+<ol type="1">
+<li><p>Décrire la langue en tant que système</p></li>
+<li><p>Décrire une variété linguistique</p></li>
+</ol>
+<hr>
+</section>
+<section id="description-linguistique" class="level2">
+<h2 class="anchored" data-anchor-id="description-linguistique"><span class="header-section-number">3.1.2</span> Description linguistique</h2>
+<p>Nous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.</p>
+<p>Il faut tout d’abord avoir une question de recherche précise.</p>
+<p>### Activité : Formulation d’hypothèses et choix de variables</p>
+<section id="objectif" class="level3">
+<h3 class="anchored" data-anchor-id="objectif"><span class="header-section-number">3.1.2.1</span> Objectif</h3>
+<p>Identifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.</p>
+</section>
+<section id="consigne-à-vous-dinventer" class="level3">
+<h3 class="anchored" data-anchor-id="consigne-à-vous-dinventer"><span class="header-section-number">3.1.2.2</span> ✍️ Consigne : À vous d’inventer !</h3>
+<p>&gt; **Imaginez votre propre question de recherche sur la langue.** &gt; *(Exemple : « Utilise-t-on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)*</p>
+<hr>
+</section>
+<section id="décomposition-des-variables-exemple-dapplication" class="level3">
+<h3 class="anchored" data-anchor-id="décomposition-des-variables-exemple-dapplication"><span class="header-section-number">3.1.2.3</span> 🔬 Décomposition des variables (Exemple d’application)</h3>
+<p><u>*</u> **Variable Indépendante (VI)** *(Ce que vous manipulez ou comparez)* : <u>*</u> **Modalité / Registre** : Langue orale vs Langue écrite. <u>*</u> **Variable Dépendante (VD)** *(Ce que vous mesurez)* : <u>*</u> **Fréquence / Proportion** : Le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots ($N$) dans l’échantillon[cite: 2].</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="étape-2-trouver-ou-construire-un-corpus" class="level1">
+<h1><span class="header-section-number">3.2</span> Étape 2 : Trouver (ou construire) un corpus</h1>
+<p><strong>Banques de données :</strong></p>
+<ul>
+<li><p>CRFC</p></li>
+<li><p>CPFC</p></li>
+</ul>
+<p><strong>Alternative :</strong> Collecter votre propre corpus.</p>
+<hr>
+<section id="construction-des-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="construction-des-corpus"><span class="header-section-number">3.2.1</span> Construction des corpus</h2>
+<section id="la-documentation-métadonnées" class="level3">
+<h3 class="anchored" data-anchor-id="la-documentation-métadonnées"><span class="header-section-number">3.2.1.1</span> 1. La documentation (Métadonnées)</h3>
+<ul>
+<li><p><strong>Principe :</strong> Il est primordial de documenter le corpus le plus <strong>soigneusement possible</strong> en lui adossant des métadonnées explicites.</p></li>
+<li><p><strong>Objectif de validité scientifique :</strong> Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.</p></li>
+<li><p><strong>Informations à intégrer (Métadonnées) :</strong></p>
+<ul>
+<li><p><em>Qui parle / écrit ?</em> (Profil des locuteurs : âge, genre, statut, origine).</p></li>
+<li><p><em>Quand et où ?</em> (Date, lieu de publication ou d’enregistrement).</p></li>
+<li><p><em>Dans quel contexte / situation de communication ?</em> (Écrit formel, conversation privée, entretien, réseaux sociaux, etc.).</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="lautomatisation" class="level3">
+<h3 class="anchored" data-anchor-id="lautomatisation"><span class="header-section-number">3.2.1.2</span> 2. L’automatisation</h3>
+<ul>
+<li><p><strong>Principe :</strong> Automatiser les étapes de constitution et de traitement autant que possible.</p></li>
+<li><p><strong>Utilité :</strong> La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.</p></li>
+<li><p><strong>Bénéfices :</strong></p>
+<ul>
+<li><p><strong>Gain de temps</strong> considérable sur les volumes importants de données.</p></li>
+<li><p><strong>Standardisation et réduction des erreurs humaines</strong> pour garantir la cohérence des traitements.</p></li>
+</ul></li>
+<li><p><strong>Exemples d’application :</strong></p>
+<ul>
+<li><p><em>Documents manuscrits ou scannés :</em> Utilisation de logiciels de reconnaissance optique de caractères (<strong>OCR / HTR</strong>).</p></li>
+<li><p><em>Nettoyage et conversion de fichiers :</em> Reformatting automatique (conversion du PDF vers du texte brut <code>.txt</code>).</p></li>
+<li><p><em>Nettoyage des données :</em> Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="standardisation-pérennité-et-ouverture-open-source" class="level3">
+<h3 class="anchored" data-anchor-id="standardisation-pérennité-et-ouverture-open-source"><span class="header-section-number">3.2.1.3</span> 3. Standardisation, pérennité et ouverture (Open Source)</h3>
+<ul>
+<li><p><strong>Principe :</strong> Encoder et stocker le corpus dans des formats ouverts afin qu’il puisse être <strong>réutilisable par d’autres chercheurs</strong> et interopérable avec divers outils.</p></li>
+<li><p><strong>Format et encodage :</strong></p>
+<ul>
+<li><p>Privilégier le format texte brut (<code>.txt</code>) ou le format XML balisé (ex. normes TEI - <em>Text Encoding Initiative</em>).</p></li>
+<li><p>S’assurer du réencodage (ex. UTF-8) pour éviter les problèmes de caractères spéciaux.</p></li>
+</ul></li>
+<li><p><strong>Logiciels et outils :</strong></p>
+<ul>
+<li><p>Éviter les formats propriétaires clos (ex. <code>.docx</code> non standardisés) ou les logiciels fermés.</p></li>
+<li><p>Recourir à des <strong>logiciels open-source / libres</strong> pour garantir la pérennité et la réplicabilité des analyses.</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" class="level2">
+<h2 class="anchored" data-anchor-id="cas-spécifique-les-corpus-oraux-transcriptions-anonymisation"><span class="header-section-number">3.2.2</span> Cas spécifique : Les corpus oraux (Transcriptions &amp; anonymisation)</h2>
+<ul>
+<li><p><strong>Le choix théorique de la transcription :</strong></p>
+<ul>
+<li><p>Transcrire l’oral vers l’écrit dépend fondamentalement de la grille d’analyse et des objectifs théoriques du chercheur.</p></li>
+<li><p><em>Orthographe standard vs Transcription phonétique / alignée :</em></p>
+<ul>
+<li><p>Faut-il utiliser une orthographe normalisée (ex. <em>« Je ne sais pas, enfin… »</em>) ou une transcription fidèle à la prononciation effective / la syntaxe de l’oral (ex. <em>« chais pas m’enfin »</em>) ?</p></li>
+<li><p><em>Arbitrage :</em> Si l’objectif est une analyse syntaxique ou lexicale globale, l’orthographe standardisée est souvent privilégiée pour faciliter le traitement automatique. Si l’étude porte sur la phonétique, les hésitations ou les marqueurs discursifs, une transcription fine (ou un alignement texte-signal audio) s’impose.</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>L’anonymisation :</strong></p>
+<ul>
+<li><p>Étape éthique et juridique indispensable avant la mise à disposition ou la publication d’un corpus d’oral.</p></li>
+<li><p>Consiste à masquer ou remplacer par des étiquettes neutres toutes les informations directement ou indirectement identifiables (noms propres, lieux spécifiques, numéros de téléphone, institutions citées).</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="cadre-juridique-et-éthique" class="level2">
+<h2 class="anchored" data-anchor-id="cadre-juridique-et-éthique"><span class="header-section-number">3.2.3</span> Cadre juridique et éthique</h2>
+<section id="aspects-juridiques-droit-dauteur-et-diffusion" class="level3">
+<h3 class="anchored" data-anchor-id="aspects-juridiques-droit-dauteur-et-diffusion"><span class="header-section-number">3.2.3.1</span> Aspects juridiques : Droit d’auteur et diffusion</h3>
+<ul>
+<li><p><strong>Aspiration de textes sur le Web (Web Scraping) :</strong></p>
+<ul>
+<li><p><strong>Propriété intellectuelle :</strong> Même lorsqu’un texte est mis à disposition publiquement sur internet, <strong>l’auteur en reste le propriétaire</strong>.</p></li>
+<li><p><strong>Droit de fouille de données (Data Mining) vs Diffusion :</strong></p>
+<ul>
+<li><p>Il est légalement permis d’aspirer et d’utiliser des textes pour un usage d’<strong>analyse et de recherche</strong>.</p></li>
+<li><p><strong>Interdiction de redistribution enrichie :</strong> On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis <strong>mettre le tout à disposition du grand public</strong> sans l’accord des ayants droit.</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Ressources sous licences libres (ex. Wikipédia) :</strong></p>
+<ul>
+<li>Les contenus sous licences de type <strong>Creative Commons</strong> (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="aspects-éthiques-recueil-privé-et-consentement-éclairé" class="level3">
+<h3 class="anchored" data-anchor-id="aspects-éthiques-recueil-privé-et-consentement-éclairé"><span class="header-section-number">3.2.3.2</span> Aspects éthiques : Recueil privé et consentement éclairé</h3>
+<p>Lors du recueil de données privées ou d’enregistrements de personnes :</p>
+<ul>
+<li><p><strong>Obtention du consentement éclairé :</strong></p>
+<ul>
+<li><p>Il est obligatoire de <strong>recueillir l’accord préalable</strong> des participants pour étudier leurs données.</p></li>
+<li><p><strong>Transparence complète :</strong> Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.</p></li>
+</ul></li>
+<li><p><strong>Collecte loyale :</strong></p>
+<ul>
+<li>La collecte ne doit <strong>jamais se faire à leur insu</strong> (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="respect-de-la-vie-privée-et-anonymisation" class="level3">
+<h3 class="anchored" data-anchor-id="respect-de-la-vie-privée-et-anonymisation"><span class="header-section-number">3.2.3.3</span> Respect de la vie privée et anonymisation</h3>
+<ul>
+<li><p><strong>Engagement au respect de la vie privée :</strong></p>
+<ul>
+<li>Obligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.</li>
+</ul></li>
+<li><p><strong>Procédure d’anonymisation :</strong></p>
+<ul>
+<li><p>Consiste à <strong>effacer ou remplacer toutes les informations permettant d’identifier</strong> directement ou indirectement un individu :</p>
+<ul>
+<li><p>Noms et prénoms.</p></li>
+<li><p>Adresses, noms de rues et lieux trop précis.</p></li>
+<li><p>Dates de naissance ou éléments de calendrier identifiables.</p></li>
+<li><p>Organismes, entreprises ou institutions spécifiques cités lors des échanges.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="étape-3-prétraiter-vos-données" class="level1">
+<h1><span class="header-section-number">3.3</span> Étape 3 : Prétraiter vos données</h1>
+</section>
+<section id="section" class="level1">
+<h1><span class="header-section-number">3.4</span> </h1>
+<div class="html">
+<div style="display: flex; align-items: center; justify-content: space-around;">
+<div style="width: 150px; height: 100px; background: linear-gradient(135deg,#3498db,#2980b9); border-radius: 10px; display:flex; align-items:center; justify-content:center; color:white;">
+<pre><code>&lt;div&gt;&lt;div style="font-size:24px;"&gt;📊&lt;/div&gt;&lt;p&gt;Votre corpus&lt;/p&gt;&lt;/div&gt;</code></pre>
+</div>
+<div style="font-size:30px; color:#95a5a6;">
+<p>→</p>
+</div>
+<div style="width: 150px; height: 100px; background: linear-gradient(135deg,#e74c3c,#c0392b); border-radius: 10px; display:flex; align-items:center; justify-content:center; color:white;">
+<pre><code>&lt;div&gt;&lt;div style="font-size:24px;"&gt;✓&lt;/div&gt;&lt;p&gt;Sélectionner&lt;/p&gt;&lt;/div&gt;</code></pre>
+</div>
+<div style="font-size:30px; color:#95a5a6;">
+<p>→</p>
+</div>
+<div style="width: 150px; height: 100px; background: linear-gradient(135deg,#27ae60,#229954); border-radius: 10px; display:flex; align-items:center; justify-content:center; color:white;">
+<pre><code>&lt;div&gt;&lt;div style="font-size:24px;"&gt;🎯&lt;/div&gt;&lt;p&gt;Variables contrôlées&lt;/p&gt;&lt;/div&gt;</code></pre>
+</div>
+</div>
+</div>
+<hr>
+<section id="annotation" class="level2">
+<h2 class="anchored" data-anchor-id="annotation"><span class="header-section-number">3.4.1</span> Annotation</h2>
+<section id="dans-le-cas-des-corpus-écrits" class="level3">
+<h3 class="anchored" data-anchor-id="dans-le-cas-des-corpus-écrits"><span class="header-section-number">3.4.1.1</span> Dans le cas des corpus écrits</h3>
+<section id="nature-et-formats-des-données-écrits" class="level4">
+<h4 class="anchored" data-anchor-id="nature-et-formats-des-données-écrits"><span class="header-section-number">3.4.1.1.1</span> Nature et formats des données écrits</h4>
+<ul>
+<li><p><strong>Données nativement électroniques :</strong></p>
+<ul>
+<li>Textes déjà numériques (articles de presse en ligne, blogs, courriels, posts sur les réseaux sociaux, etc.).</li>
+</ul></li>
+<li><p><strong>Données manuscrites :</strong></p>
+<ul>
+<li><p>Manuscrits littéraires (brouillons d’écrivains), écrits scolaires ou académiques, archives administratives ou historiques.</p></li>
+<li><p>Nécessitent une étape préalable d’<strong>OCR</strong> (reconnaissance optique de caractères / <em>HTR</em> pour les manuscrits) ou de <strong>transcription manuelle</strong>.</p></li>
+</ul></li>
+<li><p><strong>Format recommandé :</strong></p>
+<ul>
+<li><p>Idéalement au format <strong>texte brut (<code>.txt</code>)</strong> ou structuré en <strong>XML</strong> (ex. norme TEI - <em>Text Encoding Initiative</em>).</p></li>
+<li><p><em>Pourquoi ?</em> Pour garantir la pérennité des données, éviter les formats propriétaires (comme <code>.docx</code>) et assurer une compatibilité universelle avec les outils d’analyse textuelle et de traitement automatique du langage (TAL).</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="annoter-le-corpus-enrichissement" class="level4">
+<h4 class="anchored" data-anchor-id="annoter-le-corpus-enrichissement"><span class="header-section-number">3.4.1.1.2</span> Annoter le corpus (Enrichissement)</h4>
+<ul>
+<li><p><strong>Principe :</strong></p>
+<ul>
+<li>Annoter consiste à <strong>ajouter des informations d’ordre linguistique ou métadiscursif</strong> directement au sein des données textuelles.</li>
+</ul></li>
+<li><p><strong>Exemples d’annotations :</strong></p>
+<ul>
+<li><p><strong>Catégories grammaticales / Parties du discours (POS Tagging) :</strong> Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).</p></li>
+<li><p><strong>Formes canoniques (Lemmatisation) :</strong> Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).</p></li>
+<li><p><strong>Entités nommées :</strong> Identifier et étiqueter les personnes, lieux, organisations, dates, etc.</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="problèmes-et-limites-du-traitement-automatique" class="level4">
+<h4 class="anchored" data-anchor-id="problèmes-et-limites-du-traitement-automatique"><span class="header-section-number">3.4.1.1.3</span> Problèmes et limites du traitement automatique</h4>
+<p>L’annotation automatique soulève plusieurs difficultés liées à la complexité de la langue naturelle, notamment lors des étapes d’initialisation :</p>
+<ul>
+<li><p><strong>La segmentation en phrases (Sentence Splitting) :</strong></p>
+<ul>
+<li><p><em>Problème du point :</em> Le signe « . » n’indique pas toujours la fin d’une phrase.</p></li>
+<li><p><em>Exemple :</em> Les <strong>abréviations</strong> (ex. <em>M. Lebrun, etc., vol.&nbsp;2</em>) ou les adresses web/e-mails. Un segmentateur automatique simpliste peut couper la phrase au milieu à cause de ces points.</p></li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>La segmentation en mots / Tokenisation :</strong></p>
+<ul>
+<li><p><em>Problème de l’espace et des caractères spéciaux :</em> Un mot ne correspond pas toujours à une séquence de caractères délimitée par deux espaces.</p></li>
+<li><p><em>Traits d’union :</em> Faut-il compter <em>« c’est-à-dire »</em> ou <em>« arc-en-ciel »</em> comme <span class="math inline">\(1\)</span> seul mot ou <span class="math inline">\(3\)</span> à <span class="math inline">\(5\)</span> tokens distincts ?</p></li>
+<li><p><em>Mots composés sans trait d’union (expressions polylexicales) :</em></p>
+<ul>
+<li><p>Ex. <em>« machine à laver »</em> : sémantiquement, c’est une seule unité lexicale, mais graphiquement elle contient <span class="math inline">\(3\)</span> mots séparés par des espaces.</p></li>
+<li><p>Selon les outils, cette expression sera parfois découpée en 3 tokens (<em>machine</em> / <em>à</em> / <em>laver</em>), parfois unifiée (<em>machine_à_laver</em>).</p></li>
+</ul></li>
+<li><p><em>Apostrophes et contractions :</em></p>
+<ul>
+<li><p>Ex. <em>« penses-tu ? »</em> ➔ Deux mots (<em>penses</em> + <em>tu</em>), liés par un trait d’union.</p></li>
+<li><p>Ex. <em>« l’arbre »</em> ➔ Deux unités (<em>l’</em> + <em>arbre</em>).</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>Divergence des outils automatiques :</strong></p>
+<ul>
+<li><p>Chaque logiciel ou chaîne de traitement TAL (ex. <em>Spacy, Stanford NLP, TreeTagger, Lexico, TXM</em>) possède <strong>ses propres règles de segmentation et ses propres algorithmes</strong>.</p></li>
+<li><p>Par conséquent, deux outils appliqués au même corpus n’obtiendront <strong>pas toujours les mêmes performances</strong> ni le même nombre total de mots (<em>tokens</em>).</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="activité-test-de-tokenisation" class="level3">
+<h3 class="anchored" data-anchor-id="activité-test-de-tokenisation"><span class="header-section-number">3.4.1.2</span> Activité : Test de tokenisation</h3>
+<p>Comprendre comment les choix de prétraitement (tokenisation) modifient le décompte des unités dans l’analyse de texte[cite: 2].</p>
+</section>
+<section id="phrase-cible" class="level3">
+<h3 class="anchored" data-anchor-id="phrase-cible"><span class="header-section-number">3.4.1.3</span> Phrase cible</h3>
+<blockquote class="blockquote">
+<p><em>« C’est-à-dire qu’il y a des machines à laver de haute technologie »</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="méthode-1-tokenisation-stricte-graphique" class="level3">
+<h3 class="anchored" data-anchor-id="méthode-1-tokenisation-stricte-graphique"><span class="header-section-number">3.4.1.4</span> Méthode 1 : Tokenisation stricte / graphique</h3>
+<ul>
+<li><p><strong>Critère :</strong> Découpage strict basé uniquement sur les espaces et les ponctuations.</p></li>
+<li><p><strong>Liste des tokens :</strong></p>
+<ol type="1">
+<li><p><code>C'</code></p></li>
+<li><p><code>est</code></p></li>
+<li><p><code>à</code></p></li>
+<li><p><code>dire</code></p></li>
+<li><p><code>qu'</code></p></li>
+<li><p><code>il</code></p></li>
+<li><p><code>y</code></p></li>
+<li><p><code>a</code></p></li>
+<li><p><code>des</code></p></li>
+<li><p><code>machines</code></p></li>
+<li><p><code>à</code></p></li>
+<li><p><code>laver</code></p></li>
+<li><p><code>de</code></p></li>
+<li><p><code>haute</code></p></li>
+<li><p><code>technologie</code></p></li>
+</ol></li>
+<li><p><strong>Total :</strong> <strong>15 tokens</strong></p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="méthode-2-tokenisation-sémantique-polylexicale" class="level2">
+<h2 class="anchored" data-anchor-id="méthode-2-tokenisation-sémantique-polylexicale"><span class="header-section-number">3.4.2</span> Méthode 2 : Tokenisation sémantique / polylexicale</h2>
+<ul>
+<li><p><strong>Critère :</strong> Regroupement des expressions polylexicales (MWE) et locutions figées en unités sémantiques uniques.</p></li>
+<li><p><strong>Liste des tokens :</strong></p>
+<ol type="1">
+<li><p><code>C'est-à-dire</code></p></li>
+<li><p><code>qu'</code></p></li>
+<li><p><code>il y a</code></p></li>
+<li><p><code>des</code></p></li>
+<li><p><code>machines à laver</code></p></li>
+<li><p><code>de</code></p></li>
+<li><p><code>haute technologie</code></p></li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="partitionner-un-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="partitionner-un-corpus"><span class="header-section-number">3.4.3</span> Partitionner un corpus</h2>
+<ul>
+<li><p>Partitionner un corpus consiste à le découper en plusieurs <strong>subdivisions nommées (sous-corpus)</strong> selon un ou plusieurs critères structurants.</p></li>
+<li><p>Les éléments d’une partition ne sont <strong>pas forcément des exemples contigus</strong> dans le fichier texte ou audio (ex. toutes les interventions d’un même individu dispersées tout au long d’un enregistrement).</p></li>
+<li><p>Très fréquemment appliqué à la <strong>transcription des enregistrements</strong> oraux.</p></li>
+</ul>
+<hr>
+<section id="critères-et-types-de-partitions" class="level3">
+<h3 class="anchored" data-anchor-id="critères-et-types-de-partitions"><span class="header-section-number">3.4.3.1</span> Critères et types de partitions</h3>
+<ul>
+<li><p><strong>Partitions en fonction du locuteur :</strong></p>
+<ul>
+<li><p>Regroupement par individu (ex. Locuteur A vs.&nbsp;Locuteur B).</p></li>
+<li><p>Regroupement par catégories ou groupes de locuteurs (variables sociolinguistiques : âge, genre, niveau d’études, profession, origine géographique).</p></li>
+</ul></li>
+<li><p><strong>Partitions en fonction du temps / de la chronologie :</strong></p>
+<ul>
+<li><p>Évolution diachronique (ex. corpus découpé par décennies ou par années).</p></li>
+<li><p>Découpage interne à une interaction (ex. début, milieu, fin de l’enregistrement).</p></li>
+</ul></li>
+<li><p><strong>Partitions en fonction des moments clés de l’enregistrement :</strong></p>
+<ul>
+<li>Découpage selon la situation de communication, les phases de l’interaction ou les sujets abordés (ex. phase d’accueil, débat guidé, parole libre, tâches spécifiques).</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="pourquoi-partitionner" class="level3">
+<h3 class="anchored" data-anchor-id="pourquoi-partitionner"><span class="header-section-number">3.4.3.2</span> Pourquoi partitionner ?</h3>
+<ul>
+<li><p><strong>On peut travailler sur tout le corpus sans partitionner :</strong></p>
+<ul>
+<li>Utile pour avoir une vue d’ensemble, calculer la fréquence globale des mots ou dresser la liste du vocabulaire total (<em>lexique global</em>).</li>
+</ul></li>
+<li><p><strong>Pourquoi découper en partitions alors ?</strong></p>
+<ul>
+<li><p><strong>Contraste et comparaison :</strong> Permet d’opposer des sous-corpus pour faire ressortir des spécificités statistiques (sur-emploi ou sous-emploi de certains termes).</p></li>
+<li><p><strong>Focalisation :</strong> Permet de centrer l’analyse empirique sur des parties ciblées du corpus.</p></li>
+<li><p><strong>Étude de la variation :</strong> S’intéresser à certains locuteurs particuliers ou comparer différents groupes de locuteurs (ex. les jeunes vs.&nbsp;les séniors, les journalistes vs.&nbsp;les invités).</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="quand-et-comment-y-penser" class="level3">
+<h3 class="anchored" data-anchor-id="quand-et-comment-y-penser"><span class="header-section-number">3.4.3.3</span> Quand et comment y penser ?</h3>
+<ul>
+<li><p><strong>Penser au partitionnement en amont :</strong></p>
+<ul>
+<li>La possibilité de partitionner un corpus dépend directement de la qualité de l’archivage et de l’encodage des données dès la phase de constitution du corpus.</li>
+</ul></li>
+<li><p><strong>Exploitation des métadonnées (Fichiers XML / En-têtes) :</strong></p>
+<ul>
+<li><p>Dans des corpus structurés en <strong>XML</strong> (comme le projet <strong>ORFEO</strong>), chaque fichier ou intervention contient des balises intégrant des propriétés et métadonnées.</p></li>
+<li><p><em>Exemples de propriétés exploitables pour partitionner :</em></p>
+<ul>
+<li><p><strong>Propriétés du locuteur :</strong> genre, âge, statut, rôle interactionnel.</p></li>
+<li><p><strong>Propriétés contextuelles :</strong> lieu d’enregistrement, date, langue / dialecte, degré de formalité, type de média (radio, conversation privée, entretien).</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="étape-4-analyser-les-données" class="level1">
+<h1><span class="header-section-number">3.5</span> Étape 4 : Analyser les données</h1>
+<div class="html">
+<svg width="100%" viewbox="0 0 700 300">
+</svg><p><rect x="50" y="50" width="100" height="80" fill="#3498db" opacity="0.3" rx="5"> <text x="100" y="95" text-anchor="middle" font-size="12" font-weight="bold">Corpus</text></rect></p>
+<p><rect x="180" y="50" width="100" height="80" fill="#3498db" opacity="0.5" rx="5"> <text x="230" y="95" text-anchor="middle" font-size="12" font-weight="bold">Sections</text></rect></p>
+<p><rect x="310" y="50" width="100" height="80" fill="#3498db" opacity="0.7" rx="5"> <text x="360" y="95" text-anchor="middle" font-size="12" font-weight="bold">Analyses</text></rect></p>
+<p><text x="350" y="180" text-anchor="middle" font-size="16" font-weight="bold">Analyse :</text></p>
+<p><rect x="100" y="210" width="200" height="60" fill="#95a5a6" opacity="0.2" rx="5"> <text x="200" y="245" text-anchor="middle" font-size="12" font-weight="bold">Variables indépendantes</text></rect></p>
+<p><line x1="330" y1="240" x2="370" y2="240" stroke="#95a5a6" stroke-width="2"> <polygon points="370,240 360,235 360,245" fill="#95a5a6"></polygon></line></p>
+<p><rect x="400" y="210" width="200" height="60" fill="#e74c3c" opacity="0.2" rx="5"> <text x="500" y="245" text-anchor="middle" font-size="12" font-weight="bold">Variables dépendantes</text></rect></p>
+
+</div>
+<hr>
+<section id="outils-et-requêtes-pour-explorer-un-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="outils-et-requêtes-pour-explorer-un-corpus"><span class="header-section-number">3.5.1</span> Outils et requêtes pour explorer un corpus</h2>
+<section id="choix-de-loutil-linguistique-pour-explorer-un-corpus" class="level3">
+<h3 class="anchored" data-anchor-id="choix-de-loutil-linguistique-pour-explorer-un-corpus"><span class="header-section-number">3.5.1.1</span> Choix de l’outil linguistique pour explorer un corpus</h3>
+</section>
+<section id="construire-une-requête" class="level3">
+<h3 class="anchored" data-anchor-id="construire-une-requête"><span class="header-section-number">3.5.1.2</span> Construire une requête</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Définition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Requête</strong> : instruction donnée au logiciel pour sélectionner certains mots</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="mesures-quantitatives-fréquence-et-spécificités" class="level2">
+<h2 class="anchored" data-anchor-id="mesures-quantitatives-fréquence-et-spécificités"><span class="header-section-number">3.5.2</span> Mesures quantitatives : Fréquence et spécificités</h2>
+<ul>
+<li><p>Outils quantitatifs</p></li>
+<li><p>Aussi utilisé en textométrie et lexicométrie</p></li>
+</ul>
+<section id="fréquence" class="level3">
+<h3 class="anchored" data-anchor-id="fréquence"><span class="header-section-number">3.5.2.1</span> Fréquence</h3>
+<ul>
+<li><p><strong>Fréquence absolue (</strong><span class="math inline">\(f\)</span>) :</p>
+<ul>
+<li><p><strong>Définition :</strong> Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.</p></li>
+<li><p><em>Exemple :</em> Le terme <em>« liberté »</em> apparaît <strong>45 fois</strong> dans l’ensemble d’un discours.</p></li>
+</ul></li>
+<li><p><strong>Fréquence relative (</strong><span class="math inline">\(fr\)</span>) :</p>
+<ul>
+<li><p><strong>Définition :</strong> Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (<span class="math inline">\(N\)</span>), souvent exprimé en pourcentage ou en nombre de cas pour <span class="math inline">\(N\)</span> mots (ex. pour 10 000 mots).</p></li>
+<li><p><em>Formule :</em> <span class="math inline">\(fr = \frac{f}{N}\)</span></p></li>
+<li><p><em>Exemple :</em> Si un discours compte <span class="math inline">\(N = 10\,000\)</span> mots et que <em>« liberté »</em> apparaît <span class="math inline">\(f = 45\)</span> fois, la fréquence relative est de <span class="math inline">\(0{,}45\%\)</span> (ou 45 pour 10 000 mots).</p></li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Définition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Hapax : Forme linguistique n’apparaissant qu’une seule et unique fois (<span class="math inline">\(f = 1\)</span>) dans l’ensemble du corpus étudié.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" class="level3">
+<h3 class="anchored" data-anchor-id="le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités"><span class="header-section-number">3.5.2.2</span> Le pré-traitement appliqué au comptage (Découpage et choix d’unités)</h3>
+<p>Le comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :</p>
+<ul>
+<li><p><strong>Tokenisation (Découpage des mots / occurrences) :</strong></p>
+<ul>
+<li>Découpage de la chaîne de texte brute en unités minimales (<em>tokens</em>).</li>
+</ul></li>
+<li><p><strong>Comptage des formes vs Lemmes :</strong></p>
+<ul>
+<li><p><em>Formes graphiques (mots bruts) :</em> Traite différemment chaque flexion (<em>mange</em>, <em>mangeons</em>, <em>mangera</em>).</p></li>
+<li><p><em>Lemmes :</em> Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (<em>manger</em>).</p></li>
+<li><p><em>Choix méthodologique :</em></p>
+<ul>
+<li><p><strong>Pour les verbes ➔ Utiliser les lemmes</strong> afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.</p></li>
+<li><p><strong>Pour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser</strong> (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>Prise en compte des majuscules et de la ponctuation :</strong></p>
+<ul>
+<li><em>Exemple :</em> Faut-il distinguer le nom propre <em>« Pierre »</em> du nom commun <em>« pierre »</em> ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?</li>
+</ul></li>
+<li><p><strong>Prise en compte des expressions polylexicales (locutions / MWE) :</strong></p>
+<ul>
+<li><p>Groupes de mots fonctionnant comme une seule unité sémantique.</p></li>
+<li><p><em>Exemple :</em> Traiter <em>« chemin de fer »</em> ou <em>« au fur et à mesure »</em> comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (<em>chemin</em>, <em>de</em>, <em>fer</em>).</p></li>
+</ul></li>
+<li><p><strong>Parties du discours (POS Tagging) :</strong></p>
+<ul>
+<li><p>Étiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.</p></li>
+<li><p><em>Exemple :</em> Distinguer <em>« ferme »</em> (nom commun), <em>« ferme »</em> (adjectif) et <em>« ferme »</em> (verbe <em>fermer</em>).</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="mesurer-la-spécificité-textuelle" class="level3">
+<h3 class="anchored" data-anchor-id="mesurer-la-spécificité-textuelle"><span class="header-section-number">3.5.2.3</span> Mesurer la spécificité textuelle</h3>
+<ul>
+<li><p><strong>Qu’est-ce qui fait la spécificité d’un texte ?</strong></p>
+<ul>
+<li>C’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.</li>
+</ul></li>
+<li><p><strong>Corpus test vs Corpus étalon / de référence :</strong></p>
+<ul>
+<li><p><strong>Corpus test (étudié) :</strong> Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.</p></li>
+<li><p><strong>Corpus étalon (de référence) :</strong> Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).</p></li>
+</ul></li>
+<li><p><strong>Principe de comparaison :</strong></p>
+<ul>
+<li>On compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, <strong>en fonction des tailles respectives</strong> de ces deux corpus.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="indicateurs-et-indices-statistiques-de-spécificité" class="level3">
+<h3 class="anchored" data-anchor-id="indicateurs-et-indices-statistiques-de-spécificité"><span class="header-section-number">3.5.2.4</span> Indicateurs et indices statistiques de spécificité</h3>
+<ul>
+<li><p><strong>Log-Likelihood Ratio (</strong><span class="math inline">\(G^2\)</span> ou rapport de vraisemblance) :</p>
+<ul>
+<li><strong>Principe :</strong> Test statistique permettant d’évaluer la différence de distribution d’un mot entre deux corpus, particulièrement efficace sur les corpus textuels (même sur de petits volumes ou des mots à faible fréquence). Il mesure l’écart à une distribution théorique uniforme.</li>
+</ul></li>
+<li><p><strong>Spécificité (Indice de Lafon / Modèle hypergéométrique) :</strong></p>
+<ul>
+<li><p><strong>Principe :</strong> Calcul fondé sur le modèle probabiliste hypergéométrique (proposé par Pierre Lafon). Il détermine la probabilité qu’un mot apparaisse <span class="math inline">\(x\)</span> fois dans un sous-corpus de taille <span class="math inline">\(t\)</span>, sachant qu’il apparaît <span class="math inline">\(F\)</span> fois dans le corpus global de taille <span class="math inline">\(N\)</span> tiré sans remise.</p></li>
+<li><p><strong>Résultat :</strong> Donne des tirages exprimés en score de spécificité (probabilité d’apparition accidentelle) permettant d’isoler le <strong>vocabulaire spécifique</strong> d’un auteur, d’un genre ou d’une époque.</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="étape-5-conclusion-répondre-aux-questions" class="level1">
+<h1><span class="header-section-number">3.6</span> Étape 5 : Conclusion (Répondre aux questions)</h1>
+<div class="html">
+<div style="background: linear-gradient(135deg,#9b59b6,#8e44ad); color:white; padding:40px; border-radius:15px; text-align:center;">
+<h3 class="anchored">
+Conclusion
+</h3>
+<p>
+<strong>Il y a (ou non) une relation entre…</strong>
+</p>
+</div>
+</div>
+<hr>
+<p><span class="header-section-number">4</span> Négation - C’est pas vrai</p>
+<p><span class="header-section-number">5</span> Introduction</p>
 <p><a href="https://www.lemonde.fr/series-d-ete/article/2021/07/31/le-ne-marque-de-negation-en-voie-de-disparition_6090096_3451060.html?srsltid=AfmBOorawSQY4BAOSbdNoDnmnri6b2thGEbIpUTly88xwK2ipKGz1W7z"><img src="images/clipboard-4256156183.png" class="img-fluid"></a></p>
 <p><img src="images/clipboard-3155544609.png" class="img-fluid"></p>
 <hr>
@@ -472,10 +1263,10 @@ window.Quarto = {
 <hr>
 <div class="side-by-side">
 <section id="ya-pas-moyen" class="level3">
-<h3 class="anchored" data-anchor-id="ya-pas-moyen"><span class="header-section-number">2.0.0.1</span> y’a pas moyen 🎶</h3>
+<h3 class="anchored" data-anchor-id="ya-pas-moyen"><span class="header-section-number">5.0.0.1</span> y’a pas moyen 🎶</h3>
 </section>
 <section id="aya-nakamura-wikipédia" class="level3">
-<h3 class="anchored" data-anchor-id="aya-nakamura-wikipédia"><span class="header-section-number">2.0.0.2</span> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaUDupaE1uwhB9LZS0Al-dJkrjQA5deCiemTpv8SYfiQ&amp;s.png" class="img-fluid" alt="Aya Nakamura — Wikipédia"></h3>
+<h3 class="anchored" data-anchor-id="aya-nakamura-wikipédia"><span class="header-section-number">5.0.0.2</span> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaUDupaE1uwhB9LZS0Al-dJkrjQA5deCiemTpv8SYfiQ&amp;s.png" class="img-fluid" alt="Aya Nakamura — Wikipédia"></h3>
 </section>
 </div>
 <hr>
@@ -500,7 +1291,7 @@ window.Quarto = {
 </ul></li>
 </ul>
 <hr>
-<p><span class="header-section-number">3</span> Histoire</p>
+<p><span class="header-section-number">6</span> Histoire</p>
 <ul>
 <li><p><strong>Dédoublement du <em>non</em> latin :</strong></p>
 <ul>
@@ -609,7 +1400,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 -->
 <hr>
 <section id="et-au-québec" class="level2">
-<h2 class="anchored" data-anchor-id="et-au-québec"><span class="header-section-number">3.0.1</span> Et au Québec</h2>
+<h2 class="anchored" data-anchor-id="et-au-québec"><span class="header-section-number">6.0.1</span> Et au Québec</h2>
 <div class="side-by-side">
 <ul>
 <li><p>ne quasi absent à l’oral</p></li>
@@ -656,7 +1447,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <li><p>Le <em>ne</em> négatif subsiste encore aujourd’hui de façon autonome dans certaines locutions figées.</p></li>
 </ul>
 <hr>
-<p><span class="header-section-number">4</span> Règles académiques</p>
+<p><span class="header-section-number">7</span> Règles académiques</p>
 <p>Au XVIIᵉ siècle, le <em>ne</em> n’est pas systématique et <em>pas</em> est concurrencé par <em>point</em>.</p>
 <div class="side-by-side">
 <p>Il ne faut pas omettre le <em>ne</em>, ni le <em>pas</em> ou le <em>point</em>.</p>
@@ -680,8 +1471,9 @@ Affaiblissement initial du mot négatof avec un accent faible
 </ul>
 <hr>
 </section>
+</section>
 <section id="les-règles-scolaires" class="level1">
-<h1><span class="header-section-number">4.1</span> Les règles scolaires</h1>
+<h1><span class="header-section-number">7.1</span> Les règles scolaires</h1>
 <ul>
 <li><p>Depuis le début du XIXᵉ siècle, l’école enseigne la négation avec <em>ne</em>.</p>
 <ul>
@@ -698,7 +1490,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="les-usages-littéraires" class="level1">
-<h1><span class="header-section-number">4.2</span> Les usages littéraires</h1>
+<h1><span class="header-section-number">7.2</span> Les usages littéraires</h1>
 <ul>
 <li><div>
 <p>La phrase négative avec <em>ne</em> reste majoritaire en littérature.</p>
@@ -730,7 +1522,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="les-usages-ordinaires" class="level1">
-<h1><span class="header-section-number">4.3</span> Les usages ordinaires</h1>
+<h1><span class="header-section-number">7.3</span> Les usages ordinaires</h1>
 <ul>
 <li>La baisse de l’usage du <em>ne</em> a évolué à travers l’histoire, mais cela prend du temps.</li>
 <li>Lors de la Première Guerre mondiale, les poilus omettent le <em>ne</em> dans 25 % des cas dans leurs lettres.</li>
@@ -773,7 +1565,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 <hr>
 <section id="en-ligne" class="level2">
-<h2 class="anchored" data-anchor-id="en-ligne"><span class="header-section-number">4.3.1</span> En ligne</h2>
+<h2 class="anchored" data-anchor-id="en-ligne"><span class="header-section-number">7.3.1</span> En ligne</h2>
 <ul>
 <li><p>En Suisse, on est à 23 % de phrases négatives avec <em>ne</em> dans les SMS.</p></li>
 <li><p>Sur les forums, on est à 42 % avec <em>ne</em>.</p></li>
@@ -781,7 +1573,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="à-loral" class="level2">
-<h2 class="anchored" data-anchor-id="à-loral"><span class="header-section-number">4.3.2</span> À l’oral</h2>
+<h2 class="anchored" data-anchor-id="à-loral"><span class="header-section-number">7.3.2</span> À l’oral</h2>
 <ul>
 <li><p>En région parisienne :</p>
 <ul>
@@ -805,7 +1597,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 </section>
 </section>
 <section id="les-règles-robustes" class="level1">
-<h1><span class="header-section-number">4.4</span> Les règles robustes</h1>
+<h1><span class="header-section-number">7.4</span> Les règles robustes</h1>
 <ul>
 <li><strong>L’approche linguistique</strong>
 <ul>
@@ -842,7 +1634,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="conclusions" class="level1">
-<h1><span class="header-section-number">4.5</span> Conclusions</h1>
+<h1><span class="header-section-number">7.5</span> Conclusions</h1>
 <ul>
 <li><strong>Rôle du <em>ne</em></strong>
 <ul>
@@ -868,7 +1660,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="test" class="level1">
-<h1><span class="header-section-number">4.6</span> Test</h1>
+<h1><span class="header-section-number">7.6</span> Test</h1>
 <p>Que préférez-vous ?</p>
 <ul>
 <li>J’ai vu un film pas mal</li>
@@ -879,16 +1671,16 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="analyse-de-corpus" class="level1">
-<h1><span class="header-section-number">4.7</span> Analyse de corpus</h1>
+<h1><span class="header-section-number">7.7</span> Analyse de corpus</h1>
 <section id="formulation-de-la-question-de-recherche" class="level2">
-<h2 class="anchored" data-anchor-id="formulation-de-la-question-de-recherche"><span class="header-section-number">4.7.1</span> Formulation de la question de recherche</h2>
+<h2 class="anchored" data-anchor-id="formulation-de-la-question-de-recherche"><span class="header-section-number">7.7.1</span> Formulation de la question de recherche</h2>
 <p>Pour opérationnaliser votre sujet, vous pouvez poser une question de recherche formelle et quantifiable :</p>
 <blockquote class="blockquote">
 <p><strong>« Dans quelle mesure le niveau de formalité de la situation d’énonciation influence-t-il la fréquence d’emploi de la particule de négation <em>ne</em> dans les productions verbales ou écrites d’un même locuteur (ou groupe de locuteurs) ? »</strong></p>
 </blockquote>
 <hr>
 <section id="hypothèse-associée" class="level3">
-<h3 class="anchored" data-anchor-id="hypothèse-associée"><span class="header-section-number">4.7.1.1</span> Hypothèse associée :</h3>
+<h3 class="anchored" data-anchor-id="hypothèse-associée"><span class="header-section-number">7.7.1.1</span> Hypothèse associée :</h3>
 <ul>
 <li><p><strong>Hypothèse nulle (</strong><span class="math inline">\(H_0\)</span>) : Le contexte de formalité n’a pas d’effet significatif sur le maintien ou l’omission du <em>ne</em>.</p></li>
 <li><p><strong>Hypothèse de travail (</strong><span class="math inline">\(H_1\)</span>) : L’emploi du <em>ne</em> augmente de manière significative lorsque le degré de formalité du contexte augmente (marqueur de style et de prestige social).</p></li>
@@ -896,7 +1688,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="cadre-conceptuel-et-opérationnalisation-variables" class="level3">
-<h3 class="anchored" data-anchor-id="cadre-conceptuel-et-opérationnalisation-variables"><span class="header-section-number">4.7.1.2</span> Cadre conceptuel et opérationnalisation (Variables)</h3>
+<h3 class="anchored" data-anchor-id="cadre-conceptuel-et-opérationnalisation-variables"><span class="header-section-number">7.7.1.2</span> Cadre conceptuel et opérationnalisation (Variables)</h3>
 <ul>
 <li><p>Pour répondre scientifiquement à cette question selon la démarche de corpus, il faut isoler et manipuler des variables :</p>
 <ul>
@@ -914,14 +1706,14 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="définir-précisément-la-négation-que-lon-souhaite-étudier" class="level3">
-<h3 class="anchored" data-anchor-id="définir-précisément-la-négation-que-lon-souhaite-étudier"><span class="header-section-number">4.7.1.3</span> Définir précisément la négation que l’on souhaite étudier</h3>
+<h3 class="anchored" data-anchor-id="définir-précisément-la-négation-que-lon-souhaite-étudier"><span class="header-section-number">7.7.1.3</span> Définir précisément la négation que l’on souhaite étudier</h3>
 <ul>
 <li>Définir précisément les critères de formalité et la sous-catégorie de négation étudiée (ex. <em>ne…pas</em>, <em>ne…rien</em>, <em>ne…personne</em>).</li>
 </ul>
 <hr>
 </section>
 <section id="trouver-ou-constituer-un-corpus" class="level3">
-<h3 class="anchored" data-anchor-id="trouver-ou-constituer-un-corpus"><span class="header-section-number">4.7.1.4</span> Trouver (ou constituer) un corpus</h3>
+<h3 class="anchored" data-anchor-id="trouver-ou-constituer-un-corpus"><span class="header-section-number">7.7.1.4</span> Trouver (ou constituer) un corpus</h3>
 <ul>
 <li><p>Sélectionner un corpus oral ou écrit d’un même locuteur (ou d’un échantillon comparable) enregistré/recueilli dans deux contextes distincts :</p>
 <ul>
@@ -932,9 +1724,9 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="choix-du-corpus" class="level3">
-<h3 class="anchored" data-anchor-id="choix-du-corpus"><span class="header-section-number">4.7.1.5</span> Choix du corpus</h3>
+<h3 class="anchored" data-anchor-id="choix-du-corpus"><span class="header-section-number">7.7.1.5</span> Choix du corpus</h3>
 <section id="corpus-de-langue-parlée-oral" class="level4">
-<h4 class="anchored" data-anchor-id="corpus-de-langue-parlée-oral"><span class="header-section-number">4.7.1.5.1</span> <strong>Corpus de Langue Parlée (Oral)</strong></h4>
+<h4 class="anchored" data-anchor-id="corpus-de-langue-parlée-oral"><span class="header-section-number">7.7.1.5.1</span> <strong>Corpus de Langue Parlée (Oral)</strong></h4>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -1010,7 +1802,7 @@ Affaiblissement initial du mot négatof avec un accent faible
 <hr>
 </section>
 <section id="corpus-de-langue-écrite-communication-numérique" class="level4">
-<h4 class="anchored" data-anchor-id="corpus-de-langue-écrite-communication-numérique"><span class="header-section-number">4.7.1.5.2</span> <strong>Corpus de Langue Écrite &amp; Communication Numérique</strong></h4>
+<h4 class="anchored" data-anchor-id="corpus-de-langue-écrite-communication-numérique"><span class="header-section-number">7.7.1.5.2</span> <strong>Corpus de Langue Écrite &amp; Communication Numérique</strong></h4>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -1055,13 +1847,13 @@ Affaiblissement initial du mot négatof avec un accent faible
 </table>
 </section>
 <section id="téléchargement-des-données" class="level4">
-<h4 class="anchored" data-anchor-id="téléchargement-des-données"><span class="header-section-number">4.7.1.5.3</span> Téléchargement des données</h4>
+<h4 class="anchored" data-anchor-id="téléchargement-des-données"><span class="header-section-number">7.7.1.5.3</span> Téléchargement des données</h4>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>here() starts at /Users/jeremy-ua/Documents/Work/Teaching/Teaching</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: package 'dplyr' was built under R version 4.4.3</code></pre>
 </div>
@@ -1079,12 +1871,12 @@ Attaching package: 'dplyr'</code></pre>
 
     intersect, setdiff, setequal, union</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Charge le fichier depuis la racine du projet</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>corpus_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="fu">here</span>(<span class="st">"francais-moderne"</span>,<span class="st">"chapters"</span>, <span class="st">"corpus"</span>, <span class="st">"corpus_data.csv"</span>)) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(corpus<span class="sc">==</span><span class="st">"CRFP"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Charge le fichier depuis la racine du projet</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>corpus_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="fu">here</span>(<span class="st">"francais-moderne"</span>,<span class="st">"chapters"</span>, <span class="st">"corpus"</span>, <span class="st">"corpus_data.csv"</span>)) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(corpus<span class="sc">==</span><span class="st">"CRFP"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Il faut toujours vérifier les données que l’on a télécharger !</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(corpus_data)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(corpus_data)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  word_nr       form       lemma upos xpos start_time end_time speaker
 1       1      voilà       voilà  INT  INT       0.18     0.39      L1
@@ -1148,59 +1940,59 @@ Attaching package: 'dplyr'</code></pre>
 </section>
 </section>
 <section id="préparer-les-données-pré-traitement" class="level3">
-<h3 class="anchored" data-anchor-id="préparer-les-données-pré-traitement"><span class="header-section-number">4.7.1.6</span> Préparer les données (Pré-traitement)</h3>
+<h3 class="anchored" data-anchor-id="préparer-les-données-pré-traitement"><span class="header-section-number">7.7.1.6</span> Préparer les données (Pré-traitement)</h3>
 <ul>
 <li><p><strong>Tokenisation &amp; Nettoyage :</strong> Traiter les données brutes ou les transcriptions orales.</p></li>
 <li><p><strong>Étiquetage (POS Tagging) / Annotation :</strong> Identifier les structures négatives verbales.</p></li>
 </ul>
 <hr>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Filter for utterances with "pas"</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>selection_negation <span class="ot">&lt;-</span> corpus_data <span class="sc">%&gt;%</span> </span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span> </span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">any</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Print the number of unique utterances</span></span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Number of utterances containing 'pas':"</span>, <span class="fu">n_distinct</span>(selection_negation<span class="sc">$</span>utterance), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Filter for utterances with "pas"</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>selection_negation <span class="ot">&lt;-</span> corpus_data <span class="sc">%&gt;%</span> </span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">any</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Print the number of unique utterances</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Number of utterances containing 'pas':"</span>, <span class="fu">n_distinct</span>(selection_negation<span class="sc">$</span>utterance), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Number of utterances containing 'pas': 4497 </code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Filter for utterances that contain ADN but do NOT contain NOM</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>final_selection <span class="ot">&lt;-</span> selection_negation <span class="sc">%&gt;%</span> </span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span> </span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">any</span>(upos <span class="sc">==</span> <span class="st">"ADN"</span>) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">any</span>(upos <span class="sc">==</span> <span class="st">"NOM"</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Print result count</span></span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Number of matching utterances:"</span>, <span class="fu">n_distinct</span>(final_selection<span class="sc">$</span>utterance), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Filter for utterances that contain ADN but do NOT contain NOM</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>final_selection <span class="ot">&lt;-</span> selection_negation <span class="sc">%&gt;%</span> </span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">any</span>(upos <span class="sc">==</span> <span class="st">"ADN"</span>) <span class="sc">&amp;</span> <span class="sc">!</span><span class="fu">any</span>(upos <span class="sc">==</span> <span class="st">"NOM"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Print result count</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Number of matching utterances:"</span>, <span class="fu">n_distinct</span>(final_selection<span class="sc">$</span>utterance), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Number of matching utterances: 1383 </code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="ot">&lt;-</span> final_selection <span class="sc">%&gt;%</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">tag_negation =</span> <span class="fu">case_when</span>(</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Si le mot courant est 'pas' et qu'il y a un 'ne' situé plus haut dans l'énoncé</span></span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>      lemma <span class="sc">==</span> <span class="st">"pas"</span> <span class="sc">&amp;</span> <span class="fu">any</span>(lemma <span class="sc">==</span> <span class="st">"ne"</span> <span class="sc">&amp;</span> word_nr <span class="sc">&lt;</span> word_nr[lemma <span class="sc">==</span> <span class="st">"pas"</span>][<span class="dv">1</span>]) <span class="sc">~</span> <span class="st">"neg_avec_ne"</span>,</span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>      </span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Si le mot courant est 'pas' mais sans 'ne' avant</span></span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>      lemma <span class="sc">==</span> <span class="st">"pas"</span> <span class="sc">~</span> <span class="st">"neg_sans_ne"</span>,</span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>      </span>
-<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Pour tous les autres mots</span></span>
-<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
-<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="ot">&lt;-</span> final_selection <span class="sc">%&gt;%</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(utterance) <span class="sc">%&gt;%</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">tag_negation =</span> <span class="fu">case_when</span>(</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Si le mot courant est 'pas' et qu'il y a un 'ne' situé plus haut dans l'énoncé</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>      lemma <span class="sc">==</span> <span class="st">"pas"</span> <span class="sc">&amp;</span> <span class="fu">any</span>(lemma <span class="sc">==</span> <span class="st">"ne"</span> <span class="sc">&amp;</span> word_nr <span class="sc">&lt;</span> word_nr[lemma <span class="sc">==</span> <span class="st">"pas"</span>][<span class="dv">1</span>]) <span class="sc">~</span> <span class="st">"neg_avec_ne"</span>,</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>      </span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Si le mot courant est 'pas' mais sans 'ne' avant</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>      lemma <span class="sc">==</span> <span class="st">"pas"</span> <span class="sc">~</span> <span class="st">"neg_sans_ne"</span>,</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>      </span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Pour tous les autres mots</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="sc">%&gt;%</span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(tag_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(tag_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 2 × 2
   tag_negation     n
@@ -1212,13 +2004,13 @@ Attaching package: 'dplyr'</code></pre>
 <hr>
 </section>
 <section id="analyser-les-données" class="level3">
-<h3 class="anchored" data-anchor-id="analyser-les-données"><span class="header-section-number">4.7.1.7</span> Analyser les données</h3>
+<h3 class="anchored" data-anchor-id="analyser-les-données"><span class="header-section-number">7.7.1.7</span> Analyser les données</h3>
 <ul>
 <li><strong>Calcul des fréquences :</strong> Comparer la fréquence relative (pourcentage) du <em>ne</em> dans le sous-corpus formel versus le sous-corpus informel.</li>
 </ul>
 <hr>
 <section id="minitutoriel-filtrer-sélectionner-un-corpus-en-r-dplyr" class="level4">
-<h4 class="anchored" data-anchor-id="minitutoriel-filtrer-sélectionner-un-corpus-en-r-dplyr"><span class="header-section-number">4.7.1.7.1</span> Mini‑tutoriel : Filtrer &amp; Sélectionner un corpus en R (dplyr)</h4>
+<h4 class="anchored" data-anchor-id="minitutoriel-filtrer-sélectionner-un-corpus-en-r-dplyr"><span class="header-section-number">7.7.1.7.1</span> Mini‑tutoriel : Filtrer &amp; Sélectionner un corpus en R (dplyr)</h4>
 <ul>
 <li><p>Comprendre les opérations essentielles pour manipuler un corpus :</p>
 <ul>
@@ -1233,33 +2025,33 @@ Attaching package: 'dplyr'</code></pre>
 </section>
 </section>
 <section id="filtrer-avec-filter" class="level1">
-<h1><span class="header-section-number">4.8</span> Filtrer avec <code>filter()</code></h1>
+<h1><span class="header-section-number">7.8</span> Filtrer avec <code>filter()</code></h1>
 <section id="garder-les-lignes-où-une-condition-est-vraie" class="level2">
-<h2 class="anchored" data-anchor-id="garder-les-lignes-où-une-condition-est-vraie"><span class="header-section-number">4.8.1</span> Garder les lignes où une condition est vraie</h2>
+<h2 class="anchored" data-anchor-id="garder-les-lignes-où-une-condition-est-vraie"><span class="header-section-number">7.8.1</span> Garder les lignes où une condition est vraie</h2>
 <p>r</p>
 <pre><code>corpus %&gt;% filter(lemma == "pas")</code></pre>
 <hr>
 </section>
 <section id="exclure-une-valeur" class="level2">
-<h2 class="anchored" data-anchor-id="exclure-une-valeur"><span class="header-section-number">4.8.2</span> Exclure une valeur</h2>
+<h2 class="anchored" data-anchor-id="exclure-une-valeur"><span class="header-section-number">7.8.2</span> Exclure une valeur</h2>
 <p>r</p>
 <pre><code>corpus %&gt;% filter(upos != "NOM")</code></pre>
 <hr>
 </section>
 <section id="combiner-conditions-avec-et" class="level2">
-<h2 class="anchored" data-anchor-id="combiner-conditions-avec-et"><span class="header-section-number">4.8.3</span> Combiner conditions avec <strong>ET</strong> (<code>&amp;</code>)</h2>
+<h2 class="anchored" data-anchor-id="combiner-conditions-avec-et"><span class="header-section-number">7.8.3</span> Combiner conditions avec <strong>ET</strong> (<code>&amp;</code>)</h2>
 <p>r</p>
 <pre><code>corpus %&gt;% filter(lemma == "pas" &amp; upos == "ADV")</code></pre>
 <hr>
 </section>
 <section id="combiner-conditions-avec-ou" class="level2">
-<h2 class="anchored" data-anchor-id="combiner-conditions-avec-ou"><span class="header-section-number">4.8.4</span> Combiner conditions avec <strong>OU</strong> (<code>|</code>)</h2>
+<h2 class="anchored" data-anchor-id="combiner-conditions-avec-ou"><span class="header-section-number">7.8.4</span> Combiner conditions avec <strong>OU</strong> (<code>|</code>)</h2>
 <p>r</p>
 <pre><code>corpus %&gt;% filter(upos == "ADJ" | upos == "ADV")</code></pre>
 <hr>
 </section>
 <section id="exemple-linguistique-énoncés-contenant-pas-mais-sans-ne" class="level2">
-<h2 class="anchored" data-anchor-id="exemple-linguistique-énoncés-contenant-pas-mais-sans-ne"><span class="header-section-number">4.8.5</span> Exemple linguistique : énoncés contenant <em>pas</em> mais sans <em>ne</em></h2>
+<h2 class="anchored" data-anchor-id="exemple-linguistique-énoncés-contenant-pas-mais-sans-ne"><span class="header-section-number">7.8.5</span> Exemple linguistique : énoncés contenant <em>pas</em> mais sans <em>ne</em></h2>
 <p>r</p>
 <pre><code>corpus %&gt;% 
   group_by(utterance) %&gt;% 
@@ -1269,30 +2061,30 @@ Attaching package: 'dplyr'</code></pre>
 </section>
 </section>
 <section id="sélectionner-des-colonnes-avec-select" class="level1">
-<h1><span class="header-section-number">4.9</span> Sélectionner des colonnes avec <code>select()</code></h1>
+<h1><span class="header-section-number">7.9</span> Sélectionner des colonnes avec <code>select()</code></h1>
 <section id="garder-seulement-certaines-colonnes" class="level2">
-<h2 class="anchored" data-anchor-id="garder-seulement-certaines-colonnes"><span class="header-section-number">4.9.1</span> Garder seulement certaines colonnes</h2>
+<h2 class="anchored" data-anchor-id="garder-seulement-certaines-colonnes"><span class="header-section-number">7.9.1</span> Garder seulement certaines colonnes</h2>
 <p>r</p>
 <pre><code>corpus %&gt;% select(utterance, lemma, upos)</code></pre>
 <hr>
 </section>
 <section id="exclure-une-colonne" class="level2">
-<h2 class="anchored" data-anchor-id="exclure-une-colonne"><span class="header-section-number">4.9.2</span> Exclure une colonne</h2>
+<h2 class="anchored" data-anchor-id="exclure-une-colonne"><span class="header-section-number">7.9.2</span> Exclure une colonne</h2>
 <p>r</p>
 <pre><code>corpus %&gt;% select(-speaker_id)</code></pre>
 <hr>
 </section>
 <section id="renommer-une-colonne-en-même-temps" class="level2">
-<h2 class="anchored" data-anchor-id="renommer-une-colonne-en-même-temps"><span class="header-section-number">4.9.3</span> Renommer une colonne en même temps</h2>
+<h2 class="anchored" data-anchor-id="renommer-une-colonne-en-même-temps"><span class="header-section-number">7.9.3</span> Renommer une colonne en même temps</h2>
 <p>r</p>
 <pre><code>corpus %&gt;% select(token = lemma, pos = upos)</code></pre>
 <hr>
 </section>
 </section>
 <section id="combiner-filter-select" class="level1">
-<h1><span class="header-section-number">4.10</span> Combiner <code>filter()</code> + <code>select()</code></h1>
+<h1><span class="header-section-number">7.10</span> Combiner <code>filter()</code> + <code>select()</code></h1>
 <section id="exemple" class="level2">
-<h2 class="anchored" data-anchor-id="exemple"><span class="header-section-number">4.10.1</span> Exemple :</h2>
+<h2 class="anchored" data-anchor-id="exemple"><span class="header-section-number">7.10.1</span> Exemple :</h2>
 <p><strong>Garder les adjectifs produits par des locuteurs masculins, et ne garder que lemma + age</strong></p>
 <p>r</p>
 <pre><code>corpus %&gt;%
@@ -1302,7 +2094,7 @@ Attaching package: 'dplyr'</code></pre>
 </section>
 </section>
 <section id="résumé-des-opérateurs-logiques" class="level1">
-<h1><span class="header-section-number">4.11</span> Résumé des opérateurs logiques</h1>
+<h1><span class="header-section-number">7.11</span> Résumé des opérateurs logiques</h1>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 12%">
@@ -1360,15 +2152,15 @@ Attaching package: 'dplyr'</code></pre>
 </table>
 <hr>
 <section id="répondre-à-la-question-conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="répondre-à-la-question-conclusion"><span class="header-section-number">4.11.0.1</span> Répondre à la question (Conclusion)</h3>
+<h3 class="anchored" data-anchor-id="répondre-à-la-question-conclusion"><span class="header-section-number">7.11.0.1</span> Répondre à la question (Conclusion)</h3>
 <ul>
 <li>Valider ou infirmer l’hypothèse de travail <span class="math inline">\(H_1\)</span> selon la significativité statistique des résultats.</li>
 </ul>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="sc">%&gt;%</span></span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(interaction) <span class="sc">%&gt;%</span> </span>
-<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(tag_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(interaction) <span class="sc">%&gt;%</span> </span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(tag_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 15 × 3
 # Groups:   interaction [8]
@@ -1393,20 +2185,20 @@ Attaching package: 'dplyr'</code></pre>
 </div>
 <hr>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: package 'ggplot2' was built under R version 4.4.3</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
-<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(interaction, tag_negation) <span class="sc">%&gt;%</span></span>
-<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
-<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
-<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(interaction, tag_negation) <span class="sc">%&gt;%</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 15 × 4
 # Groups:   interaction [8]
@@ -1428,68 +2220,24 @@ Attaching package: 'dplyr'</code></pre>
 14 réunion               neg_avec_ne        10       25.6
 15 réunion               neg_sans_ne        29       74.4</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> interaction, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
-<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon la tâche"</span>,</span>
-<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Tâche"</span>,</span>
-<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
-<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
-<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
-<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>)</span>
-<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> interaction, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon la tâche"</span>,</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Tâche"</span>,</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>)</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
 <p><img src="001-phonetique-affrication_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<hr>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
-<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
-<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(sex, tag_negation) <span class="sc">%&gt;%</span></span>
-<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
-<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
-<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 4
-# Groups:   sex [3]
-  sex     tag_negation effectif proportion
-  &lt;chr&gt;   &lt;chr&gt;           &lt;int&gt;      &lt;dbl&gt;
-1 F       neg_avec_ne       128       16.7
-2 F       neg_sans_ne       638       83.3
-3 M       neg_avec_ne       139       19.9
-4 M       neg_sans_ne       558       80.1
-5 inconnu neg_sans_ne         2      100  </code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
-<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> sex, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
-<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
-<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
-<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon le sexe"</span>,</span>
-<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sexe"</span>,</span>
-<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
-<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
-<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="001-phonetique-affrication_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1502,12 +2250,56 @@ Attaching package: 'dplyr'</code></pre>
 <span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
 <span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
 <span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(education, tag_negation) <span class="sc">%&gt;%</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(sex, tag_negation) <span class="sc">%&gt;%</span></span>
 <span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
 <span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
 <span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 5 × 4
+# Groups:   sex [3]
+  sex     tag_negation effectif proportion
+  &lt;chr&gt;   &lt;chr&gt;           &lt;int&gt;      &lt;dbl&gt;
+1 F       neg_avec_ne       128       16.7
+2 F       neg_sans_ne       638       83.3
+3 M       neg_avec_ne       139       19.9
+4 M       neg_sans_ne       558       80.1
+5 inconnu neg_sans_ne         2      100  </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> sex, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon le sexe"</span>,</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sexe"</span>,</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="001-phonetique-affrication_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Calcul du comptage et des pourcentages par sexe</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>frequence_negation <span class="ot">&lt;-</span> corpus_annote <span class="sc">%&gt;%</span></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(lemma <span class="sc">==</span> <span class="st">"pas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(education, tag_negation) <span class="sc">%&gt;%</span></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">effectif =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop_last"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">proportion =</span> effectif <span class="sc">/</span> <span class="fu">sum</span>(effectif) <span class="sc">*</span> <span class="dv">100</span>)</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Afficher la table récapitulative dans la console</span></span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(frequence_negation)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 10 × 4
 # Groups:   education [5]
@@ -1524,17 +2316,17 @@ Attaching package: 'dplyr'</code></pre>
  9 études supérieures neg_avec_ne       140       18.8
 10 études supérieures neg_sans_ne       603       81.2</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
-<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> education, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
-<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
-<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
-<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon le niveau d'éducation"</span>,</span>
-<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sexe"</span>,</span>
-<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
-<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
-<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Graphique en barres empilées à 100% (Proportions)</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(frequence_negation, <span class="fu">aes</span>(<span class="at">x =</span> education, <span class="at">y =</span> proportion, <span class="at">fill =</span> tag_negation)) <span class="sc">+</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>percent) <span class="sc">+</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Répartition de la négation avec ou sans 'ne' selon le niveau d'éducation"</span>,</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sexe"</span>,</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Proportion"</span>,</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">"Type de négation"</span></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1544,7 +2336,7 @@ Attaching package: 'dplyr'</code></pre>
 </div>
 </div>
 <hr>
-<p><span class="header-section-number">5</span> No Stress</p>
+<p><span class="header-section-number">8</span> No Stress</p>
 <div class="side-by-side">
 <p>J’ai un cadeau pour vous !</p>
 <p><img src="images/clipboard-1811006658.png" class="img-fluid"></p>
@@ -1978,8 +2770,8 @@ Attaching package: 'dplyr'</code></pre>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/002-intro-corpus.html" class="pagination-link" aria-label="Introduction et mise en contexte">
-        <span class="nav-page-text">Introduction et mise en contexte</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/002-intro-corpus.html" class="pagination-link" aria-label="Linguistique de corpus">
+        <span class="nav-page-text">Linguistique de corpus</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
