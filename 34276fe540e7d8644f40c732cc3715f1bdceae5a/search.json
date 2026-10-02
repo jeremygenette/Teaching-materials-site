@@ -7,385 +7,297 @@
     "text": "Bienvenue ! Après chaque cours, le chapitre vu en classe apparaît dans le menu à gauche."
   },
   {
-    "objectID": "chapters/000-intro.html#quen-pensez-vous",
-    "href": "chapters/000-intro.html#quen-pensez-vous",
-    "title": "Français moderne",
-    "section": "0.1 Qu’en pensez-vous ?",
-    "text": "0.1 Qu’en pensez-vous ?\n\nElle ne s’est pas rendue compte de son erreur.\nTous ces jours qui se sont succédés sans qu’il ne se passe rien.\nC’est une maitresse qu’ont toujours craint les enfants.\nT’as pas vu la tête qu’il a fait ?\nDes chants et des danses bretons.\nCertains régions et départements sont plus touchés que d’autres.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#imaginez-la-situation",
-    "href": "chapters/000-intro.html#imaginez-la-situation",
-    "title": "Français moderne",
-    "section": "0.2 Imaginez la situation",
-    "text": "0.2 Imaginez la situation\n\nIl fallait que tu le lisses.\nElle préférait que nous la vissions demain.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#qui",
-    "href": "chapters/000-intro.html#qui",
-    "title": "Français moderne",
-    "section": "0.3 Qui ?",
-    "text": "0.3 Qui ?\n\nJérémy Genette, Dr. en Linguistique (Université d’Anvers)\nPhonéticien et phonologue (de laboratoire)\net vous ?",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#pourquoi-ce-cours",
-    "href": "chapters/000-intro.html#pourquoi-ce-cours",
-    "title": "Français moderne",
-    "section": "0.4 Pourquoi ce cours ?",
-    "text": "0.4 Pourquoi ce cours ?\n\nVous êtes des spécialistes de la langue française et dans votre future activité professionnelle…",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#pourquoi-ce-cours-change-de-phénomène-chaque-semaine",
-    "href": "chapters/000-intro.html#pourquoi-ce-cours-change-de-phénomène-chaque-semaine",
-    "title": "Français moderne",
-    "section": "0.5 Pourquoi ce cours change de phénomène chaque semaine",
-    "text": "0.5 Pourquoi ce cours change de phénomène chaque semaine\nChaque séquence de ce cours porte sur un phénomène grammatical différent : la négation, l’accord du participe passé, la liaison, le subjonctif, le futur, le voisement en Belgique francophone… À première vue, on pourrait croire à un catalogue de curiosités grammaticales sans lien entre elles.\nCe n’est pas le cas. Sous des objets différents, c’est le même geste méthodologique qui se répète et se complexifie de semaine en semaine : partir d’une question de recherche, constituer et interroger un corpus, analyser les résultats à la lumière de facteurs sociaux, et en rendre compte. Le phénomène grammatical du jour est un prétexte pour installer une étape précise de ce parcours.\nC’est ce parcours qu’il faut garder en tête toute l’année. Il sera réaffiché à chaque séance, avec l’étape du jour surlignée.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#le-processus-de-recherche-en-linguistique-de-corpus",
-    "href": "chapters/000-intro.html#le-processus-de-recherche-en-linguistique-de-corpus",
-    "title": "Français moderne",
-    "section": "0.6 Le processus de recherche en linguistique de corpus",
-    "text": "0.6 Le processus de recherche en linguistique de corpus\n\nQuestion de recherche → variable linguistique Partir d’une observation ou d’une intuition, la transformer en question précise et en variable mesurable.\nChoix et constitution du corpus Représentativité, registres, métadonnées disponibles.\nOpérationnalisation → requêtes Traduire la question en regex, en filtres, en concordances.\nÉchantillonnage Comment sélectionner un sous-ensemble gérable et représentatif quand le corpus complet est trop grand — ou quand le phénomène cherché est rare.\nAnnotation Manuelle (grille de codage) et/ou automatique (POS-tagging, etc.).\nÉvaluation de la fiabilité Kappa (accord entre annotateurs), precision/recall (évaluation d’un système automatique).\nAnalyse statistique et interprétation Lecture de tableaux croisés, tests statistiques, mise en relation avec les facteurs sociogéographiques.\nRédaction et communication des résultats Structurer, présenter, discuter les limites.\n\nCe même parcours, vous l’appliquerez vous-mêmes, de bout en bout, sur votre propre variable de recherche pour le projet final.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#norme-vs-usage-le-cadre-théorique-du-semestre",
-    "href": "chapters/000-intro.html#norme-vs-usage-le-cadre-théorique-du-semestre",
-    "title": "Français moderne",
-    "section": "0.7 Norme vs usage : le cadre théorique du semestre",
-    "text": "0.7 Norme vs usage : le cadre théorique du semestre\nLe mot « norme » recouvre en réalité trois choses différentes, qu’il faut apprendre à distinguer :\n\nNorme prescriptive : ce que disent les grammaires, les manuels, l’Académie française — ce qu’on « devrait » dire.\nNorme statistique : ce qui est effectivement, majoritairement, produit par les locuteurs.\nNorme sociale / évaluative : ce qui est jugé correct ou incorrect par les locuteurs eux-mêmes, indépendamment de ce qu’ils produisent réellement.\n\nCes trois normes divergent souvent. L’exemple classique : l’accord du participe passé avec l’auxiliaire avoir est une règle prescriptive fermement enseignée, mais largement minoritaire dans l’usage oral réel.\nOn y ajoute la notion de variable sociolinguistique : une même fonction ou un même sens réalisé par plusieurs variantes en concurrence (ex. ne…pas / pas seul), dont la distribution est corrélée à des facteurs sociaux",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#la-plateforme-orfeo-en-bref",
-    "href": "chapters/000-intro.html#la-plateforme-orfeo-en-bref",
-    "title": "Français moderne",
-    "section": "0.8 La plateforme ORFEO, en bref",
-    "text": "0.8 La plateforme ORFEO, en bref\nORFEO est le corpus que vous utiliserez toute l’année. Points à retenir dès aujourd’hui :\n\nIl combine des sous-corpus oraux et écrits, de tailles et de types de discours variés.\nChaque énoncé/locuteur est associé à des métadonnées (âge, sexe, région, niveau d’études…) — ce sont ces métadonnées qui rendront possibles toutes vos analyses sociogéographiques.\nLes fichiers que vous recevrez sont au format CSV, avec des colonnes minimales à connaître : identifiant d’énoncé, position du mot, lemme, étiquette morphosyntaxique.\nComme tout corpus, il a des limites : déséquilibres régionaux, sur-représentation de certains registres, et parfois une taille insuffisante pour les phénomènes rares. Vous apprendrez à en tenir compte plutôt qu’à les ignorer.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#le-calendrier-du-semestre",
-    "href": "chapters/000-intro.html#le-calendrier-du-semestre",
-    "title": "Français moderne",
-    "section": "0.9 Le calendrier du semestre",
-    "text": "0.9 Le calendrier du semestre\n\n\n\n\n\n\n\n\nDate\nPhénomène\nÉtape méthodologique mise en avant\n\n\n\n\n30/9\n—\nLinguistique de corpus\n\n\n7/10 – 14/10\nNégation\nChoix du corpus, requêtes\n\n\n21/10 – 28/10\nParticipe passé\nRequêtes complexes, échantillonnage\n\n\n4/11\nLiaison\nAnnotation manuelle / automatique / precision/recall\n\n\n18/11\ne caduc\nKappa\n\n\n25/11\nSubjonctif\nAnalyse, variation sociolinguistique\n\n\n2/12\nFutur\nConsolidation\n\n\n9/12\nVoisement (Belgique)\nRédaction / rapport\n\n\n16/12\n—\nPrésentations finales",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#déroulement-dune-séance-type",
-    "href": "chapters/000-intro.html#déroulement-dune-séance-type",
-    "title": "Français moderne",
-    "section": "0.10 Déroulement d’une séance type",
-    "text": "0.10 Déroulement d’une séance type\n\nIntroduction générale : Présentation du cadre théorique et des notions clés.\nSéances thématiques : Approfondissement d’un aspect spécifique de l’analyse de corpus à chaque cours.\n\n\n\nMatériel requis :\n\nDans la mesure du possible, venez avec votre ordinateur portable afin de réaliser les manipulations et exercices pratiques sur corpus.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#ce-quon-attend-de-vous",
-    "href": "chapters/000-intro.html#ce-quon-attend-de-vous",
-    "title": "Français moderne",
-    "section": "0.11 Ce qu’on attend de vous…",
-    "text": "0.11 Ce qu’on attend de vous…\n\nChoisissez, dans les prochaines séances, la variable de recherche que vous suivrez pour votre projet personnel. Plus vous la fixez tôt, plus vous pourrez appliquer chaque nouvelle méthode (échantillonnage, annotation, kappa, …) directement à votre propre corpus au fil du semestre.\nTenez un carnet méthodologique : notez les décisions méthodologiques que vous avez prises pour votre projet, et pourquoi. C’est la matière première de votre rédaction finale.\nGardez ce document sous la main. Il sera le fil conducteur de toutes les séances à venir.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#évaluation",
-    "href": "chapters/000-intro.html#évaluation",
-    "title": "Français moderne",
-    "section": "0.12 Évaluation",
-    "text": "0.12 Évaluation\n0.12.1 1. Travail écrit\n\nFormat : Court article académique (maximum 5 000 mots) basé sur une étude de corpus.\nMatériel : Le corpus et les outils d’analyse sont fournis.\nObjet : Recherche personnelle sur corpus.\n\nAnalyse d’une variante en français (si possible, une variante dont l’usage est souvent discuté dans le discours public).\nÉtude de la littérature théorique.\nAnalyse empirique de l’usage de cette variante sur la base du corpus.\n\nPièces jointes obligatoires : Vous devez joindre à votre rendu l’ensemble des fichiers (scripts, données, etc.) utilisés pour réaliser vos travaux ainsi que les exercices réalisés pendant le cours.\nSeconde session : Le travail écrit compte pour 100 % de la note en seconde session.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#présentation-orale",
-    "href": "chapters/000-intro.html#présentation-orale",
-    "title": "Français moderne",
-    "section": "0.13 2. Présentation orale",
-    "text": "0.13 2. Présentation orale\n\nFormat : Présentation orale de votre travail de recherche personnelle.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#informations-pratiques-et-échéances",
-    "href": "chapters/000-intro.html#informations-pratiques-et-échéances",
-    "title": "Français moderne",
-    "section": "0.14 Informations pratiques et échéances",
-    "text": "0.14 Informations pratiques et échéances\n\nPour le 21 octobre :\n\nMoi : La répartition des points, les grilles d’(auto)-évaluation ainsi que la date limite pour la remise du travail écrit seront communiquées.\nVous : Choisissez votre sujet de recherche et envoyez-le-moi par e-mail afin que je puisse éventuellement vous valider le sujet ou vous rediriger.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#supports-de-cours",
-    "href": "chapters/000-intro.html#supports-de-cours",
-    "title": "Français moderne",
-    "section": "0.15 Supports de cours",
-    "text": "0.15 Supports de cours\n\nSur Toledo, lien vers le site internet du cours pour que vous puissiez avoir tout au même endroit avec les fichiers multimédias etc.\nMot-de-passe: fr-moderne\n🚨 c’est un test, donnez-moi votre avis et vos retours sur votre expérience…",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#la-ou-les-grammaires",
-    "href": "chapters/000-intro.html#la-ou-les-grammaires",
-    "title": "Français moderne",
-    "section": "0.16 La ou les grammaires ?",
-    "text": "0.16 La ou les grammaires ?",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#grammaire-de-lécrit",
-    "href": "chapters/000-intro.html#grammaire-de-lécrit",
-    "title": "Français moderne",
-    "section": "0.17 Grammaire de l’écrit ?",
-    "text": "0.17 Grammaire de l’écrit ?\n\nUniversalité de la parole :\n\nLa parole (communication orale) est le mode de communication le plus répandu.\n\n\n\n\nAbsence de système écrit :\n\nPlus de 41 % des langues du monde ne possèdent pas de système d’écriture.\n\nPrésence de l’oral :\n\nEn revanche, toutes les langues humaines disposent d’un système de communication oral.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#lenfant",
-    "href": "chapters/000-intro.html#lenfant",
-    "title": "Français moderne",
-    "section": "0.18 L’enfant",
-    "text": "0.18 L’enfant\n\n\nAcquisition de la grammaire interne (mentale) :\n\nCapacité précoce : Vers 3 ou 4 ans, les enfants sont capables de produire des phrases grammaticalement correctes.\nIndépendance de l’apprentissage formel : Cette capacité s’exprime alors qu’ils n’ont jamais appris la grammaire de l’écrit.\n\nDéfinition de la grammaire interne :\n\nLa grammaire dite interne ou mentale contient l’ensemble des règles cognitives qui permettent de parler et de comprendre spontanément une langue.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#grammaire-des-psycho-linguistes",
-    "href": "chapters/000-intro.html#grammaire-des-psycho-linguistes",
-    "title": "Français moderne",
-    "section": "0.19 Grammaire des (psycho-)linguistes",
-    "text": "0.19 Grammaire des (psycho-)linguistes",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#la-notion-de-faute",
-    "href": "chapters/000-intro.html#la-notion-de-faute",
-    "title": "Français moderne",
-    "section": "0.20 La notion de faute",
-    "text": "0.20 La notion de faute\n\n” Qu’on s’en réjouisse ou qu’on le regrette, la langue présente des usages multiples, qui varient en fonction des aires géographiques, des locuteurs, mais aussi, pour un même locuteur, ou une même locutrice, en fonction des situations ”\n- GGF, 2021, p. XV\n\n\nLa perspective cognitive / d’apprentissage :\n\nL’apprentissage de la langue, un manque d’attention ou une pathologie.\nOn qualifie cet écart d’erreur.\n\nLa perspective prescriptive / des puristes :\n\nLe non-respect des règles établies et de la norme institutionnelle.\nOn qualifie cet écart de faute.\nLa perspective de la linguistique descriptive :\n\nCes formes sont analysées comme des variantes.\nElles s’inscrivent pleinement dans la structure et la dynamique diachronique de la langue, au sein de laquelle elles existent souvent depuis longtemps.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#les-règles",
-    "href": "chapters/000-intro.html#les-règles",
-    "title": "Français moderne",
-    "section": "0.21 Les règles",
-    "text": "0.21 Les règles",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#les-règles-des-linguistes",
-    "href": "chapters/000-intro.html#les-règles-des-linguistes",
-    "title": "Français moderne",
-    "section": "0.22 Les règles des linguistes",
-    "text": "0.22 Les règles des linguistes\n\nAnalyse de la variation :\n\nLes linguistes d’aujourd’hui ne doivent pas choisir, parmi les variantes, celle qui est la « meilleure ».\nIls observent la véritable diversité des usages réels.\n\nAvancées technologiques :\n\nCette observation est facilitée par le développement de grands corpus (contrairement aux grammairiens du XVIIᵉ siècle).\n\nVariabilité des règles (Étude de Shana Poplack) :\n\nShana Poplack a compilé 163 grammaires écrites entre 1530 et 2000.\nL’étude montre clairement que les règles sont variables selon les époques et les auteurs, notamment sur :\n\nQuel verbe doit être suivi d’un subjonctif.\nLa motivation du choix entre le futur simple et le futur périphérique/proche (aller + infinitif).\nLe choix entre les pronoms « nous » et « on ».",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#les-règles-puristes",
-    "href": "chapters/000-intro.html#les-règles-puristes",
-    "title": "Français moderne",
-    "section": "0.23 Les règles puristes",
-    "text": "0.23 Les règles puristes\nValorisation d’un état de la langue disparu :\n\nIl existe souvent une valorisation d’un état de la langue aujourd’hui disparu.\nConséquence : culpabiliser l’usage contemporain et majoritaire au profit de cet état disparu.\nExemple (Subjonctif imparfait après un verbe au passé) :\n\nUsage contemporain/majoritaire : « Il fallait que tu viennes »\nUsage historique/disparu : « Il fallait que tu vinsses »Concept théorique :\n\n\n\n\nArnold Zwicky nomme ces règles des « règles zombies » (zombie rules).",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#évolution-de-la-grammaire",
-    "href": "chapters/000-intro.html#évolution-de-la-grammaire",
-    "title": "Français moderne",
-    "section": "0.24 Évolution de la grammaire",
-    "text": "0.24 Évolution de la grammaire\n\n\nLa langue française n’est pas fixée et ne se fixera point. […] Les langues ni le soleil ne s’arrêtent plus. Le jour où elles se fixent, c’est qu’elles meurent.\n- Victor Hugo\n\n\n\n\nVictor Hugo (1802-1885)",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#doù-viennent-les-règles-des-puristes",
-    "href": "chapters/000-intro.html#doù-viennent-les-règles-des-puristes",
-    "title": "Français moderne",
-    "section": "0.25 D’où viennent les règles des puristes ?",
-    "text": "0.25 D’où viennent les règles des puristes ?\n\nLe mythe du « siècle d’or » :\n\nOn associe souvent le XVIIᵉ siècle à un âge d’or de la langue française (porté par Molière, Racine, La Fontaine…).\nMalgré la grandeur de ces auteurs, peu de grammairiens de l’époque possédaient une vue d’ensemble sur le fonctionnement réel de la grammaire.\nLeurs travaux se limitaient le plus souvent à des remarques anecdotiques.\n\nL’apport de Vaugelas (1647) :\n\nUn objectif politique : Sa démarche répond à une volonté politique affirmée de distinguer le parler de l’élite parisienne du reste de la population.\nLa notion de « bon usage » : Vaugelas cherche à formaliser et imposer le « bon usage », mais s’appuie sur une définition circulaire.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#pourquoi-fait-on-des-fautes",
-    "href": "chapters/000-intro.html#pourquoi-fait-on-des-fautes",
-    "title": "Français moderne",
-    "section": "0.26 Pourquoi fait-on des fautes ?",
-    "text": "0.26 Pourquoi fait-on des fautes ?\n\nParce que tous les locuteurs ont besoin d’adapter leur langue à la situation.\nParce qu’on a tendance à suivre une logique plus systémique et à ignorer les exceptions → on généralise les règles.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/002-intro-corpus.html#la-linguistique-de-corpus",
-    "href": "chapters/002-intro-corpus.html#la-linguistique-de-corpus",
-    "title": "Français moderne",
-    "section": "2.1 La linguistique de corpus",
-    "text": "2.1 La linguistique de corpus\n\nObjectif\n\nÉtudier les phénomènes linguistiques à partir de méthodes quantitatives, testables et mesurables.\nUtiliser des méthodes scientifiques pour examiner comment la langue est acquise, représentée et traitée dans le cerveau, et comment nous pouvons la produire.\n\nDémarche\n\nManipuler systématiquement des variables pour mesurer la langue.\nExaminer la relation entre variables indépendantes et dépendantes.",
-    "crumbs": [
-      "Chapters",
-      "Linguistique de corpus"
-    ]
-  },
-  {
-    "objectID": "chapters/002-intro-corpus.html#quest-ce-quun-corpus",
-    "href": "chapters/002-intro-corpus.html#quest-ce-quun-corpus",
-    "title": "Français moderne",
-    "section": "2.2 Qu’est-ce qu’un corpus ?",
-    "text": "2.2 Qu’est-ce qu’un corpus ?\n\nDéfinition\n\nEnsemble de données provenant de langues naturelles (McEnery, Xiao & Tono, 2006).\nRegroupe des exemples autour d’un prototype.\nLangue dans des contextes spontanés, naturels, écologiques.\nReprésentatif d’une langue ou d’un registre spécifique.\n\n\n\nEnsemble de textes établi selon un principe de documentation exhaustive, un critère thématique ou exemplaire en vue de leur étude linguistique\n- Trésor de la Langue Française\n\n\n« Une collection de données langagières sélectionnées et organisées selon des critères linguistiques explicites pour servir d’échantillon du langage »\n- John Sinclair",
-    "crumbs": [
-      "Chapters",
-      "Linguistique de corpus"
-    ]
-  },
-  {
-    "objectID": "chapters/002-intro-corpus.html#quest-ce-que-la-linguistique-de-corpus",
-    "href": "chapters/002-intro-corpus.html#quest-ce-que-la-linguistique-de-corpus",
-    "title": "Français moderne",
-    "section": "2.3 Qu’est-ce que la linguistique de corpus ?",
-    "text": "2.3 Qu’est-ce que la linguistique de corpus ?\n\nBranche de la linguistique\nObjet : réflexion sur données langagières authentiques orales ou écrites\nDomaine très varié. Il y a plusieurs linguistiques de corpus",
-    "crumbs": [
-      "Chapters",
-      "Linguistique de corpus"
-    ]
-  },
-  {
-    "objectID": "chapters/002-intro-corpus.html#étape-1-question-de-recherche-et-hypothèses",
-    "href": "chapters/002-intro-corpus.html#étape-1-question-de-recherche-et-hypothèses",
-    "title": "Français moderne",
-    "section": "2.4 Étape 1 : Question de recherche et hypothèses",
-    "text": "2.4 Étape 1 : Question de recherche et hypothèses",
-    "crumbs": [
-      "Chapters",
-      "Linguistique de corpus"
-    ]
-  },
-  {
-    "objectID": "chapters/002-intro-corpus.html#étape-2-trouver-ou-construire-un-corpus",
-    "href": "chapters/002-intro-corpus.html#étape-2-trouver-ou-construire-un-corpus",
-    "title": "Français moderne",
-    "section": "2.5 Étape 2 : Trouver (ou construire) un corpus",
-    "text": "2.5 Étape 2 : Trouver (ou construire) un corpus\nBanques de données :\n2.5.0.0.1 Corpus de Langue Parlée (Oral)\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nCFPP2000\nInterviews conversationnelles sur les quartiers de Paris et sa proche banlieue.\n~50 h / &gt;700 000 mots (volume Orféo moindre, date antérieure)\nLien\n\n\nCLAPI\nInteractions multimédias en situation naturelle (professionnelle, médicale, classe, etc.).\n~17 h / ~170 000 mots (sous-ensemble natif)\nLien\n\n\nC-ORAL-ROM\nCorpus comparatifs de langue spontanée des principales langues romanes (FR, IT, PT, ES).\nTotalité partie FR (123 h / 772 textes au total)\nLien\n\n\nCRFP\nÉchantillons de français parlé dans ~40 villes selon divers profils de locuteurs (aligné texte/son).\nTotalité (~36 h / 440 000 mots / 134 enregistrements)\nLien\n\n\nFLEURON\nSituations de la vie universitaire et quotidienne pour étudiants étrangers.\n~3 h / 35 000 mots\nLien\n\n\nFRENCH ORAL NARRATIVE\nContes oraux (87 contes par 18 conteurs du CLiO à Vendôme) annotés en TEI.\nTotalité\nLien\n\n\nOFROM\nEntretiens et interactions enregistrés en Suisse romande (aligné texte/son).\n&gt;25 h / ~300 000 mots (actuellement ~80 h / ~1M mots)\nLien\n\n\nTCOF\nInteractions adultes-enfants et conversations/récits entre adultes (+ coll. Debaisieux & Caddeo).\n~23 h / ~300 000 mots\nLien\n\n\nTUFS\nEntretiens recueillis dans des universités françaises (Aix, Paris, Bordeaux) par l’Univ. de Tokyo.\nTotalité (~54 h / &gt;750 000 mots)\nLien\n\n\nValibel\nEnregistrements de productions orales en Belgique (Bruxelles et Wallonie).\n~43 h / 500 000 mots (sur 373 h au total)\nLien\n\n\n\n\n2.5.0.0.2 Corpus de Langue Écrite & Communication Numérique\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nANNODIS\nTextes diversifiés enrichis en structures discursives (Est Républicain, Wikipédia, CMLF 2008, IFRI).\nTotalité (687 000 mots)\nLien\n\n\nChambers-Rostand\nPresse quotidienne française (Le Monde, L’Humanité, La Dépêche du Midi).\nTotalité (979 831 mots / 1 723 articles)\nLien\n\n\nCoMeRe\nCommunication médiée par les réseaux (blogs, tweets, SMS, courriels, forums, etc.) structurée en TEI/CLARIN/OLAC.\nNoyau de corpus\nLien\n\n\nFrantext (Libre)\nSous-corpus littéraire (romans et essais hors théâtre/poésie, 1890–1921).\nTotalité (~1,8 million de tokens / 22 œuvres)\nLien\n\n\nEst Républicain\nPresse Quotidienne Régionale (PQR) du CNRTL (3 éditions quotidiennes d’avril 2002).\nTotalité (927 035 tokens)\nLien\n\n\n\n\nAlternative : Collecter votre propre corpus.\n\n2.5.1 Construction des corpus\n2.5.1.1 1. La documentation (Métadonnées)\n\nPrincipe : Il est primordial de documenter le corpus le plus soigneusement possible en lui adossant des métadonnées explicites.\nObjectif de validité scientifique : Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.\nInformations à intégrer (Métadonnées) :\n\nQui parle / écrit ? (Profil des locuteurs : âge, genre, statut, origine).\nQuand et où ? (Date, lieu de publication ou d’enregistrement).\nDans quel contexte / situation de communication ? (Écrit formel, conversation privée, entretien, réseaux sociaux, etc.).\n\n\n\n2.5.1.2 2. L’automatisation\n\nPrincipe : Automatiser les étapes de constitution et de traitement autant que possible.\nUtilité : La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.\nBénéfices :\n\nGain de temps considérable sur les volumes importants de données.\nStandardisation et réduction des erreurs humaines pour garantir la cohérence des traitements.\n\nExemples d’application :\n\nDocuments manuscrits ou scannés : Utilisation de logiciels de reconnaissance optique de caractères (OCR / HTR).\nNettoyage et conversion de fichiers : Reformatting automatique (conversion du PDF vers du texte brut .txt).\nNettoyage des données : Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).\n\n\n\n2.5.1.3 3. Standardisation, pérennité et ouverture (Open Source)\n\nPrincipe : Encoder et stocker le corpus dans des formats ouverts afin qu’il puisse être réutilisable par d’autres chercheurs et interopérable avec divers outils.\nFormat et encodage :\n\nPrivilégier le format texte brut (.txt) ou le format XML balisé (ex. normes TEI - Text Encoding Initiative).\nS’assurer du réencodage (ex. UTF-8) pour éviter les problèmes de caractères spéciaux.\n\nLogiciels et outils :\n\nÉviter les formats propriétaires clos (ex. .docx non standardisés) ou les logiciels fermés.\nRecourir à des logiciels open-source / libres pour garantir la pérennité et la réplicabilité des analyses.\n\n\n\n2.5.2 Cas spécifique : Les corpus oraux (Transcriptions & anonymisation)\n\nLe choix théorique de la transcription :\n\nTranscrire l’oral vers l’écrit dépend fondamentalement de la grille d’analyse et des objectifs théoriques du chercheur.\nOrthographe standard vs Transcription phonétique / alignée :\n\nFaut-il utiliser une orthographe normalisée (ex. « Je ne sais pas, enfin… ») ou une transcription fidèle à la prononciation effective / la syntaxe de l’oral (ex. « chais pas m’enfin ») ?\nArbitrage : Si l’objectif est une analyse syntaxique ou lexicale globale, l’orthographe standardisée est souvent privilégiée pour faciliter le traitement automatique. Si l’étude porte sur la phonétique, les hésitations ou les marqueurs discursifs, une transcription fine (ou un alignement texte-signal audio) s’impose.\n\n\nL’anonymisation :\n\nÉtape éthique et juridique indispensable avant la mise à disposition ou la publication d’un corpus d’oral.\nConsiste à masquer ou remplacer par des étiquettes neutres toutes les informations directement ou indirectement identifiables (noms propres, lieux spécifiques, numéros de téléphone, institutions citées).\n\n\n\n2.5.3 Cadre juridique et éthique\n2.5.3.1 Aspects juridiques : Droit d’auteur et diffusion\n\nAspiration de textes sur le Web (Web Scraping) :\n\nPropriété intellectuelle : Même lorsqu’un texte est mis à disposition publiquement sur internet, l’auteur en reste le propriétaire.\nDroit de fouille de données (Data Mining) vs Diffusion :\n\nIl est légalement permis d’aspirer et d’utiliser des textes pour un usage d’analyse et de recherche.\nInterdiction de redistribution enrichie : On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis mettre le tout à disposition du grand public sans l’accord des ayants droit.\n\n\nRessources sous licences libres (ex. Wikipédia) :\n\nLes contenus sous licences de type Creative Commons (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).\n\n\n\n2.5.3.2 Aspects éthiques : Recueil privé et consentement éclairé\nLors du recueil de données privées ou d’enregistrements de personnes :\n\nObtention du consentement éclairé :\n\nIl est obligatoire de recueillir l’accord préalable des participants pour étudier leurs données.\nTransparence complète : Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.\n\nCollecte loyale :\n\nLa collecte ne doit jamais se faire à leur insu (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).\n\n\n\n2.5.3.3 Respect de la vie privée et anonymisation\n\nEngagement au respect de la vie privée :\n\nObligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.\n\nProcédure d’anonymisation :\n\nConsiste à effacer ou remplacer toutes les informations permettant d’identifier directement ou indirectement un individu :\n\nNoms et prénoms.\nAdresses, noms de rues et lieux trop précis.\nDates de naissance ou éléments de calendrier identifiables.\nOrganismes, entreprises ou institutions spécifiques cités lors des échanges.",
-    "crumbs": [
-      "Chapters",
-      "Linguistique de corpus"
-    ]
-  },
-  {
-    "objectID": "chapters/002-intro-corpus.html#étape-3-prétraiter-vos-données",
-    "href": "chapters/002-intro-corpus.html#étape-3-prétraiter-vos-données",
-    "title": "Français moderne",
-    "section": "2.6 Étape 3 : Prétraiter vos données",
-    "text": "2.6 Étape 3 : Prétraiter vos données",
-    "crumbs": [
-      "Chapters",
-      "Linguistique de corpus"
-    ]
-  },
-  {
-    "objectID": "chapters/002-intro-corpus.html#section-1",
-    "href": "chapters/002-intro-corpus.html#section-1",
-    "title": "Français moderne",
+    "objectID": "chapters/000-intro.html",
+    "href": "chapters/000-intro.html",
+    "title": "Introduction",
     "section": "",
-    "text": "&lt;div&gt;&lt;div style=\"font-size:24px;\"&gt;📊&lt;/div&gt;&lt;p&gt;Votre corpus&lt;/p&gt;&lt;/div&gt;\n\n\n→\n\n\n&lt;div&gt;&lt;div style=\"font-size:24px;\"&gt;✓&lt;/div&gt;&lt;p&gt;Sélectionner&lt;/p&gt;&lt;/div&gt;\n\n\n→\n\n\n&lt;div&gt;&lt;div style=\"font-size:24px;\"&gt;🎯&lt;/div&gt;&lt;p&gt;Variables contrôlées&lt;/p&gt;&lt;/div&gt;\n\n\n\n\n2.6.1 Annotation\n2.6.1.1 Dans le cas des corpus écrits\n2.6.1.1.1 Nature et formats des données écrits\n\nDonnées nativement électroniques :\n\nTextes déjà numériques (articles de presse en ligne, blogs, courriels, posts sur les réseaux sociaux, etc.).\n\n\n\n\nDonnées manuscrites :\n\nManuscrits littéraires (brouillons d’écrivains), écrits scolaires ou académiques, archives administratives ou historiques.\nNécessitent une étape préalable d’OCR (reconnaissance optique de caractères / HTR pour les manuscrits) ou de transcription manuelle.\n\nFormat recommandé :\n\nIdéalement au format texte brut (.txt) ou structuré en XML (ex. norme TEI - Text Encoding Initiative).\nPourquoi ? Pour garantir la pérennité des données, éviter les formats propriétaires (comme .docx) et assurer une compatibilité universelle avec les outils d’analyse textuelle et de traitement automatique du langage (TAL).\n\n\n\n2.6.1.1.2 Annoter le corpus (Enrichissement)\n\nPrincipe :\n\nAnnoter consiste à ajouter des informations d’ordre linguistique ou métadiscursif directement au sein des données textuelles.\n\nExemples d’annotations :\n\nCatégories grammaticales / Parties du discours (POS Tagging) : Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).\nFormes canoniques (Lemmatisation) : Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).\nEntités nommées : Identifier et étiqueter les personnes, lieux, organisations, dates, etc.\n\n\n\n2.6.1.1.3 Problèmes et limites du traitement automatique\nL’annotation automatique soulève plusieurs difficultés liées à la complexité de la langue naturelle, notamment lors des étapes d’initialisation :\n\nLa segmentation en phrases (Sentence Splitting) :\n\nProblème du point : Le signe « . » n’indique pas toujours la fin d’une phrase.\nExemple : Les abréviations (ex. M. Lebrun, etc., vol. 2) ou les adresses web/e-mails. Un segmentateur automatique simpliste peut couper la phrase au milieu à cause de ces points.\n\n\n\n\nLa segmentation en mots / Tokenisation :\n\nProblème de l’espace et des caractères spéciaux : Un mot ne correspond pas toujours à une séquence de caractères délimitée par deux espaces.\nTraits d’union : Faut-il compter « c’est-à-dire » ou « arc-en-ciel » comme \\(1\\) seul mot ou \\(3\\) à \\(5\\) tokens distincts ?\nMots composés sans trait d’union (expressions polylexicales) :\n\nEx. « machine à laver » : sémantiquement, c’est une seule unité lexicale, mais graphiquement elle contient \\(3\\) mots séparés par des espaces.\nSelon les outils, cette expression sera parfois découpée en 3 tokens (machine / à / laver), parfois unifiée (machine_à_laver).\n\nApostrophes et contractions :\n\nEx. « penses-tu ? » ➔ Deux mots (penses + tu), liés par un trait d’union.\nEx. « l’arbre » ➔ Deux unités (l’ + arbre).\n\n\n\n\n\nDivergence des outils automatiques :\n\nChaque logiciel ou chaîne de traitement TAL (ex. Spacy, Stanford NLP, TreeTagger, Lexico, TXM) possède ses propres règles de segmentation et ses propres algorithmes.\nPar conséquent, deux outils appliqués au même corpus n’obtiendront pas toujours les mêmes performances ni le même nombre total de mots (tokens).\n\n\n\n2.6.1.2 Activité : Test de tokenisation\nComprendre comment les choix de prétraitement (tokenisation) modifient le décompte des unités dans l’analyse de texte[cite: 2].\n2.6.1.3 Phrase cible\n\n« C’est-à-dire qu’il y a des machines à laver de haute technologie »\n\n\n2.6.1.4 Méthode 1 : Tokenisation stricte / graphique\n\nCritère : Découpage strict basé uniquement sur les espaces et les ponctuations.\nListe des tokens :\n\nC'\nest\nà\ndire\nqu'\nil\ny\na\ndes\nmachines\nà\nlaver\nde\nhaute\ntechnologie\n\nTotal : 15 tokens\n\n\n2.6.2 Méthode 2 : Tokenisation sémantique / polylexicale\n\nCritère : Regroupement des expressions polylexicales (MWE) et locutions figées en unités sémantiques uniques.\nListe des tokens :\n\nC'est-à-dire\nqu'\nil y a\ndes\nmachines à laver\nde\nhaute technologie\n\n\n\n2.6.3 Partitionner un corpus\n\nPartitionner un corpus consiste à le découper en plusieurs subdivisions nommées (sous-corpus) selon un ou plusieurs critères structurants.\nLes éléments d’une partition ne sont pas forcément des exemples contigus dans le fichier texte ou audio (ex. toutes les interventions d’un même individu dispersées tout au long d’un enregistrement).\nTrès fréquemment appliqué à la transcription des enregistrements oraux.\n\n\n2.6.3.1 Critères et types de partitions\n\nPartitions en fonction du locuteur :\n\nRegroupement par individu (ex. Locuteur A vs. Locuteur B).\nRegroupement par catégories ou groupes de locuteurs (variables sociolinguistiques : âge, genre, niveau d’études, profession, origine géographique).\n\nPartitions en fonction du temps / de la chronologie :\n\nÉvolution diachronique (ex. corpus découpé par décennies ou par années).\nDécoupage interne à une interaction (ex. début, milieu, fin de l’enregistrement).\n\nPartitions en fonction des moments clés de l’enregistrement :\n\nDécoupage selon la situation de communication, les phases de l’interaction ou les sujets abordés (ex. phase d’accueil, débat guidé, parole libre, tâches spécifiques).\n\n\n\n2.6.3.2 Pourquoi partitionner ?\n\nOn peut travailler sur tout le corpus sans partitionner :\n\nUtile pour avoir une vue d’ensemble, calculer la fréquence globale des mots ou dresser la liste du vocabulaire total (lexique global).\n\nPourquoi découper en partitions alors ?\n\nContraste et comparaison : Permet d’opposer des sous-corpus pour faire ressortir des spécificités statistiques (sur-emploi ou sous-emploi de certains termes).\nFocalisation : Permet de centrer l’analyse empirique sur des parties ciblées du corpus.\nÉtude de la variation : S’intéresser à certains locuteurs particuliers ou comparer différents groupes de locuteurs (ex. les jeunes vs. les séniors, les journalistes vs. les invités).\n\n\n\n2.6.3.3 Quand et comment y penser ?\n\nPenser au partitionnement en amont :\n\nLa possibilité de partitionner un corpus dépend directement de la qualité de l’archivage et de l’encodage des données dès la phase de constitution du corpus.\n\nExploitation des métadonnées (Fichiers XML / En-têtes) :\n\nDans des corpus structurés en XML (comme le projet ORFEO), chaque fichier ou intervention contient des balises intégrant des propriétés et métadonnées.\nExemples de propriétés exploitables pour partitionner :\n\nPropriétés du locuteur : genre, âge, statut, rôle interactionnel.\nPropriétés contextuelles : lieu d’enregistrement, date, langue / dialecte, degré de formalité, type de média (radio, conversation privée, entretien).",
+    "text": "Elle ne s’est pas rendue compte de son erreur.\nTous ces jours qui se sont succédés sans qu’il ne se passe rien.\nC’est une maitresse qu’ont toujours craint les enfants.\nT’as pas vu la tête qu’il a fait ?\nDes chants et des danses bretons.\nCertains régions et départements sont plus touchés que d’autres.\n\n\n\nTous les matins, je maudis ce putain de réveil.\nC’est encore nous qui avons raison !\nC’est le jour et la nuit !\nBon, on va y aller.\nJe viendrai en scooter.\nMon fils se déplace en trottinette éléctrique.\nJe m’en rappelle.\nTu sais quoi ?",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#travail-écrit",
+    "href": "chapters/000-intro.html#travail-écrit",
+    "title": "Introduction",
+    "section": "0.12.1 1. Travail écrit",
+    "text": "0.12.1 1. Travail écrit\n\nFormat : Court article académique (maximum 5 000 mots) basé sur une étude de corpus.\nMatériel : Le corpus et les outils d’analyse sont fournis.\nObjet : Recherche personnelle sur corpus.\n\nAnalyse d’une variante en français (si possible, une variante dont l’usage est souvent discuté dans le discours public).\nÉtude de la littérature théorique.\nAnalyse empirique de l’usage de cette variante sur la base du corpus.\n\nPièces jointes obligatoires : Vous devez joindre à votre rendu l’ensemble des fichiers (scripts, données, etc.) utilisés pour réaliser vos travaux ainsi que les exercices réalisés pendant le cours.\nSeconde session : Le travail écrit compte pour 100 % de la note en seconde session.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#une-grammaire-dans-la-tête",
+    "href": "chapters/000-intro.html#une-grammaire-dans-la-tête",
+    "title": "Introduction",
+    "section": "0.19.1 Une grammaire dans la tête",
+    "text": "0.19.1 Une grammaire dans la tête\nVideo",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#pas-de-grammaire-à-loral",
+    "href": "chapters/000-intro.html#pas-de-grammaire-à-loral",
+    "title": "Introduction",
+    "section": "0.19.2 Pas de grammaire à l’oral ?",
+    "text": "0.19.2 Pas de grammaire à l’oral ?\n\nLes formes de la langue orale peuvent surprendre mais elles suivent une grammaire.\nL’oral suit, en général, les mêmes règles que l’écrit\nCertes, on entend moins l’accord, mais il est bien présent dans la grammaire de l’oral.\n\nElle mange. /ɛl mɑ̃ʒ/ &gt;&lt; Elles mangent. /ɛl mɑ̃ʒ/\nElle a mangé. /ɛl a mɑ̃ʒe/&gt;&lt; Elles ont mangé /ɛlz ɔ̃ mɑ̃ʒe/\n\nPas moins complexe que l’écrit\n\nConstructions clivées : “C’est moi qui joue.” vs “je joue”",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#des-règles-arbitraires",
+    "href": "chapters/000-intro.html#des-règles-arbitraires",
+    "title": "Introduction",
+    "section": "0.20.1 Des règles arbitraires ?",
+    "text": "0.20.1 Des règles arbitraires ?\nPour certains, la grammaire est avant tout une question de respect.\nLa position d’Alain Bentolila\nLe linguiste Alain Bentolila affirme qu’il faut :\n\n« Apprendre à respecter les règles de la langue. »\n\nIl ajoute également que :\n\n« Les règles linguistiques sont arbitraires et n’autorisent, par leur nature même, aucune hypothèse, aucun questionnement. »\n\n\n\n0.20.1.1 Analyse critique de la citation\n\nL’arbitraire du signe : Cette affirmation fait référence à l’arbitraire du signe (le lien entre le mot et l’objet qu’il désigne est conventionnel).\n\n\n\n\n\n\nImportant\n\n\n\nLe Signe Linguistique selon Ferdinand de Saussure (1857-1913)\nLe signe linguistique est défini comme l’union entre un « signifiant » et un « signifié » représentant un référent.\nLes composantes du signe\n\nLe signifiant : Le modèle sonore ou l’image acoustique (représenté ici par l’onde sonore).\n\n\n\nLe signifié : Le concept ou la représentation mentale (représenté ici par la silhouette rose du cheval).\n\n\n\nLe référent : L’objet du monde réel auquel le signe renvoie (le véritable cheval).\n\n\n\n\n\n\n\nLa structure du système : En revanche, cela ne s’applique pas à l’organisation des signes en système linguistique. Cette organisation repose sur des règles générales et logiques, et non sur un choix purement arbitraire.\n\n\n\nSi [la grammaire] se trouve opposée à l’usage, tant pis pour elle, c’est sa faute et elle doit se réformer.\n- Claude Buffier",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#linguistes-vs-puristes",
+    "href": "chapters/000-intro.html#linguistes-vs-puristes",
+    "title": "Introduction",
+    "section": "0.20.2 Linguistes vs Puristes",
+    "text": "0.20.2 Linguistes vs Puristes\nLes Linguistes (Approche scientifique)\n\nRègles robustes : Basées sur des régularités observables et les grandes tendances de l’usage.\nAccessibles : Faciles à apprendre car elles suivent la logique naturelle de la langue.\nExplications factuelles : Justifiées par l’histoire de la langue ou le contact entre variétés proches.\nGestion de la variation : Analysent les changements en intégrant leur sens social (identité, milieu).\n\n\nLes Puristes (Approche prescriptive)\n\nContrôle de l’usage : Recommandent ou bannissent des formes linguistiques.\nBases subjectives : S’appuient sur des critères pseudo-juridiques, moraux ou esthétiques.\nJugements de valeur : Pratiquent la hiérarchisation plutôt que la description.\n\n\nQuestion centrale : Qui sont ces « juges » qui s’octroient le droit de fixer les règles de grammaire ?",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#traitement-de-la-variation-en-linguistique",
+    "href": "chapters/000-intro.html#traitement-de-la-variation-en-linguistique",
+    "title": "Introduction",
+    "section": "0.22.1 Traitement de la variation en linguistique",
+    "text": "0.22.1 Traitement de la variation en linguistique\n\nHétérogénéité de la langue :\n\nLa langue n’est pas un système monolithique ou homogène.\n\nConstat des linguistes :\n\nLes linguistes observent plusieurs variantes valides.\nCes variantes sont parfois partagées par des régions géographiquement très éloignées.\n\nExemples de variation géographique (diatopique) :\n\nStructure comparative :\n\nVariante observée : « Au plus il lit, au plus il dort »\nVariante standard/alternative : « Plus il lit, plus il dort »\nRégions concernées : Provence, Belgique.\n\nOrdre des mots (infinitif et pronom/objet) :\n\nVariante observée : « J’ai laissé sortir mon fils »\nVariante alternative : « J’ai laissé mon fils sortir »\nRégions concernées : Canada, Antilles, Bretagne.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#variantes-et-registres",
+    "href": "chapters/000-intro.html#variantes-et-registres",
+    "title": "Introduction",
+    "section": "0.22.2 Variantes et registres",
+    "text": "0.22.2 Variantes et registres\n\nL’histoire de la grammaire française s’est accompagnée d’un rejet des phénomènes de variation régionale et sociale au profit de la notion de norme, ou de français standard, qui considère qu’une façon de parler est supérieure aux autres.\n- GGF, 2021, p. XXVII\n\n\nNe me faites pas dire ce que je n’ai pas dit…\nPrincipe d’adaptation :\n\nLa langue s’adapte au contexte.\n\n\n\n\nCe que les puristes qualifient de « fautes » constitue souvent des variantes stylistiques évaluées par les linguistes selon le niveau de formalité ou leur sens social, par exemple :\n\nStyle informel : Échanges avec des proches, conversations de tous les jours.\nStyle formel : Présentation de résultats de recherche à l’université, écrits officiels.\n\n\n\n\nLes règles prescriptives sont en fait plus souvent des règles de savoir-vivre et de politesse : vous ne venez pas en cours en maillot de bain, et je ne viens pas en tongs… on ne va pas non plus à la piscine en smoking.\nIl faudrait peut-être considérer le bon usage comme l’usage qui s’adapte d’une situation à l’autre.\nEn sociolinguistique, on distingue :\n\nPrestige manifeste : Utilisation des formes reconnues et valorisées par la norme officielle.\nPrestige latent : Emploi de formes blâmées par la norme comme signe d’appartenance au groupe. Les institutions de la langue française",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#la-grammaire-évolue",
+    "href": "chapters/000-intro.html#la-grammaire-évolue",
+    "title": "Introduction",
+    "section": "0.24.1 La grammaire évolue",
+    "text": "0.24.1 La grammaire évolue\n\nVitesse d’évolution :\n\nLa création de mots est beaucoup plus rapide que les changements de la grammaire.\n\nLes mots grammaticaux :\n\nLa création de mots grammaticaux prend des siècles.\n\n\n\n\n0.24.1.1 La négation (depuis le XVIIIᵉ siècle)\n\nUtilisation historique de petits mots : pas, rien, goutte, mie (cf. mica en italien).\nSeuls pas et rien sont restés.\n\n\n\n\n0.24.1.2 Les structures interrogatives\n\n\nÉvolution des formes interrogatives :\n\nPlusieurs formes interrogatives étaient déjà utilisées à la Renaissance.\nL’usage du mot interrogatif en position finale (ex. « Tu vas où ? ») est en revanche très récent.\n\n\nCritique de la vision puriste :\n\nLes puristes fantasment un « âge d’or » passé de la langue.\nPourtant, l’ancien français était déjà très différent du français d’aujourd’hui.\n\nContinuité historique de la transformation linguistique :\n\nL’ancien français est lui-même issu d’une évolution du latin.\nCette transition s’est accompagnée du développement de nouvelles structures : davantage de prépositions, apparition/multiplication des pronoms sujets et des articles par rapport au latin.\nEn ancien français, on observe la perte de la plupart des marques de cas du latin, compensée par le passage à un ordre des mots fixe.\n\n\n\n\nExercice\nRelevez ici, dans les propos misogynes de Philippe de Novare, quelques éléments propres à l’ancien français :\n\n« A fame ne doit on apanre letres ne escrire si ce n’est especiaument pour estre nonnain. »\n\n\n\n💡 Affichez les réponses\n\n\n\nabsence d’article\nl’ordre des mots libre (a fame)\nsujet (on) après le verbe\nne suffit à exprimer la négation\nnonnain correspond au complément vs nonne comme sujet\n\n\n\n\n\nSytématisation des pronoms et articles :\n\nCe n’est qu’à la Renaissance (XVIᵉ siècle) que l’emploi des articles et des pronoms sujets devient systématique.\n\nÉlision des adjectifs possessifs féminins (XVIᵉ–XVIIᵉ siècles) :\n\nLes adjectifs possessifs féminins (ma, ta, sa) s’élidaient directement devant une voyelle, au lieu d’employer les formes mon, ton, son.\nExemples : Ronsard ou Molière écrivent couramment « m’amour » (pour mon amour) ou « m’amie » (pour mon amie).\n\nUsages négatifs et syntaxiques au XVIIᵉ siècle :\n\nEmploi de la négation : Utilisation courante de point.\n\nExemple : « Je ne veux point ».\n\nPlacement du complément : Le complément était encore placé avant une suite de verbes.\n\nExemple : « Je vous veux voir ».\n\n\nAction des grammairiens :\n\nCertaines formes très répandues au XVIIᵉ siècle, réprimandées par des grammairiens comme Vaugelas, ont fini par disparaître de l’usage standard.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#de-lacadémie-française",
+    "href": "chapters/000-intro.html#de-lacadémie-française",
+    "title": "Introduction",
+    "section": "0.25.1 De l’académie française ?",
+    "text": "0.25.1 De l’académie française ?\n\n\n\nInstitut de France, fondation en 1795\n\n\n\n\n« L’académie française a été instaurée par Richelieu gardienne de la langue » — Académie française\n\n↔︎\n\n« Depuis le XIXe siècle, l’académie française ne suit plus l’évolution de la langue » — Les linguistes atterrés\n\n\n\n0.25.1.1 Quel est son rôle ?\n\nInstitution d’Ancien Régime fondée en 1635\nSelon ses statuts, elle doit rédiger ” promptement ” 😝 un dictionnaire et une grammaire dans le but de ” donner des règles certaines à notre langue et à la rendre pure, éloquente et capable de traiter les arts et les sciences\n1er dictionnaire en 1694: objectif élitiste assumé\n\npour “distinguer les gens de lettres d’avec les ignorants et les simples femmes”\n\nAu total 9 éditions, la dernière en 2026\nMais beaucoups de critiques !\n\n\n\nUn best-of : 😅\n\nbisou absent\nmail est défini comme gros marteau ou une promenande plantée d’arbres\nfemme est définie comme capable de concevoir et de mettre au monde des enfants\nracisme\nhomophobie\netc.\n\nL’Académie n’a jamais publié une grammaire\nJusqu’au XIXe siècle, ils ont bien essayé d’avoir un regard (timide) mais critique sur l’orthographe et ont simplifié certaines graphies\n\nEx. pluriels en -x comme loix et roix\nEx. certains -h comme autheur et rhythme\n\n\n\n\n\n0.25.1.2 Fin XIXe siècle\n\n\nGaston Paris est un exemple d’académicien non puriste\nL’enseignement du français doit ” sortir de ces marécages ” de règles, ” être plus fructueus pour l’esprit et un peu moins dangereus pour le sens ”\n\nIl applique un réforme de l’orthographe, par exemple, fructueus, dangereus\nErreurs de copistes -us abrégé en -x\nComparez avec des mots récents comme sous, pneus, landaus\n\nDernier spécialiste de la langue siégeant à l’Académie\nAujourd’hui, à votre avis, combien de linguistes siègent à l’Académie ?\n\n\n\n\n\n\n\n\nGaston Paris, philologue (1839-1903)\n\n\n\n\n\n\n0.25.1.3 XVIIIe siècle\n\n\nRien n’est plus capable de fixer notre langue, qui se parle à la vérité dans l’Europe, mais qui s’y corrompt\n- Voltaire\n\n\n\n\n\n\n\n\nVoltaire (1694-1778)\n\n\n\n\n\n\n0.25.1.4 XXe siècle\n\n\nLa façon dont écrivent actuellement la plupart des Français et notamment les futurs professeurs […] est effrayante […].\n- Émile Faguet\n\n\n\n\nÉmile Faguet, écrivain et critique littéraire français (1847-1916)\n\n\n\n\n\n\n0.25.1.5 XXIe siècle\n\n\nPourquoi maltraite-t-on le français dans notre pays ? Le vocabulaire se réduit, on ignore la grammaire et la syntaxe.\n- Hélène Carrère d’Encausse\n\n\n\n\n\n\n\n\nHélène Carrère d’Encausse, historienne et femme politique française (1929-2023)\n\n\n\n\n\n\nÀ notre époque, chacun peut le constater la langue française est menacée. De l’extérieur, par la montée en puissance de l’anglo-saxon. De l’intérieur, par un délabrement plus grave encore et aux causes multiples\n- Jean d’Ormesson\n\n\n\n\nJean d’Ormesson, écrivain français (1925-2017)\n\n\n\n\n\n\n0.25.1.6 Depuis 2011\n\n\n\n\n0.25.1.7 Le pouvoir de l’Académie\n\nSur la langue, aucun…\nMais un prestige et une influence qui ont un impact\n\nEmpêché l’application de l’arrêté du ministre Leygues de 1900 (soutenu par des linguistes)\nBloqué la féminisation des noms de métiers jusqu’en 2019\n\nContrairement aux académies espagnole 🇪🇸, suédoise 🇸🇪, polonaise 🇵🇱, roumaine 🇷🇴, etc., elle n’a pas pour but de nous instruire sur la langue et son évolution\n\nElle cherche à ” entretenir une certaine idée de la France, et nourrir la peur du déclin ” (abeilleGrammaireSeRebelle2026?)",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#le-rôle-de-la-littérature",
+    "href": "chapters/000-intro.html#le-rôle-de-la-littérature",
+    "title": "Introduction",
+    "section": "0.25.2 Le rôle de la littérature",
+    "text": "0.25.2 Le rôle de la littérature\n\n\n0.25.2.1 Révolution française\n\n\nLe bon usage ne peut être associé à celui de la cour.\nIl faut donc trouver un autre modèle…\n… celui de la littérature\n\n\n\n\nRBZPR — French Revolution: The Cartoon\n\n\n\n\n\n\n0.25.2.2 Bescherelle\n\n1834 : Grammaire nationale ou grammaire de Racine, de Bossuet […] et de tous les écrivains les plus distingués de la France\n\n\n\nLouis-Nicolas Bescherelle - Babelio\n\n\n\n\n\n\n\nAujourd’hui encore, on fait comme si la langue française était la propriété des écrivains — « la langue de Molière ».\nMais il ne faudrait pas oublier que l’écriture de Molière n’était pas homogène. Il ne fait pas parler les nobles comme la noblesse.\n\n\n\n\n\n0.25.2.3 Le Bon usage\n\nEn 1936, Maurice Grevisse publie Le Bon Usage, où il compile la grande variété des usages littéraires des écrivains du XIXe et du début du XXe siècle.\n\n\n\n\nExercice\n\nRelevez, dans les exemples suivants, les formes que les puristes auraient considérées comme fautives :\n\nBalzac veut écrire « c’est eux »\nGide défend « malgré que ».\nMolière utilise « comment est-ce que ».\nMadame de Sévigné : « ce que j’ai besoin »\nVoltaire : « un espèce de miracle ».\nChateaubriand : « qui se sont succédés ».\nFlaubert : « se rappeler de ».\nMarcel Proust : « en vélo ».\n\n\n\n💡 Affichez les réponses\n\n\n\nBalzac → ce sont eux\nGide → bien que / malgré le fait que\nMolière → Comment vais-je…\nMadame de Sévigné : ce dont j’ai besoin\nVoltaire → une espèce de miracle\nChateaubriand → qui se sont succédé\nFlaubert → se rappeler\nProust → à vélo\n\n\n\n\n\n\nPeut‑on les accuser d’abîmer la langue française ?\nLa seule différence est peut‑être que les variantes stigmatisées sont rarement majoritaires en littérature.\nLa littérature reste un reflet imparfait des usages.\n\n\n\n\n0.25.2.4 Le rôle de l’école\n\nL’école est évidemment un vecteur de normes.\nAu XIXᵉ siècle, avec la généralisation de la scolarisation, se multiplient aussi les dictionnaires et les livres de grammaire.\nÉpoque où les langues régionales sont encore parlées à la maison → on veut former des francophones, ou plutôt des francographes.\nOn fait des cacographies et des dictées.\nL’enseignement de la langue se base essentiellement sur l’écriture : homonymes, accords, etc.\nEn 1880, Jules Ferry, ministre de l’Instruction publique, ne veut plus de « la vieille méthode grammaticale » et de « l’abus de dictées ».\n\n\n\nÀ la fin du XIXᵉ siècle, les manuels sont déjà critiqués par des linguistes comme Gaston Paris.\nEn 1900, le ministre Georges Leygues publie un arrêté ordonnant de tolérer des tournures bien ancrées dans l’usage et que les écrivains emploient eux aussi → mais l’Académie, choquée de ne pas avoir été consultée, proteste.\nEn 1901, un arrêté modifie le précédent sous la pression de l’Académie.\nEn 1976, René Haby promeut un arrêté de tolérance grammaticale.\nOn a créé petit à petit un fossé entre l’expression de la langue à la maison et la langue scolaire, qui finit parfois par se limiter aux productions scolaires.\n\n\n\n\n0.25.2.5 Le rôle du numérique\n\nAujourd’hui, rôle des correcteurs et des programmes de traitement de texte qui nous indiquent ce qui serait des erreurs.\nDe même, les outils d’IA sont entraînés sur des textes écrits et sans doute sur des grammaires puristes.\nLe Chat de Mistral est plus nuancé que l’Académie française et fait une distinction entre oral et écrit quand on lui pose des questions de grammaire.\nQuand on demande à ChatGPT (en tout cas, en 2025), il parle de niveaux de formalité, mais répète la règle puriste.\nIl n’y a donc pas de source unique pour les règles puristes → c’est un ensemble très hétéroclite.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#à-cause-de-loral",
+    "href": "chapters/000-intro.html#à-cause-de-loral",
+    "title": "Introduction",
+    "section": "0.26.1 À cause de l’oral ?",
+    "text": "0.26.1 À cause de l’oral ?\n\nIl existe plusieurs sortes d’oral : texte préparé ou non.\n\nConversation spontanée : si elle est transcrite, elle est presque illisible.\nQuand l’oral est écrit, il est presque toujours réécrit.\nMais à l’oral, il y a quand même des règles.\nLes tics de langage sont propres à l’oral : enfin, bon, voilà, etc. → ils servent à structurer la parole.\nL’oral contient souvent des jurons, mais ces mots parfois tabous nourrissent l’expression d’une certaine variété de langue.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#à-cause-du-peuple",
+    "href": "chapters/000-intro.html#à-cause-du-peuple",
+    "title": "Introduction",
+    "section": "0.26.2 À cause du peuple ?",
+    "text": "0.26.2 À cause du peuple ?\nAu XVIe siècle, les langues sont dites vulgaires (terme négatif à l’époque, mais qui vient de vulgus = la foule), par opposition à la langue noble qu’est le latin.\n\n\n\n\n\n\nNote\n\n\n\n\nAujourd’hui, on parlerait plutôt de langues vernaculaires.\nNous parlons de langues qui se sont développées à partir du latin classique, mais qui ne lui ressemblent plus.\nDe vulgari eloquentia, de Dante Alighieri.\n\n\n\n\n\nDante Alighieri (1265-1321)\n\n\n\n\n\n\nLe français populaire est généralement connoté négativement, alors que la musique populaire est plutôt connotée positivement.\nFerdinand Brunot (1932) : « La langue peut s’enrichir des créations, souvent excellentes, parce qu’elles sont instinctives, de l’esprit populaire.\nNous avons tous plusieurs registres et plusieurs accents.\n\n\n\n0.26.2.1 Les francophones qui ont accès à plusieurs variantes :\n\nétablissent des correspondances entre les différences sociales et les formes linguistiques ;\nfont attention à la représentation sociale qu’ils veulent donner d’eux-mêmes.\n→ D’où le désir de certains de se révolter face à une domination linguistique, avec l’adoption d’une forme de prestige latent.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#la-faute-de-lécriture-inclusive",
+    "href": "chapters/000-intro.html#la-faute-de-lécriture-inclusive",
+    "title": "Introduction",
+    "section": "0.26.3 La faute de l’écriture inclusive ?",
+    "text": "0.26.3 La faute de l’écriture inclusive ?\n\nOn fait souvent des reproches à l’écriture inclusive.\nLes grammairiens ont contribué à une masculinisation de la langue à partir du XVIIᵉ siècle.\nPar exemple, la règle du pronom masculin pour l’attribut : avant, on pouvait dire « je la suis » au lieu de « je le suis ».",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#le-rôle-du-numérique-1",
+    "href": "chapters/000-intro.html#le-rôle-du-numérique-1",
+    "title": "Introduction",
+    "section": "0.26.4 Le rôle du numérique",
+    "text": "0.26.4 Le rôle du numérique\n\nCorrecteurs et traitements de texte :\n\nAujourd’hui, les correcteurs orthographiques et les logiciels de traitement de texte jouent un rôle prescripteur en nous indiquant ce qu’ils considèrent comme des erreurs.\n\nModèles d’IA et données d’entraînement :\n\nLes outils d’intelligence artificielle sont entraînés principalement sur des textes écrits et, très probablement, sur des grammaires à tendance puriste.\n\nComparaison des modèles d’IA face aux questions de grammaire :\n\nLe Chat (Mistral) : Adopte une approche plus nuancée que l’Académie française et établit une vraie distinction entre la langue orale et la langue écrite.\nChatGPT (état observé en 2025) : Mentionne les niveaux de formalité, mais finit par répéter la règle puriste traditionnelle.\n\n\n\n\nQuiz time !!!",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html",
+    "href": "chapters/002-intro-corpus.html",
+    "title": "Linguistique de corpus",
+    "section": "",
+    "text": "Si on vous dit : C’EST PAS CORRECT !",
     "crumbs": [
       "Chapters",
       "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#étape-4-analyser-les-données",
-    "href": "chapters/002-intro-corpus.html#étape-4-analyser-les-données",
-    "title": "Français moderne",
-    "section": "2.7 Étape 4 : Analyser les données",
-    "text": "2.7 Étape 4 : Analyser les données\n\n\n Corpus\n Sections\n Analyses\nAnalyse :\n Variables indépendantes\n \n Variables dépendantes\n\n\n\n2.7.1 Outils et requêtes pour explorer un corpus\n2.7.1.1 Choix de l’outil linguistique pour explorer un corpus\n2.7.1.2 Construire une requête\n\n\n\n\n\n\nDéfinition\n\n\nRequête : instruction donnée au logiciel pour sélectionner certains mots\n\n\n\n\n2.7.2 Mesures quantitatives : Fréquence et spécificités\n\nOutils quantitatifs\nAussi utilisé en textométrie et lexicométrie\n\n2.7.2.1 Fréquence\n\nFréquence absolue (\\(f\\)) :\n\nDéfinition : Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.\nExemple : Le terme « liberté » apparaît 45 fois dans l’ensemble d’un discours.\n\nFréquence relative (\\(fr\\)) :\n\nDéfinition : Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (\\(N\\)), souvent exprimé en pourcentage ou en nombre de cas pour \\(N\\) mots (ex. pour 10 000 mots).\nFormule : \\(fr = \\frac{f}{N}\\)\nExemple : Si un discours compte \\(N = 10\\,000\\) mots et que « liberté » apparaît \\(f = 45\\) fois, la fréquence relative est de \\(0{,}45\\%\\) (ou 45 pour 10 000 mots).\n\n\n\n\n\n\n\n\nDéfinition\n\n\nHapax : Forme linguistique n’apparaissant qu’une seule et unique fois (\\(f = 1\\)) dans l’ensemble du corpus étudié.\n\n\n\n\n2.7.2.2 Le pré-traitement appliqué au comptage (Découpage et choix d’unités)\nLe comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :\n\nTokenisation (Découpage des mots / occurrences) :\n\nDécoupage de la chaîne de texte brute en unités minimales (tokens).\n\nComptage des formes vs Lemmes :\n\nFormes graphiques (mots bruts) : Traite différemment chaque flexion (mange, mangeons, mangera).\nLemmes : Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (manger).\nChoix méthodologique :\n\nPour les verbes ➔ Utiliser les lemmes afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.\nPour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).\n\n\n\n\n\nPrise en compte des majuscules et de la ponctuation :\n\nExemple : Faut-il distinguer le nom propre « Pierre » du nom commun « pierre » ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?\n\nPrise en compte des expressions polylexicales (locutions / MWE) :\n\nGroupes de mots fonctionnant comme une seule unité sémantique.\nExemple : Traiter « chemin de fer » ou « au fur et à mesure » comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (chemin, de, fer).\n\nParties du discours (POS Tagging) :\n\nÉtiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.\nExemple : Distinguer « ferme » (nom commun), « ferme » (adjectif) et « ferme » (verbe fermer).\n\n\n\n2.7.2.3 Mesurer la spécificité textuelle\n\nQu’est-ce qui fait la spécificité d’un texte ?\n\nC’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.\n\nCorpus test vs Corpus étalon / de référence :\n\nCorpus test (étudié) : Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.\nCorpus étalon (de référence) : Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).\n\nPrincipe de comparaison :\n\nOn compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, en fonction des tailles respectives de ces deux corpus.\n\n\n\n2.7.2.4 Indicateurs et indices statistiques de spécificité",
+    "objectID": "chapters/002-intro-corpus.html#exploration-dun-corpus-linguistique",
+    "href": "chapters/002-intro-corpus.html#exploration-dun-corpus-linguistique",
+    "title": "Linguistique de corpus",
+    "section": "2.4.1 Exploration d’un corpus linguistique",
+    "text": "2.4.1 Exploration d’un corpus linguistique\n2 objectifs possibles :\n\nDécrire la langue en tant que système\nDécrire une variété linguistique\n\n\n\nRecherche quantitative\nLe but est d’examiner une hypothèse testable découlant d’une question de recherche.\nLa langue est créée par les participants : les usagers de la langue.\n\n\n\nTa question de recherche découle de la littérature scientifique.\n\nUn modèle ou une théorie formule une prédiction concernant une situation différente de celles déjà testées.\nDeux modèles ou théories peuvent formuler des prédictions contradictoires pour une même situation.\nTu peux aussi vouloir étendre un modèle ou une théorie à une situation pertinente qui n’a pas encore été testée.",
     "crumbs": [
       "Chapters",
       "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#étape-5-conclusion-répondre-aux-questions",
-    "href": "chapters/002-intro-corpus.html#étape-5-conclusion-répondre-aux-questions",
-    "title": "Français moderne",
-    "section": "2.8 Étape 5 : Conclusion (Répondre aux questions)",
-    "text": "2.8 Étape 5 : Conclusion (Répondre aux questions)\n\n\n\nConclusion\n\n\nIl y a (ou non) une relation entre…",
+    "objectID": "chapters/002-intro-corpus.html#formulation-de-lhypothèse",
+    "href": "chapters/002-intro-corpus.html#formulation-de-lhypothèse",
+    "title": "Linguistique de corpus",
+    "section": "2.4.2 Formulation de l’hypothèse",
+    "text": "2.4.2 Formulation de l’hypothèse\n\nParce que ta question de recherche découle de la théorie, tu peux formuler une réponse attendue.\nC’est cette réponse attendue qui constitue l’hypothèse que tu vas tester.\nHypothèse : réponse attendue à la question de recherche.\n\n\n\nLa manipulation systématique des variables pour mesurer la langue.\nCherchez un corpus présentant une variation « contrôlée » dans les variables indépendantes.\n\nVariables dépendantes : Ce que vous mesurez\nVS\nVariables indépendantes : Ce que vous manipulez",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#description-linguistique",
+    "href": "chapters/002-intro-corpus.html#description-linguistique",
+    "title": "Linguistique de corpus",
+    "section": "2.4.3 Description linguistique",
+    "text": "2.4.3 Description linguistique\n\nNous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.\nIl faut tout d’abord avoir une question de recherche précise.\n\n\n\n2.4.3.1 Activité : Formulation d’hypothèses et choix de variables\n\n\n2.4.3.2 Objectif\nIdentifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.\n\n\n2.4.3.3 Consigne : À vous d’inventer !\nImaginez 2 ou 3 questions de recherche sur la langue française (usage vs norme). (Exemple : « Utilise‑t‑on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)\n\n\n\n2.4.3.4 Décomposition des variables (exemple d’application)\n\nVariable indépendante (VI) — ce que vous manipulez ou comparez\n\nModalité / Registre : langue orale vs langue écrite.\n\nVariable dépendante (VD) — ce que vous mesurez\n\nFréquence / Proportion : le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots (N) dans l’échantillon.",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#construction-des-corpus",
+    "href": "chapters/002-intro-corpus.html#construction-des-corpus",
+    "title": "Linguistique de corpus",
+    "section": "2.5.1 Construction des corpus",
+    "text": "2.5.1 Construction des corpus\n\n2.5.1.1 1. La documentation (Métadonnées)\n\nPrincipe : Il est primordial de documenter le corpus le plus soigneusement possible en lui adossant des métadonnées explicites.\nObjectif de validité scientifique : Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.\nInformations à intégrer (Métadonnées) :\n\nQui parle / écrit ? (Profil des locuteurs : âge, genre, statut, origine).\nQuand et où ? (Date, lieu de publication ou d’enregistrement).\nDans quel contexte / situation de communication ? (Écrit formel, conversation privée, entretien, réseaux sociaux, etc.).\n\n\n\n\n\n2.5.1.2 2. L’automatisation\n\nPrincipe : Automatiser les étapes de constitution et de traitement autant que possible.\nUtilité : La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.\nBénéfices :\n\nGain de temps considérable sur les volumes importants de données.\nStandardisation et réduction des erreurs humaines pour garantir la cohérence des traitements.\n\nExemples d’application :\n\nDocuments manuscrits ou scannés : Utilisation de logiciels de reconnaissance optique de caractères (OCR / HTR).\nNettoyage et conversion de fichiers : Reformatting automatique (conversion du PDF vers du texte brut .txt).\nNettoyage des données : Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).\n\n\n\n\n\n2.5.1.3 3. Standardisation, pérennité et ouverture (Open Source)\n\nPrincipe : Encoder et stocker le corpus dans des formats ouverts afin qu’il puisse être réutilisable par d’autres chercheurs et interopérable avec divers outils.\nFormat et encodage :\n\nPrivilégier le format texte brut (.txt) ou le format XML balisé (ex. normes TEI - Text Encoding Initiative).\nS’assurer du réencodage (ex. UTF-8) pour éviter les problèmes de caractères spéciaux.\n\nLogiciels et outils :\n\nÉviter les formats propriétaires clos (ex. .docx non standardisés) ou les logiciels fermés.\nRecourir à des logiciels open-source / libres pour garantir la pérennité et la réplicabilité des analyses.",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation",
+    "href": "chapters/002-intro-corpus.html#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation",
+    "title": "Linguistique de corpus",
+    "section": "2.5.2 Cas spécifique : Les corpus oraux (Transcriptions & anonymisation)",
+    "text": "2.5.2 Cas spécifique : Les corpus oraux (Transcriptions & anonymisation)\n\nLe choix théorique de la transcription :\n\nTranscrire l’oral vers l’écrit dépend fondamentalement de la grille d’analyse et des objectifs théoriques du chercheur.\nOrthographe standard vs Transcription phonétique / alignée :\n\nFaut-il utiliser une orthographe normalisée (ex. « Je ne sais pas, enfin… ») ou une transcription fidèle à la prononciation effective / la syntaxe de l’oral (ex. « chais pas m’enfin ») ?\nArbitrage : Si l’objectif est une analyse syntaxique ou lexicale globale, l’orthographe standardisée est souvent privilégiée pour faciliter le traitement automatique. Si l’étude porte sur la phonétique, les hésitations ou les marqueurs discursifs, une transcription fine (ou un alignement texte-signal audio) s’impose.\n\n\nL’anonymisation :\n\nÉtape éthique et juridique indispensable avant la mise à disposition ou la publication d’un corpus d’oral.\nConsiste à masquer ou remplacer par des étiquettes neutres toutes les informations directement ou indirectement identifiables (noms propres, lieux spécifiques, numéros de téléphone, institutions citées).",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#cadre-juridique-et-éthique",
+    "href": "chapters/002-intro-corpus.html#cadre-juridique-et-éthique",
+    "title": "Linguistique de corpus",
+    "section": "2.5.3 Cadre juridique et éthique",
+    "text": "2.5.3 Cadre juridique et éthique\n\n2.5.3.1 Aspects juridiques : Droit d’auteur et diffusion\n\nAspiration de textes sur le Web (Web Scraping) :\n\nPropriété intellectuelle : Même lorsqu’un texte est mis à disposition publiquement sur internet, l’auteur en reste le propriétaire.\nDroit de fouille de données (Data Mining) vs Diffusion :\n\nIl est légalement permis d’aspirer et d’utiliser des textes pour un usage d’analyse et de recherche.\nInterdiction de redistribution enrichie : On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis mettre le tout à disposition du grand public sans l’accord des ayants droit.\n\n\nRessources sous licences libres (ex. Wikipédia) :\n\nLes contenus sous licences de type Creative Commons (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).\n\n\n\n\n\n2.5.3.2 Aspects éthiques : Recueil privé et consentement éclairé\nLors du recueil de données privées ou d’enregistrements de personnes :\n\nObtention du consentement éclairé :\n\nIl est obligatoire de recueillir l’accord préalable des participants pour étudier leurs données.\nTransparence complète : Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.\n\nCollecte loyale :\n\nLa collecte ne doit jamais se faire à leur insu (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).\n\n\n\n\n\n2.5.3.3 Respect de la vie privée et anonymisation\n\nEngagement au respect de la vie privée :\n\nObligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.\n\nProcédure d’anonymisation :\n\nConsiste à effacer ou remplacer toutes les informations permettant d’identifier directement ou indirectement un individu :\n\nNoms et prénoms.\nAdresses, noms de rues et lieux trop précis.\nDates de naissance ou éléments de calendrier identifiables.\nOrganismes, entreprises ou institutions spécifiques cités lors des échanges.",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#annotation",
+    "href": "chapters/002-intro-corpus.html#annotation",
+    "title": "Linguistique de corpus",
+    "section": "2.6.1 Annotation",
+    "text": "2.6.1 Annotation\n\n2.6.1.1 Dans le cas des corpus écrits\n\n2.6.1.1.1 Nature et formats des données écrits\n\nDonnées nativement électroniques :\n\nTextes déjà numériques (articles de presse en ligne, blogs, courriels, posts sur les réseaux sociaux, etc.).\n\n\n\n\nDonnées manuscrites :\n\nManuscrits littéraires (brouillons d’écrivains), écrits scolaires ou académiques, archives administratives ou historiques.\nNécessitent une étape préalable d’OCR (reconnaissance optique de caractères / HTR pour les manuscrits) ou de transcription manuelle.\n\nFormat recommandé :\n\nIdéalement au format texte brut (.txt) ou structuré en XML (ex. norme TEI - Text Encoding Initiative).\nPourquoi ? Pour garantir la pérennité des données, éviter les formats propriétaires (comme .docx) et assurer une compatibilité universelle avec les outils d’analyse textuelle et de traitement automatique du langage (TAL).\n\n\n\n\n\n2.6.1.1.2 Annoter le corpus (Enrichissement)\n\nPrincipe :\n\nAnnoter consiste à ajouter des informations d’ordre linguistique ou métadiscursif directement au sein des données textuelles.\n\nExemples d’annotations :\n\nCatégories grammaticales / Parties du discours (POS Tagging) : Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).\nFormes canoniques (Lemmatisation) : Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).\nEntités nommées : Identifier et étiqueter les personnes, lieux, organisations, dates, etc.\n\n\n\n\n\n2.6.1.1.3 Problèmes et limites du traitement automatique\nL’annotation automatique soulève plusieurs difficultés liées à la complexité de la langue naturelle, notamment lors des étapes d’initialisation :\n\nLa segmentation en phrases (Sentence Splitting) :\n\nProblème du point : Le signe « . » n’indique pas toujours la fin d’une phrase.\nExemple : Les abréviations (ex. M. Lebrun, etc., vol. 2) ou les adresses web/e-mails. Un segmentateur automatique simpliste peut couper la phrase au milieu à cause de ces points.\n\n\n\n\nLa segmentation en mots / Tokenisation :\n\nProblème de l’espace et des caractères spéciaux : Un mot ne correspond pas toujours à une séquence de caractères délimitée par deux espaces.\nTraits d’union : Faut-il compter « c’est-à-dire » ou « arc-en-ciel » comme \\(1\\) seul mot ou \\(3\\) à \\(5\\) tokens distincts ?\nMots composés sans trait d’union (expressions polylexicales) :\n\nEx. « machine à laver » : sémantiquement, c’est une seule unité lexicale, mais graphiquement elle contient \\(3\\) mots séparés par des espaces.\nSelon les outils, cette expression sera parfois découpée en 3 tokens (machine / à / laver), parfois unifiée (machine_à_laver).\n\nApostrophes et contractions :\n\nEx. « penses-tu ? » ➔ Deux mots (penses + tu), liés par un trait d’union.\nEx. « l’arbre » ➔ Deux unités (l’ + arbre).\n\n\n\n\n\nDivergence des outils automatiques :\n\nChaque logiciel ou chaîne de traitement TAL (ex. Spacy, Stanford NLP, TreeTagger, Lexico, TXM) possède ses propres règles de segmentation et ses propres algorithmes.\nPar conséquent, deux outils appliqués au même corpus n’obtiendront pas toujours les mêmes performances ni le même nombre total de mots (tokens).\n\n\n\n\n\n\n2.6.1.2 Activité : Test de tokenisation\nComprendre comment les choix de prétraitement (tokenisation) modifient le décompte des unités dans l’analyse de texte[cite: 2].\n\n\n2.6.1.3 Phrase cible\n\n« C’est-à-dire qu’il y a des machines à laver de haute technologie »\n\n\n\n\n2.6.1.4 Méthode 1 : Tokenisation stricte / graphique\n\nCritère : Découpage strict basé uniquement sur les espaces et les ponctuations.\nListe des tokens :\n\nC'\nest\nà\ndire\nqu'\nil\ny\na\ndes\nmachines\nà\nlaver\nde\nhaute\ntechnologie\n\nTotal : 15 tokens",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#méthode-2-tokenisation-sémantique-polylexicale",
+    "href": "chapters/002-intro-corpus.html#méthode-2-tokenisation-sémantique-polylexicale",
+    "title": "Linguistique de corpus",
+    "section": "2.6.2 Méthode 2 : Tokenisation sémantique / polylexicale",
+    "text": "2.6.2 Méthode 2 : Tokenisation sémantique / polylexicale\n\nCritère : Regroupement des expressions polylexicales (MWE) et locutions figées en unités sémantiques uniques.\nListe des tokens :\n\nC'est-à-dire\nqu'\nil y a\ndes\nmachines à laver\nde\nhaute technologie",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#partitionner-un-corpus",
+    "href": "chapters/002-intro-corpus.html#partitionner-un-corpus",
+    "title": "Linguistique de corpus",
+    "section": "2.6.3 Partitionner un corpus",
+    "text": "2.6.3 Partitionner un corpus\n\nPartitionner un corpus consiste à le découper en plusieurs subdivisions nommées (sous-corpus) selon un ou plusieurs critères structurants.\nLes éléments d’une partition ne sont pas forcément des exemples contigus dans le fichier texte ou audio (ex. toutes les interventions d’un même individu dispersées tout au long d’un enregistrement).\nTrès fréquemment appliqué à la transcription des enregistrements oraux.\n\n\n\n2.6.3.1 Critères et types de partitions\n\nPartitions en fonction du locuteur :\n\nRegroupement par individu (ex. Locuteur A vs. Locuteur B).\nRegroupement par catégories ou groupes de locuteurs (variables sociolinguistiques : âge, genre, niveau d’études, profession, origine géographique).\n\nPartitions en fonction du temps / de la chronologie :\n\nÉvolution diachronique (ex. corpus découpé par décennies ou par années).\nDécoupage interne à une interaction (ex. début, milieu, fin de l’enregistrement).\n\nPartitions en fonction des moments clés de l’enregistrement :\n\nDécoupage selon la situation de communication, les phases de l’interaction ou les sujets abordés (ex. phase d’accueil, débat guidé, parole libre, tâches spécifiques).\n\n\n\n\n\n2.6.3.2 Pourquoi partitionner ?\n\nOn peut travailler sur tout le corpus sans partitionner :\n\nUtile pour avoir une vue d’ensemble, calculer la fréquence globale des mots ou dresser la liste du vocabulaire total (lexique global).\n\nPourquoi découper en partitions alors ?\n\nContraste et comparaison : Permet d’opposer des sous-corpus pour faire ressortir des spécificités statistiques (sur-emploi ou sous-emploi de certains termes).\nFocalisation : Permet de centrer l’analyse empirique sur des parties ciblées du corpus.\nÉtude de la variation : S’intéresser à certains locuteurs particuliers ou comparer différents groupes de locuteurs (ex. les jeunes vs. les séniors, les journalistes vs. les invités).\n\n\n\n\n\n2.6.3.3 Quand et comment y penser ?\n\nPenser au partitionnement en amont :\n\nLa possibilité de partitionner un corpus dépend directement de la qualité de l’archivage et de l’encodage des données dès la phase de constitution du corpus.\n\nExploitation des métadonnées (Fichiers XML / En-têtes) :\n\nDans des corpus structurés en XML (comme le projet ORFEO), chaque fichier ou intervention contient des balises intégrant des propriétés et métadonnées.\nExemples de propriétés exploitables pour partitionner :\n\nPropriétés du locuteur : genre, âge, statut, rôle interactionnel.\nPropriétés contextuelles : lieu d’enregistrement, date, langue / dialecte, degré de formalité, type de média (radio, conversation privée, entretien).",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#outils-et-requêtes-pour-explorer-un-corpus",
+    "href": "chapters/002-intro-corpus.html#outils-et-requêtes-pour-explorer-un-corpus",
+    "title": "Linguistique de corpus",
+    "section": "2.7.1 Outils et requêtes pour explorer un corpus",
+    "text": "2.7.1 Outils et requêtes pour explorer un corpus\n\n2.7.1.1 Choix de l’outil linguistique pour explorer un corpus\n\n\n2.7.1.2 Construire une requête\n\n\n\n\n\n\nImportantDéfinition\n\n\n\nRequête : instruction donnée au logiciel pour sélectionner certains mots",
+    "crumbs": [
+      "Chapters",
+      "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/002-intro-corpus.html#mesures-quantitatives-fréquence-et-spécificités",
+    "href": "chapters/002-intro-corpus.html#mesures-quantitatives-fréquence-et-spécificités",
+    "title": "Linguistique de corpus",
+    "section": "2.7.2 Mesures quantitatives : Fréquence et spécificités",
+    "text": "2.7.2 Mesures quantitatives : Fréquence et spécificités\n\nOutils quantitatifs\nAussi utilisé en textométrie et lexicométrie\n\n\n2.7.2.1 Fréquence\n\nFréquence absolue (\\(f\\)) :\n\nDéfinition : Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.\nExemple : Le terme « liberté » apparaît 45 fois dans l’ensemble d’un discours.\n\nFréquence relative (\\(fr\\)) :\n\nDéfinition : Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (\\(N\\)), souvent exprimé en pourcentage ou en nombre de cas pour \\(N\\) mots (ex. pour 10 000 mots).\nFormule : \\(fr = \\frac{f}{N}\\)\nExemple : Si un discours compte \\(N = 10\\,000\\) mots et que « liberté » apparaît \\(f = 45\\) fois, la fréquence relative est de \\(0{,}45\\%\\) (ou 45 pour 10 000 mots).\n\n\n\n\n\n\n\n\nNoteDéfinition\n\n\n\nHapax : Forme linguistique n’apparaissant qu’une seule et unique fois (\\(f = 1\\)) dans l’ensemble du corpus étudié.\n\n\n\n\n\n2.7.2.2 Le pré-traitement appliqué au comptage (Découpage et choix d’unités)\nLe comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :\n\nTokenisation (Découpage des mots / occurrences) :\n\nDécoupage de la chaîne de texte brute en unités minimales (tokens).\n\nComptage des formes vs Lemmes :\n\nFormes graphiques (mots bruts) : Traite différemment chaque flexion (mange, mangeons, mangera).\nLemmes : Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (manger).\nChoix méthodologique :\n\nPour les verbes ➔ Utiliser les lemmes afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.\nPour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).\n\n\n\n\n\nPrise en compte des majuscules et de la ponctuation :\n\nExemple : Faut-il distinguer le nom propre « Pierre » du nom commun « pierre » ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?\n\nPrise en compte des expressions polylexicales (locutions / MWE) :\n\nGroupes de mots fonctionnant comme une seule unité sémantique.\nExemple : Traiter « chemin de fer » ou « au fur et à mesure » comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (chemin, de, fer).\n\nParties du discours (POS Tagging) :\n\nÉtiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.\nExemple : Distinguer « ferme » (nom commun), « ferme » (adjectif) et « ferme » (verbe fermer).\n\n\n\n\n\n2.7.2.3 Mesurer la spécificité textuelle\n\nQu’est-ce qui fait la spécificité d’un texte ?\n\nC’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.\n\nCorpus test vs Corpus étalon / de référence :\n\nCorpus test (étudié) : Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.\nCorpus étalon (de référence) : Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).\n\nPrincipe de comparaison :\n\nOn compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, en fonction des tailles respectives de ces deux corpus.\n\n\n\n\n\n2.7.2.4 Indicateurs et indices statistiques de spécificité",
     "crumbs": [
       "Chapters",
       "Linguistique de corpus"
