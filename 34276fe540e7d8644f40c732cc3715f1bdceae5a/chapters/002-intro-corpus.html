@@ -1,557 +1,263 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>intro-corpus – Français moderne</title>
-<style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<html lang="fr"><head>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../chapters/003-phonologie-voyelles.html" rel="next">
-<link href="../chapters/001-phonetique-affrication.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-26ae556258ba27b9aee13e31cd24d084.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-3b1e6eb55080b28dff7a5a065e865421.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-26ae556258ba27b9aee13e31cd24d084.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "Pas de résultats",
-    "search-matching-documents-text": "documents trouvés",
-    "search-copy-link-title": "Copier le lien vers la recherche",
-    "search-hide-matches-text": "Cacher les correspondances additionnelles",
-    "search-more-match-text": "correspondance de plus dans ce document",
-    "search-more-matches-text": "correspondances de plus dans ce document",
-    "search-clear-button-title": "Effacer",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Annuler",
-    "search-submit-button-title": "Envoyer",
-    "search-label": "Recherche"
-  }
-}</script>
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
+  <title>Français moderne – intro-corpus</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
     }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-05917c17f6728a4d2ef1602d5da6282e.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <style>:root{ --course-title: "Français moderne"; }</style>
 </head>
-
-<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
-
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/002-intro-corpus.html">Linguistique de corpus</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Français moderne</a> 
-        <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Recherche"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Chapters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/000-intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/001-phonetique-affrication.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Linguistique de corpus</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/002-intro-corpus.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Linguistique de corpus</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/003-phonologie-voyelles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Morpho-syntaxe - Accord du participe passé</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#quest-ce-quun-corpus" id="toc-quest-ce-quun-corpus" class="nav-link active" data-scroll-target="#quest-ce-quun-corpus"><span class="header-section-number">3.1</span> Qu’est-ce qu’un corpus ?</a></li>
-  <li><a href="#quest-ce-que-la-linguistique-de-corpus" id="toc-quest-ce-que-la-linguistique-de-corpus" class="nav-link" data-scroll-target="#quest-ce-que-la-linguistique-de-corpus"><span class="header-section-number">3.2</span> Qu’est-ce que la linguistique de corpus ?</a></li>
-  <li><a href="#étape-1-question-de-recherche-et-hypothèses" id="toc-étape-1-question-de-recherche-et-hypothèses" class="nav-link" data-scroll-target="#étape-1-question-de-recherche-et-hypothèses"><span class="header-section-number">4.1</span> Étape 1 : Question de recherche et hypothèses</a>
-  <ul class="collapse">
-  <li><a href="#exploration-dun-corpus-linguistique" id="toc-exploration-dun-corpus-linguistique" class="nav-link" data-scroll-target="#exploration-dun-corpus-linguistique"><span class="header-section-number">4.1.1</span> Exploration d’un corpus linguistique</a></li>
-  <li><a href="#description-linguistique" id="toc-description-linguistique" class="nav-link" data-scroll-target="#description-linguistique"><span class="header-section-number">4.1.2</span> Description linguistique</a>
-  <ul class="collapse">
-  <li><a href="#objectif" id="toc-objectif" class="nav-link" data-scroll-target="#objectif"><span class="header-section-number">4.1.2.1</span> Objectif</a></li>
-  <li><a href="#consigne-à-vous-dinventer" id="toc-consigne-à-vous-dinventer" class="nav-link" data-scroll-target="#consigne-à-vous-dinventer"><span class="header-section-number">4.1.2.2</span> ✍️ Consigne : À vous d’inventer !</a></li>
-  <li><a href="#décomposition-des-variables-exemple-dapplication" id="toc-décomposition-des-variables-exemple-dapplication" class="nav-link" data-scroll-target="#décomposition-des-variables-exemple-dapplication"><span class="header-section-number">4.1.2.3</span> 🔬 Décomposition des variables (Exemple d’application)</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#étape-2-trouver-ou-construire-un-corpus" id="toc-étape-2-trouver-ou-construire-un-corpus" class="nav-link" data-scroll-target="#étape-2-trouver-ou-construire-un-corpus"><span class="header-section-number">4.2</span> Étape 2 : Trouver (ou construire) un corpus</a>
-  <ul class="collapse">
-  <li><a href="#construction-des-corpus" id="toc-construction-des-corpus" class="nav-link" data-scroll-target="#construction-des-corpus"><span class="header-section-number">4.2.1</span> Construction des corpus</a>
-  <ul class="collapse">
-  <li><a href="#la-documentation-métadonnées" id="toc-la-documentation-métadonnées" class="nav-link" data-scroll-target="#la-documentation-métadonnées"><span class="header-section-number">4.2.1.1</span> 1. La documentation (Métadonnées)</a></li>
-  <li><a href="#lautomatisation" id="toc-lautomatisation" class="nav-link" data-scroll-target="#lautomatisation"><span class="header-section-number">4.2.1.2</span> 2. L’automatisation</a></li>
-  <li><a href="#standardisation-pérennité-et-ouverture-open-source" id="toc-standardisation-pérennité-et-ouverture-open-source" class="nav-link" data-scroll-target="#standardisation-pérennité-et-ouverture-open-source"><span class="header-section-number">4.2.1.3</span> 3. Standardisation, pérennité et ouverture (Open Source)</a></li>
-  </ul></li>
-  <li><a href="#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" id="toc-cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" class="nav-link" data-scroll-target="#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation"><span class="header-section-number">4.2.2</span> Cas spécifique : Les corpus oraux (Transcriptions &amp; anonymisation)</a></li>
-  <li><a href="#cadre-juridique-et-éthique" id="toc-cadre-juridique-et-éthique" class="nav-link" data-scroll-target="#cadre-juridique-et-éthique"><span class="header-section-number">4.2.3</span> Cadre juridique et éthique</a>
-  <ul class="collapse">
-  <li><a href="#aspects-juridiques-droit-dauteur-et-diffusion" id="toc-aspects-juridiques-droit-dauteur-et-diffusion" class="nav-link" data-scroll-target="#aspects-juridiques-droit-dauteur-et-diffusion"><span class="header-section-number">4.2.3.1</span> Aspects juridiques : Droit d’auteur et diffusion</a></li>
-  <li><a href="#aspects-éthiques-recueil-privé-et-consentement-éclairé" id="toc-aspects-éthiques-recueil-privé-et-consentement-éclairé" class="nav-link" data-scroll-target="#aspects-éthiques-recueil-privé-et-consentement-éclairé"><span class="header-section-number">4.2.3.2</span> Aspects éthiques : Recueil privé et consentement éclairé</a></li>
-  <li><a href="#respect-de-la-vie-privée-et-anonymisation" id="toc-respect-de-la-vie-privée-et-anonymisation" class="nav-link" data-scroll-target="#respect-de-la-vie-privée-et-anonymisation"><span class="header-section-number">4.2.3.3</span> Respect de la vie privée et anonymisation</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#étape-3-prétraiter-vos-données" id="toc-étape-3-prétraiter-vos-données" class="nav-link" data-scroll-target="#étape-3-prétraiter-vos-données"><span class="header-section-number">4.3</span> Étape 3 : Prétraiter vos données</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">4.4</span> </a>
-  <ul class="collapse">
-  <li><a href="#annotation" id="toc-annotation" class="nav-link" data-scroll-target="#annotation"><span class="header-section-number">4.4.1</span> Annotation</a>
-  <ul class="collapse">
-  <li><a href="#dans-le-cas-des-corpus-écrits" id="toc-dans-le-cas-des-corpus-écrits" class="nav-link" data-scroll-target="#dans-le-cas-des-corpus-écrits"><span class="header-section-number">4.4.1.1</span> Dans le cas des corpus écrits</a></li>
-  <li><a href="#activité-test-de-tokenisation" id="toc-activité-test-de-tokenisation" class="nav-link" data-scroll-target="#activité-test-de-tokenisation"><span class="header-section-number">4.4.1.2</span> Activité : Test de tokenisation</a></li>
-  <li><a href="#phrase-cible" id="toc-phrase-cible" class="nav-link" data-scroll-target="#phrase-cible"><span class="header-section-number">4.4.1.3</span> Phrase cible</a></li>
-  <li><a href="#méthode-1-tokenisation-stricte-graphique" id="toc-méthode-1-tokenisation-stricte-graphique" class="nav-link" data-scroll-target="#méthode-1-tokenisation-stricte-graphique"><span class="header-section-number">4.4.1.4</span> Méthode 1 : Tokenisation stricte / graphique</a></li>
-  </ul></li>
-  <li><a href="#méthode-2-tokenisation-sémantique-polylexicale" id="toc-méthode-2-tokenisation-sémantique-polylexicale" class="nav-link" data-scroll-target="#méthode-2-tokenisation-sémantique-polylexicale"><span class="header-section-number">4.4.2</span> Méthode 2 : Tokenisation sémantique / polylexicale</a></li>
-  <li><a href="#partitionner-un-corpus" id="toc-partitionner-un-corpus" class="nav-link" data-scroll-target="#partitionner-un-corpus"><span class="header-section-number">4.4.3</span> Partitionner un corpus</a>
-  <ul class="collapse">
-  <li><a href="#critères-et-types-de-partitions" id="toc-critères-et-types-de-partitions" class="nav-link" data-scroll-target="#critères-et-types-de-partitions"><span class="header-section-number">4.4.3.1</span> Critères et types de partitions</a></li>
-  <li><a href="#pourquoi-partitionner" id="toc-pourquoi-partitionner" class="nav-link" data-scroll-target="#pourquoi-partitionner"><span class="header-section-number">4.4.3.2</span> Pourquoi partitionner ?</a></li>
-  <li><a href="#quand-et-comment-y-penser" id="toc-quand-et-comment-y-penser" class="nav-link" data-scroll-target="#quand-et-comment-y-penser"><span class="header-section-number">4.4.3.3</span> Quand et comment y penser ?</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#étape-4-analyser-les-données" id="toc-étape-4-analyser-les-données" class="nav-link" data-scroll-target="#étape-4-analyser-les-données"><span class="header-section-number">4.5</span> Étape 4 : Analyser les données</a>
-  <ul class="collapse">
-  <li><a href="#outils-et-requêtes-pour-explorer-un-corpus" id="toc-outils-et-requêtes-pour-explorer-un-corpus" class="nav-link" data-scroll-target="#outils-et-requêtes-pour-explorer-un-corpus"><span class="header-section-number">4.5.1</span> Outils et requêtes pour explorer un corpus</a>
-  <ul class="collapse">
-  <li><a href="#choix-de-loutil-linguistique-pour-explorer-un-corpus" id="toc-choix-de-loutil-linguistique-pour-explorer-un-corpus" class="nav-link" data-scroll-target="#choix-de-loutil-linguistique-pour-explorer-un-corpus"><span class="header-section-number">4.5.1.1</span> Choix de l’outil linguistique pour explorer un corpus</a></li>
-  <li><a href="#construire-une-requête" id="toc-construire-une-requête" class="nav-link" data-scroll-target="#construire-une-requête"><span class="header-section-number">4.5.1.2</span> Construire une requête</a></li>
-  </ul></li>
-  <li><a href="#mesures-quantitatives-fréquence-et-spécificités" id="toc-mesures-quantitatives-fréquence-et-spécificités" class="nav-link" data-scroll-target="#mesures-quantitatives-fréquence-et-spécificités"><span class="header-section-number">4.5.2</span> Mesures quantitatives : Fréquence et spécificités</a>
-  <ul class="collapse">
-  <li><a href="#fréquence" id="toc-fréquence" class="nav-link" data-scroll-target="#fréquence"><span class="header-section-number">4.5.2.1</span> Fréquence</a></li>
-  <li><a href="#le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" id="toc-le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" class="nav-link" data-scroll-target="#le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités"><span class="header-section-number">4.5.2.2</span> Le pré-traitement appliqué au comptage (Découpage et choix d’unités)</a></li>
-  <li><a href="#mesurer-la-spécificité-textuelle" id="toc-mesurer-la-spécificité-textuelle" class="nav-link" data-scroll-target="#mesurer-la-spécificité-textuelle"><span class="header-section-number">4.5.2.3</span> Mesurer la spécificité textuelle</a></li>
-  <li><a href="#indicateurs-et-indices-statistiques-de-spécificité" id="toc-indicateurs-et-indices-statistiques-de-spécificité" class="nav-link" data-scroll-target="#indicateurs-et-indices-statistiques-de-spécificité"><span class="header-section-number">4.5.2.4</span> Indicateurs et indices statistiques de spécificité</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#étape-5-conclusion-répondre-aux-questions" id="toc-étape-5-conclusion-répondre-aux-questions" class="nav-link" data-scroll-target="#étape-5-conclusion-répondre-aux-questions"><span class="header-section-number">4.6</span> Étape 5 : Conclusion (Répondre aux questions)</a></li>
-  </ul>
-</nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/002-intro-corpus.html">Linguistique de corpus</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title"><span class="header-section-number">2</span> Linguistique de corpus</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<section>
+<section id="linguistique-de-corpus" class="title-slide slide level1 center">
+<h1><span class="header-section-number">2</span> Linguistique de corpus</h1>
 <p>Si on vous dit : C’EST PAS CORRECT !</p>
 <ul>
-<li><p>Pourquoi ?</p></li>
-<li><p>Depuis quand ?</p></li>
-<li><p>Où est la règle ?</p></li>
+<li class="fragment"><p>Pourquoi ?</p></li>
+<li class="fragment"><p>Depuis quand ?</p></li>
+<li class="fragment"><p>Où est la règle ?</p></li>
 </ul>
-<hr>
-<p><span class="header-section-number">3</span> La linguistique</p>
+</section>
+<section id="la-linguistique-de-corpus" class="slide level2">
+<h2><span class="header-section-number">2.1</span> La linguistique de corpus</h2>
 <ul>
-<li><p><strong>Objectif</strong></p>
-<p>Étudier les phénomènes linguistiques à partir de méthodes quantitatives, testables et mesurables.</p>
-<p>Utiliser des méthodes scientifiques pour examiner comment la langue est acquise, représentée et traitée dans le cerveau, et comment nous pouvons la produire.</p></li>
-<li><p><strong>Démarche</strong></p>
-<p>Manipuler systématiquement des variables pour mesurer la langue.</p>
-<p>Examiner la relation entre variables indépendantes et dépendantes.</p></li>
-<li><p><strong>Méthodes</strong></p>
+<li class="fragment"><p><strong>Objectif</strong></p>
 <ul>
-<li><p>Recherche expérimentale</p></li>
-<li><p>Recherche par corpus</p></li>
+<li class="fragment"><p>Étudier les phénomènes linguistiques à partir de méthodes quantitatives, testables et mesurables.</p></li>
+<li class="fragment"><p>Utiliser des méthodes scientifiques pour examiner comment la langue est acquise, représentée et traitée dans le cerveau, et comment nous pouvons la produire.</p></li>
+</ul></li>
+<li class="fragment"><p><strong>Démarche</strong></p>
+<ul>
+<li class="fragment"><p>Manipuler systématiquement des variables pour mesurer la langue.</p></li>
+<li class="fragment"><p>Examiner la relation entre variables indépendantes et dépendantes.</p></li>
 </ul></li>
 </ul>
-<hr>
-<section id="quest-ce-quun-corpus" class="level1">
-<h1><span class="header-section-number">3.1</span> Qu’est-ce qu’un corpus ?</h1>
+</section>
+<section id="quest-ce-quun-corpus" class="slide level2">
+<h2><span class="header-section-number">2.2</span> Qu’est-ce qu’un corpus ?</h2>
 <ul>
-<li><p><strong>Définition</strong></p>
-<p>Ensemble de langues naturelles (McEnery, Xiao &amp; Tono, 2006).</p>
-<p>Regroupe des exemples autour d’un prototype.</p>
-<p>Langue dans des contextes spontanés, naturels, écologiques.</p>
-<p>Représentatif d’une langue ou d’un registre spécifique.</p></li>
+<li class="fragment"><p><strong>Définition</strong></p>
+<ul>
+<li class="fragment"><p>Ensemble de données provenant de langues naturelles (McEnery, Xiao &amp; Tono, 2006).</p></li>
+<li class="fragment"><p>Regroupe des exemples autour d’un prototype.</p></li>
+<li class="fragment"><p>Langue dans des contextes spontanés, naturels, écologiques.</p></li>
+<li class="fragment"><p>Représentatif d’une langue ou d’un registre spécifique.</p></li>
+</ul></li>
 </ul>
-<blockquote class="blockquote">
+<blockquote>
 <p><em>Ensemble de textes établi selon un principe de documentation exhaustive, un critère thématique ou exemplaire en vue de leur étude linguistique</em></p>
 <p>- Trésor de la Langue Française</p>
 </blockquote>
-<blockquote class="blockquote">
+<blockquote>
 <p>« Une collection de données langagières sélectionnées et organisées selon des critères linguistiques explicites pour servir d’échantillon du langage »</p>
 <p>- John Sinclair</p>
 </blockquote>
-<hr>
-<ul>
-<li><p>Outil puissant pour étudier : acquisition, traitement, variation sociolinguistique, changement sémantique, etc.</p></li>
-<li><p><strong>Pourquoi utiliser des corpus ?</strong></p>
-<p>Progrès technologiques et méthodologiques, tendance vers des résultats objectifs, mesurables et reproductibles.</p>
-<p>Rôle reconnu de la co-occurrence des phénomènes linguistiques dans l’acquisition et le traitement.</p></li>
-</ul>
-<hr>
-<ul>
-<li><p><strong>Types de corpus</strong></p>
-<ul>
-<li><p>Oral vs écrit</p></li>
-<li><p>Supports variés : textes, audio, transcriptions, vidéo</p></li>
-<li><p>Sources : synchronique/diachronique, parole L2, académique, enfant, clinique</p></li>
-<li><p>Tailles variées. Certains “corpus” ne sont pas naturels.</p></li>
-</ul></li>
-</ul>
-<hr>
-<ul>
-<li><p><strong>Dans quel format ?</strong></p>
-<ul>
-<li>Souvent sous un format informatique permettant son analyse grâce aux outils digitaux</li>
-</ul></li>
-</ul>
-<hr>
-<ul>
-<li><p><strong>Historique des corpus</strong></p>
-<ul>
-<li><p>Premier recueils de données linguistiques</p></li>
-<li><p>Pour étudier une variété linguistique que l’on ne parle pas, il faut s’appuyer sur des ressources existantes</p></li>
-<li><p>Mais pas recueillies de manière systématique</p></li>
-</ul></li>
-</ul>
-<hr>
-<ul>
-<li><p><strong>Historique des corpus (suite)</strong></p>
-<ul>
-<li><p>Début de l’informatique dans les années 60 💻</p>
-<ul>
-<li><p>Corpus limités, mais jusqu’à un million de mots</p>
-<ul>
-<li><p>Brown Corpus 🇺🇸</p></li>
-<li><p>Lancaster Oslo Bergen Corpus 🇬🇧</p></li>
-<li><p>Frantext 🇫🇷</p>
-<ul>
-<li><p>Littérature du XIXe et XXe siècle</p></li>
-<li><p>Pour documenter le dictionnaire <em>Trésor de la Langue Française</em></p></li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><p>Les années 80 voient la naissance de grands corpus 🕺🏻</p>
-<ul>
-<li>Accès facilité grâce à internet</li>
-</ul></li>
-</ul></li>
-</ul>
-<hr>
 </section>
-<section id="quest-ce-que-la-linguistique-de-corpus" class="level1">
-<h1><span class="header-section-number">3.2</span> Qu’est-ce que la linguistique de corpus ?</h1>
+<section class="slide level2">
+
 <ul>
-<li><p>Branche de la linguistique</p></li>
-<li><p>Objet : réflexion sur données langagières authentiques orales ou écrites</p></li>
-<li><p>Domaine très varié. Il y a <strong>plusieurs</strong> linguistiques de corpus</p></li>
+<li class="fragment"><p>Outil puissant pour étudier : acquisition, traitement, variation sociolinguistique, changement sémantique, etc.</p></li>
+<li class="fragment"><p><strong>Pourquoi utiliser des corpus ?</strong></p>
+<ul>
+<li class="fragment"><p>Progrès technologiques et méthodologiques, tendance vers des résultats objectifs, mesurables et reproductibles.</p></li>
+<li class="fragment"><p>Rôle reconnu de la co-occurrence des phénomènes linguistiques dans l’acquisition et le traitement du langage.</p></li>
+</ul></li>
 </ul>
-<table class="caption-top table">
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p><strong>Types de corpus</strong></p>
+<ul>
+<li class="fragment"><p>Oral vs écrit</p></li>
+<li class="fragment"><p>Supports variés : textes, audio, transcriptions, vidéo</p></li>
+<li class="fragment"><p>Sources : synchronique/diachronique, parole L2, académique, enfant, clinique</p></li>
+<li class="fragment"><p>Tailles variées.</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p><strong>Dans quel format ?</strong></p>
+<ul>
+<li class="fragment">Souvent sous un format informatique permettant son analyse grâce aux outils digitaux</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p><strong>Historique des corpus</strong></p>
+<ul>
+<li class="fragment"><p>Premier recueils de données linguistiques</p></li>
+<li class="fragment"><p>Pour étudier une variété linguistique que l’on ne parle pas, il faut s’appuyer sur des ressources existantes</p></li>
+<li class="fragment"><p>Mais pas recueillies de manière systématique</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p>Début de l’informatique dans les années 60 💻</p>
+<ul>
+<li class="fragment"><p>Corpus limités, mais jusqu’à un million de mots</p>
+<ul>
+<li class="fragment"><p>Brown Corpus 🇺🇸</p></li>
+<li class="fragment"><p>Lancaster Oslo Bergen Corpus 🇬🇧</p></li>
+<li class="fragment"><p>Frantext 🇫🇷</p>
+<ul>
+<li class="fragment"><p>Littérature du XIXe et XXe siècle</p></li>
+<li class="fragment"><p>Pour documenter le dictionnaire <em>Trésor de la Langue Française</em></p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li class="fragment"><p>Les années 80 voient la naissance de grands corpus 🕺🏻</p>
+<ul>
+<li class="fragment">Accès facilité grâce à l”Internet</li>
+</ul></li>
+</ul>
+</section>
+<section id="quest-ce-que-la-linguistique-de-corpus" class="slide level2">
+<h2><span class="header-section-number">2.3</span> Qu’est-ce que la linguistique de corpus ?</h2>
+<ul>
+<li class="fragment"><p>Branche de la linguistique</p></li>
+<li class="fragment"><p>Objet : réflexion sur données langagières authentiques orales ou écrites</p></li>
+<li class="fragment"><p>Domaine très varié. Il y a <strong>plusieurs</strong> linguistiques de corpus</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<table class="caption-top">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
+<col style="width: 50%">
+<col style="width: 49%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -574,215 +280,358 @@ window.Quarto = {
 <td>❌ modèle théorique préconçu</td>
 <td>✅ théorique préexistant</td>
 </tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p>Dépend aussi du domaine théorique</p></li>
+<li class="fragment"><p>Lexicographie, analyse automatique du langage vs syntaxe, phonologie</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="démarche-du-corpus" class="title-slide slide level1 center scrollable">
+<h1>Démarche du corpus</h1>
+<ol type="1">
+<li class="fragment"><p>Formuler une question de recherche</p></li>
+<li class="fragment"><p>Trouver un corpus</p></li>
+<li class="fragment"><p>Préparer les données</p></li>
+<li class="fragment"><p>Analyser les données</p></li>
+<li class="fragment"><p>Répondre aux questions</p></li>
+</ol>
+</section>
+<section id="étape-1-question-de-recherche-et-hypothèses" class="slide level2">
+<h2><span class="header-section-number">2.4</span> Étape 1 : Question de recherche et hypothèses</h2>
+</section>
+<section class="slide level2 scrollable">
+
+<h3 id="exploration-dun-corpus-linguistique"><span class="header-section-number">2.4.1</span> Exploration d’un corpus linguistique</h3>
+<p>2 objectifs possibles :</p>
+<ol type="1">
+<li class="fragment"><p>Décrire la langue en tant que système</p></li>
+<li class="fragment"><p>Décrire une variété linguistique</p></li>
+</ol>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p>Recherche quantitative</p></li>
+<li class="fragment"><p>Le but est d’examiner une hypothèse testable découlant d’une question de recherche.</p></li>
+<li class="fragment"><p>La langue est créée par les participants : les usagers de la langue.</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p>Ta question de recherche découle de la littérature scientifique.</p>
+<ul>
+<li class="fragment"><p>Un modèle ou une théorie formule une prédiction concernant une situation différente de celles déjà testées.</p></li>
+<li class="fragment"><p>Deux modèles ou théories peuvent formuler des prédictions contradictoires pour une même situation.</p></li>
+<li class="fragment"><p>Tu peux aussi vouloir étendre un modèle ou une théorie à une situation pertinente qui n’a pas encore été testée.</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="formulation-de-lhypothèse"><span class="header-section-number">2.4.2</span> Formulation de l’hypothèse</h3>
+<ul>
+<li class="fragment"><p>Parce que ta question de recherche découle de la théorie, tu peux formuler une réponse attendue.</p></li>
+<li class="fragment"><p>C’est cette réponse attendue qui constitue l’hypothèse que tu vas tester.</p></li>
+<li class="fragment"><p><strong>Hypothèse : réponse attendue à la question de recherche.</strong></p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment"><p>La manipulation systématique des variables pour mesurer la langue.</p></li>
+<li class="fragment"><p><strong>Cherchez un corpus présentant une variation « contrôlée » dans les variables indépendantes.</strong></p>
+<ul>
+<li class="fragment"><p>Variables dépendantes : Ce que vous mesurez</p></li>
+<li class="fragment"><p>VS</p></li>
+<li class="fragment"><p>Variables indépendantes : Ce que vous manipulez</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="description-linguistique"><span class="header-section-number">2.4.3</span> Description linguistique</h3>
+<ul>
+<li class="fragment"><p>Nous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.</p></li>
+<li class="fragment"><p>Il faut tout d’abord avoir une question de recherche précise.</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h4 id="activité-formulation-dhypothèses-et-choix-de-variables"><span class="header-section-number">2.4.3.1</span> Activité : Formulation d’hypothèses et choix de variables</h4>
+<h4 id="objectif"><span class="header-section-number">2.4.3.2</span> Objectif</h4>
+<p>Identifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.</p>
+<h4 id="consigne-à-vous-dinventer"><span class="header-section-number">2.4.3.3</span> Consigne : À vous d’inventer !</h4>
+<p><strong>Imaginez 2 ou 3 questions de recherche sur la langue française (usage vs norme).</strong> <em>(Exemple : « Utilise‑t‑on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)</em></p>
+</section>
+<section class="slide level2">
+
+<h4 id="décomposition-des-variables-exemple-dapplication"><span class="header-section-number">2.4.3.4</span> Décomposition des variables (exemple d’application)</h4>
+<ul>
+<li class="fragment"><p><strong>Variable indépendante (VI)</strong> — <em>ce que vous manipulez ou comparez</em></p>
+<ul>
+<li class="fragment"><strong>Modalité / Registre</strong> : langue orale vs langue écrite.</li>
+</ul></li>
+<li class="fragment"><p><strong>Variable dépendante (VD)</strong> — <em>ce que vous mesurez</em></p>
+<ul>
+<li class="fragment"><strong>Fréquence / Proportion</strong> : le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots (N) dans l’échantillon.</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+</section>
+<div class="hidden">
+<section id="étape-2-trouver-ou-construire-un-corpus" class="slide level2">
+<h2><span class="header-section-number">2.5</span> Étape 2 : Trouver (ou construire) un corpus</h2>
+<p><strong>Banques de données :</strong></p>
+<h5 id="corpus-de-langue-parlée-oral"><span class="header-section-number">2.5.0.0.1</span> <strong>Corpus de Langue Parlée (Oral)</strong></h5>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Corpus</th>
+<th>Description &amp; Contenu</th>
+<th>Volume Orféo / Total</th>
+<th>Source &amp; Référence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>CFPP2000</strong></td>
+<td>Interviews conversationnelles sur les quartiers de Paris et sa proche banlieue.</td>
+<td>~50 h / &gt;700 000 mots <em>(volume Orféo moindre, date antérieure)</em></td>
+<td><a href="http://cfpp2000.univ-paris3.fr/">Lien</a></td>
+</tr>
 <tr class="even">
-<td>❌ prétraitement des données</td>
-<td>✅ études sur des données textuelles</td>
+<td><strong>CLAPI</strong></td>
+<td>Interactions multimédias en situation naturelle (professionnelle, médicale, classe, etc.).</td>
+<td>~17 h / ~170 000 mots <em>(sous-ensemble natif)</em></td>
+<td><a href="http://clapi.ish-lyon.cnrs.fr/">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>C-ORAL-ROM</strong></td>
+<td>Corpus comparatifs de langue spontanée des principales langues romanes (FR, IT, PT, ES).</td>
+<td><strong>Totalité partie FR</strong> (123 h / 772 textes au total)</td>
+<td><a href="http://lablita.dit.unifi.it/corpora/descriptions/coralrom/">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>CRFP</strong></td>
+<td>Échantillons de français parlé dans ~40 villes selon divers profils de locuteurs (aligné texte/son).</td>
+<td><strong>Totalité</strong> (~36 h / 440 000 mots / 134 enregistrements)</td>
+<td><a href="http://www.up.univ-mrs.fr/delic/corpus/index.html">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>FLEURON</strong></td>
+<td>Situations de la vie universitaire et quotidienne pour étudiants étrangers.</td>
+<td>~3 h / 35 000 mots</td>
+<td><a href="https://apps.atilf.fr/fleuron/">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>FRENCH ORAL NARRATIVE</strong></td>
+<td>Contes oraux (87 contes par 18 conteurs du CLiO à Vendôme) annotés en TEI.</td>
+<td><strong>Totalité</strong></td>
+<td><a href="http://frenchoralnarrative.qub.ac.uk">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>OFROM</strong></td>
+<td>Entretiens et interactions enregistrés en Suisse romande (aligné texte/son).</td>
+<td>&gt;25 h / ~300 000 mots <em>(actuellement ~80 h / ~1M mots)</em></td>
+<td><a href="http://www.unine.ch/ofrom">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>TCOF</strong></td>
+<td>Interactions adultes-enfants et conversations/récits entre adultes (+ coll. Debaisieux &amp; Caddeo).</td>
+<td>~23 h / ~300 000 mots</td>
+<td><a href="http://www.cnrtl.fr/corpus/tcof/">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>TUFS</strong></td>
+<td>Entretiens recueillis dans des universités françaises (Aix, Paris, Bordeaux) par l’Univ. de Tokyo.</td>
+<td><strong>Totalité</strong> (~54 h / &gt;750 000 mots)</td>
+<td><a href="http://www.coelang.tufs.ac.jp/english/">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>Valibel</strong></td>
+<td>Enregistrements de productions orales en Belgique (Bruxelles et Wallonie).</td>
+<td>~43 h / 500 000 mots <em>(sur 373 h au total)</em></td>
+<td><a href="http://www.uclouvain.be/81834.html">Lien</a></td>
 </tr>
 </tbody>
 </table>
-<ul>
-<li><p>Dépend aussi du domaine théorique</p></li>
-<li><p>Lexicographie, analyse automatique du langage vs syntaxe, phonologie</p></li>
-</ul>
 <hr>
-<p><span class="header-section-number">4</span> Démarche du corpus</p>
-<div class="html">
-<div class="html">
-<div class="html">
-<p>Trouver un corpus</p>
-</div>
-<p>Préparer les données</p>
-</div>
-<p>Analyser les données</p>
-</div>
-<div class="html">
-<p>Répondre aux questions</p>
-</div>
-</section>
-<section id="étape-1-question-de-recherche-et-hypothèses" class="level1">
-<h1><span class="header-section-number">4.1</span> Étape 1 : Question de recherche et hypothèses</h1>
-<p>La manipulation systématique des variables pour mesurer la langue.</p>
-<p><strong>Cherchez un corpus présentant une variation « contrôlée » dans les variables indépendantes.</strong></p>
-<p>Variables dépendantes Ce que vous mesurez</p>
-<p>VS</p>
-<p>Variables indépendantes Ce que vous manipulez</p>
-<hr>
-<section id="exploration-dun-corpus-linguistique" class="level2">
-<h2 class="anchored" data-anchor-id="exploration-dun-corpus-linguistique"><span class="header-section-number">4.1.1</span> Exploration d’un corpus linguistique</h2>
-<p>2 objectifs possibles :</p>
-<ol type="1">
-<li><p>Décrire la langue en tant que système</p></li>
-<li><p>Décrire une variété linguistique</p></li>
-</ol>
-<hr>
-</section>
-<section id="description-linguistique" class="level2">
-<h2 class="anchored" data-anchor-id="description-linguistique"><span class="header-section-number">4.1.2</span> Description linguistique</h2>
-<p>Nous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.</p>
-<p>Il faut tout d’abord avoir une question de recherche précise.</p>
-<p>### Activité : Formulation d’hypothèses et choix de variables</p>
-<section id="objectif" class="level3">
-<h3 class="anchored" data-anchor-id="objectif"><span class="header-section-number">4.1.2.1</span> Objectif</h3>
-<p>Identifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.</p>
-</section>
-<section id="consigne-à-vous-dinventer" class="level3">
-<h3 class="anchored" data-anchor-id="consigne-à-vous-dinventer"><span class="header-section-number">4.1.2.2</span> ✍️ Consigne : À vous d’inventer !</h3>
-<p>&gt; **Imaginez votre propre question de recherche sur la langue.** &gt; *(Exemple : « Utilise-t-on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)*</p>
-<hr>
-</section>
-<section id="décomposition-des-variables-exemple-dapplication" class="level3">
-<h3 class="anchored" data-anchor-id="décomposition-des-variables-exemple-dapplication"><span class="header-section-number">4.1.2.3</span> 🔬 Décomposition des variables (Exemple d’application)</h3>
-<p><u>*</u> **Variable Indépendante (VI)** *(Ce que vous manipulez ou comparez)* : <u>*</u> **Modalité / Registre** : Langue orale vs Langue écrite. <u>*</u> **Variable Dépendante (VD)** *(Ce que vous mesurez)* : <u>*</u> **Fréquence / Proportion** : Le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots ($N$) dans l’échantillon[cite: 2].</p>
-<hr>
-</section>
-</section>
-</section>
-<section id="étape-2-trouver-ou-construire-un-corpus" class="level1">
-<h1><span class="header-section-number">4.2</span> Étape 2 : Trouver (ou construire) un corpus</h1>
-<p><strong>Banques de données :</strong></p>
-<ul>
-<li><p>CRFC</p></li>
-<li><p>CPFC</p></li>
-</ul>
+<h5 id="corpus-de-langue-écrite-communication-numérique"><span class="header-section-number">2.5.0.0.2</span> <strong>Corpus de Langue Écrite &amp; Communication Numérique</strong></h5>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Corpus</th>
+<th>Description &amp; Contenu</th>
+<th>Volume Orféo / Total</th>
+<th>Source &amp; Référence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>ANNODIS</strong></td>
+<td>Textes diversifiés enrichis en structures discursives (<em>Est Républicain</em>, <em>Wikipédia</em>, <em>CMLF 2008</em>, <em>IFRI</em>).</td>
+<td><strong>Totalité</strong> (687 000 mots)</td>
+<td><a href="http://redac.univ-tlse2.fr/corpus/annodis">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>Chambers-Rostand</strong></td>
+<td>Presse quotidienne française (<em>Le Monde</em>, <em>L’Humanité</em>, <em>La Dépêche du Midi</em>).</td>
+<td><strong>Totalité</strong> (979 831 mots / 1 723 articles)</td>
+<td><a href="http://ota.ox.ac.uk/desc/2491">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>CoMeRe</strong></td>
+<td>Communication médiée par les réseaux (blogs, tweets, SMS, courriels, forums, etc.) structurée en TEI/CLARIN/OLAC.</td>
+<td><strong>Noyau de corpus</strong></td>
+<td><a href="https://corpuscomere.wordpress.com">Lien</a></td>
+</tr>
+<tr class="even">
+<td><strong>Frantext (Libre)</strong></td>
+<td>Sous-corpus littéraire (romans et essais hors théâtre/poésie, 1890–1921).</td>
+<td><strong>Totalité</strong> (~1,8 million de tokens / 22 œuvres)</td>
+<td><a href="http://www.cnrtl.fr/corpus/frantext/">Lien</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Est Républicain</strong></td>
+<td>Presse Quotidienne Régionale (PQR) du CNRTL (3 éditions quotidiennes d’avril 2002).</td>
+<td><strong>Totalité</strong> (927 035 tokens)</td>
+<td><a href="https://www.google.com/search?q=https://www.ortolang.fr/market/corpora/est_republicain">Lien</a></td>
+</tr>
+</tbody>
+</table>
+<h5 id="section"></h5>
 <p><strong>Alternative :</strong> Collecter votre propre corpus.</p>
 <hr>
-<section id="construction-des-corpus" class="level2">
-<h2 class="anchored" data-anchor-id="construction-des-corpus"><span class="header-section-number">4.2.1</span> Construction des corpus</h2>
-<section id="la-documentation-métadonnées" class="level3">
-<h3 class="anchored" data-anchor-id="la-documentation-métadonnées"><span class="header-section-number">4.2.1.1</span> 1. La documentation (Métadonnées)</h3>
+<h3 id="construction-des-corpus"><span class="header-section-number">2.5.1</span> Construction des corpus</h3>
+<h4 id="la-documentation-métadonnées"><span class="header-section-number">2.5.1.1</span> 1. La documentation (Métadonnées)</h4>
 <ul>
-<li><p><strong>Principe :</strong> Il est primordial de documenter le corpus le plus <strong>soigneusement possible</strong> en lui adossant des métadonnées explicites.</p></li>
-<li><p><strong>Objectif de validité scientifique :</strong> Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.</p></li>
-<li><p><strong>Informations à intégrer (Métadonnées) :</strong></p>
+<li class="fragment"><p><strong>Principe :</strong> Il est primordial de documenter le corpus le plus <strong>soigneusement possible</strong> en lui adossant des métadonnées explicites.</p></li>
+<li class="fragment"><p><strong>Objectif de validité scientifique :</strong> Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.</p></li>
+<li class="fragment"><p><strong>Informations à intégrer (Métadonnées) :</strong></p>
 <ul>
-<li><p><em>Qui parle / écrit ?</em> (Profil des locuteurs : âge, genre, statut, origine).</p></li>
-<li><p><em>Quand et où ?</em> (Date, lieu de publication ou d’enregistrement).</p></li>
-<li><p><em>Dans quel contexte / situation de communication ?</em> (Écrit formel, conversation privée, entretien, réseaux sociaux, etc.).</p></li>
+<li class="fragment"><p><em>Qui parle / écrit ?</em> (Profil des locuteurs : âge, genre, statut, origine).</p></li>
+<li class="fragment"><p><em>Quand et où ?</em> (Date, lieu de publication ou d’enregistrement).</p></li>
+<li class="fragment"><p><em>Dans quel contexte / situation de communication ?</em> (Écrit formel, conversation privée, entretien, réseaux sociaux, etc.).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="lautomatisation" class="level3">
-<h3 class="anchored" data-anchor-id="lautomatisation"><span class="header-section-number">4.2.1.2</span> 2. L’automatisation</h3>
+<h4 id="lautomatisation"><span class="header-section-number">2.5.1.2</span> 2. L’automatisation</h4>
 <ul>
-<li><p><strong>Principe :</strong> Automatiser les étapes de constitution et de traitement autant que possible.</p></li>
-<li><p><strong>Utilité :</strong> La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.</p></li>
-<li><p><strong>Bénéfices :</strong></p>
+<li class="fragment"><p><strong>Principe :</strong> Automatiser les étapes de constitution et de traitement autant que possible.</p></li>
+<li class="fragment"><p><strong>Utilité :</strong> La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.</p></li>
+<li class="fragment"><p><strong>Bénéfices :</strong></p>
 <ul>
-<li><p><strong>Gain de temps</strong> considérable sur les volumes importants de données.</p></li>
-<li><p><strong>Standardisation et réduction des erreurs humaines</strong> pour garantir la cohérence des traitements.</p></li>
+<li class="fragment"><p><strong>Gain de temps</strong> considérable sur les volumes importants de données.</p></li>
+<li class="fragment"><p><strong>Standardisation et réduction des erreurs humaines</strong> pour garantir la cohérence des traitements.</p></li>
 </ul></li>
-<li><p><strong>Exemples d’application :</strong></p>
+<li class="fragment"><p><strong>Exemples d’application :</strong></p>
 <ul>
-<li><p><em>Documents manuscrits ou scannés :</em> Utilisation de logiciels de reconnaissance optique de caractères (<strong>OCR / HTR</strong>).</p></li>
-<li><p><em>Nettoyage et conversion de fichiers :</em> Reformatting automatique (conversion du PDF vers du texte brut <code>.txt</code>).</p></li>
-<li><p><em>Nettoyage des données :</em> Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).</p></li>
+<li class="fragment"><p><em>Documents manuscrits ou scannés :</em> Utilisation de logiciels de reconnaissance optique de caractères (<strong>OCR / HTR</strong>).</p></li>
+<li class="fragment"><p><em>Nettoyage et conversion de fichiers :</em> Reformatting automatique (conversion du PDF vers du texte brut <code>.txt</code>).</p></li>
+<li class="fragment"><p><em>Nettoyage des données :</em> Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="standardisation-pérennité-et-ouverture-open-source" class="level3">
-<h3 class="anchored" data-anchor-id="standardisation-pérennité-et-ouverture-open-source"><span class="header-section-number">4.2.1.3</span> 3. Standardisation, pérennité et ouverture (Open Source)</h3>
+<h4 id="standardisation-pérennité-et-ouverture-open-source"><span class="header-section-number">2.5.1.3</span> 3. Standardisation, pérennité et ouverture (Open Source)</h4>
 <ul>
-<li><p><strong>Principe :</strong> Encoder et stocker le corpus dans des formats ouverts afin qu’il puisse être <strong>réutilisable par d’autres chercheurs</strong> et interopérable avec divers outils.</p></li>
-<li><p><strong>Format et encodage :</strong></p>
+<li class="fragment"><p><strong>Principe :</strong> Encoder et stocker le corpus dans des formats ouverts afin qu’il puisse être <strong>réutilisable par d’autres chercheurs</strong> et interopérable avec divers outils.</p></li>
+<li class="fragment"><p><strong>Format et encodage :</strong></p>
 <ul>
-<li><p>Privilégier le format texte brut (<code>.txt</code>) ou le format XML balisé (ex. normes TEI - <em>Text Encoding Initiative</em>).</p></li>
-<li><p>S’assurer du réencodage (ex. UTF-8) pour éviter les problèmes de caractères spéciaux.</p></li>
+<li class="fragment"><p>Privilégier le format texte brut (<code>.txt</code>) ou le format XML balisé (ex. normes TEI - <em>Text Encoding Initiative</em>).</p></li>
+<li class="fragment"><p>S’assurer du réencodage (ex. UTF-8) pour éviter les problèmes de caractères spéciaux.</p></li>
 </ul></li>
-<li><p><strong>Logiciels et outils :</strong></p>
+<li class="fragment"><p><strong>Logiciels et outils :</strong></p>
 <ul>
-<li><p>Éviter les formats propriétaires clos (ex. <code>.docx</code> non standardisés) ou les logiciels fermés.</p></li>
-<li><p>Recourir à des <strong>logiciels open-source / libres</strong> pour garantir la pérennité et la réplicabilité des analyses.</p></li>
+<li class="fragment"><p>Éviter les formats propriétaires clos (ex. <code>.docx</code> non standardisés) ou les logiciels fermés.</p></li>
+<li class="fragment"><p>Recourir à des <strong>logiciels open-source / libres</strong> pour garantir la pérennité et la réplicabilité des analyses.</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-</section>
-<section id="cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" class="level2">
-<h2 class="anchored" data-anchor-id="cas-spécifique-les-corpus-oraux-transcriptions-anonymisation"><span class="header-section-number">4.2.2</span> Cas spécifique : Les corpus oraux (Transcriptions &amp; anonymisation)</h2>
+<h3 id="cas-spécifique-les-corpus-oraux-transcriptions-anonymisation"><span class="header-section-number">2.5.2</span> Cas spécifique : Les corpus oraux (Transcriptions &amp; anonymisation)</h3>
 <ul>
-<li><p><strong>Le choix théorique de la transcription :</strong></p>
+<li class="fragment"><p><strong>Le choix théorique de la transcription :</strong></p>
 <ul>
-<li><p>Transcrire l’oral vers l’écrit dépend fondamentalement de la grille d’analyse et des objectifs théoriques du chercheur.</p></li>
-<li><p><em>Orthographe standard vs Transcription phonétique / alignée :</em></p>
+<li class="fragment"><p>Transcrire l’oral vers l’écrit dépend fondamentalement de la grille d’analyse et des objectifs théoriques du chercheur.</p></li>
+<li class="fragment"><p><em>Orthographe standard vs Transcription phonétique / alignée :</em></p>
 <ul>
-<li><p>Faut-il utiliser une orthographe normalisée (ex. <em>« Je ne sais pas, enfin… »</em>) ou une transcription fidèle à la prononciation effective / la syntaxe de l’oral (ex. <em>« chais pas m’enfin »</em>) ?</p></li>
-<li><p><em>Arbitrage :</em> Si l’objectif est une analyse syntaxique ou lexicale globale, l’orthographe standardisée est souvent privilégiée pour faciliter le traitement automatique. Si l’étude porte sur la phonétique, les hésitations ou les marqueurs discursifs, une transcription fine (ou un alignement texte-signal audio) s’impose.</p></li>
+<li class="fragment"><p>Faut-il utiliser une orthographe normalisée (ex. <em>« Je ne sais pas, enfin… »</em>) ou une transcription fidèle à la prononciation effective / la syntaxe de l’oral (ex. <em>« chais pas m’enfin »</em>) ?</p></li>
+<li class="fragment"><p><em>Arbitrage :</em> Si l’objectif est une analyse syntaxique ou lexicale globale, l’orthographe standardisée est souvent privilégiée pour faciliter le traitement automatique. Si l’étude porte sur la phonétique, les hésitations ou les marqueurs discursifs, une transcription fine (ou un alignement texte-signal audio) s’impose.</p></li>
 </ul></li>
 </ul></li>
-<li><p><strong>L’anonymisation :</strong></p>
+<li class="fragment"><p><strong>L’anonymisation :</strong></p>
 <ul>
-<li><p>Étape éthique et juridique indispensable avant la mise à disposition ou la publication d’un corpus d’oral.</p></li>
-<li><p>Consiste à masquer ou remplacer par des étiquettes neutres toutes les informations directement ou indirectement identifiables (noms propres, lieux spécifiques, numéros de téléphone, institutions citées).</p></li>
+<li class="fragment"><p>Étape éthique et juridique indispensable avant la mise à disposition ou la publication d’un corpus d’oral.</p></li>
+<li class="fragment"><p>Consiste à masquer ou remplacer par des étiquettes neutres toutes les informations directement ou indirectement identifiables (noms propres, lieux spécifiques, numéros de téléphone, institutions citées).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="cadre-juridique-et-éthique" class="level2">
-<h2 class="anchored" data-anchor-id="cadre-juridique-et-éthique"><span class="header-section-number">4.2.3</span> Cadre juridique et éthique</h2>
-<section id="aspects-juridiques-droit-dauteur-et-diffusion" class="level3">
-<h3 class="anchored" data-anchor-id="aspects-juridiques-droit-dauteur-et-diffusion"><span class="header-section-number">4.2.3.1</span> Aspects juridiques : Droit d’auteur et diffusion</h3>
+<h3 id="cadre-juridique-et-éthique"><span class="header-section-number">2.5.3</span> Cadre juridique et éthique</h3>
+<h4 id="aspects-juridiques-droit-dauteur-et-diffusion"><span class="header-section-number">2.5.3.1</span> Aspects juridiques : Droit d’auteur et diffusion</h4>
 <ul>
-<li><p><strong>Aspiration de textes sur le Web (Web Scraping) :</strong></p>
+<li class="fragment"><p><strong>Aspiration de textes sur le Web (Web Scraping) :</strong></p>
 <ul>
-<li><p><strong>Propriété intellectuelle :</strong> Même lorsqu’un texte est mis à disposition publiquement sur internet, <strong>l’auteur en reste le propriétaire</strong>.</p></li>
-<li><p><strong>Droit de fouille de données (Data Mining) vs Diffusion :</strong></p>
+<li class="fragment"><p><strong>Propriété intellectuelle :</strong> Même lorsqu’un texte est mis à disposition publiquement sur internet, <strong>l’auteur en reste le propriétaire</strong>.</p></li>
+<li class="fragment"><p><strong>Droit de fouille de données (Data Mining) vs Diffusion :</strong></p>
 <ul>
-<li><p>Il est légalement permis d’aspirer et d’utiliser des textes pour un usage d’<strong>analyse et de recherche</strong>.</p></li>
-<li><p><strong>Interdiction de redistribution enrichie :</strong> On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis <strong>mettre le tout à disposition du grand public</strong> sans l’accord des ayants droit.</p></li>
+<li class="fragment"><p>Il est légalement permis d’aspirer et d’utiliser des textes pour un usage d’<strong>analyse et de recherche</strong>.</p></li>
+<li class="fragment"><p><strong>Interdiction de redistribution enrichie :</strong> On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis <strong>mettre le tout à disposition du grand public</strong> sans l’accord des ayants droit.</p></li>
 </ul></li>
 </ul></li>
-<li><p><strong>Ressources sous licences libres (ex. Wikipédia) :</strong></p>
+<li class="fragment"><p><strong>Ressources sous licences libres (ex. Wikipédia) :</strong></p>
 <ul>
-<li>Les contenus sous licences de type <strong>Creative Commons</strong> (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).</li>
+<li class="fragment">Les contenus sous licences de type <strong>Creative Commons</strong> (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).</li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="aspects-éthiques-recueil-privé-et-consentement-éclairé" class="level3">
-<h3 class="anchored" data-anchor-id="aspects-éthiques-recueil-privé-et-consentement-éclairé"><span class="header-section-number">4.2.3.2</span> Aspects éthiques : Recueil privé et consentement éclairé</h3>
+<h4 id="aspects-éthiques-recueil-privé-et-consentement-éclairé"><span class="header-section-number">2.5.3.2</span> Aspects éthiques : Recueil privé et consentement éclairé</h4>
 <p>Lors du recueil de données privées ou d’enregistrements de personnes :</p>
 <ul>
-<li><p><strong>Obtention du consentement éclairé :</strong></p>
+<li class="fragment"><p><strong>Obtention du consentement éclairé :</strong></p>
 <ul>
-<li><p>Il est obligatoire de <strong>recueillir l’accord préalable</strong> des participants pour étudier leurs données.</p></li>
-<li><p><strong>Transparence complète :</strong> Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.</p></li>
+<li class="fragment"><p>Il est obligatoire de <strong>recueillir l’accord préalable</strong> des participants pour étudier leurs données.</p></li>
+<li class="fragment"><p><strong>Transparence complète :</strong> Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.</p></li>
 </ul></li>
-<li><p><strong>Collecte loyale :</strong></p>
+<li class="fragment"><p><strong>Collecte loyale :</strong></p>
 <ul>
-<li>La collecte ne doit <strong>jamais se faire à leur insu</strong> (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).</li>
+<li class="fragment">La collecte ne doit <strong>jamais se faire à leur insu</strong> (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).</li>
+</ul></li>
+</ul>
+<hr>
+<h4 id="respect-de-la-vie-privée-et-anonymisation"><span class="header-section-number">2.5.3.3</span> Respect de la vie privée et anonymisation</h4>
+<ul>
+<li class="fragment"><p><strong>Engagement au respect de la vie privée :</strong></p>
+<ul>
+<li class="fragment">Obligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.</li>
+</ul></li>
+<li class="fragment"><p><strong>Procédure d’anonymisation :</strong></p>
+<ul>
+<li class="fragment"><p>Consiste à <strong>effacer ou remplacer toutes les informations permettant d’identifier</strong> directement ou indirectement un individu :</p>
+<ul>
+<li class="fragment"><p>Noms et prénoms.</p></li>
+<li class="fragment"><p>Adresses, noms de rues et lieux trop précis.</p></li>
+<li class="fragment"><p>Dates de naissance ou éléments de calendrier identifiables.</p></li>
+<li class="fragment"><p>Organismes, entreprises ou institutions spécifiques cités lors des échanges.</p></li>
+</ul></li>
 </ul></li>
 </ul>
 <hr>
 </section>
-<section id="respect-de-la-vie-privée-et-anonymisation" class="level3">
-<h3 class="anchored" data-anchor-id="respect-de-la-vie-privée-et-anonymisation"><span class="header-section-number">4.2.3.3</span> Respect de la vie privée et anonymisation</h3>
-<ul>
-<li><p><strong>Engagement au respect de la vie privée :</strong></p>
-<ul>
-<li>Obligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.</li>
-</ul></li>
-<li><p><strong>Procédure d’anonymisation :</strong></p>
-<ul>
-<li><p>Consiste à <strong>effacer ou remplacer toutes les informations permettant d’identifier</strong> directement ou indirectement un individu :</p>
-<ul>
-<li><p>Noms et prénoms.</p></li>
-<li><p>Adresses, noms de rues et lieux trop précis.</p></li>
-<li><p>Dates de naissance ou éléments de calendrier identifiables.</p></li>
-<li><p>Organismes, entreprises ou institutions spécifiques cités lors des échanges.</p></li>
-</ul></li>
-</ul></li>
-</ul>
-<hr>
+<section id="étape-3-prétraiter-vos-données" class="slide level2">
+<h2><span class="header-section-number">2.6</span> Étape 3 : Prétraiter vos données</h2>
 </section>
-</section>
-</section>
-<section id="étape-3-prétraiter-vos-données" class="level1">
-<h1><span class="header-section-number">4.3</span> Étape 3 : Prétraiter vos données</h1>
-</section>
-<section id="section" class="level1">
-<h1><span class="header-section-number">4.4</span> </h1>
+<section id="section-1" class="slide level2 scrollable">
+<h2></h2>
 <div class="html">
 <div style="display: flex; align-items: center; justify-content: space-around;">
 <div style="width: 150px; height: 100px; background: linear-gradient(135deg,#3498db,#2980b9); border-radius: 10px; display:flex; align-items:center; justify-content:center; color:white;">
@@ -803,207 +652,184 @@ window.Quarto = {
 </div>
 </div>
 <hr>
-<section id="annotation" class="level2">
-<h2 class="anchored" data-anchor-id="annotation"><span class="header-section-number">4.4.1</span> Annotation</h2>
-<section id="dans-le-cas-des-corpus-écrits" class="level3">
-<h3 class="anchored" data-anchor-id="dans-le-cas-des-corpus-écrits"><span class="header-section-number">4.4.1.1</span> Dans le cas des corpus écrits</h3>
-<section id="nature-et-formats-des-données-écrits" class="level4">
-<h4 class="anchored" data-anchor-id="nature-et-formats-des-données-écrits"><span class="header-section-number">4.4.1.1.1</span> Nature et formats des données écrits</h4>
+<h3 id="annotation"><span class="header-section-number">2.6.1</span> Annotation</h3>
+<h4 id="dans-le-cas-des-corpus-écrits"><span class="header-section-number">2.6.1.1</span> Dans le cas des corpus écrits</h4>
+<h5 id="nature-et-formats-des-données-écrits"><span class="header-section-number">2.6.1.1.1</span> Nature et formats des données écrits</h5>
 <ul>
-<li><p><strong>Données nativement électroniques :</strong></p>
+<li class="fragment"><p><strong>Données nativement électroniques :</strong></p>
 <ul>
-<li>Textes déjà numériques (articles de presse en ligne, blogs, courriels, posts sur les réseaux sociaux, etc.).</li>
-</ul></li>
-<li><p><strong>Données manuscrites :</strong></p>
-<ul>
-<li><p>Manuscrits littéraires (brouillons d’écrivains), écrits scolaires ou académiques, archives administratives ou historiques.</p></li>
-<li><p>Nécessitent une étape préalable d’<strong>OCR</strong> (reconnaissance optique de caractères / <em>HTR</em> pour les manuscrits) ou de <strong>transcription manuelle</strong>.</p></li>
-</ul></li>
-<li><p><strong>Format recommandé :</strong></p>
-<ul>
-<li><p>Idéalement au format <strong>texte brut (<code>.txt</code>)</strong> ou structuré en <strong>XML</strong> (ex. norme TEI - <em>Text Encoding Initiative</em>).</p></li>
-<li><p><em>Pourquoi ?</em> Pour garantir la pérennité des données, éviter les formats propriétaires (comme <code>.docx</code>) et assurer une compatibilité universelle avec les outils d’analyse textuelle et de traitement automatique du langage (TAL).</p></li>
+<li class="fragment">Textes déjà numériques (articles de presse en ligne, blogs, courriels, posts sur les réseaux sociaux, etc.).</li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="annoter-le-corpus-enrichissement" class="level4">
-<h4 class="anchored" data-anchor-id="annoter-le-corpus-enrichissement"><span class="header-section-number">4.4.1.1.2</span> Annoter le corpus (Enrichissement)</h4>
 <ul>
-<li><p><strong>Principe :</strong></p>
+<li class="fragment"><p><strong>Données manuscrites :</strong></p>
 <ul>
-<li>Annoter consiste à <strong>ajouter des informations d’ordre linguistique ou métadiscursif</strong> directement au sein des données textuelles.</li>
+<li class="fragment"><p>Manuscrits littéraires (brouillons d’écrivains), écrits scolaires ou académiques, archives administratives ou historiques.</p></li>
+<li class="fragment"><p>Nécessitent une étape préalable d’<strong>OCR</strong> (reconnaissance optique de caractères / <em>HTR</em> pour les manuscrits) ou de <strong>transcription manuelle</strong>.</p></li>
 </ul></li>
-<li><p><strong>Exemples d’annotations :</strong></p>
+<li class="fragment"><p><strong>Format recommandé :</strong></p>
 <ul>
-<li><p><strong>Catégories grammaticales / Parties du discours (POS Tagging) :</strong> Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).</p></li>
-<li><p><strong>Formes canoniques (Lemmatisation) :</strong> Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).</p></li>
-<li><p><strong>Entités nommées :</strong> Identifier et étiqueter les personnes, lieux, organisations, dates, etc.</p></li>
+<li class="fragment"><p>Idéalement au format <strong>texte brut (<code>.txt</code>)</strong> ou structuré en <strong>XML</strong> (ex. norme TEI - <em>Text Encoding Initiative</em>).</p></li>
+<li class="fragment"><p><em>Pourquoi ?</em> Pour garantir la pérennité des données, éviter les formats propriétaires (comme <code>.docx</code>) et assurer une compatibilité universelle avec les outils d’analyse textuelle et de traitement automatique du langage (TAL).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="problèmes-et-limites-du-traitement-automatique" class="level4">
-<h4 class="anchored" data-anchor-id="problèmes-et-limites-du-traitement-automatique"><span class="header-section-number">4.4.1.1.3</span> Problèmes et limites du traitement automatique</h4>
+<h5 id="annoter-le-corpus-enrichissement"><span class="header-section-number">2.6.1.1.2</span> Annoter le corpus (Enrichissement)</h5>
+<ul>
+<li class="fragment"><p><strong>Principe :</strong></p>
+<ul>
+<li class="fragment">Annoter consiste à <strong>ajouter des informations d’ordre linguistique ou métadiscursif</strong> directement au sein des données textuelles.</li>
+</ul></li>
+<li class="fragment"><p><strong>Exemples d’annotations :</strong></p>
+<ul>
+<li class="fragment"><p><strong>Catégories grammaticales / Parties du discours (POS Tagging) :</strong> Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).</p></li>
+<li class="fragment"><p><strong>Formes canoniques (Lemmatisation) :</strong> Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).</p></li>
+<li class="fragment"><p><strong>Entités nommées :</strong> Identifier et étiqueter les personnes, lieux, organisations, dates, etc.</p></li>
+</ul></li>
+</ul>
+<hr>
+<h5 id="problèmes-et-limites-du-traitement-automatique"><span class="header-section-number">2.6.1.1.3</span> Problèmes et limites du traitement automatique</h5>
 <p>L’annotation automatique soulève plusieurs difficultés liées à la complexité de la langue naturelle, notamment lors des étapes d’initialisation :</p>
 <ul>
-<li><p><strong>La segmentation en phrases (Sentence Splitting) :</strong></p>
+<li class="fragment"><p><strong>La segmentation en phrases (Sentence Splitting) :</strong></p>
 <ul>
-<li><p><em>Problème du point :</em> Le signe « . » n’indique pas toujours la fin d’une phrase.</p></li>
-<li><p><em>Exemple :</em> Les <strong>abréviations</strong> (ex. <em>M. Lebrun, etc., vol.&nbsp;2</em>) ou les adresses web/e-mails. Un segmentateur automatique simpliste peut couper la phrase au milieu à cause de ces points.</p></li>
+<li class="fragment"><p><em>Problème du point :</em> Le signe « . » n’indique pas toujours la fin d’une phrase.</p></li>
+<li class="fragment"><p><em>Exemple :</em> Les <strong>abréviations</strong> (ex. <em>M. Lebrun, etc., vol.&nbsp;2</em>) ou les adresses web/e-mails. Un segmentateur automatique simpliste peut couper la phrase au milieu à cause de ces points.</p></li>
 </ul></li>
 </ul>
 <hr>
 <ul>
-<li><p><strong>La segmentation en mots / Tokenisation :</strong></p>
+<li class="fragment"><p><strong>La segmentation en mots / Tokenisation :</strong></p>
 <ul>
-<li><p><em>Problème de l’espace et des caractères spéciaux :</em> Un mot ne correspond pas toujours à une séquence de caractères délimitée par deux espaces.</p></li>
-<li><p><em>Traits d’union :</em> Faut-il compter <em>« c’est-à-dire »</em> ou <em>« arc-en-ciel »</em> comme <span class="math inline">\(1\)</span> seul mot ou <span class="math inline">\(3\)</span> à <span class="math inline">\(5\)</span> tokens distincts ?</p></li>
-<li><p><em>Mots composés sans trait d’union (expressions polylexicales) :</em></p>
+<li class="fragment"><p><em>Problème de l’espace et des caractères spéciaux :</em> Un mot ne correspond pas toujours à une séquence de caractères délimitée par deux espaces.</p></li>
+<li class="fragment"><p><em>Traits d’union :</em> Faut-il compter <em>« c’est-à-dire »</em> ou <em>« arc-en-ciel »</em> comme <span class="math inline">\(1\)</span> seul mot ou <span class="math inline">\(3\)</span> à <span class="math inline">\(5\)</span> tokens distincts ?</p></li>
+<li class="fragment"><p><em>Mots composés sans trait d’union (expressions polylexicales) :</em></p>
 <ul>
-<li><p>Ex. <em>« machine à laver »</em> : sémantiquement, c’est une seule unité lexicale, mais graphiquement elle contient <span class="math inline">\(3\)</span> mots séparés par des espaces.</p></li>
-<li><p>Selon les outils, cette expression sera parfois découpée en 3 tokens (<em>machine</em> / <em>à</em> / <em>laver</em>), parfois unifiée (<em>machine_à_laver</em>).</p></li>
+<li class="fragment"><p>Ex. <em>« machine à laver »</em> : sémantiquement, c’est une seule unité lexicale, mais graphiquement elle contient <span class="math inline">\(3\)</span> mots séparés par des espaces.</p></li>
+<li class="fragment"><p>Selon les outils, cette expression sera parfois découpée en 3 tokens (<em>machine</em> / <em>à</em> / <em>laver</em>), parfois unifiée (<em>machine_à_laver</em>).</p></li>
 </ul></li>
-<li><p><em>Apostrophes et contractions :</em></p>
+<li class="fragment"><p><em>Apostrophes et contractions :</em></p>
 <ul>
-<li><p>Ex. <em>« penses-tu ? »</em> ➔ Deux mots (<em>penses</em> + <em>tu</em>), liés par un trait d’union.</p></li>
-<li><p>Ex. <em>« l’arbre »</em> ➔ Deux unités (<em>l’</em> + <em>arbre</em>).</p></li>
+<li class="fragment"><p>Ex. <em>« penses-tu ? »</em> ➔ Deux mots (<em>penses</em> + <em>tu</em>), liés par un trait d’union.</p></li>
+<li class="fragment"><p>Ex. <em>« l’arbre »</em> ➔ Deux unités (<em>l’</em> + <em>arbre</em>).</p></li>
 </ul></li>
-</ul></li>
-</ul>
-<hr>
-<ul>
-<li><p><strong>Divergence des outils automatiques :</strong></p>
-<ul>
-<li><p>Chaque logiciel ou chaîne de traitement TAL (ex. <em>Spacy, Stanford NLP, TreeTagger, Lexico, TXM</em>) possède <strong>ses propres règles de segmentation et ses propres algorithmes</strong>.</p></li>
-<li><p>Par conséquent, deux outils appliqués au même corpus n’obtiendront <strong>pas toujours les mêmes performances</strong> ni le même nombre total de mots (<em>tokens</em>).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-</section>
-<section id="activité-test-de-tokenisation" class="level3">
-<h3 class="anchored" data-anchor-id="activité-test-de-tokenisation"><span class="header-section-number">4.4.1.2</span> Activité : Test de tokenisation</h3>
+<ul>
+<li class="fragment"><p><strong>Divergence des outils automatiques :</strong></p>
+<ul>
+<li class="fragment"><p>Chaque logiciel ou chaîne de traitement TAL (ex. <em>Spacy, Stanford NLP, TreeTagger, Lexico, TXM</em>) possède <strong>ses propres règles de segmentation et ses propres algorithmes</strong>.</p></li>
+<li class="fragment"><p>Par conséquent, deux outils appliqués au même corpus n’obtiendront <strong>pas toujours les mêmes performances</strong> ni le même nombre total de mots (<em>tokens</em>).</p></li>
+</ul></li>
+</ul>
+<hr>
+<h4 id="activité-test-de-tokenisation"><span class="header-section-number">2.6.1.2</span> Activité : Test de tokenisation</h4>
 <p>Comprendre comment les choix de prétraitement (tokenisation) modifient le décompte des unités dans l’analyse de texte[cite: 2].</p>
-</section>
-<section id="phrase-cible" class="level3">
-<h3 class="anchored" data-anchor-id="phrase-cible"><span class="header-section-number">4.4.1.3</span> Phrase cible</h3>
-<blockquote class="blockquote">
+<h4 id="phrase-cible"><span class="header-section-number">2.6.1.3</span> Phrase cible</h4>
+<blockquote>
 <p><em>« C’est-à-dire qu’il y a des machines à laver de haute technologie »</em></p>
 </blockquote>
 <hr>
-</section>
-<section id="méthode-1-tokenisation-stricte-graphique" class="level3">
-<h3 class="anchored" data-anchor-id="méthode-1-tokenisation-stricte-graphique"><span class="header-section-number">4.4.1.4</span> Méthode 1 : Tokenisation stricte / graphique</h3>
+<h4 id="méthode-1-tokenisation-stricte-graphique"><span class="header-section-number">2.6.1.4</span> Méthode 1 : Tokenisation stricte / graphique</h4>
 <ul>
-<li><p><strong>Critère :</strong> Découpage strict basé uniquement sur les espaces et les ponctuations.</p></li>
-<li><p><strong>Liste des tokens :</strong></p>
+<li class="fragment"><p><strong>Critère :</strong> Découpage strict basé uniquement sur les espaces et les ponctuations.</p></li>
+<li class="fragment"><p><strong>Liste des tokens :</strong></p>
 <ol type="1">
-<li><p><code>C'</code></p></li>
-<li><p><code>est</code></p></li>
-<li><p><code>à</code></p></li>
-<li><p><code>dire</code></p></li>
-<li><p><code>qu'</code></p></li>
-<li><p><code>il</code></p></li>
-<li><p><code>y</code></p></li>
-<li><p><code>a</code></p></li>
-<li><p><code>des</code></p></li>
-<li><p><code>machines</code></p></li>
-<li><p><code>à</code></p></li>
-<li><p><code>laver</code></p></li>
-<li><p><code>de</code></p></li>
-<li><p><code>haute</code></p></li>
-<li><p><code>technologie</code></p></li>
+<li class="fragment"><p><code>C'</code></p></li>
+<li class="fragment"><p><code>est</code></p></li>
+<li class="fragment"><p><code>à</code></p></li>
+<li class="fragment"><p><code>dire</code></p></li>
+<li class="fragment"><p><code>qu'</code></p></li>
+<li class="fragment"><p><code>il</code></p></li>
+<li class="fragment"><p><code>y</code></p></li>
+<li class="fragment"><p><code>a</code></p></li>
+<li class="fragment"><p><code>des</code></p></li>
+<li class="fragment"><p><code>machines</code></p></li>
+<li class="fragment"><p><code>à</code></p></li>
+<li class="fragment"><p><code>laver</code></p></li>
+<li class="fragment"><p><code>de</code></p></li>
+<li class="fragment"><p><code>haute</code></p></li>
+<li class="fragment"><p><code>technologie</code></p></li>
 </ol></li>
-<li><p><strong>Total :</strong> <strong>15 tokens</strong></p></li>
+<li class="fragment"><p><strong>Total :</strong> <strong>15 tokens</strong></p></li>
 </ul>
 <hr>
-</section>
-</section>
-<section id="méthode-2-tokenisation-sémantique-polylexicale" class="level2">
-<h2 class="anchored" data-anchor-id="méthode-2-tokenisation-sémantique-polylexicale"><span class="header-section-number">4.4.2</span> Méthode 2 : Tokenisation sémantique / polylexicale</h2>
+<h3 id="méthode-2-tokenisation-sémantique-polylexicale"><span class="header-section-number">2.6.2</span> Méthode 2 : Tokenisation sémantique / polylexicale</h3>
 <ul>
-<li><p><strong>Critère :</strong> Regroupement des expressions polylexicales (MWE) et locutions figées en unités sémantiques uniques.</p></li>
-<li><p><strong>Liste des tokens :</strong></p>
+<li class="fragment"><p><strong>Critère :</strong> Regroupement des expressions polylexicales (MWE) et locutions figées en unités sémantiques uniques.</p></li>
+<li class="fragment"><p><strong>Liste des tokens :</strong></p>
 <ol type="1">
-<li><p><code>C'est-à-dire</code></p></li>
-<li><p><code>qu'</code></p></li>
-<li><p><code>il y a</code></p></li>
-<li><p><code>des</code></p></li>
-<li><p><code>machines à laver</code></p></li>
-<li><p><code>de</code></p></li>
-<li><p><code>haute technologie</code></p></li>
+<li class="fragment"><p><code>C'est-à-dire</code></p></li>
+<li class="fragment"><p><code>qu'</code></p></li>
+<li class="fragment"><p><code>il y a</code></p></li>
+<li class="fragment"><p><code>des</code></p></li>
+<li class="fragment"><p><code>machines à laver</code></p></li>
+<li class="fragment"><p><code>de</code></p></li>
+<li class="fragment"><p><code>haute technologie</code></p></li>
 </ol></li>
 </ul>
 <hr>
-</section>
-<section id="partitionner-un-corpus" class="level2">
-<h2 class="anchored" data-anchor-id="partitionner-un-corpus"><span class="header-section-number">4.4.3</span> Partitionner un corpus</h2>
+<h3 id="partitionner-un-corpus"><span class="header-section-number">2.6.3</span> Partitionner un corpus</h3>
 <ul>
-<li><p>Partitionner un corpus consiste à le découper en plusieurs <strong>subdivisions nommées (sous-corpus)</strong> selon un ou plusieurs critères structurants.</p></li>
-<li><p>Les éléments d’une partition ne sont <strong>pas forcément des exemples contigus</strong> dans le fichier texte ou audio (ex. toutes les interventions d’un même individu dispersées tout au long d’un enregistrement).</p></li>
-<li><p>Très fréquemment appliqué à la <strong>transcription des enregistrements</strong> oraux.</p></li>
+<li class="fragment"><p>Partitionner un corpus consiste à le découper en plusieurs <strong>subdivisions nommées (sous-corpus)</strong> selon un ou plusieurs critères structurants.</p></li>
+<li class="fragment"><p>Les éléments d’une partition ne sont <strong>pas forcément des exemples contigus</strong> dans le fichier texte ou audio (ex. toutes les interventions d’un même individu dispersées tout au long d’un enregistrement).</p></li>
+<li class="fragment"><p>Très fréquemment appliqué à la <strong>transcription des enregistrements</strong> oraux.</p></li>
 </ul>
 <hr>
-<section id="critères-et-types-de-partitions" class="level3">
-<h3 class="anchored" data-anchor-id="critères-et-types-de-partitions"><span class="header-section-number">4.4.3.1</span> Critères et types de partitions</h3>
+<h4 id="critères-et-types-de-partitions"><span class="header-section-number">2.6.3.1</span> Critères et types de partitions</h4>
 <ul>
-<li><p><strong>Partitions en fonction du locuteur :</strong></p>
+<li class="fragment"><p><strong>Partitions en fonction du locuteur :</strong></p>
 <ul>
-<li><p>Regroupement par individu (ex. Locuteur A vs.&nbsp;Locuteur B).</p></li>
-<li><p>Regroupement par catégories ou groupes de locuteurs (variables sociolinguistiques : âge, genre, niveau d’études, profession, origine géographique).</p></li>
+<li class="fragment"><p>Regroupement par individu (ex. Locuteur A vs.&nbsp;Locuteur B).</p></li>
+<li class="fragment"><p>Regroupement par catégories ou groupes de locuteurs (variables sociolinguistiques : âge, genre, niveau d’études, profession, origine géographique).</p></li>
 </ul></li>
-<li><p><strong>Partitions en fonction du temps / de la chronologie :</strong></p>
+<li class="fragment"><p><strong>Partitions en fonction du temps / de la chronologie :</strong></p>
 <ul>
-<li><p>Évolution diachronique (ex. corpus découpé par décennies ou par années).</p></li>
-<li><p>Découpage interne à une interaction (ex. début, milieu, fin de l’enregistrement).</p></li>
+<li class="fragment"><p>Évolution diachronique (ex. corpus découpé par décennies ou par années).</p></li>
+<li class="fragment"><p>Découpage interne à une interaction (ex. début, milieu, fin de l’enregistrement).</p></li>
 </ul></li>
-<li><p><strong>Partitions en fonction des moments clés de l’enregistrement :</strong></p>
+<li class="fragment"><p><strong>Partitions en fonction des moments clés de l’enregistrement :</strong></p>
 <ul>
-<li>Découpage selon la situation de communication, les phases de l’interaction ou les sujets abordés (ex. phase d’accueil, débat guidé, parole libre, tâches spécifiques).</li>
+<li class="fragment">Découpage selon la situation de communication, les phases de l’interaction ou les sujets abordés (ex. phase d’accueil, débat guidé, parole libre, tâches spécifiques).</li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="pourquoi-partitionner" class="level3">
-<h3 class="anchored" data-anchor-id="pourquoi-partitionner"><span class="header-section-number">4.4.3.2</span> Pourquoi partitionner ?</h3>
+<h4 id="pourquoi-partitionner"><span class="header-section-number">2.6.3.2</span> Pourquoi partitionner ?</h4>
 <ul>
-<li><p><strong>On peut travailler sur tout le corpus sans partitionner :</strong></p>
+<li class="fragment"><p><strong>On peut travailler sur tout le corpus sans partitionner :</strong></p>
 <ul>
-<li>Utile pour avoir une vue d’ensemble, calculer la fréquence globale des mots ou dresser la liste du vocabulaire total (<em>lexique global</em>).</li>
+<li class="fragment">Utile pour avoir une vue d’ensemble, calculer la fréquence globale des mots ou dresser la liste du vocabulaire total (<em>lexique global</em>).</li>
 </ul></li>
-<li><p><strong>Pourquoi découper en partitions alors ?</strong></p>
+<li class="fragment"><p><strong>Pourquoi découper en partitions alors ?</strong></p>
 <ul>
-<li><p><strong>Contraste et comparaison :</strong> Permet d’opposer des sous-corpus pour faire ressortir des spécificités statistiques (sur-emploi ou sous-emploi de certains termes).</p></li>
-<li><p><strong>Focalisation :</strong> Permet de centrer l’analyse empirique sur des parties ciblées du corpus.</p></li>
-<li><p><strong>Étude de la variation :</strong> S’intéresser à certains locuteurs particuliers ou comparer différents groupes de locuteurs (ex. les jeunes vs.&nbsp;les séniors, les journalistes vs.&nbsp;les invités).</p></li>
+<li class="fragment"><p><strong>Contraste et comparaison :</strong> Permet d’opposer des sous-corpus pour faire ressortir des spécificités statistiques (sur-emploi ou sous-emploi de certains termes).</p></li>
+<li class="fragment"><p><strong>Focalisation :</strong> Permet de centrer l’analyse empirique sur des parties ciblées du corpus.</p></li>
+<li class="fragment"><p><strong>Étude de la variation :</strong> S’intéresser à certains locuteurs particuliers ou comparer différents groupes de locuteurs (ex. les jeunes vs.&nbsp;les séniors, les journalistes vs.&nbsp;les invités).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="quand-et-comment-y-penser" class="level3">
-<h3 class="anchored" data-anchor-id="quand-et-comment-y-penser"><span class="header-section-number">4.4.3.3</span> Quand et comment y penser ?</h3>
+<h4 id="quand-et-comment-y-penser"><span class="header-section-number">2.6.3.3</span> Quand et comment y penser ?</h4>
 <ul>
-<li><p><strong>Penser au partitionnement en amont :</strong></p>
+<li class="fragment"><p><strong>Penser au partitionnement en amont :</strong></p>
 <ul>
-<li>La possibilité de partitionner un corpus dépend directement de la qualité de l’archivage et de l’encodage des données dès la phase de constitution du corpus.</li>
+<li class="fragment">La possibilité de partitionner un corpus dépend directement de la qualité de l’archivage et de l’encodage des données dès la phase de constitution du corpus.</li>
 </ul></li>
-<li><p><strong>Exploitation des métadonnées (Fichiers XML / En-têtes) :</strong></p>
+<li class="fragment"><p><strong>Exploitation des métadonnées (Fichiers XML / En-têtes) :</strong></p>
 <ul>
-<li><p>Dans des corpus structurés en <strong>XML</strong> (comme le projet <strong>ORFEO</strong>), chaque fichier ou intervention contient des balises intégrant des propriétés et métadonnées.</p></li>
-<li><p><em>Exemples de propriétés exploitables pour partitionner :</em></p>
+<li class="fragment"><p>Dans des corpus structurés en <strong>XML</strong> (comme le projet <strong>ORFEO</strong>), chaque fichier ou intervention contient des balises intégrant des propriétés et métadonnées.</p></li>
+<li class="fragment"><p><em>Exemples de propriétés exploitables pour partitionner :</em></p>
 <ul>
-<li><p><strong>Propriétés du locuteur :</strong> genre, âge, statut, rôle interactionnel.</p></li>
-<li><p><strong>Propriétés contextuelles :</strong> lieu d’enregistrement, date, langue / dialecte, degré de formalité, type de média (radio, conversation privée, entretien).</p></li>
+<li class="fragment"><p><strong>Propriétés du locuteur :</strong> genre, âge, statut, rôle interactionnel.</p></li>
+<li class="fragment"><p><strong>Propriétés contextuelles :</strong> lieu d’enregistrement, date, langue / dialecte, degré de formalité, type de média (radio, conversation privée, entretien).</p></li>
 </ul></li>
 </ul></li>
 </ul>
 <hr>
 </section>
-</section>
-</section>
-<section id="étape-4-analyser-les-données" class="level1">
-<h1><span class="header-section-number">4.5</span> Étape 4 : Analyser les données</h1>
+<section id="étape-4-analyser-les-données" class="slide level2">
+<h2><span class="header-section-number">2.7</span> Étape 4 : Analyser les données</h2>
 <div class="html">
 <svg width="100%" viewbox="0 0 700 300">
 </svg><p><rect x="50" y="50" width="100" height="80" fill="#3498db" opacity="0.3" rx="5"> <text x="100" y="95" text-anchor="middle" font-size="12" font-weight="bold">Corpus</text></rect></p>
@@ -1016,585 +842,604 @@ window.Quarto = {
 
 </div>
 <hr>
-<section id="outils-et-requêtes-pour-explorer-un-corpus" class="level2">
-<h2 class="anchored" data-anchor-id="outils-et-requêtes-pour-explorer-un-corpus"><span class="header-section-number">4.5.1</span> Outils et requêtes pour explorer un corpus</h2>
-<section id="choix-de-loutil-linguistique-pour-explorer-un-corpus" class="level3">
-<h3 class="anchored" data-anchor-id="choix-de-loutil-linguistique-pour-explorer-un-corpus"><span class="header-section-number">4.5.1.1</span> Choix de l’outil linguistique pour explorer un corpus</h3>
-</section>
-<section id="construire-une-requête" class="level3">
-<h3 class="anchored" data-anchor-id="construire-une-requête"><span class="header-section-number">4.5.1.2</span> Construire une requête</h3>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
+<h3 id="outils-et-requêtes-pour-explorer-un-corpus"><span class="header-section-number">2.7.1</span> Outils et requêtes pour explorer un corpus</h3>
+<h4 id="choix-de-loutil-linguistique-pour-explorer-un-corpus"><span class="header-section-number">2.7.1.1</span> Choix de l’outil linguistique pour explorer un corpus</h4>
+<h4 id="construire-une-requête"><span class="header-section-number">2.7.1.2</span> Construire une requête</h4>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Définition
+<p><strong>Définition</strong></p>
 </div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="callout-content">
 <p><strong>Requête</strong> : instruction donnée au logiciel pour sélectionner certains mots</p>
 </div>
 </div>
+</div>
 <hr>
-</section>
-</section>
-<section id="mesures-quantitatives-fréquence-et-spécificités" class="level2">
-<h2 class="anchored" data-anchor-id="mesures-quantitatives-fréquence-et-spécificités"><span class="header-section-number">4.5.2</span> Mesures quantitatives : Fréquence et spécificités</h2>
+<h3 id="mesures-quantitatives-fréquence-et-spécificités"><span class="header-section-number">2.7.2</span> Mesures quantitatives : Fréquence et spécificités</h3>
 <ul>
-<li><p>Outils quantitatifs</p></li>
-<li><p>Aussi utilisé en textométrie et lexicométrie</p></li>
+<li class="fragment"><p>Outils quantitatifs</p></li>
+<li class="fragment"><p>Aussi utilisé en textométrie et lexicométrie</p></li>
 </ul>
-<section id="fréquence" class="level3">
-<h3 class="anchored" data-anchor-id="fréquence"><span class="header-section-number">4.5.2.1</span> Fréquence</h3>
+<h4 id="fréquence"><span class="header-section-number">2.7.2.1</span> Fréquence</h4>
 <ul>
-<li><p><strong>Fréquence absolue (</strong><span class="math inline">\(f\)</span>) :</p>
+<li class="fragment"><p><strong>Fréquence absolue (</strong><span class="math inline">\(f\)</span>) :</p>
 <ul>
-<li><p><strong>Définition :</strong> Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.</p></li>
-<li><p><em>Exemple :</em> Le terme <em>« liberté »</em> apparaît <strong>45 fois</strong> dans l’ensemble d’un discours.</p></li>
+<li class="fragment"><p><strong>Définition :</strong> Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.</p></li>
+<li class="fragment"><p><em>Exemple :</em> Le terme <em>« liberté »</em> apparaît <strong>45 fois</strong> dans l’ensemble d’un discours.</p></li>
 </ul></li>
-<li><p><strong>Fréquence relative (</strong><span class="math inline">\(fr\)</span>) :</p>
+<li class="fragment"><p><strong>Fréquence relative (</strong><span class="math inline">\(fr\)</span>) :</p>
 <ul>
-<li><p><strong>Définition :</strong> Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (<span class="math inline">\(N\)</span>), souvent exprimé en pourcentage ou en nombre de cas pour <span class="math inline">\(N\)</span> mots (ex. pour 10 000 mots).</p></li>
-<li><p><em>Formule :</em> <span class="math inline">\(fr = \frac{f}{N}\)</span></p></li>
-<li><p><em>Exemple :</em> Si un discours compte <span class="math inline">\(N = 10\,000\)</span> mots et que <em>« liberté »</em> apparaît <span class="math inline">\(f = 45\)</span> fois, la fréquence relative est de <span class="math inline">\(0{,}45\%\)</span> (ou 45 pour 10 000 mots).</p></li>
+<li class="fragment"><p><strong>Définition :</strong> Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (<span class="math inline">\(N\)</span>), souvent exprimé en pourcentage ou en nombre de cas pour <span class="math inline">\(N\)</span> mots (ex. pour 10 000 mots).</p></li>
+<li class="fragment"><p><em>Formule :</em> <span class="math inline">\(fr = \frac{f}{N}\)</span></p></li>
+<li class="fragment"><p><em>Exemple :</em> Si un discours compte <span class="math inline">\(N = 10\,000\)</span> mots et que <em>« liberté »</em> apparaît <span class="math inline">\(f = 45\)</span> fois, la fréquence relative est de <span class="math inline">\(0{,}45\%\)</span> (ou 45 pour 10 000 mots).</p></li>
 </ul></li>
 </ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Définition
+<p><strong>Définition</strong></p>
 </div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="callout-content">
 <p>Hapax : Forme linguistique n’apparaissant qu’une seule et unique fois (<span class="math inline">\(f = 1\)</span>) dans l’ensemble du corpus étudié.</p>
 </div>
 </div>
+</div>
 <hr>
-</section>
-<section id="le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" class="level3">
-<h3 class="anchored" data-anchor-id="le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités"><span class="header-section-number">4.5.2.2</span> Le pré-traitement appliqué au comptage (Découpage et choix d’unités)</h3>
+<h4 id="le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités"><span class="header-section-number">2.7.2.2</span> Le pré-traitement appliqué au comptage (Découpage et choix d’unités)</h4>
 <p>Le comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :</p>
 <ul>
-<li><p><strong>Tokenisation (Découpage des mots / occurrences) :</strong></p>
+<li class="fragment"><p><strong>Tokenisation (Découpage des mots / occurrences) :</strong></p>
 <ul>
-<li>Découpage de la chaîne de texte brute en unités minimales (<em>tokens</em>).</li>
+<li class="fragment">Découpage de la chaîne de texte brute en unités minimales (<em>tokens</em>).</li>
 </ul></li>
-<li><p><strong>Comptage des formes vs Lemmes :</strong></p>
+<li class="fragment"><p><strong>Comptage des formes vs Lemmes :</strong></p>
 <ul>
-<li><p><em>Formes graphiques (mots bruts) :</em> Traite différemment chaque flexion (<em>mange</em>, <em>mangeons</em>, <em>mangera</em>).</p></li>
-<li><p><em>Lemmes :</em> Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (<em>manger</em>).</p></li>
-<li><p><em>Choix méthodologique :</em></p>
+<li class="fragment"><p><em>Formes graphiques (mots bruts) :</em> Traite différemment chaque flexion (<em>mange</em>, <em>mangeons</em>, <em>mangera</em>).</p></li>
+<li class="fragment"><p><em>Lemmes :</em> Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (<em>manger</em>).</p></li>
+<li class="fragment"><p><em>Choix méthodologique :</em></p>
 <ul>
-<li><p><strong>Pour les verbes ➔ Utiliser les lemmes</strong> afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.</p></li>
-<li><p><strong>Pour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser</strong> (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).</p></li>
+<li class="fragment"><p><strong>Pour les verbes ➔ Utiliser les lemmes</strong> afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.</p></li>
+<li class="fragment"><p><strong>Pour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser</strong> (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).</p></li>
 </ul></li>
-</ul></li>
-</ul>
-<hr>
-<ul>
-<li><p><strong>Prise en compte des majuscules et de la ponctuation :</strong></p>
-<ul>
-<li><em>Exemple :</em> Faut-il distinguer le nom propre <em>« Pierre »</em> du nom commun <em>« pierre »</em> ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?</li>
-</ul></li>
-<li><p><strong>Prise en compte des expressions polylexicales (locutions / MWE) :</strong></p>
-<ul>
-<li><p>Groupes de mots fonctionnant comme une seule unité sémantique.</p></li>
-<li><p><em>Exemple :</em> Traiter <em>« chemin de fer »</em> ou <em>« au fur et à mesure »</em> comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (<em>chemin</em>, <em>de</em>, <em>fer</em>).</p></li>
-</ul></li>
-<li><p><strong>Parties du discours (POS Tagging) :</strong></p>
-<ul>
-<li><p>Étiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.</p></li>
-<li><p><em>Exemple :</em> Distinguer <em>« ferme »</em> (nom commun), <em>« ferme »</em> (adjectif) et <em>« ferme »</em> (verbe <em>fermer</em>).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="mesurer-la-spécificité-textuelle" class="level3">
-<h3 class="anchored" data-anchor-id="mesurer-la-spécificité-textuelle"><span class="header-section-number">4.5.2.3</span> Mesurer la spécificité textuelle</h3>
 <ul>
-<li><p><strong>Qu’est-ce qui fait la spécificité d’un texte ?</strong></p>
+<li class="fragment"><p><strong>Prise en compte des majuscules et de la ponctuation :</strong></p>
 <ul>
-<li>C’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.</li>
+<li class="fragment"><em>Exemple :</em> Faut-il distinguer le nom propre <em>« Pierre »</em> du nom commun <em>« pierre »</em> ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?</li>
 </ul></li>
-<li><p><strong>Corpus test vs Corpus étalon / de référence :</strong></p>
+<li class="fragment"><p><strong>Prise en compte des expressions polylexicales (locutions / MWE) :</strong></p>
 <ul>
-<li><p><strong>Corpus test (étudié) :</strong> Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.</p></li>
-<li><p><strong>Corpus étalon (de référence) :</strong> Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).</p></li>
+<li class="fragment"><p>Groupes de mots fonctionnant comme une seule unité sémantique.</p></li>
+<li class="fragment"><p><em>Exemple :</em> Traiter <em>« chemin de fer »</em> ou <em>« au fur et à mesure »</em> comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (<em>chemin</em>, <em>de</em>, <em>fer</em>).</p></li>
 </ul></li>
-<li><p><strong>Principe de comparaison :</strong></p>
+<li class="fragment"><p><strong>Parties du discours (POS Tagging) :</strong></p>
 <ul>
-<li>On compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, <strong>en fonction des tailles respectives</strong> de ces deux corpus.</li>
+<li class="fragment"><p>Étiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.</p></li>
+<li class="fragment"><p><em>Exemple :</em> Distinguer <em>« ferme »</em> (nom commun), <em>« ferme »</em> (adjectif) et <em>« ferme »</em> (verbe <em>fermer</em>).</p></li>
 </ul></li>
 </ul>
 <hr>
-</section>
-<section id="indicateurs-et-indices-statistiques-de-spécificité" class="level3">
-<h3 class="anchored" data-anchor-id="indicateurs-et-indices-statistiques-de-spécificité"><span class="header-section-number">4.5.2.4</span> Indicateurs et indices statistiques de spécificité</h3>
+<h4 id="mesurer-la-spécificité-textuelle"><span class="header-section-number">2.7.2.3</span> Mesurer la spécificité textuelle</h4>
 <ul>
-<li><p><strong>Log-Likelihood Ratio (</strong><span class="math inline">\(G^2\)</span> ou rapport de vraisemblance) :</p>
+<li class="fragment"><p><strong>Qu’est-ce qui fait la spécificité d’un texte ?</strong></p>
 <ul>
-<li><strong>Principe :</strong> Test statistique permettant d’évaluer la différence de distribution d’un mot entre deux corpus, particulièrement efficace sur les corpus textuels (même sur de petits volumes ou des mots à faible fréquence). Il mesure l’écart à une distribution théorique uniforme.</li>
+<li class="fragment">C’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.</li>
 </ul></li>
-<li><p><strong>Spécificité (Indice de Lafon / Modèle hypergéométrique) :</strong></p>
+<li class="fragment"><p><strong>Corpus test vs Corpus étalon / de référence :</strong></p>
 <ul>
-<li><p><strong>Principe :</strong> Calcul fondé sur le modèle probabiliste hypergéométrique (proposé par Pierre Lafon). Il détermine la probabilité qu’un mot apparaisse <span class="math inline">\(x\)</span> fois dans un sous-corpus de taille <span class="math inline">\(t\)</span>, sachant qu’il apparaît <span class="math inline">\(F\)</span> fois dans le corpus global de taille <span class="math inline">\(N\)</span> tiré sans remise.</p></li>
-<li><p><strong>Résultat :</strong> Donne des tirages exprimés en score de spécificité (probabilité d’apparition accidentelle) permettant d’isoler le <strong>vocabulaire spécifique</strong> d’un auteur, d’un genre ou d’une époque.</p></li>
+<li class="fragment"><p><strong>Corpus test (étudié) :</strong> Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.</p></li>
+<li class="fragment"><p><strong>Corpus étalon (de référence) :</strong> Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).</p></li>
+</ul></li>
+<li class="fragment"><p><strong>Principe de comparaison :</strong></p>
+<ul>
+<li class="fragment">On compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, <strong>en fonction des tailles respectives</strong> de ces deux corpus.</li>
 </ul></li>
 </ul>
 <hr>
+<h4 id="indicateurs-et-indices-statistiques-de-spécificité"><span class="header-section-number">2.7.2.4</span> Indicateurs et indices statistiques de spécificité</h4>
+<hr>
 </section>
-</section>
-</section>
-<section id="étape-5-conclusion-répondre-aux-questions" class="level1">
-<h1><span class="header-section-number">4.6</span> Étape 5 : Conclusion (Répondre aux questions)</h1>
+<section id="étape-5-conclusion-répondre-aux-questions" class="slide level2">
+<h2><span class="header-section-number">2.8</span> Étape 5 : Conclusion (Répondre aux questions)</h2>
 <div class="html">
 <div style="background: linear-gradient(135deg,#9b59b6,#8e44ad); color:white; padding:40px; border-radius:15px; text-align:center;">
-<h3 class="anchored" data-anchor-id="étape-5-conclusion-répondre-aux-questions">
+<h3>
 Conclusion
 </h3>
-<p>
-<strong>Il y a (ou non) une relation entre…</strong>
-</p>
+<div>
+<p>Il y a (ou non) une relation entre…</p>
+</div>
 </div>
 </div>
 <hr>
-
+</section>
+</div>
 
 </section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p><span id="slide-path"></span></p>
+</div>
+</div></div>
 
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copié");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copié");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-        }
-      }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1100,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 8.0e-2,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
         },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
       });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
+    </script>
+    <div id="scroll-progress-track"><div id="scroll-progress-bar"></div></div>
+    <script>
+    (function() {
+      // ---------- Breadcrumb path (H1 > H2 > H3) ----------
+      function updateSlidePath(event) {
+        const footer = document.getElementById('slide-path');
+        if (!footer) return;
+        const currentSlide = event.currentSlide;
+        if (!currentSlide) return;
+        const allSlides = Array.from(
+          document.querySelectorAll('.reveal .slides section:not(.stack)')
+        );
+        const currentIndex = allSlides.indexOf(currentSlide);
+        let h1 = null, h2 = null;
+        const h3 = currentSlide.querySelector('h3')?.innerText;
+        for (let i = currentIndex; i >= 0; i--) {
+          const slide = allSlides[i];
+          if (!h2) h2 = slide.querySelector('h2')?.innerText;
+          if (!h1) h1 = slide.querySelector('h1')?.innerText;
+          if (h1 && h2) break;
+        }
+        const clean = (t) => (t ? t.trim() : null);
+        h1 = clean(h1); h2 = clean(h2); const h3c = clean(h3);
+        const course = getComputedStyle(document.documentElement)
+          .getPropertyValue('--course-title').trim().replace(/^["']|["']$/g, '');
+        let path = "📁 " + (course || document.title);
+        if (h1) path += ` ❯ 📁 ${h1}`;
+        if (h2 && h2 !== h1) path += ` ❯ 📁 ${h2}`;
+        if (h3c && h3c !== h2) path += ` ❯ 📄 ${h3c}`;
+        footer.innerHTML = path;
+      }
+
+      // ---------- Scroll progress bar ----------
+      function updateProgressBar() {
+        const slide = Reveal.getCurrentSlide();
+        const bar = document.getElementById('scroll-progress-bar');
+        if (!slide || !bar) return;
+        const maxScroll = slide.scrollHeight - slide.clientHeight;
+        if (maxScroll <= 0) {
+          bar.style.width = '0%';
+          return;
+        }
+        const pct = Math.min(100, (slide.scrollTop / maxScroll) * 100);
+        bar.style.width = pct + '%';
+      }
+
+      // ---------- Arrow-key scroll on long slides ----------
+      function scrollOrNavigate(event) {
+        const slide = Reveal.getCurrentSlide();
+        if (!slide) return;
+        const maxScroll = slide.scrollHeight - slide.clientHeight;
+        const atBottom = slide.scrollTop >= maxScroll - 5;
+        const atTop = slide.scrollTop <= 5;
+        const isDown = event.key === 'ArrowDown' || event.key === 'PageDown';
+        const isUp = event.key === 'ArrowUp' || event.key === 'PageUp';
+        if (maxScroll > 0) {
+          if (isDown && !atBottom) {
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            slide.scrollTop += 150;
+            updateProgressBar();
+            return;
+          }
+          if (isUp && !atTop) {
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            slide.scrollTop -= 150;
+            updateProgressBar();
+            return;
           }
         }
+        // otherwise let Reveal handle normal slide navigation
       }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
+
+      // ---------- Reset scroll position on slide change ----------
+      function resetScroll(event) {
+        if (event.currentSlide) event.currentSlide.scrollTop = 0;
+        updateProgressBar();
+      }
+
+      Reveal.on('slidechanged', updateSlidePath);
+      Reveal.on('slidechanged', resetScroll);
+      Reveal.on('ready', updateSlidePath);
+      Reveal.on('ready', updateProgressBar);
+      document.addEventListener('keydown', scrollOrNavigate, { capture: true });
+      document.addEventListener('scroll', function(e) {
+        if (e.target && e.target.classList && e.target.tagName === 'SECTION') {
+          updateProgressBar();
+        }
+      }, true);
+    })();
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
             }
           }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copié");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copié");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
           }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
           }
-          return note.innerHTML;
+          return codeEl.innerText;
         }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
         }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
         }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
             }
           } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
             });
           }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
         }
-      }, function(instance) {
       });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../chapters/001-phonetique-affrication.html" class="pagination-link" aria-label="Linguistique de corpus">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Linguistique de corpus</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../chapters/003-phonologie-voyelles.html" class="pagination-link" aria-label="Morpho-syntaxe - Accord du participe passé">
-        <span class="nav-page-text">Morpho-syntaxe - Accord du participe passé</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
-</div> <!-- /content -->
-
-
-
+      </script>
+    
 
 </body></html>
