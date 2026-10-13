@@ -1,0 +1,229 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fonetiek en fonologie",
+    "section": "",
+    "text": "Welkom! Na elke les verschijnt het behandelde hoofdstuk in het menu links."
+  },
+  {
+    "objectID": "chapters/002-voyelles.html",
+    "href": "chapters/002-voyelles.html",
+    "title": "Rappels",
+    "section": "",
+    "text": "Video\n_\n\n\n\n\n\n\n/pa/ ou /ba/ ?\n\n▶ tout le continuum\n\n\nCe que vous avez entendu\nCe que vous avez perçu\nMais, par exemple, en thaï",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#une-expérience-visuelle",
+    "href": "chapters/002-voyelles.html#une-expérience-visuelle",
+    "title": "Rappels",
+    "section": "",
+    "text": "Video\n_",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#une-expérience-auditive",
+    "href": "chapters/002-voyelles.html#une-expérience-auditive",
+    "title": "Rappels",
+    "section": "",
+    "text": "/pa/ ou /ba/ ?\n\n▶ tout le continuum\n\n\nCe que vous avez entendu\nCe que vous avez perçu\nMais, par exemple, en thaï",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#phonologie-et-variantes-phonétiques",
+    "href": "chapters/002-voyelles.html#phonologie-et-variantes-phonétiques",
+    "title": "Rappels",
+    "section": "2.5.1 Phonologie et variantes phonétiques",
+    "text": "2.5.1 Phonologie et variantes phonétiques\n\n2.5.1.1 Allophones (Distribution libre) :\n\nSons qui n’entraînent pas de différence de sens entre deux morphèmes\nPar ex. en français [puR] « pour » vs [pur] « pour » vs [puχ] « pour » vs [puʁ] « pour »\n\nTrille uvulaire voisée [R]\nFricative uvulaire voisée [ʁ]\nFricative uvulaire sourde [χ]\nRoulée alvéolaire [r]\n\n\nMais dans certains dialectes néerlandais :\n\n[r] et [χ] = réalisations différentes des phonèmes /r/ et /χ/\n/rudə/ = roede vs /χudə/ = goeden\n\n\n\n\n2.5.1.2 Allophones (Distribution complémentaire) :\n\nSons qui n’entraînent pas de différence de sens entre deux morphèmes\nSons dont la distribution est dictée par l’environnement\nPar ex. en français de Belgique\nMais en position finale /ʒu/ « joue » vs /ʃu/ « joue »\n\n/goʃ/ « gauche » [goʃ]\n/ʁuʒ/ « rouge » [ʁuʃ]\n\n\n\n\n\n2.5.1.3 Schéma récapitulatif\n\n\n\n\n\nflowchart TD\n    A([\"🔊 2 sons différents\"])\n    B{\"Distribution dictée&lt;br/&gt;par l'environnement ?\"}\n    C{\"Même sens ?\"}\n    D([\"🔵 1 phonème, 2 allophones&lt;br/&gt;distribution complémentaire\"])\n    E([\"🔴 2 phonèmes\"])\n    F([\"🟢 1 phonème, 2 allophones&lt;br/&gt;distribution libre\"])\n\n    A --&gt; B\n    B --&gt;|Oui| D\n    B --&gt;|Non| C\n    C --&gt;|Non| E\n    C --&gt;|Oui| F\n\n    classDef start fill:#eef2ff,stroke:#6366f1,stroke-width:3px,color:#1e1b4b\n    classDef question fill:#fff7ed,stroke:#f97316,stroke-width:2px,color:#7c2d12\n    classDef complementary fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e3a8a\n    classDef phonemes fill:#fef2f2,stroke:#ef4444,stroke-width:2px,color:#7f1d1d\n    classDef free fill:#f0fdf4,stroke:#22c55e,stroke-width:2px,color:#14532d\n\n    class A start\n    class B,C question\n    class D complementary\n    class E phonemes\n    class F free\n\n\n\n\n\n\n\n\n\n2.5.1.4 Exercice 1 : La distribution de [w] et [ɥ] (Français de France vs Français de Belgique)\nÀ partir du corpus ci-dessous, analysez le statut phonologique des sons [w] et [ɥ] en français de France (FF) et en français de Belgique (FB). Déterminez s’ils constituent des phonèmes distincts, des allophones en distribution complémentaire ou des allophones en distribution libre.\n** Corpus de données phonétiques**\n\n\n\nMot\nFrançais de France\nFrançais de Belgique\n\n\n1. huit\nɥit\nwit\n\n\n2. oui\nwi\nwi\n\n\n3. juin\nʒɥɛ̃\nʒwɛ̃\n\n\n4. oiseau\nwazo\nwazo\n\n\n5. nuit\nnɥi\nnwi\n\n\n6. ouest\nwɛst\nwɛst\n\n\n7. cuisine\nkɥizin\nkwizin\n\n\n8. chouette\nʃwɛt\nʃwɛt\n\n\n9. pluie\nplɥi\nplwi\n\n\n10. suisse\nsɥis\nswis\n\n\n11.joint\nʒwɛ̃\nʒwɛ̃\n\n\n\n\n\n\n2.5.1.5 Exercice 2 : La distribution de [e] et [ɛ] selon les locuteurs\nÀ partir du corpus ci-dessous, analysez le statut phonologique des sons [e] et [ɛ ] chez les locuteurs A et B. Déterminez s’ils constituent des phonèmes distincts, des allophones en distribution complémentaire ou des allophones en distribution libre.\n** Corpus de données phonétiques**\n\n\n\nMot\nLocuteur A\nLocuteur B\n\n\n1. pré\npʁe\npʁe\n\n\n2. prêt\npʁɛ\npʁe\n\n\n3. les\nle\nle\n\n\n4. lait\nlɛ\nle\n\n\n5. thé\nte\nte\n\n\n6. taie\ntɛ\nte\n\n\n7. épée\nepe\nepe\n\n\n8. épais\nepɛ\nepe\n\n\n9. pique-nique\npiknik\npiknik",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#qui",
+    "href": "chapters/002-voyelles.html#qui",
+    "title": "Rappels",
+    "section": "2.6.1 Qui ?",
+    "text": "2.6.1 Qui ?\n\nJérémy Genette, Dr. en Linguistique (Université d’Anvers)\nPhonéticien et phonologue (de laboratoire)\net vous ?",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#évaluation",
+    "href": "chapters/002-voyelles.html#évaluation",
+    "title": "Rappels",
+    "section": "2.6.2 Évaluation",
+    "text": "2.6.2 Évaluation\n\n(6/20) Examen oral pendant la session\nPetites questions théoriques et pratiques\n‼️ tous les exercices que nous ferons en cours",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#durant-le-cours",
+    "href": "chapters/002-voyelles.html#durant-le-cours",
+    "title": "Rappels",
+    "section": "2.6.3 Durant le cours",
+    "text": "2.6.3 Durant le cours\n\nFaites les exercices\nPosez des questions dès que quelque chose n’est pas clair",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#informations-pratiques-et-échéances",
+    "href": "chapters/002-voyelles.html#informations-pratiques-et-échéances",
+    "title": "Rappels",
+    "section": "2.6.4 Informations pratiques et échéances",
+    "text": "2.6.4 Informations pratiques et échéances\n\n13 octobre : 1h de phonétique et phonologie\n20 octobre : 1h de phonétique et phonologie\n27 octobre : 1h de phonétique et phonologie\n3 novembre : Atelier PRAAT\n\nVenez avec votre ordinateur en cours si possible\nFaire la préparation (voir fin du cours)\n\n10 novembre : 1h de phonétique et phonologie\n17 novembre : 1h de phonétique et phonologie\n24 novembre : 1h de phonétique et phonologie\n1ᵉʳ décembre : Pas de cours de phonétique\n8 décembre : Pas de cours de phonétique\n15 décembre : Dernière séance (FAQ)",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#supports-de-cours",
+    "href": "chapters/002-voyelles.html#supports-de-cours",
+    "title": "Rappels",
+    "section": "2.6.5 Supports de cours",
+    "text": "2.6.5 Supports de cours\n\nSur Toledo, lien vers le site internet du cours pour que vous puissiez avoir tout au même endroit avec les fichiers multimédias etc.\nMot-de-passe: fr-phon-phon-26\n🚨 c’est un test, donnez-moi votre avis et vos retours sur votre expérience…",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#laperture",
+    "href": "chapters/002-voyelles.html#laperture",
+    "title": "Rappels",
+    "section": "2.7.1 L’aperture",
+    "text": "2.7.1 L’aperture\n= la distance entre la langue et la voûte du palais lors de la prononciation de la voyelle\n\n\nOuvertes : [a], [ɑ] et [ɑ̃]\nMi-ouvertes : [ɛ], [œ], [ɔ], [ɛ̃], [œ̃] et [ɔ̃]\nMi-fermées : [e], [o], [ø]\nFermées : [u], [y] et [i]\nMoyennes : [ə]\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n    \n  \n  \n    \n    \n    \n    \n  \n  \n    (1) i\n    (2) e\n    (3) ɛ\n    (4) a\n    ɑ (5)\n    ɔ (6)\n    o (7)\n    u (8)\n  \n  \n    FERMÉE\n    MI-FERMÉE\n    MI-OUVERTE\n    OUVERTE\n  \n\n\n\n\n\n\nPoints les plus hauts de la langue d’après des radiographies des voyelles.",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#le-lieu-darticulation",
+    "href": "chapters/002-voyelles.html#le-lieu-darticulation",
+    "title": "Rappels",
+    "section": "2.7.2 Le lieu d’articulation",
+    "text": "2.7.2 Le lieu d’articulation\n\n\nAntérieures : [i], [y], [e], [ø],[ɛ], [œ], [a], [ɑ], [ɛ̃] et [œ̃]\nCentrales : [ə]\nPostérieures : [u], [o], [ɔ], [ɔ̃] et [ɑ̃]\n\n\n\n\n\nD’après Carton (1997: 39)",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#larrondissement-des-lèvres",
+    "href": "chapters/002-voyelles.html#larrondissement-des-lèvres",
+    "title": "Rappels",
+    "section": "2.7.3 L’arrondissement des lèvres",
+    "text": "2.7.3 L’arrondissement des lèvres\n\n\nArrondies : [y], [ø], [ə], [œ], [u], [o], [ɔ], [œ̃] et [ɔ̃]\nNon arrondies : [i], [e], [ɛ], [ɛ̃], [ɑ̃], [a] et [ɑ]\n\n\n\n\n\nAction des lèvres\nD’un point de vue typologique, plus une voyelle est postérieure et fermée, plus elle est fréquemment arrondie\n\n\n  \n  \n    \n    \n    \n    \n       \n       \n       \n  \n\n  \n  \n    Antérieure\n    Centrale\n    Postérieure\n  \n  \n  \n    Fermée\n    Mi-fermée\n    Mi-ouverte\n    Ouverte\n  \n\n  \n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n\n  \n  \n    \n    \n    \n    \n  \n\n  \n  \n    i   y\n    ɨ   ʉ\n    ɯ   u\n\n    ɪ  ʏ\n    ʊ\n\n    e   ø\n    ɘ   ɵ\n    ɤ   o\n\n    ə\n\n    ɛ   œ\n    ɜ   ɞ\n    ʌ   ɔ\n\n    æ\n    ɐ\n\n    a   ɶ\n    ɑ   ɒ\n  \nQuand les symboles vont par paires, celui de droite représente une voyelle arrondie.",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#la-résonance",
+    "href": "chapters/002-voyelles.html#la-résonance",
+    "title": "Rappels",
+    "section": "2.8.1 La résonance",
+    "text": "2.8.1 La résonance\n\n\nOrales : [y], [ø], [ə], [œ], [i], [e], [ɛ], [u], [o], [ɔ], [a] et [ɑ]\nNasales : [ɛ̃], [ɑ̃], [œ̃] et [ɔ̃]",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#le-trapèze-vocalique-du-français-moderne",
+    "href": "chapters/002-voyelles.html#le-trapèze-vocalique-du-français-moderne",
+    "title": "Rappels",
+    "section": "2.8.2 Le « trapèze vocalique » du français moderne",
+    "text": "2.8.2 Le « trapèze vocalique » du français moderne\n\n  \n  \n  Antérieures\n  Postérieures\n  Fermées\n  Ouvertes\n  i   y   u\n  e   ø   o\n  ə\n  ɛ   œ   ɔ\n  ɛ̃  œ̃  ɔ̃\n  a   ɑ\n  ɑ̃",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#sons-voisés",
+    "href": "chapters/002-voyelles.html#sons-voisés",
+    "title": "Rappels",
+    "section": "2.10.1 Sons voisés",
+    "text": "2.10.1 Sons voisés\n\nLes voyelles sons des sons voisés\nAvec les sons voisés, les cordes vocales vibrent selon un schéma régulier\nAinsi, dans les ondes sonores, vous voyez un motif répétitif = ondes périodiques",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#observations-dans-le-spectrogramme",
+    "href": "chapters/002-voyelles.html#observations-dans-le-spectrogramme",
+    "title": "Rappels",
+    "section": "2.10.2 Observations dans le spectrogramme",
+    "text": "2.10.2 Observations dans le spectrogramme\n\nLigne claire = onde périodique : beaucoup d’énergie autour d’une fréquence spécifique (= plusieurs pics d’une onde sonore, surtout en spectrogramme bas)\nBruit = onde apériodique : l’énergie est répartie de façon plus aléatoire ## Propriétés acoustiques des vocoïdes",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#cavités-et-formants",
+    "href": "chapters/002-voyelles.html#cavités-et-formants",
+    "title": "Rappels",
+    "section": "2.12.1 Cavités et formants",
+    "text": "2.12.1 Cavités et formants\n\n\n\n\n\n\n :::\n# Préparation pour le 3 novembre\nLes tâches attendues nécessitent l’utilisation du matériel suivant :\n\nUn casque audio\nUn système de gestion des corpus (ordinateur muni du logiciel PRAAT) - Fichiers audio (.wav)\nL’API",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#avant-de-commencer",
+    "href": "chapters/002-voyelles.html#avant-de-commencer",
+    "title": "Rappels",
+    "section": "2.14.1 Avant de commencer",
+    "text": "2.14.1 Avant de commencer\n\nPraat est gratuit et se télécharge uniquement sur le site officiel : praat.org.\nIl n’y a pas d’installateur : on télécharge un fichier et on le copie à un endroit de son ordinateur.\nLa version actuelle est la 7.0.02 (août 2026). Praat est mis à jour souvent : prenez toujours celle proposée sur le site officiel.\nAttention : Ne téléchargez jamais Praat depuis un autre site que praat.org.",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#liens-directs-de-téléchargement",
+    "href": "chapters/002-voyelles.html#liens-directs-de-téléchargement",
+    "title": "Rappels",
+    "section": "2.14.2 Liens directs de téléchargement",
+    "text": "2.14.2 Liens directs de téléchargement\n\nWindows : Téléchargez le fichier sur la page de téléchargement Windows (ex. praat7002_win-x64v3.zip).\nMacintosh : Téléchargez le fichier .dmg sur la page de téléchargement Mac (ex. praat7002_mac.dmg).",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  },
+  {
+    "objectID": "chapters/002-voyelles.html#procédure-dinstallation",
+    "href": "chapters/002-voyelles.html#procédure-dinstallation",
+    "title": "Rappels",
+    "section": "2.14.3 Procédure d’installation",
+    "text": "2.14.3 Procédure d’installation\n\n2.14.3.1 Sous Windows\n\nDouble-cliquez sur le fichier .zip téléchargé.\nGlissez l’application Praat.exe hors du zip (vers votre Bureau ou votre dossier Documents).\nLancez Praat depuis ce nouvel emplacement (et non depuis l’intérieur du zip).\nSi Windows SmartScreen bloque l’exécution : cliquez sur Informations complémentaires, puis sur Exécuter quand même (ou faites un clic droit sur Praat.exe &gt; Propriétés &gt; cochez Débloquer).\n\n\n\n2.14.3.2 Sous Mac\n\nOuvrez le fichier .dmg téléchargé.\nGlissez l’icône Praat dans votre dossier Applications.\nLancez Praat depuis le dossier Applications.\nSi macOS bloque l’ouverture : rendez-vous dans Réglages Système &gt; Confidentialité et sécurité, puis cliquez sur Ouvrir quand même.\n\n\n\n\n2.14.3.3 Vérification du lancement\nDeux fenêtres s’ouvrent au lancement de Praat : - Praat Objects : la fenêtre principale où apparaissent vos objets audio et vos analyses. - Praat Picture : la fenêtre réservée au tracé de figures et graphiques.\n\n\n\n2.14.3.4 Enregistrer un son en mono dans Praat\nPour réaliser des analyses acoustiques précises (sonagrammes, pitch, etc.), il est fortement recommandé d’enregistrer le signal audio en mono (un seul canal).\n\n\n2.14.3.5 Étapes pour l’enregistrement :\n\n2.14.3.5.1 Ouvrir la fenêtre d’enregistrement mono :\n\nDans la fenêtre Praat Objects, cliquez sur le menu du haut : New &gt; Record mono sound…\n\n\n\n\n\n\n\n\n2.14.3.5.2 Configurer et tester le niveau d’entrée :\n\nAssurez-vous que votre casque audio / microphone est bien sélectionné dans le menu déroulant Input source.\nParlez normalement pour tester : les jauges de niveau vert/jaune doivent s’animer. Veillez à ce que le niveau ne touche pas la zone rouge (pour éviter la saturation/clipping).",
+    "crumbs": [
+      "Chapters",
+      "Rappels"
+    ]
+  }
+]

@@ -1,0 +1,1921 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>voyelles – Fonetiek en fonologie</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-26ae556258ba27b9aee13e31cd24d084.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-3b1e6eb55080b28dff7a5a065e865421.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-26ae556258ba27b9aee13e31cd24d084.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Geen resultaten",
+    "search-matching-documents-text": "Gevonden documenten",
+    "search-copy-link-title": "Kopieer link om te zoeken",
+    "search-hide-matches-text": "Extra overeenkomsten verbergen",
+    "search-more-match-text": "meer overeenkomst in dit document",
+    "search-more-matches-text": "meer overeenkomsten in dit document",
+    "search-clear-button-title": "Wissen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuleren",
+    "search-submit-button-title": "Verzenden",
+    "search-label": "Zoeken"
+  }
+}</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/002-voyelles.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/002-voyelles.html">Rappels</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Zoeken" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Fonetiek en fonologie</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Schakel donkere modus"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Zoeken"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Schakel sectie">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/002-voyelles.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Rappels</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Op deze pagina</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">2.1</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#une-expérience-visuelle" id="toc-une-expérience-visuelle" class="nav-link" data-scroll-target="#une-expérience-visuelle"><span class="header-section-number">2.1.1</span> Une expérience visuelle</a></li>
+  <li><a href="#une-expérience-auditive" id="toc-une-expérience-auditive" class="nav-link" data-scroll-target="#une-expérience-auditive"><span class="header-section-number">2.1.2</span> Une expérience auditive</a></li>
+  </ul></li>
+  <li><a href="#alphabet-phonétique-international" id="toc-alphabet-phonétique-international" class="nav-link" data-scroll-target="#alphabet-phonétique-international"><span class="header-section-number">2.2</span> Alphabet phonétique international</a></li>
+  <li><a href="#voyelles-du-français" id="toc-voyelles-du-français" class="nav-link" data-scroll-target="#voyelles-du-français"><span class="header-section-number">2.3</span> Voyelles du français</a></li>
+  <li><a href="#les-sons-du-français-en-api" id="toc-les-sons-du-français-en-api" class="nav-link" data-scroll-target="#les-sons-du-français-en-api"><span class="header-section-number">2.4</span> Les sons du français en API</a></li>
+  <li><a href="#notion-de-phonème" id="toc-notion-de-phonème" class="nav-link" data-scroll-target="#notion-de-phonème"><span class="header-section-number">2.5</span> Notion de phonème</a>
+  <ul class="collapse">
+  <li><a href="#phonologie-et-variantes-phonétiques" id="toc-phonologie-et-variantes-phonétiques" class="nav-link" data-scroll-target="#phonologie-et-variantes-phonétiques"><span class="header-section-number">2.5.1</span> Phonologie et variantes phonétiques</a>
+  <ul class="collapse">
+  <li><a href="#allophones-distribution-libre" id="toc-allophones-distribution-libre" class="nav-link" data-scroll-target="#allophones-distribution-libre"><span class="header-section-number">2.5.1.1</span> Allophones (Distribution libre) :</a></li>
+  <li><a href="#allophones-distribution-complémentaire" id="toc-allophones-distribution-complémentaire" class="nav-link" data-scroll-target="#allophones-distribution-complémentaire"><span class="header-section-number">2.5.1.2</span> Allophones (Distribution complémentaire) :</a></li>
+  <li><a href="#schéma-récapitulatif" id="toc-schéma-récapitulatif" class="nav-link" data-scroll-target="#schéma-récapitulatif"><span class="header-section-number">2.5.1.3</span> Schéma récapitulatif</a></li>
+  <li><a href="#exercice-1-la-distribution-de-w-et-ɥ-français-de-france-vs-français-de-belgique" id="toc-exercice-1-la-distribution-de-w-et-ɥ-français-de-france-vs-français-de-belgique" class="nav-link" data-scroll-target="#exercice-1-la-distribution-de-w-et-ɥ-français-de-france-vs-français-de-belgique"><span class="header-section-number">2.5.1.4</span> Exercice 1 : La distribution de [w] et [ɥ] (Français de France vs Français de Belgique)</a></li>
+  <li><a href="#exercice-2-la-distribution-de-e-et-ɛ-selon-les-locuteurs" id="toc-exercice-2-la-distribution-de-e-et-ɛ-selon-les-locuteurs" class="nav-link" data-scroll-target="#exercice-2-la-distribution-de-e-et-ɛ-selon-les-locuteurs"><span class="header-section-number">2.5.1.5</span> Exercice 2 : La distribution de [e] et [ɛ] selon les locuteurs</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#le-cours-de-phonétique-et-phonologie-en-pratique" id="toc-le-cours-de-phonétique-et-phonologie-en-pratique" class="nav-link" data-scroll-target="#le-cours-de-phonétique-et-phonologie-en-pratique"><span class="header-section-number">2.6</span> Le cours de phonétique et phonologie en pratique</a>
+  <ul class="collapse">
+  <li><a href="#qui" id="toc-qui" class="nav-link" data-scroll-target="#qui"><span class="header-section-number">2.6.1</span> Qui ?</a></li>
+  <li><a href="#évaluation" id="toc-évaluation" class="nav-link" data-scroll-target="#évaluation"><span class="header-section-number">2.6.2</span> Évaluation</a></li>
+  <li><a href="#durant-le-cours" id="toc-durant-le-cours" class="nav-link" data-scroll-target="#durant-le-cours"><span class="header-section-number">2.6.3</span> Durant le cours</a></li>
+  <li><a href="#informations-pratiques-et-échéances" id="toc-informations-pratiques-et-échéances" class="nav-link" data-scroll-target="#informations-pratiques-et-échéances"><span class="header-section-number">2.6.4</span> Informations pratiques et échéances</a></li>
+  <li><a href="#supports-de-cours" id="toc-supports-de-cours" class="nav-link" data-scroll-target="#supports-de-cours"><span class="header-section-number">2.6.5</span> Supports de cours</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/002-voyelles.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/002-voyelles.html">Rappels</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Rappels</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1">
+<h1><span class="header-section-number">2.1</span> Introduction</h1>
+<section id="une-expérience-visuelle" class="level2">
+<h2 class="anchored" data-anchor-id="une-expérience-visuelle"><span class="header-section-number">2.1.1</span> Une expérience visuelle</h2>
+<hr>
+<hr>
+<p><video src="images/AQMam_1jbtN6HnlFHx6QntE4iB6Oer7W8rw9wcLuGoS808BZcqBoC-MJwgVOJw_USTugIbLo_sndkSluE_BTFe0aPGDN9WYxl2HXJIUGGg.mp4" class="img-fluid" controls=""><a href="images/AQMam_1jbtN6HnlFHx6QntE4iB6Oer7W8rw9wcLuGoS808BZcqBoC-MJwgVOJw_USTugIbLo_sndkSluE_BTFe0aPGDN9WYxl2HXJIUGGg.mp4">Video</a></video></p>
+<p>_</p>
+<hr>
+</section>
+<section id="une-expérience-auditive" class="level2 pc-slide">
+<h2 class="pc-slide anchored" data-anchor-id="une-expérience-auditive"><span class="header-section-number">2.1.2</span> Une expérience auditive</h2>
+<style>
+.pc-slide h2 { color: #8a8a8a; font-weight: 700; }
+.pc-head {
+  background: #ad0033; color: #fff; text-align: center;
+  font-size: 1.1em; padding: .25em 0; margin-top: .3em;
+}
+.pc-grid { display: grid; grid-template-columns: repeat(15, 1fr); gap: 3px; margin-top: 3px; }
+.pc-cell {
+  height: 1.6em; background: #e3cacd; border: none; cursor: pointer;
+  transition: background .15s, transform .1s;
+}
+.pc-cell:hover { background: #d4a9ae; }
+.pc-cell.playing { background: #ad0033; transform: scaleY(1.15); }
+.pc-play {
+  margin-top: .5em; font-size: .55em; padding: .2em .8em; cursor: pointer;
+  border: 2px solid #ad0033; background: #fff; color: #ad0033; border-radius: 1em;
+}
+.pc-row {
+  display: grid; grid-template-columns: 1fr 1.05fr; align-items: center;
+  margin-top: .9em;
+}
+.pc-row .pc-label { color: #8a8a8a; font-weight: 700; font-size: .95em; }
+.pc-bar { height: 1.4em; border-radius: .7em; }
+.pc-heard { background: linear-gradient(to right, #ad0033, #13a9ab); }
+.pc-fr    { background: linear-gradient(to right, #ad0033 50%, #13a9ab 50%); }
+.pc-thai  { background: linear-gradient(to right, #7030a0 33%, #ad0033 33% 64%, #13a9ab 64%); }
+</style>
+
+<div class="pc-head">/pa/ ou /ba/ ?</div>
+<div class="pc-grid" id="pc-grid"></div>
+<button class="pc-play" id="pc-all">▶ tout le continuum</button>
+
+<script>
+(function () {
+  // -70 ms … +70 ms de VOT, par pas de 10 ms
+  const files = [];
+  for (let v = -70; v <= 70; v += 10) {
+    const n = String(Math.abs(v)).padStart(3, "0");
+    files.push(v < 0 ? `labm${n}` : v === 0 ? "lab0000" : `labp${n}`);
+  }
+  const grid = document.getElementById("pc-grid");
+  const sounds = files.map(f => new Audio(`../chapters/audio/${f}.wav`));
+  const cells = files.map((f, i) => {
+    const b = document.createElement("button");
+    b.className = "pc-cell";
+    b.title = `${(i - 7) * 10} ms`;   // VOT visible au survol seulement
+    b.onclick = () => play(i);
+    grid.appendChild(b);
+    return b;
+  });
+
+  function play(i) {
+    sounds.forEach(s => { s.pause(); s.currentTime = 0; });
+    cells.forEach(c => c.classList.remove("playing"));
+    cells[i].classList.add("playing");
+    sounds[i].onended = () => cells[i].classList.remove("playing");
+    return sounds[i].play();
+  }
+
+  document.getElementById("pc-all").onclick = async () => {
+    for (let i = 0; i < sounds.length; i++) {
+      await play(i);
+      await new Promise(r => sounds[i].addEventListener("ended", r, { once: true }));
+      await new Promise(r => setTimeout(r, 400));
+    }
+  };
+})();
+</script>
+<div class="pc-row fragment"><span class="pc-label">Ce que vous avez entendu</span><div class="pc-bar pc-heard"></div></div>
+<div class="pc-row fragment"><span class="pc-label">Ce que vous avez perçu</span><div class="pc-bar pc-fr"></div></div>
+<div class="pc-row fragment"><span class="pc-label">Mais, par exemple, en thaï</span><div class="pc-bar pc-thai"></div></div>
+<hr>
+</section>
+</section>
+<section id="alphabet-phonétique-international" class="level1">
+<h1><span class="header-section-number">2.2</span> Alphabet phonétique international</h1>
+<ul>
+<li>Transcrire… comment?</li>
+<li>Alphabet Phonétique International (API)</li>
+<li>Pas de raison de préférer un système d’écriture</li>
+<li>Un son = un symbole
+<ul>
+<li>[vɛʀ]
+<ul>
+<li>« ver, vers, vert, verre, vair »</li>
+</ul></li>
+<li>« couvent »
+<ul>
+<li>[kuvɑ̃] ou [kuv]</li>
+</ul></li>
+</ul></li>
+<li>Transcrire… quoi?</li>
+<li>Transcriptions phonétiques entre [] vs.&nbsp;transcriptions phonologiques entre //</li>
+<li>L’API représente par un symbole chacun des sons qui existent en tant que phonèmes dans une langue du monde.</li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3713019908.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="voyelles-du-français" class="level1 smaller">
+<h1 class="smaller"><span class="header-section-number">2.3</span> Voyelles du français</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 45%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Symbole API</th>
+<th style="text-align: left;">Graphies courantes</th>
+<th style="text-align: left;">Exemples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">/i/</td>
+<td style="text-align: left;"><span class="fragment">i, y, î</span></td>
+<td style="text-align: left;"><span class="fragment">lit, stylo, île</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/e/</td>
+<td style="text-align: left;"><span class="fragment">é, er, ez</span></td>
+<td style="text-align: left;"><span class="fragment">blé, aimer, chez</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">/ɛ/</td>
+<td style="text-align: left;"><span class="fragment">è, ê, ai, ei</span></td>
+<td style="text-align: left;"><span class="fragment">père, fête, lait, reine</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/a/</td>
+<td style="text-align: left;"><span class="fragment">a, à</span></td>
+<td style="text-align: left;"><span class="fragment">patte, là</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">/ɑ/</td>
+<td style="text-align: left;"><span class="fragment">â</span></td>
+<td style="text-align: left;"><span class="fragment">pâte, âme</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/ɔ/</td>
+<td style="text-align: left;"><span class="fragment">o, au</span></td>
+<td style="text-align: left;"><span class="fragment">bol, sol</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">/o/</td>
+<td style="text-align: left;"><span class="fragment">o, eau, au</span></td>
+<td style="text-align: left;"><span class="fragment">eau, mot, beau</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/u/</td>
+<td style="text-align: left;"><span class="fragment">ou</span></td>
+<td style="text-align: left;"><span class="fragment">loup, tout</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">/y/</td>
+<td style="text-align: left;"><span class="fragment">u, û</span></td>
+<td style="text-align: left;"><span class="fragment">jupe, flûte</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/ø/</td>
+<td style="text-align: left;"><span class="fragment">eu, œu</span></td>
+<td style="text-align: left;"><span class="fragment">bleu, jeu, nœud</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">/ɑ̃/</td>
+<td style="text-align: left;"><span class="fragment">an, am, en, em</span></td>
+<td style="text-align: left;"><span class="fragment">banc, temps, vent</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/ɔ̃/</td>
+<td style="text-align: left;"><span class="fragment">on, om</span></td>
+<td style="text-align: left;"><span class="fragment">bon, nom</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">/ɛ̃/</td>
+<td style="text-align: left;"><span class="fragment">in, im, ain, ein</span></td>
+<td style="text-align: left;"><span class="fragment">brin, pain, plein</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/œ̃/</td>
+<td style="text-align: left;"><span class="fragment">un, um</span></td>
+<td style="text-align: left;"><span class="fragment">brun, parfum</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="les-sons-du-français-en-api" class="level1">
+<h1><span class="header-section-number">2.4</span> Les sons du français en API</h1>
+<table class="api-table caption-top table">
+<tbody>
+<tr class="odd">
+<td class="ipa">a</td>
+<td class="ex fragment" data-fragment-index="1">p<em>a</em>tte</td>
+<td class="ipa">ŋ</td>
+<td class="ex fragment" data-fragment-index="20">campi<em>ng</em></td>
+</tr>
+<tr class="even">
+<td class="ipa">ɑ̃</td>
+<td class="ex fragment" data-fragment-index="2">bl<em>an</em>c</td>
+<td class="ipa">o</td>
+<td class="ex fragment" data-fragment-index="21"><em>o</em>ser</td>
+</tr>
+<tr class="odd">
+<td class="ipa">b</td>
+<td class="ex fragment" data-fragment-index="3"><em>b</em>eau</td>
+<td class="ipa">ɔ</td>
+<td class="ex fragment" data-fragment-index="22">b<em>o</em>tte</td>
+</tr>
+<tr class="even">
+<td class="ipa">ʃ</td>
+<td class="ex fragment" data-fragment-index="4"><em>ch</em>ou</td>
+<td class="ipa">ɔ̃</td>
+<td class="ex fragment" data-fragment-index="23">b<em>on</em></td>
+</tr>
+<tr class="odd">
+<td class="ipa">d</td>
+<td class="ex fragment" data-fragment-index="5"><em>d</em>oux</td>
+<td class="ipa">p</td>
+<td class="ex fragment" data-fragment-index="24"><em>p</em>eau</td>
+</tr>
+<tr class="even">
+<td class="ipa">e</td>
+<td class="ex fragment" data-fragment-index="6"><em>é</em>t<em>é</em></td>
+<td class="ipa">ʁ</td>
+<td class="ex fragment" data-fragment-index="25"><em>r</em>age</td>
+</tr>
+<tr class="odd">
+<td class="ipa">ɛ</td>
+<td class="ex fragment" data-fragment-index="7"><em>e</em>lle</td>
+<td class="ipa">s</td>
+<td class="ex fragment" data-fragment-index="26"><em>s</em>oupe</td>
+</tr>
+<tr class="even">
+<td class="ipa">ɛ̃</td>
+<td class="ex fragment" data-fragment-index="8">p<em>ain</em></td>
+<td class="ipa">t</td>
+<td class="ex fragment" data-fragment-index="27"><em>t</em>ou<em>t</em>e</td>
+</tr>
+<tr class="odd">
+<td class="ipa">ə</td>
+<td class="ex fragment" data-fragment-index="9">l<em>e</em></td>
+<td class="ipa">u</td>
+<td class="ex fragment" data-fragment-index="28">c<em>ou</em></td>
+</tr>
+<tr class="even">
+<td class="ipa">f</td>
+<td class="ex fragment" data-fragment-index="10"><em>f</em>ée</td>
+<td class="ipa">y</td>
+<td class="ex fragment" data-fragment-index="29">b<em>u</em>t</td>
+</tr>
+<tr class="odd">
+<td class="ipa">ɡ</td>
+<td class="ex fragment" data-fragment-index="11"><em>g</em>out</td>
+<td class="ipa">ø</td>
+<td class="ex fragment" data-fragment-index="30">d<em>eu</em>x</td>
+</tr>
+<tr class="even">
+<td class="ipa">ʒ</td>
+<td class="ex fragment" data-fragment-index="12"><em>j</em>ournal</td>
+<td class="ipa">œ</td>
+<td class="ex fragment" data-fragment-index="31">p<em>eu</em>r</td>
+</tr>
+<tr class="odd">
+<td class="ipa">i</td>
+<td class="ex fragment" data-fragment-index="13"><em>i</em>l</td>
+<td class="ipa">œ̃</td>
+<td class="ex fragment" data-fragment-index="32">br<em>un</em></td>
+</tr>
+<tr class="even">
+<td class="ipa">j</td>
+<td class="ex fragment" data-fragment-index="14">v<em>i</em>ens</td>
+<td class="ipa">v</td>
+<td class="ex fragment" data-fragment-index="33"><em>v</em>oute</td>
+</tr>
+<tr class="odd">
+<td class="ipa">k</td>
+<td class="ex fragment" data-fragment-index="15"><em>c</em>ou</td>
+<td class="ipa">w</td>
+<td class="ex fragment" data-fragment-index="34"><em>ou</em>i</td>
+</tr>
+<tr class="even">
+<td class="ipa">l</td>
+<td class="ex fragment" data-fragment-index="16"><em>l</em>it</td>
+<td class="ipa">ɥ</td>
+<td class="ex fragment" data-fragment-index="35">h<em>u</em>it</td>
+</tr>
+<tr class="odd">
+<td class="ipa">m</td>
+<td class="ex fragment" data-fragment-index="17"><em>m</em>ou</td>
+<td class="ipa">z</td>
+<td class="ex fragment" data-fragment-index="36"><em>z</em>éro</td>
+</tr>
+<tr class="even">
+<td class="ipa">n</td>
+<td class="ex fragment" data-fragment-index="18"><em>n</em>et</td>
+<td class="ipa"></td>
+<td class="ex"></td>
+</tr>
+<tr class="odd">
+<td class="ipa">ɲ</td>
+<td class="ex fragment" data-fragment-index="19">vi<em>gn</em>e</td>
+<td class="ipa"></td>
+<td class="ex"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="notion-de-phonème" class="level1">
+<h1><span class="header-section-number">2.5</span> Notion de phonème</h1>
+<ul>
+<li>Un son qui permet de distinguer deux mots de sens différent.</li>
+<li>La fonction des sons dans la langue est de distinguer des mots de sens différent.
+<ul>
+<li>Ex. /R/ vs.&nbsp;/l/ pour vs.&nbsp;poule</li>
+</ul></li>
+<li>Unité abstraite regroupant l’ensemble des propriétés distinctives (traits) d’un son d’une langue.</li>
+<li>Infinité phonétique vs.&nbsp;nombre fini de phonèmes</li>
+</ul>
+<hr>
+<ul>
+<li><p><strong>Sons permettant de distinguer deux mots de sens différent</strong></p></li>
+<li><p><strong>Paires minimales :</strong></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Belangrijk
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Définition</strong></p>
+<p>Paires de morphèmes de sens différent qui ne diffèrent que par un seul segment</p>
+</div>
+</div>
+<ul>
+<li><p>Permettent de dresser l’inventaire phonologique d’une langue</p></li>
+<li><p><strong>Ex.</strong> <code>/pɛ̃/</code> vs <code>/bɛ̃/</code>, <code>/puR/</code> vs <code>/pul/</code></p></li>
+</ul></li>
+</ul>
+<hr>
+<p><img src="images/clipboard-1651991606.png" class="img-fluid"></p>
+<hr>
+<p><img src="images/clipboard-2732604210.png" class="img-fluid"></p>
+<hr>
+<section id="phonologie-et-variantes-phonétiques" class="level2">
+<h2 class="anchored" data-anchor-id="phonologie-et-variantes-phonétiques"><span class="header-section-number">2.5.1</span> Phonologie et variantes phonétiques</h2>
+<section id="allophones-distribution-libre" class="level3">
+<h3 class="anchored" data-anchor-id="allophones-distribution-libre"><span class="header-section-number">2.5.1.1</span> Allophones (Distribution libre) :</h3>
+<ul>
+<li><p>Sons qui n’entraînent pas de différence de sens entre deux morphèmes</p></li>
+<li><p>Par ex. en français [puR] « pour » vs [pur] « pour » vs [puχ] « pour » vs [puʁ] « pour »</p>
+<ul>
+<li><p>Trille uvulaire voisée [R]</p></li>
+<li><p>Fricative uvulaire voisée [ʁ]</p></li>
+<li><p>Fricative uvulaire sourde [χ]</p></li>
+<li><p>Roulée alvéolaire [r]</p></li>
+</ul></li>
+</ul>
+<p><strong>Mais dans certains dialectes néerlandais :</strong></p>
+<ul>
+<li><p>[r] et [χ] = réalisations différentes des phonèmes /r/ et /χ/</p></li>
+<li><p>/rudə/ = <em>roede</em> vs /χudə/ = <em>goeden</em></p></li>
+</ul>
+<hr>
+</section>
+<section id="allophones-distribution-complémentaire" class="level3">
+<h3 class="anchored" data-anchor-id="allophones-distribution-complémentaire"><span class="header-section-number">2.5.1.2</span> Allophones (Distribution complémentaire) :</h3>
+<ul>
+<li><p>Sons qui n’entraînent pas de différence de sens entre deux morphèmes</p></li>
+<li><p>Sons dont la distribution est dictée par l’environnement</p></li>
+<li><p>Par ex. en français de Belgique</p></li>
+<li><p>Mais en position finale /ʒu/ « joue » vs /ʃu/ « joue »</p>
+<ul>
+<li><p>/goʃ/ « gauche » <strong>[goʃ]</strong></p></li>
+<li><p>/ʁuʒ/ « rouge » <strong>[ʁuʃ]</strong></p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="schéma-récapitulatif" class="level3">
+<h3 class="anchored" data-anchor-id="schéma-récapitulatif"><span class="header-section-number">2.5.1.3</span> Schéma récapitulatif</h3>
+<div class="cell" data-fig-width="9" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A(["🔊 2 sons différents"])
+    B{"Distribution dictée&lt;br/&gt;par l'environnement ?"}
+    C{"Même sens ?"}
+    D(["🔵 1 phonème, 2 allophones&lt;br/&gt;distribution complémentaire"])
+    E(["🔴 2 phonèmes"])
+    F(["🟢 1 phonème, 2 allophones&lt;br/&gt;distribution libre"])
+
+    A --&gt; B
+    B --&gt;|Oui| D
+    B --&gt;|Non| C
+    C --&gt;|Non| E
+    C --&gt;|Oui| F
+
+    classDef start fill:#eef2ff,stroke:#6366f1,stroke-width:3px,color:#1e1b4b
+    classDef question fill:#fff7ed,stroke:#f97316,stroke-width:2px,color:#7c2d12
+    classDef complementary fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e3a8a
+    classDef phonemes fill:#fef2f2,stroke:#ef4444,stroke-width:2px,color:#7f1d1d
+    classDef free fill:#f0fdf4,stroke:#22c55e,stroke-width:2px,color:#14532d
+
+    class A start
+    class B,C question
+    class D complementary
+    class E phonemes
+    class F free
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="exercice-1-la-distribution-de-w-et-ɥ-français-de-france-vs-français-de-belgique" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-1-la-distribution-de-w-et-ɥ-français-de-france-vs-français-de-belgique"><span class="header-section-number">2.5.1.4</span> Exercice 1 : La distribution de [w] et [ɥ] (Français de France vs Français de Belgique)</h3>
+<p>À partir du corpus ci-dessous, analysez le statut phonologique des sons <strong>[w]</strong> et <strong>[ɥ]</strong> en français de France (FF) et en français de Belgique (FB). Déterminez s’ils constituent des <strong>phonèmes distincts</strong>, des <strong>allophones en distribution complémentaire</strong> ou des <strong>allophones en distribution libre</strong>.</p>
+<p>** Corpus de données phonétiques**</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Mot</strong></td>
+<td><strong>Français de France</strong></td>
+<td><strong>Français de Belgique</strong></td>
+</tr>
+<tr class="even">
+<td>1. <em>huit</em></td>
+<td>ɥit</td>
+<td>wit</td>
+</tr>
+<tr class="odd">
+<td>2. <em>oui</em></td>
+<td>wi</td>
+<td>wi</td>
+</tr>
+<tr class="even">
+<td>3. <em>juin</em></td>
+<td>ʒɥɛ̃</td>
+<td>ʒwɛ̃</td>
+</tr>
+<tr class="odd">
+<td>4. <em>oiseau</em></td>
+<td>wazo</td>
+<td>wazo</td>
+</tr>
+<tr class="even">
+<td>5. <em>nuit</em></td>
+<td>nɥi</td>
+<td>nwi</td>
+</tr>
+<tr class="odd">
+<td>6. <em>ouest</em></td>
+<td>wɛst</td>
+<td>wɛst</td>
+</tr>
+<tr class="even">
+<td>7. <em>cuisine</em></td>
+<td>kɥizin</td>
+<td>kwizin</td>
+</tr>
+<tr class="odd">
+<td>8. <em>chouette</em></td>
+<td>ʃwɛt</td>
+<td>ʃwɛt</td>
+</tr>
+<tr class="even">
+<td>9. <em>pluie</em></td>
+<td>plɥi</td>
+<td>plwi</td>
+</tr>
+<tr class="odd">
+<td>10. <em>suisse</em></td>
+<td>sɥis</td>
+<td>swis</td>
+</tr>
+<tr class="even">
+<td>11.<em>joint</em></td>
+<td>ʒwɛ̃</td>
+<td>ʒwɛ̃</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="exercice-2-la-distribution-de-e-et-ɛ-selon-les-locuteurs" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-2-la-distribution-de-e-et-ɛ-selon-les-locuteurs"><span class="header-section-number">2.5.1.5</span> Exercice 2 : La distribution de [e] et [ɛ] selon les locuteurs</h3>
+<p>À partir du corpus ci-dessous, analysez le statut phonologique des sons <strong>[e]</strong> et <strong>[ɛ ]</strong> chez les locuteurs A et B. Déterminez s’ils constituent des <strong>phonèmes distincts</strong>, des <strong>allophones en distribution complémentaire</strong> ou des <strong>allophones en distribution libre</strong>.</p>
+<p>** Corpus de données phonétiques**</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Mot</strong></td>
+<td><strong>Locuteur A</strong></td>
+<td><strong>Locuteur B</strong></td>
+</tr>
+<tr class="even">
+<td>1. <em>pré</em></td>
+<td>pʁe</td>
+<td>pʁe</td>
+</tr>
+<tr class="odd">
+<td>2. <em>prêt</em></td>
+<td>pʁɛ</td>
+<td>pʁe</td>
+</tr>
+<tr class="even">
+<td>3. <em>les</em></td>
+<td>le</td>
+<td>le</td>
+</tr>
+<tr class="odd">
+<td>4. <em>lait</em></td>
+<td>lɛ</td>
+<td>le</td>
+</tr>
+<tr class="even">
+<td>5. <em>thé</em></td>
+<td>te</td>
+<td>te</td>
+</tr>
+<tr class="odd">
+<td>6. <em>taie</em></td>
+<td>tɛ</td>
+<td>te</td>
+</tr>
+<tr class="even">
+<td>7. <em>épée</em></td>
+<td>epe</td>
+<td>epe</td>
+</tr>
+<tr class="odd">
+<td>8. <em>épais</em></td>
+<td>epɛ</td>
+<td>epe</td>
+</tr>
+<tr class="even">
+<td>9. <em>pique-nique</em></td>
+<td>piknik</td>
+<td>piknik</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+</section>
+<section id="le-cours-de-phonétique-et-phonologie-en-pratique" class="level1">
+<h1><span class="header-section-number">2.6</span> Le cours de phonétique et phonologie en pratique</h1>
+<section id="qui" class="level2">
+<h2 class="anchored" data-anchor-id="qui"><span class="header-section-number">2.6.1</span> Qui ?</h2>
+<ul>
+<li><p>Jérémy Genette, Dr.&nbsp;en Linguistique (Université d’Anvers)</p></li>
+<li><p>Phonéticien et phonologue (de laboratoire)</p></li>
+<li><p>et vous ?</p></li>
+</ul>
+<hr>
+</section>
+<section id="évaluation" class="level2">
+<h2 class="anchored" data-anchor-id="évaluation"><span class="header-section-number">2.6.2</span> Évaluation</h2>
+<ul>
+<li><p>(6/20) Examen oral pendant la session</p></li>
+<li><p>Petites questions théoriques et pratiques</p>
+<p>‼️ tous les exercices que nous ferons en cours</p></li>
+</ul>
+</section>
+<section id="durant-le-cours" class="level2">
+<h2 class="anchored" data-anchor-id="durant-le-cours"><span class="header-section-number">2.6.3</span> Durant le cours</h2>
+<ul>
+<li><p>Faites les exercices</p></li>
+<li><p>Posez des questions dès que quelque chose n’est pas clair</p></li>
+</ul>
+</section>
+<section id="informations-pratiques-et-échéances" class="level2">
+<h2 class="anchored" data-anchor-id="informations-pratiques-et-échéances"><span class="header-section-number">2.6.4</span> Informations pratiques et échéances</h2>
+<ul>
+<li><strong>13 octobre :</strong> 1h de phonétique et phonologie</li>
+<li><strong>20 octobre :</strong> 1h de phonétique et phonologie</li>
+<li><strong>27 octobre :</strong> 1h de phonétique et phonologie</li>
+<li><strong>3 novembre :</strong> Atelier PRAAT
+<ul>
+<li><p>Venez avec votre ordinateur en cours si possible</p></li>
+<li><p>Faire la préparation (voir fin du cours)</p></li>
+</ul></li>
+<li><strong>10 novembre :</strong> 1h de phonétique et phonologie</li>
+<li><strong>17 novembre :</strong> 1h de phonétique et phonologie</li>
+<li><strong>24 novembre :</strong> 1h de phonétique et phonologie</li>
+<li><strong>1ᵉʳ décembre :</strong> Pas de cours de phonétique</li>
+<li><strong>8 décembre :</strong> Pas de cours de phonétique</li>
+<li><strong>15 décembre :</strong> Dernière séance (FAQ)</li>
+</ul>
+<hr>
+</section>
+<section id="supports-de-cours" class="level2">
+<h2 class="anchored" data-anchor-id="supports-de-cours"><span class="header-section-number">2.6.5</span> Supports de cours</h2>
+<ul>
+<li><p>Sur Toledo, lien vers le site internet du cours pour que vous puissiez avoir tout au même endroit avec les fichiers multimédias etc.</p></li>
+<li><p>Mot-de-passe: fr-phon-phon-26</p></li>
+<li><p>🚨 c’est un test, donnez-moi votre avis et vos retours sur votre expérience…</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<div class="hidden">
+<section id="propriétés-articulatoires-des-voyelles" class="level1">
+<h1><span class="header-section-number">2.7</span> Propriétés articulatoires des <strong>voyelles</strong></h1>
+<p><span class="lead">Propriétés essentielles :</span></p>
+<div class="check">
+<ul>
+<li>Pour les voyelles, l’air s’échappe relativement librement par le canal buccal et la cavité buccale est suffisamment grande pour faire résonner la vibration laryngée.</li>
+<li>Elles sont sonores, <em>i.e.</em> prononcées avec vibration des cordes vocales.</li>
+<li>Elles peuvent constituer une syllabe à elles seules.</li>
+</ul>
+</div>
+<hr>
+<section id="laperture" class="level2">
+<h2 class="anchored" data-anchor-id="laperture"><span class="header-section-number">2.7.1</span> L’aperture</h2>
+<p>= la distance entre la langue et la voûte du palais lors de la prononciation de la voyelle</p>
+<div class="check api">
+<ul>
+<li>Ouvertes : [a], [ɑ] et [ɑ̃]</li>
+<li>Mi-ouvertes : [ɛ], [œ], [ɔ], [ɛ̃], [œ̃] et [ɔ̃]</li>
+<li>Mi-fermées : [e], [o], [ø]</li>
+<li>Fermées : [u], [y] et [i]</li>
+<li>Moyennes : [ə]</li>
+</ul>
+</div>
+<hr>
+
+<svg class="cardinal" viewbox="0 0 640 400" role="img" aria-label="Voyelles cardinales 1 à 8 et les quatre degrés d'aperture">
+  <g class="grid">
+    <line x1="100" y1="60" x2="560" y2="60"></line>
+    <line x1="170" y1="160" x2="560" y2="160"></line>
+    <line x1="240" y1="260" x2="560" y2="260"></line>
+    <line x1="310" y1="360" x2="560" y2="360"></line>
+    <line x1="100" y1="60" x2="310" y2="360"></line>
+    <line x1="560" y1="60" x2="560" y2="360"></line>
+  </g>
+  <g class="dot">
+    <circle cx="100" cy="60" r="6"></circle><circle cx="170" cy="160" r="6"></circle>
+    <circle cx="240" cy="260" r="6"></circle><circle cx="310" cy="360" r="6"></circle>
+    <circle cx="560" cy="360" r="6"></circle><circle cx="560" cy="260" r="6"></circle>
+    <circle cx="560" cy="160" r="6"></circle><circle cx="560" cy="60" r="6"></circle>
+  </g>
+  <g class="cv">
+    <text x="88" y="68" text-anchor="end">(1) i</text>
+    <text x="158" y="168" text-anchor="end">(2) e</text>
+    <text x="228" y="268" text-anchor="end">(3) ɛ</text>
+    <text x="298" y="368" text-anchor="end">(4) a</text>
+    <text x="574" y="368">ɑ (5)</text>
+    <text x="574" y="268">ɔ (6)</text>
+    <text x="574" y="168">o (7)</text>
+    <text x="574" y="68">u (8)</text>
+  </g>
+  <g class="height">
+    <text class="fragment" data-fragment-index="1" x="330" y="48" text-anchor="middle">FERMÉE</text>
+    <text class="fragment" data-fragment-index="2" x="365" y="148" text-anchor="middle">MI-FERMÉE</text>
+    <text class="fragment" data-fragment-index="3" x="400" y="248" text-anchor="middle">MI-OUVERTE</text>
+    <text class="fragment" data-fragment-index="4" x="435" y="348" text-anchor="middle">OUVERTE</text>
+  </g>
+</svg>
+
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-615450923.png" class="img-fluid figure-img"></p>
+<figcaption>Points les plus hauts de la langue d’après des radiographies des voyelles.</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="le-lieu-darticulation" class="level2">
+<h2 class="anchored" data-anchor-id="le-lieu-darticulation"><span class="header-section-number">2.7.2</span> Le lieu d’articulation</h2>
+<div class="check api">
+<ul>
+<li>Antérieures : [i], [y], [e], [ø],[ɛ], [œ], [a], [ɑ], [ɛ̃] et [œ̃]</li>
+<li>Centrales : [ə]</li>
+<li>Postérieures : [u], [o], [ɔ], [ɔ̃] et [ɑ̃]</li>
+</ul>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3703196147.png" class="img-fluid figure-img"></p>
+<figcaption>D’après Carton (1997: 39)</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="larrondissement-des-lèvres" class="level2">
+<h2 class="anchored" data-anchor-id="larrondissement-des-lèvres"><span class="header-section-number">2.7.3</span> L’arrondissement des lèvres</h2>
+<div class="check api">
+<ul>
+<li>Arrondies : [y], [ø], [ə], [œ], [u], [o], [ɔ], [œ̃] et [ɔ̃]</li>
+<li>Non arrondies : [i], [e], [ɛ], [ɛ̃], [ɑ̃], [a] et [ɑ]</li>
+</ul>
+</div>
+<div class="columns">
+<div class="column" style="width:44%;">
+<ul>
+<li><p>Action des lèvres</p></li>
+<li><p>D’un point de vue typologique, plus une voyelle est postérieure et fermée, plus elle est fréquemment arrondie</p></li>
+</ul>
+</div><svg class="ipa-chart" viewbox="-130 0 760 470" role="img" aria-label="Tableau des voyelles de l'API">
+  <!-- grid -->
+  <g class="grid">
+    <line x1="80" y1="60" x2="540" y2="60"></line>
+    <line x1="140" y1="180" x2="540" y2="180"></line>
+    <line x1="200" y1="300" x2="540" y2="300"></line>
+    <line x1="260" y1="420" x2="540" y2="420"></line>
+    <line x1="80" y1="60" x2="260" y2="420"></line>   
+    <line x1="540" y1="60" x2="540" y2="420"></line>   
+    <line x1="310" y1="60" x2="400" y2="420"></line>   
+  </g>
+
+  <!-- étiquettes de colonnes -->
+  <g class="lab">
+    <text x="80" y="28" text-anchor="middle">Antérieure</text>
+    <text x="310" y="28" text-anchor="middle">Centrale</text>
+    <text x="540" y="28" text-anchor="middle">Postérieure</text>
+  </g>
+  <!-- étiquettes de lignes (visibles sur la diapo arrondissement) -->
+  <g class="lab rowlab">
+    <text x="-125" y="66">Fermée</text>
+    <text x="-125" y="186">Mi-fermée</text>
+    <text x="-125" y="306">Mi-ouverte</text>
+    <text x="-125" y="426">Ouverte</text>
+  </g>
+
+  <!-- surlignage des voyelles arrondies -->
+  <g class="hl">
+    <rect x="91" y="38" width="26" height="44"></rect>
+    <rect x="321" y="38" width="26" height="44"></rect>
+    <rect x="551" y="38" width="26" height="44"></rect>
+    <rect x="187" y="98" width="26" height="44"></rect>
+    <rect x="467" y="98" width="26" height="44"></rect>
+    <rect x="151" y="158" width="26" height="44"></rect>
+    <rect x="351" y="158" width="26" height="44"></rect>
+    <rect x="551" y="158" width="26" height="44"></rect>
+    <rect x="211" y="278" width="34" height="44"></rect>
+    <rect x="381" y="278" width="26" height="44"></rect>
+    <rect x="551" y="278" width="26" height="44"></rect>
+    <rect x="271" y="398" width="34" height="44"></rect>
+    <rect x="551" y="398" width="26" height="44"></rect>
+  </g>
+
+  <!-- points -->
+  <g class="dot">
+    <circle cx="80" cy="60" r="5"></circle><circle cx="310" cy="60" r="5"></circle><circle cx="540" cy="60" r="5"></circle>
+    <circle cx="140" cy="180" r="5"></circle><circle cx="340" cy="180" r="5"></circle><circle cx="540" cy="180" r="5"></circle>
+    <circle cx="200" cy="300" r="5"></circle><circle cx="370" cy="300" r="5"></circle><circle cx="540" cy="300" r="5"></circle>
+    <circle cx="260" cy="420" r="5"></circle><circle cx="540" cy="420" r="5"></circle>
+  </g>
+
+  <!-- .ur = non arrondie (à gauche du point), .rd = arrondie (à droite) -->
+  <g class="sym">
+    <text class="ur" x="66" y="72">i</text>   <text class="rd" x="94" y="72">y</text>
+    <text class="ur" x="296" y="72">ɨ</text>   <text class="rd" x="324" y="72">ʉ</text>
+    <text class="ur" x="526" y="72">ɯ</text>   <text class="rd" x="554" y="72">u</text>
+
+    <text class="ur" x="175" y="132">ɪ</text>  <text class="rd" x="190" y="132">ʏ</text>
+    <text class="rd" x="470" y="132">ʊ</text>
+
+    <text class="ur" x="126" y="192">e</text>   <text class="rd" x="154" y="192">ø</text>
+    <text class="ur" x="326" y="192">ɘ</text>   <text class="rd" x="354" y="192">ɵ</text>
+    <text class="ur" x="526" y="192">ɤ</text>   <text class="rd" x="554" y="192">o</text>
+
+    <text class="nr" x="345" y="252">ə</text>
+
+    <text class="ur" x="186" y="312">ɛ</text>   <text class="rd" x="214" y="312">œ</text>
+    <text class="ur" x="356" y="312">ɜ</text>   <text class="rd" x="384" y="312">ɞ</text>
+    <text class="ur" x="526" y="312">ʌ</text>   <text class="rd" x="554" y="312">ɔ</text>
+
+    <text class="nr" x="240" y="372">æ</text>
+    <text class="nr" x="380" y="372">ɐ</text>
+
+    <text class="ur" x="246" y="432">a</text>   <text class="rd" x="274" y="432">ɶ</text>
+    <text class="ur" x="526" y="432">ɑ</text>   <text class="rd" x="554" y="432">ɒ</text>
+  </g>
+</svg><p><span class="chart-note">Quand les symboles vont par paires, celui de droite représente une voyelle arrondie.</span></p>
+</div>
+</section>
+</section>
+<section id="section-2" class="level1">
+<h1><span class="header-section-number">2.8</span> <img src="images/clipboard-767267770.png" class="img-fluid"></h1>
+<hr>
+<section id="la-résonance" class="level2">
+<h2 class="anchored" data-anchor-id="la-résonance"><span class="header-section-number">2.8.1</span> La résonance</h2>
+<div class="check api">
+<ul>
+<li>Orales : [y], [ø], [ə], [œ], [i], [e], [ɛ], [u], [o], [ɔ], [a] et [ɑ]</li>
+<li>Nasales : [ɛ̃], [ɑ̃], [œ̃] et [ɔ̃]</li>
+</ul>
+</div>
+<p><img src="images/clipboard-1698134291.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="le-trapèze-vocalique-du-français-moderne" class="level2">
+<h2 class="anchored" data-anchor-id="le-trapèze-vocalique-du-français-moderne"><span class="header-section-number">2.8.2</span> Le « trapèze vocalique » du français moderne</h2>
+<svg class="trapeze" viewbox="400 80 1200 790" role="img" aria-label="Trapèze vocalique du français moderne">
+  <rect x="400" y="80" width="1200" height="790" fill="#fff"></rect>
+  <polygon points="645,170 1495,170 1495,465 1380,830 820,830" fill="none" stroke="#222" stroke-width="1"></polygon>
+  <text class="lab" x="505" y="132">Antérieures</text>
+  <text class="lab" x="1398" y="132">Postérieures</text>
+  <text class="lab" x="432" y="176">Fermées</text>
+  <text class="lab" x="420" y="836">Ouvertes</text>
+  <text class="v" x="685" y="235">i</text>   <text class="v" x="873" y="230">y</text>   <text class="v" x="1395" y="222">u</text>
+  <text class="v" x="722" y="385">e</text>   <text class="v" x="882" y="380">ø</text>   <text class="v" x="1388" y="365">o</text>
+  <text class="v" x="1088" y="465">ə</text>
+  <text class="v" x="772" y="565">ɛ</text>   <text class="v" x="893" y="560">œ</text>   <text class="v" x="1328" y="560">ɔ</text>
+  <text class="v n" x="805" y="608">ɛ̃</text>  <text class="v n" x="945" y="605">œ̃</text>  <text class="v n" x="1383" y="590">ɔ̃</text>
+  <text class="v" x="835" y="785">a</text>   <text class="v" x="1268" y="777">ɑ</text>
+  <text class="v n" x="1330" y="808">ɑ̃</text>
+</svg>
+<hr>
+</section>
+</section>
+<section id="introduction-à-la-phonétique-acoustique" class="level1">
+<h1><span class="header-section-number">2.9</span> Introduction à la phonétique acoustique</h1>
+<ul>
+<li><p>Grâce à nos poumons, nous créons un flux d’air</p></li>
+<li><p>Nous modifions ce flux d’air avec nos différents articulateurs</p></li>
+<li><p>Nous pouvons mesurer le son grâce aux ondes sonores.</p></li>
+<li><p><img src="images/clipboard-2842531436.png" class="img-fluid"></p></li>
+</ul>
+<hr>
+<ul>
+<li><p>Un son est un changement de pression dans l’air</p></li>
+<li><p>Le son se déplace sous forme d’ondes</p></li>
+<li><p><img src="images/clipboard-3178859899.png" class="img-fluid"></p></li>
+</ul>
+<hr>
+<ul>
+<li><p>Amplitude = hauteur de l’onde sonore = volume (dB)</p></li>
+<li><p>Fréquence = Vitesse de vibration des ondes sonores = Hauteur (Hz)</p>
+<ul>
+<li><p>1 Hertz = 1 cycle par seconde</p></li>
+<li><p><span class="math inline">\(f = 1/T\)</span></p></li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li><p>Un son de la parole est constitué d’une onde sonore complexe</p></li>
+<li><p>Complexe = composition de plusieurs ondes sonores en même temps</p></li>
+<li><p>C’est pourquoi on ne voit pas une seule onde, mais la somme d’ondes sonores différentes</p></li>
+<li><p><img src="images/clipboard-3142006106.png" class="img-fluid"></p></li>
+</ul>
+<hr>
+</section>
+<section id="le-spectrogramme" class="level1">
+<h1><span class="header-section-number">2.10</span> Le spectrogramme</h1>
+<ul>
+<li><p>Onde sonore : axe y = amplitude (= volume)</p>
+<ul>
+<li>Axe des y = quantité de pression d’air au moment x dans le temps</li>
+</ul></li>
+<li><p>Spectrogramme : axe y = fréquence (= hauteur)</p>
+<ul>
+<li><p>Axe des y = hauteur d’une onde spécifique au moment x dans le temps</p>
+<ul>
+<li>Couleur = Amplitude</li>
+</ul></li>
+<li><p>Utile pour des ondes sonores complexes avec plusieurs fréquences en même temps “affiche plusieurs ondes simultanément”</p></li>
+</ul></li>
+</ul>
+<p><img src="images/clipboard-3017629448.png" class="img-fluid"></p>
+<hr>
+<ul>
+<li><p>Amplitude = hauteur de l’onde sonore = volume (dB)</p>
+<ul>
+<li><p>Onde sonore : hauteur des pics et des creux (axe des y)</p></li>
+<li><p>Spectrogramme : couleur : plus foncé = plus haut</p></li>
+</ul></li>
+<li><p>Fréquence = nombre de vibrations d’onde sonore = hauteur (Hz)</p>
+<ul>
+<li><p>Onde sonore : distance entre les ondes, nombre de pics</p></li>
+<li><p>Spectrogramme : Hauteur sur le graphe (axe des y)</p></li>
+</ul></li>
+</ul>
+<hr>
+<section id="sons-voisés" class="level2">
+<h2 class="anchored" data-anchor-id="sons-voisés"><span class="header-section-number">2.10.1</span> Sons voisés</h2>
+<ul>
+<li><p>Les voyelles sons des sons voisés</p></li>
+<li><p>Avec les sons voisés, les cordes vocales vibrent selon un schéma régulier</p></li>
+<li><p>Ainsi, dans les ondes sonores, vous voyez un motif répétitif = ondes périodiques</p></li>
+<li><div>
+<p><img src="images/clipboard-1800743051.png" class="img-fluid"></p>
+</div></li>
+</ul>
+<hr>
+</section>
+<section id="observations-dans-le-spectrogramme" class="level2">
+<h2 class="anchored" data-anchor-id="observations-dans-le-spectrogramme"><span class="header-section-number">2.10.2</span> Observations dans le spectrogramme</h2>
+<ul>
+<li><p>Ligne claire = onde périodique : beaucoup d’énergie autour d’une fréquence spécifique (= plusieurs pics d’une onde sonore, surtout en spectrogramme bas)</p></li>
+<li><p>Bruit = onde apériodique : l’énergie est répartie de façon plus aléatoire ## Propriétés acoustiques des <strong>vocoïdes</strong></p></li>
+</ul>
+</section>
+</section>
+<section id="la-source" class="level1">
+<h1><span class="header-section-number">2.11</span> La source</h1>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="images/clipboard-639990500.png" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
+</figure>
+</div>
+<hr>
+<p><img src="images/clipboard-3754468263.png" class="img-fluid"></p>
+<hr>
+<div class="side-by-side">
+<p>Vue de côté</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Vocal_fold_animated.gif?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail_unscaled&amp;_=20070815115206" class="img-fluid figure-img"></p>
+<figcaption>File:Vocal fold animated.gif</figcaption>
+</figure>
+</div>
+</div>
+<div class="side-by-side">
+<p>Vue du dessus</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://i.makeagif.com/media/5-14-2023/h9wjjU.gif" class="img-fluid figure-img"></p>
+<figcaption>Video Stroboscopy of Vocal Cords on Make a GIF</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+</section>
+<section id="le-filtre" class="level1">
+<h1><span class="header-section-number">2.12</span> Le filtre</h1>
+<div class="side-by-side">
+<ul>
+<li><p>L’air passe par trois cavités :</p>
+<ul>
+<li><p>Le pharynx</p></li>
+<li><p>La cavité buccale</p></li>
+<li><p>La cavité nasale</p></li>
+</ul></li>
+<li><p>Les cavités résonnent</p></li>
+</ul>
+<p><img src="images/clipboard-2972614042.png" class="img-fluid"></p>
+</div>
+<hr>
+<p><img src="images/sqd.gif" class="img-fluid"></p>
+<hr>
+<p><img src="images/source filter.gif" class="img-fluid"></p>
+<hr>
+<p><img src="images/clipboard-134037557.png" class="img-fluid"></p>
+<hr>
+<p><img src="images/formants_with_spectrum.gif" class="img-fluid"></p>
+<hr>
+<section id="cavités-et-formants" class="level2">
+<h2 class="anchored" data-anchor-id="cavités-et-formants"><span class="header-section-number">2.12.1</span> Cavités et formants</h2>
+<p><img src="images/gif formants.gif" class="img-fluid"></p>
+<hr>
+<p><img src="images/clipboard-130332520.png" class="img-fluid"></p>
+<hr>
+<p><img src="images/clipboard-2433994658.png" class="img-fluid"></p>
+<hr>
+<p><img src="images/clipboard-924899881.png" class="img-fluid"> :::<br>
+# Préparation pour le 3 novembre</p>
+<p>Les tâches attendues nécessitent l’utilisation du matériel suivant :</p>
+<ul>
+<li>Un casque audio</li>
+<li>Un système de gestion des corpus (ordinateur muni du logiciel PRAAT) - Fichiers audio (.wav)</li>
+<li>L’API</li>
+</ul>
+</section>
+</section>
+<section id="texte-à-enregistrer" class="level1">
+<h1><span class="header-section-number">2.13</span> Texte à enregistrer</h1>
+<blockquote class="blockquote">
+<p><em>Où qu’il aille, le chasseur est gourmand. À l’affût, guettant le fou-de-bassant, au petit jour, sa besace est souvent garnie de quignons de pain bis, d’andouillette à la ficelle. Y ajouter un flacon de Chiroubles ne lui fait pas peur.</em></p>
+<p><em>De retour en famille, il épluche vigoureusement les carottes, pèle les patates, rissole ses choux-fleurs et se prépare un poulet au court-bouillon. « Va pour cette fois encore », lui dit son épouse en considérant la pitance. Guillerette, elle ajoute : « mais pourquoi ne préparez-vous jamais de gigot ? »</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="installation-de-praat" class="level1">
+<h1><span class="header-section-number">2.14</span> Installation de Praat</h1>
+<section id="avant-de-commencer" class="level2">
+<h2 class="anchored" data-anchor-id="avant-de-commencer"><span class="header-section-number">2.14.1</span> Avant de commencer</h2>
+<ul>
+<li>Praat est <strong>gratuit</strong> et se télécharge uniquement sur le site officiel : <a href="https://www.praat.org">praat.org</a>.</li>
+<li>Il n’y a <strong>pas d’installateur</strong> : on télécharge un fichier et on le copie à un endroit de son ordinateur.</li>
+<li>La version actuelle est la <strong>7.0.02</strong> (août 2026). Praat est mis à jour souvent : prenez toujours celle proposée sur le site officiel.</li>
+<li><strong>Attention :</strong> Ne téléchargez jamais Praat depuis un autre site que <a href="https://www.praat.org">praat.org</a>.</li>
+</ul>
+<hr>
+</section>
+<section id="liens-directs-de-téléchargement" class="level2">
+<h2 class="anchored" data-anchor-id="liens-directs-de-téléchargement"><span class="header-section-number">2.14.2</span> Liens directs de téléchargement</h2>
+<ul>
+<li><strong>Windows :</strong> Téléchargez le fichier sur la <a href="https://www.fon.hum.uva.nl/praat/download_win.html">page de téléchargement Windows</a> (ex. <code>praat7002_win-x64v3.zip</code>).</li>
+<li><strong>Macintosh :</strong> Téléchargez le fichier <code>.dmg</code> sur la <a href="https://www.fon.hum.uva.nl/praat/download_mac.html">page de téléchargement Mac</a> (ex. <code>praat7002_mac.dmg</code>).</li>
+</ul>
+<hr>
+</section>
+<section id="procédure-dinstallation" class="level2">
+<h2 class="anchored" data-anchor-id="procédure-dinstallation"><span class="header-section-number">2.14.3</span> Procédure d’installation</h2>
+<section id="sous-windows" class="level3">
+<h3 class="anchored" data-anchor-id="sous-windows"><span class="header-section-number">2.14.3.1</span> Sous Windows</h3>
+<ol type="1">
+<li>Double-cliquez sur le fichier <code>.zip</code> téléchargé.</li>
+<li>Glissez l’application <code>Praat.exe</code> hors du zip (vers votre Bureau ou votre dossier <code>Documents</code>).</li>
+<li>Lancez Praat depuis ce nouvel emplacement (et non depuis l’intérieur du zip).</li>
+<li><em>Si Windows SmartScreen bloque l’exécution</em> : cliquez sur <strong>Informations complémentaires</strong>, puis sur <strong>Exécuter quand même</strong> (ou faites un clic droit sur <code>Praat.exe</code> &gt; <strong>Propriétés</strong> &gt; cochez <strong>Débloquer</strong>).</li>
+</ol>
+</section>
+<section id="sous-mac" class="level3">
+<h3 class="anchored" data-anchor-id="sous-mac"><span class="header-section-number">2.14.3.2</span> Sous Mac</h3>
+<ol type="1">
+<li>Ouvrez le fichier <code>.dmg</code> téléchargé.</li>
+<li>Glissez l’icône Praat dans votre dossier <strong>Applications</strong>.</li>
+<li>Lancez Praat depuis le dossier <strong>Applications</strong>.</li>
+<li><em>Si macOS bloque l’ouverture</em> : rendez-vous dans <strong>Réglages Système</strong> &gt; <strong>Confidentialité et sécurité</strong>, puis cliquez sur <strong>Ouvrir quand même</strong>.</li>
+</ol>
+<hr>
+</section>
+<section id="vérification-du-lancement" class="level3">
+<h3 class="anchored" data-anchor-id="vérification-du-lancement"><span class="header-section-number">2.14.3.3</span> Vérification du lancement</h3>
+<p>Deux fenêtres s’ouvrent au lancement de Praat : - <strong>Praat Objects</strong> : la fenêtre principale où apparaissent vos objets audio et vos analyses. - <strong>Praat Picture</strong> : la fenêtre réservée au tracé de figures et graphiques.</p>
+<hr>
+</section>
+<section id="enregistrer-un-son-en-mono-dans-praat" class="level3">
+<h3 class="anchored" data-anchor-id="enregistrer-un-son-en-mono-dans-praat"><span class="header-section-number">2.14.3.4</span> Enregistrer un son en mono dans Praat</h3>
+<p>Pour réaliser des analyses acoustiques précises (sonagrammes, pitch, etc.), il est fortement recommandé d’enregistrer le signal audio en <strong>mono</strong> (un seul canal).</p>
+</section>
+<section id="étapes-pour-lenregistrement" class="level3">
+<h3 class="anchored" data-anchor-id="étapes-pour-lenregistrement"><span class="header-section-number">2.14.3.5</span> Étapes pour l’enregistrement :</h3>
+<section id="ouvrir-la-fenêtre-denregistrement-mono" class="level4">
+<h4 class="anchored" data-anchor-id="ouvrir-la-fenêtre-denregistrement-mono"><span class="header-section-number">2.14.3.5.1</span> <strong>Ouvrir la fenêtre d’enregistrement mono :</strong></h4>
+<ul>
+<li>Dans la fenêtre <strong>Praat Objects</strong>, cliquez sur le menu du haut : <strong>New</strong> &gt; <strong>Record mono sound…</strong></li>
+</ul>
+<div class="side-by-side">
+<p><img src="images/clipboard-1872241217.png" class="img-fluid" width="1026"></p>
+<p><img src="images/clipboard-3871536479.png" class="img-fluid"></p>
+</div>
+<hr>
+</section>
+<section id="configurer-et-tester-le-niveau-dentrée" class="level4">
+<h4 class="anchored" data-anchor-id="configurer-et-tester-le-niveau-dentrée"><span class="header-section-number">2.14.3.5.2</span> <strong>Configurer et tester le niveau d’entrée :</strong></h4>
+<ul>
+<li>Assurez-vous que votre casque audio / microphone est bien sélectionné dans le menu déroulant <strong>Input source</strong>.</li>
+<li>Parlez normalement pour tester : les jauges de niveau vert/jaune doivent s’animer. Veillez à ce que le niveau ne touche pas la zone rouge (pour éviter la saturation/clipping).</li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+<section id="section-3" class="level1">
+<h1><span class="header-section-number">2.15</span> <img src="images/clipboard-385160849.png" class="img-fluid"></h1>
+<section id="lancer-lenregistrement" class="level4">
+<h4 class="anchored" data-anchor-id="lancer-lenregistrement"><span class="header-section-number">2.15.0.0.1</span> <strong>Lancer l’enregistrement :</strong></h4>
+<ul>
+<li>Cliquez sur le bouton <strong>Record</strong> en bas à gauche.</li>
+<li>Lisez attentivement le texte à enregistrer.</li>
+</ul>
+<p><img src="images/clipboard-3077648788.png" class="img-fluid"></p>
+</section>
+<section id="arrêter-lenregistrement---une-fois-la-lecture-terminée-cliquez-sur-le-bouton-stop.-sauvegarder-et-envoyer-vers-praat---dans-le-champ-name-donnez-un-nom-à-votre-enregistrement-ex.-texte_chasseur.---cliquez-sur-save-to-list-and-close-pour-fermer-la-fenêtre-denregistrement-et-transférer-lobjet-sonore-directement-dans-la-fenêtre-praat-objects." class="level4">
+<h4 class="anchored" data-anchor-id="arrêter-lenregistrement---une-fois-la-lecture-terminée-cliquez-sur-le-bouton-stop.-sauvegarder-et-envoyer-vers-praat---dans-le-champ-name-donnez-un-nom-à-votre-enregistrement-ex.-texte_chasseur.---cliquez-sur-save-to-list-and-close-pour-fermer-la-fenêtre-denregistrement-et-transférer-lobjet-sonore-directement-dans-la-fenêtre-praat-objects."><span class="header-section-number">2.15.0.0.2</span> <strong>Arrêter l’enregistrement :</strong> - Une fois la lecture terminée, cliquez sur le bouton <strong>Stop</strong>. ##### <strong>Sauvegarder et envoyer vers Praat :</strong> - Dans le champ <strong>Name</strong>, donnez un nom à votre enregistrement (ex. <code>Texte_Chasseur</code>). - Cliquez sur <strong>Save to list and Close</strong> pour fermer la fenêtre d’enregistrement et transférer l’objet sonore directement dans la fenêtre <strong>Praat Objects</strong>.</h4>
+<p>::: side-by-side <img src="images/clipboard-1181283843.png" class="img-fluid"> <img src="images/clipboard-1786398685.png" class="img-fluid"></p>
+</section>
+</section>
+</div>
+<section id="exporter-le-fichier-au-format-.wav-sur-le-disque-dur" class="level4">
+<h4 class="anchored" data-anchor-id="exporter-le-fichier-au-format-.wav-sur-le-disque-dur"><span class="header-section-number">2.15.0.0.3</span> <strong>Exporter le fichier au format <code>.wav</code> sur le disque dur :</strong></h4>
+<ul>
+<li>Sélectionnez votre son dans la liste <strong>Praat Objects</strong>.</li>
+<li>Dans le menu latéral droit, cliquez sur <strong>Save</strong> &gt; <strong>Save as WAV file…</strong></li>
+<li>Enregistrez votre fichier dans le dossier de travail prévu.</li>
+</ul>
+<div class="side-by-side">
+<p><img src="images/clipboard-392953655.png" class="img-fluid"></p>
+<p><img src="images/clipboard-714399414.png" class="img-fluid"></p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Gekopieerd!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Gekopieerd!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
