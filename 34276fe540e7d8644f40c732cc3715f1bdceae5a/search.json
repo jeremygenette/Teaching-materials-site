@@ -7,171 +7,6 @@
     "text": "Bienvenue ! Après chaque cours, le chapitre vu en classe apparaît dans le menu à gauche."
   },
   {
-    "objectID": "chapters/000-intro.html",
-    "href": "chapters/000-intro.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Elle ne s’est pas rendue compte de son erreur.\nTous ces jours qui se sont succédés sans qu’il ne se passe rien.\nC’est une maitresse qu’ont toujours craint les enfants.\nT’as pas vu la tête qu’il a fait ?\nDes chants et des danses bretons.\nCertains régions et départements sont plus touchés que d’autres.\n\n\n\nTous les matins, je maudis ce putain de réveil.\nC’est encore nous qui avons raison !\nC’est le jour et la nuit !\nBon, on va y aller.\nJe viendrai en scooter.\nMon fils se déplace en trottinette éléctrique.\nJe m’en rappelle.\nTu sais quoi ?",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#travail-écrit",
-    "href": "chapters/000-intro.html#travail-écrit",
-    "title": "Introduction",
-    "section": "0.12.1 1. Travail écrit",
-    "text": "0.12.1 1. Travail écrit\n\nFormat : Court article académique (maximum 5 000 mots) basé sur une étude de corpus.\nMatériel : Le corpus et les outils d’analyse sont fournis.\nObjet : Recherche personnelle sur corpus.\n\nAnalyse d’une variante en français (si possible, une variante dont l’usage est souvent discuté dans le discours public).\nÉtude de la littérature théorique.\nAnalyse empirique de l’usage de cette variante sur la base du corpus.\n\nPièces jointes obligatoires : Vous devez joindre à votre rendu l’ensemble des fichiers (scripts, données, etc.) utilisés pour réaliser vos travaux ainsi que les exercices réalisés pendant le cours.\nSeconde session : Le travail écrit compte pour 100 % de la note en seconde session.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#une-grammaire-dans-la-tête",
-    "href": "chapters/000-intro.html#une-grammaire-dans-la-tête",
-    "title": "Introduction",
-    "section": "0.19.1 Une grammaire dans la tête",
-    "text": "0.19.1 Une grammaire dans la tête\nVideo",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#pas-de-grammaire-à-loral",
-    "href": "chapters/000-intro.html#pas-de-grammaire-à-loral",
-    "title": "Introduction",
-    "section": "0.19.2 Pas de grammaire à l’oral ?",
-    "text": "0.19.2 Pas de grammaire à l’oral ?\n\nLes formes de la langue orale peuvent surprendre mais elles suivent une grammaire.\nL’oral suit, en général, les mêmes règles que l’écrit\nCertes, on entend moins l’accord, mais il est bien présent dans la grammaire de l’oral.\n\nElle mange. /ɛl mɑ̃ʒ/ &gt;&lt; Elles mangent. /ɛl mɑ̃ʒ/\nElle a mangé. /ɛl a mɑ̃ʒe/&gt;&lt; Elles ont mangé /ɛlz ɔ̃ mɑ̃ʒe/\n\nPas moins complexe que l’écrit\n\nConstructions clivées : “C’est moi qui joue.” vs “je joue”",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#des-règles-arbitraires",
-    "href": "chapters/000-intro.html#des-règles-arbitraires",
-    "title": "Introduction",
-    "section": "0.20.1 Des règles arbitraires ?",
-    "text": "0.20.1 Des règles arbitraires ?\nPour certains, la grammaire est avant tout une question de respect.\nLa position d’Alain Bentolila\nLe linguiste Alain Bentolila affirme qu’il faut :\n\n« Apprendre à respecter les règles de la langue. »\n\nIl ajoute également que :\n\n« Les règles linguistiques sont arbitraires et n’autorisent, par leur nature même, aucune hypothèse, aucun questionnement. »\n\n\n\n0.20.1.1 Analyse critique de la citation\n\nL’arbitraire du signe : Cette affirmation fait référence à l’arbitraire du signe (le lien entre le mot et l’objet qu’il désigne est conventionnel).\n\n\n\n\n\n\nImportant\n\n\n\nLe Signe Linguistique selon Ferdinand de Saussure (1857-1913)\nLe signe linguistique est défini comme l’union entre un « signifiant » et un « signifié » représentant un référent.\nLes composantes du signe\n\nLe signifiant : Le modèle sonore ou l’image acoustique (représenté ici par l’onde sonore).\n\n\n\nLe signifié : Le concept ou la représentation mentale (représenté ici par la silhouette rose du cheval).\n\n\n\nLe référent : L’objet du monde réel auquel le signe renvoie (le véritable cheval).\n\n\n\n\n\n\n\nLa structure du système : En revanche, cela ne s’applique pas à l’organisation des signes en système linguistique. Cette organisation repose sur des règles générales et logiques, et non sur un choix purement arbitraire.\n\n\n\nSi [la grammaire] se trouve opposée à l’usage, tant pis pour elle, c’est sa faute et elle doit se réformer.\n- Claude Buffier",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#linguistes-vs-puristes",
-    "href": "chapters/000-intro.html#linguistes-vs-puristes",
-    "title": "Introduction",
-    "section": "0.20.2 Linguistes vs Puristes",
-    "text": "0.20.2 Linguistes vs Puristes\nLes Linguistes (Approche scientifique)\n\nRègles robustes : Basées sur des régularités observables et les grandes tendances de l’usage.\nAccessibles : Faciles à apprendre car elles suivent la logique naturelle de la langue.\nExplications factuelles : Justifiées par l’histoire de la langue ou le contact entre variétés proches.\nGestion de la variation : Analysent les changements en intégrant leur sens social (identité, milieu).\n\n\nLes Puristes (Approche prescriptive)\n\nContrôle de l’usage : Recommandent ou bannissent des formes linguistiques.\nBases subjectives : S’appuient sur des critères pseudo-juridiques, moraux ou esthétiques.\nJugements de valeur : Pratiquent la hiérarchisation plutôt que la description.\n\n\nQuestion centrale : Qui sont ces « juges » qui s’octroient le droit de fixer les règles de grammaire ?",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#traitement-de-la-variation-en-linguistique",
-    "href": "chapters/000-intro.html#traitement-de-la-variation-en-linguistique",
-    "title": "Introduction",
-    "section": "0.22.1 Traitement de la variation en linguistique",
-    "text": "0.22.1 Traitement de la variation en linguistique\n\nHétérogénéité de la langue :\n\nLa langue n’est pas un système monolithique ou homogène.\n\nConstat des linguistes :\n\nLes linguistes observent plusieurs variantes valides.\nCes variantes sont parfois partagées par des régions géographiquement très éloignées.\n\nExemples de variation géographique (diatopique) :\n\nStructure comparative :\n\nVariante observée : « Au plus il lit, au plus il dort »\nVariante standard/alternative : « Plus il lit, plus il dort »\nRégions concernées : Provence, Belgique.\n\nOrdre des mots (infinitif et pronom/objet) :\n\nVariante observée : « J’ai laissé sortir mon fils »\nVariante alternative : « J’ai laissé mon fils sortir »\nRégions concernées : Canada, Antilles, Bretagne.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#variantes-et-registres",
-    "href": "chapters/000-intro.html#variantes-et-registres",
-    "title": "Introduction",
-    "section": "0.22.2 Variantes et registres",
-    "text": "0.22.2 Variantes et registres\n\nL’histoire de la grammaire française s’est accompagnée d’un rejet des phénomènes de variation régionale et sociale au profit de la notion de norme, ou de français standard, qui considère qu’une façon de parler est supérieure aux autres.\n- GGF, 2021, p. XXVII\n\n\nNe me faites pas dire ce que je n’ai pas dit…\nPrincipe d’adaptation :\n\nLa langue s’adapte au contexte.\n\n\n\n\nCe que les puristes qualifient de « fautes » constitue souvent des variantes stylistiques évaluées par les linguistes selon le niveau de formalité ou leur sens social, par exemple :\n\nStyle informel : Échanges avec des proches, conversations de tous les jours.\nStyle formel : Présentation de résultats de recherche à l’université, écrits officiels.\n\n\n\n\nLes règles prescriptives sont en fait plus souvent des règles de savoir-vivre et de politesse : vous ne venez pas en cours en maillot de bain, et je ne viens pas en tongs… on ne va pas non plus à la piscine en smoking.\nIl faudrait peut-être considérer le bon usage comme l’usage qui s’adapte d’une situation à l’autre.\nEn sociolinguistique, on distingue :\n\nPrestige manifeste : Utilisation des formes reconnues et valorisées par la norme officielle.\nPrestige latent : Emploi de formes blâmées par la norme comme signe d’appartenance au groupe. Les institutions de la langue française",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#la-grammaire-évolue",
-    "href": "chapters/000-intro.html#la-grammaire-évolue",
-    "title": "Introduction",
-    "section": "0.24.1 La grammaire évolue",
-    "text": "0.24.1 La grammaire évolue\n\nVitesse d’évolution :\n\nLa création de mots est beaucoup plus rapide que les changements de la grammaire.\n\nLes mots grammaticaux :\n\nLa création de mots grammaticaux prend des siècles.\n\n\n\n\n0.24.1.1 La négation (depuis le XVIIIᵉ siècle)\n\nUtilisation historique de petits mots : pas, rien, goutte, mie (cf. mica en italien).\nSeuls pas et rien sont restés.\n\n\n\n\n0.24.1.2 Les structures interrogatives\n\n\nÉvolution des formes interrogatives :\n\nPlusieurs formes interrogatives étaient déjà utilisées à la Renaissance.\nL’usage du mot interrogatif en position finale (ex. « Tu vas où ? ») est en revanche très récent.\n\n\nCritique de la vision puriste :\n\nLes puristes fantasment un « âge d’or » passé de la langue.\nPourtant, l’ancien français était déjà très différent du français d’aujourd’hui.\n\nContinuité historique de la transformation linguistique :\n\nL’ancien français est lui-même issu d’une évolution du latin.\nCette transition s’est accompagnée du développement de nouvelles structures : davantage de prépositions, apparition/multiplication des pronoms sujets et des articles par rapport au latin.\nEn ancien français, on observe la perte de la plupart des marques de cas du latin, compensée par le passage à un ordre des mots fixe.\n\n\n\n\nExercice\nRelevez ici, dans les propos misogynes de Philippe de Novare, quelques éléments propres à l’ancien français :\n\n« A fame ne doit on apanre letres ne escrire si ce n’est especiaument pour estre nonnain. »\n\n\n\n💡 Affichez les réponses\n\n\n\nabsence d’article\nl’ordre des mots libre (a fame)\nsujet (on) après le verbe\nne suffit à exprimer la négation\nnonnain correspond au complément vs nonne comme sujet\n\n\n\n\n\nSytématisation des pronoms et articles :\n\nCe n’est qu’à la Renaissance (XVIᵉ siècle) que l’emploi des articles et des pronoms sujets devient systématique.\n\nÉlision des adjectifs possessifs féminins (XVIᵉ–XVIIᵉ siècles) :\n\nLes adjectifs possessifs féminins (ma, ta, sa) s’élidaient directement devant une voyelle, au lieu d’employer les formes mon, ton, son.\nExemples : Ronsard ou Molière écrivent couramment « m’amour » (pour mon amour) ou « m’amie » (pour mon amie).\n\nUsages négatifs et syntaxiques au XVIIᵉ siècle :\n\nEmploi de la négation : Utilisation courante de point.\n\nExemple : « Je ne veux point ».\n\nPlacement du complément : Le complément était encore placé avant une suite de verbes.\n\nExemple : « Je vous veux voir ».\n\n\nAction des grammairiens :\n\nCertaines formes très répandues au XVIIᵉ siècle, réprimandées par des grammairiens comme Vaugelas, ont fini par disparaître de l’usage standard.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#de-lacadémie-française",
-    "href": "chapters/000-intro.html#de-lacadémie-française",
-    "title": "Introduction",
-    "section": "0.25.1 De l’académie française ?",
-    "text": "0.25.1 De l’académie française ?\n\n\n\nInstitut de France, fondation en 1795\n\n\n\n\n« L’académie française a été instaurée par Richelieu gardienne de la langue » — Académie française\n\n↔︎\n\n« Depuis le XIXe siècle, l’académie française ne suit plus l’évolution de la langue » — Les linguistes atterrés\n\n\n\n0.25.1.1 Quel est son rôle ?\n\nInstitution d’Ancien Régime fondée en 1635\nSelon ses statuts, elle doit rédiger ” promptement ” 😝 un dictionnaire et une grammaire dans le but de ” donner des règles certaines à notre langue et à la rendre pure, éloquente et capable de traiter les arts et les sciences\n1er dictionnaire en 1694: objectif élitiste assumé\n\npour “distinguer les gens de lettres d’avec les ignorants et les simples femmes”\n\nAu total 9 éditions, la dernière en 2026\nMais beaucoups de critiques !\n\n\n\nUn best-of : 😅\n\nbisou absent\nmail est défini comme gros marteau ou une promenande plantée d’arbres\nfemme est définie comme capable de concevoir et de mettre au monde des enfants\nracisme\nhomophobie\netc.\n\nL’Académie n’a jamais publié une grammaire\nJusqu’au XIXe siècle, ils ont bien essayé d’avoir un regard (timide) mais critique sur l’orthographe et ont simplifié certaines graphies\n\nEx. pluriels en -x comme loix et roix\nEx. certains -h comme autheur et rhythme\n\n\n\n\n\n0.25.1.2 Fin XIXe siècle\n\n\nGaston Paris est un exemple d’académicien non puriste\nL’enseignement du français doit ” sortir de ces marécages ” de règles, ” être plus fructueus pour l’esprit et un peu moins dangereus pour le sens ”\n\nIl applique un réforme de l’orthographe, par exemple, fructueus, dangereus\nErreurs de copistes -us abrégé en -x\nComparez avec des mots récents comme sous, pneus, landaus\n\nDernier spécialiste de la langue siégeant à l’Académie\nAujourd’hui, à votre avis, combien de linguistes siègent à l’Académie ?\n\n\n\n\n\n\n\n\nGaston Paris, philologue (1839-1903)\n\n\n\n\n\n\n0.25.1.3 XVIIIe siècle\n\n\nRien n’est plus capable de fixer notre langue, qui se parle à la vérité dans l’Europe, mais qui s’y corrompt\n- Voltaire\n\n\n\n\n\n\n\n\nVoltaire (1694-1778)\n\n\n\n\n\n\n0.25.1.4 XXe siècle\n\n\nLa façon dont écrivent actuellement la plupart des Français et notamment les futurs professeurs […] est effrayante […].\n- Émile Faguet\n\n\n\n\nÉmile Faguet, écrivain et critique littéraire français (1847-1916)\n\n\n\n\n\n\n0.25.1.5 XXIe siècle\n\n\nPourquoi maltraite-t-on le français dans notre pays ? Le vocabulaire se réduit, on ignore la grammaire et la syntaxe.\n- Hélène Carrère d’Encausse\n\n\n\n\n\n\n\n\nHélène Carrère d’Encausse, historienne et femme politique française (1929-2023)\n\n\n\n\n\n\nÀ notre époque, chacun peut le constater la langue française est menacée. De l’extérieur, par la montée en puissance de l’anglo-saxon. De l’intérieur, par un délabrement plus grave encore et aux causes multiples\n- Jean d’Ormesson\n\n\n\n\nJean d’Ormesson, écrivain français (1925-2017)\n\n\n\n\n\n\n0.25.1.6 Depuis 2011\n\n\n\n\n0.25.1.7 Le pouvoir de l’Académie\n\nSur la langue, aucun…\nMais un prestige et une influence qui ont un impact\n\nEmpêché l’application de l’arrêté du ministre Leygues de 1900 (soutenu par des linguistes)\nBloqué la féminisation des noms de métiers jusqu’en 2019\n\nContrairement aux académies espagnole 🇪🇸, suédoise 🇸🇪, polonaise 🇵🇱, roumaine 🇷🇴, etc., elle n’a pas pour but de nous instruire sur la langue et son évolution\n\nElle cherche à ” entretenir une certaine idée de la France, et nourrir la peur du déclin ” (abeilleGrammaireSeRebelle2026?)",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#le-rôle-de-la-littérature",
-    "href": "chapters/000-intro.html#le-rôle-de-la-littérature",
-    "title": "Introduction",
-    "section": "0.25.2 Le rôle de la littérature",
-    "text": "0.25.2 Le rôle de la littérature\n\n\n0.25.2.1 Révolution française\n\n\nLe bon usage ne peut être associé à celui de la cour.\nIl faut donc trouver un autre modèle…\n… celui de la littérature\n\n\n\n\nRBZPR — French Revolution: The Cartoon\n\n\n\n\n\n\n0.25.2.2 Bescherelle\n\n1834 : Grammaire nationale ou grammaire de Racine, de Bossuet […] et de tous les écrivains les plus distingués de la France\n\n\n\nLouis-Nicolas Bescherelle - Babelio\n\n\n\n\n\n\n\nAujourd’hui encore, on fait comme si la langue française était la propriété des écrivains — « la langue de Molière ».\nMais il ne faudrait pas oublier que l’écriture de Molière n’était pas homogène. Il ne fait pas parler les nobles comme la noblesse.\n\n\n\n\n\n0.25.2.3 Le Bon usage\n\nEn 1936, Maurice Grevisse publie Le Bon Usage, où il compile la grande variété des usages littéraires des écrivains du XIXe et du début du XXe siècle.\n\n\n\n\nExercice\n\nRelevez, dans les exemples suivants, les formes que les puristes auraient considérées comme fautives :\n\nBalzac veut écrire « c’est eux »\nGide défend « malgré que ».\nMolière utilise « comment est-ce que ».\nMadame de Sévigné : « ce que j’ai besoin »\nVoltaire : « un espèce de miracle ».\nChateaubriand : « qui se sont succédés ».\nFlaubert : « se rappeler de ».\nMarcel Proust : « en vélo ».\n\n\n\n💡 Affichez les réponses\n\n\n\nBalzac → ce sont eux\nGide → bien que / malgré le fait que\nMolière → Comment vais-je…\nMadame de Sévigné : ce dont j’ai besoin\nVoltaire → une espèce de miracle\nChateaubriand → qui se sont succédé\nFlaubert → se rappeler\nProust → à vélo\n\n\n\n\n\n\nPeut‑on les accuser d’abîmer la langue française ?\nLa seule différence est peut‑être que les variantes stigmatisées sont rarement majoritaires en littérature.\nLa littérature reste un reflet imparfait des usages.\n\n\n\n\n0.25.2.4 Le rôle de l’école\n\nL’école est évidemment un vecteur de normes.\nAu XIXᵉ siècle, avec la généralisation de la scolarisation, se multiplient aussi les dictionnaires et les livres de grammaire.\nÉpoque où les langues régionales sont encore parlées à la maison → on veut former des francophones, ou plutôt des francographes.\nOn fait des cacographies et des dictées.\nL’enseignement de la langue se base essentiellement sur l’écriture : homonymes, accords, etc.\nEn 1880, Jules Ferry, ministre de l’Instruction publique, ne veut plus de « la vieille méthode grammaticale » et de « l’abus de dictées ».\n\n\n\nÀ la fin du XIXᵉ siècle, les manuels sont déjà critiqués par des linguistes comme Gaston Paris.\nEn 1900, le ministre Georges Leygues publie un arrêté ordonnant de tolérer des tournures bien ancrées dans l’usage et que les écrivains emploient eux aussi → mais l’Académie, choquée de ne pas avoir été consultée, proteste.\nEn 1901, un arrêté modifie le précédent sous la pression de l’Académie.\nEn 1976, René Haby promeut un arrêté de tolérance grammaticale.\nOn a créé petit à petit un fossé entre l’expression de la langue à la maison et la langue scolaire, qui finit parfois par se limiter aux productions scolaires.\n\n\n\n\n0.25.2.5 Le rôle du numérique\n\nAujourd’hui, rôle des correcteurs et des programmes de traitement de texte qui nous indiquent ce qui serait des erreurs.\nDe même, les outils d’IA sont entraînés sur des textes écrits et sans doute sur des grammaires puristes.\nLe Chat de Mistral est plus nuancé que l’Académie française et fait une distinction entre oral et écrit quand on lui pose des questions de grammaire.\nQuand on demande à ChatGPT (en tout cas, en 2025), il parle de niveaux de formalité, mais répète la règle puriste.\nIl n’y a donc pas de source unique pour les règles puristes → c’est un ensemble très hétéroclite.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#à-cause-de-loral",
-    "href": "chapters/000-intro.html#à-cause-de-loral",
-    "title": "Introduction",
-    "section": "0.26.1 À cause de l’oral ?",
-    "text": "0.26.1 À cause de l’oral ?\n\nIl existe plusieurs sortes d’oral : texte préparé ou non.\n\nConversation spontanée : si elle est transcrite, elle est presque illisible.\nQuand l’oral est écrit, il est presque toujours réécrit.\nMais à l’oral, il y a quand même des règles.\nLes tics de langage sont propres à l’oral : enfin, bon, voilà, etc. → ils servent à structurer la parole.\nL’oral contient souvent des jurons, mais ces mots parfois tabous nourrissent l’expression d’une certaine variété de langue.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#à-cause-du-peuple",
-    "href": "chapters/000-intro.html#à-cause-du-peuple",
-    "title": "Introduction",
-    "section": "0.26.2 À cause du peuple ?",
-    "text": "0.26.2 À cause du peuple ?\nAu XVIe siècle, les langues sont dites vulgaires (terme négatif à l’époque, mais qui vient de vulgus = la foule), par opposition à la langue noble qu’est le latin.\n\n\n\n\n\n\nNote\n\n\n\n\nAujourd’hui, on parlerait plutôt de langues vernaculaires.\nNous parlons de langues qui se sont développées à partir du latin classique, mais qui ne lui ressemblent plus.\nDe vulgari eloquentia, de Dante Alighieri.\n\n\n\n\n\nDante Alighieri (1265-1321)\n\n\n\n\n\n\nLe français populaire est généralement connoté négativement, alors que la musique populaire est plutôt connotée positivement.\nFerdinand Brunot (1932) : « La langue peut s’enrichir des créations, souvent excellentes, parce qu’elles sont instinctives, de l’esprit populaire.\nNous avons tous plusieurs registres et plusieurs accents.\n\n\n\n0.26.2.1 Les francophones qui ont accès à plusieurs variantes :\n\nétablissent des correspondances entre les différences sociales et les formes linguistiques ;\nfont attention à la représentation sociale qu’ils veulent donner d’eux-mêmes.\n→ D’où le désir de certains de se révolter face à une domination linguistique, avec l’adoption d’une forme de prestige latent.",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#la-faute-de-lécriture-inclusive",
-    "href": "chapters/000-intro.html#la-faute-de-lécriture-inclusive",
-    "title": "Introduction",
-    "section": "0.26.3 La faute de l’écriture inclusive ?",
-    "text": "0.26.3 La faute de l’écriture inclusive ?\n\nOn fait souvent des reproches à l’écriture inclusive.\nLes grammairiens ont contribué à une masculinisation de la langue à partir du XVIIᵉ siècle.\nPar exemple, la règle du pronom masculin pour l’attribut : avant, on pouvait dire « je la suis » au lieu de « je le suis ».",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "chapters/000-intro.html#le-rôle-du-numérique-1",
-    "href": "chapters/000-intro.html#le-rôle-du-numérique-1",
-    "title": "Introduction",
-    "section": "0.26.4 Le rôle du numérique",
-    "text": "0.26.4 Le rôle du numérique\n\nCorrecteurs et traitements de texte :\n\nAujourd’hui, les correcteurs orthographiques et les logiciels de traitement de texte jouent un rôle prescripteur en nous indiquant ce qu’ils considèrent comme des erreurs.\n\nModèles d’IA et données d’entraînement :\n\nLes outils d’intelligence artificielle sont entraînés principalement sur des textes écrits et, très probablement, sur des grammaires à tendance puriste.\n\nComparaison des modèles d’IA face aux questions de grammaire :\n\nLe Chat (Mistral) : Adopte une approche plus nuancée que l’Académie française et établit une vraie distinction entre la langue orale et la langue écrite.\nChatGPT (état observé en 2025) : Mentionne les niveaux de formalité, mais finit par répéter la règle puriste traditionnelle.\n\n\n\n\nQuiz time !!!",
-    "crumbs": [
-      "Chapters",
-      "Introduction"
-    ]
-  },
-  {
     "objectID": "chapters/002-intro-corpus.html",
     "href": "chapters/002-intro-corpus.html",
     "title": "Linguistique de corpus",
@@ -209,7 +44,7 @@
     "href": "chapters/002-intro-corpus.html#description-linguistique",
     "title": "Linguistique de corpus",
     "section": "2.4.3 Description linguistique",
-    "text": "2.4.3 Description linguistique\n\nNous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.\nIl faut tout d’abord avoir une question de recherche précise.\n\n\n\n2.4.3.1 Activité : Formulation d’hypothèses et choix de variables\n\n\n2.4.3.2 Objectif\nIdentifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.\n\n\n2.4.3.3 Consigne : À vous d’inventer !\nImaginez 2 ou 3 questions de recherche sur la langue française (usage vs norme). (Exemple : « Utilise‑t‑on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)\n\n\n\n2.4.3.4 Décomposition des variables (exemple d’application)\n\nVariable indépendante (VI) — ce que vous manipulez ou comparez\n\nModalité / Registre : langue orale vs langue écrite.\n\nVariable dépendante (VD) — ce que vous mesurez\n\nFréquence / Proportion : le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots (N) dans l’échantillon.",
+    "text": "2.4.3 Description linguistique\n\nNous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.\nIl faut tout d’abord avoir une question de recherche précise.\n\n\n\n2.4.3.1 Activité : Formulation d’hypothèses et choix de variables\n\n\n2.4.3.2 Objectif\nIdentifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.\n\n\n2.4.3.3 Consigne : À vous d’inventer !\nImaginez 2 ou 3 questions de recherche sur la langue française (usage vs norme). (Exemple : « Utilise‑t‑on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)\n\n\n\n2.4.3.4 Décomposition des variables (exemple d’application)\n\nVariable indépendante (VI) — ce que vous manipulez ou comparez\n\nModalité / Registre : langue orale vs langue écrite.\n\nVariable dépendante (VD) — ce que vous mesurez\n\nFréquence / Proportion : le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots (N) dans l’échantillon.\n\n\n\nLe français dans l’actualité politique\n\n\nVideo",
     "crumbs": [
       "Chapters",
       "Linguistique de corpus"
@@ -242,7 +77,7 @@
     "href": "chapters/002-intro-corpus.html#cadre-juridique-et-éthique",
     "title": "Linguistique de corpus",
     "section": "2.5.3 Cadre juridique et éthique",
-    "text": "2.5.3 Cadre juridique et éthique\n\n2.5.3.1 Aspects juridiques : Droit d’auteur et diffusion\n\nAspiration de textes sur le Web (Web Scraping) :\n\nPropriété intellectuelle : Même lorsqu’un texte est mis à disposition publiquement sur internet, l’auteur en reste le propriétaire.\nDroit de fouille de données (Data Mining) vs Diffusion :\n\nIl est légalement permis d’aspirer et d’utiliser des textes pour un usage d’analyse et de recherche.\nInterdiction de redistribution enrichie : On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis mettre le tout à disposition du grand public sans l’accord des ayants droit.\n\n\nRessources sous licences libres (ex. Wikipédia) :\n\nLes contenus sous licences de type Creative Commons (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).\n\n\n\n\n\n2.5.3.2 Aspects éthiques : Recueil privé et consentement éclairé\nLors du recueil de données privées ou d’enregistrements de personnes :\n\nObtention du consentement éclairé :\n\nIl est obligatoire de recueillir l’accord préalable des participants pour étudier leurs données.\nTransparence complète : Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.\n\nCollecte loyale :\n\nLa collecte ne doit jamais se faire à leur insu (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).\n\n\n\n\n\n2.5.3.3 Respect de la vie privée et anonymisation\n\nEngagement au respect de la vie privée :\n\nObligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.\n\nProcédure d’anonymisation :\n\nConsiste à effacer ou remplacer toutes les informations permettant d’identifier directement ou indirectement un individu :\n\nNoms et prénoms.\nAdresses, noms de rues et lieux trop précis.\nDates de naissance ou éléments de calendrier identifiables.\nOrganismes, entreprises ou institutions spécifiques cités lors des échanges.",
+    "text": "2.5.3 Cadre juridique et éthique\n\n2.5.3.1 Aspects juridiques : Droit d’auteur et diffusion\n\nAspiration de textes sur le Web (Web Scraping) :\n\nPropriété intellectuelle : Même lorsqu’un texte est mis à disposition publiquement sur internet, l’auteur en reste le propriétaire.\nDroit de fouille de données (Data Mining) vs Diffusion :\n\nIl est légalement permis d’aspirer et d’utiliser des textes pour un usage d’analyse et de recherche.\nInterdiction de redistribution enrichie : On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis mettre le tout à disposition du grand public sans l’accord des ayants droit.\n\n\nRessources sous licences libres (ex. Wikipédia) :\n\nLes contenus sous licences de type Creative Commons (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).\n\n\n\n\n\n2.5.3.2 Aspects éthiques : Recueil privé et consentement éclairé\n\nLors du recueil de données privées ou d’enregistrements de personnes :\nObtention du consentement éclairé :\n\nIl est obligatoire de recueillir l’accord préalable des participants pour étudier leurs données.\nTransparence complète : Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.\n\nCollecte loyale :\n\nLa collecte ne doit jamais se faire à leur insu (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).\n\n\n\n\n\n2.5.3.3 Respect de la vie privée et anonymisation\n\nEngagement au respect de la vie privée :\n\nObligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.\n\nProcédure d’anonymisation :\n\nConsiste à effacer ou remplacer toutes les informations permettant d’identifier directement ou indirectement un individu :\n\nNoms et prénoms.\nAdresses, noms de rues et lieux trop précis.\nDates de naissance ou éléments de calendrier identifiables.\nOrganismes, entreprises ou institutions spécifiques cités lors des échanges.",
     "crumbs": [
       "Chapters",
       "Linguistique de corpus"
@@ -297,10 +132,329 @@
     "href": "chapters/002-intro-corpus.html#mesures-quantitatives-fréquence-et-spécificités",
     "title": "Linguistique de corpus",
     "section": "2.7.2 Mesures quantitatives : Fréquence et spécificités",
-    "text": "2.7.2 Mesures quantitatives : Fréquence et spécificités\n\nOutils quantitatifs\nAussi utilisé en textométrie et lexicométrie\n\n\n2.7.2.1 Fréquence\n\nFréquence absolue (\\(f\\)) :\n\nDéfinition : Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.\nExemple : Le terme « liberté » apparaît 45 fois dans l’ensemble d’un discours.\n\nFréquence relative (\\(fr\\)) :\n\nDéfinition : Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (\\(N\\)), souvent exprimé en pourcentage ou en nombre de cas pour \\(N\\) mots (ex. pour 10 000 mots).\nFormule : \\(fr = \\frac{f}{N}\\)\nExemple : Si un discours compte \\(N = 10\\,000\\) mots et que « liberté » apparaît \\(f = 45\\) fois, la fréquence relative est de \\(0{,}45\\%\\) (ou 45 pour 10 000 mots).\n\n\n\n\n\n\n\n\nNoteDéfinition\n\n\n\nHapax : Forme linguistique n’apparaissant qu’une seule et unique fois (\\(f = 1\\)) dans l’ensemble du corpus étudié.\n\n\n\n\n\n2.7.2.2 Le pré-traitement appliqué au comptage (Découpage et choix d’unités)\nLe comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :\n\nTokenisation (Découpage des mots / occurrences) :\n\nDécoupage de la chaîne de texte brute en unités minimales (tokens).\n\nComptage des formes vs Lemmes :\n\nFormes graphiques (mots bruts) : Traite différemment chaque flexion (mange, mangeons, mangera).\nLemmes : Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (manger).\nChoix méthodologique :\n\nPour les verbes ➔ Utiliser les lemmes afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.\nPour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).\n\n\n\n\n\nPrise en compte des majuscules et de la ponctuation :\n\nExemple : Faut-il distinguer le nom propre « Pierre » du nom commun « pierre » ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?\n\nPrise en compte des expressions polylexicales (locutions / MWE) :\n\nGroupes de mots fonctionnant comme une seule unité sémantique.\nExemple : Traiter « chemin de fer » ou « au fur et à mesure » comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (chemin, de, fer).\n\nParties du discours (POS Tagging) :\n\nÉtiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.\nExemple : Distinguer « ferme » (nom commun), « ferme » (adjectif) et « ferme » (verbe fermer).\n\n\n\n\n\n2.7.2.3 Mesurer la spécificité textuelle\n\nQu’est-ce qui fait la spécificité d’un texte ?\n\nC’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.\n\nCorpus test vs Corpus étalon / de référence :\n\nCorpus test (étudié) : Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.\nCorpus étalon (de référence) : Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).\n\nPrincipe de comparaison :\n\nOn compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, en fonction des tailles respectives de ces deux corpus.\n\n\n\n\n\n2.7.2.4 Indicateurs et indices statistiques de spécificité",
+    "text": "2.7.2 Mesures quantitatives : Fréquence et spécificités\n\nOutils quantitatifs\nAussi utilisé en textométrie et lexicométrie\n\n\n2.7.2.1 Fréquence\n\nFréquence absolue (\\(f\\)) :\n\nDéfinition : Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.\nExemple : Le terme « liberté » apparaît 45 fois dans l’ensemble d’un discours.\n\nFréquence relative (\\(fr\\)) :\n\nDéfinition : Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (\\(N\\)), souvent exprimé en pourcentage ou en nombre de cas pour \\(N\\) mots (ex. pour 10 000 mots).\nFormule : \\(fr = \\frac{f}{N}\\)\nExemple : Si un discours compte \\(N = 10\\,000\\) mots et que « liberté » apparaît \\(f = 45\\) fois, la fréquence relative est de \\(0{,}45\\%\\) (ou 45 pour 10 000 mots).\n\n\n\n\n\n\n\n\nNoteDéfinition\n\n\n\nHapax : Forme linguistique n’apparaissant qu’une seule et unique fois (\\(f = 1\\)) dans l’ensemble du corpus étudié.\n\n\n\n\n\n2.7.2.2 Le pré-traitement appliqué au comptage (Découpage et choix d’unités)\nLe comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :\n\nTokenisation (Découpage des mots / occurrences) :\n\nDécoupage de la chaîne de texte brute en unités minimales (tokens).\n\nComptage des formes vs Lemmes :\n\nFormes graphiques (mots bruts) : Traite différemment chaque flexion (mange, mangeons, mangera).\nLemmes : Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (manger).\nChoix méthodologique :\n\nPour les verbes ➔ Utiliser les lemmes afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.\nPour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).\n\n\n\n\n\nPrise en compte des majuscules et de la ponctuation :\n\nExemple : Faut-il distinguer le nom propre « Pierre » du nom commun « pierre » ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?\n\nPrise en compte des expressions polylexicales (locutions / MWE) :\n\nGroupes de mots fonctionnant comme une seule unité sémantique.\nExemple : Traiter « chemin de fer » ou « au fur et à mesure » comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (chemin, de, fer).\n\nParties du discours (POS Tagging) :\n\nÉtiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.\nExemple : Distinguer « ferme » (nom commun), « ferme » (adjectif) et « ferme » (verbe fermer).\n\n\n\n\n\n2.7.2.3 Mesurer la spécificité textuelle\n\n\nQu’est-ce qui fait la spécificité d’un texte ?\n\nC’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.\n\nCorpus test vs Corpus étalon / de référence :\n\nCorpus test (étudié) : Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.\nCorpus étalon (de référence) : Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).\n\nPrincipe de comparaison :\n\nOn compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, en fonction des tailles respectives de ces deux corpus.\n\n\n\n\n2.7.2.4 Indicateurs et indices statistiques de spécificité",
     "crumbs": [
       "Chapters",
       "Linguistique de corpus"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html",
+    "href": "chapters/000-intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Elle ne s’est pas rendue compte de son erreur.\nTous ces jours qui se sont succédés sans qu’il ne se passe rien.\nC’est une maitresse qu’ont toujours craint les enfants.\nT’as pas vu la tête qu’il a fait ?\nDes chants et des danses bretons.\nCertains régions et départements sont plus touchés que d’autres.\n\n\n\nTous les matins, je maudis ce putain de réveil.\nC’est encore nous qui avons raison !\nC’est le jour et la nuit !\nBon, on va y aller.\nJe viendrai en scooter.\nMon fils se déplace en trottinette éléctrique.\nJe m’en rappelle.\nTu sais quoi ?",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#travail-écrit",
+    "href": "chapters/000-intro.html#travail-écrit",
+    "title": "Introduction",
+    "section": "0.10.1 1. Travail écrit",
+    "text": "0.10.1 1. Travail écrit\n\nFormat : Court article académique (maximum 5 000 mots) basé sur une étude de corpus.\nMatériel : Le corpus et les outils d’analyse sont fournis.\nObjet : Recherche personnelle sur corpus.\n\nAnalyse d’une variante en français (si possible, une variante dont l’usage est souvent discuté dans le discours public).\nÉtude de la littérature théorique.\nAnalyse empirique de l’usage de cette variante sur la base du corpus.\n\nPièces jointes obligatoires : Vous devez joindre à votre rendu l’ensemble des fichiers (scripts, données, etc.) utilisés pour réaliser vos travaux ainsi que les exercices réalisés pendant le cours.\nSeconde session : Le travail écrit compte pour 100 % de la note en seconde session.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#une-grammaire-dans-la-tête",
+    "href": "chapters/000-intro.html#une-grammaire-dans-la-tête",
+    "title": "Introduction",
+    "section": "0.17.1 Une grammaire dans la tête",
+    "text": "0.17.1 Une grammaire dans la tête\nVideo",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#pas-de-grammaire-à-loral",
+    "href": "chapters/000-intro.html#pas-de-grammaire-à-loral",
+    "title": "Introduction",
+    "section": "0.17.2 Pas de grammaire à l’oral ?",
+    "text": "0.17.2 Pas de grammaire à l’oral ?\n\nLes formes de la langue orale peuvent surprendre mais elles suivent une grammaire.\nL’oral suit, en général, les mêmes règles que l’écrit\nCertes, on entend moins l’accord, mais il est bien présent dans la grammaire de l’oral.\n\nElle mange. /ɛl mɑ̃ʒ/ &gt;&lt; Elles mangent. /ɛl mɑ̃ʒ/\nElle a mangé. /ɛl a mɑ̃ʒe/&gt;&lt; Elles ont mangé /ɛlz ɔ̃ mɑ̃ʒe/\n\nPas moins complexe que l’écrit\n\nConstructions clivées : “C’est moi qui joue.” vs “je joue”",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#des-règles-arbitraires",
+    "href": "chapters/000-intro.html#des-règles-arbitraires",
+    "title": "Introduction",
+    "section": "0.18.1 Des règles arbitraires ?",
+    "text": "0.18.1 Des règles arbitraires ?\nPour certains, la grammaire est avant tout une question de respect.\nLa position d’Alain Bentolila\nLe linguiste Alain Bentolila affirme qu’il faut :\n\n« Apprendre à respecter les règles de la langue. »\n\nIl ajoute également que :\n\n« Les règles linguistiques sont arbitraires et n’autorisent, par leur nature même, aucune hypothèse, aucun questionnement. »\n\n\n\n0.18.1.1 Analyse critique de la citation\n\nL’arbitraire du signe : Cette affirmation fait référence à l’arbitraire du signe (le lien entre le mot et l’objet qu’il désigne est conventionnel).\n\n\n\n\n\n\nImportant\n\n\n\nLe Signe Linguistique selon Ferdinand de Saussure (1857-1913)\nLe signe linguistique est défini comme l’union entre un « signifiant » et un « signifié » représentant un référent.\nLes composantes du signe\n\nLe signifiant : Le modèle sonore ou l’image acoustique (représenté ici par l’onde sonore).\n\n\n\nLe signifié : Le concept ou la représentation mentale (représenté ici par la silhouette rose du cheval).\n\n\n\nLe référent : L’objet du monde réel auquel le signe renvoie (le véritable cheval).\n\n\n\n\n\n\n\nLa structure du système : En revanche, cela ne s’applique pas à l’organisation des signes en système linguistique. Cette organisation repose sur des règles générales et logiques, et non sur un choix purement arbitraire.\n\n\n\nSi [la grammaire] se trouve opposée à l’usage, tant pis pour elle, c’est sa faute et elle doit se réformer.\n- Claude Buffier",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#linguistes-vs-puristes",
+    "href": "chapters/000-intro.html#linguistes-vs-puristes",
+    "title": "Introduction",
+    "section": "0.18.2 Linguistes vs Puristes",
+    "text": "0.18.2 Linguistes vs Puristes\nLes Linguistes (Approche scientifique)\n\nRègles robustes : Basées sur des régularités observables et les grandes tendances de l’usage.\nAccessibles : Faciles à apprendre car elles suivent la logique naturelle de la langue.\nExplications factuelles : Justifiées par l’histoire de la langue ou le contact entre variétés proches.\nGestion de la variation : Analysent les changements en intégrant leur sens social (identité, milieu).\n\n\nLes Puristes (Approche prescriptive)\n\nContrôle de l’usage : Recommandent ou bannissent des formes linguistiques.\nBases subjectives : S’appuient sur des critères pseudo-juridiques, moraux ou esthétiques.\nJugements de valeur : Pratiquent la hiérarchisation plutôt que la description.\n\n\nQuestion centrale : Qui sont ces « juges » qui s’octroient le droit de fixer les règles de grammaire ?",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#traitement-de-la-variation-en-linguistique",
+    "href": "chapters/000-intro.html#traitement-de-la-variation-en-linguistique",
+    "title": "Introduction",
+    "section": "0.20.1 Traitement de la variation en linguistique",
+    "text": "0.20.1 Traitement de la variation en linguistique\n\nHétérogénéité de la langue :\n\nLa langue n’est pas un système monolithique ou homogène.\n\nConstat des linguistes :\n\nLes linguistes observent plusieurs variantes valides.\nCes variantes sont parfois partagées par des régions géographiquement très éloignées.\n\nExemples de variation géographique (diatopique) :\n\nStructure comparative :\n\nVariante observée : « Au plus il lit, au plus il dort »\nVariante standard/alternative : « Plus il lit, plus il dort »\nRégions concernées : Provence, Belgique.\n\nOrdre des mots (infinitif et pronom/objet) :\n\nVariante observée : « J’ai laissé sortir mon fils »\nVariante alternative : « J’ai laissé mon fils sortir »\nRégions concernées : Canada, Antilles, Bretagne.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#variantes-et-registres",
+    "href": "chapters/000-intro.html#variantes-et-registres",
+    "title": "Introduction",
+    "section": "0.20.2 Variantes et registres",
+    "text": "0.20.2 Variantes et registres\n\nL’histoire de la grammaire française s’est accompagnée d’un rejet des phénomènes de variation régionale et sociale au profit de la notion de norme, ou de français standard, qui considère qu’une façon de parler est supérieure aux autres.\n- GGF, 2021, p. XXVII\n\n\nNe me faites pas dire ce que je n’ai pas dit…\nPrincipe d’adaptation :\n\nLa langue s’adapte au contexte.\n\n\n\n\nCe que les puristes qualifient de « fautes » constitue souvent des variantes stylistiques évaluées par les linguistes selon le niveau de formalité ou leur sens social, par exemple :\n\nStyle informel : Échanges avec des proches, conversations de tous les jours.\nStyle formel : Présentation de résultats de recherche à l’université, écrits officiels.\n\n\n\n\nLes règles prescriptives sont en fait plus souvent des règles de savoir-vivre et de politesse : vous ne venez pas en cours en maillot de bain, et je ne viens pas en tongs… on ne va pas non plus à la piscine en smoking.\nIl faudrait peut-être considérer le bon usage comme l’usage qui s’adapte d’une situation à l’autre.\nEn sociolinguistique, on distingue :\n\nPrestige manifeste : Utilisation des formes reconnues et valorisées par la norme officielle.\nPrestige latent : Emploi de formes blâmées par la norme comme signe d’appartenance au groupe. Les institutions de la langue française",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#la-grammaire-évolue",
+    "href": "chapters/000-intro.html#la-grammaire-évolue",
+    "title": "Introduction",
+    "section": "0.22.1 La grammaire évolue",
+    "text": "0.22.1 La grammaire évolue\n\nVitesse d’évolution :\n\nLa création de mots est beaucoup plus rapide que les changements de la grammaire.\n\nLes mots grammaticaux :\n\nLa création de mots grammaticaux prend des siècles.\n\n\n\n\n0.22.1.1 La négation (depuis le XVIIIᵉ siècle)\n\nUtilisation historique de petits mots : pas, rien, goutte, mie (cf. mica en italien).\nSeuls pas et rien sont restés.\n\n\n\n\n0.22.1.2 Les structures interrogatives\n\n\nÉvolution des formes interrogatives :\n\nPlusieurs formes interrogatives étaient déjà utilisées à la Renaissance.\nL’usage du mot interrogatif en position finale (ex. « Tu vas où ? ») est en revanche très récent.\n\n\nCritique de la vision puriste :\n\nLes puristes fantasment un « âge d’or » passé de la langue.\nPourtant, l’ancien français était déjà très différent du français d’aujourd’hui.\n\nContinuité historique de la transformation linguistique :\n\nL’ancien français est lui-même issu d’une évolution du latin.\nCette transition s’est accompagnée du développement de nouvelles structures : davantage de prépositions, apparition/multiplication des pronoms sujets et des articles par rapport au latin.\nEn ancien français, on observe la perte de la plupart des marques de cas du latin, compensée par le passage à un ordre des mots fixe.\n\n\n\n\nExercice\nRelevez ici, dans les propos misogynes de Philippe de Novare, quelques éléments propres à l’ancien français :\n\n« A fame ne doit on apanre letres ne escrire si ce n’est especiaument pour estre nonnain. »\n\n\n\n💡 Affichez les réponses\n\n\n\nabsence d’article\nl’ordre des mots libre (a fame)\nsujet (on) après le verbe\nne suffit à exprimer la négation\nnonnain correspond au complément vs nonne comme sujet\n\n\n\n\n\nSytématisation des pronoms et articles :\n\nCe n’est qu’à la Renaissance (XVIᵉ siècle) que l’emploi des articles et des pronoms sujets devient systématique.\n\nÉlision des adjectifs possessifs féminins (XVIᵉ–XVIIᵉ siècles) :\n\nLes adjectifs possessifs féminins (ma, ta, sa) s’élidaient directement devant une voyelle, au lieu d’employer les formes mon, ton, son.\nExemples : Ronsard ou Molière écrivent couramment « m’amour » (pour mon amour) ou « m’amie » (pour mon amie).\n\nUsages négatifs et syntaxiques au XVIIᵉ siècle :\n\nEmploi de la négation : Utilisation courante de point.\n\nExemple : « Je ne veux point ».\n\nPlacement du complément : Le complément était encore placé avant une suite de verbes.\n\nExemple : « Je vous veux voir ».\n\n\nAction des grammairiens :\n\nCertaines formes très répandues au XVIIᵉ siècle, réprimandées par des grammairiens comme Vaugelas, ont fini par disparaître de l’usage standard.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#de-lacadémie-française",
+    "href": "chapters/000-intro.html#de-lacadémie-française",
+    "title": "Introduction",
+    "section": "0.23.1 De l’académie française ?",
+    "text": "0.23.1 De l’académie française ?\n\n\n\nInstitut de France, fondation en 1795\n\n\n\n\n« L’académie française a été instaurée par Richelieu gardienne de la langue » — Académie française\n\n↔︎\n\n« Depuis le XIXe siècle, l’académie française ne suit plus l’évolution de la langue » — Les linguistes atterrés\n\n\n\n0.23.1.1 Quel est son rôle ?\n\nInstitution d’Ancien Régime fondée en 1635\nSelon ses statuts, elle doit rédiger ” promptement ” 😝 un dictionnaire et une grammaire dans le but de ” donner des règles certaines à notre langue et à la rendre pure, éloquente et capable de traiter les arts et les sciences\n1er dictionnaire en 1694: objectif élitiste assumé\n\npour “distinguer les gens de lettres d’avec les ignorants et les simples femmes”\n\nAu total 9 éditions, la dernière en 2026\nMais beaucoups de critiques !\n\n\n\nUn best-of : 😅\n\nbisou absent\nmail est défini comme gros marteau ou une promenande plantée d’arbres\nfemme est définie comme capable de concevoir et de mettre au monde des enfants\nracisme\nhomophobie\netc.\n\nL’Académie n’a jamais publié une grammaire\nJusqu’au XIXe siècle, ils ont bien essayé d’avoir un regard (timide) mais critique sur l’orthographe et ont simplifié certaines graphies\n\nEx. pluriels en -x comme loix et roix\nEx. certains -h comme autheur et rhythme\n\n\n\n\n\n0.23.1.2 Fin XIXe siècle\n\n\nGaston Paris est un exemple d’académicien non puriste\nL’enseignement du français doit ” sortir de ces marécages ” de règles, ” être plus fructueus pour l’esprit et un peu moins dangereus pour le sens ”\n\nIl applique un réforme de l’orthographe, par exemple, fructueus, dangereus\nErreurs de copistes -us abrégé en -x\nComparez avec des mots récents comme sous, pneus, landaus\n\nDernier spécialiste de la langue siégeant à l’Académie\nAujourd’hui, à votre avis, combien de linguistes siègent à l’Académie ?\n\n\n\n\n\n\n\n\nGaston Paris, philologue (1839-1903)\n\n\n\n\n\n\n0.23.1.3 XVIIIe siècle\n\n\nRien n’est plus capable de fixer notre langue, qui se parle à la vérité dans l’Europe, mais qui s’y corrompt\n- Voltaire\n\n\n\n\n\n\n\n\nVoltaire (1694-1778)\n\n\n\n\n\n\n0.23.1.4 XXe siècle\n\n\nLa façon dont écrivent actuellement la plupart des Français et notamment les futurs professeurs […] est effrayante […].\n- Émile Faguet\n\n\n\n\nÉmile Faguet, écrivain et critique littéraire français (1847-1916)\n\n\n\n\n\n\n0.23.1.5 XXIe siècle\n\n\nPourquoi maltraite-t-on le français dans notre pays ? Le vocabulaire se réduit, on ignore la grammaire et la syntaxe.\n- Hélène Carrère d’Encausse\n\n\n\n\n\n\n\n\nHélène Carrère d’Encausse, historienne et femme politique française (1929-2023)\n\n\n\n\n\n\nÀ notre époque, chacun peut le constater la langue française est menacée. De l’extérieur, par la montée en puissance de l’anglo-saxon. De l’intérieur, par un délabrement plus grave encore et aux causes multiples\n- Jean d’Ormesson\n\n\n\n\nJean d’Ormesson, écrivain français (1925-2017)\n\n\n\n\n\n\n0.23.1.6 Depuis 2011\n\n\n\n\n0.23.1.7 Le pouvoir de l’Académie\n\nSur la langue, aucun…\nMais un prestige et une influence qui ont un impact\n\nEmpêché l’application de l’arrêté du ministre Leygues de 1900 (soutenu par des linguistes)\nBloqué la féminisation des noms de métiers jusqu’en 2019\n\nContrairement aux académies espagnole 🇪🇸, suédoise 🇸🇪, polonaise 🇵🇱, roumaine 🇷🇴, etc., elle n’a pas pour but de nous instruire sur la langue et son évolution\n\nElle cherche à ” entretenir une certaine idée de la France, et nourrir la peur du déclin ” (abeilleGrammaireSeRebelle2026?)",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#le-rôle-de-la-littérature",
+    "href": "chapters/000-intro.html#le-rôle-de-la-littérature",
+    "title": "Introduction",
+    "section": "0.23.2 Le rôle de la littérature",
+    "text": "0.23.2 Le rôle de la littérature\n\n\n0.23.2.1 Révolution française\n\n\nLe bon usage ne peut être associé à celui de la cour.\nIl faut donc trouver un autre modèle…\n… celui de la littérature\n\n\n\n\nRBZPR — French Revolution: The Cartoon\n\n\n\n\n\n\n0.23.2.2 Bescherelle\n\n1834 : Grammaire nationale ou grammaire de Racine, de Bossuet […] et de tous les écrivains les plus distingués de la France\n\n\n\nLouis-Nicolas Bescherelle - Babelio\n\n\n\n\n\n\n\nAujourd’hui encore, on fait comme si la langue française était la propriété des écrivains — « la langue de Molière ».\nMais il ne faudrait pas oublier que l’écriture de Molière n’était pas homogène. Il ne fait pas parler les nobles comme la noblesse.\n\n\n\n\n\n0.23.2.3 Le Bon usage\n\nEn 1936, Maurice Grevisse publie Le Bon Usage, où il compile la grande variété des usages littéraires des écrivains du XIXe et du début du XXe siècle.\n\n\n\n\nExercice\n\nRelevez, dans les exemples suivants, les formes que les puristes auraient considérées comme fautives :\n\nBalzac veut écrire « c’est eux »\nGide défend « malgré que ».\nMolière utilise « comment est-ce que ».\nMadame de Sévigné : « ce que j’ai besoin »\nVoltaire : « un espèce de miracle ».\nChateaubriand : « qui se sont succédés ».\nFlaubert : « se rappeler de ».\nMarcel Proust : « en vélo ».\n\n\n\n💡 Affichez les réponses\n\n\n\nBalzac → ce sont eux\nGide → bien que / malgré le fait que\nMolière → Comment vais-je…\nMadame de Sévigné : ce dont j’ai besoin\nVoltaire → une espèce de miracle\nChateaubriand → qui se sont succédé\nFlaubert → se rappeler\nProust → à vélo\n\n\n\n\n\n\nPeut‑on les accuser d’abîmer la langue française ?\nLa seule différence est peut‑être que les variantes stigmatisées sont rarement majoritaires en littérature.\nLa littérature reste un reflet imparfait des usages.\n\n\n\n\n0.23.2.4 Le rôle de l’école\n\nL’école est évidemment un vecteur de normes.\nAu XIXᵉ siècle, avec la généralisation de la scolarisation, se multiplient aussi les dictionnaires et les livres de grammaire.\nÉpoque où les langues régionales sont encore parlées à la maison → on veut former des francophones, ou plutôt des francographes.\nOn fait des cacographies et des dictées.\nL’enseignement de la langue se base essentiellement sur l’écriture : homonymes, accords, etc.\nEn 1880, Jules Ferry, ministre de l’Instruction publique, ne veut plus de « la vieille méthode grammaticale » et de « l’abus de dictées ».\n\n\n\nÀ la fin du XIXᵉ siècle, les manuels sont déjà critiqués par des linguistes comme Gaston Paris.\nEn 1900, le ministre Georges Leygues publie un arrêté ordonnant de tolérer des tournures bien ancrées dans l’usage et que les écrivains emploient eux aussi → mais l’Académie, choquée de ne pas avoir été consultée, proteste.\nEn 1901, un arrêté modifie le précédent sous la pression de l’Académie.\nEn 1976, René Haby promeut un arrêté de tolérance grammaticale.\nOn a créé petit à petit un fossé entre l’expression de la langue à la maison et la langue scolaire, qui finit parfois par se limiter aux productions scolaires.\n\n\n\n\n0.23.2.5 Le rôle du numérique\n\nAujourd’hui, rôle des correcteurs et des programmes de traitement de texte qui nous indiquent ce qui serait des erreurs.\nDe même, les outils d’IA sont entraînés sur des textes écrits et sans doute sur des grammaires puristes.\nLe Chat de Mistral est plus nuancé que l’Académie française et fait une distinction entre oral et écrit quand on lui pose des questions de grammaire.\nQuand on demande à ChatGPT (en tout cas, en 2025), il parle de niveaux de formalité, mais répète la règle puriste.\nIl n’y a donc pas de source unique pour les règles puristes → c’est un ensemble très hétéroclite.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#à-cause-de-loral",
+    "href": "chapters/000-intro.html#à-cause-de-loral",
+    "title": "Introduction",
+    "section": "0.24.1 À cause de l’oral ?",
+    "text": "0.24.1 À cause de l’oral ?\n\nIl existe plusieurs sortes d’oral : texte préparé ou non.\n\nConversation spontanée : si elle est transcrite, elle est presque illisible.\nQuand l’oral est écrit, il est presque toujours réécrit.\nMais à l’oral, il y a quand même des règles.\nLes tics de langage sont propres à l’oral : enfin, bon, voilà, etc. → ils servent à structurer la parole.\nL’oral contient souvent des jurons, mais ces mots parfois tabous nourrissent l’expression d’une certaine variété de langue.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#à-cause-du-peuple",
+    "href": "chapters/000-intro.html#à-cause-du-peuple",
+    "title": "Introduction",
+    "section": "0.24.2 À cause du peuple ?",
+    "text": "0.24.2 À cause du peuple ?\nAu XVIe siècle, les langues sont dites vulgaires (terme négatif à l’époque, mais qui vient de vulgus = la foule), par opposition à la langue noble qu’est le latin.\n\n\n\n\n\n\nNote\n\n\n\n\nAujourd’hui, on parlerait plutôt de langues vernaculaires.\nNous parlons de langues qui se sont développées à partir du latin classique, mais qui ne lui ressemblent plus.\nDe vulgari eloquentia, de Dante Alighieri.\n\n\n\n\n\nDante Alighieri (1265-1321)\n\n\n\n\n\n\nLe français populaire est généralement connoté négativement, alors que la musique populaire est plutôt connotée positivement.\nFerdinand Brunot (1932) : « La langue peut s’enrichir des créations, souvent excellentes, parce qu’elles sont instinctives, de l’esprit populaire.\nNous avons tous plusieurs registres et plusieurs accents.\n\n\n\n0.24.2.1 Les francophones qui ont accès à plusieurs variantes :\n\nétablissent des correspondances entre les différences sociales et les formes linguistiques ;\nfont attention à la représentation sociale qu’ils veulent donner d’eux-mêmes.\n→ D’où le désir de certains de se révolter face à une domination linguistique, avec l’adoption d’une forme de prestige latent.",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#la-faute-de-lécriture-inclusive",
+    "href": "chapters/000-intro.html#la-faute-de-lécriture-inclusive",
+    "title": "Introduction",
+    "section": "0.24.3 La faute de l’écriture inclusive ?",
+    "text": "0.24.3 La faute de l’écriture inclusive ?\n\nOn fait souvent des reproches à l’écriture inclusive.\nLes grammairiens ont contribué à une masculinisation de la langue à partir du XVIIᵉ siècle.\nPar exemple, la règle du pronom masculin pour l’attribut : avant, on pouvait dire « je la suis » au lieu de « je le suis ».",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/000-intro.html#le-rôle-du-numérique-1",
+    "href": "chapters/000-intro.html#le-rôle-du-numérique-1",
+    "title": "Introduction",
+    "section": "0.24.4 Le rôle du numérique",
+    "text": "0.24.4 Le rôle du numérique\n\nCorrecteurs et traitements de texte :\n\nAujourd’hui, les correcteurs orthographiques et les logiciels de traitement de texte jouent un rôle prescripteur en nous indiquant ce qu’ils considèrent comme des erreurs.\n\nModèles d’IA et données d’entraînement :\n\nLes outils d’intelligence artificielle sont entraînés principalement sur des textes écrits et, très probablement, sur des grammaires à tendance puriste.\n\nComparaison des modèles d’IA face aux questions de grammaire :\n\nLe Chat (Mistral) : Adopte une approche plus nuancée que l’Académie française et établit une vraie distinction entre la langue orale et la langue écrite.\nChatGPT (état observé en 2025) : Mentionne les niveaux de formalité, mais finit par répéter la règle puriste traditionnelle.\n\n\n\n\nQuiz time !!!",
+    "crumbs": [
+      "Chapters",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html",
+    "href": "chapters/003-negation.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Video\nComparez\nHistoire\nEx. l’expression de la négation en français ?\nLe cycle de Jespersen\nEx. : le cycle de (jespersenNegationEnglishOther1917?)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#et-au-québec",
+    "href": "chapters/003-negation.html#et-au-québec",
+    "title": "Introduction",
+    "section": "3.0.1 Et au Québec",
+    "text": "3.0.1 Et au Québec\n\n\nne quasi absent à l’oral.\nLes mots négatifs peuvent même être renforcés par pas.\nExemple : « j’ai pas vu personne ».\n\n\n\n\n\nAujourd’hui, la valeur négative est véhiculée de manière autonome par les termes : pas, plus, jamais, aucun, nul, personne et rien.\nCes éléments portent la charge sémantique de la négation dans le système moderne.\n\n\n\nLe statut du ne « tout seul » :\n\nLe ne employé isolément s’observe principalement dans les propositions subordonnées lorsqu’il a une valeur explétive (ex. « Je crains qu’il ne vienne »).\nDans ce contexte, il ne porte aucune valeur négative et relève d’une marque purement syntaxique et de registre soutenue.\n\n\n\n\n\n\n\n\nAstuceDéfinition\n\n\n\nExplétif : Il existe en français un ne dit explétif, c’est-à-dire qui n’est pas indispensable au sens ou à la syntaxe de la phrase et qui n’a pas son rôle habituel de négation. On le rencontre dans différents types de constructions, presque exclusivement à l’écrit, dans la langue soignée.\n\nLe ne explétif s’emploie avec des adverbes de comparaison comme davantage, plus, moins, mieux, meilleur, pire, moindre, utilisés avec que pour introduire une phrase subordonnée.\n\nIl est plus intelligent qu’on ne le croit.\nElle est moins fatiguée qu’on ne l’imagine.\n\nOn le trouve aussi dans certaines subordonnées introduites par des verbes comme craindre, avoir peur, redouter, empêcher, éviter et par d’autres verbes ou expressions de même signification.\n\nJe crains qu’il ne pleuve.\nIls redoutent qu’elle ne parte trop tôt.\n\n\n\n\nOn utilise également le ne explétif avec certains subordonnants composés comme avant que, à moins que.\n\nPars avant qu’il ne soit trop tard.\nJe viendrai à moins qu’il ne pleuve.\n\n\n\n\n\n\n\n\n\n\n\nAstuce\n\n\n\n\nBien que la valeur négative se soit déplacée vers le second élément (pas, plus, jamais, rien, personne), l’évolution n’est pas totalement achevée.\nLe ne négatif subsiste encore aujourd’hui de façon autonome dans certaines locutions figées.",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#en-ligne",
+    "href": "chapters/003-negation.html#en-ligne",
+    "title": "Introduction",
+    "section": "3.4.1 En ligne",
+    "text": "3.4.1 En ligne\n\nEn Suisse, on est à 23 % de phrases négatives avec ne dans les SMS.\nSur les forums, on est à 42 % avec ne.",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#à-loral",
+    "href": "chapters/003-negation.html#à-loral",
+    "title": "Introduction",
+    "section": "3.4.2 À l’oral",
+    "text": "3.4.2 À l’oral\n\nEn région parisienne :\n\nEn 1970 : 15 % de phrases avec ne.\nEn 1990 : 8,2 % de phrases avec ne.\n\nCorpus de référence du français parlé :\n\n14 % dans la partie la moins formelle.\n33 % dans la plus formelle.\n\n\n\n\nLes adultes utilisent plus de ne que les enfants.\nLes anciens utilisent plus de ne que les jeunes.\nGGF : dans un corpus récent, le ne dépasse rarement les 10 %.\nNéanmoins, l’usage du ne continue d’être un marqueur du bien-parler.",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#formulation-de-la-question-de-recherche",
+    "href": "chapters/003-negation.html#formulation-de-la-question-de-recherche",
+    "title": "Introduction",
+    "section": "3.8.1 Formulation de la question de recherche",
+    "text": "3.8.1 Formulation de la question de recherche\nPour opérationnaliser votre sujet, vous pouvez poser une question de recherche formelle et quantifiable :\n\n« Dans quelle mesure le niveau de formalité de la situation d’énonciation influence-t-il la fréquence d’emploi de la particule de négation ne dans les productions verbales ou écrites d’un même groupe de locuteurs) ? »\n\n\n\n3.8.1.1 Hypothèse associée :\n\nHypothèse nulle (\\(H_0\\)) : Le contexte de formalité n’a pas d’effet significatif sur le maintien ou l’omission du ne.\nHypothèse de travail (\\(H_1\\)) : L’emploi du ne augmente de manière significative lorsque le degré de formalité du contexte augmente (marqueur de style et de prestige social).\n\n\n\n\n3.8.1.2 Cadre conceptuel et opérationnalisation (Variables)\n\nPour répondre scientifiquement à cette question selon la démarche de corpus, il faut isoler et manipuler des variables :\n\nVariable Indépendante (VI) — Le contexte de formalité :\n\nRegistre / Situation : Formel (ex. entretien d’embauche, conférence, examen oral) vs Informel (ex. discussion entre amis, SMS, forum de discussion).\n\nVariable Dépendante (VD) — Le taux de maintien du ne :\n\nMesure de la proportion de négations complètes (ex. je ne sais pas) par rapport à l’ensemble des négations exprimées (ex. je sais pas + je ne sais pas).\n\n\n\n\\(\\text{Taux de } ne = \\frac{\\text{Nombre de négations avec } ne}{\\text{Nombre total de négations (avec et sans } ne)} \\times 100\\)\n\n\n\n3.8.1.3 Définir précisément la négation que l’on souhaite étudier\n\nDéfinir précisément les critères de formalité et la sous-catégorie de négation étudiée (ex. ne…pas, ne…rien, ne…personne).\n\n\n\n\n3.8.1.4 Trouver (ou constituer) un corpus\n\nSélectionner un corpus oral ou écrit d’un même groupe de locuteurs enregistré/recueilli dans deux contextes distincts :\n\nSous-corpus A (Formel) : Discours académiques, entretiens professionnels, corpus de français parlé dans la partie formelle, etc.\nSous-corpus B (Informel) : Conversations familiales spontanées, interactions sur messagerie instantanée, etc.\n\n\n\n\n\n3.8.1.5 Choix du corpus\n\n3.8.1.5.1 Corpus de Langue Parlée (Oral)\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nCFPP2000\nInterviews conversationnelles sur les quartiers de Paris et sa proche banlieue.\n~50 h / &gt;700 000 mots (volume Orféo moindre, date antérieure)\nLien\n\n\nCLAPI\nInteractions multimédias en situation naturelle (professionnelle, médicale, classe, etc.).\n~17 h / ~170 000 mots (sous-ensemble natif)\nLien\n\n\nC-ORAL-ROM\nCorpus comparatifs de langue spontanée des principales langues romanes (FR, IT, PT, ES).\nTotalité partie FR (123 h / 772 textes au total)\nLien\n\n\nCRFP\nÉchantillons de français parlé dans ~40 villes selon divers profils de locuteurs (aligné texte/son).\nTotalité (~36 h / 440 000 mots / 134 enregistrements)\nLien\n\n\nFLEURON\nSituations de la vie universitaire et quotidienne pour étudiants étrangers.\n~3 h / 35 000 mots\nLien\n\n\nFRENCH ORAL NARRATIVE\nContes oraux (87 contes par 18 conteurs du CLiO à Vendôme) annotés en TEI.\nTotalité\nLien\n\n\nOFROM\nEntretiens et interactions enregistrés en Suisse romande (aligné texte/son).\n&gt;25 h / ~300 000 mots (actuellement ~80 h / ~1M mots)\nLien\n\n\nTCOF\nInteractions adultes-enfants et conversations/récits entre adultes (+ coll. Debaisieux & Caddeo).\n~23 h / ~300 000 mots\nLien\n\n\nTUFS\nEntretiens recueillis dans des universités françaises (Aix, Paris, Bordeaux) par l’Univ. de Tokyo.\nTotalité (~54 h / &gt;750 000 mots)\nLien\n\n\nValibel\nEnregistrements de productions orales en Belgique (Bruxelles et Wallonie).\n~43 h / 500 000 mots (sur 373 h au total)\nLien\n\n\n\n\n\n\n3.8.1.5.2 Corpus de Langue Écrite & Communication Numérique\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nANNODIS\nTextes diversifiés enrichis en structures discursives (Est Républicain, Wikipédia, CMLF 2008, IFRI).\nTotalité (687 000 mots)\nLien\n\n\nChambers-Rostand\nPresse quotidienne française (Le Monde, L’Humanité, La Dépêche du Midi).\nTotalité (979 831 mots / 1 723 articles)\nLien\n\n\nCoMeRe\nCommunication médiée par les réseaux (blogs, tweets, SMS, courriels, forums, etc.) structurée en TEI/CLARIN/OLAC.\nNoyau de corpus\nLien\n\n\nFrantext (Libre)\nSous-corpus littéraire (romans et essais hors théâtre/poésie, 1890–1921).\nTotalité (~1,8 million de tokens / 22 œuvres)\nLien\n\n\nEst Républicain\nPresse Quotidienne Régionale (PQR) du CNRTL (3 éditions quotidiennes d’avril 2002).\nTotalité (927 035 tokens)\nLien\n\n\n\n\n\n\n3.8.1.5.3 Téléchargement des données\n\nlibrary(here)\n\nhere() starts at /Users/jeremy-ua/Documents/Work/Teaching/Teaching\n\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.4.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n# Charge le fichier depuis la racine du projet\ncorpus_data &lt;- read.csv(here(\"francais-moderne\",\"chapters\", \"corpus\", \"corpus_data.csv\")) %&gt;% filter(corpus==\"CRFP\")\n\nIl faut toujours vérifier les données que l’on a télécharger !\n\nhead(corpus_data)\n\n  word_nr       form       lemma upos xpos start_time end_time speaker\n1       1      voilà       voilà  INT  INT       0.18     0.39      L1\n2       2       nous         moi  PRO  PRO       0.40     0.49      L1\n3       3       nous        nous  CLS  CLS       0.50     0.65      L1\n4       4     étions        être  VRB  VRB       0.66     1.01      L1\n5       5 interrompu interrompre  VPP  VPP       1.02     1.79      L1\n6       6         au        à+le  PRE  PRE       2.44     2.76      L1\n             file             utterance name_recording sex age\n1 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n2 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n3 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n4 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n5 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n6 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n           education         occupation         birth_place native_language\n1 études supérieures inconnu (retraité) Centre de la France        français\n2 études supérieures inconnu (retraité) Centre de la France        français\n3 études supérieures inconnu (retraité) Centre de la France        français\n4 études supérieures inconnu (retraité) Centre de la France        français\n5 études supérieures inconnu (retraité) Centre de la France        français\n6 études supérieures inconnu (retraité) Centre de la France        français\n    source_file corpus           setting_place duration\n1 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n2 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n3 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n4 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n5 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n6 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n                           audio_quality interaction sector     channel\n1 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n2 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n3 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n4 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n5 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n6 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n  modality    audio_file\n1     oral PRI-AIX-1.wav\n2     oral PRI-AIX-1.wav\n3     oral PRI-AIX-1.wav\n4     oral PRI-AIX-1.wav\n5     oral PRI-AIX-1.wav\n6     oral PRI-AIX-1.wav\n                                                                                                                    textgrid_path\n1 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n2 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n3 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n4 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n5 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n6 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n  alignment_status\n1          aligned\n2          aligned\n3          aligned\n4          aligned\n5          aligned\n6          aligned\n\n\n\n\n\n\n3.8.1.6 Préparer les données (Pré-traitement)\n\nTokenisation & Nettoyage : Traiter les données brutes ou les transcriptions orales.\nÉtiquetage (POS Tagging) / Annotation : Identifier les structures négatives verbales.\n\n\n\n3.8.1.6.1 R : un langage pour analyser des données\n\nR est un langage de programmation et un environnement statistique utilisé pour :\n\nanalyser des données\ncréer des graphiques\nmanipuler des corpus\nréaliser des modèles statistiques\nproduire des rapports reproductibles\n\n\n\n\nPourquoi les linguistes l’utilisent ?\n\ntraitement de corpus\nextraction de formes linguistiques\nstatistiques descriptives et inférentielles\nvisualisation (courbes, nuages de points, heatmaps)\nreproductibilité des analyses\n\n\nÉcosystème\n\nRStudio : interface de travail\ntidyverse : ensemble de packages pour manipuler les données\nstringr : manipulation de données textuelles\nggplot2 : graphiques\n\nEn résumé\nR = un outil gratuit, puissant, reproductible, idéal pour la recherche empirique.\n\nSéléction des données pertinentes\n\n\n3.8.1.6.2 Mini‑tutoriel : Filtrer & Sélectionner un corpus en R (dplyr)\n\nComprendre les opérations essentielles pour manipuler un corpus :\n\nfilter : garder certaines lignes\nselect : garder certaines colonnes\nOpérateurs logiques : ==, !=, &, |\nLe pipe `%&gt;%` : enchaîner les opérations (« puis… »)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#garder-les-lignes-où-une-condition-est-vraie",
+    "href": "chapters/003-negation.html#garder-les-lignes-où-une-condition-est-vraie",
+    "title": "Introduction",
+    "section": "3.9.1 Garder les lignes où une condition est vraie",
+    "text": "3.9.1 Garder les lignes où une condition est vraie\nr\ncorpus %&gt;% filter(lemma == \"pas\")",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#exclure-une-valeur",
+    "href": "chapters/003-negation.html#exclure-une-valeur",
+    "title": "Introduction",
+    "section": "3.9.2 Exclure une valeur",
+    "text": "3.9.2 Exclure une valeur\nr\ncorpus %&gt;% filter(upos != \"NOM\")",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#combiner-conditions-avec-et",
+    "href": "chapters/003-negation.html#combiner-conditions-avec-et",
+    "title": "Introduction",
+    "section": "3.9.3 Combiner conditions avec ET (&)",
+    "text": "3.9.3 Combiner conditions avec ET (&)\nr\ncorpus %&gt;% filter(lemma == \"pas\" & upos == \"ADV\")",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#combiner-conditions-avec-ou",
+    "href": "chapters/003-negation.html#combiner-conditions-avec-ou",
+    "title": "Introduction",
+    "section": "3.9.4 Combiner conditions avec OU (|)",
+    "text": "3.9.4 Combiner conditions avec OU (|)\nr\ncorpus %&gt;% filter(upos == \"ADJ\" | upos == \"ADV\")",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne",
+    "href": "chapters/003-negation.html#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne",
+    "title": "Introduction",
+    "section": "3.9.5 Exemple linguistique : énoncés contenant pas mais sans ne",
+    "text": "3.9.5 Exemple linguistique : énoncés contenant pas mais sans ne\nr\ncorpus %&gt;% \n  group_by(utterance) %&gt;% \n  filter(any(lemma == \"pas\") & !any(lemma == \"ne\")) %&gt;% \n  ungroup()",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#garder-seulement-certaines-colonnes",
+    "href": "chapters/003-negation.html#garder-seulement-certaines-colonnes",
+    "title": "Introduction",
+    "section": "3.10.1 Garder seulement certaines colonnes",
+    "text": "3.10.1 Garder seulement certaines colonnes\nr\ncorpus %&gt;% select(utterance, lemma, upos)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#exclure-une-colonne",
+    "href": "chapters/003-negation.html#exclure-une-colonne",
+    "title": "Introduction",
+    "section": "3.10.2 Exclure une colonne",
+    "text": "3.10.2 Exclure une colonne\nr\ncorpus %&gt;% select(-speaker_id)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#renommer-une-colonne-en-même-temps",
+    "href": "chapters/003-negation.html#renommer-une-colonne-en-même-temps",
+    "title": "Introduction",
+    "section": "3.10.3 Renommer une colonne en même temps",
+    "text": "3.10.3 Renommer une colonne en même temps\nr\ncorpus %&gt;% select(token = lemma, pos = upos)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#exemple",
+    "href": "chapters/003-negation.html#exemple",
+    "title": "Introduction",
+    "section": "3.11.1 Exemple :",
+    "text": "3.11.1 Exemple :\nGarder les adjectifs produits par des locuteurs masculins, et ne garder que lemma + age\nr\ncorpus %&gt;%\n  filter(upos == \"ADJ\" & sex == \"M\") %&gt;%\n  select(lemma, age)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
     ]
   }
 ]

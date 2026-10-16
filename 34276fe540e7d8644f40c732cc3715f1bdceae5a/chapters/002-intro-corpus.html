@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../chapters/003-negation.html" rel="next">
 <link href="../chapters/000-intro.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -331,6 +332,12 @@ window.Quarto = {
  <span class="menu-text">Linguistique de corpus</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/003-negation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Négation - C’est pas vrai</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -358,6 +365,55 @@ window.Quarto = {
   <li><a href="#décomposition-des-variables-exemple-dapplication" id="toc-décomposition-des-variables-exemple-dapplication" class="nav-link" data-scroll-target="#décomposition-des-variables-exemple-dapplication"><span class="header-section-number">2.4.3.4</span> Décomposition des variables (exemple d’application)</a></li>
   </ul></li>
   </ul></li>
+  <li><a href="#étape-2-trouver-ou-construire-un-corpus" id="toc-étape-2-trouver-ou-construire-un-corpus" class="nav-link" data-scroll-target="#étape-2-trouver-ou-construire-un-corpus"><span class="header-section-number">2.5</span> Étape 2 : Trouver (ou construire) un corpus</a>
+  <ul class="collapse">
+  <li><a href="#construction-des-corpus" id="toc-construction-des-corpus" class="nav-link" data-scroll-target="#construction-des-corpus"><span class="header-section-number">2.5.1</span> Construction des corpus</a>
+  <ul class="collapse">
+  <li><a href="#la-documentation-métadonnées" id="toc-la-documentation-métadonnées" class="nav-link" data-scroll-target="#la-documentation-métadonnées"><span class="header-section-number">2.5.1.1</span> 1. La documentation (Métadonnées)</a></li>
+  <li><a href="#lautomatisation" id="toc-lautomatisation" class="nav-link" data-scroll-target="#lautomatisation"><span class="header-section-number">2.5.1.2</span> 2. L’automatisation</a></li>
+  <li><a href="#standardisation-pérennité-et-ouverture-open-source" id="toc-standardisation-pérennité-et-ouverture-open-source" class="nav-link" data-scroll-target="#standardisation-pérennité-et-ouverture-open-source"><span class="header-section-number">2.5.1.3</span> 3. Standardisation, pérennité et ouverture (Open Source)</a></li>
+  </ul></li>
+  <li><a href="#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" id="toc-cas-spécifique-les-corpus-oraux-transcriptions-anonymisation" class="nav-link" data-scroll-target="#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation"><span class="header-section-number">2.5.2</span> Cas spécifique : Les corpus oraux (Transcriptions &amp; anonymisation)</a></li>
+  <li><a href="#cadre-juridique-et-éthique" id="toc-cadre-juridique-et-éthique" class="nav-link" data-scroll-target="#cadre-juridique-et-éthique"><span class="header-section-number">2.5.3</span> Cadre juridique et éthique</a>
+  <ul class="collapse">
+  <li><a href="#aspects-juridiques-droit-dauteur-et-diffusion" id="toc-aspects-juridiques-droit-dauteur-et-diffusion" class="nav-link" data-scroll-target="#aspects-juridiques-droit-dauteur-et-diffusion"><span class="header-section-number">2.5.3.1</span> Aspects juridiques : Droit d’auteur et diffusion</a></li>
+  <li><a href="#aspects-éthiques-recueil-privé-et-consentement-éclairé" id="toc-aspects-éthiques-recueil-privé-et-consentement-éclairé" class="nav-link" data-scroll-target="#aspects-éthiques-recueil-privé-et-consentement-éclairé"><span class="header-section-number">2.5.3.2</span> Aspects éthiques : Recueil privé et consentement éclairé</a></li>
+  <li><a href="#respect-de-la-vie-privée-et-anonymisation" id="toc-respect-de-la-vie-privée-et-anonymisation" class="nav-link" data-scroll-target="#respect-de-la-vie-privée-et-anonymisation"><span class="header-section-number">2.5.3.3</span> Respect de la vie privée et anonymisation</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#étape-3-prétraiter-vos-données" id="toc-étape-3-prétraiter-vos-données" class="nav-link" data-scroll-target="#étape-3-prétraiter-vos-données"><span class="header-section-number">2.6</span> Étape 3 : Prétraiter vos données</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a>
+  <ul class="collapse">
+  <li><a href="#annotation" id="toc-annotation" class="nav-link" data-scroll-target="#annotation"><span class="header-section-number">2.6.1</span> Annotation</a>
+  <ul class="collapse">
+  <li><a href="#dans-le-cas-des-corpus-écrits" id="toc-dans-le-cas-des-corpus-écrits" class="nav-link" data-scroll-target="#dans-le-cas-des-corpus-écrits"><span class="header-section-number">2.6.1.1</span> Dans le cas des corpus écrits</a></li>
+  <li><a href="#activité-test-de-tokenisation" id="toc-activité-test-de-tokenisation" class="nav-link" data-scroll-target="#activité-test-de-tokenisation"><span class="header-section-number">2.6.1.2</span> Activité : Test de tokenisation</a></li>
+  <li><a href="#phrase-cible" id="toc-phrase-cible" class="nav-link" data-scroll-target="#phrase-cible"><span class="header-section-number">2.6.1.3</span> Phrase cible</a></li>
+  <li><a href="#méthode-1-tokenisation-stricte-graphique" id="toc-méthode-1-tokenisation-stricte-graphique" class="nav-link" data-scroll-target="#méthode-1-tokenisation-stricte-graphique"><span class="header-section-number">2.6.1.4</span> Méthode 1 : Tokenisation stricte / graphique</a></li>
+  </ul></li>
+  <li><a href="#méthode-2-tokenisation-sémantique-polylexicale" id="toc-méthode-2-tokenisation-sémantique-polylexicale" class="nav-link" data-scroll-target="#méthode-2-tokenisation-sémantique-polylexicale"><span class="header-section-number">2.6.2</span> Méthode 2 : Tokenisation sémantique / polylexicale</a></li>
+  <li><a href="#partitionner-un-corpus" id="toc-partitionner-un-corpus" class="nav-link" data-scroll-target="#partitionner-un-corpus"><span class="header-section-number">2.6.3</span> Partitionner un corpus</a>
+  <ul class="collapse">
+  <li><a href="#critères-et-types-de-partitions" id="toc-critères-et-types-de-partitions" class="nav-link" data-scroll-target="#critères-et-types-de-partitions"><span class="header-section-number">2.6.3.1</span> Critères et types de partitions</a></li>
+  <li><a href="#pourquoi-partitionner" id="toc-pourquoi-partitionner" class="nav-link" data-scroll-target="#pourquoi-partitionner"><span class="header-section-number">2.6.3.2</span> Pourquoi partitionner ?</a></li>
+  <li><a href="#quand-et-comment-y-penser" id="toc-quand-et-comment-y-penser" class="nav-link" data-scroll-target="#quand-et-comment-y-penser"><span class="header-section-number">2.6.3.3</span> Quand et comment y penser ?</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#étape-4-analyser-les-données" id="toc-étape-4-analyser-les-données" class="nav-link" data-scroll-target="#étape-4-analyser-les-données"><span class="header-section-number">2.7</span> Étape 4 : Analyser les données</a>
+  <ul class="collapse">
+  <li><a href="#outils-et-requêtes-pour-explorer-un-corpus" id="toc-outils-et-requêtes-pour-explorer-un-corpus" class="nav-link" data-scroll-target="#outils-et-requêtes-pour-explorer-un-corpus"><span class="header-section-number">2.7.1</span> Outils et requêtes pour explorer un corpus</a>
+  <ul class="collapse">
+  <li><a href="#choix-de-loutil-linguistique-pour-explorer-un-corpus" id="toc-choix-de-loutil-linguistique-pour-explorer-un-corpus" class="nav-link" data-scroll-target="#choix-de-loutil-linguistique-pour-explorer-un-corpus"><span class="header-section-number">2.7.1.1</span> Choix de l’outil linguistique pour explorer un corpus</a></li>
+  <li><a href="#construire-une-requête" id="toc-construire-une-requête" class="nav-link" data-scroll-target="#construire-une-requête"><span class="header-section-number">2.7.1.2</span> Construire une requête</a></li>
+  </ul></li>
+  <li><a href="#mesures-quantitatives-fréquence-et-spécificités" id="toc-mesures-quantitatives-fréquence-et-spécificités" class="nav-link" data-scroll-target="#mesures-quantitatives-fréquence-et-spécificités"><span class="header-section-number">2.7.2</span> Mesures quantitatives : Fréquence et spécificités</a>
+  <ul class="collapse">
+  <li><a href="#fréquence" id="toc-fréquence" class="nav-link" data-scroll-target="#fréquence"><span class="header-section-number">2.7.2.1</span> Fréquence</a></li>
+  <li><a href="#le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" id="toc-le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités" class="nav-link" data-scroll-target="#le-pré-traitement-appliqué-au-comptage-découpage-et-choix-dunités"><span class="header-section-number">2.7.2.2</span> Le pré-traitement appliqué au comptage (Découpage et choix d’unités)</a></li>
+  <li><a href="#mesurer-la-spécificité-textuelle" id="toc-mesurer-la-spécificité-textuelle" class="nav-link" data-scroll-target="#mesurer-la-spécificité-textuelle"><span class="header-section-number">2.7.2.3</span> Mesurer la spécificité textuelle</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#étape-5-conclusion-répondre-aux-questions" id="toc-étape-5-conclusion-répondre-aux-questions" class="nav-link" data-scroll-target="#étape-5-conclusion-répondre-aux-questions"><span class="header-section-number">2.8</span> Étape 5 : Conclusion (Répondre aux questions)</a></li>
   </ul>
 </nav>
     </div>
@@ -613,10 +669,16 @@ window.Quarto = {
 </ul></li>
 </ul>
 <hr>
+<p><strong>Le français dans l’actualité politique</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><video src="images/AQNoYYdtj1IayIzd7eTrKq8FtS42DEPNtLHs98pZMPcOpYhblxjiX4cWozI4CLr7E2QBBxDksOhH_EfxiaPRP9LZD6dso5A6xrh1GDPDu0tviQ.mp4" class="img-fluid quarto-figure quarto-figure-center" controls=""><a href="images/AQNoYYdtj1IayIzd7eTrKq8FtS42DEPNtLHs98pZMPcOpYhblxjiX4cWozI4CLr7E2QBBxDksOhH_EfxiaPRP9LZD6dso5A6xrh1GDPDu0tviQ.mp4">Video</a></video></p>
+</figure>
+</div>
+<hr>
 </section>
 </section>
 </section>
-<div class="hidden">
 <section id="étape-2-trouver-ou-construire-un-corpus" class="level1">
 <h1><span class="header-section-number">2.5</span> Étape 2 : Trouver (ou construire) un corpus</h1>
 <p><strong>Banques de données :</strong></p>
@@ -641,7 +703,7 @@ window.Quarto = {
 <tr class="even">
 <td><strong>CLAPI</strong></td>
 <td>Interactions multimédias en situation naturelle (professionnelle, médicale, classe, etc.).</td>
-<td>~17 h / ~170 000 mots <em>(sous-ensemble natif)</em></td>
+<td>~17 h / ~170 000 mots</td>
 <td><a href="http://clapi.ish-lyon.cnrs.fr/">Lien</a></td>
 </tr>
 <tr class="odd">
@@ -664,7 +726,7 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td><strong>FRENCH ORAL NARRATIVE</strong></td>
-<td>Contes oraux (87 contes par 18 conteurs du CLiO à Vendôme) annotés en TEI.</td>
+<td>Contes oraux (87 contes par 18 conteurs du CLiO à Vendôme)</td>
 <td><strong>Totalité</strong></td>
 <td><a href="http://frenchoralnarrative.qub.ac.uk">Lien</a></td>
 </tr>
@@ -676,7 +738,7 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td><strong>TCOF</strong></td>
-<td>Interactions adultes-enfants et conversations/récits entre adultes (+ coll. Debaisieux &amp; Caddeo).</td>
+<td>Interactions adultes-enfants et conversations/récits entre adultes</td>
 <td>~23 h / ~300 000 mots</td>
 <td><a href="http://www.cnrtl.fr/corpus/tcof/">Lien</a></td>
 </tr>
@@ -740,9 +802,6 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-</section>
-<section id="section" class="level4">
-<h4 class="anchored" data-anchor-id="section"></h4>
 <p><strong>Alternative :</strong> Collecter votre propre corpus.</p>
 <hr>
 </section>
@@ -751,9 +810,9 @@ window.Quarto = {
 <section id="la-documentation-métadonnées" class="level3">
 <h3 class="anchored" data-anchor-id="la-documentation-métadonnées"><span class="header-section-number">2.5.1.1</span> 1. La documentation (Métadonnées)</h3>
 <ul>
-<li><p><strong>Principe :</strong> Il est primordial de documenter le corpus le plus <strong>soigneusement possible</strong> en lui adossant des métadonnées explicites.</p></li>
-<li><p><strong>Objectif de validité scientifique :</strong> Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.</p></li>
-<li><p><strong>Informations à intégrer (Métadonnées) :</strong></p>
+<li><p>Principe : Il est primordial de documenter le corpus le plus soigneusement possible en lui adossant des métadonnées explicites.</p></li>
+<li><p>Objectif de validité scientifique : Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.</p></li>
+<li><p>Informations à intégrer (Métadonnées) :</p>
 <ul>
 <li><p><em>Qui parle / écrit ?</em> (Profil des locuteurs : âge, genre, statut, origine).</p></li>
 <li><p><em>Quand et où ?</em> (Date, lieu de publication ou d’enregistrement).</p></li>
@@ -769,12 +828,12 @@ window.Quarto = {
 <li><p><strong>Utilité :</strong> La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.</p></li>
 <li><p><strong>Bénéfices :</strong></p>
 <ul>
-<li><p><strong>Gain de temps</strong> considérable sur les volumes importants de données.</p></li>
-<li><p><strong>Standardisation et réduction des erreurs humaines</strong> pour garantir la cohérence des traitements.</p></li>
+<li><p>Gain de temps considérable sur les volumes importants de données.</p></li>
+<li><p>Standardisation et réduction des erreurs humaines pour garantir la cohérence des traitements.</p></li>
 </ul></li>
 <li><p><strong>Exemples d’application :</strong></p>
 <ul>
-<li><p><em>Documents manuscrits ou scannés :</em> Utilisation de logiciels de reconnaissance optique de caractères (<strong>OCR / HTR</strong>).</p></li>
+<li><p><em>Documents manuscrits ou scannés :</em> Utilisation de logiciels de reconnaissance optique de caractères (OCR / HTR).</p></li>
 <li><p><em>Nettoyage et conversion de fichiers :</em> Reformatting automatique (conversion du PDF vers du texte brut <code>.txt</code>).</p></li>
 <li><p><em>Nettoyage des données :</em> Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).</p></li>
 </ul></li>
@@ -824,34 +883,34 @@ window.Quarto = {
 <section id="aspects-juridiques-droit-dauteur-et-diffusion" class="level3">
 <h3 class="anchored" data-anchor-id="aspects-juridiques-droit-dauteur-et-diffusion"><span class="header-section-number">2.5.3.1</span> Aspects juridiques : Droit d’auteur et diffusion</h3>
 <ul>
-<li><p><strong>Aspiration de textes sur le Web (Web Scraping) :</strong></p>
+<li><p>Aspiration de textes sur le Web (Web Scraping) :</p>
 <ul>
-<li><p><strong>Propriété intellectuelle :</strong> Même lorsqu’un texte est mis à disposition publiquement sur internet, <strong>l’auteur en reste le propriétaire</strong>.</p></li>
-<li><p><strong>Droit de fouille de données (Data Mining) vs Diffusion :</strong></p>
+<li><p>Propriété intellectuelle : Même lorsqu’un texte est mis à disposition publiquement sur internet, l’auteur en reste le propriétaire.</p></li>
+<li><p>Droit de fouille de données (Data Mining) vs Diffusion :</p>
 <ul>
-<li><p>Il est légalement permis d’aspirer et d’utiliser des textes pour un usage d’<strong>analyse et de recherche</strong>.</p></li>
-<li><p><strong>Interdiction de redistribution enrichie :</strong> On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis <strong>mettre le tout à disposition du grand public</strong> sans l’accord des ayants droit.</p></li>
+<li><p>Il est légalement permis d’aspirer et d’utiliser des textes pour un usage d’analyse et de recherche.</p></li>
+<li><p>Interdiction de redistribution enrichie : On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis mettre le tout à disposition du grand public sans l’accord des ayants droit.</p></li>
 </ul></li>
 </ul></li>
-<li><p><strong>Ressources sous licences libres (ex. Wikipédia) :</strong></p>
+<li><p>Ressources sous licences libres (ex. Wikipédia) :</p>
 <ul>
-<li>Les contenus sous licences de type <strong>Creative Commons</strong> (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).</li>
+<li>Les contenus sous licences de type Creative Commons (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).</li>
 </ul></li>
 </ul>
 <hr>
 </section>
 <section id="aspects-éthiques-recueil-privé-et-consentement-éclairé" class="level3">
 <h3 class="anchored" data-anchor-id="aspects-éthiques-recueil-privé-et-consentement-éclairé"><span class="header-section-number">2.5.3.2</span> Aspects éthiques : Recueil privé et consentement éclairé</h3>
-<p>Lors du recueil de données privées ou d’enregistrements de personnes :</p>
 <ul>
+<li><p>Lors du recueil de données privées ou d’enregistrements de personnes :</p></li>
 <li><p><strong>Obtention du consentement éclairé :</strong></p>
 <ul>
-<li><p>Il est obligatoire de <strong>recueillir l’accord préalable</strong> des participants pour étudier leurs données.</p></li>
-<li><p><strong>Transparence complète :</strong> Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.</p></li>
+<li><p>Il est obligatoire de recueillir l’accord préalable des participants pour étudier leurs données.</p></li>
+<li><p>Transparence complète : Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.</p></li>
 </ul></li>
 <li><p><strong>Collecte loyale :</strong></p>
 <ul>
-<li>La collecte ne doit <strong>jamais se faire à leur insu</strong> (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).</li>
+<li>La collecte ne doit jamais se faire à leur insu (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).</li>
 </ul></li>
 </ul>
 <hr>
@@ -881,7 +940,7 @@ window.Quarto = {
 <section id="étape-3-prétraiter-vos-données" class="level1">
 <h1><span class="header-section-number">2.6</span> Étape 3 : Prétraiter vos données</h1>
 </section>
-<section id="section-1" class="level1">
+<section id="section" class="level1">
 <h1></h1>
 <div class="html">
 <div style="display: flex; align-items: center; justify-content: space-around;">
@@ -939,9 +998,9 @@ window.Quarto = {
 </ul></li>
 <li><p><strong>Exemples d’annotations :</strong></p>
 <ul>
-<li><p><strong>Catégories grammaticales / Parties du discours (POS Tagging) :</strong> Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).</p></li>
-<li><p><strong>Formes canoniques (Lemmatisation) :</strong> Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).</p></li>
-<li><p><strong>Entités nommées :</strong> Identifier et étiqueter les personnes, lieux, organisations, dates, etc.</p></li>
+<li><p>Catégories grammaticales / Parties du discours (POS Tagging) : Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).</p></li>
+<li><p>Formes canoniques (Lemmatisation) : Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).</p></li>
+<li><p>Entités nommées : Identifier et étiqueter les personnes, lieux, organisations, dates, etc.</p></li>
 </ul></li>
 </ul>
 <hr>
@@ -1218,6 +1277,7 @@ window.Quarto = {
 </section>
 <section id="mesurer-la-spécificité-textuelle" class="level3">
 <h3 class="anchored" data-anchor-id="mesurer-la-spécificité-textuelle"><span class="header-section-number">2.7.2.3</span> Mesurer la spécificité textuelle</h3>
+<div class="hidden">
 <ul>
 <li><p><strong>Qu’est-ce qui fait la spécificité d’un texte ?</strong></p>
 <ul>
@@ -1234,9 +1294,10 @@ window.Quarto = {
 </ul></li>
 </ul>
 <hr>
-</section>
 <section id="indicateurs-et-indices-statistiques-de-spécificité" class="level3">
 <h3 class="anchored" data-anchor-id="indicateurs-et-indices-statistiques-de-spécificité"><span class="header-section-number">2.7.2.4</span> Indicateurs et indices statistiques de spécificité</h3>
+</section>
+</div>
 <hr>
 </section>
 </section>
@@ -1254,10 +1315,9 @@ Conclusion
 </div>
 </div>
 <hr>
+
+
 </section>
-</div>
-
-
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1680,6 +1740,9 @@ Conclusion
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../chapters/003-negation.html" class="pagination-link" aria-label="Négation - C'est pas vrai">
+        <span class="nav-page-text">Négation - C’est pas vrai</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
