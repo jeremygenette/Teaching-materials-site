@@ -7,135 +7,157 @@
     "text": "Bienvenue ! Après chaque cours, le chapitre vu en classe apparaît dans le menu à gauche."
   },
   {
-    "objectID": "chapters/002-intro-corpus.html",
-    "href": "chapters/002-intro-corpus.html",
-    "title": "Linguistique de corpus",
+    "objectID": "chapters/003-negation.html",
+    "href": "chapters/003-negation.html",
+    "title": "Introduction",
     "section": "",
-    "text": "Si on vous dit : C’EST PAS CORRECT !",
+    "text": "Video\nComparez\nHistoire\nEx. l’expression de la négation en français ?\nLe cycle de Jespersen\nEx. : le cycle de (jespersenNegationEnglishOther1917?)",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#exploration-dun-corpus-linguistique",
-    "href": "chapters/002-intro-corpus.html#exploration-dun-corpus-linguistique",
-    "title": "Linguistique de corpus",
-    "section": "2.4.1 Exploration d’un corpus linguistique",
-    "text": "2.4.1 Exploration d’un corpus linguistique\n2 objectifs possibles :\n\nDécrire la langue en tant que système\nDécrire une variété linguistique\n\n\n\nRecherche quantitative\nLe but est d’examiner une hypothèse testable découlant d’une question de recherche.\nLa langue est créée par les participants : les usagers de la langue.\n\n\n\nTa question de recherche découle de la littérature scientifique.\n\nUn modèle ou une théorie formule une prédiction concernant une situation différente de celles déjà testées.\nDeux modèles ou théories peuvent formuler des prédictions contradictoires pour une même situation.\nTu peux aussi vouloir étendre un modèle ou une théorie à une situation pertinente qui n’a pas encore été testée.",
+    "objectID": "chapters/003-negation.html#et-au-québec",
+    "href": "chapters/003-negation.html#et-au-québec",
+    "title": "Introduction",
+    "section": "3.0.1 Et au Québec",
+    "text": "3.0.1 Et au Québec\n\n\nne quasi absent à l’oral.\nLes mots négatifs peuvent même être renforcés par pas.\nExemple : « j’ai pas vu personne ».\n\n\n\n\n\nAujourd’hui, la valeur négative est véhiculée de manière autonome par les termes : pas, plus, jamais, aucun, nul, personne et rien.\nCes éléments portent la charge sémantique de la négation dans le système moderne.\n\n\n\nLe statut du ne « tout seul » :\n\nLe ne employé isolément s’observe principalement dans les propositions subordonnées lorsqu’il a une valeur explétive (ex. « Je crains qu’il ne vienne »).\nDans ce contexte, il ne porte aucune valeur négative et relève d’une marque purement syntaxique et de registre soutenue.\n\n\n\n\n\n\n\n\nAstuceDéfinition\n\n\n\nExplétif : Il existe en français un ne dit explétif, c’est-à-dire qui n’est pas indispensable au sens ou à la syntaxe de la phrase et qui n’a pas son rôle habituel de négation. On le rencontre dans différents types de constructions, presque exclusivement à l’écrit, dans la langue soignée.\n\nLe ne explétif s’emploie avec des adverbes de comparaison comme davantage, plus, moins, mieux, meilleur, pire, moindre, utilisés avec que pour introduire une phrase subordonnée.\n\nIl est plus intelligent qu’on ne le croit.\nElle est moins fatiguée qu’on ne l’imagine.\n\nOn le trouve aussi dans certaines subordonnées introduites par des verbes comme craindre, avoir peur, redouter, empêcher, éviter et par d’autres verbes ou expressions de même signification.\n\nJe crains qu’il ne pleuve.\nIls redoutent qu’elle ne parte trop tôt.\n\n\n\n\nOn utilise également le ne explétif avec certains subordonnants composés comme avant que, à moins que.\n\nPars avant qu’il ne soit trop tard.\nJe viendrai à moins qu’il ne pleuve.\n\n\n\n\n\n\n\n\n\n\n\nAstuce\n\n\n\n\nBien que la valeur négative se soit déplacée vers le second élément (pas, plus, jamais, rien, personne), l’évolution n’est pas totalement achevée.\nLe ne négatif subsiste encore aujourd’hui de façon autonome dans certaines locutions figées.",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#formulation-de-lhypothèse",
-    "href": "chapters/002-intro-corpus.html#formulation-de-lhypothèse",
-    "title": "Linguistique de corpus",
-    "section": "2.4.2 Formulation de l’hypothèse",
-    "text": "2.4.2 Formulation de l’hypothèse\n\nParce que ta question de recherche découle de la théorie, tu peux formuler une réponse attendue.\nC’est cette réponse attendue qui constitue l’hypothèse que tu vas tester.\nHypothèse : réponse attendue à la question de recherche.\n\n\n\nLa manipulation systématique des variables pour mesurer la langue.\nCherchez un corpus présentant une variation « contrôlée » dans les variables indépendantes.\n\nVariables dépendantes : Ce que vous mesurez\nVS\nVariables indépendantes : Ce que vous manipulez",
+    "objectID": "chapters/003-negation.html#en-ligne",
+    "href": "chapters/003-negation.html#en-ligne",
+    "title": "Introduction",
+    "section": "3.4.1 En ligne",
+    "text": "3.4.1 En ligne\n\nEn Suisse, on est à 23 % de phrases négatives avec ne dans les SMS.\nSur les forums, on est à 42 % avec ne.",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#description-linguistique",
-    "href": "chapters/002-intro-corpus.html#description-linguistique",
-    "title": "Linguistique de corpus",
-    "section": "2.4.3 Description linguistique",
-    "text": "2.4.3 Description linguistique\n\nNous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.\nIl faut tout d’abord avoir une question de recherche précise.\n\n\n\n2.4.3.1 Activité : Formulation d’hypothèses et choix de variables\n\n\n2.4.3.2 Objectif\nIdentifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.\n\n\n2.4.3.3 Consigne : À vous d’inventer !\nImaginez 2 ou 3 questions de recherche sur la langue française (usage vs norme). (Exemple : « Utilise‑t‑on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)\n\n\n\n2.4.3.4 Décomposition des variables (exemple d’application)\n\nVariable indépendante (VI) — ce que vous manipulez ou comparez\n\nModalité / Registre : langue orale vs langue écrite.\n\nVariable dépendante (VD) — ce que vous mesurez\n\nFréquence / Proportion : le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots (N) dans l’échantillon.\n\n\n\nLe français dans l’actualité politique\n\n\nVideo",
+    "objectID": "chapters/003-negation.html#à-loral",
+    "href": "chapters/003-negation.html#à-loral",
+    "title": "Introduction",
+    "section": "3.4.2 À l’oral",
+    "text": "3.4.2 À l’oral\n\nEn région parisienne :\n\nEn 1970 : 15 % de phrases avec ne.\nEn 1990 : 8,2 % de phrases avec ne.\n\nCorpus de référence du français parlé :\n\n14 % dans la partie la moins formelle.\n33 % dans la plus formelle.\n\n\n\n\nLes adultes utilisent plus de ne que les enfants.\nLes anciens utilisent plus de ne que les jeunes.\nGGF : dans un corpus récent, le ne dépasse rarement les 10 %.\nNéanmoins, l’usage du ne continue d’être un marqueur du bien-parler.",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#construction-des-corpus",
-    "href": "chapters/002-intro-corpus.html#construction-des-corpus",
-    "title": "Linguistique de corpus",
-    "section": "2.5.1 Construction des corpus",
-    "text": "2.5.1 Construction des corpus\n\n2.5.1.1 1. La documentation (Métadonnées)\n\nPrincipe : Il est primordial de documenter le corpus le plus soigneusement possible en lui adossant des métadonnées explicites.\nObjectif de validité scientifique : Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.\nInformations à intégrer (Métadonnées) :\n\nQui parle / écrit ? (Profil des locuteurs : âge, genre, statut, origine).\nQuand et où ? (Date, lieu de publication ou d’enregistrement).\nDans quel contexte / situation de communication ? (Écrit formel, conversation privée, entretien, réseaux sociaux, etc.).\n\n\n\n\n\n2.5.1.2 2. L’automatisation\n\nPrincipe : Automatiser les étapes de constitution et de traitement autant que possible.\nUtilité : La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.\nBénéfices :\n\nGain de temps considérable sur les volumes importants de données.\nStandardisation et réduction des erreurs humaines pour garantir la cohérence des traitements.\n\nExemples d’application :\n\nDocuments manuscrits ou scannés : Utilisation de logiciels de reconnaissance optique de caractères (OCR / HTR).\nNettoyage et conversion de fichiers : Reformatting automatique (conversion du PDF vers du texte brut .txt).\nNettoyage des données : Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).\n\n\n\n\n\n2.5.1.3 3. Standardisation, pérennité et ouverture (Open Source)\n\nPrincipe : Encoder et stocker le corpus dans des formats ouverts afin qu’il puisse être réutilisable par d’autres chercheurs et interopérable avec divers outils.\nFormat et encodage :\n\nPrivilégier le format texte brut (.txt) ou le format XML balisé (ex. normes TEI - Text Encoding Initiative).\nS’assurer du réencodage (ex. UTF-8) pour éviter les problèmes de caractères spéciaux.\n\nLogiciels et outils :\n\nÉviter les formats propriétaires clos (ex. .docx non standardisés) ou les logiciels fermés.\nRecourir à des logiciels open-source / libres pour garantir la pérennité et la réplicabilité des analyses.",
+    "objectID": "chapters/003-negation.html#formulation-de-la-question-de-recherche",
+    "href": "chapters/003-negation.html#formulation-de-la-question-de-recherche",
+    "title": "Introduction",
+    "section": "3.8.1 Formulation de la question de recherche",
+    "text": "3.8.1 Formulation de la question de recherche\nPour opérationnaliser votre sujet, vous pouvez poser une question de recherche formelle et quantifiable :\n\n« Dans quelle mesure le niveau de formalité de la situation d’énonciation influence-t-il la fréquence d’emploi de la particule de négation ne dans les productions verbales ou écrites d’un même groupe de locuteurs) ? »\n\n\n\n3.8.1.1 Hypothèse associée :\n\nHypothèse nulle (\\(H_0\\)) : Le contexte de formalité n’a pas d’effet significatif sur le maintien ou l’omission du ne.\nHypothèse de travail (\\(H_1\\)) : L’emploi du ne augmente de manière significative lorsque le degré de formalité du contexte augmente (marqueur de style et de prestige social).\n\n\n\n\n3.8.1.2 Cadre conceptuel et opérationnalisation (Variables)\n\nPour répondre scientifiquement à cette question selon la démarche de corpus, il faut isoler et manipuler des variables :\n\nVariable Indépendante (VI) — Le contexte de formalité :\n\nRegistre / Situation : Formel (ex. entretien d’embauche, conférence, examen oral) vs Informel (ex. discussion entre amis, SMS, forum de discussion).\n\nVariable Dépendante (VD) — Le taux de maintien du ne :\n\nMesure de la proportion de négations complètes (ex. je ne sais pas) par rapport à l’ensemble des négations exprimées (ex. je sais pas + je ne sais pas).\n\n\n\n\\(\\text{Taux de } ne = \\frac{\\text{Nombre de négations avec } ne}{\\text{Nombre total de négations (avec et sans } ne)} \\times 100\\)\n\n\n\n3.8.1.3 Définir précisément la négation que l’on souhaite étudier\n\nDéfinir précisément les critères de formalité et la sous-catégorie de négation étudiée (ex. ne…pas, ne…rien, ne…personne).\n\n\n\n\n3.8.1.4 Trouver (ou constituer) un corpus\n\nSélectionner un corpus oral ou écrit d’un même groupe de locuteurs enregistré/recueilli dans deux contextes distincts :\n\nSous-corpus A (Formel) : Discours académiques, entretiens professionnels, corpus de français parlé dans la partie formelle, etc.\nSous-corpus B (Informel) : Conversations familiales spontanées, interactions sur messagerie instantanée, etc.\n\n\n\n\n\n3.8.1.5 Choix du corpus\n\n3.8.1.5.1 Corpus de Langue Parlée (Oral)\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nCFPP2000\nInterviews conversationnelles sur les quartiers de Paris et sa proche banlieue.\n~50 h / &gt;700 000 mots (volume Orféo moindre, date antérieure)\nLien\n\n\nCLAPI\nInteractions multimédias en situation naturelle (professionnelle, médicale, classe, etc.).\n~17 h / ~170 000 mots (sous-ensemble natif)\nLien\n\n\nC-ORAL-ROM\nCorpus comparatifs de langue spontanée des principales langues romanes (FR, IT, PT, ES).\nTotalité partie FR (123 h / 772 textes au total)\nLien\n\n\nCRFP\nÉchantillons de français parlé dans ~40 villes selon divers profils de locuteurs (aligné texte/son).\nTotalité (~36 h / 440 000 mots / 134 enregistrements)\nLien\n\n\nFLEURON\nSituations de la vie universitaire et quotidienne pour étudiants étrangers.\n~3 h / 35 000 mots\nLien\n\n\nFRENCH ORAL NARRATIVE\nContes oraux (87 contes par 18 conteurs du CLiO à Vendôme) annotés en TEI.\nTotalité\nLien\n\n\nOFROM\nEntretiens et interactions enregistrés en Suisse romande (aligné texte/son).\n&gt;25 h / ~300 000 mots (actuellement ~80 h / ~1M mots)\nLien\n\n\nTCOF\nInteractions adultes-enfants et conversations/récits entre adultes (+ coll. Debaisieux & Caddeo).\n~23 h / ~300 000 mots\nLien\n\n\nTUFS\nEntretiens recueillis dans des universités françaises (Aix, Paris, Bordeaux) par l’Univ. de Tokyo.\nTotalité (~54 h / &gt;750 000 mots)\nLien\n\n\nValibel\nEnregistrements de productions orales en Belgique (Bruxelles et Wallonie).\n~43 h / 500 000 mots (sur 373 h au total)\nLien\n\n\n\n\n\n\n3.8.1.5.2 Corpus de Langue Écrite & Communication Numérique\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nANNODIS\nTextes diversifiés enrichis en structures discursives (Est Républicain, Wikipédia, CMLF 2008, IFRI).\nTotalité (687 000 mots)\nLien\n\n\nChambers-Rostand\nPresse quotidienne française (Le Monde, L’Humanité, La Dépêche du Midi).\nTotalité (979 831 mots / 1 723 articles)\nLien\n\n\nCoMeRe\nCommunication médiée par les réseaux (blogs, tweets, SMS, courriels, forums, etc.) structurée en TEI/CLARIN/OLAC.\nNoyau de corpus\nLien\n\n\nFrantext (Libre)\nSous-corpus littéraire (romans et essais hors théâtre/poésie, 1890–1921).\nTotalité (~1,8 million de tokens / 22 œuvres)\nLien\n\n\nEst Républicain\nPresse Quotidienne Régionale (PQR) du CNRTL (3 éditions quotidiennes d’avril 2002).\nTotalité (927 035 tokens)\nLien\n\n\n\n\n\n\n3.8.1.5.3 Téléchargement des données\n\nlibrary(here)\n\nhere() starts at /Users/jeremy-ua/Documents/Work/Teaching/Teaching\n\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.4.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n# Charge le fichier depuis la racine du projet\ncorpus_data &lt;- read.csv(here(\"francais-moderne\",\"chapters\", \"corpus\", \"corpus_data.csv\")) %&gt;% filter(corpus==\"CRFP\")\n\nIl faut toujours vérifier les données que l’on a télécharger !\n\nhead(corpus_data)\n\n  word_nr       form       lemma upos xpos start_time end_time speaker\n1       1      voilà       voilà  INT  INT       0.18     0.39      L1\n2       2       nous         moi  PRO  PRO       0.40     0.49      L1\n3       3       nous        nous  CLS  CLS       0.50     0.65      L1\n4       4     étions        être  VRB  VRB       0.66     1.01      L1\n5       5 interrompu interrompre  VPP  VPP       1.02     1.79      L1\n6       6         au        à+le  PRE  PRE       2.44     2.76      L1\n             file             utterance name_recording sex age\n1 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n2 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n3 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n4 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n5 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n6 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n           education         occupation         birth_place native_language\n1 études supérieures inconnu (retraité) Centre de la France        français\n2 études supérieures inconnu (retraité) Centre de la France        français\n3 études supérieures inconnu (retraité) Centre de la France        français\n4 études supérieures inconnu (retraité) Centre de la France        français\n5 études supérieures inconnu (retraité) Centre de la France        français\n6 études supérieures inconnu (retraité) Centre de la France        français\n    source_file corpus           setting_place duration\n1 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n2 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n3 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n4 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n5 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n6 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n                           audio_quality interaction sector     channel\n1 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n2 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n3 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n4 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n5 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n6 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n  modality    audio_file\n1     oral PRI-AIX-1.wav\n2     oral PRI-AIX-1.wav\n3     oral PRI-AIX-1.wav\n4     oral PRI-AIX-1.wav\n5     oral PRI-AIX-1.wav\n6     oral PRI-AIX-1.wav\n                                                                                                                    textgrid_path\n1 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n2 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n3 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n4 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n5 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n6 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n  alignment_status\n1          aligned\n2          aligned\n3          aligned\n4          aligned\n5          aligned\n6          aligned\n\n\n\n\n\n\n3.8.1.6 Préparer les données (Pré-traitement)\n\nTokenisation & Nettoyage : Traiter les données brutes ou les transcriptions orales.\nÉtiquetage (POS Tagging) / Annotation : Identifier les structures négatives verbales.\n\n\n\n3.8.1.6.1 R : un langage pour analyser des données\n\nR est un langage de programmation et un environnement statistique utilisé pour :\n\nanalyser des données\ncréer des graphiques\nmanipuler des corpus\nréaliser des modèles statistiques\nproduire des rapports reproductibles\n\n\n\n\nPourquoi les linguistes l’utilisent ?\n\ntraitement de corpus\nextraction de formes linguistiques\nstatistiques descriptives et inférentielles\nvisualisation (courbes, nuages de points, heatmaps)\nreproductibilité des analyses\n\n\nÉcosystème\n\nRStudio : interface de travail\ntidyverse : ensemble de packages pour manipuler les données\nstringr : manipulation de données textuelles\nggplot2 : graphiques\n\nEn résumé\nR = un outil gratuit, puissant, reproductible, idéal pour la recherche empirique.\n\nSéléction des données pertinentes\n\n\n3.8.1.6.2 Mini‑tutoriel : Filtrer & Sélectionner un corpus en R (dplyr)\n\nComprendre les opérations essentielles pour manipuler un corpus :\n\nfilter : garder certaines lignes\nselect : garder certaines colonnes\nOpérateurs logiques : ==, !=, &, |\nLe pipe `%&gt;%` : enchaîner les opérations (« puis… »)",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation",
-    "href": "chapters/002-intro-corpus.html#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation",
-    "title": "Linguistique de corpus",
-    "section": "2.5.2 Cas spécifique : Les corpus oraux (Transcriptions & anonymisation)",
-    "text": "2.5.2 Cas spécifique : Les corpus oraux (Transcriptions & anonymisation)\n\nLe choix théorique de la transcription :\n\nTranscrire l’oral vers l’écrit dépend fondamentalement de la grille d’analyse et des objectifs théoriques du chercheur.\nOrthographe standard vs Transcription phonétique / alignée :\n\nFaut-il utiliser une orthographe normalisée (ex. « Je ne sais pas, enfin… ») ou une transcription fidèle à la prononciation effective / la syntaxe de l’oral (ex. « chais pas m’enfin ») ?\nArbitrage : Si l’objectif est une analyse syntaxique ou lexicale globale, l’orthographe standardisée est souvent privilégiée pour faciliter le traitement automatique. Si l’étude porte sur la phonétique, les hésitations ou les marqueurs discursifs, une transcription fine (ou un alignement texte-signal audio) s’impose.\n\n\nL’anonymisation :\n\nÉtape éthique et juridique indispensable avant la mise à disposition ou la publication d’un corpus d’oral.\nConsiste à masquer ou remplacer par des étiquettes neutres toutes les informations directement ou indirectement identifiables (noms propres, lieux spécifiques, numéros de téléphone, institutions citées).",
+    "objectID": "chapters/003-negation.html#garder-les-lignes-où-une-condition-est-vraie",
+    "href": "chapters/003-negation.html#garder-les-lignes-où-une-condition-est-vraie",
+    "title": "Introduction",
+    "section": "3.9.1 Garder les lignes où une condition est vraie",
+    "text": "3.9.1 Garder les lignes où une condition est vraie\nr\ncorpus %&gt;% filter(lemma == \"pas\")",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#cadre-juridique-et-éthique",
-    "href": "chapters/002-intro-corpus.html#cadre-juridique-et-éthique",
-    "title": "Linguistique de corpus",
-    "section": "2.5.3 Cadre juridique et éthique",
-    "text": "2.5.3 Cadre juridique et éthique\n\n2.5.3.1 Aspects juridiques : Droit d’auteur et diffusion\n\nAspiration de textes sur le Web (Web Scraping) :\n\nPropriété intellectuelle : Même lorsqu’un texte est mis à disposition publiquement sur internet, l’auteur en reste le propriétaire.\nDroit de fouille de données (Data Mining) vs Diffusion :\n\nIl est légalement permis d’aspirer et d’utiliser des textes pour un usage d’analyse et de recherche.\nInterdiction de redistribution enrichie : On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis mettre le tout à disposition du grand public sans l’accord des ayants droit.\n\n\nRessources sous licences libres (ex. Wikipédia) :\n\nLes contenus sous licences de type Creative Commons (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).\n\n\n\n\n\n2.5.3.2 Aspects éthiques : Recueil privé et consentement éclairé\n\nLors du recueil de données privées ou d’enregistrements de personnes :\nObtention du consentement éclairé :\n\nIl est obligatoire de recueillir l’accord préalable des participants pour étudier leurs données.\nTransparence complète : Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.\n\nCollecte loyale :\n\nLa collecte ne doit jamais se faire à leur insu (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).\n\n\n\n\n\n2.5.3.3 Respect de la vie privée et anonymisation\n\nEngagement au respect de la vie privée :\n\nObligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.\n\nProcédure d’anonymisation :\n\nConsiste à effacer ou remplacer toutes les informations permettant d’identifier directement ou indirectement un individu :\n\nNoms et prénoms.\nAdresses, noms de rues et lieux trop précis.\nDates de naissance ou éléments de calendrier identifiables.\nOrganismes, entreprises ou institutions spécifiques cités lors des échanges.",
+    "objectID": "chapters/003-negation.html#exclure-une-valeur",
+    "href": "chapters/003-negation.html#exclure-une-valeur",
+    "title": "Introduction",
+    "section": "3.9.2 Exclure une valeur",
+    "text": "3.9.2 Exclure une valeur\nr\ncorpus %&gt;% filter(upos != \"NOM\")",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#annotation",
-    "href": "chapters/002-intro-corpus.html#annotation",
-    "title": "Linguistique de corpus",
-    "section": "2.6.1 Annotation",
-    "text": "2.6.1 Annotation\n\n2.6.1.1 Dans le cas des corpus écrits\n\n2.6.1.1.1 Nature et formats des données écrits\n\nDonnées nativement électroniques :\n\nTextes déjà numériques (articles de presse en ligne, blogs, courriels, posts sur les réseaux sociaux, etc.).\n\n\n\n\nDonnées manuscrites :\n\nManuscrits littéraires (brouillons d’écrivains), écrits scolaires ou académiques, archives administratives ou historiques.\nNécessitent une étape préalable d’OCR (reconnaissance optique de caractères / HTR pour les manuscrits) ou de transcription manuelle.\n\nFormat recommandé :\n\nIdéalement au format texte brut (.txt) ou structuré en XML (ex. norme TEI - Text Encoding Initiative).\nPourquoi ? Pour garantir la pérennité des données, éviter les formats propriétaires (comme .docx) et assurer une compatibilité universelle avec les outils d’analyse textuelle et de traitement automatique du langage (TAL).\n\n\n\n\n\n2.6.1.1.2 Annoter le corpus (Enrichissement)\n\nPrincipe :\n\nAnnoter consiste à ajouter des informations d’ordre linguistique ou métadiscursif directement au sein des données textuelles.\n\nExemples d’annotations :\n\nCatégories grammaticales / Parties du discours (POS Tagging) : Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).\nFormes canoniques (Lemmatisation) : Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).\nEntités nommées : Identifier et étiqueter les personnes, lieux, organisations, dates, etc.\n\n\n\n\n\n2.6.1.1.3 Problèmes et limites du traitement automatique\nL’annotation automatique soulève plusieurs difficultés liées à la complexité de la langue naturelle, notamment lors des étapes d’initialisation :\n\nLa segmentation en phrases (Sentence Splitting) :\n\nProblème du point : Le signe « . » n’indique pas toujours la fin d’une phrase.\nExemple : Les abréviations (ex. M. Lebrun, etc., vol. 2) ou les adresses web/e-mails. Un segmentateur automatique simpliste peut couper la phrase au milieu à cause de ces points.\n\n\n\n\nLa segmentation en mots / Tokenisation :\n\nProblème de l’espace et des caractères spéciaux : Un mot ne correspond pas toujours à une séquence de caractères délimitée par deux espaces.\nTraits d’union : Faut-il compter « c’est-à-dire » ou « arc-en-ciel » comme \\(1\\) seul mot ou \\(3\\) à \\(5\\) tokens distincts ?\nMots composés sans trait d’union (expressions polylexicales) :\n\nEx. « machine à laver » : sémantiquement, c’est une seule unité lexicale, mais graphiquement elle contient \\(3\\) mots séparés par des espaces.\nSelon les outils, cette expression sera parfois découpée en 3 tokens (machine / à / laver), parfois unifiée (machine_à_laver).\n\nApostrophes et contractions :\n\nEx. « penses-tu ? » ➔ Deux mots (penses + tu), liés par un trait d’union.\nEx. « l’arbre » ➔ Deux unités (l’ + arbre).\n\n\n\n\n\nDivergence des outils automatiques :\n\nChaque logiciel ou chaîne de traitement TAL (ex. Spacy, Stanford NLP, TreeTagger, Lexico, TXM) possède ses propres règles de segmentation et ses propres algorithmes.\nPar conséquent, deux outils appliqués au même corpus n’obtiendront pas toujours les mêmes performances ni le même nombre total de mots (tokens).\n\n\n\n\n\n\n2.6.1.2 Activité : Test de tokenisation\nComprendre comment les choix de prétraitement (tokenisation) modifient le décompte des unités dans l’analyse de texte[cite: 2].\n\n\n2.6.1.3 Phrase cible\n\n« C’est-à-dire qu’il y a des machines à laver de haute technologie »\n\n\n\n\n2.6.1.4 Méthode 1 : Tokenisation stricte / graphique\n\nCritère : Découpage strict basé uniquement sur les espaces et les ponctuations.\nListe des tokens :\n\nC'\nest\nà\ndire\nqu'\nil\ny\na\ndes\nmachines\nà\nlaver\nde\nhaute\ntechnologie\n\nTotal : 15 tokens",
+    "objectID": "chapters/003-negation.html#combiner-conditions-avec-et",
+    "href": "chapters/003-negation.html#combiner-conditions-avec-et",
+    "title": "Introduction",
+    "section": "3.9.3 Combiner conditions avec ET (&)",
+    "text": "3.9.3 Combiner conditions avec ET (&)\nr\ncorpus %&gt;% filter(lemma == \"pas\" & upos == \"ADV\")",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#méthode-2-tokenisation-sémantique-polylexicale",
-    "href": "chapters/002-intro-corpus.html#méthode-2-tokenisation-sémantique-polylexicale",
-    "title": "Linguistique de corpus",
-    "section": "2.6.2 Méthode 2 : Tokenisation sémantique / polylexicale",
-    "text": "2.6.2 Méthode 2 : Tokenisation sémantique / polylexicale\n\nCritère : Regroupement des expressions polylexicales (MWE) et locutions figées en unités sémantiques uniques.\nListe des tokens :\n\nC'est-à-dire\nqu'\nil y a\ndes\nmachines à laver\nde\nhaute technologie",
+    "objectID": "chapters/003-negation.html#combiner-conditions-avec-ou",
+    "href": "chapters/003-negation.html#combiner-conditions-avec-ou",
+    "title": "Introduction",
+    "section": "3.9.4 Combiner conditions avec OU (|)",
+    "text": "3.9.4 Combiner conditions avec OU (|)\nr\ncorpus %&gt;% filter(upos == \"ADJ\" | upos == \"ADV\")",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#partitionner-un-corpus",
-    "href": "chapters/002-intro-corpus.html#partitionner-un-corpus",
-    "title": "Linguistique de corpus",
-    "section": "2.6.3 Partitionner un corpus",
-    "text": "2.6.3 Partitionner un corpus\n\nPartitionner un corpus consiste à le découper en plusieurs subdivisions nommées (sous-corpus) selon un ou plusieurs critères structurants.\nLes éléments d’une partition ne sont pas forcément des exemples contigus dans le fichier texte ou audio (ex. toutes les interventions d’un même individu dispersées tout au long d’un enregistrement).\nTrès fréquemment appliqué à la transcription des enregistrements oraux.\n\n\n\n2.6.3.1 Critères et types de partitions\n\nPartitions en fonction du locuteur :\n\nRegroupement par individu (ex. Locuteur A vs. Locuteur B).\nRegroupement par catégories ou groupes de locuteurs (variables sociolinguistiques : âge, genre, niveau d’études, profession, origine géographique).\n\nPartitions en fonction du temps / de la chronologie :\n\nÉvolution diachronique (ex. corpus découpé par décennies ou par années).\nDécoupage interne à une interaction (ex. début, milieu, fin de l’enregistrement).\n\nPartitions en fonction des moments clés de l’enregistrement :\n\nDécoupage selon la situation de communication, les phases de l’interaction ou les sujets abordés (ex. phase d’accueil, débat guidé, parole libre, tâches spécifiques).\n\n\n\n\n\n2.6.3.2 Pourquoi partitionner ?\n\nOn peut travailler sur tout le corpus sans partitionner :\n\nUtile pour avoir une vue d’ensemble, calculer la fréquence globale des mots ou dresser la liste du vocabulaire total (lexique global).\n\nPourquoi découper en partitions alors ?\n\nContraste et comparaison : Permet d’opposer des sous-corpus pour faire ressortir des spécificités statistiques (sur-emploi ou sous-emploi de certains termes).\nFocalisation : Permet de centrer l’analyse empirique sur des parties ciblées du corpus.\nÉtude de la variation : S’intéresser à certains locuteurs particuliers ou comparer différents groupes de locuteurs (ex. les jeunes vs. les séniors, les journalistes vs. les invités).\n\n\n\n\n\n2.6.3.3 Quand et comment y penser ?\n\nPenser au partitionnement en amont :\n\nLa possibilité de partitionner un corpus dépend directement de la qualité de l’archivage et de l’encodage des données dès la phase de constitution du corpus.\n\nExploitation des métadonnées (Fichiers XML / En-têtes) :\n\nDans des corpus structurés en XML (comme le projet ORFEO), chaque fichier ou intervention contient des balises intégrant des propriétés et métadonnées.\nExemples de propriétés exploitables pour partitionner :\n\nPropriétés du locuteur : genre, âge, statut, rôle interactionnel.\nPropriétés contextuelles : lieu d’enregistrement, date, langue / dialecte, degré de formalité, type de média (radio, conversation privée, entretien).",
+    "objectID": "chapters/003-negation.html#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne",
+    "href": "chapters/003-negation.html#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne",
+    "title": "Introduction",
+    "section": "3.9.5 Exemple linguistique : énoncés contenant pas mais sans ne",
+    "text": "3.9.5 Exemple linguistique : énoncés contenant pas mais sans ne\nr\ncorpus %&gt;% \n  group_by(utterance) %&gt;% \n  filter(any(lemma == \"pas\") & !any(lemma == \"ne\")) %&gt;% \n  ungroup()",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#outils-et-requêtes-pour-explorer-un-corpus",
-    "href": "chapters/002-intro-corpus.html#outils-et-requêtes-pour-explorer-un-corpus",
-    "title": "Linguistique de corpus",
-    "section": "2.7.1 Outils et requêtes pour explorer un corpus",
-    "text": "2.7.1 Outils et requêtes pour explorer un corpus\n\n2.7.1.1 Choix de l’outil linguistique pour explorer un corpus\n\n\n2.7.1.2 Construire une requête\n\n\n\n\n\n\nImportantDéfinition\n\n\n\nRequête : instruction donnée au logiciel pour sélectionner certains mots",
+    "objectID": "chapters/003-negation.html#garder-seulement-certaines-colonnes",
+    "href": "chapters/003-negation.html#garder-seulement-certaines-colonnes",
+    "title": "Introduction",
+    "section": "3.10.1 Garder seulement certaines colonnes",
+    "text": "3.10.1 Garder seulement certaines colonnes\nr\ncorpus %&gt;% select(utterance, lemma, upos)",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
     ]
   },
   {
-    "objectID": "chapters/002-intro-corpus.html#mesures-quantitatives-fréquence-et-spécificités",
-    "href": "chapters/002-intro-corpus.html#mesures-quantitatives-fréquence-et-spécificités",
-    "title": "Linguistique de corpus",
-    "section": "2.7.2 Mesures quantitatives : Fréquence et spécificités",
-    "text": "2.7.2 Mesures quantitatives : Fréquence et spécificités\n\nOutils quantitatifs\nAussi utilisé en textométrie et lexicométrie\n\n\n2.7.2.1 Fréquence\n\nFréquence absolue (\\(f\\)) :\n\nDéfinition : Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.\nExemple : Le terme « liberté » apparaît 45 fois dans l’ensemble d’un discours.\n\nFréquence relative (\\(fr\\)) :\n\nDéfinition : Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (\\(N\\)), souvent exprimé en pourcentage ou en nombre de cas pour \\(N\\) mots (ex. pour 10 000 mots).\nFormule : \\(fr = \\frac{f}{N}\\)\nExemple : Si un discours compte \\(N = 10\\,000\\) mots et que « liberté » apparaît \\(f = 45\\) fois, la fréquence relative est de \\(0{,}45\\%\\) (ou 45 pour 10 000 mots).\n\n\n\n\n\n\n\n\nNoteDéfinition\n\n\n\nHapax : Forme linguistique n’apparaissant qu’une seule et unique fois (\\(f = 1\\)) dans l’ensemble du corpus étudié.\n\n\n\n\n\n2.7.2.2 Le pré-traitement appliqué au comptage (Découpage et choix d’unités)\nLe comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :\n\nTokenisation (Découpage des mots / occurrences) :\n\nDécoupage de la chaîne de texte brute en unités minimales (tokens).\n\nComptage des formes vs Lemmes :\n\nFormes graphiques (mots bruts) : Traite différemment chaque flexion (mange, mangeons, mangera).\nLemmes : Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (manger).\nChoix méthodologique :\n\nPour les verbes ➔ Utiliser les lemmes afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.\nPour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).\n\n\n\n\n\nPrise en compte des majuscules et de la ponctuation :\n\nExemple : Faut-il distinguer le nom propre « Pierre » du nom commun « pierre » ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?\n\nPrise en compte des expressions polylexicales (locutions / MWE) :\n\nGroupes de mots fonctionnant comme une seule unité sémantique.\nExemple : Traiter « chemin de fer » ou « au fur et à mesure » comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (chemin, de, fer).\n\nParties du discours (POS Tagging) :\n\nÉtiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.\nExemple : Distinguer « ferme » (nom commun), « ferme » (adjectif) et « ferme » (verbe fermer).\n\n\n\n\n\n2.7.2.3 Mesurer la spécificité textuelle\n\n\nQu’est-ce qui fait la spécificité d’un texte ?\n\nC’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.\n\nCorpus test vs Corpus étalon / de référence :\n\nCorpus test (étudié) : Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.\nCorpus étalon (de référence) : Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).\n\nPrincipe de comparaison :\n\nOn compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, en fonction des tailles respectives de ces deux corpus.\n\n\n\n\n2.7.2.4 Indicateurs et indices statistiques de spécificité",
+    "objectID": "chapters/003-negation.html#exclure-une-colonne",
+    "href": "chapters/003-negation.html#exclure-une-colonne",
+    "title": "Introduction",
+    "section": "3.10.2 Exclure une colonne",
+    "text": "3.10.2 Exclure une colonne\nr\ncorpus %&gt;% select(-speaker_id)",
     "crumbs": [
       "Chapters",
-      "Linguistique de corpus"
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#renommer-une-colonne-en-même-temps",
+    "href": "chapters/003-negation.html#renommer-une-colonne-en-même-temps",
+    "title": "Introduction",
+    "section": "3.10.3 Renommer une colonne en même temps",
+    "text": "3.10.3 Renommer une colonne en même temps\nr\ncorpus %&gt;% select(token = lemma, pos = upos)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
+    ]
+  },
+  {
+    "objectID": "chapters/003-negation.html#exemple",
+    "href": "chapters/003-negation.html#exemple",
+    "title": "Introduction",
+    "section": "3.11.1 Exemple :",
+    "text": "3.11.1 Exemple :\nGarder les adjectifs produits par des locuteurs masculins, et ne garder que lemma + age\nr\ncorpus %&gt;%\n  filter(upos == \"ADJ\" & sex == \"M\") %&gt;%\n  select(lemma, age)",
+    "crumbs": [
+      "Chapters",
+      "Négation - C'est pas vrai"
     ]
   },
   {
@@ -304,157 +326,509 @@
     ]
   },
   {
-    "objectID": "chapters/003-negation.html",
-    "href": "chapters/003-negation.html",
-    "title": "Introduction",
+    "objectID": "chapters/002-intro-corpus.html",
+    "href": "chapters/002-intro-corpus.html",
+    "title": "Linguistique de corpus",
     "section": "",
-    "text": "Video\nComparez\nHistoire\nEx. l’expression de la négation en français ?\nLe cycle de Jespersen\nEx. : le cycle de (jespersenNegationEnglishOther1917?)",
+    "text": "Si on vous dit : C’EST PAS CORRECT !",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#et-au-québec",
-    "href": "chapters/003-negation.html#et-au-québec",
-    "title": "Introduction",
-    "section": "3.0.1 Et au Québec",
-    "text": "3.0.1 Et au Québec\n\n\nne quasi absent à l’oral.\nLes mots négatifs peuvent même être renforcés par pas.\nExemple : « j’ai pas vu personne ».\n\n\n\n\n\nAujourd’hui, la valeur négative est véhiculée de manière autonome par les termes : pas, plus, jamais, aucun, nul, personne et rien.\nCes éléments portent la charge sémantique de la négation dans le système moderne.\n\n\n\nLe statut du ne « tout seul » :\n\nLe ne employé isolément s’observe principalement dans les propositions subordonnées lorsqu’il a une valeur explétive (ex. « Je crains qu’il ne vienne »).\nDans ce contexte, il ne porte aucune valeur négative et relève d’une marque purement syntaxique et de registre soutenue.\n\n\n\n\n\n\n\n\nAstuceDéfinition\n\n\n\nExplétif : Il existe en français un ne dit explétif, c’est-à-dire qui n’est pas indispensable au sens ou à la syntaxe de la phrase et qui n’a pas son rôle habituel de négation. On le rencontre dans différents types de constructions, presque exclusivement à l’écrit, dans la langue soignée.\n\nLe ne explétif s’emploie avec des adverbes de comparaison comme davantage, plus, moins, mieux, meilleur, pire, moindre, utilisés avec que pour introduire une phrase subordonnée.\n\nIl est plus intelligent qu’on ne le croit.\nElle est moins fatiguée qu’on ne l’imagine.\n\nOn le trouve aussi dans certaines subordonnées introduites par des verbes comme craindre, avoir peur, redouter, empêcher, éviter et par d’autres verbes ou expressions de même signification.\n\nJe crains qu’il ne pleuve.\nIls redoutent qu’elle ne parte trop tôt.\n\n\n\n\nOn utilise également le ne explétif avec certains subordonnants composés comme avant que, à moins que.\n\nPars avant qu’il ne soit trop tard.\nJe viendrai à moins qu’il ne pleuve.\n\n\n\n\n\n\n\n\n\n\n\nAstuce\n\n\n\n\nBien que la valeur négative se soit déplacée vers le second élément (pas, plus, jamais, rien, personne), l’évolution n’est pas totalement achevée.\nLe ne négatif subsiste encore aujourd’hui de façon autonome dans certaines locutions figées.",
+    "objectID": "chapters/002-intro-corpus.html#exploration-dun-corpus-linguistique",
+    "href": "chapters/002-intro-corpus.html#exploration-dun-corpus-linguistique",
+    "title": "Linguistique de corpus",
+    "section": "2.4.1 Exploration d’un corpus linguistique",
+    "text": "2.4.1 Exploration d’un corpus linguistique\n2 objectifs possibles :\n\nDécrire la langue en tant que système\nDécrire une variété linguistique\n\n\n\nRecherche quantitative\nLe but est d’examiner une hypothèse testable découlant d’une question de recherche.\nLa langue est créée par les participants : les usagers de la langue.\n\n\n\nTa question de recherche découle de la littérature scientifique.\n\nUn modèle ou une théorie formule une prédiction concernant une situation différente de celles déjà testées.\nDeux modèles ou théories peuvent formuler des prédictions contradictoires pour une même situation.\nTu peux aussi vouloir étendre un modèle ou une théorie à une situation pertinente qui n’a pas encore été testée.",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#en-ligne",
-    "href": "chapters/003-negation.html#en-ligne",
-    "title": "Introduction",
-    "section": "3.4.1 En ligne",
-    "text": "3.4.1 En ligne\n\nEn Suisse, on est à 23 % de phrases négatives avec ne dans les SMS.\nSur les forums, on est à 42 % avec ne.",
+    "objectID": "chapters/002-intro-corpus.html#formulation-de-lhypothèse",
+    "href": "chapters/002-intro-corpus.html#formulation-de-lhypothèse",
+    "title": "Linguistique de corpus",
+    "section": "2.4.2 Formulation de l’hypothèse",
+    "text": "2.4.2 Formulation de l’hypothèse\n\nParce que ta question de recherche découle de la théorie, tu peux formuler une réponse attendue.\nC’est cette réponse attendue qui constitue l’hypothèse que tu vas tester.\nHypothèse : réponse attendue à la question de recherche.\n\n\n\nLa manipulation systématique des variables pour mesurer la langue.\nCherchez un corpus présentant une variation « contrôlée » dans les variables indépendantes.\n\nVariables dépendantes : Ce que vous mesurez\nVS\nVariables indépendantes : Ce que vous manipulez",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#à-loral",
-    "href": "chapters/003-negation.html#à-loral",
-    "title": "Introduction",
-    "section": "3.4.2 À l’oral",
-    "text": "3.4.2 À l’oral\n\nEn région parisienne :\n\nEn 1970 : 15 % de phrases avec ne.\nEn 1990 : 8,2 % de phrases avec ne.\n\nCorpus de référence du français parlé :\n\n14 % dans la partie la moins formelle.\n33 % dans la plus formelle.\n\n\n\n\nLes adultes utilisent plus de ne que les enfants.\nLes anciens utilisent plus de ne que les jeunes.\nGGF : dans un corpus récent, le ne dépasse rarement les 10 %.\nNéanmoins, l’usage du ne continue d’être un marqueur du bien-parler.",
+    "objectID": "chapters/002-intro-corpus.html#description-linguistique",
+    "href": "chapters/002-intro-corpus.html#description-linguistique",
+    "title": "Linguistique de corpus",
+    "section": "2.4.3 Description linguistique",
+    "text": "2.4.3 Description linguistique\n\nNous cherchons à décrire les régularités et le fonctionnement interne d’un système linguistique.\nIl faut tout d’abord avoir une question de recherche précise.\n\n\n\n2.4.3.1 Activité : Formulation d’hypothèses et choix de variables\n\n\n2.4.3.2 Objectif\nIdentifier la variable indépendante et la variable dépendante dans le cadre d’une étude en linguistique empirique.\n\n\n2.4.3.3 Consigne : À vous d’inventer !\nImaginez 2 ou 3 questions de recherche sur la langue française (usage vs norme). (Exemple : « Utilise‑t‑on plus de mots d’origine étrangère à l’écrit qu’à l’oral ? »)\n\n\n\n2.4.3.4 Décomposition des variables (exemple d’application)\n\nVariable indépendante (VI) — ce que vous manipulez ou comparez\n\nModalité / Registre : langue orale vs langue écrite.\n\nVariable dépendante (VD) — ce que vous mesurez\n\nFréquence / Proportion : le pourcentage ou le nombre de mots d’origine étrangère (étymologie) par rapport au nombre total de mots (N) dans l’échantillon.\n\n\n\nLe français dans l’actualité politique\n\n\nVideo",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#formulation-de-la-question-de-recherche",
-    "href": "chapters/003-negation.html#formulation-de-la-question-de-recherche",
-    "title": "Introduction",
-    "section": "3.8.1 Formulation de la question de recherche",
-    "text": "3.8.1 Formulation de la question de recherche\nPour opérationnaliser votre sujet, vous pouvez poser une question de recherche formelle et quantifiable :\n\n« Dans quelle mesure le niveau de formalité de la situation d’énonciation influence-t-il la fréquence d’emploi de la particule de négation ne dans les productions verbales ou écrites d’un même groupe de locuteurs) ? »\n\n\n\n3.8.1.1 Hypothèse associée :\n\nHypothèse nulle (\\(H_0\\)) : Le contexte de formalité n’a pas d’effet significatif sur le maintien ou l’omission du ne.\nHypothèse de travail (\\(H_1\\)) : L’emploi du ne augmente de manière significative lorsque le degré de formalité du contexte augmente (marqueur de style et de prestige social).\n\n\n\n\n3.8.1.2 Cadre conceptuel et opérationnalisation (Variables)\n\nPour répondre scientifiquement à cette question selon la démarche de corpus, il faut isoler et manipuler des variables :\n\nVariable Indépendante (VI) — Le contexte de formalité :\n\nRegistre / Situation : Formel (ex. entretien d’embauche, conférence, examen oral) vs Informel (ex. discussion entre amis, SMS, forum de discussion).\n\nVariable Dépendante (VD) — Le taux de maintien du ne :\n\nMesure de la proportion de négations complètes (ex. je ne sais pas) par rapport à l’ensemble des négations exprimées (ex. je sais pas + je ne sais pas).\n\n\n\n\\(\\text{Taux de } ne = \\frac{\\text{Nombre de négations avec } ne}{\\text{Nombre total de négations (avec et sans } ne)} \\times 100\\)\n\n\n\n3.8.1.3 Définir précisément la négation que l’on souhaite étudier\n\nDéfinir précisément les critères de formalité et la sous-catégorie de négation étudiée (ex. ne…pas, ne…rien, ne…personne).\n\n\n\n\n3.8.1.4 Trouver (ou constituer) un corpus\n\nSélectionner un corpus oral ou écrit d’un même groupe de locuteurs enregistré/recueilli dans deux contextes distincts :\n\nSous-corpus A (Formel) : Discours académiques, entretiens professionnels, corpus de français parlé dans la partie formelle, etc.\nSous-corpus B (Informel) : Conversations familiales spontanées, interactions sur messagerie instantanée, etc.\n\n\n\n\n\n3.8.1.5 Choix du corpus\n\n3.8.1.5.1 Corpus de Langue Parlée (Oral)\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nCFPP2000\nInterviews conversationnelles sur les quartiers de Paris et sa proche banlieue.\n~50 h / &gt;700 000 mots (volume Orféo moindre, date antérieure)\nLien\n\n\nCLAPI\nInteractions multimédias en situation naturelle (professionnelle, médicale, classe, etc.).\n~17 h / ~170 000 mots (sous-ensemble natif)\nLien\n\n\nC-ORAL-ROM\nCorpus comparatifs de langue spontanée des principales langues romanes (FR, IT, PT, ES).\nTotalité partie FR (123 h / 772 textes au total)\nLien\n\n\nCRFP\nÉchantillons de français parlé dans ~40 villes selon divers profils de locuteurs (aligné texte/son).\nTotalité (~36 h / 440 000 mots / 134 enregistrements)\nLien\n\n\nFLEURON\nSituations de la vie universitaire et quotidienne pour étudiants étrangers.\n~3 h / 35 000 mots\nLien\n\n\nFRENCH ORAL NARRATIVE\nContes oraux (87 contes par 18 conteurs du CLiO à Vendôme) annotés en TEI.\nTotalité\nLien\n\n\nOFROM\nEntretiens et interactions enregistrés en Suisse romande (aligné texte/son).\n&gt;25 h / ~300 000 mots (actuellement ~80 h / ~1M mots)\nLien\n\n\nTCOF\nInteractions adultes-enfants et conversations/récits entre adultes (+ coll. Debaisieux & Caddeo).\n~23 h / ~300 000 mots\nLien\n\n\nTUFS\nEntretiens recueillis dans des universités françaises (Aix, Paris, Bordeaux) par l’Univ. de Tokyo.\nTotalité (~54 h / &gt;750 000 mots)\nLien\n\n\nValibel\nEnregistrements de productions orales en Belgique (Bruxelles et Wallonie).\n~43 h / 500 000 mots (sur 373 h au total)\nLien\n\n\n\n\n\n\n3.8.1.5.2 Corpus de Langue Écrite & Communication Numérique\n\n\n\nCorpus\nDescription & Contenu\nVolume Orféo / Total\nSource & Référence\n\n\n\n\nANNODIS\nTextes diversifiés enrichis en structures discursives (Est Républicain, Wikipédia, CMLF 2008, IFRI).\nTotalité (687 000 mots)\nLien\n\n\nChambers-Rostand\nPresse quotidienne française (Le Monde, L’Humanité, La Dépêche du Midi).\nTotalité (979 831 mots / 1 723 articles)\nLien\n\n\nCoMeRe\nCommunication médiée par les réseaux (blogs, tweets, SMS, courriels, forums, etc.) structurée en TEI/CLARIN/OLAC.\nNoyau de corpus\nLien\n\n\nFrantext (Libre)\nSous-corpus littéraire (romans et essais hors théâtre/poésie, 1890–1921).\nTotalité (~1,8 million de tokens / 22 œuvres)\nLien\n\n\nEst Républicain\nPresse Quotidienne Régionale (PQR) du CNRTL (3 éditions quotidiennes d’avril 2002).\nTotalité (927 035 tokens)\nLien\n\n\n\n\n\n\n3.8.1.5.3 Téléchargement des données\n\nlibrary(here)\n\nhere() starts at /Users/jeremy-ua/Documents/Work/Teaching/Teaching\n\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.4.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n# Charge le fichier depuis la racine du projet\ncorpus_data &lt;- read.csv(here(\"francais-moderne\",\"chapters\", \"corpus\", \"corpus_data.csv\")) %&gt;% filter(corpus==\"CRFP\")\n\nIl faut toujours vérifier les données que l’on a télécharger !\n\nhead(corpus_data)\n\n  word_nr       form       lemma upos xpos start_time end_time speaker\n1       1      voilà       voilà  INT  INT       0.18     0.39      L1\n2       2       nous         moi  PRO  PRO       0.40     0.49      L1\n3       3       nous        nous  CLS  CLS       0.50     0.65      L1\n4       4     étions        être  VRB  VRB       0.66     1.01      L1\n5       5 interrompu interrompre  VPP  VPP       1.02     1.79      L1\n6       6         au        à+le  PRE  PRE       2.44     2.76      L1\n             file             utterance name_recording sex age\n1 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n2 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n3 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n4 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n5 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n6 PRI-AIX-1.orfeo cefc-crfp-PRI-AIX-1-1      PRI-AIX-1   M 61+\n           education         occupation         birth_place native_language\n1 études supérieures inconnu (retraité) Centre de la France        français\n2 études supérieures inconnu (retraité) Centre de la France        français\n3 études supérieures inconnu (retraité) Centre de la France        français\n4 études supérieures inconnu (retraité) Centre de la France        français\n5 études supérieures inconnu (retraité) Centre de la France        français\n6 études supérieures inconnu (retraité) Centre de la France        français\n    source_file corpus           setting_place duration\n1 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n2 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n3 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n4 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n5 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n6 PRI-AIX-1.xml   CRFP France, PACA, Marseille 00:15:17\n                           audio_quality interaction sector     channel\n1 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n2 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n3 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n4 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n5 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n6 #peu_bruité #NULL #script Daniel Hirst   narration  privé face_à_face\n  modality    audio_file\n1     oral PRI-AIX-1.wav\n2     oral PRI-AIX-1.wav\n3     oral PRI-AIX-1.wav\n4     oral PRI-AIX-1.wav\n5     oral PRI-AIX-1.wav\n6     oral PRI-AIX-1.wav\n                                                                                                                    textgrid_path\n1 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n2 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n3 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n4 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n5 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n6 /Users/jeremy-ua/Documents/Research/Projects/2026_Belgian_Devoicing/Data/output.MFA/L1_PRI-AIX-1/cefc-crfp-PRI-AIX-1-1.TextGrid\n  alignment_status\n1          aligned\n2          aligned\n3          aligned\n4          aligned\n5          aligned\n6          aligned\n\n\n\n\n\n\n3.8.1.6 Préparer les données (Pré-traitement)\n\nTokenisation & Nettoyage : Traiter les données brutes ou les transcriptions orales.\nÉtiquetage (POS Tagging) / Annotation : Identifier les structures négatives verbales.\n\n\n\n3.8.1.6.1 R : un langage pour analyser des données\n\nR est un langage de programmation et un environnement statistique utilisé pour :\n\nanalyser des données\ncréer des graphiques\nmanipuler des corpus\nréaliser des modèles statistiques\nproduire des rapports reproductibles\n\n\n\n\nPourquoi les linguistes l’utilisent ?\n\ntraitement de corpus\nextraction de formes linguistiques\nstatistiques descriptives et inférentielles\nvisualisation (courbes, nuages de points, heatmaps)\nreproductibilité des analyses\n\n\nÉcosystème\n\nRStudio : interface de travail\ntidyverse : ensemble de packages pour manipuler les données\nstringr : manipulation de données textuelles\nggplot2 : graphiques\n\nEn résumé\nR = un outil gratuit, puissant, reproductible, idéal pour la recherche empirique.\n\nSéléction des données pertinentes\n\n\n3.8.1.6.2 Mini‑tutoriel : Filtrer & Sélectionner un corpus en R (dplyr)\n\nComprendre les opérations essentielles pour manipuler un corpus :\n\nfilter : garder certaines lignes\nselect : garder certaines colonnes\nOpérateurs logiques : ==, !=, &, |\nLe pipe `%&gt;%` : enchaîner les opérations (« puis… »)",
+    "objectID": "chapters/002-intro-corpus.html#construction-des-corpus",
+    "href": "chapters/002-intro-corpus.html#construction-des-corpus",
+    "title": "Linguistique de corpus",
+    "section": "2.5.1 Construction des corpus",
+    "text": "2.5.1 Construction des corpus\n\n2.5.1.1 1. La documentation (Métadonnées)\n\nPrincipe : Il est primordial de documenter le corpus le plus soigneusement possible en lui adossant des métadonnées explicites.\nObjectif de validité scientifique : Pour qu’un corpus soit scientifiquement exploitable et vérifiable, il faut pouvoir restituer précisément son contexte de production.\nInformations à intégrer (Métadonnées) :\n\nQui parle / écrit ? (Profil des locuteurs : âge, genre, statut, origine).\nQuand et où ? (Date, lieu de publication ou d’enregistrement).\nDans quel contexte / situation de communication ? (Écrit formel, conversation privée, entretien, réseaux sociaux, etc.).\n\n\n\n\n\n2.5.1.2 2. L’automatisation\n\nPrincipe : Automatiser les étapes de constitution et de traitement autant que possible.\nUtilité : La constitution d’un corpus implique souvent des tâches répétitives et mécaniques.\nBénéfices :\n\nGain de temps considérable sur les volumes importants de données.\nStandardisation et réduction des erreurs humaines pour garantir la cohérence des traitements.\n\nExemples d’application :\n\nDocuments manuscrits ou scannés : Utilisation de logiciels de reconnaissance optique de caractères (OCR / HTR).\nNettoyage et conversion de fichiers : Reformatting automatique (conversion du PDF vers du texte brut .txt).\nNettoyage des données : Suppression automatique du « bruit » textuel (en-têtes, bas de page, éléments négatifs ou non pertinents pour l’analyse).\n\n\n\n\n\n2.5.1.3 3. Standardisation, pérennité et ouverture (Open Source)\n\nPrincipe : Encoder et stocker le corpus dans des formats ouverts afin qu’il puisse être réutilisable par d’autres chercheurs et interopérable avec divers outils.\nFormat et encodage :\n\nPrivilégier le format texte brut (.txt) ou le format XML balisé (ex. normes TEI - Text Encoding Initiative).\nS’assurer du réencodage (ex. UTF-8) pour éviter les problèmes de caractères spéciaux.\n\nLogiciels et outils :\n\nÉviter les formats propriétaires clos (ex. .docx non standardisés) ou les logiciels fermés.\nRecourir à des logiciels open-source / libres pour garantir la pérennité et la réplicabilité des analyses.",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#garder-les-lignes-où-une-condition-est-vraie",
-    "href": "chapters/003-negation.html#garder-les-lignes-où-une-condition-est-vraie",
-    "title": "Introduction",
-    "section": "3.9.1 Garder les lignes où une condition est vraie",
-    "text": "3.9.1 Garder les lignes où une condition est vraie\nr\ncorpus %&gt;% filter(lemma == \"pas\")",
+    "objectID": "chapters/002-intro-corpus.html#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation",
+    "href": "chapters/002-intro-corpus.html#cas-spécifique-les-corpus-oraux-transcriptions-anonymisation",
+    "title": "Linguistique de corpus",
+    "section": "2.5.2 Cas spécifique : Les corpus oraux (Transcriptions & anonymisation)",
+    "text": "2.5.2 Cas spécifique : Les corpus oraux (Transcriptions & anonymisation)\n\nLe choix théorique de la transcription :\n\nTranscrire l’oral vers l’écrit dépend fondamentalement de la grille d’analyse et des objectifs théoriques du chercheur.\nOrthographe standard vs Transcription phonétique / alignée :\n\nFaut-il utiliser une orthographe normalisée (ex. « Je ne sais pas, enfin… ») ou une transcription fidèle à la prononciation effective / la syntaxe de l’oral (ex. « chais pas m’enfin ») ?\nArbitrage : Si l’objectif est une analyse syntaxique ou lexicale globale, l’orthographe standardisée est souvent privilégiée pour faciliter le traitement automatique. Si l’étude porte sur la phonétique, les hésitations ou les marqueurs discursifs, une transcription fine (ou un alignement texte-signal audio) s’impose.\n\n\nL’anonymisation :\n\nÉtape éthique et juridique indispensable avant la mise à disposition ou la publication d’un corpus d’oral.\nConsiste à masquer ou remplacer par des étiquettes neutres toutes les informations directement ou indirectement identifiables (noms propres, lieux spécifiques, numéros de téléphone, institutions citées).",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#exclure-une-valeur",
-    "href": "chapters/003-negation.html#exclure-une-valeur",
-    "title": "Introduction",
-    "section": "3.9.2 Exclure une valeur",
-    "text": "3.9.2 Exclure une valeur\nr\ncorpus %&gt;% filter(upos != \"NOM\")",
+    "objectID": "chapters/002-intro-corpus.html#cadre-juridique-et-éthique",
+    "href": "chapters/002-intro-corpus.html#cadre-juridique-et-éthique",
+    "title": "Linguistique de corpus",
+    "section": "2.5.3 Cadre juridique et éthique",
+    "text": "2.5.3 Cadre juridique et éthique\n\n2.5.3.1 Aspects juridiques : Droit d’auteur et diffusion\n\nAspiration de textes sur le Web (Web Scraping) :\n\nPropriété intellectuelle : Même lorsqu’un texte est mis à disposition publiquement sur internet, l’auteur en reste le propriétaire.\nDroit de fouille de données (Data Mining) vs Diffusion :\n\nIl est légalement permis d’aspirer et d’utiliser des textes pour un usage d’analyse et de recherche.\nInterdiction de redistribution enrichie : On ne peut pas simplement ajouter des balisages ou des annotations à un texte protégé puis mettre le tout à disposition du grand public sans l’accord des ayants droit.\n\n\nRessources sous licences libres (ex. Wikipédia) :\n\nLes contenus sous licences de type Creative Commons (ex. CC-BY-SA) autorisent la réutilisation, la modification et la diffusion, sous réserve du respect des conditions de la licence (ex. citation des auteurs, partage dans les mêmes conditions).\n\n\n\n\n\n2.5.3.2 Aspects éthiques : Recueil privé et consentement éclairé\n\nLors du recueil de données privées ou d’enregistrements de personnes :\nObtention du consentement éclairé :\n\nIl est obligatoire de recueillir l’accord préalable des participants pour étudier leurs données.\nTransparence complète : Il faut fournir toutes les informations nécessaires aux sujets (objectifs de la recherche, cadre d’utilisation, durée de conservation) afin qu’ils sachent exactement dans quoi ils s’engagent.\n\nCollecte loyale :\n\nLa collecte ne doit jamais se faire à leur insu (interdiction d’enregistrer ou de collecter des données à l’arrière-plan sans information claire).\n\n\n\n\n\n2.5.3.3 Respect de la vie privée et anonymisation\n\nEngagement au respect de la vie privée :\n\nObligation éthique et légale (ex. conformité au RGPD) de protéger l’identité des personnes enregistrées ou citées.\n\nProcédure d’anonymisation :\n\nConsiste à effacer ou remplacer toutes les informations permettant d’identifier directement ou indirectement un individu :\n\nNoms et prénoms.\nAdresses, noms de rues et lieux trop précis.\nDates de naissance ou éléments de calendrier identifiables.\nOrganismes, entreprises ou institutions spécifiques cités lors des échanges.",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#combiner-conditions-avec-et",
-    "href": "chapters/003-negation.html#combiner-conditions-avec-et",
-    "title": "Introduction",
-    "section": "3.9.3 Combiner conditions avec ET (&)",
-    "text": "3.9.3 Combiner conditions avec ET (&)\nr\ncorpus %&gt;% filter(lemma == \"pas\" & upos == \"ADV\")",
+    "objectID": "chapters/002-intro-corpus.html#annotation",
+    "href": "chapters/002-intro-corpus.html#annotation",
+    "title": "Linguistique de corpus",
+    "section": "2.6.1 Annotation",
+    "text": "2.6.1 Annotation\n\n2.6.1.1 Dans le cas des corpus écrits\n\n2.6.1.1.1 Nature et formats des données écrits\n\nDonnées nativement électroniques :\n\nTextes déjà numériques (articles de presse en ligne, blogs, courriels, posts sur les réseaux sociaux, etc.).\n\n\n\n\nDonnées manuscrites :\n\nManuscrits littéraires (brouillons d’écrivains), écrits scolaires ou académiques, archives administratives ou historiques.\nNécessitent une étape préalable d’OCR (reconnaissance optique de caractères / HTR pour les manuscrits) ou de transcription manuelle.\n\nFormat recommandé :\n\nIdéalement au format texte brut (.txt) ou structuré en XML (ex. norme TEI - Text Encoding Initiative).\nPourquoi ? Pour garantir la pérennité des données, éviter les formats propriétaires (comme .docx) et assurer une compatibilité universelle avec les outils d’analyse textuelle et de traitement automatique du langage (TAL).\n\n\n\n\n\n2.6.1.1.2 Annoter le corpus (Enrichissement)\n\nPrincipe :\n\nAnnoter consiste à ajouter des informations d’ordre linguistique ou métadiscursif directement au sein des données textuelles.\n\nExemples d’annotations :\n\nCatégories grammaticales / Parties du discours (POS Tagging) : Étiqueter chaque mot avec sa nature morphosyntaxique (Nom, Verbe, Adjectif, Préposition, etc.).\nFormes canoniques (Lemmatisation) : Associer chaque forme fléchie du texte à son lemme (ex. ramener toutes les formes conjuguées d’un verbe à son infinitif, ou les noms au masculin singulier).\nEntités nommées : Identifier et étiqueter les personnes, lieux, organisations, dates, etc.\n\n\n\n\n\n2.6.1.1.3 Problèmes et limites du traitement automatique\nL’annotation automatique soulève plusieurs difficultés liées à la complexité de la langue naturelle, notamment lors des étapes d’initialisation :\n\nLa segmentation en phrases (Sentence Splitting) :\n\nProblème du point : Le signe « . » n’indique pas toujours la fin d’une phrase.\nExemple : Les abréviations (ex. M. Lebrun, etc., vol. 2) ou les adresses web/e-mails. Un segmentateur automatique simpliste peut couper la phrase au milieu à cause de ces points.\n\n\n\n\nLa segmentation en mots / Tokenisation :\n\nProblème de l’espace et des caractères spéciaux : Un mot ne correspond pas toujours à une séquence de caractères délimitée par deux espaces.\nTraits d’union : Faut-il compter « c’est-à-dire » ou « arc-en-ciel » comme \\(1\\) seul mot ou \\(3\\) à \\(5\\) tokens distincts ?\nMots composés sans trait d’union (expressions polylexicales) :\n\nEx. « machine à laver » : sémantiquement, c’est une seule unité lexicale, mais graphiquement elle contient \\(3\\) mots séparés par des espaces.\nSelon les outils, cette expression sera parfois découpée en 3 tokens (machine / à / laver), parfois unifiée (machine_à_laver).\n\nApostrophes et contractions :\n\nEx. « penses-tu ? » ➔ Deux mots (penses + tu), liés par un trait d’union.\nEx. « l’arbre » ➔ Deux unités (l’ + arbre).\n\n\n\n\n\nDivergence des outils automatiques :\n\nChaque logiciel ou chaîne de traitement TAL (ex. Spacy, Stanford NLP, TreeTagger, Lexico, TXM) possède ses propres règles de segmentation et ses propres algorithmes.\nPar conséquent, deux outils appliqués au même corpus n’obtiendront pas toujours les mêmes performances ni le même nombre total de mots (tokens).\n\n\n\n\n\n\n2.6.1.2 Activité : Test de tokenisation\nComprendre comment les choix de prétraitement (tokenisation) modifient le décompte des unités dans l’analyse de texte[cite: 2].\n\n\n2.6.1.3 Phrase cible\n\n« C’est-à-dire qu’il y a des machines à laver de haute technologie »\n\n\n\n\n2.6.1.4 Méthode 1 : Tokenisation stricte / graphique\n\nCritère : Découpage strict basé uniquement sur les espaces et les ponctuations.\nListe des tokens :\n\nC'\nest\nà\ndire\nqu'\nil\ny\na\ndes\nmachines\nà\nlaver\nde\nhaute\ntechnologie\n\nTotal : 15 tokens",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#combiner-conditions-avec-ou",
-    "href": "chapters/003-negation.html#combiner-conditions-avec-ou",
-    "title": "Introduction",
-    "section": "3.9.4 Combiner conditions avec OU (|)",
-    "text": "3.9.4 Combiner conditions avec OU (|)\nr\ncorpus %&gt;% filter(upos == \"ADJ\" | upos == \"ADV\")",
+    "objectID": "chapters/002-intro-corpus.html#méthode-2-tokenisation-sémantique-polylexicale",
+    "href": "chapters/002-intro-corpus.html#méthode-2-tokenisation-sémantique-polylexicale",
+    "title": "Linguistique de corpus",
+    "section": "2.6.2 Méthode 2 : Tokenisation sémantique / polylexicale",
+    "text": "2.6.2 Méthode 2 : Tokenisation sémantique / polylexicale\n\nCritère : Regroupement des expressions polylexicales (MWE) et locutions figées en unités sémantiques uniques.\nListe des tokens :\n\nC'est-à-dire\nqu'\nil y a\ndes\nmachines à laver\nde\nhaute technologie",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne",
-    "href": "chapters/003-negation.html#exemple-linguistique-énoncés-contenant-pas-mais-sans-ne",
-    "title": "Introduction",
-    "section": "3.9.5 Exemple linguistique : énoncés contenant pas mais sans ne",
-    "text": "3.9.5 Exemple linguistique : énoncés contenant pas mais sans ne\nr\ncorpus %&gt;% \n  group_by(utterance) %&gt;% \n  filter(any(lemma == \"pas\") & !any(lemma == \"ne\")) %&gt;% \n  ungroup()",
+    "objectID": "chapters/002-intro-corpus.html#partitionner-un-corpus",
+    "href": "chapters/002-intro-corpus.html#partitionner-un-corpus",
+    "title": "Linguistique de corpus",
+    "section": "2.6.3 Partitionner un corpus",
+    "text": "2.6.3 Partitionner un corpus\n\nPartitionner un corpus consiste à le découper en plusieurs subdivisions nommées (sous-corpus) selon un ou plusieurs critères structurants.\nLes éléments d’une partition ne sont pas forcément des exemples contigus dans le fichier texte ou audio (ex. toutes les interventions d’un même individu dispersées tout au long d’un enregistrement).\nTrès fréquemment appliqué à la transcription des enregistrements oraux.\n\n\n\n2.6.3.1 Critères et types de partitions\n\nPartitions en fonction du locuteur :\n\nRegroupement par individu (ex. Locuteur A vs. Locuteur B).\nRegroupement par catégories ou groupes de locuteurs (variables sociolinguistiques : âge, genre, niveau d’études, profession, origine géographique).\n\nPartitions en fonction du temps / de la chronologie :\n\nÉvolution diachronique (ex. corpus découpé par décennies ou par années).\nDécoupage interne à une interaction (ex. début, milieu, fin de l’enregistrement).\n\nPartitions en fonction des moments clés de l’enregistrement :\n\nDécoupage selon la situation de communication, les phases de l’interaction ou les sujets abordés (ex. phase d’accueil, débat guidé, parole libre, tâches spécifiques).\n\n\n\n\n\n2.6.3.2 Pourquoi partitionner ?\n\nOn peut travailler sur tout le corpus sans partitionner :\n\nUtile pour avoir une vue d’ensemble, calculer la fréquence globale des mots ou dresser la liste du vocabulaire total (lexique global).\n\nPourquoi découper en partitions alors ?\n\nContraste et comparaison : Permet d’opposer des sous-corpus pour faire ressortir des spécificités statistiques (sur-emploi ou sous-emploi de certains termes).\nFocalisation : Permet de centrer l’analyse empirique sur des parties ciblées du corpus.\nÉtude de la variation : S’intéresser à certains locuteurs particuliers ou comparer différents groupes de locuteurs (ex. les jeunes vs. les séniors, les journalistes vs. les invités).\n\n\n\n\n\n2.6.3.3 Quand et comment y penser ?\n\nPenser au partitionnement en amont :\n\nLa possibilité de partitionner un corpus dépend directement de la qualité de l’archivage et de l’encodage des données dès la phase de constitution du corpus.\n\nExploitation des métadonnées (Fichiers XML / En-têtes) :\n\nDans des corpus structurés en XML (comme le projet ORFEO), chaque fichier ou intervention contient des balises intégrant des propriétés et métadonnées.\nExemples de propriétés exploitables pour partitionner :\n\nPropriétés du locuteur : genre, âge, statut, rôle interactionnel.\nPropriétés contextuelles : lieu d’enregistrement, date, langue / dialecte, degré de formalité, type de média (radio, conversation privée, entretien).",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#garder-seulement-certaines-colonnes",
-    "href": "chapters/003-negation.html#garder-seulement-certaines-colonnes",
-    "title": "Introduction",
-    "section": "3.10.1 Garder seulement certaines colonnes",
-    "text": "3.10.1 Garder seulement certaines colonnes\nr\ncorpus %&gt;% select(utterance, lemma, upos)",
+    "objectID": "chapters/002-intro-corpus.html#outils-et-requêtes-pour-explorer-un-corpus",
+    "href": "chapters/002-intro-corpus.html#outils-et-requêtes-pour-explorer-un-corpus",
+    "title": "Linguistique de corpus",
+    "section": "2.7.1 Outils et requêtes pour explorer un corpus",
+    "text": "2.7.1 Outils et requêtes pour explorer un corpus\n\n2.7.1.1 Choix de l’outil linguistique pour explorer un corpus\n\n\n2.7.1.2 Construire une requête\n\n\n\n\n\n\nImportantDéfinition\n\n\n\nRequête : instruction donnée au logiciel pour sélectionner certains mots",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#exclure-une-colonne",
-    "href": "chapters/003-negation.html#exclure-une-colonne",
-    "title": "Introduction",
-    "section": "3.10.2 Exclure une colonne",
-    "text": "3.10.2 Exclure une colonne\nr\ncorpus %&gt;% select(-speaker_id)",
+    "objectID": "chapters/002-intro-corpus.html#mesures-quantitatives-fréquence-et-spécificités",
+    "href": "chapters/002-intro-corpus.html#mesures-quantitatives-fréquence-et-spécificités",
+    "title": "Linguistique de corpus",
+    "section": "2.7.2 Mesures quantitatives : Fréquence et spécificités",
+    "text": "2.7.2 Mesures quantitatives : Fréquence et spécificités\n\nOutils quantitatifs\nAussi utilisé en textométrie et lexicométrie\n\n\n2.7.2.1 Fréquence\n\nFréquence absolue (\\(f\\)) :\n\nDéfinition : Nombre total d’occurrences d’une forme ou d’un terme donné dans un corpus ou sous-corpus.\nExemple : Le terme « liberté » apparaît 45 fois dans l’ensemble d’un discours.\n\nFréquence relative (\\(fr\\)) :\n\nDéfinition : Rapport entre la fréquence absolue d’une forme et la taille totale du corpus (\\(N\\)), souvent exprimé en pourcentage ou en nombre de cas pour \\(N\\) mots (ex. pour 10 000 mots).\nFormule : \\(fr = \\frac{f}{N}\\)\nExemple : Si un discours compte \\(N = 10\\,000\\) mots et que « liberté » apparaît \\(f = 45\\) fois, la fréquence relative est de \\(0{,}45\\%\\) (ou 45 pour 10 000 mots).\n\n\n\n\n\n\n\n\nNoteDéfinition\n\n\n\nHapax : Forme linguistique n’apparaissant qu’une seule et unique fois (\\(f = 1\\)) dans l’ensemble du corpus étudié.\n\n\n\n\n\n2.7.2.2 Le pré-traitement appliqué au comptage (Découpage et choix d’unités)\nLe comptage et la mesure dépendent entièrement des choix d’unités lors du dépouillement du corpus :\n\nTokenisation (Découpage des mots / occurrences) :\n\nDécoupage de la chaîne de texte brute en unités minimales (tokens).\n\nComptage des formes vs Lemmes :\n\nFormes graphiques (mots bruts) : Traite différemment chaque flexion (mange, mangeons, mangera).\nLemmes : Regroupe toutes les formes infléchies sous l’entrée du dictionnaire (manger).\nChoix méthodologique :\n\nPour les verbes ➔ Utiliser les lemmes afin de mesurer la présence globale de la notion verbale, indépendamment de la conjugaison, du temps ou de la personne.\nPour les noms vs adverbes ➔ Pas toujours nécessaire de lemmatiser (les adverbes sont invariables ; pour les noms, la distinction singulier/pluriel peut être pertinente selon la recherche).\n\n\n\n\n\nPrise en compte des majuscules et de la ponctuation :\n\nExemple : Faut-il distinguer le nom propre « Pierre » du nom commun « pierre » ? La ponctuation (points, virgules) doit-elle constituer un token à part entière pour mesurer le style syntaxique ?\n\nPrise en compte des expressions polylexicales (locutions / MWE) :\n\nGroupes de mots fonctionnant comme une seule unité sémantique.\nExemple : Traiter « chemin de fer » ou « au fur et à mesure » comme une seule occurrence unifiée plutôt que comme plusieurs mots isolés (chemin, de, fer).\n\nParties du discours (POS Tagging) :\n\nÉtiquetage morphosyntaxique permettant de lever les ambiguïtés d’homographes.\nExemple : Distinguer « ferme » (nom commun), « ferme » (adjectif) et « ferme » (verbe fermer).\n\n\n\n\n\n2.7.2.3 Mesurer la spécificité textuelle\n\n\nQu’est-ce qui fait la spécificité d’un texte ?\n\nC’est le sur-emploi (spécificité positive) ou le sous-emploi (spécificité négative) significatif d’un mot ou d’un trait linguistique dans un texte donné, par rapport au comportement « normal » ou moyen observé dans un ensemble plus vaste.\n\nCorpus test vs Corpus étalon / de référence :\n\nCorpus test (étudié) : Le sous-corpus ou le texte dont on souhaite extraire les particularités stylistiques ou thématiques.\nCorpus étalon (de référence) : Corpus comparatif représentatif de la langue ou du genre textuel global (utilisé pour établir la norme de fréquence attendue).\n\nPrincipe de comparaison :\n\nOn compare la fréquence observée dans le corpus étudié par rapport à celle du corpus de référence, en fonction des tailles respectives de ces deux corpus.\n\n\n\n\n2.7.2.4 Indicateurs et indices statistiques de spécificité",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Linguistique de corpus"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#renommer-une-colonne-en-même-temps",
-    "href": "chapters/003-negation.html#renommer-une-colonne-en-même-temps",
-    "title": "Introduction",
-    "section": "3.10.3 Renommer une colonne en même temps",
-    "text": "3.10.3 Renommer une colonne en même temps\nr\ncorpus %&gt;% select(token = lemma, pos = upos)",
+    "objectID": "chapters/004_pp_final.html",
+    "href": "chapters/004_pp_final.html",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "",
+    "text": "La note finale (/20) est calculée ainsi : présentation (/10) × 0,5 + travail écrit (/20) × 0,75.\n\n\n\nChaque étudiant·e présente son travail individuellement pendant environ 15 minutes. Les présentations ont lieu sur deux séances :\n\nmercredi 9 décembre : 5 présentations ;\nmercredi 16 décembre : 6 présentations.\n\nSi vous avez une préférence pour l’une des deux dates, signalez-la-moi par email. Premier arrivé, premier servi.\n\n\n\n\nTable 1: Grille d’évaluation de la présentation (total : /10)\n\n\n\n\n\n\n\n\n\n\n\nCritère\nNiveau 1 (0)\nNiveau 2\nNiveau 3\n\n\n\n\nCommunication claire et expression correcte (/2)\nLa présentation est désorganisée ou difficile à suivre. L’expression contient de nombreuses erreurs.\n(+1) La présentation est globalement claire mais parfois confuse ou déséquilibrée. L’expression contient quelques erreurs.\n(+2) La présentation est claire, structurée et fluide. L’expression est correcte et le registre adapté.\n\n\nCadre théorique (/2)\nLe cadre théorique est absent, mal compris ou sans lien avec le cours.\n(+1) Le cadre théorique est présenté mais reste superficiel. Le lien avec la question de recherche est peu clair.\n(+2) Le cadre théorique est présenté de manière claire et pertinente, et il mène logiquement à la question de recherche.\n\n\nMéthodologie (/2)\nLa méthodologie n’est pas présentée ou est inadaptée.\n(+1) La méthodologie est présentée, mais de façon incomplète ou imprécise.\n(+2) La méthodologie (données, collecte, analyse) est présentée clairement et justifiée.\n\n\nAnalyse linguistique du phénomène (/2)\nLe phénomène est mal décrit ou l’analyse contient des erreurs importantes.\n(+1) Le phénomène est décrit correctement, mais l’analyse reste partielle ou peu précise.\n(+2) Le phénomène est analysé de manière correcte, précise et appuyée par les données.\n\n\nRéponse à la question de recherche (/2)\nLa présentation n’apporte pas de réponse claire à la QR, ou la réponse n’est pas reliée au cadre théorique.\n(+1) Une réponse à la QR est donnée, mais sa portée est mal délimitée : les limites de ce que montrent les données sont peu claires, ou le lien avec le cadre théorique reste superficiel.\n(+2) La réponse à la QR est claire. La présentation délimite précisément ce que la réponse apporte et ce qu’elle ne permet pas de conclure, et elle replace la réponse dans le cadre théorique.\n\n\n\n\n\n\n\n\n\n\nLe travail est à envoyer par e-mail à jeremy.genette@kuleuven.be avant le mardi 12 janvier 2027 à midi (heure belge).\n\nFormat : un fichier PDF de 3500 à 4000 mots, bibliographie excluse.\nFichiers d’analyse : joignez tous les fichiers utilisés pour l’analyse (données ou lien d’accès, annotations, scripts, tableaux de résultats).\nREADME : ajoutez un fichier README qui décrit le rôle de chaque fichier, par exemple « donnees.csv contient les occurrences extraites du corpus ; analyse.R produit les tableaux et les figures de la section 4 ».\nSi vous travaillez dans Google Colab : téléchargez votre notebook (.ipynb) ou copiez-collez l’ensemble de vos lignes de code dans un fichier script (.R ou .py) à joindre à l’envoi.\n\n\n\nGrille d’évaluation du travail écrit (total : /20)\n\n\n\n\n\n\n\n\n\nCritère\nNiveau 1 (0)\nNiveau 2\nNiveau 3\nNiveau 4\n\n\n\n\nCadre théorique et question de recherche (/2)\nLe cadre théorique n’est pas pertinent pour le cours. La littérature est absente ou mal comprise. La question de recherche (QR) n’est pas clairement formulée.\n(+1) Le cadre est en partie pertinent. La littérature est mobilisée, mais son explication reste floue. La QR est formulée mais ne découle pas clairement de la littérature.\n(+2) Les références choisies sont très pertinentes et discutées de façon critique. La QR est clairement formulée et fondée sur la littérature.\n/\n\n\nJustification de la pertinence de l’étude (/1)\nLa pertinence de l’étude n’est pas justifiée.\n(+0,5) La pertinence est évoquée, mais de façon vague ou sans lien explicite avec les thématiques du cours.\n(+1) La pertinence est clairement argumentée : lacune dans la littérature, apport scientifique attendu, lien avec les thématiques du cours.\n/\n\n\nMéthodes et design de recherche (/3)\nLes données ne sont pas adaptées à l’étude du phénomène visé. Le travail ne montre pas comment elles peuvent répondre à la QR.\n(+1) Les données sont en partie pertinentes. La QR est partiellement traitée.\n(+2) L’étude est bien conçue. Les données sont clairement présentées et analysées en profondeur. Le travail répond en partie à la QR.\n(+3) L’étude est innovante et menée avec soin. Les données sont clairement présentées. L’analyse est approfondie et apporte de nouveaux éclairages. Le travail répond de manière satisfaisante à la QR.\n\n\nSélection/collecte des données et compte rendu (/3)\nIl n’y a pas d’étude empirique indépendante, ou la recherche n’est pas scientifique ou pas éthique.\n(+1) La collecte suit les consignes, mais des informations cruciales manquent. La méthode est en partie inadaptée.\n(+2) Les règles scientifiques et éthiques sont respectées. La collecte est clairement décrite. La méthode est adaptée.\n(+3) La méthode est innovante et pleinement conforme aux exigences scientifiques et éthiques. La description permet la réplication. La méthode conduit à des résultats nouveaux.\n\n\nProblèmes rencontrés et stratégies de compensation (/3)\nLes problèmes rencontrés (qualité des données, annotation difficile, données manquantes, etc.) ne sont pas identifiés.\n(+1) Des problèmes sont identifiés, mais aucune stratégie de compensation n’est mise en œuvre.\n(+2) Les problèmes sont clairement identifiés. Des stratégies de compensation adaptées sont mises en œuvre.\n(+3) Les problèmes sont identifiés de manière fine. Des stratégies de compensation adaptées sont mises en œuvre, documentées et justifiées, et leur effet sur les résultats est évalué.\n\n\nWorkflow d’analyse et fichiers fournis (/1)\nLe workflow n’est pas documenté et les fichiers d’analyse ne sont pas fournis.\n(+0,5) Le workflow est partiellement documenté ou les fichiers sont fournis de manière incomplète. La reproductibilité est incertaine.\n(+1) Le workflow est documenté dans un README et entièrement reproductible. Tous les fichiers sont fournis et organisés : données (ou lien d’accès), annotations, scripts d’analyse et tableau de résultats.\n/\n\n\nLimites et pistes de recherche (/3)\nAucune limite n’est identifiée.\n(+1) Des limites sont identifiées, mais de façon superficielle. Leur impact sur les résultats n’est pas discuté.\n(+2) Les limites sont clairement identifiées et leur impact sur les résultats est discuté. Quelques pistes de recherches futures sont évoquées.\n(+3) Les limites sont discutées de manière critique et approfondie. Des pistes concrètes et pertinentes de recherches futures sont proposées, en lien avec la QR.\n\n\nCommunication scientifique écrite, références comprises (/4)\n(0–1) Le texte contient de nombreuses fautes. Le style n’est pas scientifique, la structure n’est pas conforme aux exigences académiques et les références sont mal citées.\n(+2) Le texte contient quelques fautes. Le style est peu scientifique, la structure académique est partiellement respectée et les références sont mises en forme de manière incohérente.\n(+3) Le texte ne contient presque pas de fautes. Le style est scientifique, la structure académique est respectée et les références sont correctement mises en forme.\n(+4) Le texte ne contient aucune faute et se lit avec fluidité. Les figures et tableaux sont légendés et commentés, et les références sont citées de manière irréprochable.",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Les crêpes, virgule, j'en ai mangé"
     ]
   },
   {
-    "objectID": "chapters/003-negation.html#exemple",
-    "href": "chapters/003-negation.html#exemple",
-    "title": "Introduction",
-    "section": "3.11.1 Exemple :",
-    "text": "3.11.1 Exemple :\nGarder les adjectifs produits par des locuteurs masculins, et ne garder que lemma + age\nr\ncorpus %&gt;%\n  filter(upos == \"ADJ\" & sex == \"M\") %&gt;%\n  select(lemma, age)",
+    "objectID": "chapters/004_pp_final.html#présentation-orale-25-10",
+    "href": "chapters/004_pp_final.html#présentation-orale-25-10",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "",
+    "text": "Chaque étudiant·e présente son travail individuellement pendant environ 15 minutes. Les présentations ont lieu sur deux séances :\n\nmercredi 9 décembre : 5 présentations ;\nmercredi 16 décembre : 6 présentations.\n\nSi vous avez une préférence pour l’une des deux dates, signalez-la-moi par email. Premier arrivé, premier servi.\n\n\n\n\nTable 1: Grille d’évaluation de la présentation (total : /10)\n\n\n\n\n\n\n\n\n\n\n\nCritère\nNiveau 1 (0)\nNiveau 2\nNiveau 3\n\n\n\n\nCommunication claire et expression correcte (/2)\nLa présentation est désorganisée ou difficile à suivre. L’expression contient de nombreuses erreurs.\n(+1) La présentation est globalement claire mais parfois confuse ou déséquilibrée. L’expression contient quelques erreurs.\n(+2) La présentation est claire, structurée et fluide. L’expression est correcte et le registre adapté.\n\n\nCadre théorique (/2)\nLe cadre théorique est absent, mal compris ou sans lien avec le cours.\n(+1) Le cadre théorique est présenté mais reste superficiel. Le lien avec la question de recherche est peu clair.\n(+2) Le cadre théorique est présenté de manière claire et pertinente, et il mène logiquement à la question de recherche.\n\n\nMéthodologie (/2)\nLa méthodologie n’est pas présentée ou est inadaptée.\n(+1) La méthodologie est présentée, mais de façon incomplète ou imprécise.\n(+2) La méthodologie (données, collecte, analyse) est présentée clairement et justifiée.\n\n\nAnalyse linguistique du phénomène (/2)\nLe phénomène est mal décrit ou l’analyse contient des erreurs importantes.\n(+1) Le phénomène est décrit correctement, mais l’analyse reste partielle ou peu précise.\n(+2) Le phénomène est analysé de manière correcte, précise et appuyée par les données.\n\n\nRéponse à la question de recherche (/2)\nLa présentation n’apporte pas de réponse claire à la QR, ou la réponse n’est pas reliée au cadre théorique.\n(+1) Une réponse à la QR est donnée, mais sa portée est mal délimitée : les limites de ce que montrent les données sont peu claires, ou le lien avec le cadre théorique reste superficiel.\n(+2) La réponse à la QR est claire. La présentation délimite précisément ce que la réponse apporte et ce qu’elle ne permet pas de conclure, et elle replace la réponse dans le cadre théorique.",
     "crumbs": [
       "Chapters",
-      "Négation - C'est pas vrai"
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#travail-écrit-75-20",
+    "href": "chapters/004_pp_final.html#travail-écrit-75-20",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "",
+    "text": "Le travail est à envoyer par e-mail à jeremy.genette@kuleuven.be avant le mardi 12 janvier 2027 à midi (heure belge).\n\nFormat : un fichier PDF de 3500 à 4000 mots, bibliographie excluse.\nFichiers d’analyse : joignez tous les fichiers utilisés pour l’analyse (données ou lien d’accès, annotations, scripts, tableaux de résultats).\nREADME : ajoutez un fichier README qui décrit le rôle de chaque fichier, par exemple « donnees.csv contient les occurrences extraites du corpus ; analyse.R produit les tableaux et les figures de la section 4 ».\nSi vous travaillez dans Google Colab : téléchargez votre notebook (.ipynb) ou copiez-collez l’ensemble de vos lignes de code dans un fichier script (.R ou .py) à joindre à l’envoi.\n\n\n\nGrille d’évaluation du travail écrit (total : /20)\n\n\n\n\n\n\n\n\n\nCritère\nNiveau 1 (0)\nNiveau 2\nNiveau 3\nNiveau 4\n\n\n\n\nCadre théorique et question de recherche (/2)\nLe cadre théorique n’est pas pertinent pour le cours. La littérature est absente ou mal comprise. La question de recherche (QR) n’est pas clairement formulée.\n(+1) Le cadre est en partie pertinent. La littérature est mobilisée, mais son explication reste floue. La QR est formulée mais ne découle pas clairement de la littérature.\n(+2) Les références choisies sont très pertinentes et discutées de façon critique. La QR est clairement formulée et fondée sur la littérature.\n/\n\n\nJustification de la pertinence de l’étude (/1)\nLa pertinence de l’étude n’est pas justifiée.\n(+0,5) La pertinence est évoquée, mais de façon vague ou sans lien explicite avec les thématiques du cours.\n(+1) La pertinence est clairement argumentée : lacune dans la littérature, apport scientifique attendu, lien avec les thématiques du cours.\n/\n\n\nMéthodes et design de recherche (/3)\nLes données ne sont pas adaptées à l’étude du phénomène visé. Le travail ne montre pas comment elles peuvent répondre à la QR.\n(+1) Les données sont en partie pertinentes. La QR est partiellement traitée.\n(+2) L’étude est bien conçue. Les données sont clairement présentées et analysées en profondeur. Le travail répond en partie à la QR.\n(+3) L’étude est innovante et menée avec soin. Les données sont clairement présentées. L’analyse est approfondie et apporte de nouveaux éclairages. Le travail répond de manière satisfaisante à la QR.\n\n\nSélection/collecte des données et compte rendu (/3)\nIl n’y a pas d’étude empirique indépendante, ou la recherche n’est pas scientifique ou pas éthique.\n(+1) La collecte suit les consignes, mais des informations cruciales manquent. La méthode est en partie inadaptée.\n(+2) Les règles scientifiques et éthiques sont respectées. La collecte est clairement décrite. La méthode est adaptée.\n(+3) La méthode est innovante et pleinement conforme aux exigences scientifiques et éthiques. La description permet la réplication. La méthode conduit à des résultats nouveaux.\n\n\nProblèmes rencontrés et stratégies de compensation (/3)\nLes problèmes rencontrés (qualité des données, annotation difficile, données manquantes, etc.) ne sont pas identifiés.\n(+1) Des problèmes sont identifiés, mais aucune stratégie de compensation n’est mise en œuvre.\n(+2) Les problèmes sont clairement identifiés. Des stratégies de compensation adaptées sont mises en œuvre.\n(+3) Les problèmes sont identifiés de manière fine. Des stratégies de compensation adaptées sont mises en œuvre, documentées et justifiées, et leur effet sur les résultats est évalué.\n\n\nWorkflow d’analyse et fichiers fournis (/1)\nLe workflow n’est pas documenté et les fichiers d’analyse ne sont pas fournis.\n(+0,5) Le workflow est partiellement documenté ou les fichiers sont fournis de manière incomplète. La reproductibilité est incertaine.\n(+1) Le workflow est documenté dans un README et entièrement reproductible. Tous les fichiers sont fournis et organisés : données (ou lien d’accès), annotations, scripts d’analyse et tableau de résultats.\n/\n\n\nLimites et pistes de recherche (/3)\nAucune limite n’est identifiée.\n(+1) Des limites sont identifiées, mais de façon superficielle. Leur impact sur les résultats n’est pas discuté.\n(+2) Les limites sont clairement identifiées et leur impact sur les résultats est discuté. Quelques pistes de recherches futures sont évoquées.\n(+3) Les limites sont discutées de manière critique et approfondie. Des pistes concrètes et pertinentes de recherches futures sont proposées, en lien avec la QR.\n\n\nCommunication scientifique écrite, références comprises (/4)\n(0–1) Le texte contient de nombreuses fautes. Le style n’est pas scientifique, la structure n’est pas conforme aux exigences académiques et les références sont mal citées.\n(+2) Le texte contient quelques fautes. Le style est peu scientifique, la structure académique est partiellement respectée et les références sont mises en forme de manière incohérente.\n(+3) Le texte ne contient presque pas de fautes. Le style est scientifique, la structure académique est respectée et les références sont correctement mises en forme.\n(+4) Le texte ne contient aucune faute et se lit avec fluidité. Les figures et tableaux sont légendés et commentés, et les références sont citées de manière irréprochable.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#le-ministre-de-léducation-nationale-français-à-la-radio.",
+    "href": "chapters/004_pp_final.html#le-ministre-de-léducation-nationale-français-à-la-radio.",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.2.1 Le ministre de l’Éducation nationale français à la radio.",
+    "text": "4.2.1 Le ministre de l’Éducation nationale français à la radio.\n\n\n\n\nVideo\n\n\nParticipe passé: fini d’accorder\n\n\n\n\nEt vous ? Quiz time !!!\n\n\n\n\n\nL’accord du participe passé: ” Il n’y a rien de plus important ny de plus ignoré.”\n— Claude Favre de Vaugelas (Grammairien), 1647\n\n\n\n\nClaude Favre de Vaugelas, Grammairien (1586-1650)\n\n\n\n\n\n\n“La règle est morte de complications.”\n— Lucien Tesnière (Linguiste), 1959\n\n\n\n\nLucien Tesnière, Linguiste (1893-1954)",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#jusquau-xiiie-siècle",
+    "href": "chapters/004_pp_final.html#jusquau-xiiie-siècle",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.3.1 Jusqu’au XIIIe siècle",
+    "text": "4.3.1 Jusqu’au XIIIe siècle\n\nL’ordre des mots est relativement libre:\n\nSi auxiliaire être: accord avec le sujet\nSi auxiliaire avoir: accord avec le COD, peu importe sa position dans la phrases\n\nEx. J’ai les lettres écrites.\nEx. J’ai écrites les lettres.\nle participe passé s’accordait alors comme un attibut de l’objet: par exemple, j’ai les mains salies",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#xvie-siècle",
+    "href": "chapters/004_pp_final.html#xvie-siècle",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.3.2 XVIe siècle",
+    "text": "4.3.2 XVIe siècle\n\nL’ordre des mots devient plus figé auxiliaire - participe - objet:\n\nSi auxiliaire être: accord avec le sujet\nL’accord avec avoir est en diminution\n\n\n\n\n\nClément Marot Épigrammes dédiées à François Ier, 1538\nIl propose d’accorder le participe passé avec l’objet si ce dernier est placé avant le participe passé sur la base du modèle italien 🍝\n\nEx. Dieu nous a faictz &lt;–&gt; Dio noi a fatti\n\n\n\n\n\nClément Marot, Poète français (1496-1544)\n\n\n\n\n\nL’usage de cette règle n’est pas encore systémique\n\nMignonne, allons voir si la rose\nQui ce matin avait desclose\nSa robe de pourpre au soleil…\n\n\n\n\nPierre de Ronsard, Poète français (1524-1585)",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#xviᵉ-siècle-un-accord-qui-ne-sentend-plus",
+    "href": "chapters/004_pp_final.html#xviᵉ-siècle-un-accord-qui-ne-sentend-plus",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.3.3 XVIᵉ siècle : un accord qui ne s’entend plus",
+    "text": "4.3.3 XVIᵉ siècle : un accord qui ne s’entend plus\n\nOn n’entend plus l’accord car on ne prononce plus le ‑s final.\n\nEx. Je les ai vus /ʒə lez e vy/\nSauf en cas de liaison :\nEx. Je les ai vus à la fête /ʒə lez e vyz a la fɛt/\n\nLa distinction de genre au participe passé ne s’entend plus à l’oral, à l’exception d’une trentaine de verbes du 3ᵉ groupe (ex. mise, prise, faite, dite).\nEnviron 99 % des participes passés n’ont aucune distinction phonique au féminin.\n🚨 Français de Belgique",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-verbes-pronominaux",
+    "href": "chapters/004_pp_final.html#les-verbes-pronominaux",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.4.1 Les verbes pronominaux",
+    "text": "4.4.1 Les verbes pronominaux\n\nExtension de la règle d’accord au XVIIIᵉ siècle :\n\nAu XVIIIᵉ siècle, l’Académie française étend l’accord avec l’objet qui précède aux verbes pronominaux.\n\nExemple : « Les choses qu’elle s’est dites. »\n\n\n\n\n\nRègles d’invariabilité :\n\nLe participe passé reste donc invariable si l’objet suit le verbe ou s’il s’agit du pronom en.\n\n\nSur le site de l’Académie française, l’accord du participe passé des verbes pronominaux suit plusieurs règles selon la fonction syntaxique du pronom se :\n\nAbsence d’accord lorsque le pronom se n’est pas complément :\n\nLe participe passé ne s’accorde pas lorsque le pronom se n’est pas un complément d’objet direct (ce qui s’apparente au fonctionnement des verbes essentiellement pronominaux).\n\nExemples :\n\n« Ils se sont souvenu. »\n\nvs\n\n« La propriété s’est vendue à bas prix. »\n\n\n\nAccord lorsque le pronom se peut être analysé comme un complément :\n\nQuand le pronom se est analysé comme un complément, le verbe pronominal suit les règles d’accord de l’auxiliaire avoir.\n\nExemples :\n\n« Elles se sont lavées les mains. »\n« Ils se sont succédé. »\n« Ils se sont vu accorder des congés. »\n« Ils se sont vus accorder des congés à leurs employés. »",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-verbes-pronominaux-1",
+    "href": "chapters/004_pp_final.html#les-verbes-pronominaux-1",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.5.1 Les verbes pronominaux",
+    "text": "4.5.1 Les verbes pronominaux\n\nAu XIXᵉ siècle, les verbes pronominaux suivent les règles d’accord académiques, qui comptent au moins trois cas de figure :\n\nAccord avec le sujet : « Elle s’est lavée. »\nInvariabilité si l’objet direct suit le verbe : « Elle s’est lavé les mains. »\nAccord avec l’objet direct si celui-ci précède le verbe : « Les mains qu’elle s’est lavées. »\n\n\n\n\nLa tentative de réforme de 1900 et la réaction académique :\n\nEn 1900, le ministre Georges Leygues, qui propose l’invariabilité du participe passé avec l’auxiliaire avoir, la propose également pour les verbes pronominaux.\nFace à la réaction de l’Académie française, cette proposition est de nouveau abandonnée.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-verbes-pronominaux-2",
+    "href": "chapters/004_pp_final.html#les-verbes-pronominaux-2",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.6.1 Les verbes pronominaux",
+    "text": "4.6.1 Les verbes pronominaux\n\nLes écrivains accordent le participe passé plus souvent que les règles académiques ne le recommandent.\nExemples :\n\nMolière : « ils se sont donnés l’un à l’autre une promesse de mariage »\nProust : « ils ne s’étaient rendus compte de rien »\n\n\n\n\n\nMontesquieu : « dynasties qui se sont succédées »\nSimone Veil : « s’étaient succédés »\n\n\n\n\nCas où l’Académie recommande l’accord\n\nSenancour : « les maux qu’il s’est fait »\n\n\nEt quand le verbe pronominal est suivi d’un infinitif… encore plus de “problèmes”\n\nVoltaire (académicien) : « sa fille qui s’était faite enlever »",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#dans-les-corpus-oraux",
+    "href": "chapters/004_pp_final.html#dans-les-corpus-oraux",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.8.1 Dans les corpus oraux",
+    "text": "4.8.1 Dans les corpus oraux\n\nCORPAIX\n\nAvec avoir + objet antéposé :\n\n33 % avec pronom de 3ᵉ pers\n64 % quand le participe est en position finale\n24 % avec pronom relatif que\n\nOn suivrait donc plutôt la règle de Vaugelas.\n\n4 corpus oraux\n\nAccord au féminin dans 90 % des cas avec être\n50 % avec avoir (60 % en position finale)",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#dans-les-corpus-écrits",
+    "href": "chapters/004_pp_final.html#dans-les-corpus-écrits",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.8.2 Dans les corpus écrits",
+    "text": "4.8.2 Dans les corpus écrits\n\nSur Reddit : sur 400 adultes… suivent les règles normatives.\n\n30\n\nL’invariabilité est majoritaire surtout quand on n’entend pas l’accord.\nAlors que la majorité des messages est suffisament formelle pour inclure la négation bipartite.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#dans-la-grammaire-mentale",
+    "href": "chapters/004_pp_final.html#dans-la-grammaire-mentale",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.8.3 Dans la grammaire mentale ?",
+    "text": "4.8.3 Dans la grammaire mentale ?\n\nJugement d’acceptabilité (2024–2025) :\n\n200 adultes monolingues\n48 phrases avec ou sans accord\nÉchelle 0–10\n\nRésultats :\n\nAccord : 7,5\nSans accord : 6,8\nDifférence faible\n\n\n\n\nEt l’italien de Marot ?\n\nGénéralisation de l’invariabilité :\nle cose che ho letto\n\n\n\n\nItalian Hand GIFs | Tenor",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-verbes-pronominaux-3",
+    "href": "chapters/004_pp_final.html#les-verbes-pronominaux-3",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.8.4 Les verbes pronominaux",
+    "text": "4.8.4 Les verbes pronominaux\n\nQuand l’accord est audible : 80 % des verbes pronominaux sont accordés.\n\nFavorisé par les constructions pronominales de sens passif.\n\nAvec se objet indirect : usage instable.\n\nOn lit de plus en plus : « elle s’est faite avoir »\nOn entend : « je me suis permise de vous appeler »\n\nEn d’autres termes : l’accord avec le sujet est la règle la plus robuste de l’usage.\n\n\n\nEt l’italien de Marot ?\n\nGénéralisation de l’accord avec le sujet :\nsi è lavata le mani\n\n\n\n\nItalian Hand GIFs | Tenor",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#synthèse-autant-que-possible",
+    "href": "chapters/004_pp_final.html#synthèse-autant-que-possible",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.8.5 Synthèse (autant que possible)",
+    "text": "4.8.5 Synthèse (autant que possible)\n\ngraph TD\n    Q1[\"🧐 Y a-t-il un auxiliaire ?\"]\n\n    %% Branch: PP employé seul\n    Q1 --&gt;|\"Non\"| PP_SEUL[\"👉 PP employé seul\"]\n    PP_SEUL --&gt; ACC_NOM[\"Accord en genre et en nombre avec le nom auquel il se rapporte.&lt;br&gt;🚨 Exceptions\"]\n\n    %% Branch: Avec quel type de verbe ?\n    Q1 --&gt;|\"Oui\"| Q2[\"🧐 Avec quel type de verbe ?\"]\n\n    %% Sub-branch 1: Avec avoir\n    Q2 --&gt; AVOIR[\"👉 Avec avoir\"]\n    AVOIR --&gt; Q3[\"🧐 Y a-t-il un COD/CDV ?\"]\n\n    %% Sub-branch 2: Pronominal\n    Q2 --&gt; PRONOMINAL[\"👉 Pronominal\"]\n    PRONOMINAL --&gt; Q4[\"🧐 verbe essentiellement pronominal ?\"]\n    Q4 --&gt;|\"Oui\"| OUI_PRON[\"👉 Oui\"]\n    Q4 --&gt;|\"Non\"| NON_PRON[\"👉 Non\"]\n    NON_PRON --&gt; Q3\n\n    %% Sub-branch 3: Avec être\n    Q2 --&gt; ETRE[\"👉 Avec être\"]\n\n    %% COD / CDV Decision Paths\n    Q3 --&gt;|\"Oui\"| COD_OUI[\"👉 Oui\"]\n    Q3 --&gt;|\"Non\"| COD_NON[\"👉 Non\"]\n    COD_OUI --&gt; Q5[\"🧐 Où ?\"]\n    Q5 --&gt;|\"devant le verbe\"| DEVANT[\"👉 devant le verbe\"]\n    Q5 --&gt;|\"derrière le verbe\"| DERRIERE[\"👉 derrière le verbe\"]\n    DEVANT --&gt; ACC_COD[\"Accord en genre et en nombre avec le COD/CDV.&lt;br&gt;🚨 Exceptions\"]\n    DERRIERE --&gt; PP_INVAR[\"PP Invariable\"]\n    COD_NON --&gt; PP_INVAR\n\n    %% End nodes\n    OUI_PRON --&gt; ACC_SUJET[\"Accord en genre et en nombre avec le sujet.&lt;br&gt;🚨 Exceptions\"]\n    ETRE --&gt; ACC_SUJET\n\n\n\n\ngraph TD\n    Q1[\"🧐 Y a-t-il un auxiliaire ?\"]\n\n    %% Branch: PP employé seul\n    Q1 --&gt;|\"Non\"| PP_SEUL[\"👉 PP employé seul\"]\n    PP_SEUL --&gt; ACC_NOM[\"Accord en genre et en nombre avec le nom auquel il se rapporte.&lt;br&gt;🚨 Exceptions\"]\n\n    %% Branch: Avec quel type de verbe ?\n    Q1 --&gt;|\"Oui\"| Q2[\"🧐 Avec quel type de verbe ?\"]\n\n    %% Sub-branch 1: Avec avoir\n    Q2 --&gt; AVOIR[\"👉 Avec avoir\"]\n    AVOIR --&gt; Q3[\"🧐 Y a-t-il un COD/CDV ?\"]\n\n    %% Sub-branch 2: Pronominal\n    Q2 --&gt; PRONOMINAL[\"👉 Pronominal\"]\n    PRONOMINAL --&gt; Q4[\"🧐 verbe essentiellement pronominal ?\"]\n    Q4 --&gt;|\"Oui\"| OUI_PRON[\"👉 Oui\"]\n    Q4 --&gt;|\"Non\"| NON_PRON[\"👉 Non\"]\n    NON_PRON --&gt; Q3\n\n    %% Sub-branch 3: Avec être\n    Q2 --&gt; ETRE[\"👉 Avec être\"]\n\n    %% COD / CDV Decision Paths\n    Q3 --&gt;|\"Oui\"| COD_OUI[\"👉 Oui\"]\n    Q3 --&gt;|\"Non\"| COD_NON[\"👉 Non\"]\n    COD_OUI --&gt; Q5[\"🧐 Où ?\"]\n    Q5 --&gt;|\"devant le verbe\"| DEVANT[\"👉 devant le verbe\"]\n    Q5 --&gt;|\"derrière le verbe\"| DERRIERE[\"👉 derrière le verbe\"]\n    DEVANT --&gt; ACC_COD[\"Accord en genre et en nombre avec le COD/CDV.&lt;br&gt;🚨 Exceptions\"]\n    DERRIERE --&gt; PP_INVAR[\"PP Invariable\"]\n    COD_NON --&gt; PP_INVAR\n\n    %% End nodes\n    OUI_PRON --&gt; ACC_SUJET[\"Accord en genre et en nombre avec le sujet.&lt;br&gt;🚨 Exceptions\"]\n    ETRE --&gt; ACC_SUJET\n\n\n\n\n\n\n\nApplications : les expressions régulières",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#fréquences",
+    "href": "chapters/004_pp_final.html#fréquences",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.52.1 Fréquences",
+    "text": "4.52.1 Fréquences\n\nfrequence_construction &lt;- corpus_annote %&gt;%\n  filter(!is.na(construction)) %&gt;%\n  count(construction, accord, name = \"effectif\") %&gt;%\n  group_by(construction) %&gt;%\n  mutate(proportion = round(effectif / sum(effectif) * 100, 1)) %&gt;%\n  ungroup()\n\nfrequence_construction\n\n# A tibble: 4 × 4\n  construction accord      effectif proportion\n  &lt;chr&gt;        &lt;chr&gt;          &lt;int&gt;      &lt;dbl&gt;\n1 pronom       accordé            9       69.2\n2 pronom       non accordé        4       30.8\n3 relative     accordé           23       48.9\n4 relative     non accordé       24       51.1\n\n\n\n\nggplot(frequence_construction, aes(x = construction, y = effectif, fill = accord)) +\n  geom_col(position = \"fill\") +\n  scale_y_continuous(labels = scales::percent) +\n  labs(\n    title = \"Accord du participe passé au pluriel avec avoir\",\n    subtitle = \"Relative vs pronoms \",\n    x = \"Construction\",\n    y = \"Proportion\",\n    fill = \"Participe\",\n    caption = \"\"\n  ) +\n  theme_minimal()",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#par-fichier",
+    "href": "chapters/004_pp_final.html#par-fichier",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.52.2 Par fichier",
+    "text": "4.52.2 Par fichier\n\ncorpus_annote %&gt;%\n  filter(!is.na(construction)) %&gt;%\n  count(file_id, construction, accord) %&gt;%\n  pivot_wider(names_from = accord, values_from = n, values_fill = 0)\n\n# A tibble: 17 × 4\n   file_id                                    construction accordé `non accordé`\n   &lt;chr&gt;                                      &lt;chr&gt;          &lt;int&gt;         &lt;int&gt;\n 1 cmr-favi-tei-v1                            pronom             1             1\n 2 cmr-favi-tei-v1                            relative           8             2\n 3 cmr-polititweets-c005-tei-v1               relative           0             1\n 4 cmr-polititweets-c006-tei-v1               pronom             1             0\n 5 cmr-polititweets-c006-tei-v1               relative           1             0\n 6 cmr-polititweets-c007-tei-v1               relative           0             1\n 7 cmr-smsalpes-tei-v1                        pronom             0             1\n 8 cmr-wikiconflits-affaire_bogdanoff_discu-… relative           2             3\n 9 cmr-wikiconflits-chiropratique_discu-tei-… pronom             1             0\n10 cmr-wikiconflits-chiropratique_discu-tei-… relative           1             1\n11 cmr-wikiconflits-histologique_discu-tei-v1 pronom             1             0\n12 cmr-wikiconflits-ogm_discu-tei-v1          pronom             4             1\n13 cmr-wikiconflits-ogm_discu-tei-v1          relative           7            11\n14 cmr-wikiconflits-ogm_discu_neut-tei-v1     relative           0             1\n15 cmr-wikiconflits-psychanalyse_discu-tei-v1 pronom             1             1\n16 cmr-wikiconflits-psychanalyse_discu-tei-v1 relative           3             4\n17 cmr-wikiconflits-qi_discu-tei-v1           relative           1             0",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#combien-y-en-a-t-il",
+    "href": "chapters/004_pp_final.html#combien-y-en-a-t-il",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.57.1 Combien y en a-t-il ?",
+    "text": "4.57.1 Combien y en a-t-il ?\n\ntoujours_s &lt;- c(\"pris\", \"mis\", \"compris\", \"appris\", \"remis\", \"repris\",\n                \"permis\", \"promis\", \"surpris\", \"assis\", \"acquis\")\n\ncorpus_annote %&gt;%\n  filter(tolower(word) %in% toujours_s) %&gt;%\n  count(construction, word, sort = TRUE)\n\n# A tibble: 18 × 3\n   construction word        n\n   &lt;chr&gt;        &lt;chr&gt;   &lt;int&gt;\n 1 &lt;NA&gt;         compris   235\n 2 &lt;NA&gt;         mis       201\n 3 &lt;NA&gt;         pris      175\n 4 &lt;NA&gt;         permis     64\n 5 &lt;NA&gt;         remis      44\n 6 &lt;NA&gt;         acquis     36\n 7 &lt;NA&gt;         appris     33\n 8 &lt;NA&gt;         repris     26\n 9 &lt;NA&gt;         promis     23\n10 &lt;NA&gt;         surpris    20\n11 &lt;NA&gt;         Mis         5\n12 &lt;NA&gt;         Permis      2\n13 &lt;NA&gt;         assis       2\n14 pronom       mis         1\n15 relative     mis         1\n16 relative     pris        1\n17 &lt;NA&gt;         MIS         1\n18 &lt;NA&gt;         Pris        1\n\n\nCes formes sont toujours classées « accordé », même quand le scripteur n’a pas fait l’accord : les livres que j’ai pris et le livre que j’ai pris s’écrivent pareil. On ne peut donc pas savoir si l’accord a été fait.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-retirer-du-comptage",
+    "href": "chapters/004_pp_final.html#les-retirer-du-comptage",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.57.2 Les retirer du comptage",
+    "text": "4.57.2 Les retirer du comptage\n\ncorpus_annote_sans_s &lt;- corpus_annote %&gt;%\n  filter(!tolower(word) %in% toujours_s)\n\ncorpus_annote_sans_s %&gt;%\n  count(construction, accord, name = \"effectif\") %&gt;%\n  group_by(construction) %&gt;%\n  mutate(proportion = round(effectif / sum(effectif) * 100, 1)) %&gt;%\n  ungroup()\n\n# A tibble: 5 × 4\n  construction accord      effectif proportion\n  &lt;chr&gt;        &lt;chr&gt;          &lt;int&gt;      &lt;dbl&gt;\n1 pronom       accordé            8       66.7\n2 pronom       non accordé        4       33.3\n3 relative     accordé           21       46.7\n4 relative     non accordé       24       53.3\n5 &lt;NA&gt;         &lt;NA&gt;         1457370      100  \n\n\nCe qu’on attend : le taux d’accord baisse, puisqu’on a retiré des cas comptés à tort comme accordés. La baisse est plus forte dans la construction qui contient le plus de pris/mis/compris (souvent la relative : les trucs que j’ai compris).",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#avec-une-regex-plutôt-quune-liste",
+    "href": "chapters/004_pp_final.html#avec-une-regex-plutôt-quune-liste",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.57.3 Avec une regex plutôt qu’une liste",
+    "text": "4.57.3 Avec une regex plutôt qu’une liste\nUne première idée : exclure tous les participes en -is.\n\n# Les occurrences de nos deux constructions\nocc &lt;- corpus_annote %&gt;%\n  filter(!is.na(construction))\n\n# Les participes en -is parmi ces occurrences\nocc %&gt;%\n  filter(grepl(\"is$\", tolower(word))) %&gt;%\n  count(construction, word, lemma, sort = TRUE)\n\n# A tibble: 3 × 4\n  construction word  lemma       n\n  &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;   &lt;int&gt;\n1 pronom       mis   mettre      1\n2 relative     mis   mettre      1\n3 relative     pris  prendre     1\n\n\nCette regex exclut à tort finis, choisis, réussis, remplis… Ce sont des participes en -i (fini) accordés au pluriel : le -s est bien une marque d’accord.\n\nOn peut s’aider du lemme, comme dans le cours sur la durée vocalique : les verbes en -ir (sauf -oir) ont un participe en -i.\n\n# Le -s fait-il partie du radical (pris, mis) ou est-ce un accord (finis, choisis) ?\nocc_regex &lt;- occ %&gt;%\n  mutate(\n    verbe_en_i = grepl(\"[^o]ir$\", lemma) &\n      !lemma %in% c(\"acquérir\", \"conquérir\", \"requérir\", \"enquérir\"),\n    s_radical  = grepl(\"is$\", tolower(word)) & !verbe_en_i\n  )\n\n# Vérification\nocc_regex %&gt;%\n  filter(grepl(\"is$\", tolower(word))) %&gt;%\n  count(word, lemma, s_radical, sort = TRUE)\n\n# A tibble: 2 × 4\n  word  lemma   s_radical     n\n  &lt;chr&gt; &lt;chr&gt;   &lt;lgl&gt;     &lt;int&gt;\n1 mis   mettre  TRUE          2\n2 pris  prendre TRUE          1\n\n# Fréquences sans les participes dont le -s fait partie du radical\nocc_regex %&gt;%\n  filter(!s_radical) %&gt;%\n  count(construction, accord)\n\n# A tibble: 4 × 3\n  construction accord          n\n  &lt;chr&gt;        &lt;chr&gt;       &lt;int&gt;\n1 pronom       accordé         8\n2 pronom       non accordé     4\n3 relative     accordé        21\n4 relative     non accordé    24\n\n\n\n\n\n\n\n\nAvertissementIl reste des exceptions\n\n\n\ninclus, exclus, clos, dissous ont aussi un -s (ou -us) dans le radical. La règle « ne jamais faire confiance à une regex sans la vérifier à la main » reste valable.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#la-relative-au-féminin",
+    "href": "chapters/004_pp_final.html#la-relative-au-féminin",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.59.1 La relative au féminin",
+    "text": "4.59.1 La relative au féminin\n\ncorpus_fem &lt;- web %&gt;%\n  group_by(utterance_uid) %&gt;%\n  arrange(word_id, .by_group = TRUE) %&gt;%\n  mutate(\n    construction = case_when(\n      tolower(lag(word, 5)) %in% c(\"la\", \"une\", \"cette\") &\n        lag(lemma, 3) == \"que\" &\n        lag(upos, 2) == \"CLS\" &\n        lag(lemma, 1) == \"avoir\" &\n        upos == \"VPP\" ~ \"relative_fem\",\n      lag(upos, 3) == \"CLS\" &\n        lag(word, 2) == \"l'\" &\n        lag(lemma, 1) == \"avoir\" &\n        upos == \"VPP\" ~ \"pronom_l\",\n      TRUE ~ NA_character_\n    ),\n    accord = case_when(\n      is.na(construction) ~ NA_character_,\n      grepl(\"e$\", word)   ~ \"accordé\",\n      TRUE                ~ \"non accordé\"\n    )\n  ) %&gt;%\n  ungroup() %&gt;%\n  filter(!is.na(construction))\n\ncorpus_fem %&gt;% count(construction, accord)\n\n# A tibble: 4 × 3\n  construction accord          n\n  &lt;chr&gt;        &lt;chr&gt;       &lt;int&gt;\n1 pronom_l     accordé        11\n2 pronom_l     non accordé   134\n3 relative_fem accordé        17\n4 relative_fem non accordé    19\n\ncorpus_fem %&gt;%\n  filter(construction == \"relative_fem\") %&gt;%\n  select(word, accord, utterance) %&gt;%\n  head(20)\n\n# A tibble: 20 × 3\n   word       accord      utterance                                             \n   &lt;chr&gt;      &lt;chr&gt;       &lt;chr&gt;                                                 \n 1 gardé      non accordé \"et du coup , c' est cette habitude que j' ai gardé .\"\n 2 effectuée  accordé     \"Article sur la visite que j' ai effectuée au CH Dron…\n 3 votée      accordé     \"@JeanLucRomero Le jugement du tribunal administratif…\n 4 choisie    accordé     \"# # La ligne que nous avons choisie avec mes collègu…\n 5 initiée    accordé     \"Retrouvez la tribune que j' ai initiée , cosignée pa…\n 6 suivie     accordé     \"Je félicite les deux entreprises , leurs dirigeants …\n 7 chargé     non accordé \"Simplification , sécurisation et rationalisation gui…\n 8 annoncée   accordé     \"Le Sénat adopte la TVA à 2 , 1 % sur la presse en li…\n 9 posée      accordé     \"La question que j' ai posée hier au # http : / / t. …\n10 cosignée   accordé     \"Je vous invite à lire la tribune que j' ai cosignée …\n11 fait       non accordé \"La loi que j' ai fait voter en 1998 ne tolère aucune…\n12 combattue  accordé     \"Une idée que nous avons combattue en 2010 , sous Sar…\n13 retiré     non accordé \"Dans un premier temps , c' est pour cette raison que…\n14 initiée    accordé     \"Donc , allez continuer la polémique que vous avez in…\n15 apporté    non accordé \"( http cette approche est donc susceptible d' intére…\n16 eu         non accordé \"Une réponse que j' ai eu sur une autre page , si cel…\n17 créé       non accordé \"Cette carte que j' ai créé n' est d' aucune utilité …\n18 faite      accordé     \"Je n' ai pas trop suivi le débat ( qui est très anim…\n19 faite      accordé     \"11 contributeurs se sont déclarés clairement en fave…\n20 monopolisé non accordé \"Au final tu penses qu' il faut mentionner cet articl…\n\n\nLimites de la relative au féminin :\n\nl’ devant un nom à initiale vocalique (l’erreur que j’ai faite) n’est pas pris en compte. On pourrait ajouter \"l'\" à la liste, mais l’ est aussi masculin (l’avion).\nune peut être un numéral ou un pronom (une que j’ai vue), ce qui ne change rien à l’accord.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#le-pronom-l",
+    "href": "chapters/004_pp_final.html#le-pronom-l",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.59.2 Le pronom l’",
+    "text": "4.59.2 Le pronom l’\n\ncorpus_fem %&gt;%\n  filter(construction == \"pronom_l\") %&gt;%\n  select(word, accord, utterance) %&gt;%\n  head(20)\n\n# A tibble: 20 × 3\n   word      accord      utterance                                              \n   &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;                                                  \n 1 perdu     non accordé \"nous l' avons perdu de vue\"                           \n 2 fait      non accordé \"oui , mais il m' a dit qu' il l' a fait parce qu' il …\n 3 vérifié   non accordé \"( je l' ai vérifié dans un dictionnaire ; - ) ) autre…\n 4 appelé    non accordé \"Oui , je l' ai appelé mais il doit être occupé\"       \n 5 alpagué   non accordé \"on peut dire qu' il l' a alpagué\"                     \n 6 touvé     non accordé \"ah c' est bon je l' ai touvé\"                         \n 7 écrit     non accordé \"moi , je l' ai écrit mais ...\"                        \n 8 précisé   non accordé \"Alors la transcription sera envoyée par courrier pers…\n 9 entendu   non accordé \"je ne suis pas au courant qu' il a neigé hier , mais …\n10 noté      non accordé \"Dans les faits , je pense qu' on exige un niveau de l…\n11 demandee  accordé     \"je l' ai demandee plus tot mais je la demande de nouv…\n12 trouvé    non accordé \"je l' ai trouvé mais je ne suis pas sûre car je n' ai…\n13 fait      non accordé \"Au début je n' ai pas tout de suite compris votre mét…\n14 fait      non accordé \"Je l' ai fait .\"                                      \n15 promis    non accordé \"RT@nkm   paris : .@nk   m \\\" Je serai le maire du 0 i…\n16 faaaaaait non accordé \"On l' a faaaaaait # http : / / t. c ...\"              \n17 dit       non accordé \"La fonction publique participe déjà aux efforts d' éc…\n18 entendu   non accordé \"MESSAGE : .@dassouline Les abstentionnistes de gauche…\n19 entendu   non accordé \"MESSAGE : .@chborgel Les électeurs ont exprimé un mes…\n20 entendu   non accordé \"Ce « message » des électeurs de gauche , nous l' avon…\n\n\nCette construction est très difficile à exploiter :\n\nl’ ne marque pas le genre : je l’ai vu (le film) et je l’ai vue (la fille) s’écrivent avec le même pronom. Sans retrouver l’antécédent, on ne sait pas si vu est un accord correct (masculin) ou un non-accord (féminin).\nl’ est souvent neutre : je l’ai dit (= cela). Dans ce cas, le masculin est la forme attendue.\nLa plupart des participes sont donc « non accordés » sans que ce soit une erreur. Il faudrait annoter à la main le genre de l’antécédent.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#été-né",
+    "href": "chapters/004_pp_final.html#été-né",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.59.3 été, né…",
+    "text": "4.59.3 été, né…\nLa regex \"e$\" ne trouve pas été : pour R, é et e sont deux caractères différents. Les participes en -é ne sont donc classés « accordés » que s’ils finissent par -ée (mangée, née). La regex fonctionne ici comme on le souhaite.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-positions",
+    "href": "chapters/004_pp_final.html#les-positions",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.60.1 Les positions",
+    "text": "4.60.1 Les positions\n\n\n\nposition\n-5\n-4\n-3\n-2\n-1\n0\n\n\n\n\nmot\nje\nne\nles\nai\npas\nmangés\n\n\ncondition\nCLS\nne/n’\nles\nlemme avoir\npas\nVPP",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#une-construction-pronom_neg",
+    "href": "chapters/004_pp_final.html#une-construction-pronom_neg",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.60.2 Une construction \"pronom_neg\"",
+    "text": "4.60.2 Une construction \"pronom_neg\"\nDans CoMeRe, le ne est souvent absent (je les ai pas mangés) : c’est le phénomène étudié dans le cours sur la négation. On ajoute donc deux cas : avec et sans ne.\n\nnegations &lt;- c(\"pas\", \"jamais\", \"plus\")\n\ncorpus_neg &lt;- web %&gt;%\n  group_by(utterance_uid) %&gt;%\n  arrange(word_id, .by_group = TRUE) %&gt;%\n  mutate(\n    construction = case_when(\n      lag(upos, 5) == \"CLS\" &\n        tolower(lag(word, 4)) %in% c(\"ne\", \"n'\") &\n        lag(word, 3) == \"les\" &\n        lag(lemma, 2) == \"avoir\" &\n        lag(word, 1) %in% negations &\n        upos == \"VPP\" ~ \"pronom_neg_avec_ne\",\n      lag(upos, 4) == \"CLS\" &\n        lag(word, 3) == \"les\" &\n        lag(lemma, 2) == \"avoir\" &\n        lag(word, 1) %in% negations &\n        upos == \"VPP\" ~ \"pronom_neg_sans_ne\",\n      TRUE ~ NA_character_\n    ),\n    accord = if_else(grepl(\"s$\", word), \"accordé\", \"non accordé\")\n  ) %&gt;%\n  ungroup() %&gt;%\n  filter(!is.na(construction))\n\ncorpus_neg %&gt;% count(construction, accord)\n\n# A tibble: 1 × 3\n  construction       accord      n\n  &lt;chr&gt;              &lt;chr&gt;   &lt;int&gt;\n1 pronom_neg_avec_ne accordé     1\n\n\nQuestion à discuter : les scripteurs qui omettent le ne accordent-ils moins souvent le participe ? Si oui, on aurait un indice que les deux phénomènes vont ensemble (registre moins surveillé). Attention aux effectifs, sans doute très faibles.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#avec-une-regex",
+    "href": "chapters/004_pp_final.html#avec-une-regex",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.60.3 Avec une regex",
+    "text": "4.60.3 Avec une regex\n\nregex_pronom_neg &lt;- web %&gt;%\n  distinct(utterance_uid, file_id, utterance) %&gt;%\n  mutate(sequence = str_extract(\n    utterance,\n    regex(\"\\\\b(je|tu|il|elle|on|nous|vous|ils|elles) (ne |n' )?les (ai|as|a|avons|avez|ont)( pas| jamais| plus)? \\\\w+\",\n          ignore_case = TRUE)\n  )) %&gt;%\n  filter(!is.na(sequence)) %&gt;%\n  mutate(accord = if_else(str_ends(tolower(sequence), \"s\"), \"accordé\", \"non accordé\"))\n\nregex_pronom_neg %&gt;% count(accord)\n\n# A tibble: 2 × 2\n  accord          n\n  &lt;chr&gt;       &lt;int&gt;\n1 accordé        10\n2 non accordé     4\n\n\nLes deux ? rendent ne et pas optionnels : cette regex trouve à la fois je les ai mangés, je ne les ai pas mangés et je les ai pas mangés.\n\n\n\n\n\n\nAvertissementPiège\n\n\n\nSi l’adverbe n’est pas trouvé, \\\\w+ prend le mot suivant : dans je les ai jamais vus, sans ( jamais)?, la séquence s’arrêterait sur jamais, qui ne finit pas par -s. C’est pour cela qu’il faut lister les adverbes de négation.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#létiquette-des-infinitifs",
+    "href": "chapters/004_pp_final.html#létiquette-des-infinitifs",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.61.1 L’étiquette des infinitifs",
+    "text": "4.61.1 L’étiquette des infinitifs\n\nweb %&gt;% count(upos, sort = TRUE)\n\n# A tibble: 144 × 2\n   upos       n\n   &lt;chr&gt;  &lt;int&gt;\n 1 NOM   426268\n 2 PUNC  258374\n 3 PRE   167384\n 4 DET   130235\n 5 VRB    94100\n 6 ADJ    74664\n 7 ADV    69606\n 8 NUM    43826\n 9 CLS    42944\n10 VNF    32600\n# ℹ 134 more rows\n\nweb %&gt;% filter(upos == \"VNF\") %&gt;% count(word, sort = TRUE) %&gt;% head(10)\n\n# A tibble: 10 × 2\n   word         n\n   &lt;chr&gt;    &lt;int&gt;\n 1 faire     1895\n 2 être      1855\n 3 dire       849\n 4 avoir      840\n 5 voir       633\n 6 parler     444\n 7 mettre     411\n 8 soutenir   356\n 9 prendre    335\n10 donner     327\n\n\nDans l’étiquetage ORFEO, les infinitifs sont étiquetés VNF. On le vérifie en regardant les mots les plus fréquents de cette étiquette (faire, voir, dire…).",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#repérer-les-participes-suivis-dun-infinitif",
+    "href": "chapters/004_pp_final.html#repérer-les-participes-suivis-dun-infinitif",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.61.2 Repérer les participes suivis d’un infinitif",
+    "text": "4.61.2 Repérer les participes suivis d’un infinitif\nlead() doit être calculé dans chaque énoncé, sinon le « mot suivant » pourrait être le premier mot de l’énoncé suivant.\n\ncorpus_annote &lt;- corpus_annote %&gt;%\n  group_by(utterance_uid) %&gt;%\n  arrange(word_id, .by_group = TRUE) %&gt;%\n  mutate(upos_suivant = lead(upos),\n         mot_suivant  = lead(word)) %&gt;%\n  ungroup()\n\nocc &lt;- corpus_annote %&gt;% filter(!is.na(construction))\n\nocc %&gt;%\n  filter(upos_suivant == \"VNF\") %&gt;%\n  select(construction, word, mot_suivant, accord, utterance)\n\n# A tibble: 3 × 5\n  construction word  mot_suivant accord      utterance                          \n  &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;                              \n1 pronom       fait  bosser      non accordé \"Je les ai fait bosser sur 2 ou 3 …\n2 pronom       fait  figurer     non accordé \"Ces \\\" acceptions \\\" n' ont de se…\n3 relative     pu    avoir       non accordé \"Ce qui me dérange le plus dans la…\n\n\n\nLa règle : la règle académique est celle de l’abbé d’Olivet, vue en cours.\n\nOn accorde si le COD fait l’action de l’infinitif : les gens que j’ai vus partir (les gens partent).\nOn n’accorde pas si le COD subit l’action : les chansons que j’ai entendu chanter (les chansons ne chantent pas).\nfait + infinitif est toujours invariable (je les ai fait venir).\nDepuis les rectifications de 1990, laissé + infinitif peut aussi rester invariable.\nL’arrêté de 1976 tolère l’invariabilité dans tous ces cas.\n\nCes occurrences ne sont donc pas des « erreurs » au même titre que les autres : la norme elle-même hésite.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-retirer",
+    "href": "chapters/004_pp_final.html#les-retirer",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.61.3 Les retirer",
+    "text": "4.61.3 Les retirer\n\nocc %&gt;%\n  filter(is.na(upos_suivant) | upos_suivant != \"VNF\") %&gt;%\n  count(construction, accord, name = \"effectif\") %&gt;%\n  group_by(construction) %&gt;%\n  mutate(proportion = round(effectif / sum(effectif) * 100, 1)) %&gt;%\n  ungroup() %&gt;%\n  ggplot(aes(x = construction, y = effectif, fill = accord)) +\n  geom_col(position = \"fill\") +\n  scale_y_continuous(labels = scales::percent) +\n  labs(title = \"Accord du participe passé avec avoir\",\n       subtitle = \"Sans les participes suivis d'un infinitif\",\n       x = \"Construction\", y = \"Proportion\", fill = \"Participe\",\n       caption = \"Corpus CEFC-ORFEO, sous-corpus CoMeRe\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\nis.na(upos_suivant) est indispensable : sans lui, les participes en fin d’énoncé (pas de mot suivant, donc NA) seraient retirés aussi. Or ce sont justement ceux qui, selon la règle de Vaugelas, devraient être le plus accordés.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#repérer-ilselles-être-participe",
+    "href": "chapters/004_pp_final.html#repérer-ilselles-être-participe",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.62.1 Repérer ils/elles + être + participe",
+    "text": "4.62.1 Repérer ils/elles + être + participe\n\nocc_etre &lt;- web %&gt;%\n  group_by(utterance_uid) %&gt;%\n  arrange(word_id, .by_group = TRUE) %&gt;%\n  mutate(\n    construction = if_else(\n      tolower(lag(word, 2)) %in% c(\"ils\", \"elles\") &\n        lag(lemma, 1) == \"être\" &\n        upos == \"VPP\",\n      \"être\", NA_character_\n    )\n  ) %&gt;%\n  ungroup() %&gt;%\n  filter(!is.na(construction)) %&gt;%\n  mutate(accord = if_else(grepl(\"s$\", word), \"accordé\", \"non accordé\"))\n\nocc_etre %&gt;% select(word, accord, utterance) %&gt;% head(20)\n\n# A tibble: 20 × 3\n   word       accord      utterance                                             \n   &lt;chr&gt;      &lt;chr&gt;       &lt;chr&gt;                                                 \n 1 virer      non accordé \"Cela ne signifie pas non plus que ils seront virer à…\n 2 motivés    accordé     \"c' est parce que vraiment ils sont motivés\"          \n 3 venus      accordé     \"RT@NicolasSarkozy : \\\" Beaucoup parmi vous ne sont p…\n 4 soupçonnés accordé     \"RT@Europe 1 : .@montebourg : \\\" Écouter les téléphon…\n 5 partis     accordé     \"Ils sont partis pour vous ils reviendront grace à vo…\n 6 alliés     accordé     \"Ils sont alliés au parti d' extreme droite dans le g…\n 7 partis     accordé     \"Ils sont partis pour vous ils reviendront grace à vo…\n 8 partis     accordé     \"Bref quand ils seront partis !\"                      \n 9 devenus    accordé     \"De Gaulle réveille toi ils sont devenus fous ..\"     \n10 passés     accordé     \"Ils sont passés de 30 à 600 et gagnent un départemen…\n11 protégés   accordé     \"Un budget qui garantit aux Parisiens qu' ils seront …\n12 tétanisés  accordé     \"Ils sont tétanisés à l' idée de le voir revenir parc…\n13 écrits     accordé     \"Aucun des e-mails de Niedermeir n' a d' intérêt dans…\n14 écrits     accordé     \"Vous ne pouvez donc pas dire : \\\" on ne tient pas ( …\n15 tombés     accordé     \"Le seul drame de l' affaire Bogdanov , c' est qu' il…\n16 publiés    accordé     \"Enfin , dans l' article , on mentionne le fait qu' i…\n17 approuvés  accordé     \"présenter au grand public le résultats des travaux d…\n18 admises    accordé     \"Dans le monde scientifique les erreurs sont normales…\n19 effectués  accordé     \"Pendant la formation du futur chiropraticien les cou…\n20 reconnus   accordé     \"Par exemple la phrase « Ils sont reconnus officielle…\n\n\nCette requête trouve aussi les passifs (ils sont aimés), où l’accord avec le sujet est également la règle. Elle ne trouve pas les pronominaux (ils se sont vus), car le mot en position -2 est alors se.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#comparer-avec-avoir",
+    "href": "chapters/004_pp_final.html#comparer-avec-avoir",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.62.2 Comparer avec avoir",
+    "text": "4.62.2 Comparer avec avoir\n\nfrequence_3 &lt;- bind_rows(\n  occ      %&gt;% select(construction, word, accord),\n  occ_etre %&gt;% select(construction, word, accord)\n) %&gt;%\n  filter(!tolower(word) %in% toujours_s) %&gt;%   # voir exercice 1\n  count(construction, accord, name = \"effectif\") %&gt;%\n  group_by(construction) %&gt;%\n  mutate(proportion = round(effectif / sum(effectif) * 100, 1)) %&gt;%\n  ungroup()\n\nfrequence_3\n\n# A tibble: 6 × 4\n  construction accord      effectif proportion\n  &lt;chr&gt;        &lt;chr&gt;          &lt;int&gt;      &lt;dbl&gt;\n1 pronom       accordé            8       66.7\n2 pronom       non accordé        4       33.3\n3 relative     accordé           21       46.7\n4 relative     non accordé       24       53.3\n5 être         accordé           64       94.1\n6 être         non accordé        4        5.9\n\nggplot(frequence_3,\n       aes(x = factor(construction, levels = c(\"être\", \"pronom\", \"relative\")),\n           y = effectif, fill = accord)) +\n  geom_col(position = \"fill\") +\n  scale_y_continuous(labels = scales::percent) +\n  labs(title = \"Accord du participe passé au pluriel\",\n       subtitle = \"être vs avoir (pronom, relative)\",\n       x = \"Construction\", y = \"Proportion\", fill = \"Participe\",\n       caption = \"Corpus CEFC-ORFEO, sous-corpus CoMeRe\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\nCe qu’on attend : un taux d’accord nettement plus élevé avec être. C’est cohérent avec les corpus oraux présentés en cours (environ 90 % d’accord avec être, 50 % avec avoir) : l’accord avec le sujet est la règle la plus robuste de l’usage. Le taux obtenu avec être sert de point de référence : il indique à quel point les scripteurs de CoMeRe marquent l’accord en général. Si même avec être le taux est bas, une partie du non-accord avec avoir tient au registre et pas seulement à la syntaxe.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#un-ou-deux-mots-entre-le-déterminant-et-que",
+    "href": "chapters/004_pp_final.html#un-ou-deux-mots-entre-le-déterminant-et-que",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.63.1 Un ou deux mots entre le déterminant et que",
+    "text": "4.63.1 Un ou deux mots entre le déterminant et que\n\nregex_relative_2 &lt;- web %&gt;%\n  distinct(utterance_uid, file_id, utterance) %&gt;%\n  mutate(sequence = str_extract(\n    utterance,\n    regex(\"\\\\b(les|des|ces) (\\\\w+ ){1,2}(que|qu') (je|j'|tu|il|elle|on|nous|vous|ils|elles) (ai|as|a|avons|avez|ont) \\\\w+\",\n          ignore_case = TRUE)\n  )) %&gt;%\n  filter(!is.na(sequence)) %&gt;%\n  mutate(accord = if_else(str_ends(tolower(sequence), \"s\"), \"accordé\", \"non accordé\"))",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#les-occurrences-gagnées",
+    "href": "chapters/004_pp_final.html#les-occurrences-gagnées",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.63.2 Les occurrences gagnées",
+    "text": "4.63.2 Les occurrences gagnées\n\nnrow(regex_relative)\n\n[1] 62\n\nnrow(regex_relative_2)\n\n[1] 70\n\nregex_relative_2 %&gt;%\n  anti_join(regex_relative, by = \"utterance_uid\") %&gt;%\n  select(sequence)\n\n# A tibble: 11 × 1\n   sequence                                         \n   &lt;chr&gt;                                            \n 1 les correcteurs orthographiques que vous avez sur\n 2 des corrections dès que j' ai une                \n 3 les Verts et que j' ai dénoncée                  \n 4 des critique argumentée que j' ai porté          \n 5 les liens externes que j' ai donné               \n 6 les différents rapports que j' ai pu             \n 7 des autres points que j' ai jugé                 \n 8 Les deux sources que j' ai citées                \n 9 des prétextes tels qu' ils ont été               \n10 des nombreuses publications qu' elle a suscitées \n11 les deux points que j' ai évoqués                \n\n\nOn gagne des cas comme les belles photos que j’ai prises ou les deux films que j’ai vus. On gagne aussi des faux positifs, par exemple des fois en fait qu’il a dit, où des n’introduit pas l’antécédent de que : il faut relire.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
+    ]
+  },
+  {
+    "objectID": "chapters/004_pp_final.html#tester-lhypothèse-de-la-distance",
+    "href": "chapters/004_pp_final.html#tester-lhypothèse-de-la-distance",
+    "title": "“Les crêpes, virgule, j’en ai mangé”",
+    "section": "4.63.3 Tester l’hypothèse de la distance",
+    "text": "4.63.3 Tester l’hypothèse de la distance\nDans la séquence, il y a 4 espaces fixes (après le déterminant, que, le pronom sujet et l’auxiliaire), plus un espace par mot intercalé. On peut donc compter les mots entre le déterminant et que :\n\nregex_relative_2 %&gt;%\n  mutate(n_mots = str_count(sequence, \" \") - 4) %&gt;%\n  count(n_mots, accord) %&gt;%\n  group_by(n_mots) %&gt;%\n  mutate(proportion = round(n / sum(n) * 100, 1)) %&gt;%\n  ungroup()\n\n# A tibble: 4 × 4\n  n_mots accord          n proportion\n   &lt;dbl&gt; &lt;chr&gt;       &lt;int&gt;      &lt;dbl&gt;\n1      1 accordé        25       43.1\n2      1 non accordé    33       56.9\n3      2 accordé         3       25  \n4      2 non accordé     9       75  \n\n\nPoints de discussion :\n\nLes effectifs avec deux mots intercalés sont sans doute très faibles : impossible de conclure.\nDans ce motif, la distance entre que et le participe est toujours la même (pronom + auxiliaire). Ce qui varie, c’est la distance entre le nom et le participe. Or c’est le nom qui porte le genre et le nombre que le scripteur doit « se rappeler ».\nPour tester vraiment la distance, il faudrait aussi des relatives avec un sujet nominal (les photos que mon frère a prises) : il faudrait une autre requête.",
+    "crumbs": [
+      "Chapters",
+      "Les crêpes, virgule, j'en ai mangé"
     ]
   }
 ]
