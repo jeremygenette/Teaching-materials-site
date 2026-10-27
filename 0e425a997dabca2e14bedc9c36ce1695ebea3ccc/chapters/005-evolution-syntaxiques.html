@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../chapters/006-changement-phonologique.html" rel="next">
 <link href="../chapters/004-changement-semantique.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -48,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b3d9169ff2fa3025226c968e42fe7800.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-59bcb46ba504b0b2deeb1541d3829826.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-b3d9169ff2fa3025226c968e42fe7800.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c55d70062796734c6ed5f5c7b19f9601.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e97d5a5d4f10f8d36b154a947c8cea5f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c55d70062796734c6ed5f5c7b19f9601.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -79,35 +80,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -349,6 +321,12 @@ window.Quarto = {
  <span class="menu-text">Évolutions morpho-syntaxiques</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/006-changement-phonologique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Évolutions phonétiques</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -361,175 +339,245 @@ window.Quarto = {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#lévolution-des-formes-nominales" id="toc-lévolution-des-formes-nominales" class="nav-link active" data-scroll-target="#lévolution-des-formes-nominales"><span class="header-section-number">5.1</span> L’évolution des formes nominales</a>
+  <li><a href="#évolutions-morpho-syntaxiques" id="toc-évolutions-morpho-syntaxiques" class="nav-link active" data-scroll-target="#évolutions-morpho-syntaxiques"><span class="header-section-number">5.1</span> Évolutions morpho-syntaxiques</a></li>
+  <li><a href="#évaluation" id="toc-évaluation" class="nav-link" data-scroll-target="#évaluation"><span class="header-section-number">5.2</span> Évaluation</a>
   <ul class="collapse">
-  <li><a href="#du-latin-au-très-ancien-français" id="toc-du-latin-au-très-ancien-français" class="nav-link" data-scroll-target="#du-latin-au-très-ancien-français"><span class="header-section-number">5.1.1</span> Du latin au très ancien français</a>
+  <li><a href="#présentation-orale-25-5-points" id="toc-présentation-orale-25-5-points" class="nav-link" data-scroll-target="#présentation-orale-25-5-points"><span class="header-section-number">5.2.0.1</span> Présentation orale (25 % / 5 points)</a></li>
+  </ul></li>
+  <li><a href="#lévolution-des-formes-nominales" id="toc-lévolution-des-formes-nominales" class="nav-link" data-scroll-target="#lévolution-des-formes-nominales"><span class="header-section-number">5.3</span> L’évolution des formes nominales</a>
   <ul class="collapse">
-  <li><a href="#le-latin-classique" id="toc-le-latin-classique" class="nav-link" data-scroll-target="#le-latin-classique"><span class="header-section-number">5.1.1.1</span> Le latin classique</a></li>
+  <li><a href="#du-latin-au-très-ancien-français" id="toc-du-latin-au-très-ancien-français" class="nav-link" data-scroll-target="#du-latin-au-très-ancien-français"><span class="header-section-number">5.3.1</span> Du latin au très ancien français</a>
+  <ul class="collapse">
+  <li><a href="#le-latin-classique" id="toc-le-latin-classique" class="nav-link" data-scroll-target="#le-latin-classique"><span class="header-section-number">5.3.1.1</span> Le latin classique</a></li>
+  <li><a href="#évolutions-du-latin-vulgaire" id="toc-évolutions-du-latin-vulgaire" class="nav-link" data-scroll-target="#évolutions-du-latin-vulgaire"><span class="header-section-number">5.3.1.2</span> Évolutions du latin vulgaire</a></li>
+  <li><a href="#très-ancien-français" id="toc-très-ancien-français" class="nav-link" data-scroll-target="#très-ancien-français"><span class="header-section-number">5.3.1.3</span> Très ancien français</a></li>
+  <li><a href="#le-genre" id="toc-le-genre" class="nav-link" data-scroll-target="#le-genre"><span class="header-section-number">5.3.1.4</span> Le Genre</a></li>
+  </ul></li>
+  <li><a href="#le-déclin-de-la-déclinaison-bicasuelle-lancien-français-12ᵉ13ᵉ-s." id="toc-le-déclin-de-la-déclinaison-bicasuelle-lancien-français-12ᵉ13ᵉ-s." class="nav-link" data-scroll-target="#le-déclin-de-la-déclinaison-bicasuelle-lancien-français-12ᵉ13ᵉ-s."><span class="header-section-number">5.3.2</span> Le déclin de la déclinaison bicasuelle : l’ancien français (12ᵉ–13ᵉ s.)</a>
+  <ul class="collapse">
+  <li><a href="#un-système-en-mouvement" id="toc-un-système-en-mouvement" class="nav-link" data-scroll-target="#un-système-en-mouvement"><span class="header-section-number">5.3.2.1</span> Un système en mouvement</a></li>
+  <li><a href="#où-une-désintégration-douest-en-est" id="toc-où-une-désintégration-douest-en-est" class="nav-link" data-scroll-target="#où-une-désintégration-douest-en-est"><span class="header-section-number">5.3.2.2</span> Où ? Une désintégration d’ouest en est</a></li>
+  <li><a href="#quand-chronologie" id="toc-quand-chronologie" class="nav-link" data-scroll-target="#quand-chronologie"><span class="header-section-number">5.3.2.3</span> Quand ? Chronologie</a></li>
+  <li><a href="#quel-cas-lemporte" id="toc-quel-cas-lemporte" class="nav-link" data-scroll-target="#quel-cas-lemporte"><span class="header-section-number">5.3.2.4</span> Quel cas l’emporte ?</a></li>
+  <li><a href="#réponse-le-poids-des-fonctions" id="toc-réponse-le-poids-des-fonctions" class="nav-link" data-scroll-target="#réponse-le-poids-des-fonctions"><span class="header-section-number">5.3.2.5</span> Réponse : le poids des fonctions</a></li>
+  <li><a href="#pourquoi-la-déclinaison-disparaît-elle" id="toc-pourquoi-la-déclinaison-disparaît-elle" class="nav-link" data-scroll-target="#pourquoi-la-déclinaison-disparaît-elle"><span class="header-section-number">5.3.2.6</span> Pourquoi la déclinaison disparaît-elle ? |</a></li>
+  <li><a href="#le-rôle-du-contexte-syntaxique" id="toc-le-rôle-du-contexte-syntaxique" class="nav-link" data-scroll-target="#le-rôle-du-contexte-syntaxique"><span class="header-section-number">5.3.2.7</span> Le rôle du contexte syntaxique</a></li>
+  <li><a href="#un-système-devenu-opaque" id="toc-un-système-devenu-opaque" class="nav-link" data-scroll-target="#un-système-devenu-opaque"><span class="header-section-number">5.3.2.8</span> Un système devenu opaque</a></li>
+  <li><a href="#les-déterminants-prennent-le-relais" id="toc-les-déterminants-prennent-le-relais" class="nav-link" data-scroll-target="#les-déterminants-prennent-le-relais"><span class="header-section-number">5.3.2.9</span> Les déterminants prennent le relais</a></li>
+  <li><a href="#la-variation-selon-lusage" id="toc-la-variation-selon-lusage" class="nav-link" data-scroll-target="#la-variation-selon-lusage"><span class="header-section-number">5.3.2.10</span> La variation selon l’usage</a></li>
+  </ul></li>
+  <li><a href="#le-moyen-français-et-le-français-préclassique-14ᵉ-fin-16ᵉ-s." id="toc-le-moyen-français-et-le-français-préclassique-14ᵉ-fin-16ᵉ-s." class="nav-link" data-scroll-target="#le-moyen-français-et-le-français-préclassique-14ᵉ-fin-16ᵉ-s."><span class="header-section-number">5.3.3</span> Le moyen français et le français préclassique (14ᵉ – fin 16ᵉ s.)</a>
+  <ul class="collapse">
+  <li><a href="#contexte" id="toc-contexte" class="nav-link" data-scroll-target="#contexte"><span class="header-section-number">5.3.3.1</span> Contexte</a></li>
+  <li><a href="#trois-grands-changements" id="toc-trois-grands-changements" class="nav-link" data-scroll-target="#trois-grands-changements"><span class="header-section-number">5.3.3.2</span> Trois grands changements</a></li>
+  <li><a href="#labandon-de-la-déclinaison-trois-cas-de-figure" id="toc-labandon-de-la-déclinaison-trois-cas-de-figure" class="nav-link" data-scroll-target="#labandon-de-la-déclinaison-trois-cas-de-figure"><span class="header-section-number">5.3.3.3</span> 1. L’abandon de la déclinaison : trois cas de figure</a></li>
+  <li><a href="#les-réorganisations-analogiques" id="toc-les-réorganisations-analogiques" class="nav-link" data-scroll-target="#les-réorganisations-analogiques"><span class="header-section-number">5.3.3.4</span> 2. Les réorganisations analogiques</a></li>
+  <li><a href="#létablissement-du-groupe-nominal" id="toc-létablissement-du-groupe-nominal" class="nav-link" data-scroll-target="#létablissement-du-groupe-nominal"><span class="header-section-number">5.3.3.5</span> 3. L’établissement du groupe nominal</a></li>
+  </ul></li>
+  <li><a href="#la-période-classique-17ᵉ-et-18ᵉ-s." id="toc-la-période-classique-17ᵉ-et-18ᵉ-s." class="nav-link" data-scroll-target="#la-période-classique-17ᵉ-et-18ᵉ-s."><span class="header-section-number">5.3.4</span> La période classique (17ᵉ et 18ᵉ s.)</a>
+  <ul class="collapse">
+  <li><a href="#deux-mouvements-contrastés" id="toc-deux-mouvements-contrastés" class="nav-link" data-scroll-target="#deux-mouvements-contrastés"><span class="header-section-number">5.3.4.1</span> Deux mouvements contrastés</a></li>
+  <li><a href="#des-changements-morphologiques-limités" id="toc-des-changements-morphologiques-limités" class="nav-link" data-scroll-target="#des-changements-morphologiques-limités"><span class="header-section-number">5.3.4.2</span> Des changements morphologiques limités</a></li>
+  <li><a href="#le-genre-du-nom" id="toc-le-genre-du-nom" class="nav-link" data-scroll-target="#le-genre-du-nom"><span class="header-section-number">5.3.4.3</span> Le genre du nom</a></li>
+  <li><a href="#la-variation" id="toc-la-variation" class="nav-link" data-scroll-target="#la-variation"><span class="header-section-number">5.3.4.4</span> La variation</a></li>
+  </ul></li>
+  <li><a href="#le-français-moderne-fmod" id="toc-le-français-moderne-fmod" class="nav-link" data-scroll-target="#le-français-moderne-fmod"><span class="header-section-number">5.3.5</span> Le français moderne (FMod)</a>
+  <ul class="collapse">
+  <li><a href="#la-féminisation-des-noms-de-fonctions" id="toc-la-féminisation-des-noms-de-fonctions" class="nav-link" data-scroll-target="#la-féminisation-des-noms-de-fonctions"><span class="header-section-number">5.3.5.1</span> La féminisation des noms de fonctions</a></li>
+  <li><a href="#le-renouvellement-du-vocabulaire" id="toc-le-renouvellement-du-vocabulaire" class="nav-link" data-scroll-target="#le-renouvellement-du-vocabulaire"><span class="header-section-number">5.3.5.2</span> Le renouvellement du vocabulaire</a></li>
+  <li><a href="#implications-typologiques" id="toc-implications-typologiques" class="nav-link" data-scroll-target="#implications-typologiques"><span class="header-section-number">5.3.5.3</span> Implications typologiques</a></li>
   </ul></li>
   </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="005-evolution-syntaxiques-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/001-introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/005-evolution-syntaxiques.html">Évolutions morpho-syntaxiques</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Évolutions morpho-syntaxiques</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/001-introduction.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/005-evolution-syntaxiques.html">Évolutions morpho-syntaxiques</a></li></ol></nav></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="lévolution-des-formes-nominales" class="level1">
-<h1><span class="header-section-number">5.1</span> L’évolution des formes nominales</h1>
-<section id="du-latin-au-très-ancien-français" class="level2">
-<h2 class="anchored" data-anchor-id="du-latin-au-très-ancien-français"><span class="header-section-number">5.1.1</span> Du latin au très ancien français</h2>
+<section id="évolutions-morpho-syntaxiques" class="level1">
+<h1><span class="header-section-number">5.1</span> Évolutions morpho-syntaxiques</h1>
+</section>
+<section id="évaluation" class="level1">
+<h1><span class="header-section-number">5.2</span> Évaluation</h1>
+<p>La note finale (/20) est calculée ainsi : présentation (/5) + examen (/15).</p>
+<section id="présentation-orale-25-5-points" class="level3">
+<h3 class="anchored" data-anchor-id="présentation-orale-25-5-points"><span class="header-section-number">5.2.0.1</span> Présentation orale (25 % / 5 points)</h3>
+<p>Groupe de deux - 20 minutes avec Power</p>
+<p>PointLes présentations ont lieu sur deux séances :</p>
 <ul>
-<li><p>Identification des parties du discours :</p>
+<li><p><strong>Mardi 8 décembre :</strong> 3 présentations.</p></li>
+<li><p><strong>Mardi 16 décembre :</strong> 4 présentations.</p></li>
+</ul>
+<hr>
+<section id="grille-dévaluation-de-la-présentation-5" class="level4">
+<h4 class="anchored" data-anchor-id="grille-dévaluation-de-la-présentation-5"><span class="header-section-number">5.2.0.1.1</span> Grille d’évaluation de la présentation (/5) :</h4>
+<ul>
+<li><p><strong>Analyse linguistique correcte de la variété présentée : /2</strong></p>
+<ul>
+<li><p>Cadre théorique et historico-géographique</p></li>
+<li><p>Terminologie</p></li>
+<li><p>Littérature scientifique</p></li>
+<li><p>Les traits principaux de cette variété sont présentés</p></li>
+</ul></li>
+<li><p><strong>Exemples linguistiques : /1,5</strong></p>
+<ul>
+<li>Illustration adéquate des phénomènes présentés</li>
+</ul></li>
+<li><p><strong>Présentation : /1,5</strong></p>
+<ul>
+<li><p>Expression orale adéquate</p></li>
+<li><p>Clarté et précision de la présentation</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="lévolution-des-formes-nominales" class="level1">
+<h1><span class="header-section-number">5.3</span> L’évolution des formes nominales</h1>
+<section id="du-latin-au-très-ancien-français" class="level2">
+<h2 class="anchored" data-anchor-id="du-latin-au-très-ancien-français"><span class="header-section-number">5.3.1</span> Du latin au très ancien français</h2>
+<ul>
+<li>Identification des parties du discours :
 <ul>
 <li>S’effectue par l’inventaire de leurs catégories grammaticales.</li>
 </ul></li>
 </ul>
 <hr>
 <ul>
-<li><p>Pour les noms :</p>
+<li>Pour les noms :
 <ul>
-<li><p>Nombre</p></li>
-<li><p>Genre</p></li>
-<li><p>Cas</p></li>
-<li><p>‼️ <em>Fonctionne ainsi jusqu’au moyen français (MF)</em></p></li>
+<li>Nombre</li>
+<li>Genre</li>
+<li>Cas</li>
+<li>‼️ <em>Fonctionne ainsi jusqu’au moyen français (MF)</em></li>
 </ul></li>
 </ul>
 <hr>
 <section id="le-latin-classique" class="level3">
-<h3 class="anchored" data-anchor-id="le-latin-classique"><span class="header-section-number">5.1.1.1</span> Le latin classique</h3>
+<h3 class="anchored" data-anchor-id="le-latin-classique"><span class="header-section-number">5.3.1.1</span> Le latin classique</h3>
 <ul>
 <li>Le nom se distingue des adjectifs, pronoms et déterminants parce que son genre est fixe <em>(ex. un nom est soit intrinsèquement masculin, féminin ou neutre)</em>.</li>
-</ul>
-<!-- -->
-<ul>
 <li>L’expression des trois catégories (<em>genre, nombre, cas</em>) est souvent <strong>confondue dans un seul et unique morphème</strong>.</li>
-</ul>
-<!-- -->
-<ul>
-<li><p>Un même morphème cumule plusieurs informations catégorielles simultanément.</p></li>
-<li><p>C’est la caractéristique d’une langue <strong>indo-européenne de type flexionnel</strong> (ou synthétique).</p></li>
+<li>Un même morphème cumule plusieurs informations catégorielles simultanément.</li>
+<li>C’est la caractéristique d’une langue <strong>indo-européenne de type flexionnel</strong> (ou synthétique).</li>
 </ul>
 <hr>
 <p>Le système nominal en latin classique repose sur l’association de trois catégories grammaticales réparties à travers cinq modèles de déclinaison :</p>
 <div class="side-by-side">
 <ul>
-<li><p><strong>Deux nombres :</strong></p>
+<li><strong>Deux nombres :</strong>
 <ul>
-<li><p>Singulier</p></li>
-<li><p>Pluriel</p></li>
+<li>Singulier</li>
+<li>Pluriel</li>
 </ul></li>
-<li><p><strong>Trois genres :</strong></p>
+<li><strong>Trois genres :</strong>
 <ul>
-<li><p>Masculin</p></li>
-<li><p>Féminin</p></li>
-<li><p>Neutre</p></li>
+<li>Masculin</li>
+<li>Féminin</li>
+<li>Neutre</li>
 </ul></li>
-<li><p><strong>Six cas :</strong></p>
+<li><strong>Six cas :</strong>
 <ul>
-<li><p><strong>Nominatif</strong> <em>(Sujet, attribut du sujet)</em></p></li>
-<li><p><strong>Vocatif</strong> <em>(Apostrophe, interpellation)</em></p></li>
-<li><p><strong>Accusatif</strong> <em>(Objet direct, direction)</em></p></li>
-<li><p><strong>Génitif</strong> <em>(Complément du nom, possession)</em></p></li>
-<li><p><strong>Datif</strong> <em>(Objet indirect, destinataire)</em></p></li>
-<li><p><strong>Ablatif</strong> <em>(Compléments circonstanciels : moyen, lieu, cause…)</em></p></li>
+<li><strong>Nominatif</strong> <em>(Sujet, attribut du sujet)</em></li>
+<li><strong>Vocatif</strong> <em>(Apostrophe, interpellation)</em></li>
+<li><strong>Accusatif</strong> <em>(Objet direct, direction)</em></li>
+<li><strong>Génitif</strong> <em>(Complément du nom, possession)</em></li>
+<li><strong>Datif</strong> <em>(Objet indirect, destinataire)</em></li>
+<li><strong>Ablatif</strong> <em>(Compléments circonstanciels : moyen, lieu, cause…)</em></li>
 </ul></li>
-<li><p><strong>Cinq déclinaisons</strong></p></li>
+<li><strong>Cinq déclinaisons</strong></li>
 </ul>
 <p><img src="images/clipboard-2519823063.png" class="img-fluid"></p>
 </div>
 <hr>
 </section>
-<div class="hidden">
 <section id="évolutions-du-latin-vulgaire" class="level3">
-<h3 class="anchored" data-anchor-id="évolutions-du-latin-vulgaire"><span class="header-section-number">5.1.1.2</span> Évolutions du latin vulgaire</h3>
+<h3 class="anchored" data-anchor-id="évolutions-du-latin-vulgaire"><span class="header-section-number">5.3.1.2</span> Évolutions du latin vulgaire</h3>
 <ul>
-<li><p>Le latin vulgaire réduit le nombre des cas, tant pour la déclinaison du nom que pour celle de l’adjectif (la déclinaison des pronoms sera plus résistante).</p></li>
-<li><p>Les particularités de la prononciation du latin vulgaire ont en effet des conséquences importantes dans le domaine de la déclinaison nominale :</p>
+<li>Le latin vulgaire réduit le nombre des cas, tant pour la déclinaison du nom que pour celle de l’adjectif
 <ul>
-<li><p>causam (acc. sing) se prononce en latin vulgaire comme le latin classique causă (nom. sing) et causā (abl. sing.)</p></li>
-<li><p>murum (acc. sing.) se prononce comme murō (dat./abl. sing.)</p></li>
+<li>la déclinaison des pronoms sera plus résistante</li>
 </ul></li>
-<li><p>Il en est résulté qu’au Ve siècle, le latin vulgaire ne connaissait plus qu’une déclinaison bicasuelle, c’est-à-dire une déclinaison réduite à deux cas pour l’ensemble des noms et adjectifs : le <strong>nominatif</strong> et l’<strong>accusatif</strong>.</p></li>
-<li><p>Cela a pour conséquence que le latin vulgaire tend à utiliser davantage les prépositions pour signifier les relations syntaxiques entre mots.</p></li>
-<li><p>En passant du latin classique au latin vulgaire :</p>
+<li>Les particularités de la prononciation du latin vulgaire ont en effet des conséquences importantes dans le domaine de la déclinaison nominale :
 <ul>
-<li><p>Le Nominatif absorbe les fonctions du Vocatif →→ Forme la base du <strong>Cas Sujet (CS)</strong>.</p></li>
-<li><p>L’Accusatif absorbe les fonctions du Génitif, du Datif et de l’Ablatif (à l’aide de prépositions comme <em>de</em> ou <em>ad/a</em>) →→ Forme la base du <strong>Cas Régime (CR)</strong>.</p></li>
+<li>causam (acc. sing) se prononce en latin vulgaire comme le latin classique causă (nom. sing) et causā (abl. sing.)</li>
+<li>murum (acc. sing.) se prononce comme murō (dat./abl. sing.)</li>
+</ul></li>
+</ul>
+<hr>
+<ul>
+<li>Il en est résulté qu’au Ve siècle, le latin vulgaire ne connaissait plus qu’une déclinaison bicasuelle, c’est-à-dire une déclinaison réduite à deux cas pour l’ensemble des noms et adjectifs :
+<ul>
+<li>le <strong>nominatif</strong></li>
+<li>l’<strong>accusatif</strong>.</li>
+</ul></li>
+<li>Cela a pour conséquence que le latin vulgaire tend à utiliser davantage les prépositions pour signifier les relations syntaxiques entre mots.</li>
+<li>En passant du latin classique au latin vulgaire :
+<ul>
+<li>Le Nominatif absorbe les fonctions du Vocatif → Forme la base du <strong>Cas Sujet (CS)</strong>.</li>
+<li>L’Accusatif absorbe les fonctions du Génitif, du Datif et de l’Ablatif (à l’aide de prépositions comme <em>de</em> ou <em>ad/a</em>) → Forme la base du <strong>Cas Régime (CR)</strong>.</li>
 </ul></li>
 </ul>
 <hr>
 <section id="repérage-des-traits-du-passage-au-latin-vulgaire-prépositions" class="level4 side-by-side">
-<h4 class="anchored" data-anchor-id="repérage-des-traits-du-passage-au-latin-vulgaire-prépositions"><span class="header-section-number">5.1.1.2.1</span> Repérage des traits du passage au latin vulgaire (Prépositions)</h4>
+<h4 class="anchored" data-anchor-id="repérage-des-traits-du-passage-au-latin-vulgaire-prépositions"><span class="header-section-number">5.3.1.2.1</span> Repérage des traits du passage au latin vulgaire (Prépositions)</h4>
 <ul>
-<li><p><strong>Latin classique :</strong> <em>Iacobus patri librum dat</em></p></li>
-<li><p><strong>Latin vulgaire :</strong> <em>Jacomos levro a ppatre donat</em></p></li>
-<li><p><strong>Latin classique :</strong> <em>Iacobus mihi librum patris dat</em></p></li>
-<li><p><strong>Latin vulgaire :</strong> <em>Jacomos me levro de patre donat</em></p></li>
+<li><strong>Latin classique :</strong> <em>Iacobus patri librum dat</em></li>
+<li><strong>Latin vulgaire :</strong> <em>Jacomos levro a ppatre donat</em></li>
+<li><strong>Latin classique :</strong> <em>Iacobus mihi librum patris dat</em></li>
+<li><strong>Latin vulgaire :</strong> <em>Jacomos me levro de patre donat</em></li>
 </ul>
 <p><img src="https://media.tenor.com/3D1mj2PapbQAAAAM/health-healthy.gif" class="img-fluid" alt="Exercise GIFs | Tenor"></p>
 </section>
 <hr>
 <p><strong>Correctif</strong></p>
 <ul>
-<li><p>Datif <span class="math inline">\(\rightarrow\)</span> Accusatif prépositionnel (a)</p>
+<li>Datif → Accusatif prépositionnel (a)
 <ul>
-<li><p>patri = Datif (complément d’objet indirect / destinataire).</p></li>
-<li><p>a ppatre = Accusatif précédé de la préposition a/ad (ancêtre du à français).</p></li>
+<li>patri = Datif (complément d’objet indirect / destinataire).</li>
+<li>a ppatre = Accusatif précédé de la préposition a/ad (ancêtre du à français).</li>
 </ul></li>
-<li><p>Génitif <span class="math inline">\(\rightarrow\)</span> Accusatif prépositionnel (<em>de</em>)</p>
+<li>Génitif → Accusatif prépositionnel (<em>de</em>)
 <ul>
-<li><p><em>patris</em> = Génitif (complément du nom / possession).</p></li>
-<li><p><em>de patre</em> = Accusatif précédé de la préposition <em>de</em> (ancêtre du <em>de</em> français).</p></li>
+<li><em>patris</em> = Génitif (complément du nom / possession).</li>
+<li><em>de patre</em> = Accusatif précédé de la préposition <em>de</em> (ancêtre du <em>de</em> français).</li>
 </ul></li>
 </ul>
 <hr>
 </section>
 <section id="très-ancien-français" class="level3">
-<h3 class="anchored" data-anchor-id="très-ancien-français"><span class="header-section-number">5.1.1.3</span> Très ancien français</h3>
-<p>La déclinaison nominale bicasuelle est clairement attestée dans les <em>Serments de Strasbourg</em>, où <em>Deus</em>, <em>Lodhuuigs</em>, <em>Karlus</em> s’opposent à <em>Deo</em>, <em>Loduuuig</em>, <em>Karlo/Karle</em>&nbsp;:</p>
+<h3 class="anchored" data-anchor-id="très-ancien-français"><span class="header-section-number">5.3.1.3</span> Très ancien français</h3>
+<p>La déclinaison nominale bicasuelle est clairement attestée dans les <em>Serments de Strasbourg</em>, où <em>Deus</em>, <em>Lodhuuigs</em>, <em>Karlus</em> s’opposent à <em>Deo</em>, <em>Loduuuig</em>, <em>Karlo/Karle</em> :</p>
 <blockquote class="blockquote">
-<p>Pro <strong>Deo</strong> amour et pro christian poblo et nostre commun saluament, dist di in avant, in quant <strong>Deus</strong> sauir et podir me dunat, si saluarai eo cist meon fradre <strong>Karlo</strong> et in aiudha et in cadhuna cosa, si cum om per dreit son fradra saluar dift, in o quid il mi altresi fazet. Et ab Ludher nul plaid nunqua’m prindrai qui, meon uol, cist meon fradre <strong>Karle</strong> in damno sit.<br>
-Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iurat conseruat, et <strong>Karlus</strong>, meos sendra, de suo part non lo’s tanit, si io returnar non l’int pois, ne io ne neuls cui eo returnar int pois, in nulla aiudha contra <strong>Loduuuig</strong> nun li iu er.</p>
+<p>Pro <strong>Deo</strong> amour et pro christian poblo et nostre commun saluament, dist di in avant, in quant <strong>Deus</strong> sauir et podir me dunat, si saluarai eo cist meon fradre <strong>Karlo</strong> et in aiudha et in cadhuna cosa, si cum om per dreit son fradra saluar dift, in o quid il mi altresi fazet. Et ab Ludher nul plaid nunqua’m prindrai qui, meon uol, cist meon fradre <strong>Karle</strong> in damno sit.</p>
+<p>Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iurat conseruat, et <strong>Karlus</strong>, meos sendra, de suo part non lo’s tanit, si io returnar non l’int pois, ne io ne neuls cui eo returnar int pois, in nulla aiudha contra <strong>Loduuuig</strong> nun li iu er.</p>
 </blockquote>
 <hr>
 <ul>
-<li><p>Afin de rendre la présentation aussi simple que possible, quatre classes nominales de base sont présentées</p>
+<li>Afin de rendre la présentation aussi simple que possible, quatre classes nominales de base sont présentées
 <ol type="1">
-<li><p>Classe 1 : Noms, adjectifs et participes masculins du type <em>mur(s)</em> / <em>bon(s)</em></p></li>
-<li><p>Classe 2 : Noms, adjectifs et participes féminins du type <em>fille(s)</em> / <em>bone(s)</em></p></li>
-<li><p>Classe 3 : Noms, adjectifs et participes féminins se terminant par une consonne du type <em>flor(s)</em> / <em>grant (granz)</em></p></li>
-<li><p>Classe 4 : Noms et adjectifs à deux radicaux du type <em>sire</em> / <em>mieudre</em></p></li>
+<li>Classe 1 : Noms, adjectifs et participes masculins du type <em>mur(s)</em> / <em>bon(s)</em></li>
+<li>Classe 2 : Noms, adjectifs et participes féminins du type <em>fille(s)</em> / <em>bone(s)</em></li>
+<li>Classe 3 : Noms, adjectifs et participes féminins se terminant par une consonne du type <em>flor(s)</em> / <em>grant (granz)</em></li>
+<li>Classe 4 : Noms et adjectifs à deux radicaux du type <em>sire</em> / <em>mieudre</em></li>
 </ol></li>
 </ul>
 <hr>
 <section id="classe-1" class="level4">
-<h4 class="anchored" data-anchor-id="classe-1"><span class="header-section-number">5.1.1.3.1</span> Classe 1</h4>
+<h4 class="anchored" data-anchor-id="classe-1"><span class="header-section-number">5.3.1.3.1</span> Classe 1</h4>
 <p>Noms issus de parisyllabiques masculins latins :</p>
 <ul>
-<li><p>L’essentiel des noms et adjectifs masculins de l’AF.</p></li>
-<li><p>Formes parisyllabiques : formes ayant le même nombre de syllabes pour les deux formes casuelles.</p></li>
-<li><p>Contrairement aux formes imparisyllabiques.</p></li>
+<li>L’essentiel des noms et adjectifs masculins de l’AF.</li>
+<li>Formes parisyllabiques : formes ayant le même nombre de syllabes pour les deux formes casuelles.</li>
+<li>Contrairement aux formes imparisyllabiques.</li>
 </ul>
+<hr>
+<p><strong>Classe 1 : paradigme</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -538,22 +586,24 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <col style="width: 20%">
 <col style="width: 20%">
 </colgroup>
+<thead>
+<tr class="header">
+<th><strong>Forme latine (Singulier)</strong></th>
+<th><strong>Forme latine (Pluriel)</strong></th>
+<th><strong>Cas</strong></th>
+<th><strong>Ancien français (Singulier)</strong></th>
+<th><strong>Ancien français (Pluriel)</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Forme latine (Singulier)</strong></td>
-<td><strong>Forme latine (Pluriel)</strong></td>
-<td><strong>Cas</strong></td>
-<td><strong>Ancien français (Singulier)</strong></td>
-<td><strong>Ancien français (Pluriel)</strong></td>
-</tr>
-<tr class="even">
 <td><em>muru<strong>s</strong></em></td>
 <td><em>muri</em></td>
 <td><strong>Cas Sujet</strong></td>
 <td>(li) mur<strong>s</strong></td>
 <td>(li) mur</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><em>muru(m)</em></td>
 <td><em>muro<strong>s</strong></em></td>
 <td><strong>Cas Régime</strong></td>
@@ -565,11 +615,15 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <hr>
 <p>Sous-classe des masculins parisyllabiques :</p>
 <ul>
-<li><p><strong>Particularité de l’étymon latin :</strong> Noms et adjectifs dont le nominatif singulier ne comporte pas de <code>-s</code> final (<em>ex. latin magister, asper</em>).</p></li>
-<li><p><strong>Formes en Ancien Français (AF) :</strong> Évolution vers <em>maistre(s)</em>, <em>aspre(s)</em>.</p></li>
-<li><p><strong>Apparition d’un <code>-s</code> analogique :</strong> Au Cas Sujet Singulier (CSS), ces formes reçoivent un <code>-s</code> par analogie avec le modèle général des masculins.</p></li>
-<li><p><strong>Aire de conservation :</strong> Phénomène observé dans les dialectes qui conservent la déclinaison bicasuelle.</p></li>
+<li><strong>Particularité de l’étymon latin :</strong> Noms et adjectifs dont le nominatif singulier ne comporte pas de <code>-s</code> final (<em>ex. latin magister, asper</em>).</li>
+<li><strong>Formes en ancien français :</strong> Évolution vers <em>maistre(s)</em>, <em>aspre(s)</em>.</li>
+<li><strong>Apparition d’un <code>-s</code> analogique :</strong> Au Cas Sujet Singulier (CSS), ces formes reçoivent un <code>-s</code> par analogie avec le modèle général des masculins.
+<ul>
+<li><strong>Aire de conservation :</strong> Phénomène observé dans les dialectes qui conservent la déclinaison bicasuelle.</li>
+</ul></li>
 </ul>
+<hr>
+<p><strong>Sous-classe : paradigme</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -578,22 +632,24 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <col style="width: 20%">
 <col style="width: 20%">
 </colgroup>
+<thead>
+<tr class="header">
+<th><strong>Forme latine (Singulier)</strong></th>
+<th><strong>Forme latine (Pluriel)</strong></th>
+<th><strong>Cas</strong></th>
+<th><strong>Ancien français (Singulier)</strong></th>
+<th><strong>Ancien français (Pluriel)</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Forme latine (Singulier)</strong></td>
-<td><strong>Forme latine (Pluriel)</strong></td>
-<td><strong>Cas</strong></td>
-<td><strong>Ancien français (Singulier)</strong></td>
-<td><strong>Ancien français (Pluriel)</strong></td>
-</tr>
-<tr class="even">
 <td><em>magister</em> ??</td>
 <td><em>magistri</em></td>
 <td><strong>Cas Sujet (CS)</strong></td>
 <td>(li) maistre<strong>(s)</strong></td>
 <td>(li) maistre</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><em>magistru(m)</em></td>
 <td><em>magistros</em></td>
 <td><strong>Cas Régime (CR)</strong></td>
@@ -605,15 +661,14 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <hr>
 </section>
 <section id="classe-2" class="level4">
-<h4 class="anchored" data-anchor-id="classe-2"><span class="header-section-number">5.1.1.3.2</span> Classe 2</h4>
+<h4 class="anchored" data-anchor-id="classe-2"><span class="header-section-number">5.3.1.3.2</span> Classe 2</h4>
 <ul>
 <li>La classe la plus importante des noms féminin, référant à des animés et des inanimés.</li>
+<li>Abandon de la déclinaison casuelle, non seulement au singulier, où les formes se confondaient déjà en latin tardif…</li>
+<li>Mais aussi au pluriel, où les formes auraient pu conserver une déclinaison casuelle à l’aide de la présence / absence de l’-s final. Néanmoins, aucune forme du féminin de cette classe ne garde de trace de déclinaison.</li>
 </ul>
-<!-- -->
-<ul>
-<li><p>Abandon de la déclinaison casuelle, non seulement au singulier, où les formes se confondaient déjà en latin tardif…</p></li>
-<li><p>Mais aussi au pluriel, où les formes auraient pu conserver une déclinaison casuelle à l’aide de la présence / absence de l’-s final. Néanmoins, aucune forme du féminin de cette classe ne garde de trace de déclinaison.</p></li>
-</ul>
+<hr>
+<p><strong>Classe 2 : paradigme</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -622,22 +677,24 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <col style="width: 20%">
 <col style="width: 20%">
 </colgroup>
+<thead>
+<tr class="header">
+<th><strong>Forme latine (Singulier)</strong></th>
+<th><strong>Forme latine (Pluriel)</strong></th>
+<th><strong>Cas</strong></th>
+<th><strong>Ancien français (Singulier)</strong></th>
+<th><strong>Ancien français (Pluriel)</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Forme latine (Singulier)</strong></td>
-<td><strong>Forme latine (Pluriel)</strong></td>
-<td><strong>Cas</strong></td>
-<td><strong>Ancien français (Singulier)</strong></td>
-<td><strong>Ancien français (Pluriel)</strong></td>
-</tr>
-<tr class="even">
 <td><em>femina</em></td>
 <td>feminae -&gt; feminas</td>
 <td><strong>Cas Sujet (CS)</strong></td>
 <td>(la) feme</td>
 <td>(les) feme<strong>s</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>femina(m)</td>
 <td>feminas</td>
 <td><strong>Cas Régime (CR)</strong></td>
@@ -649,17 +706,23 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <hr>
 </section>
 <section id="classe-3" class="level4">
-<h4 class="anchored" data-anchor-id="classe-3"><span class="header-section-number">5.1.1.3.3</span> Classe 3</h4>
+<h4 class="anchored" data-anchor-id="classe-3"><span class="header-section-number">5.3.1.3.3</span> Classe 3</h4>
 <ul>
 <li>De noms et adjectifs féminins qui se terminent en AF par une consonne : la classe 3.</li>
-</ul>
-<!-- -->
+<li>Les noms réfèrent avant tout à des inanimés comme
 <ul>
-<li><p>Les noms réfèrent avant tout à des inanimés comme <em>flors</em> / <em>flor</em>, <em>maisons</em> / <em>maison</em>, <em>mers</em> / <em>mer</em>, ou à des notions abstraites comme <em>citez</em> / <em>cité</em>, <em>vertuz</em> / <em>vertu</em>.</p></li>
-<li><p>L’étymon latin appartient généralement à la troisième déclinaison latine.</p></li>
-<li><p>Le paradigme est devenu parisyllabique dès les premiers textes en français.</p></li>
-<li><p>Il s’agit sans doute d’une régularisation analogique sur le paradigme masculin, dans la mesure où ces cas sujet analogiques existent en particulier dans les dialectes qui conservent la déclinaison.</p></li>
+<li><em>flors</em> / <em>flor</em>, <em>maisons</em> / <em>maison</em>, <em>mers</em> / <em>mer</em>,</li>
+</ul></li>
+<li>ou à des notions abstraites comme
+<ul>
+<li><em>citez</em> / <em>cité</em>, <em>vertuz</em> / <em>vertu</em>.</li>
+</ul></li>
+<li>L’étymon latin appartient généralement à la troisième déclinaison latine.</li>
+<li>Le paradigme est devenu parisyllabique dès les premiers textes en français.</li>
+<li>Il s’agit sans doute d’une régularisation analogique sur le paradigme masculin, dans la mesure où ces CS analogiques existent en particulier dans les dialectes qui conservent la déclinaison.</li>
 </ul>
+<hr>
+<p><strong>Classe 3 : paradigme</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -668,22 +731,24 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <col style="width: 20%">
 <col style="width: 20%">
 </colgroup>
+<thead>
+<tr class="header">
+<th><strong>Forme latine (Singulier)</strong></th>
+<th><strong>Forme latine (Pluriel)</strong></th>
+<th><strong>Cas</strong></th>
+<th><strong>Ancien français (Singulier)</strong></th>
+<th><strong>Ancien français (Pluriel)</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Forme latine (Singulier)</strong></td>
-<td><strong>Forme latine (Pluriel)</strong></td>
-<td><strong>Cas</strong></td>
-<td><strong>Ancien français (Singulier)</strong></td>
-<td><strong>Ancien français (Pluriel)</strong></td>
-</tr>
-<tr class="even">
 <td><em>gens -&gt; gentis</em></td>
 <td>gentes</td>
 <td><strong>Cas Sujet (CS)</strong></td>
 <td>(la) gen(z)</td>
 <td>(les) gens /genz</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>gente(m)</td>
 <td>gentes</td>
 <td><strong>Cas Régime (CR)</strong></td>
@@ -692,19 +757,19 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 </tr>
 </tbody>
 </table>
+<hr>
 <p><img src="images/clipboard-1955112085.png" class="img-fluid"></p>
 <hr>
 </section>
 <section id="classe-4" class="level4">
-<h4 class="anchored" data-anchor-id="classe-4"><span class="header-section-number">5.1.1.3.4</span> Classe 4</h4>
+<h4 class="anchored" data-anchor-id="classe-4"><span class="header-section-number">5.3.1.3.4</span> Classe 4</h4>
 <ul>
 <li>Il existe un certain nombre de sous-classes comprenant non seulement des formes du masculin, mais aussi du féminin.</li>
+<li>Les noms réfèrent essentiellement à des animés, surtout à des humains.</li>
+<li>Le cas sujet pluriel des masculins des diverses sous-classes s’aligne sur celui des masculins parisyllabiques.</li>
 </ul>
-<!-- -->
-<ul>
-<li><p>Les noms réfèrent essentiellement à des animés, surtout à des humains.</p></li>
-<li><p>Le cas sujet pluriel des masculins des diverses sous-classes s’aligne sur celui des masculins parisyllabiques.</p></li>
-</ul>
+<hr>
+<p><strong>Classe 4 : paradigme (masculin)</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -713,22 +778,24 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <col style="width: 20%">
 <col style="width: 20%">
 </colgroup>
+<thead>
+<tr class="header">
+<th><strong>Forme latine (Singulier)</strong></th>
+<th><strong>Forme latine (Pluriel)</strong></th>
+<th><strong>Cas</strong></th>
+<th><strong>Ancien français (Singulier)</strong></th>
+<th><strong>Ancien français (Pluriel)</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Forme latine (Singulier)</strong></td>
-<td><strong>Forme latine (Pluriel)</strong></td>
-<td><strong>Cas</strong></td>
-<td><strong>Ancien français (Singulier)</strong></td>
-<td><strong>Ancien français (Pluriel)</strong></td>
-</tr>
-<tr class="even">
 <td>latro</td>
 <td>latroni</td>
 <td><strong>Cas Sujet (CS)</strong></td>
 <td>(li) lerre(s)</td>
 <td>(li) larron</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>latrone(m)</td>
 <td>latrones</td>
 <td><strong>Cas Régime (CR)</strong></td>
@@ -740,11 +807,10 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <hr>
 <ul>
 <li>Le cas sujet féminin conserve l’absence étymologique de distinction casuelle au pluriel, caractéristique de tous les noms (et adjectifs) féminins.</li>
-</ul>
-<!-- -->
-<ul>
 <li>Par contre, le cas sujet singulier féminin garde la possibilité de se distinguer à l’aide de l’-s final.</li>
 </ul>
+<hr>
+<p><strong>Classe 4 : paradigme (féminin)</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -753,22 +819,24 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 <col style="width: 20%">
 <col style="width: 20%">
 </colgroup>
+<thead>
+<tr class="header">
+<th><strong>Forme latine (Singulier)</strong></th>
+<th><strong>Forme latine (Pluriel)</strong></th>
+<th><strong>Cas</strong></th>
+<th><strong>Ancien français (Singulier)</strong></th>
+<th><strong>Ancien français (Pluriel)</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Forme latine (Singulier)</strong></td>
-<td><strong>Forme latine (Pluriel)</strong></td>
-<td><strong>Cas</strong></td>
-<td><strong>Ancien français (Singulier)</strong></td>
-<td><strong>Ancien français (Pluriel)</strong></td>
-</tr>
-<tr class="even">
 <td>soror</td>
 <td>sorores</td>
 <td><strong>Cas Sujet (CS)</strong></td>
 <td>(la) suer(s)</td>
 <td>(les) serors</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>sorore(m)</td>
 <td>sorores</td>
 <td><strong>Cas Régime (CR)</strong></td>
@@ -778,203 +846,220 @@ Si <strong>Lodhuuigs</strong> sagrament que son fradre <strong>Karlo</strong> iu
 </tbody>
 </table>
 <hr>
+<section id="exercice-1-identifier-le-cas" class="level5">
+<h5 class="anchored" data-anchor-id="exercice-1-identifier-le-cas"><span class="header-section-number">5.3.1.3.4.1</span> Exercice 1 : identifier le cas</h5>
+<p>Pour chaque mot en gras, indiquez le <strong>cas</strong> (CS ou CR) et le <strong>nombre</strong> (singulier ou pluriel). Justifiez.</p>
+<div style="font-size:0.55em">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Extrait</th>
+<th>Cas</th>
+<th>Nombre</th>
+<th>Justification</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Sa <strong>suer</strong> est d’une chambre issue <em>(Wace, Brut, v. 14273)</em><br><span class="violet">‘Sa sœur est sortie d’une chambre’</span></td>
+<td><span class="fragment" data-fragment-index="1">CS</span></td>
+<td><span class="fragment" data-fragment-index="1">sing.</span></td>
+<td><span class="fragment" data-fragment-index="1">Sujet de <em>est issue</em> ; classe 4, forme sujet <em>suer</em> (CR <em>seror</em>)</span></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Tristran s’en torne avoc son <strong>mestre</strong>. <em>(Béroul, Tristan, v. 2451)</em><br><span class="violet">‘Tristan s’en va avec son maître d’armes’</span></td>
+<td><span class="fragment" data-fragment-index="2">CR</span></td>
+<td><span class="fragment" data-fragment-index="2">sing.</span></td>
+<td><span class="fragment" data-fragment-index="2">Complément de la préposition <em>avoc</em> ; classe 1, sans -s</span></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>…la est remés la <strong>genz</strong> menue <em>(Eneas, v. 3193)</em><br><span class="violet">‘là sont restées les petites gens’</span></td>
+<td><span class="fragment" data-fragment-index="3">CS</span></td>
+<td><span class="fragment" data-fragment-index="3">sing.</span></td>
+<td><span class="fragment" data-fragment-index="3">Sujet de <em>est remés</em> (verbe et article au singulier) ; classe 3, -z analogique</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Turnat sa teste vers la paiene <strong>gent</strong> <em>(Roland, v. 2360)</em><br><span class="violet">‘Il tourna sa tête vers les païens’</span></td>
+<td><span class="fragment" data-fragment-index="4">CR</span></td>
+<td><span class="fragment" data-fragment-index="4">sing.</span></td>
+<td><span class="fragment" data-fragment-index="4">Complément de la préposition <em>vers</em> ; classe 3, sans -s</span></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>…trois faees <strong>serors</strong> la firent <em>(Eneas, v. 4015)</em><br><span class="violet">‘Trois fées sœurs la firent’</span></td>
+<td><span class="fragment" data-fragment-index="5">CS</span></td>
+<td><span class="fragment" data-fragment-index="5">plur.</span></td>
+<td><span class="fragment" data-fragment-index="5">Sujet de <em>firent</em> ; classe 4, radical du régime + -s</span></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>…une <strong>fame</strong> estoit dame de tot lo regne. <em>(Eneas, v. 553)</em><br><span class="violet">‘Une femme régnait sur tout le pays’</span></td>
+<td><span class="fragment" data-fragment-index="6">CS</span></td>
+<td><span class="fragment" data-fragment-index="6">sing.</span></td>
+<td><span class="fragment" data-fragment-index="6">Sujet de <em>estoit</em> ; classe 2, pas de distinction casuelle</span></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Mot ot li <strong>mestre</strong> Tristran chier <em>(Béroul, Tristan, v. 971)</em><br><span class="violet">‘Son maître d’armes avait beaucoup d’affection pour Tristan’</span></td>
+<td><span class="fragment" data-fragment-index="7">CS</span></td>
+<td><span class="fragment" data-fragment-index="7">sing.</span></td>
+<td><span class="fragment" data-fragment-index="7">Sujet de <em>ot</em> (verbe au singulier, article sujet <em>li</em>) ; classe 1 sans -s (lat. <em>magister</em>)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
 </section>
-<section id="exercice" class="level4">
-<h4 class="anchored" data-anchor-id="exercice"><span class="header-section-number">5.1.1.3.5</span> Exercice</h4>
-<p>Identifiez le cas (Cas Sujet ou Cas Régime) ainsi que le nombre (Singulier ou Pluriel) du mot en gras dans chaque extrait en ancien français.</p>
-<ol type="1">
-<li><p>Sa <strong>suer</strong> est d’une chambre issue (Wace, Brut, v. 14273)</p></li>
-<li><p>Tristran s’en torne avoc son <strong>mestre</strong>. (Béroul, Tristan, v. 2451)</p></li>
-<li><p>…cil qui de ce furent <strong>mestre</strong> les ont d’erbe fresche jonchiez. (Renart leaks/Dole, v. 337)</p></li>
-<li><p>…par le conseil de ses granz <strong>mestres</strong> (Renart Dole, v. 2840)</p></li>
-<li><p>…la est remés la <strong>genz</strong> menue (Eneas, v. 3193)</p></li>
-<li><p>Ad une voiz crient la <strong>gent</strong> menude (St Alexis, v. 531)</p></li>
-<li><p>Turnat sa teste vers la paiene <strong>gent</strong> (Roland, v. 2360)</p></li>
-<li><p>…anviron lui vienent ses <strong>genz</strong> (Eneas, v. 5922)</p></li>
-<li><p>Se puis veeir ma gente <strong>sorur</strong> Alde (Roland, v. 1720)</p></li>
-<li><p>…trois faees <strong>serors</strong> la firent (Eneas, v. 4015)</p></li>
-<li><p>…il parolent des deus <strong>serors</strong> (Chrétien de Troyes, Yvain, v. 6158)</p></li>
-<li><p>…une <strong>fame</strong> estoit dame de tot lo regne. (Eneas, v. 553)</p></li>
-<li><p>Ne reverrunt lor <strong>meres</strong> ne lor <strong>femmes</strong>. (Roland, v. 1402)</p></li>
-<li><p>Mot ot li mestre Tristran <strong>chier</strong> (Béroul, Tristan, v. 971) <em>(Attention : ici, observez bien la nature grammaticale ou le groupe)</em></p></li>
-</ol>
+<section id="exercice-2-écrire-en-ancien-français" class="level5">
+<h5 class="anchored" data-anchor-id="exercice-2-écrire-en-ancien-français"><span class="header-section-number">5.3.1.3.4.2</span> Exercice 2 : écrire en ancien français</h5>
+<p>Complétez avec la bonne forme du nom entre crochets, puis indiquez le cas et le nombre.</p>
+<div style="font-size:0.55em">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Extrait</th>
+<th>Forme</th>
+<th>Cas et nombre</th>
+<th>Justification</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>…cil qui de ce furent _____ les ont d’erbe fresche jonchiez. <strong>[mestre]</strong> <em>(Renart leaks/Dole, v. 337)</em><br><span class="violet">‘ceux qui étaient chargés (maîtres) de préparer des lieux les ont jonchés d’herbe fraîche’</span></td>
+<td><strong>me/aistre</strong></td>
+<td><span class="fragment" data-fragment-index="1">CS plur.</span></td>
+<td><span class="fragment" data-fragment-index="1">Attribut du sujet pluriel <em>cil</em> ; CS pluriel sans -s</span></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>…par le conseil de ses granz _____ <strong>[mestre]</strong> <em>(Renart Dole, v. 2840)</em><br><span class="violet">‘sur le conseil de ses grands maîtres’</span></td>
+<td><strong>me/aistres</strong></td>
+<td><span class="fragment" data-fragment-index="2">CR plur.</span></td>
+<td><span class="fragment" data-fragment-index="2">Complément du nom <em>conseil</em> (après <em>de</em>) ; CR pluriel en -s</span></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Ad une voiz crient la _____ menude <strong>[gent]</strong> <em>(St Alexis, v. 531)</em><br><span class="violet">‘Les petites gens crient d’une même voix’</span></td>
+<td><strong>gent/z</strong></td>
+<td><span class="fragment" data-fragment-index="3">CS sing.</span></td>
+<td><span class="fragment" data-fragment-index="3">Sujet de <em>crient</em> (collectif) ; forme étymologique sans -s</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>…anviron lui vienent ses _____ <strong>[gent]</strong> <em>(Eneas, v. 5922)</em><br><span class="violet">‘Ses gens viennent autour de lui’</span></td>
+<td><span class="fragment" data-fragment-index="4"><strong>genz</strong></span></td>
+<td><span class="fragment" data-fragment-index="4">CS plur.</span></td>
+<td><span class="fragment" data-fragment-index="4">Sujet de <em>vienent</em> ; pluriel en -z</span></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Se puis veeir ma gente _____ Alde <strong>[suer]</strong> <em>(Roland, v. 1720)</em><br><span class="violet">‘Si je peux voir ma sœur Aude’</span></td>
+<td><span class="fragment" data-fragment-index="5"><strong>sorur</strong></span></td>
+<td><span class="fragment" data-fragment-index="5">CR sing.</span></td>
+<td><span class="fragment" data-fragment-index="5">COD de <em>veeir</em> ; radical du régime, pas <em>suer</em></span></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>…il parolent des deus _____ <strong>[suer]</strong> <em>(Chrétien de Troyes, Yvain, v. 6158)</em><br><span class="violet">‘Ils parlent des deux sœurs’</span></td>
+<td><span class="fragment" data-fragment-index="6"><strong>serors</strong></span></td>
+<td><span class="fragment" data-fragment-index="6">CR plur.</span></td>
+<td><span class="fragment" data-fragment-index="6">Complément prépositionnel (<em>des</em> = <em>de</em> + <em>les</em>) ; radical du régime + -s</span></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Ne reverrunt lor meres ne lor _____ <strong>[feme]</strong> <em>(Roland, v. 1402)</em><br><span class="violet">‘Ils ne reverront ni leurs mères, ni leurs femmes’</span></td>
+<td><span class="fragment" data-fragment-index="7"><strong>femmes</strong></span></td>
+<td><span class="fragment" data-fragment-index="7">CR plur.</span></td>
+<td><span class="fragment" data-fragment-index="7">COD de <em>reverrunt</em> ; classe 2, pluriel en -s</span></td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr>
 </section>
 </section>
-<section id="version-avec-traductions-pour-vous-aider" class="level2">
-<h2 class="anchored" data-anchor-id="version-avec-traductions-pour-vous-aider"><span class="header-section-number">5.1.2</span> Version avec traductions pour vous aider</h2>
-<p>Identifiez le cas (Cas Sujet ou Cas Régime) ainsi que le nombre (Singulier ou Pluriel) du mot en gras dans chaque extrait en ancien français.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Astuce
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Pour identifier correctement le cas (<strong>Cas Sujet</strong> ou <strong>Cas Régime</strong>) ainsi que le nombre (<strong>Singulier</strong> ou <strong>Pluriel</strong>) d’un nom en ancien français, appuyez-vous systématiquement sur les <strong>trois indices</strong> suivants :</p>
-<ol type="1">
-<li><strong>Le genre du mot</strong> : Détermine la classe morphologique (masculin ou féminin).</li>
-<li><strong>La marque flexionnelle</strong> : Présence ou absence du <em>-s</em> (ou <em>-z</em>) final.</li>
-<li><strong>La fonction syntaxique</strong> :
-<ul>
-<li>Sujet ou attribut du sujet <span class="math inline">\(\rightarrow\)</span> <strong>Cas Sujet (CS)</strong></li>
-<li>Complément (COD, COI, complément du nom, complément prépositionnel, etc.) <span class="math inline">\(\rightarrow\)</span> <strong>Cas Régime (CR)</strong></li>
-</ul></li>
-</ol>
-</div>
-</div>
-<ol type="1">
-<li><p>Sa <strong>suer</strong> est d’une chambre issue (Wace, Brut, v. 14273 : ‘Sa sœur est sortie d’une chambre’)</p></li>
-<li><p>Tristran s’en torne avoc son <strong>mestre</strong>. (Béroul, Tristan, v. 2451 : ‘Tristan s’en va avec son maître d’armes’)</p></li>
-<li><p>…cil qui de ce furent <strong>mestre</strong> les ont d’erbe fresche jonchiez. (Renart leaks/Dole, v. 337 : ‘ceux qui étaient chargés de préparer des lieux les ont jonchés d’herbe fraîche’)</p></li>
-<li><p>…par le conseil de ses granz <strong>mestres</strong> (Renart Dole, v. 2840)</p></li>
-<li><p>…la est remés la <strong>genz</strong> menue (Eneas, v. 3193 : ‘là sont restées les petites gens’)</p></li>
-<li><p>Ad une voiz crient la <strong>gent</strong> menude (St Alexis, v. 531 : ‘Les petites gens crient d’une même voix’)</p></li>
-<li><p>Turnat sa teste vers la paiene <strong>gent</strong> (Roland, v. 2360 : ‘Il tourna sa tête vers les païens’)</p></li>
-<li><p>…anviron lui vienent ses <strong>genz</strong> (Eneas, v. 5922 : ‘Ses gens viennent autour de lui’)</p></li>
-<li><p>Se puis veeir ma gente <strong>sorur</strong> Alde (Roland, v. 1720 : ‘Si je peux voir ma sœur Aude’)</p></li>
-<li><p>…trois faees <strong>serors</strong> la firent (Eneas, v. 4015 : ‘Trois fées sœurs la firent’)</p></li>
-<li><p>…il parolent des deus <strong>serors</strong> (Chrétien de Troyes, Yvain, v. 6158 : ‘Ils parlent des deux sœurs’)</p></li>
-<li><p>…une <strong>fame</strong> estoit dame de tot lo regne. (Eneas, v. 553 : ‘Une femme régnait sur tout le pays’)</p></li>
-<li><p>Ne reverrunt lor <strong>meres</strong> ne lor <strong>femmes</strong>. (Roland, v. 1402 : ‘Ils ne reverront ni leurs mères, ni leurs femmes’)</p></li>
-<li><p>Mot ot li mestre Tristran <strong>chier</strong> (Béroul, Tristan, v. 971 : ‘Son maître d’armes avait beaucoup d’affection pour Tristan’)</p></li>
-</ol>
-<hr>
-<p><strong>Correctif détaillé</strong></p>
-<ol type="1">
-<li><p><strong>suer</strong> : <strong>Cas Sujet Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Nom féminin imparisyllabique (étymon <em>soror</em>). Forme sujet singulier sans <em>-s</em>.</li>
-</ul></li>
-<li><p><strong>mestre</strong> : <strong>Cas Régime Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Masculin parisyllabique issu du latin <em>magister</em> (régime singulier sans <em>-s</em>).</li>
-</ul></li>
-<li><p><strong>mestre</strong> : <strong>Cas Sujet Pluriel</strong></p>
-<ul>
-<li><em>Explication :</em> Masculin parisyllabique au sujet pluriel (absence étymologique de <em>-s</em>).</li>
-</ul></li>
-<li><p><strong>mestres</strong> : <strong>Cas Régime Pluriel</strong></p>
-<ul>
-<li><em>Explication :</em> Masculin parisyllabique au régime pluriel (présence du <em>-s</em> du régime pluriel).</li>
-</ul></li>
-<li><p><strong>genz</strong> : <strong>Cas Sujet Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin classe 3 avec <em>-z</em> (<em>-s</em>) analogique au cas sujet singulier.</li>
-</ul></li>
-<li><p><strong>gent</strong> : <strong>Cas Sujet Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin classe 3 sous sa forme étymologique (sans <em>-s</em> au cas sujet singulier).</li>
-</ul></li>
-<li><p><strong>gent</strong> : <strong>Cas Régime Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin classe 3 au cas régime singulier (forme sans <em>-s</em>).</li>
-</ul></li>
-<li><p><strong>genz</strong> : <strong>Cas Sujet Pluriel</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin classe 3 au cas sujet pluriel (présence de la marque de pluriel <em>-z</em> / <em>-s</em>).</li>
-</ul></li>
-<li><p><strong>sorur</strong> : <strong>Cas Régime Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin imparisyllabique au régime singulier (modification du radical <em>suer</em> →→ <em>sorur</em>).</li>
-</ul></li>
-<li><p><strong>serors</strong> : <strong>Cas Sujet Pluriel</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin imparisyllabique au sujet pluriel (radical du régime + <em>-s</em>).</li>
-</ul></li>
-<li><p><strong>serors</strong> : <strong>Cas Régime Pluriel</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin imparisyllabique au régime pluriel (régime de préposition <em>deus</em>).</li>
-</ul></li>
-<li><p><strong>fame</strong> : <strong>Cas Sujet Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin classe 1 (sans distinction casuelle au singulier).</li>
-</ul></li>
-<li><p><strong>femmes</strong> : <strong>Cas Régime Pluriel</strong></p>
-<ul>
-<li><em>Explication :</em> Féminin classe 1 au régime pluriel (COD du verbe <em>reverrunt</em>).</li>
-</ul></li>
-<li><p><strong>mestre</strong> : <strong>Cas Sujet Singulier</strong></p>
-<ul>
-<li><em>Explication :</em> Masculin parisyllabique au sujet singulier (forme étymologique sans <em>-s</em> analogique, précédée de l’article sujet <em>li</em>).</li>
-</ul></li>
-</ol>
-<hr>
+</section>
 <section id="le-genre" class="level3">
-<h3 class="anchored" data-anchor-id="le-genre"><span class="header-section-number">5.1.2.1</span> Le Genre</h3>
+<h3 class="anchored" data-anchor-id="le-genre"><span class="header-section-number">5.3.1.4</span> Le Genre</h3>
 <ul>
-<li><p>Des trois genres latins, les langues romanes conservent le masculin et le féminin, en gardant quelques vestiges du neutre.</p></li>
-<li><p>En principe, les noms français conservent le genre étymologique, sauf le neutre, mais il se produit des changements :</p>
+<li>Des trois genres latins, les langues romanes conservent le masculin et le féminin, en gardant quelques vestiges du neutre.</li>
+<li>En principe, les noms français conservent le genre étymologique, sauf le neutre, mais il se produit des changements :
 <ul>
-<li><p>Les noms abstraits imparisyllabiques masculins en <em>-or</em> deviennent des parisyllabiques féminins :</p>
+<li>Les noms abstraits imparisyllabiques masculins en <em>-or</em> deviennent des parisyllabiques féminins :
 <ul>
-<li><em>calor</em> <span class="math inline">\(\rightarrow\)</span> <em>caloris</em> &gt; <em>chaleur(s)</em> ; <em>dolor</em> <span class="math inline">\(\rightarrow\)</span> <em>doloris</em> &gt; <em>douleur(s)</em></li>
-<li>contrairement à l’espagnol <em>qué calor</em> ou à l’italien</li>
+<li><em>calor</em> → <em>caloris</em> &gt; <em>chaleur(s)</em> ; <em>dolor</em> → <em>doloris</em> &gt; <em>douleur(s)</em></li>
+<li>contrairement à l’espagnol <em>qué calor</em> (masculin) ou à l’italien che calore (masculin)</li>
 </ul></li>
-<li><p>Les noms d’arbres étaient féminins en latin et sont tous devenus masculins :</p>
+<li>Les noms d’arbres étaient féminins en latin et sont tous devenus masculins :
 <ul>
 <li><em>fraxinus</em> &gt; (le) <em>fresne</em> ; <em>pinus</em> &gt; (le) <em>pin</em></li>
 </ul></li>
-<li><p>Les noms neutres du latin sont pour la plus grande majorité réanalysés comme masculins, du fait que la forme du singulier neutre latin ressemble au masculin accusatif singulier latin :</p>
+<li>Les noms neutres du latin sont pour la plus grande majorité réanalysés comme masculins, du fait que la forme du singulier neutre latin ressemble au masculin accusatif singulier latin :
 <ul>
-<li><em>argentum</em> <span class="math inline">\(\rightarrow\)</span> (li) <em>argenz</em> / (le) <em>argent</em> ; <em>aurum</em> <span class="math inline">\(\rightarrow\)</span> (li) <em>ors</em> / (le) <em>or</em> ; <em>cornu</em> <span class="math inline">\(\rightarrow\)</span> (li) <em>corz</em> / (le) <em>cor(n)</em> ; <em>velum</em> <span class="math inline">\(\rightarrow\)</span> (li) <em>voils</em> / (le) <em>voil</em> ; <em>vinum</em> <span class="math inline">\(\rightarrow\)</span> (li) <em>vins</em> / (le) <em>vin</em></li>
+<li><em>argentum</em> → (li) <em>argenz</em> / (le) <em>argent</em> ;</li>
+<li><em>aurum</em> → (li) <em>ors</em> / (le) <em>or</em> ;</li>
+<li><em>cornu</em> → (li) <em>corz</em> / (le) <em>cor(n)</em> ;</li>
+<li><em>velum</em> → (li) <em>voils</em> / (le) <em>voil</em> ;</li>
+<li><em>vinum</em> → (li) <em>vins</em> / (le) <em>vin</em></li>
 </ul></li>
-<li><p>Au pluriel, les neutres latins se terminent en <em>-a</em>, ce qui les rend similaires à la forme du singulier nominatif de la plus grande classe des féminins, la classe 2.</p></li>
-<li><p>Par analogie, un certain nombre de noms neutres pluriels en <em>-a</em> ont été réanalysés comme des féminins singuliers :</p>
+<li>Au pluriel, les neutres latins se terminent en <em>-a</em>, ce qui les rend similaires à la forme du singulier nominatif de la plus grande classe des féminins, la classe 2.</li>
+<li>Par analogie, un certain nombre de noms neutres pluriels en <em>-a</em> ont été réanalysés comme des féminins singuliers :
 <ul>
-<li><p><em>arma</em> <span class="math inline">\(\rightarrow\)</span> (la) <em>arme</em> ; <em>corn(u)a</em> <span class="math inline">\(\rightarrow\)</span> (la) <em>corne</em> ; <em>festa</em> <span class="math inline">\(\rightarrow\)</span> (la) <em>feste</em> ; <em>folia</em> <span class="math inline">\(\rightarrow\)</span> (la) <em>feuille</em> (avec un sens parfois collectif : le feuillage) ; <em>labra</em> <span class="math inline">\(\rightarrow\)</span> (la) <em>lèvre</em> ; <em>opera</em> <span class="math inline">\(\rightarrow\)</span> (la) <em>oeuvre</em> ; <em>vela</em> <span class="math inline">\(\rightarrow\)</span> (la) <em>voile</em>.</p></li>
-<li><p>Ainsi, dans certains cas, deux noms français proviennent du même neutre latin, un nom masculin dérivé du singulier, et un nom féminin du pluriel. Ceci vaut par exemple pour les paires suivantes : <em>cor(n)</em> – <em>corne</em> ; <em>grain</em> – <em>graine</em> ; <em>tourment</em> – <em>tourmente</em> ; <em>vaisseau</em> – <em>vaisselle</em>.</p>
+<li><em>arma</em> → (la) <em>arme</em> ; <em>corn(u)a</em> → (la) <em>corne</em> ; <em>festa</em> → (la) <em>feste</em> ; <em>folia</em> → (la) <em>feuille</em> (avec un sens parfois collectif : le feuillage) ; <em>labra</em> → (la) <em>lèvre</em> ; <em>opera</em> → (la) <em>oeuvre</em> ; <em>vela</em> → (la) <em>voile</em>.</li>
+<li>Ainsi, dans certains cas, deux noms français proviennent du même neutre latin, un nom masculin dérivé du singulier, et un nom féminin du pluriel. Ceci vaut par exemple pour les paires suivantes :
+<ul>
+<li><em>grain</em> – <em>graine</em> ;</li>
+<li><em>tourment</em> – <em>tourmente</em> ;</li>
+<li><em>vaisseau</em> – <em>vaisselle</em>.
 <ul>
 <li>Remarque comparative (italien) : <em>il labbro</em> / <em>le labbra</em> ; <em>il velo</em> / <em>le vela</em> ; <em>foglio</em> / <em>fogli</em> vs <em>foglia</em> / <em>foglie</em>.</li>
 </ul></li>
 </ul></li>
 </ul></li>
+</ul></li>
 </ul>
 <hr>
 <ul>
-<li><p>Vestiges du genre neutre latin :</p>
+<li>Vestiges du genre neutre latin :
 <ul>
-<li><p>Bien que le genre neutre ait disparu en tant que catégorie globale au profit du masculin et du féminin, des traces subsistent en ancien français :</p>
+<li>Bien que le genre neutre ait disparu en tant que catégorie globale au profit du masculin et du féminin, des traces subsistent en ancien français :
 <ul>
-<li><p><strong>Constructions impersonnelles :</strong> Distinction (au moins théorique) entre le neutre et le masculin :</p>
+<li><strong>Formes obliques et expressions figées :</strong>
 <ul>
-<li><p>Neutre : <em>il / cela est bon</em> (accord au neutre, sans <em>-s</em>).</p></li>
-<li><p>Masculin : <em>il est bons</em> (avec le <em>-s</em> du cas sujet masculin appliqué à un être humain).</p></li>
-</ul></li>
-<li><p><strong>Formes obliques et expressions figées :</strong></p>
-<ul>
-<li><p>Noms de jours : Issus du génitif singulier latin, ex. <em>lunae dies</em> &gt; <em>lundi</em>.</p></li>
-<li><p>Noms de fêtes : Issus du génitif pluriel, ex. <em>[festa] candelorum</em> &gt; <em>Chandelour</em> / <em>Chandeleur</em>.</p></li>
+<li>Noms de jours : Issus du génitif singulier latin, ex. <em>lunae dies</em> &gt; <em>lundi</em>.</li>
+<li>Noms de fêtes : Issus du génitif pluriel, ex. <em>[festa] candelorum</em> &gt; <em>Chandelour</em> / <em>Chandeleur</em>.</li>
 </ul></li>
 </ul></li>
 </ul></li>
 </ul>
-<div class="side-by-side">
-<ul>
-<li><p>La réunion de plusieurs fonctions sous la seule forme du cas régime est attestée notamment par la <em>Séquence de sainte Eulalie</em>, où <em>Deo</em> est tantôt un complément du nom, tantôt un objet :</p>
-<ul>
-<li><p>Uoldrent la ueintre li <strong>Deo</strong> inimi (v. 3)</p></li>
-<li><p>La polle sempre non amast lo <strong>Deo</strong> menestier (v. 10)</p></li>
-<li><p>Qu’elle <strong>Deo</strong> raniet chi maent sus en ciel (v. 6)</p></li>
-</ul></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/John_William_Waterhouse_-_Saint_Eulalia_-_1885.jpg/250px-John_William_Waterhouse_-_Saint_Eulalia_-_1885.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" class="img-fluid figure-img"></p>
-<figcaption>Image illustrative de l’article Eulalie de Mérida</figcaption>
-</figure>
-</div>
-</div>
 <hr>
 </section>
 </section>
 <section id="le-déclin-de-la-déclinaison-bicasuelle-lancien-français-12ᵉ13ᵉ-s." class="level2">
-<h2 class="anchored" data-anchor-id="le-déclin-de-la-déclinaison-bicasuelle-lancien-français-12ᵉ13ᵉ-s."><span class="header-section-number">5.1.3</span> Le déclin de la déclinaison bicasuelle : l’ancien français (12ᵉ–13ᵉ s.)</h2>
+<h2 class="anchored" data-anchor-id="le-déclin-de-la-déclinaison-bicasuelle-lancien-français-12ᵉ13ᵉ-s."><span class="header-section-number">5.3.2</span> Le déclin de la déclinaison bicasuelle : l’ancien français (12ᵉ–13ᵉ s.)</h2>
 <section id="un-système-en-mouvement" class="level3">
-<h3 class="anchored" data-anchor-id="un-système-en-mouvement"><span class="header-section-number">5.1.3.1</span> Un système en mouvement</h3>
+<h3 class="anchored" data-anchor-id="un-système-en-mouvement"><span class="header-section-number">5.3.2.1</span> Un système en mouvement</h3>
 <ul>
 <li>Pour un lecteur peu familiarisé, l’ancien français est souvent déroutant :
 <ul>
@@ -991,7 +1076,7 @@ Astuce
 <hr>
 </section>
 <section id="où-une-désintégration-douest-en-est" class="level3">
-<h3 class="anchored" data-anchor-id="où-une-désintégration-douest-en-est"><span class="header-section-number">5.1.3.2</span> Où ? Une désintégration d’ouest en est</h3>
+<h3 class="anchored" data-anchor-id="où-une-désintégration-douest-en-est"><span class="header-section-number">5.3.2.2</span> Où ? Une désintégration d’ouest en est</h3>
 <ul>
 <li><strong>Ouest (anglo-normand, normand) :</strong> désintégration visible dès les tout premiers textes.</li>
 <li><strong>Nord et Est (Picardie, Wallonie, Lorraine, Bourgogne) :</strong> la déclinaison se maintient jusqu’au moyen français.</li>
@@ -1005,7 +1090,7 @@ Astuce
 <hr>
 </section>
 <section id="quand-chronologie" class="level3">
-<h3 class="anchored" data-anchor-id="quand-chronologie"><span class="header-section-number">5.1.3.3</span> Quand ? Chronologie</h3>
+<h3 class="anchored" data-anchor-id="quand-chronologie"><span class="header-section-number">5.3.2.3</span> Quand ? Chronologie</h3>
 <ul>
 <li><strong>XIIᵉ siècle :</strong> système de déclinaison globalement stable dans les textes.
 <ul>
@@ -1022,7 +1107,7 @@ Astuce
 <hr>
 </section>
 <section id="quel-cas-lemporte" class="level3">
-<h3 class="anchored" data-anchor-id="quel-cas-lemporte"><span class="header-section-number">5.1.3.4</span> Quel cas l’emporte ?</h3>
+<h3 class="anchored" data-anchor-id="quel-cas-lemporte"><span class="header-section-number">5.3.2.4</span> Quel cas l’emporte ?</h3>
 <ul>
 <li>Au cours de la désintégration, c’est généralement la forme du <strong>cas régime (CR)</strong> qui remplace celle du cas sujet (CS), plus rarement l’inverse.</li>
 <li>Il ne s’agit pas d’un emploi aléatoire des formes, mais d’un processus <strong>progressant de façon prévisible</strong>.</li>
@@ -1037,13 +1122,16 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>À votre avis, pourquoi est-ce le cas régime qui l’emporte ?</p>
+<ol type="1">
+<li>À votre avis, pourquoi est-ce le cas régime qui l’emporte ?</li>
+<li>À votre avis, pourquoi la déclinaison disparaît-elle ?</li>
+</ol>
 </div>
 </div>
 <hr>
 </section>
 <section id="réponse-le-poids-des-fonctions" class="level3">
-<h3 class="anchored" data-anchor-id="réponse-le-poids-des-fonctions"><span class="header-section-number">5.1.3.5</span> Réponse : le poids des fonctions</h3>
+<h3 class="anchored" data-anchor-id="réponse-le-poids-des-fonctions"><span class="header-section-number">5.3.2.5</span> Réponse : le poids des fonctions</h3>
 <ul>
 <li>Les fonctions du <strong>cas sujet</strong> sont limitées :
 <ul>
@@ -1052,26 +1140,28 @@ Note
 <li>apposition au sujet</li>
 <li>parfois l’apostrophe</li>
 </ul></li>
-<li>Le <strong>cas régime</strong> couvre toutes les autres fonctions (il cumule l’héritage de quatre cas latins).</li>
+<li>Le cas régime couvre toutes les autres fonctions (il cumule l’héritage de quatre cas latins).</li>
 <li>➡️ Les formes du cas sujet ne représentent qu’entre <strong>un tiers et un dixième</strong> des formes nominales.</li>
 </ul>
-<hr>
+<div class="hidden">
+<div class="side-by-side">
+<ul>
+<li>La réunion de plusieurs fonctions sous la seule forme du cas régime est attestée notamment par la <em>Séquence de sainte Eulalie</em>, où <em>Deo</em> est tantôt un complément du nom, tantôt un objet :
+<ul>
+<li>Uoldrent la ueintre li <strong>Deo</strong> inimi (v. 3) <em>Les ennemis de Dieu voulurent la vaincre</em></li>
+<li>Qu’elle <strong>Deo</strong> raniet chi maent sus en ciel (v. 6) <em>Qui veulent qu’elle renie Dieu qui demeure au ciel</em></li>
+<li>La polle sempre non amast lo <strong>Deo</strong> menestier (v. 10) <em>Cette fille à ce qu’elle n’aimât toujours le service de Dieu</em></li>
+</ul></li>
+</ul>
+</div>
+</div>
 </section>
 <section id="pourquoi-la-déclinaison-disparaît-elle" class="level3">
-<h3 class="anchored" data-anchor-id="pourquoi-la-déclinaison-disparaît-elle"><span class="header-section-number">5.1.3.6</span> Pourquoi la déclinaison disparaît-elle ?</h3>
-<ul>
-<li><strong>Hypothèse phonétique :</strong> l’amuïssement progressif du <em>-s</em> final aurait causé la disparition de la déclinaison.</li>
-<li><strong>Réfutation :</strong>
-<ul>
-<li>La déclinaison a aussi disparu dans d’autres langues romanes (ex. l’espagnol) où le <em>-s</em> final se prononce toujours.</li>
-<li>L’amuïssement du <em>-s</em> n’a pas fait disparaître la distinction singulier / pluriel, qui repose pourtant elle aussi sur la présence ou l’absence du <em>-s</em>.</li>
-</ul></li>
-<li><strong>Conclusion :</strong> pas de lien strictement causal entre l’amuïssement du <em>-s</em> et la fin de la déclinaison.</li>
-</ul>
-<hr>
+<h3 class="anchored" data-anchor-id="pourquoi-la-déclinaison-disparaît-elle"><span class="header-section-number">5.3.2.6</span> Pourquoi la déclinaison disparaît-elle ? |</h3>
+<div class="line-block">- <strong>Hypothèse phonétique :</strong> l’amuïssement progressif du <em>-s</em> final aurait causé la disparition de la déclinaison. - <strong>Réfutation :</strong> - La déclinaison a aussi disparu dans d’autres langues romanes (ex. l’espagnol) où le <em>-s</em> final se prononce toujours. - L’amuïssement du <em>-s</em> n’a pas fait disparaître la distinction singulier / pluriel, qui repose pourtant elle aussi sur la présence ou l’absence du <em>-s</em>. - <strong>Conclusion :</strong> pas de lien strictement causal entre l’amuïssement du <em>-s</em> et la fin de la déclinaison. |</div>
 </section>
 <section id="le-rôle-du-contexte-syntaxique" class="level3">
-<h3 class="anchored" data-anchor-id="le-rôle-du-contexte-syntaxique"><span class="header-section-number">5.1.3.7</span> Le rôle du contexte syntaxique</h3>
+<h3 class="anchored" data-anchor-id="le-rôle-du-contexte-syntaxique"><span class="header-section-number">5.3.2.7</span> Le rôle du contexte syntaxique</h3>
 <ul>
 <li>Une même forme peut correspondre à plusieurs valeurs :
 <ul>
@@ -1084,7 +1174,7 @@ Note
 <hr>
 </section>
 <section id="un-système-devenu-opaque" class="level3">
-<h3 class="anchored" data-anchor-id="un-système-devenu-opaque"><span class="header-section-number">5.1.3.8</span> Un système devenu opaque</h3>
+<h3 class="anchored" data-anchor-id="un-système-devenu-opaque"><span class="header-section-number">5.3.2.8</span> Un système devenu opaque</h3>
 <ul>
 <li>Deux changements, pas forcément liés, rendent le système opaque :
 <ol type="1">
@@ -1098,23 +1188,27 @@ Note
 </ul></li>
 <li>Le principe « une forme – une fonction » n’est plus respecté : ni le cas ni le nombre ne sont clairement distingués.</li>
 </ul>
+<hr>
 <p><img src="images/clipboard-56026232.png" class="img-fluid"></p>
 <hr>
 </section>
 <section id="les-déterminants-prennent-le-relais" class="level3">
-<h3 class="anchored" data-anchor-id="les-déterminants-prennent-le-relais"><span class="header-section-number">5.1.3.9</span> Les déterminants prennent le relais</h3>
+<h3 class="anchored" data-anchor-id="les-déterminants-prennent-le-relais"><span class="header-section-number">5.3.2.9</span> Les déterminants prennent le relais</h3>
 <ul>
-<li>Seuls les <strong>déterminants masculins</strong> gardent au cas sujet une distinction casuelle claire, au détriment du nombre (<em>li</em> = singulier et pluriel).</li>
-<li>La déclinaison des déterminants reste en vigueur <strong>plus longtemps</strong> que la déclinaison nominale (Schøsler 1984, chap.&nbsp;8 et 9).</li>
-<li>➡️ Signe que les déterminants sont en train de devenir la <strong>tête</strong> du groupe, porteuse des marques flexionnelles.</li>
+<li>Seuls les déterminants masculins gardent au cas sujet une distinction casuelle claire, au détriment du nombre (<em>li</em> = singulier et pluriel).</li>
+<li>La déclinaison des déterminants reste en vigueur plus longtemps que la déclinaison nominale (Schøsler 1984, chap.&nbsp;8 et 9).</li>
+<li>➡️ Signe que les déterminants sont en train de devenir la tête du groupe, porteuse des marques flexionnelles.</li>
 </ul>
+<div class="hidden">
+<hr>
 <p><img src="images/clipboard-3519150657.png" class="img-fluid"></p>
+</div>
 <hr>
 </section>
 <section id="la-variation-selon-lusage" class="level3">
-<h3 class="anchored" data-anchor-id="la-variation-selon-lusage"><span class="header-section-number">5.1.3.10</span> La variation selon l’usage</h3>
+<h3 class="anchored" data-anchor-id="la-variation-selon-lusage"><span class="header-section-number">5.3.2.10</span> La variation selon l’usage</h3>
 <section id="variation-diastratique-sociale" class="level4">
-<h4 class="anchored" data-anchor-id="variation-diastratique-sociale"><span class="header-section-number">5.1.3.10.1</span> Variation diastratique (sociale)</h4>
+<h4 class="anchored" data-anchor-id="variation-diastratique-sociale"><span class="header-section-number">5.3.2.10.1</span> Variation diastratique (sociale)</h4>
 <div class="side-by-side">
 <ul>
 <li>Étude des <strong>chartes luxembourgeoises</strong> (dialecte de l’Est, conservateur pour la déclinaison).</li>
@@ -1133,17 +1227,17 @@ Note
 <hr>
 </section>
 <section id="variation-diaphasique-genre-textuel" class="level4">
-<h4 class="anchored" data-anchor-id="variation-diaphasique-genre-textuel"><span class="header-section-number">5.1.3.10.2</span> Variation diaphasique (genre textuel)</h4>
+<h4 class="anchored" data-anchor-id="variation-diaphasique-genre-textuel"><span class="header-section-number">5.3.2.10.2</span> Variation diaphasique (genre textuel)</h4>
 <ul>
-<li>La déclinaison se perd d’abord dans les <strong>textes en prose</strong>, ensuite dans les <strong>textes en vers</strong>.</li>
+<li>La déclinaison se perd d’abord dans les textes en prose, ensuite dans les textes en vers.</li>
 <li>⚠️ Difficulté : le temps et l’espace interfèrent, faute de textes réellement comparables.</li>
 </ul>
 <hr>
 </section>
 <section id="variation-diamésique-oral-représenté-vs-narration" class="level4">
-<h4 class="anchored" data-anchor-id="variation-diamésique-oral-représenté-vs-narration"><span class="header-section-number">5.1.3.10.3</span> Variation diamésique (oral représenté vs narration)</h4>
+<h4 class="anchored" data-anchor-id="variation-diamésique-oral-représenté-vs-narration"><span class="header-section-number">5.3.2.10.3</span> Variation diamésique (oral représenté vs narration)</h4>
 <ul>
-<li>Un seul texte permet de le montrer : la chantefable <strong><em>Aucassin et Nicolette</em></strong> (13ᵉ s.).
+<li>Un seul texte permet de le montrer : <strong><em>Aucassin et Nicolette</em></strong> (13ᵉ s.).
 <ul>
 <li>Parties en vers et en prose, parties narratives et parties d’« oral représenté », toutes d’un même auteur.</li>
 </ul></li>
@@ -1158,9 +1252,9 @@ Note
 </section>
 </section>
 <section id="le-moyen-français-et-le-français-préclassique-14ᵉ-fin-16ᵉ-s." class="level2">
-<h2 class="anchored" data-anchor-id="le-moyen-français-et-le-français-préclassique-14ᵉ-fin-16ᵉ-s."><span class="header-section-number">5.1.4</span> Le moyen français et le français préclassique (14ᵉ – fin 16ᵉ s.)</h2>
+<h2 class="anchored" data-anchor-id="le-moyen-français-et-le-français-préclassique-14ᵉ-fin-16ᵉ-s."><span class="header-section-number">5.3.3</span> Le moyen français et le français préclassique (14ᵉ – fin 16ᵉ s.)</h2>
 <section id="contexte" class="level3">
-<h3 class="anchored" data-anchor-id="contexte"><span class="header-section-number">5.1.4.1</span> Contexte</h3>
+<h3 class="anchored" data-anchor-id="contexte"><span class="header-section-number">5.3.3.1</span> Contexte</h3>
 <div class="side-by-side">
 <ul>
 <li>Le statut du français change profondément :
@@ -1176,7 +1270,7 @@ Note
 <hr>
 </section>
 <section id="trois-grands-changements" class="level3">
-<h3 class="anchored" data-anchor-id="trois-grands-changements"><span class="header-section-number">5.1.4.2</span> Trois grands changements</h3>
+<h3 class="anchored" data-anchor-id="trois-grands-changements"><span class="header-section-number">5.3.3.2</span> Trois grands changements</h3>
 <ol type="1">
 <li>L’<strong>abandon de la déclinaison casuelle</strong></li>
 <li>Les <strong>réorganisations analogiques</strong>, en particulier des formes du féminin</li>
@@ -1188,9 +1282,9 @@ Note
 <hr>
 </section>
 <section id="labandon-de-la-déclinaison-trois-cas-de-figure" class="level3">
-<h3 class="anchored" data-anchor-id="labandon-de-la-déclinaison-trois-cas-de-figure"><span class="header-section-number">5.1.4.3</span> 1. L’abandon de la déclinaison : trois cas de figure</h3>
+<h3 class="anchored" data-anchor-id="labandon-de-la-déclinaison-trois-cas-de-figure"><span class="header-section-number">5.3.3.3</span> 1. L’abandon de la déclinaison : trois cas de figure</h3>
 <section id="a.-on-garde-le-cas-régime-règle-générale" class="level4">
-<h4 class="anchored" data-anchor-id="a.-on-garde-le-cas-régime-règle-générale"><span class="header-section-number">5.1.4.3.1</span> a. On garde le cas régime (règle générale)</h4>
+<h4 class="anchored" data-anchor-id="a.-on-garde-le-cas-régime-règle-générale"><span class="header-section-number">5.3.3.3.1</span> a. On garde le cas régime (règle générale)</h4>
 <ul>
 <li>Le cas régime est infiniment plus sollicité que le cas sujet : il cumule les fonctions de quatre anciens cas latins.</li>
 <li>C’est l’aboutissement d’un processus long de <strong>trois siècles</strong>.</li>
@@ -1198,11 +1292,11 @@ Note
 <hr>
 </section>
 <section id="b.-on-garde-le-cas-sujet-exceptions" class="level4">
-<h4 class="anchored" data-anchor-id="b.-on-garde-le-cas-sujet-exceptions"><span class="header-section-number">5.1.4.3.2</span> b. On garde le cas sujet (exceptions)</h4>
+<h4 class="anchored" data-anchor-id="b.-on-garde-le-cas-sujet-exceptions"><span class="header-section-number">5.3.3.3.2</span> b. On garde le cas sujet (exceptions)</h4>
 <ul>
 <li>Au XVᵉ s., le cas sujet ne survit plus que pour quelques noms :
 <ul>
-<li>dont l’opposition casuelle reposait sur une <strong>alternance de radical</strong> ;</li>
+<li>dont l’opposition casuelle reposait sur une alternance de radical ;</li>
 <li>et qui étaient plus fréquents au cas sujet qu’au cas régime.</li>
 </ul></li>
 <li>Il s’agit surtout de noms de personnes, souvent employés comme <strong>termes d’adresse</strong> :
@@ -1213,9 +1307,9 @@ Note
 <hr>
 </section>
 <section id="c.-on-garde-les-deux-formes-avec-des-sens-différents" class="level4">
-<h4 class="anchored" data-anchor-id="c.-on-garde-les-deux-formes-avec-des-sens-différents"><span class="header-section-number">5.1.4.3.3</span> c.&nbsp;On garde les deux formes, avec des sens différents</h4>
+<h4 class="anchored" data-anchor-id="c.-on-garde-les-deux-formes-avec-des-sens-différents"><span class="header-section-number">5.3.3.3.3</span> c.&nbsp;On garde les deux formes, avec des sens différents</h4>
 <ul>
-<li>Les deux anciennes formes casuelles deviennent <strong>deux mots distincts</strong> : <em>chantre / chanteur ; copain / compagnon ; gars / garçon ; pute / putain ; sire / seigneur / monseigneur</em>.</li>
+<li>Les deux anciennes formes casuelles deviennent <strong>deux mots distincts</strong> : <em>chantre / chanteur ; copain / compagnon ; gars / garçon ; pute / putain ; sire / seigneur</em>.</li>
 <li><strong>Différenciation sémantique :</strong>
 <ul>
 <li><em>pastre</em> (CS) / <em>pasteur</em> (CR) → <em>pâtre</em> (gardien de troupeaux) / <em>pasteur</em> (gardien des âmes)</li>
@@ -1232,11 +1326,11 @@ Note
 </section>
 </section>
 <section id="les-réorganisations-analogiques" class="level3">
-<h3 class="anchored" data-anchor-id="les-réorganisations-analogiques"><span class="header-section-number">5.1.4.4</span> 2. Les réorganisations analogiques</h3>
+<h3 class="anchored" data-anchor-id="les-réorganisations-analogiques"><span class="header-section-number">5.3.3.4</span> 2. Les réorganisations analogiques</h3>
 <section id="singulier-et-pluriel" class="level4">
-<h4 class="anchored" data-anchor-id="singulier-et-pluriel"><span class="header-section-number">5.1.4.4.1</span> Singulier et pluriel</h4>
+<h4 class="anchored" data-anchor-id="singulier-et-pluriel"><span class="header-section-number">5.3.3.4.1</span> Singulier et pluriel</h4>
 <ul>
-<li>Au XVIᵉ s., après quelques tâtonnements, on reconstruit des couples singulier / pluriel homogènes :
+<li>Au XVIᵉ s., après quelques tâtonnements, on reconstruit des paires singulier / pluriel homogènes :
 <ul>
 <li><em>chastel / chasteaux</em> → <em>chasteau / chasteaux</em> (durable)</li>
 <li><em>animal / animaux</em> → <em>animau / animaux</em> → <em>animal / animaux</em> (transitoire)</li>
@@ -1245,7 +1339,7 @@ Note
 <hr>
 </section>
 <section id="les-adjectifs-épicènes" class="level4">
-<h4 class="anchored" data-anchor-id="les-adjectifs-épicènes"><span class="header-section-number">5.1.4.4.2</span> Les adjectifs épicènes</h4>
+<h4 class="anchored" data-anchor-id="les-adjectifs-épicènes"><span class="header-section-number">5.3.3.4.2</span> Les adjectifs épicènes</h4>
 <ul>
 <li>Les adjectifs épicènes du type <em>fort, grant</em> s’alignent sur le modèle <em>bon / bone</em> :
 <ul>
@@ -1260,7 +1354,7 @@ Note
 <hr>
 </section>
 <section id="genre-ou-cas-lexemple-de-tel" class="level4">
-<h4 class="anchored" data-anchor-id="genre-ou-cas-lexemple-de-tel"><span class="header-section-number">5.1.4.4.3</span> Genre ou cas ? L’exemple de <em>tel</em></h4>
+<h4 class="anchored" data-anchor-id="genre-ou-cas-lexemple-de-tel"><span class="header-section-number">5.3.3.4.3</span> Genre ou cas ? L’exemple de <em>tel</em></h4>
 <ul>
 <li><em>Tel</em>, épicène en ancien français, montre une opposition dialectale nette :
 <ul>
@@ -1271,7 +1365,7 @@ Note
 <hr>
 </section>
 <section id="une-analogie-en-sens-inverse" class="level4">
-<h4 class="anchored" data-anchor-id="une-analogie-en-sens-inverse"><span class="header-section-number">5.1.4.4.4</span> Une analogie en sens inverse</h4>
+<h4 class="anchored" data-anchor-id="une-analogie-en-sens-inverse"><span class="header-section-number">5.3.3.4.4</span> Une analogie en sens inverse</h4>
 <ul>
 <li>Parfois, c’est le <strong>masculin qui est refait sur le féminin</strong>, par suppression du <em>-e</em> final d’une forme historiquement invariable :
 <ul>
@@ -1282,7 +1376,7 @@ Note
 <hr>
 </section>
 <section id="le-participe-présent-deux-tendances-contradictoires" class="level4">
-<h4 class="anchored" data-anchor-id="le-participe-présent-deux-tendances-contradictoires"><span class="header-section-number">5.1.4.4.5</span> Le participe présent : deux tendances contradictoires</h4>
+<h4 class="anchored" data-anchor-id="le-participe-présent-deux-tendances-contradictoires"><span class="header-section-number">5.3.3.4.5</span> Le participe présent : deux tendances contradictoires</h4>
 <ul>
 <li><strong>Généralisation de l’accord</strong> en genre et en nombre, qui gagne même le gérondif (confusion entre les deux) :
 <ul>
@@ -1296,7 +1390,7 @@ Note
 <hr>
 </section>
 <section id="les-suffixes--eur--euse" class="level4">
-<h4 class="anchored" data-anchor-id="les-suffixes--eur--euse"><span class="header-section-number">5.1.4.4.6</span> Les suffixes : <em>-eur</em> / <em>-euse</em></h4>
+<h4 class="anchored" data-anchor-id="les-suffixes--eur--euse"><span class="header-section-number">5.3.3.4.6</span> Les suffixes : <em>-eur</em> / <em>-euse</em></h4>
 <ul>
 <li>Depuis le moyen français, <em>-eur</em> se prononce comme <em>-eux</em> (/r/ final amuï).</li>
 <li>On l’associe donc à un féminin en <em>-euse</em> plutôt qu’au féminin étymologique en <em>-eresse</em> :
@@ -1314,7 +1408,7 @@ Note
 </section>
 </section>
 <section id="létablissement-du-groupe-nominal" class="level3">
-<h3 class="anchored" data-anchor-id="létablissement-du-groupe-nominal"><span class="header-section-number">5.1.4.5</span> 3. L’établissement du groupe nominal</h3>
+<h3 class="anchored" data-anchor-id="létablissement-du-groupe-nominal"><span class="header-section-number">5.3.3.5</span> 3. L’établissement du groupe nominal</h3>
 <ul>
 <li>Les <strong>articles</strong>, d’emploi sporadique jusque-là, s’installent progressivement ; au XVIᵉ s., seules quelques hésitations touchent encore l’article partitif.</li>
 <li>En remplaçant les marques flexionnelles par des prépositions et des articles, le français passe d’une langue à dominante <strong>flexionnelle</strong> à une langue à dominante <strong>syntaxique</strong>.</li>
@@ -1322,7 +1416,7 @@ Note
 </ul>
 <hr>
 <section id="du-dependent-marking-au-head-marking" class="level4">
-<h4 class="anchored" data-anchor-id="du-dependent-marking-au-head-marking"><span class="header-section-number">5.1.4.5.1</span> Du <em>dependent-marking</em> au <em>head-marking</em></h4>
+<h4 class="anchored" data-anchor-id="du-dependent-marking-au-head-marking"><span class="header-section-number">5.3.3.5.1</span> Du <em>dependent-marking</em> au <em>head-marking</em></h4>
 <ul>
 <li><strong>Latin et très ancien français :</strong> chaque élément du groupe porte ses marques de cas, de genre et de nombre (<em>dependent-marking</em>) ; la notion même de « groupe nominal » au sens moderne pose question.</li>
 <li><strong>Évolution :</strong> le français devient analytique et configurationnel ; le <strong>déterminant</strong> devient le porteur principal du genre et du nombre (<em>prédétermination</em>).</li>
@@ -1334,11 +1428,11 @@ Note
 <hr>
 </section>
 <section id="la-généralisation-des-déterminants-en-chiffres" class="level4">
-<h4 class="anchored" data-anchor-id="la-généralisation-des-déterminants-en-chiffres"><span class="header-section-number">5.1.4.5.2</span> La généralisation des déterminants en chiffres</h4>
+<h4 class="anchored" data-anchor-id="la-généralisation-des-déterminants-en-chiffres"><span class="header-section-number">5.3.3.5.2</span> La généralisation des déterminants en chiffres</h4>
 <ul>
 <li>Comparaison des traductions de Cicéron par Jean d’Antioche (XIIIᵉ s.) et par Bornecque (FMod) :
 <ul>
-<li><strong>XIIIᵉ s. :</strong> environ <span class="math inline">\(1/3\)</span> des groupes nominaux sans déterminant exprimé ;</li>
+<li><strong>XIIIᵉ s. :</strong> environ 1/3 des groupes nominaux sans déterminant exprimé ;</li>
 <li><strong>FMod :</strong> le nombre de déterminants exprimés a <strong>doublé</strong>.</li>
 </ul></li>
 </ul>
@@ -1347,9 +1441,9 @@ Note
 </section>
 </section>
 <section id="la-période-classique-17ᵉ-et-18ᵉ-s." class="level2">
-<h2 class="anchored" data-anchor-id="la-période-classique-17ᵉ-et-18ᵉ-s."><span class="header-section-number">5.1.5</span> La période classique (17ᵉ et 18ᵉ s.)</h2>
+<h2 class="anchored" data-anchor-id="la-période-classique-17ᵉ-et-18ᵉ-s."><span class="header-section-number">5.3.4</span> La période classique (17ᵉ et 18ᵉ s.)</h2>
 <section id="deux-mouvements-contrastés" class="level3">
-<h3 class="anchored" data-anchor-id="deux-mouvements-contrastés"><span class="header-section-number">5.1.5.1</span> Deux mouvements contrastés</h3>
+<h3 class="anchored" data-anchor-id="deux-mouvements-contrastés"><span class="header-section-number">5.3.4.1</span> Deux mouvements contrastés</h3>
 <ol type="1">
 <li><strong>Standardisation :</strong> les grammairiens éliminent les formes anciennes (diachronie) et dialectales (diatopie).</li>
 <li><strong>Variation :</strong> les écrits de l’époque montrent la persistance de variations liées au style et au canal (diaphasie / diamésie).</li>
@@ -1357,10 +1451,11 @@ Note
 <hr>
 </section>
 <section id="des-changements-morphologiques-limités" class="level3">
-<h3 class="anchored" data-anchor-id="des-changements-morphologiques-limités"><span class="header-section-number">5.1.5.2</span> Des changements morphologiques limités</h3>
+<h3 class="anchored" data-anchor-id="des-changements-morphologiques-limités"><span class="header-section-number">5.3.4.2</span> Des changements morphologiques limités</h3>
 <div class="side-by-side">
 <ul>
-<li>L’article <em>es</em> (enclise de <em>en les</em>) sort de l’usage au profit de <em>dans les</em> ; l’article <em>ou</em> (enclise de <em>en le</em>) est réinterprété en <em>au</em> (&lt; <em>a le</em>).</li>
+<li>L’article <em>es</em> (enclise de <em>en les</em>) sort de l’usage au profit de <em>dans les</em></li>
+<li>l’article <em>ou</em> (enclise de <em>en le</em>) est réinterprété en <em>au</em> (&lt; <em>a le</em>).</li>
 <li>La forme <em>ça</em>, réduction de <em>cela</em>, apparaît.</li>
 <li>Les relatifs du paradigme <em>lequel</em>, très nombreux en MF, reculent au profit du paradigme hérité du latin (<em>qui, que, quoi, dont, où</em>).</li>
 <li>Le pronom <em>on</em> commence à concurrencer <em>nous</em>.</li>
@@ -1375,7 +1470,7 @@ Note
 <hr>
 </section>
 <section id="le-genre-du-nom" class="level3">
-<h3 class="anchored" data-anchor-id="le-genre-du-nom"><span class="header-section-number">5.1.5.3</span> Le genre du nom</h3>
+<h3 class="anchored" data-anchor-id="le-genre-du-nom"><span class="header-section-number">5.3.4.3</span> Le genre du nom</h3>
 <ul>
 <li>Selon les grammairiens, les femmes choisiraient le féminin pour des noms que les hommes emploient au masculin (genre retenu en FMod, sauf pour <em>étude</em>) :
 <ul>
@@ -1385,9 +1480,9 @@ Note
 <hr>
 </section>
 <section id="la-variation" class="level3">
-<h3 class="anchored" data-anchor-id="la-variation"><span class="header-section-number">5.1.5.4</span> La variation</h3>
+<h3 class="anchored" data-anchor-id="la-variation"><span class="header-section-number">5.3.4.4</span> La variation</h3>
 <section id="diaphasie" class="level4">
-<h4 class="anchored" data-anchor-id="diaphasie"><span class="header-section-number">5.1.5.4.1</span> Diaphasie</h4>
+<h4 class="anchored" data-anchor-id="diaphasie"><span class="header-section-number">5.3.4.4.1</span> Diaphasie</h4>
 <ul>
 <li>Les innovations syntaxiques apparaissent d’abord dans les genres de la <strong>communication de proximité</strong>.</li>
 <li>Selon Caron (1992b), les « fautes » relevées dans l’écriture de la noblesse vers 1680 sont des faits naguère acceptables, qui deviennent archaïques à mesure que s’impose la variété défendue par Vaugelas.</li>
@@ -1395,7 +1490,7 @@ Note
 <hr>
 </section>
 <section id="diamésie" class="level4">
-<h4 class="anchored" data-anchor-id="diamésie"><span class="header-section-number">5.1.5.4.2</span> Diamésie</h4>
+<h4 class="anchored" data-anchor-id="diamésie"><span class="header-section-number">5.3.4.4.2</span> Diamésie</h4>
 <div class="side-by-side">
 <ul>
 <li>Vaugelas reconnaît que certaines règles sont respectées à l’écrit mais pas à l’oral : elles sont imposées « d’en haut ».</li>
@@ -1410,9 +1505,9 @@ Note
 </section>
 </section>
 <section id="le-français-moderne-fmod" class="level2">
-<h2 class="anchored" data-anchor-id="le-français-moderne-fmod"><span class="header-section-number">5.1.6</span> Le français moderne (FMod)</h2>
+<h2 class="anchored" data-anchor-id="le-français-moderne-fmod"><span class="header-section-number">5.3.5</span> Le français moderne (FMod)</h2>
 <section id="la-féminisation-des-noms-de-fonctions" class="level3">
-<h3 class="anchored" data-anchor-id="la-féminisation-des-noms-de-fonctions"><span class="header-section-number">5.1.6.1</span> La féminisation des noms de fonctions</h3>
+<h3 class="anchored" data-anchor-id="la-féminisation-des-noms-de-fonctions"><span class="header-section-number">5.3.5.1</span> La féminisation des noms de fonctions</h3>
 <ul>
 <li><strong>Académie française :</strong> position traditionnellement conservatrice ; plusieurs déclarations dénoncent la féminisation systématique des noms de métiers et de fonctions comme un contresens linguistique.</li>
 <li><strong>Canada francophone :</strong> presque tous les titres et fonctions peuvent être féminisés :
@@ -1423,7 +1518,7 @@ Note
 <hr>
 </section>
 <section id="le-renouvellement-du-vocabulaire" class="level3">
-<h3 class="anchored" data-anchor-id="le-renouvellement-du-vocabulaire"><span class="header-section-number">5.1.6.2</span> Le renouvellement du vocabulaire</h3>
+<h3 class="anchored" data-anchor-id="le-renouvellement-du-vocabulaire"><span class="header-section-number">5.3.5.2</span> Le renouvellement du vocabulaire</h3>
 <ul>
 <li><strong>Langue standard :</strong> la siglaison (<em>SNCF, CNRS</em>) depuis le début du XXᵉ s.</li>
 <li><strong>Langue parlée, parlers jeunes, « français avancé » :</strong>
@@ -1438,7 +1533,7 @@ Note
 <hr>
 </section>
 <section id="implications-typologiques" class="level3">
-<h3 class="anchored" data-anchor-id="implications-typologiques"><span class="header-section-number">5.1.6.3</span> Implications typologiques</h3>
+<h3 class="anchored" data-anchor-id="implications-typologiques"><span class="header-section-number">5.3.5.3</span> Implications typologiques</h3>
 <ul>
 <li>À l’<strong>écrit</strong>, les catégories nominales restent marquées par une flexion en fin de mot.</li>
 <li>Mais la tendance générale est à l’<strong>antéposition</strong> des marques :
@@ -1448,362 +1543,9 @@ Note
 </ul></li>
 </ul>
 <hr>
-</section>
-</section>
-<section id="histoire-du-participe-passé" class="level1">
-<h1><span class="header-section-number">5.2</span> Histoire du participe passé</h1>
-<section id="jusquau-xiiie-siècle" class="level2">
-<h2 class="anchored" data-anchor-id="jusquau-xiiie-siècle"><span class="header-section-number">5.2.1</span> Jusqu’au XIIIe siècle</h2>
-<ul>
-<li>L’ordre des mots est relativement libre:
-<ul>
-<li>Si auxiliaire être: accord avec le sujet</li>
-<li>Si auxiliaire avoir: accord avec le COD, peu importe sa position dans la phrases
-<ul>
-<li>Ex. <em>J’ai les lettres écrit<u><strong>es</strong></u>.</em></li>
-<li>Ex. <em>J’ai écrit<u><strong>es</strong></u> les lettres.</em></li>
-<li>le participe passé s’accordait alors comme un attibut de l’objet: par exemple, <em>j’ai les mains salies</em></li>
-</ul></li>
-</ul></li>
-</ul>
-<hr>
-</section>
-<section id="xvie-siècle" class="level2">
-<h2 class="anchored" data-anchor-id="xvie-siècle"><span class="header-section-number">5.2.2</span> XVIe siècle</h2>
-<ul>
-<li>L’ordre des mots devient plus figé <em>auxiliaire - participe - objet</em>:
-<ul>
-<li>Si auxiliaire être: accord avec le sujet</li>
-<li>L’accord avec avoir est en diminution</li>
-</ul></li>
-</ul>
-<hr>
-<div class="side-by-side">
-<ul>
-<li>Clément Marot <em>Épigrammes</em> dédiées à François Ier, 1538</li>
-<li>Il propose d’accorder le participe passé avec l’objet si ce dernier est placé avant le participe passé sur la base du modèle italien 🍝
-<ul>
-<li>Ex. <em>Dieu nous a faict<u>z</u> &lt;–&gt; Dio <u>noi</u> a fatt<u>i</u></em></li>
-</ul></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-3260875052.png" class="img-fluid figure-img"></p>
-<figcaption>Clément Marot, Poète français (1496-1544)</figcaption>
-</figure>
-</div>
-</div>
-<hr>
-<div class="side-by-side">
-<p>L’usage de cette règle n’est pas encore systémique</p>
-<blockquote class="blockquote">
-<p><em>Mignonne, allons voir si la rose</em></p>
-<p><em>Qui ce matin avait desclos<u>e</u></em></p>
-<p><u><em>Sa robe de pourpre</em></u> <em>au soleil…</em></p>
-</blockquote>
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="images/clipboard-3336510262.png" class="img-fluid figure-img"></p>
-<figcaption>Pierre de Ronsard, Poète français (1524-1585)</figcaption>
-</figure>
-</div>
-</div>
-<hr>
-</section>
-<section id="xviᵉ-siècle-un-accord-qui-ne-sentend-plus" class="level2">
-<h2 class="anchored" data-anchor-id="xviᵉ-siècle-un-accord-qui-ne-sentend-plus"><span class="header-section-number">5.2.3</span> XVIᵉ siècle : un accord qui ne s’entend plus</h2>
-<ul>
-<li>On n’entend plus l’accord car on ne prononce plus le <strong>‑s</strong> final.
-<ul>
-<li>Ex. <em>Je les ai vus</em> /ʒə lez e vy/</li>
-<li>Sauf en cas de liaison :</li>
-<li>Ex. <em>Je les ai vus à la fête</em> /ʒə lez e vyz a la fɛt/</li>
-</ul></li>
-<li>La distinction de genre au participe passé ne s’entend plus à l’oral, à l’exception d’une trentaine de verbes du 3ᵉ groupe (ex. <em>mise, prise, faite, dite</em>).</li>
-<li>Environ <strong>99 %</strong> des participes passés n’ont aucune distinction phonique au féminin.</li>
-<li>🚨 Français de Belgique</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="les-règles-académiques" class="level1">
-<h1><span class="header-section-number">5.3</span> Les règles académiques</h1>
-<ul>
-<li>Vaugelas restreint l’application de la règle d’accord du participe passé précédé de son COD (règle de Marot).</li>
-<li>L’accord s’effectue uniquement lorsque le participe passé se trouve <strong>en fin de phrase</strong>.</li>
-<li>Cas d’invariabilité du participe passé (si suivi d’un autre élément) :
-<ul>
-<li>Suivi d’un attribut : <em>« les habitans nous ont rendu maistres de la ville »</em></li>
-<li>Suivi d’un complément prépositionnel : <em>« les maux qu’il a fait à son fils »</em></li>
-<li>Suivi d’un sujet inversé : <em>« la peine que m’a donné cette affaire »</em></li>
-<li>Suivi d’un infinitif : <em>« je l’ai fait peindre »</em></li>
-</ul></li>
-</ul>
-<hr>
-<p><strong>Pourquoi ?</strong></p>
-<ul>
-<li>Sans doute qu’on pouvait encore entendre l’allongement caractéristique du féminin, mais seulement en fin de phrase.</li>
-<li>Cela s’entend encore aujourd’hui en fin de phrase, en Belgique ou en Suisse.</li>
-</ul>
-<hr>
-<div class="side-by-side">
-<ul>
-<li>L’abbé d’Olivet préconise d’accorder le participe passé suivi d’un infinitif :
-<ul>
-<li><em>« Je les ai convaincus de venir »</em></li>
-</ul></li>
-<li><strong>Distinction selon l’agent de l’action :</strong>
-<ul>
-<li><strong>Accord :</strong> Le sujet fait l’action de l’infinitif (le COD est l’agent de l’infinitif).
-<ul>
-<li><em>« On les (les chanteurs) a entendus chanter »</em> (on a entendu les chanteurs chanter)</li>
-</ul></li>
-<li><strong>Invariabilité :</strong> Le sujet ne fait pas l’action de l’infinitif (le COD n’est pas l’agent de l’infinitif).
-<ul>
-<li><em>« On les (les chants) a entendu chanter »</em> (on a entendu <del>les chants</del> chanter)</li>
-</ul></li>
-</ul></li>
-<li><strong>Exception pour <em>faire</em> :</strong>
-<ul>
-<li>Le participe passé du verbe <em>faire</em> suivi d’un infinitif reste systématiquement <strong>invariable</strong> dans tous les cas :
-<ul>
-<li><em>« Je les ai fait peindre »</em></li>
-</ul></li>
-</ul></li>
-</ul>
-<p><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Pierre-Joseph_Thoulier_d%27Olivet_-_Versailles_MV_2969.png/250px-Pierre-Joseph_Thoulier_d%27Olivet_-_Versailles_MV_2969.png?utm_source=fr.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" class="img-fluid"></p>
-</div>
-<hr>
-<div class="side-by-side">
-<p><strong>Sur le site de l’Académie</strong></p>
-<ul>
-<li>La règle de l’accord avec le COD qui précède le verbe a <strong>six exceptions</strong> :
-<ul>
-<li>si l’objet est <strong>en</strong></li>
-<li>si l’objet est un complément de mesure : <em>les 100 mètres que j’ai couru</em>
-<ul>
-<li>oui mais pas si figuré : <em>les 100 mètres que j’ai courus</em></li>
-</ul></li>
-<li>quand il est objet de l’infinitif : <em>les chants que j’ai entendu chanter</em></li>
-<li>quand le verbe est impersonnel</li>
-<li><strong>faire + infinitif</strong></li>
-</ul></li>
-</ul>
-<p><img src="images/clipboard-911034742.png" class="img-fluid"></p>
-</div>
-<hr>
-<div class="side-by-side">
-<p><strong>Pourquoi c’est bizarre ?</strong></p>
-<ul>
-<li><strong>Rupture avec la règle générale :</strong>
-<ul>
-<li>Dans tous les autres cas, les formes verbales s’accordent avec le <strong>sujet</strong>.</li>
-</ul></li>
-<li><strong>Dépendance à la position :</strong>
-<ul>
-<li>L’accord en général ne se fait pas en fonction de la <strong>position</strong> des mots dans la phrase.</li>
-</ul></li>
-</ul>
-<p><img src="https://media.tenor.com/vvnB40OdtukAAAAM/shocked-horrified-face-movie-theater-action-expression-reaction-mouth-amazed-look.gif" class="img-fluid" alt="Shocked Face Amazed Look Horror Astonishment Open Mouth Expression GIF -  Shocked face amazed look horror astonishment open mouth expression Shocked  face Amazed look - Discover &amp; Share GIFs" width="400"></p>
-</div>
-<hr>
-<section id="les-verbes-pronominaux" class="level2">
-<h2 class="anchored" data-anchor-id="les-verbes-pronominaux"><span class="header-section-number">5.3.1</span> Les verbes pronominaux</h2>
-<ul>
-<li><strong>Extension de la règle d’accord au XVIIIᵉ siècle :</strong>
-<ul>
-<li>Au XVIIIᵉ siècle, l’Académie française étend l’accord avec l’objet qui précède aux verbes pronominaux.
-<ul>
-<li><em>Exemple :</em> « Les choses qu’elle s’est dites. »</li>
-</ul></li>
-</ul></li>
-</ul>
-<hr>
-<ul>
-<li><strong>Règles d’invariabilité :</strong>
-<ul>
-<li>Le participe passé reste donc invariable si l’objet suit le verbe ou s’il s’agit du pronom <em>en</em>.</li>
-</ul></li>
-</ul>
-<div class="hidden">
-<p>Sur le site de l’Académie française, l’accord du participe passé des verbes pronominaux suit plusieurs règles selon la fonction syntaxique du pronom <em>se</em> :</p>
-<ul>
-<li><strong>Absence d’accord lorsque le pronom <em>se</em> n’est pas complément :</strong>
-<ul>
-<li>Le participe passé ne s’accorde pas lorsque le pronom <em>se</em> n’est pas un complément d’objet direct (ce qui s’apparente au fonctionnement des verbes essentiellement pronominaux).
-<ul>
-<li><em>Exemples :</em>
-<ul>
-<li>« Ils se sont souvenu. »
-<ul>
-<li>vs</li>
-</ul></li>
-<li>« La propriété s’est vendue à bas prix. »</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Accord lorsque le pronom <em>se</em> peut être analysé comme un complément :</strong>
-<ul>
-<li>Quand le pronom <em>se</em> est analysé comme un complément, le verbe pronominal suit les règles d’accord de l’auxiliaire <em>avoir</em>.
-<ul>
-<li><em>Exemples :</em>
-<ul>
-<li>« Elles se sont lavées les mains. »</li>
-<li>« Ils se sont succédé. »</li>
-<li>« Ils se sont vu accorder des congés. »</li>
-<li>« Ils se sont vus accorder des congés à leurs employés. »</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-<p><img src="images/clipboard-911034742.png" class="img-fluid"></p>
-</div>
-<hr>
-</section>
-</section>
-<section id="les-règles-scolaires" class="level1">
-<h1><span class="header-section-number">5.4</span> Les règles scolaires</h1>
-<ul>
-<li>L’introduction de règles artificielles au XIXe siècle
-<ul>
-<li><strong>Accord selon le pronom COD :</strong>
-<ul>
-<li><em>« Les pommes, je les ai mangées »</em> (accord avec le COD <em>les</em>).</li>
-<li><em>« Des pommes, j’en ai mangé »</em> (invariabilité avec le pronom <em>en</em>).</li>
-</ul></li>
-<li><strong>Accord selon la valeur du complément :</strong>
-<ul>
-<li><em>« La somme que j’ai payée »</em> (accord car <em>que</em> est COD).</li>
-<li><em>« La somme que ça m’a coûté »</em> (invariabilité car <em>que</em> est complément de prix/mesure).</li>
-</ul></li>
-</ul></li>
-</ul>
-<blockquote class="blockquote">
-<p><em>« L’accord du participe passé avec avoir est la règle la plus artificielle de la langue française. »</em> - Louis-Nicolas Bescherelle</p>
-</blockquote>
-<hr>
-<ul>
-<li><p>En 1900, Georges Leygues publie un arrêté visant à simplifier l’enseignement de la syntaxe française.</p></li>
-<li><div class="side-by-side">
-<p>Mais l’Académie est fâchée !</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://i.gifer.com/YjWS.gif" class="img-fluid figure-img" width="200"></p>
-<figcaption>Que méchant GIF - Découvrez sur GIFER</figcaption>
-</figure>
-</div>
-</div></li>
-<li><p>L’arrêté est supprimé en 1901.</p></li>
-<li><p>1996, Arrêté Haby</p>
-<ul>
-<li>Régularise l’accord du participe passé.</li>
-<li>Tolérance étendue aux cas complexes : pronom <strong>en</strong>, complément de mesure, participes suivis d’un infinitif.</li>
-</ul></li>
-<li><p>1990 — Rectifications orthographiques</p></li>
-<li><p>Autorise l’invariabilité du participe passé de <strong>laisser</strong> suivi d’un infinitif : « les enfants que j’ai laissé partir »</p></li>
-</ul>
-<hr>
-<section id="les-verbes-pronominaux-1" class="level2">
-<h2 class="anchored" data-anchor-id="les-verbes-pronominaux-1"><span class="header-section-number">5.4.1</span> Les verbes pronominaux</h2>
-<ul>
-<li><strong>L’accord académique au XIXᵉ siècle :</strong>
-<ul>
-<li>Au XIXᵉ siècle, les verbes pronominaux suivent les règles d’accord académiques, qui comptent au moins trois cas de figure :
-<ul>
-<li><strong>Accord avec le sujet :</strong> « Elle s’est lavée. »</li>
-<li><strong>Invariabilité si l’objet direct suit le verbe :</strong> « Elle s’est lavé les mains. »</li>
-<li><strong>Accord avec l’objet direct si celui-ci précède le verbe :</strong> « Les mains qu’elle s’est lavées. »</li>
-</ul></li>
-</ul></li>
-</ul>
-<hr>
-<ul>
-<li><strong>La tentative de réforme de 1900 et la réaction académique :</strong>
-<ul>
-<li>En 1900, le ministre Georges Leygues, qui propose l’invariabilité du participe passé avec l’auxiliaire <em>avoir</em>, la propose également pour les verbes pronominaux.</li>
-<li>Face à la réaction de l’Académie française, cette proposition est de nouveau abandonnée.</li>
-</ul></li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="les-usages-littéraires" class="level1">
-<h1><span class="header-section-number">5.5</span> Les usages littéraires</h1>
-<ul>
-<li>Résultats influencés par éditeurs et correcteurs.</li>
-</ul>
-<div class="side-by-side">
-<ul>
-<li>Dans <em>Les Femmes savantes</em>, pas toujours accordé :
-<ul>
-<li>« jamais il ne m’a prié de lui rien dire »</li>
-<li>« des vers de vous qu’il n’a point trouvé beaux » - corrigés en <em>trouvés</em> dans les édtions modernes.</li>
-</ul></li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://m.media-amazon.com/images/I/61dMnyL5oeL._AC_UF1000,1000_QL80_.jpg" class="img-fluid figure-img" width="364"></p>
-<figcaption>Les femmes savantes : Molière, Michel, Lise: Amazon.com.be: Livres</figcaption>
-</figure>
-</div>
-</div>
-<hr>
-<div class="side-by-side">
-<blockquote class="blockquote">
-<p><em>« as‑tu vu la tête qu’il a fait quand il s’est aperçu qu’elle n’était pas là »</em></p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Otto_Wegener_Proust_vers_1895_bis.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original" class="img-fluid figure-img" width="482"></p>
-<figcaption>Marcel Proust — Wikipédia</figcaption>
-</figure>
-</div>
-</div>
-<hr>
-<div class="side-by-side">
-<blockquote class="blockquote">
-<p><em>« mais je n’avais ni les dons ni les connaissances techniques qu’il eût fallus »</em></p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original" class="img-fluid figure-img" width="411"></p>
-<figcaption>Paul Valéry — Wikipédia</figcaption>
-</figure>
-</div>
-</div>
-<hr>
-<p><strong>Qui ne respecte pas l’accord avec <em>en</em> ?</strong></p>
-<ul>
-<li>La Fontaine (académicien)</li>
-<li>Georges Duhamel (académicien)</li>
-<li>Alphonse Daudet</li>
-<li>Marguerite Duras</li>
-</ul>
-<hr>
-<p><strong>Qui ne respecte pas l’accord avec les verbes de mesure ?</strong></p>
-<ul>
-<li>Racine (académicien)</li>
-<li>Honoré de Balzac</li>
-<li>Joseph Kessel (académicien)</li>
-</ul>
-<hr>
-<p><strong>L’accord du participe suivi d’un infinitif ?</strong></p>
-<div class="side-by-side">
-<ul>
-<li>Racine (académicien) n’accorde pas toujours.</li>
-<li>Corneille (académicien) accorde toujours.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://hermangeudens.wordpress.com/wp-content/uploads/2025/02/cr-corneille-racine-col.jpg" class="img-fluid figure-img"></p>
-<figcaption>Corneille et Racine – Traits caractéristiques – À la française …</figcaption>
-</figure>
-</div>
-</div>
-</section>
-</div>
 
 
+</section>
 </section>
 </section>
 
@@ -2228,6 +1970,9 @@ Note
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../chapters/006-changement-phonologique.html" class="pagination-link" aria-label="Évolutions phonétiques">
+        <span class="nav-page-text">Évolutions phonétiques</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
