@@ -1,0 +1,2968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>phonologie-liaison – Français moderne</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/004_pp_final.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f61564a4d0f1d005cf51de876db663fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e40e8a8fea6366c7a952465869e681f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f61564a4d0f1d005cf51de876db663fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/005-phonologie-liaison.html">C’est la faute des Zhollandais !</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Français moderne</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/000-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/002-intro-corpus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Linguistique de corpus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/003-negation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Négation - C’est pas vrai</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/004_pp_final.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Les crêpes, virgule, j’en ai mangé</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/005-phonologie-liaison.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">C’est la faute des Zhollandais !</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#plan-du-chapitre" id="toc-plan-du-chapitre" class="nav-link active" data-scroll-target="#plan-du-chapitre"><span class="header-section-number">5.1</span> Plan du chapitre</a></li>
+  <li><a href="#le-discours-public" id="toc-le-discours-public" class="nav-link" data-scroll-target="#le-discours-public"><span class="header-section-number">5.2</span> Le discours public</a></li>
+  <li><a href="#décrire-la-liaison" id="toc-décrire-la-liaison" class="nav-link" data-scroll-target="#décrire-la-liaison"><span class="header-section-number">5.3</span> Décrire la liaison</a>
+  <ul class="collapse">
+  <li><a href="#quest-ce-que-la-liaison" id="toc-quest-ce-que-la-liaison" class="nav-link" data-scroll-target="#quest-ce-que-la-liaison"><span class="header-section-number">5.3.1</span> Qu’est-ce que la liaison ?</a>
+  <ul class="collapse">
+  <li><a href="#principe" id="toc-principe" class="nav-link" data-scroll-target="#principe"><span class="header-section-number">5.3.1.1</span> Principe</a></li>
+  <li><a href="#la-liaison-et-la-graphie" id="toc-la-liaison-et-la-graphie" class="nav-link" data-scroll-target="#la-liaison-et-la-graphie"><span class="header-section-number">5.3.1.2</span> La liaison et la graphie</a></li>
+  <li><a href="#la-liaison-et-les-ambiguïtés" id="toc-la-liaison-et-les-ambiguïtés" class="nav-link" data-scroll-target="#la-liaison-et-les-ambiguïtés"><span class="header-section-number">5.3.1.3</span> La liaison et les ambiguïtés</a></li>
+  </ul></li>
+  <li><a href="#historique-de-la-liaison" id="toc-historique-de-la-liaison" class="nav-link" data-scroll-target="#historique-de-la-liaison"><span class="header-section-number">5.3.2</span> Historique de la liaison</a>
+  <ul class="collapse">
+  <li><a href="#le-sandhi-externe" id="toc-le-sandhi-externe" class="nav-link" data-scroll-target="#le-sandhi-externe"><span class="header-section-number">5.3.2.1</span> Le sandhi externe</a></li>
+  <li><a href="#re-étape-chute-devant-consonne-fin-12e-s." id="toc-re-étape-chute-devant-consonne-fin-12e-s." class="nav-link" data-scroll-target="#re-étape-chute-devant-consonne-fin-12e-s."><span class="header-section-number">5.3.2.2</span> 1<sup>re</sup> étape : chute devant consonne (fin 12<sup>e</sup> s.)</a></li>
+  <li><a href="#e-étape-chute-devant-pause-fin-15e-s." id="toc-e-étape-chute-devant-pause-fin-15e-s." class="nav-link" data-scroll-target="#e-étape-chute-devant-pause-fin-15e-s."><span class="header-section-number">5.3.2.3</span> 2<sup>e</sup> étape : chute devant pause (fin 15<sup>e</sup> s.)</a></li>
+  <li><a href="#conséquences-multiples" id="toc-conséquences-multiples" class="nav-link" data-scroll-target="#conséquences-multiples"><span class="header-section-number">5.3.2.4</span> Conséquences multiples</a></li>
+  <li><a href="#remarque-la-liaison-et-le-t-euphonique" id="toc-remarque-la-liaison-et-le-t-euphonique" class="nav-link" data-scroll-target="#remarque-la-liaison-et-le-t-euphonique"><span class="header-section-number">5.3.2.5</span> Remarque : La liaison et le <em>t</em> euphonique</a></li>
+  </ul></li>
+  <li><a href="#les-formes-de-la-liaison" id="toc-les-formes-de-la-liaison" class="nav-link" data-scroll-target="#les-formes-de-la-liaison"><span class="header-section-number">5.3.3</span> Les formes de la liaison</a>
+  <ul class="collapse">
+  <li><a href="#linventaire-des-consonnes-de-liaison" id="toc-linventaire-des-consonnes-de-liaison" class="nav-link" data-scroll-target="#linventaire-des-consonnes-de-liaison"><span class="header-section-number">5.3.3.1</span> L’inventaire des consonnes de liaison</a></li>
+  <li><a href="#les-formes-nasales" id="toc-les-formes-nasales" class="nav-link" data-scroll-target="#les-formes-nasales"><span class="header-section-number">5.3.3.2</span> Les formes nasales</a></li>
+  <li><a href="#les-formes-de-liaison-irrégulières" id="toc-les-formes-de-liaison-irrégulières" class="nav-link" data-scroll-target="#les-formes-de-liaison-irrégulières"><span class="header-section-number">5.3.3.3</span> Les formes de liaison irrégulières</a></li>
+  <li><a href="#la-forme-de-liaison-et-le-féminin-de-ladjectif" id="toc-la-forme-de-liaison-et-le-féminin-de-ladjectif" class="nav-link" data-scroll-target="#la-forme-de-liaison-et-le-féminin-de-ladjectif"><span class="header-section-number">5.3.3.4</span> La forme de liaison et le féminin de l’adjectif</a></li>
+  <li><a href="#les-formes-de-contre-liaison" id="toc-les-formes-de-contre-liaison" class="nav-link" data-scroll-target="#les-formes-de-contre-liaison"><span class="header-section-number">5.3.3.5</span> Les formes de contre-liaison</a></li>
+  </ul></li>
+  <li><a href="#les-usages-de-la-liaison" id="toc-les-usages-de-la-liaison" class="nav-link" data-scroll-target="#les-usages-de-la-liaison"><span class="header-section-number">5.3.4</span> Les usages de la liaison</a>
+  <ul class="collapse">
+  <li><a href="#obligatoire-facultative-impossible" id="toc-obligatoire-facultative-impossible" class="nav-link" data-scroll-target="#obligatoire-facultative-impossible"><span class="header-section-number">5.3.4.1</span> Obligatoire, facultative, impossible</a></li>
+  <li><a href="#le-rôle-de-la-syntaxe" id="toc-le-rôle-de-la-syntaxe" class="nav-link" data-scroll-target="#le-rôle-de-la-syntaxe"><span class="header-section-number">5.3.4.2</span> Le rôle de la syntaxe</a></li>
+  <li><a href="#vue-densemble" id="toc-vue-densemble" class="nav-link" data-scroll-target="#vue-densemble"><span class="header-section-number">5.3.4.3</span> Vue d’ensemble</a></li>
+  </ul></li>
+  <li><a href="#la-liaison-dans-le-syntagme-nominal" id="toc-la-liaison-dans-le-syntagme-nominal" class="nav-link" data-scroll-target="#la-liaison-dans-le-syntagme-nominal"><span class="header-section-number">5.3.5</span> La liaison dans le syntagme nominal</a>
+  <ul class="collapse">
+  <li><a href="#le-déterminant" id="toc-le-déterminant" class="nav-link" data-scroll-target="#le-déterminant"><span class="header-section-number">5.3.5.1</span> Le déterminant</a></li>
+  <li><a href="#ladjectif-épithète" id="toc-ladjectif-épithète" class="nav-link" data-scroll-target="#ladjectif-épithète"><span class="header-section-number">5.3.5.2</span> L’adjectif épithète</a></li>
+  <li><a href="#les-adjectifs-de-la-détermination" id="toc-les-adjectifs-de-la-détermination" class="nav-link" data-scroll-target="#les-adjectifs-de-la-détermination"><span class="header-section-number">5.3.5.3</span> Les adjectifs de la détermination</a></li>
+  <li><a href="#le-nom" id="toc-le-nom" class="nav-link" data-scroll-target="#le-nom"><span class="header-section-number">5.3.5.4</span> Le nom</a></li>
+  </ul></li>
+  <li><a href="#la-liaison-et-le-syntagme-verbal" id="toc-la-liaison-et-le-syntagme-verbal" class="nav-link" data-scroll-target="#la-liaison-et-le-syntagme-verbal"><span class="header-section-number">5.3.6</span> La liaison et le syntagme verbal</a>
+  <ul class="collapse">
+  <li><a href="#sujet-et-verbe" id="toc-sujet-et-verbe" class="nav-link" data-scroll-target="#sujet-et-verbe"><span class="header-section-number">5.3.6.1</span> Sujet et verbe</a></li>
+  <li><a href="#sujet-sans-nom" id="toc-sujet-sans-nom" class="nav-link" data-scroll-target="#sujet-sans-nom"><span class="header-section-number">5.3.6.2</span> Sujet sans nom</a></li>
+  <li><a href="#après-le-verbe" id="toc-après-le-verbe" class="nav-link" data-scroll-target="#après-le-verbe"><span class="header-section-number">5.3.6.3</span> Après le verbe</a></li>
+  <li><a href="#les-temps-composés" id="toc-les-temps-composés" class="nav-link" data-scroll-target="#les-temps-composés"><span class="header-section-number">5.3.6.4</span> Les temps composés</a></li>
+  <li><a href="#le-complément-prédicatif" id="toc-le-complément-prédicatif" class="nav-link" data-scroll-target="#le-complément-prédicatif"><span class="header-section-number">5.3.6.5</span> Le complément prédicatif</a></li>
+  </ul></li>
+  <li><a href="#la-liaison-dans-les-autres-syntagmes" id="toc-la-liaison-dans-les-autres-syntagmes" class="nav-link" data-scroll-target="#la-liaison-dans-les-autres-syntagmes"><span class="header-section-number">5.3.7</span> La liaison dans les autres syntagmes</a>
+  <ul class="collapse">
+  <li><a href="#syntagmes-adjectival-et-adverbial" id="toc-syntagmes-adjectival-et-adverbial" class="nav-link" data-scroll-target="#syntagmes-adjectival-et-adverbial"><span class="header-section-number">5.3.7.1</span> Syntagmes adjectival et adverbial</a></li>
+  <li><a href="#syntagme-prépositionnel" id="toc-syntagme-prépositionnel" class="nav-link" data-scroll-target="#syntagme-prépositionnel"><span class="header-section-number">5.3.7.2</span> Syntagme prépositionnel</a></li>
+  </ul></li>
+  <li><a href="#la-coordination" id="toc-la-coordination" class="nav-link" data-scroll-target="#la-coordination"><span class="header-section-number">5.3.8</span> La coordination</a></li>
+  <li><a href="#soit" id="toc-soit" class="nav-link" data-scroll-target="#soit"><span class="header-section-number">5.3.9</span> <em>Soit</em></a></li>
+  <li><a href="#la-liaison-et-la-position-dans-la-phrase" id="toc-la-liaison-et-la-position-dans-la-phrase" class="nav-link" data-scroll-target="#la-liaison-et-la-position-dans-la-phrase"><span class="header-section-number">5.3.10</span> La liaison et la position dans la phrase</a>
+  <ul class="collapse">
+  <li><a href="#les-frontières-de-groupe-intonatif" id="toc-les-frontières-de-groupe-intonatif" class="nav-link" data-scroll-target="#les-frontières-de-groupe-intonatif"><span class="header-section-number">5.3.10.1</span> Les frontières de groupe intonatif</a></li>
+  <li><a href="#début-de-phrase" id="toc-début-de-phrase" class="nav-link" data-scroll-target="#début-de-phrase"><span class="header-section-number">5.3.10.2</span> Début de phrase</a></li>
+  <li><a href="#début-de-phrase-linterrogation-partielle" id="toc-début-de-phrase-linterrogation-partielle" class="nav-link" data-scroll-target="#début-de-phrase-linterrogation-partielle"><span class="header-section-number">5.3.10.3</span> Début de phrase : l’interrogation partielle</a></li>
+  <li><a href="#début-de-subordonnée" id="toc-début-de-subordonnée" class="nav-link" data-scroll-target="#début-de-subordonnée"><span class="header-section-number">5.3.10.4</span> Début de subordonnée</a></li>
+  </ul></li>
+  <li><a href="#les-facteurs-de-la-liaison-facultative" id="toc-les-facteurs-de-la-liaison-facultative" class="nav-link" data-scroll-target="#les-facteurs-de-la-liaison-facultative"><span class="header-section-number">5.3.11</span> Les facteurs de la liaison facultative</a>
+  <ul class="collapse">
+  <li><a href="#une-fréquence-très-variable" id="toc-une-fréquence-très-variable" class="nav-link" data-scroll-target="#une-fréquence-très-variable"><span class="header-section-number">5.3.11.1</span> Une fréquence très variable</a></li>
+  <li><a href="#la-construction-syntaxique" id="toc-la-construction-syntaxique" class="nav-link" data-scroll-target="#la-construction-syntaxique"><span class="header-section-number">5.3.11.2</span> La construction syntaxique</a></li>
+  <li><a href="#la-fréquence-du-premier-mot" id="toc-la-fréquence-du-premier-mot" class="nav-link" data-scroll-target="#la-fréquence-du-premier-mot"><span class="header-section-number">5.3.11.3</span> La fréquence du premier mot</a></li>
+  <li><a href="#la-collocation" id="toc-la-collocation" class="nav-link" data-scroll-target="#la-collocation"><span class="header-section-number">5.3.11.4</span> La collocation</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#la-liaison-et-la-variation" id="toc-la-liaison-et-la-variation" class="nav-link" data-scroll-target="#la-liaison-et-la-variation"><span class="header-section-number">5.4</span> La liaison et la variation</a>
+  <ul class="collapse">
+  <li><a href="#une-classification-problématique" id="toc-une-classification-problématique" class="nav-link" data-scroll-target="#une-classification-problématique"><span class="header-section-number">5.4.1</span> Une classification problématique</a></li>
+  <li><a href="#les-facteurs-sociolinguistiques" id="toc-les-facteurs-sociolinguistiques" class="nav-link" data-scroll-target="#les-facteurs-sociolinguistiques"><span class="header-section-number">5.4.2</span> Les facteurs sociolinguistiques</a>
+  <ul class="collapse">
+  <li><a href="#les-facteurs-sociolinguistiques-âge-et-sexe" id="toc-les-facteurs-sociolinguistiques-âge-et-sexe" class="nav-link" data-scroll-target="#les-facteurs-sociolinguistiques-âge-et-sexe"><span class="header-section-number">5.4.2.1</span> Les facteurs sociolinguistiques : âge et sexe</a></li>
+  </ul></li>
+  <li><a href="#étude-de-cas-hutin-et-al.-2022" id="toc-étude-de-cas-hutin-et-al.-2022" class="nav-link" data-scroll-target="#étude-de-cas-hutin-et-al.-2022"><span class="header-section-number">5.4.3</span> Étude de cas : Hutin et al.&nbsp;(2022)</a>
+  <ul class="collapse">
+  <li><a href="#question-de-recherche" id="toc-question-de-recherche" class="nav-link" data-scroll-target="#question-de-recherche"><span class="header-section-number">5.4.3.1</span> Question de recherche</a></li>
+  <li><a href="#pourquoi-était-une" id="toc-pourquoi-était-une" class="nav-link" data-scroll-target="#pourquoi-était-une"><span class="header-section-number">5.4.3.2</span> Pourquoi « était un(e) » ?</a></li>
+  <li><a href="#sélection-des-données" id="toc-sélection-des-données" class="nav-link" data-scroll-target="#sélection-des-données"><span class="header-section-number">5.4.3.3</span> Sélection des données</a></li>
+  <li><a href="#méthode-de-lalignement-à-lécoute" id="toc-méthode-de-lalignement-à-lécoute" class="nav-link" data-scroll-target="#méthode-de-lalignement-à-lécoute"><span class="header-section-number">5.4.3.4</span> Méthode : de l’alignement à l’écoute</a></li>
+  <li><a href="#pourquoi-laligneur-se-trompe-t-il" id="toc-pourquoi-laligneur-se-trompe-t-il" class="nav-link" data-scroll-target="#pourquoi-laligneur-se-trompe-t-il"><span class="header-section-number">5.4.3.5</span> Pourquoi l’aligneur se trompe-t-il ?</a></li>
+  <li><a href="#interpréter-les-erreurs" id="toc-interpréter-les-erreurs" class="nav-link" data-scroll-target="#interpréter-les-erreurs"><span class="header-section-number">5.4.3.6</span> Interpréter les erreurs</a></li>
+  <li><a href="#résultat-1-les-liaisons-fautives" id="toc-résultat-1-les-liaisons-fautives" class="nav-link" data-scroll-target="#résultat-1-les-liaisons-fautives"><span class="header-section-number">5.4.3.7</span> Résultat 1 : les liaisons fautives</a></li>
+  <li><a href="#résultat-2-le-style-de-parole" id="toc-résultat-2-le-style-de-parole" class="nav-link" data-scroll-target="#résultat-2-le-style-de-parole"><span class="header-section-number">5.4.3.8</span> Résultat 2 : le style de parole</a></li>
+  <li><a href="#résultat-3-le-genre" id="toc-résultat-3-le-genre" class="nav-link" data-scroll-target="#résultat-3-le-genre"><span class="header-section-number">5.4.3.9</span> Résultat 3 : le genre</a></li>
+  <li><a href="#résultat-4-lévolution-diachronique" id="toc-résultat-4-lévolution-diachronique" class="nav-link" data-scroll-target="#résultat-4-lévolution-diachronique"><span class="header-section-number">5.4.3.10</span> Résultat 4 : l’évolution diachronique</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">5.4.3.11</span> Discussion</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#évaluer-une-annotation" id="toc-évaluer-une-annotation" class="nav-link" data-scroll-target="#évaluer-une-annotation"><span class="header-section-number">5.5</span> Évaluer une annotation</a>
+  <ul class="collapse">
+  <li><a href="#annotation-automatique-le-score-f1" id="toc-annotation-automatique-le-score-f1" class="nav-link" data-scroll-target="#annotation-automatique-le-score-f1"><span class="header-section-number">5.5.1</span> Annotation automatique : le score F1</a>
+  <ul class="collapse">
+  <li><a href="#matrice-de-confusion" id="toc-matrice-de-confusion" class="nav-link" data-scroll-target="#matrice-de-confusion"><span class="header-section-number">5.5.1.1</span> Matrice de confusion</a></li>
+  <li><a href="#mini-exercice-f1-dun-système-de-transcription" id="toc-mini-exercice-f1-dun-système-de-transcription" class="nav-link" data-scroll-target="#mini-exercice-f1-dun-système-de-transcription"><span class="header-section-number">5.5.1.2</span> Mini-exercice : F1 d’un système de transcription</a></li>
+  </ul></li>
+  <li><a href="#annotation-manuelle-le-kappa-de-cohen" id="toc-annotation-manuelle-le-kappa-de-cohen" class="nav-link" data-scroll-target="#annotation-manuelle-le-kappa-de-cohen"><span class="header-section-number">5.5.2</span> Annotation manuelle : le kappa de Cohen</a>
+  <ul class="collapse">
+  <li><a href="#matrice-daccord-entre-annotateurs" id="toc-matrice-daccord-entre-annotateurs" class="nav-link" data-scroll-target="#matrice-daccord-entre-annotateurs"><span class="header-section-number">5.5.2.1</span> Matrice d’accord entre annotateurs</a></li>
+  <li><a href="#interpréter-le-kappa" id="toc-interpréter-le-kappa" class="nav-link" data-scroll-target="#interpréter-le-kappa"><span class="header-section-number">5.5.2.2</span> Interpréter le kappa</a></li>
+  </ul></li>
+  <li><a href="#exercice-calculer-le-kappa" id="toc-exercice-calculer-le-kappa" class="nav-link" data-scroll-target="#exercice-calculer-le-kappa"><span class="header-section-number">5.5.3</span> Exercice : calculer le kappa</a>
+  <ul class="collapse">
+  <li><a href="#exercice-90-daccord-cest-bien" id="toc-exercice-90-daccord-cest-bien" class="nav-link" data-scroll-target="#exercice-90-daccord-cest-bien"><span class="header-section-number">5.5.3.1</span> Exercice : 90 % d’accord, c’est bien ?</a></li>
+  <li><a href="#exercice-kappa-avec-trois-catégories" id="toc-exercice-kappa-avec-trois-catégories" class="nav-link" data-scroll-target="#exercice-kappa-avec-trois-catégories"><span class="header-section-number">5.5.3.2</span> Exercice : kappa avec trois catégories</a></li>
+  <li><a href="#exercice-3-le-piège-de-la-catégorie-dominante" id="toc-exercice-3-le-piège-de-la-catégorie-dominante" class="nav-link" data-scroll-target="#exercice-3-le-piège-de-la-catégorie-dominante"><span class="header-section-number">5.5.4.4</span> Exercice 3 : le piège de la catégorie dominante</a></li>
+  <li><a href="#exercice-4-retrouver-les-cases-manquantes" id="toc-exercice-4-retrouver-les-cases-manquantes" class="nav-link" data-scroll-target="#exercice-4-retrouver-les-cases-manquantes"><span class="header-section-number">5.5.4.5</span> Exercice 4 : retrouver les cases manquantes</a></li>
+  <li><a href="#exercice-5-prédire-avant-de-calculer" id="toc-exercice-5-prédire-avant-de-calculer" class="nav-link" data-scroll-target="#exercice-5-prédire-avant-de-calculer"><span class="header-section-number">5.5.4.6</span> Exercice 5 : prédire avant de calculer</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#détail-du-calcul" id="toc-détail-du-calcul" class="nav-link" data-scroll-target="#détail-du-calcul"><span class="header-section-number">5.6</span> Détail du calcul</a></li>
+  <li><a href="#atelier-les-liaisons-dans-un-corpus-colab" id="toc-atelier-les-liaisons-dans-un-corpus-colab" class="nav-link" data-scroll-target="#atelier-les-liaisons-dans-un-corpus-colab"><span class="header-section-number">5.7</span> Atelier : les liaisons dans un corpus Colab</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/000-intro.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/005-phonologie-liaison.html">C’est la faute des Zhollandais !</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">C’est la faute des Zhollandais !</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="plan-du-chapitre" class="level1">
+<h1><span class="header-section-number">5.1</span> Plan du chapitre</h1>
+<ol type="1">
+<li>Le discours public</li>
+<li>Décrire la liaison
+<ul>
+<li>Qu’est-ce que la liaison ?</li>
+<li>Historique de la liaison</li>
+<li>Les formes de la liaison</li>
+<li>Les usages de la liaison</li>
+</ul></li>
+<li>La liaison et la variation
+<ul>
+<li>Étude de cas : Hutin et al.&nbsp;(2022)</li>
+</ul></li>
+<li>Évaluer une annotation
+<ul>
+<li>Annotation automatique : le score F1</li>
+<li>Annotation manuelle : le kappa de Cohen</li>
+</ul></li>
+<li>Atelier : les liaisons dans un corpus</li>
+</ol>
+<hr>
+</section>
+<section id="le-discours-public" class="level1">
+<h1><span class="header-section-number">5.2</span> Le discours public</h1>
+<p><img src="images/clipboard-701297639.png" class="img-fluid"></p>
+<hr>
+<p><img src="images/clipboard-244936715.png" class="img-fluid"></p>
+<hr>
+<p><img src="images/clipboard-3870085383.png" class="img-fluid"></p>
+<hr>
+<audio controls="" src="../chapters/media/Orthographe et prononciation _ quand faut-il faire les liaisons _.mp3" style="width:100%">
+</audio>
+</section>
+<section id="décrire-la-liaison" class="level1">
+<h1><span class="header-section-number">5.3</span> Décrire la liaison</h1>
+<hr>
+<section id="quest-ce-que-la-liaison" class="level2">
+<h2 class="anchored" data-anchor-id="quest-ce-que-la-liaison"><span class="header-section-number">5.3.1</span> Qu’est-ce que la liaison ?</h2>
+<div class="definition-box">
+<p>La liaison consiste à prononcer une consonne finale autrement muette (<em>n, r, s, t, z</em>, plus rarement <em>p</em> et <em>g</em>).</p>
+<p>Elle peut être, selon la construction syntaxique :</p>
+<ul>
+<li>obligatoire</li>
+<li>facultative</li>
+<li>impossible</li>
+</ul>
+</div>
+<hr>
+<section id="principe" class="level3">
+<h3 class="anchored" data-anchor-id="principe"><span class="header-section-number">5.3.1.1</span> Principe</h3>
+<ul>
+<li><p>On appelle <em>liaison</em> la prononciation d’une consonne, appelée <em>consonne de liaison</em>, devant un mot vocalique.</p></li>
+<li><p>Ainsi, les consonnes <span class="api">/t/</span> et <span class="api">/z/</span> sont prononcées à la fin de <em>petit</em> ennui et <em>les</em> enfants, alors qu’elles ne le sont pas quand le mot est isolé ou devant consonne : <span class="api">/lɛ/</span>, <span class="api">/pəti/</span>.</p></li>
+<li><p>L’identité de la consonne de liaison est déterminée par le mot et correspond à une lettre finale muette à l’écrit, ici <em>t</em> et <em>s</em>.</p>
+<div class="exemples">
+<ol type="1">
+<li><em>petit_ennui</em> <span class="api">/pə.ti.tɑ̃.nɥi/</span></li>
+<li><em>les_enfants</em> <span class="api">/lɛ.zɑ̃.fɑ̃/</span></li>
+</ol>
+</div></li>
+<li><p>La liaison n’est pas systématique lorsqu’un mot finissant par une voyelle est suivi d’un mot vocalique.</p>
+<div class="exemples">
+<ol start="3" type="1">
+<li><em>Des articles, Paul en a écrit [deux_à trois] le jour de la date limite.</em> <span class="api">/dø.za.tʁwa/</span></li>
+<li><em>Des articles, Paul en a écrit [deux] à trois jours de la date limite.</em> <span class="api">/dø.a.tʁwa/</span></li>
+</ol>
+</div>
+<div class="question-box">
+<p>Pourquoi ?</p>
+<div class="fragment">
+<p><em>deux à trois</em> forme un constituant syntaxique ou pas.</p>
+</div>
+</div></li>
+</ul>
+<hr>
+</section>
+<section id="la-liaison-et-la-graphie" class="level3">
+<h3 class="anchored" data-anchor-id="la-liaison-et-la-graphie"><span class="header-section-number">5.3.1.2</span> La liaison et la graphie</h3>
+<ul>
+<li>La liaison n’est généralement pas représentée dans la graphie : les mots donnant lieu à liaison se terminent graphiquement par une lettre dite <em>muette</em>, qui n’est prononcée qu’en contexte de liaison.
+<ul>
+<li>La graphie n’indique pas de manière fiable que l’on a affaire à une consonne de liaison.
+<ul>
+<li>Dans <em>kit</em> (<span class="api">/kit/</span>), <em>bis</em> (<span class="api">/bis/</span>) et <em>fier</em> (<span class="api">/fjɛʁ/</span>), par exemple, la consonne finale est une consonne fixe, qui se prononce en mot isolé.</li>
+<li>Dans <em>petit</em> (<span class="api">/pəti/</span>), <em>un</em> (<span class="api">/œ̃/</span>) et <em>truffier</em> (<span class="api">/tʁyfje/</span>), par exemple, il s’agit bien d’une consonne de liaison.</li>
+</ul></li>
+<li>La consonne graphique ne correspond pas toujours à la consonne prononcée en cas de liaison :
+<ul>
+<li>ainsi, le <em>d</em> final de <em>grand</em> correspond à un <span class="api">/t/</span> de liaison (<em>grand_| ami</em> prononcé <span class="api">/gʁɑ̃.ta.mi/</span>) ;</li>
+<li>le <em>s</em> final de <em>gros</em> correspond à un <span class="api">/z/</span> (<em>gros_| ennui</em> prononcé <span class="api">/gʁo.zɑ̃.nɥi/</span>).</li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="la-liaison-et-les-ambiguïtés" class="level3">
+<h3 class="anchored" data-anchor-id="la-liaison-et-les-ambiguïtés"><span class="header-section-number">5.3.1.3</span> La liaison et les ambiguïtés</h3>
+<ul>
+<li>La prononciation d’une consonne de liaison peut rendre ambiguës certaines séquences. Les énoncés suivants sont le plus souvent identiques phonétiquement, mais désambiguïsés par le contexte.</li>
+</ul>
+<div class="exemples">
+<ol start="5" type="1">
+<li><em>Ils sont très‿amis.</em> <span class="api">/il.sɔ̃.tʁɛ.</span><span class="cle">z</span>a.mi/</li>
+<li><em>Ils sont treize amis.</em> <span class="api">/il.sɔ̃.tʁɛ.</span><span class="cle">z</span>a.mi/</li>
+</ol>
+</div>
+<div class="question-box fragment">
+<p>D’où vient le <span class="api">[z]</span> dans chacun des deux énoncés ?</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="historique-de-la-liaison" class="level2">
+<h2 class="anchored" data-anchor-id="historique-de-la-liaison"><span class="header-section-number">5.3.2</span> Historique de la liaison</h2>
+<div class="diachronie-box">
+<p>Du point de vue historique, les consonnes dites de liaison correspondent à des consonnes finales qui ont cessé d’être prononcées entre le XIIᵉ et le XVIᵉ siècle, tout d’abord devant consonne, puis en mot isolé.</p>
+</div>
+<ul>
+<li>Jusqu’au 12<sup>e</sup> siècle, les processus phonologiques se sont limités à la frontière des mots.
+<ul>
+<li>La frontière de mot bloque l’application des processus phonologiques.</li>
+</ul></li>
+</ul>
+<hr>
+<section id="le-sandhi-externe" class="level3">
+<h3 class="anchored" data-anchor-id="le-sandhi-externe"><span class="header-section-number">5.3.2.1</span> Le sandhi externe</h3>
+<ul>
+<li>2<sup>e</sup> moitié du 12<sup>e</sup> siècle : les changements phonologiques deviennent insensibles aux frontières de mots (sandhi externe).</li>
+</ul>
+<div class="definition-box" data-titre="Sandhi">
+<p>Sandhi : altération phonétique créée à la finale et à l’initiale des mots lorsqu’ils sont en contact dans la phrase.</p>
+</div>
+<hr>
+</section>
+<section id="re-étape-chute-devant-consonne-fin-12e-s." class="level3">
+<h3 class="anchored" data-anchor-id="re-étape-chute-devant-consonne-fin-12e-s."><span class="header-section-number">5.3.2.2</span> 1<sup>re</sup> étape : chute devant consonne (fin 12<sup>e</sup> s.)</h3>
+<p>Perte de la consonne finale devant mot à initiale consonantique à partir de la fin du 12<sup>e</sup> siècle.</p>
+<ul>
+<li>Un -t final, par exemple, prononcé en toute circonstance au 11<sup>e</sup> siècle, avait trois prononciations à partir de la fin du 12<sup>e</sup> siècle :
+<ul>
+<li>(__# C) il tombe devant mot à initiale consonantique ;</li>
+<li>(__# V) intervocalique devant mot à initiale vocalique ;</li>
+<li>(__##) devant pause, le -t final demeure tel quel.
+<ul>
+<li>Cette distribution tripartite était générale en ancien français pour toutes les obstruantes sourdes, les autres consonnes (obstruantes voisées et sonantes) ne pouvant l’exprimer puisqu’elles ne possèdent pas de forme sourde.</li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="e-étape-chute-devant-pause-fin-15e-s." class="level3">
+<h3 class="anchored" data-anchor-id="e-étape-chute-devant-pause-fin-15e-s."><span class="header-section-number">5.3.2.3</span> 2<sup>e</sup> étape : chute devant pause (fin 15<sup>e</sup> s.)</h3>
+<ul>
+<li><p>Amuïssement également devant pause à partir de la fin du 15<sup>e</sup> siècle.</p>
+<ul>
+<li>la consonne finale cesse d’être prononcée également devant pause ;</li>
+<li>sauf pour deux mots, <em>dix</em> et <em>six</em>, qui ignorent cette règle.</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-865210118.png" class="img-fluid figure-img"></p>
+<figcaption>p.&nbsp;174</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="conséquences-multiples" class="level3">
+<h3 class="anchored" data-anchor-id="conséquences-multiples"><span class="header-section-number">5.3.2.4</span> Conséquences multiples</h3>
+<ul>
+<li><p><strong>Changement accentuel</strong> : à partir de la fin du 12<sup>e</sup> siècle, l’accent est distribué sur une portion plus grande de la chaîne linéaire, qu’on a pu appeler groupe de souffle ou accent de groupe.</p></li>
+<li><p><strong>Élision</strong> : les mots perdent leur autonomie phonologique : les pronoms sujets, par exemple, deviennent des clitiques et, en hiatus, perdent leur voyelle finale (élision : perte d’autonomie phonologique).</p></li>
+<li><p><strong>Pronom sujet</strong> : les formes fortes, ou toniques, des pronoms sujets n’ont émergé qu’à la fin du 12<sup>e</sup> siècle : auparavant, il n’y avait qu’une seule forme, autonome parce que protégée par le bornage de la frontière de mot, et donc toujours accentuée.</p></li>
+</ul>
+<div class="retenir-box">
+<p>Toutes ces évolutions ont été provoquées par un seul événement : la modification de la taille du domaine [mot 1] [mot 2] &gt; [mot 1 mot 2].</p>
+</div>
+<hr>
+</section>
+<section id="remarque-la-liaison-et-le-t-euphonique" class="level3">
+<h3 class="anchored" data-anchor-id="remarque-la-liaison-et-le-t-euphonique"><span class="header-section-number">5.3.2.5</span> Remarque : La liaison et le <em>t</em> euphonique</h3>
+<ul>
+<li><p>L’insertion d’un <em>t</em> dit <em>euphonique</em> après certaines formes verbales (<em>Viendra-t-il ?</em>) et d’un <em>s</em> final dans certains impératifs (<em>Vas-y !</em>)</p>
+<div class="exemples">
+<ol start="7" type="1">
+<li><em>Va au cinéma !</em></li>
+<li><span class="agr"><em>Vas au cinéma !</em></span></li>
+</ol>
+</div></li>
+<li><p>Deux différences avec la liaison :</p>
+<ul>
+<li>il est noté dans la graphie ;</li>
+<li>il se produit seulement avant un pronom faible, pas avant un mot vocalique.</li>
+</ul></li>
+<li><p>Il existe des insertions analogues, mais condamnées par la norme et rarement notées dans la graphie (<em>Donne-moi-z-en</em>, au lieu de <em>Donne-m’en</em>).</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="les-formes-de-la-liaison" class="level2">
+<h2 class="anchored" data-anchor-id="les-formes-de-la-liaison"><span class="header-section-number">5.3.3</span> Les formes de la liaison</h2>
+<section id="linventaire-des-consonnes-de-liaison" class="level3">
+<h3 class="anchored" data-anchor-id="linventaire-des-consonnes-de-liaison"><span class="header-section-number">5.3.3.1</span> L’inventaire des consonnes de liaison</h3>
+<ul>
+<li>L’inventaire des consonnes de liaison est relativement limité en français contemporain : <span class="api">/z/</span>, <span class="api">/t/</span>, <span class="api">/n/</span>, <span class="api">/p/</span>, <span class="api">/ʁ/</span>, <span class="api">/g/</span>.
+<ul>
+<li>Les consonnes <span class="api">/z/</span> et <span class="api">/t/</span> se rencontrent dans de très nombreux mots, étant donné le rôle qu’elles jouent dans la flexion des noms, des adjectifs et des verbes.</li>
+<li>la consonne finale <span class="api">/p/</span> ne se rencontre que dans <em>trop</em> et <em>beaucoup</em> et <span class="api">/g/</span> dans trois mots (<em>barlong</em>, <em>long</em> et <em>oblong</em>).</li>
+<li><span class="api">/n/</span> apparaît notamment à la fin de nombreux adjectifs ;</li>
+<li><span class="api">/ʁ/</span> à l’infinitif des verbes du 1ᵉʳ groupe et dans les adjectifs en <em>-er</em>.</li>
+</ul></li>
+</ul>
+<hr>
+<section id="liaison-et-flexion-la-conjugaison" class="level4">
+<h4 class="anchored" data-anchor-id="liaison-et-flexion-la-conjugaison"><span class="header-section-number">5.3.3.1.1</span> Liaison et flexion : la conjugaison</h4>
+<ul>
+<li><p><strong>/z/</strong> : -s des 1ʳᵉ et 2ᵉ pers. sg. au présent (2ᵉ toujours, 1ʳᵉ parfois)</p></li>
+<li><p><strong>/z/</strong> : -s et -z des 1ʳᵉ et 2ᵉ pers. pl.</p></li>
+<li><p><strong>/t/</strong> : -t de la 3ᵉ pers. sg., -t du participe présent, -ent de la 3ᵉ pers. pl.</p></li>
+<li><p><strong>/ʁ/</strong> : tous les infinitifs en -er</p></li>
+<li><p><strong>Imparfait sg.</strong> : /z/ aux 1ʳᵉ et 2ᵉ pers. (<em>Je voulais_y aller</em>), /t/ à la 3ᵉ (<em>Il voulait_y aller</em>)</p></li>
+<li><p>Les noms <em>as</em> et <em>but</em> ont une consonne finale fixe ; les verbes <em>as</em> et <em>but</em> ont une consonne de liaison.</p></li>
+</ul>
+<hr>
+</section>
+<section id="liaison-et-flexion-le-pluriel" class="level4">
+<h4 class="anchored" data-anchor-id="liaison-et-flexion-le-pluriel"><span class="header-section-number">5.3.3.1.2</span> Liaison et flexion : le pluriel</h4>
+<ul>
+<li>En contexte de liaison, la consonne prononcée forme souvent une partie, voire la totalité, de la flexion.</li>
+<li><strong>/z/</strong> : tous les noms et adjectifs au pluriel peuvent le réaliser.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="les-formes-nasales" class="level3">
+<h3 class="anchored" data-anchor-id="les-formes-nasales"><span class="header-section-number">5.3.3.2</span> Les formes nasales</h3>
+<ul>
+<li><p>Certains mots ont une forme de liaison qui ne se résume pas à l’ajout d’une consonne.</p></li>
+<li><p>Si la forme de base finit par une voyelle nasale, la consonne de liaison est <span class="api">/n/</span>.</p></li>
+<li><p><strong>Dénasalisation</strong> : la voyelle perd sa nasalité.</p>
+<div class="exemples">
+<ol start="9" type="1">
+<li><em>un bon_environnement</em> <span class="api">/bɔ.nɛ̃.vi.ʁɔn.mɑ̃/</span></li>
+</ol>
+</div></li>
+<li><p><span class="api"><strong>/ɛ̃/</strong></span> : la forme de liaison est celle du féminin, en <span class="api">/ɛn/</span> (<em>pleine</em>) ou en <span class="api">/in/</span> (<em>divine</em>).</p>
+<div class="exemples">
+<ol start="10" type="1">
+<li><em>en plein_air</em> <span class="api">/plɛ.nɛʁ/</span></li>
+<li><em>un divin_enfant</em> <span class="api">/di.vi.nɑ̃.fɑ̃/</span></li>
+</ol>
+</div></li>
+<li><p><strong>Exceptions</strong> : la voyelle reste nasale avec <em>aucun</em>, <em>chacun</em>, <em>commun</em>, <em>en</em>, <em>on</em>, <em>un</em>.</p></li>
+<li><p><strong>Possessifs</strong> (<em>mon</em>, <em>ton</em>, <em>son</em>) : la dénasalisation est facultative.</p>
+<div class="exemples">
+<ol start="12" type="1">
+<li><em>mon_ami</em> <span class="api">/mɔ̃.na.mi/</span> ou <span class="api">/mɔ.na.mi/</span></li>
+</ol>
+</div></li>
+</ul>
+<hr>
+</section>
+<section id="les-formes-de-liaison-irrégulières" class="level3">
+<h3 class="anchored" data-anchor-id="les-formes-de-liaison-irrégulières"><span class="header-section-number">5.3.3.3</span> Les formes de liaison irrégulières</h3>
+<ul>
+<li>Quelques mots ont une forme de liaison inhabituelle.</li>
+<li>Souvent, elle sonne comme la forme de l’autre genre du même mot :
+<ul>
+<li><em>ce</em> → <em>cet</em> <span class="api">/sɛt/</span> ; <em>ma</em> → <em>mon</em> <span class="api">/mɔ̃/</span></li>
+<li><em>beau</em>, <em>fou</em>, <em>mou</em>, <em>nouveau</em>, <em>vieux</em> → <em>bel</em>, <em>fol</em>, <em>mol</em>, <em>nouvel</em>, <em>vieil</em>, homophones du féminin (<em>belle</em>, <em>folle</em>, <em>molle</em>, <em>nouvelle</em>, <em>vieille</em>)</li>
+</ul></li>
+<li><em>neuf</em> → <span class="api">/nœv/</span>, seulement dans <em>neuf_ans</em> et <em>neuf_heures</em>.</li>
+<li><em>plus</em>, <em>dix</em>, <em>six</em> finissent par une consonne en isolation, mais ont une forme de liaison : <span class="api">/plyz/</span>, <span class="api">/diz/</span>, <span class="api">/siz/</span>.</li>
+</ul>
+<hr>
+</section>
+<section id="la-forme-de-liaison-et-le-féminin-de-ladjectif" class="level3">
+<h3 class="anchored" data-anchor-id="la-forme-de-liaison-et-le-féminin-de-ladjectif"><span class="header-section-number">5.3.3.4</span> La forme de liaison et le féminin de l’adjectif</h3>
+<ul>
+<li>En général, la forme de liaison du masculin singulier sonne comme le féminin :
+<ul>
+<li><em>petit</em> <span class="api">/pəti/</span>, <em>petite</em> <span class="api">/pətit/</span>, <em>petit_enfant</em> <span class="api">/pə.ti.tɑ̃.fɑ̃/</span></li>
+</ul></li>
+<li><strong>Exceptions</strong> :
+<ul>
+<li><em>gros</em> : féminin <em>grosse</em> <span class="api">/ɡʁos/</span>, mais <em>gros_effort</em> <span class="api">/ɡʁoz/</span></li>
+<li><em>grand</em> : féminin <em>grande</em> <span class="api">/ɡʁɑ̃d/</span>, mais <em>grand_homme</em> <span class="api">/ɡʁɑ̃t/</span></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="les-formes-de-contre-liaison" class="level3">
+<h3 class="anchored" data-anchor-id="les-formes-de-contre-liaison"><span class="header-section-number">5.3.3.5</span> Les formes de contre-liaison</h3>
+<ul>
+<li><p><strong>Contre-liaison</strong> : la consonne finale se prononce en isolation, mais pas devant consonne.</p></li>
+<li><p><em>six</em>, <em>huit</em>, <em>dix</em> : <span class="api">/sis/</span>, <span class="api">/ɥit/</span>, <span class="api">/dis/</span> en isolation ou en finale ; <span class="api">/si/</span>, <span class="api">/ɥi/</span>, <span class="api">/di/</span> devant consonne</p>
+<div class="exemples">
+<ol start="13" type="1">
+<li><em>Ils sont dix.</em> <span class="api">/dis/</span></li>
+<li><em>six garçons</em> <span class="api">/si/</span>, jamais *<span class="api">/sis ɡaʁsɔ̃/</span></li>
+<li><em>six_amis</em> <span class="api">/siz/</span></li>
+</ol>
+</div></li>
+<li><p>Devant voyelle, <em>six</em> et <em>dix</em> ont une forme de liaison, <span class="api">/siz/</span> et <span class="api">/diz/</span>. <em>huit</em> garde <span class="api">/ɥit/</span> (<em>huit enfants</em>).</p></li>
+<li><p><em>cinq</em> <span class="api">/sɛ̃k/</span> : la forme de contre-liaison <span class="api">/sɛ̃/</span> disparaît, sauf dans <em>cinq cents</em> et <em>cinq mille</em> <span class="api">/sɛ̃ mil/</span>.</p></li>
+<li><p><em>plus</em> comparatif : trois formes, <span class="api">/plys/</span> en isolation ou en finale, <span class="api">/ply/</span> devant consonne et <span class="api">/plyz/</span> en liaison.</p></li>
+<li><p>Ses homophones n’ont pas de forme de contre-liaison :</p>
+<ul>
+<li><em>plus</em> négatif : <span class="api">/ply/</span></li>
+<li><em>plus</em> arithmétique et nom (<em>un plus</em>) : <span class="api">/plys/</span></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="les-usages-de-la-liaison" class="level2">
+<h2 class="anchored" data-anchor-id="les-usages-de-la-liaison"><span class="header-section-number">5.3.4</span> Les usages de la liaison</h2>
+<section id="obligatoire-facultative-impossible" class="level3">
+<h3 class="anchored" data-anchor-id="obligatoire-facultative-impossible"><span class="header-section-number">5.3.4.1</span> Obligatoire, facultative, impossible</h3>
+<ul>
+<li>Les conditions de la liaison dépendent en partie de la syntaxe.</li>
+<li>On distingue trois types de contextes :
+<ul>
+<li><strong>obligatoire</strong>, par exemple entre déterminant et nom ;</li>
+<li><strong>facultative</strong>, par exemple entre nom et adjectif épithète ;</li>
+<li><strong>impossible</strong>, par exemple entre sujet nominal et verbe.</li>
+</ul></li>
+</ul>
+<div class="exemples">
+<ol start="16" type="1">
+<li><em>mes_amis</em> <span class="api">/me.za.mi/</span>, jamais *<span class="api">/me.a.mi/</span></li>
+<li><em>amis(_)intimes</em> <span class="api">/a.mi.zɛ̃.tim/</span> ou <span class="api">/a.mi.ɛ̃.tim/</span></li>
+<li><em>mes_amis arrivent</em> <span class="api">/me.za.mi.a.ʁiv/</span>, jamais *<span class="api">/me.za.mi.za.ʁiv/</span></li>
+</ol>
+</div>
+<div class="remarque-box" data-titre="Notation">
+<p><code>_</code> liaison obligatoire ou réalisée · <code>(_)</code> liaison facultative · pas de signe : pas de liaison · <code>*</code> forme impossible</p>
+</div>
+<hr>
+</section>
+<section id="le-rôle-de-la-syntaxe" class="level3">
+<h3 class="anchored" data-anchor-id="le-rôle-de-la-syntaxe"><span class="header-section-number">5.3.4.2</span> Le rôle de la syntaxe</h3>
+<ul>
+<li>La liaison peut se faire :
+<ul>
+<li>entre deux mots : <em>Mes_amis arrivent.</em></li>
+<li>entre deux syntagmes : <em>[les très charmants]_[amis et parents] de Marie</em></li>
+<li>entre un syntagme et un mot : <em>[les très charmants]_[amis] de Marie</em></li>
+<li>entre un mot et un syntagme : <em>[les charmants]_[amis et parents] de Marie</em></li>
+</ul></li>
+<li><strong>Deux conditions</strong> : le premier élément doit permettre la liaison, et son lien syntaxique avec le second aussi.</li>
+<li><strong>Second élément</strong> : il a peu d’influence, du moment qu’il commence par une voyelle.</li>
+<li><strong>Premier élément</strong> : sa catégorie et sa fonction comptent.
+<ul>
+<li>Les déterminants (et plus largement les spécifieurs), les adjectifs épithètes (et plus largement les ajouts) permettent la liaison à leur droite.</li>
+<li>Un sujet nominal ne la permet pas.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="vue-densemble" class="level3 smaller scrollable">
+<h3 class="smaller scrollable anchored" data-anchor-id="vue-densemble"><span class="header-section-number">5.3.4.3</span> Vue d’ensemble</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 27%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>CONTEXTE</th>
+<th>LIAISON OBLIGATOIRE</th>
+<th>LIAISON FACULTATIVE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>déterminant + nom</strong></p>
+<p>→ <em>SN : le déterminant</em></p></td>
+<td><em>les_amis</em>, <em>ces_arbres</em>, <em>un_ami</em></td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td><p><strong>adjectif + nom</strong></p>
+<p>→ <em>SN : l’adjectif épithète</em></p></td>
+<td><p>cardinaux, indéfinis</p>
+<p><em>(mes) trois_amis</em></p>
+<p><em>(ces) quelques_arbres</em></p></td>
+<td><p>autres adjectifs</p>
+<p><em>d’anciens(_)amis</em></p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>nom pluriel + adjectif</strong></p>
+<p>→ <em>Après le nom</em></p></td>
+<td><p>expressions figées</p>
+<p><em>Jeux_olympiques</em></p></td>
+<td><em>des meubles(_)anciens</em></td>
+</tr>
+<tr class="even">
+<td><p><strong>pronom sujet + verbe</strong></p>
+<p>→ <em>Sujet et verbe</em></p></td>
+<td><p>pronoms personnels faibles</p>
+<p><em>Ils_ont tort.</em></p>
+<p><em>Elles_arrivent.</em></p></td>
+<td><p>autres pronoms</p>
+<p><em>Tout(_)arrive.</em></p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>verbe + complément</strong></p>
+<p>→ <em>Après le verbe</em></p></td>
+<td>—</td>
+<td><em>Il avait(_)envie.</em></td>
+</tr>
+<tr class="even">
+<td><p><strong>auxiliaire + participe passé</strong></p>
+<p>→ <em>Après le verbe</em></p></td>
+<td>—</td>
+<td><em>Il est(_)arrivé.</em></td>
+</tr>
+<tr class="odd">
+<td><p><strong>préposition + nom ou pronom</strong></p>
+<p>→ <em>Syntagme prépositionnel</em></p></td>
+<td><p><em>en</em>, <em>sans</em></p>
+<p><em>en_avance</em>, <em>sans_arrêt</em></p></td>
+<td><p>autres prépositions</p>
+<p><em>chez(_)elle</em></p></td>
+</tr>
+<tr class="even">
+<td><p><strong>préposition + verbe</strong></p>
+<p>→ <em>Syntagme prépositionnel</em></p></td>
+<td><em>en_arrivant</em>, <em>sans_arrêter</em></td>
+<td><em>après(_)avoir bu</em></td>
+</tr>
+<tr class="odd">
+<td><p><strong>préposition + déterminant</strong></p>
+<p>→ <em>Syntagme prépositionnel</em></p></td>
+<td>—</td>
+<td><em>dans(_)une heure</em>, <em>dès(_)à présent</em>, <em>sans(_)un mot</em></td>
+</tr>
+<tr class="even">
+<td><p><strong>subordonnant + phrase</strong></p>
+<p>→ <em>Début de subordonnée</em></p></td>
+<td>—</td>
+<td><em>dont(_)on parle</em></td>
+</tr>
+<tr class="odd">
+<td><p><strong>début de phrase</strong></p>
+<p>→ <em>Début de phrase</em></p></td>
+<td><p><em>quels</em>, <em>quelles</em> + <em>être</em></p>
+<p><em>Quels_ont été les problèmes ?</em></p></td>
+<td><p><em>jamais</em>, <em>plus</em>, <em>moins</em>, <em>mieux</em></p>
+<p><em>Jamais(_)on n’a vu ça.</em></p>
+<p><em>Plus(_)on lit, plus(_)on apprend.</em></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="la-liaison-dans-le-syntagme-nominal" class="level2">
+<h2 class="anchored" data-anchor-id="la-liaison-dans-le-syntagme-nominal"><span class="header-section-number">5.3.5</span> La liaison dans le syntagme nominal</h2>
+<section id="le-déterminant" class="level3">
+<h3 class="anchored" data-anchor-id="le-déterminant"><span class="header-section-number">5.3.5.1</span> Le déterminant</h3>
+<ul>
+<li>Après le déterminant, la liaison est en général <strong>obligatoire</strong>, quel que soit le mot qui suit :</li>
+</ul>
+<div class="exemples">
+<ol start="19" type="1">
+<li>un nom : <em>des_amis</em></li>
+<li>un adjectif : <em>un_important résultat</em></li>
+<li>un adverbe : <em>mon_incroyablement stupide collaborateur</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="ladjectif-épithète" class="level3">
+<h3 class="anchored" data-anchor-id="ladjectif-épithète"><span class="header-section-number">5.3.5.2</span> L’adjectif épithète</h3>
+<ul>
+<li>Après un adjectif épithète, la liaison est en général <strong>facultative</strong> :</li>
+</ul>
+<div class="exemples">
+<ol start="22" type="1">
+<li>suivi d’un nom : <em>un charmant(_)endroit</em></li>
+<li>suivi d’un autre adjectif : <em>ses charmants(_)anciens camarades</em>, <em>des yeux bleus(_)étonnants</em></li>
+</ol>
+</div>
+<div class="remarque-box" data-titre="Fréquence">
+<p>La liaison est nettement plus fréquente après l’adjectif <strong>prénominal</strong> (<em>un important(_)résultat</em>) qu’après l’adjectif <strong>postnominal</strong> (<em>des camarades anciens(_)ou récents</em>).</p>
+</div>
+<hr>
+</section>
+<section id="les-adjectifs-de-la-détermination" class="level3">
+<h3 class="anchored" data-anchor-id="les-adjectifs-de-la-détermination"><span class="header-section-number">5.3.5.3</span> Les adjectifs de la détermination</h3>
+<ul>
+<li>La liaison est <strong>obligatoire</strong> après les adjectifs qui participent à la détermination, qu’ils soient spécifieurs ou épithètes :</li>
+</ul>
+<div class="exemples">
+<ol start="24" type="1">
+<li>indéfinis : <em>mes quelques_amis intimes</em></li>
+<li>cardinaux : <em>trois_hommes</em>, <em>les trois_hommes</em></li>
+<li>similarité, diversité : <em>de divers_inconvénients</em></li>
+</ol>
+</div>
+<hr>
+<section id="la-variation-après-les-cardinaux" class="level4">
+<h4 class="anchored" data-anchor-id="la-variation-après-les-cardinaux"><span class="header-section-number">5.3.5.3.1</span> La variation après les cardinaux</h4>
+<ul>
+<li>Avec un cardinal long, la liaison peut devenir facultative : <em>On en est à quarante-trois(_)adhérents.</em></li>
+<li><em>vingt</em> et <em>cent</em> ne font guère la liaison en <span class="api">/t/</span> que dans <em>vingt_ans</em>, <em>vingt_heures</em>, <em>cent_ans</em>, <em>cent_hommes</em>.</li>
+<li>Ailleurs, la liaison en <span class="api">/t/</span> semble difficile : seules l’absence de liaison ou la liaison en <span class="api">/z/</span> semblent naturelles.</li>
+</ul>
+<div class="exemples">
+<ol start="27" type="1">
+<li><em>% J’ai vu vingt_énergumènes.</em></li>
+<li><em>! J’ai vu vingt[z]énergumènes.</em></li>
+</ol>
+</div>
+<div class="attention-box">
+<p>Dans l’usage informel, <em>quatre</em>, <em>huit</em>, <em>vingt</em> et <em>cent</em> sont parfois prononcés avec un <span class="api">/z/</span> de liaison, comme <em>quatre[z]euros</em> <span class="api">/ka.tʁə.zø.ʁo/</span>. La norme condamne cet usage.</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="le-nom" class="level3">
+<h3 class="anchored" data-anchor-id="le-nom"><span class="header-section-number">5.3.5.4</span> Le nom</h3>
+<ul>
+<li>La liaison après un nom n’est possible que s’il est <strong>au pluriel</strong>.</li>
+<li>Un nom singulier ne fait pas la liaison, même si l’orthographe note une consonne finale.</li>
+</ul>
+<div class="exemples">
+<ol start="29" type="1">
+<li>singulier : <em>un chat intéressant</em>, <em>un chat angora</em></li>
+<li>pluriel : <em>des cas(_)intéressants</em>, <em>des chats(_)angora</em></li>
+</ol>
+</div>
+<ul>
+<li>Même règle que pour l’adjectif <strong>postnominal</strong>.</li>
+</ul>
+<hr>
+<section id="après-le-nom-les-frontières" class="level4">
+<h4 class="anchored" data-anchor-id="après-le-nom-les-frontières"><span class="header-section-number">5.3.5.4.1</span> Après le nom : les frontières</h4>
+<ul>
+<li>La liaison est <strong>exclue</strong> avant l’adjectif quand celui-ci suit un complément du nom ou un ajout prépositionnel : une frontière de groupe accentuel les sépare.</li>
+<li>L’adjectif <strong>apposé</strong>, en prosodie incidente (souvent marquée par une virgule), l’interdit aussi.</li>
+</ul>
+<div class="exemples">
+<ol start="31" type="1">
+<li><em>un buveur [de journaux] efficace</em></li>
+<li><em>une robe [à volants] indémodable</em></li>
+<li><em>Les hommes, heureux, rient de se regarder l’un l’autre.</em> (Genevoix, 1950)</li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="après-le-nom-singulier-les-exceptions" class="level4">
+<h4 class="anchored" data-anchor-id="après-le-nom-singulier-les-exceptions"><span class="header-section-number">5.3.5.4.2</span> Après le nom singulier : les exceptions</h4>
+<ul>
+<li>Dans des séquences plus ou moins figées et dans certains tours nom + prép. + nom (<em>mot à mot</em>), la liaison est possible après un nom singulier :</li>
+</ul>
+<div class="exemples">
+<ol start="34" type="1">
+<li><em>le cas(_)échéant</em></li>
+<li><em>un accent(_)aigu</em></li>
+<li><em>de haut(_)en bas</em></li>
+</ol>
+</div>
+<ul>
+<li>En lecture à voix haute ou en style très soutenu, elle apparaît parfois ailleurs après un nom singulier : par automatisme (un <em>s</em> ou un <em>t</em> écrit devant voyelle) ou par analogie avec des séquences comme <em>accent_aigu</em>.</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="la-liaison-et-le-syntagme-verbal" class="level2">
+<h2 class="anchored" data-anchor-id="la-liaison-et-le-syntagme-verbal"><span class="header-section-number">5.3.6</span> La liaison et le syntagme verbal</h2>
+<section id="sujet-et-verbe" class="level3">
+<h3 class="anchored" data-anchor-id="sujet-et-verbe"><span class="header-section-number">5.3.6.1</span> Sujet et verbe</h3>
+<ul>
+<li>La liaison est <strong>impossible</strong> après un sujet nominal, même court.</li>
+</ul>
+<div class="exemples">
+<ol start="37" type="1">
+<li><em>Les enfants arrivent.</em></li>
+<li><em>Les boues ont ameubli le sol.</em></li>
+<li><em>Jean arrive.</em></li>
+</ol>
+</div>
+<ul>
+<li>Elle est <strong>obligatoire</strong> après les pronoms personnels faibles et <strong>possible</strong> après les autres pronoms sujets.</li>
+<li>Les pronoms personnels <strong>forts</strong>, souvent contrastifs et formant leur propre groupe accentuel, ne la permettent pas.</li>
+</ul>
+<div class="exemples">
+<ol start="40" type="1">
+<li><em>Ils_ont répondu</em></li>
+<li><em>Tout(_)est bien qui finit bien.</em></li>
+<li><em>Eux ont répondu.</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="sujet-sans-nom" class="level3">
+<h3 class="anchored" data-anchor-id="sujet-sans-nom"><span class="header-section-number">5.3.6.2</span> Sujet sans nom</h3>
+<ul>
+<li>Après un SN sans nom, la liaison en <span class="api">/z/</span> est <strong>impossible</strong>.</li>
+</ul>
+<div class="exemples">
+<ol start="43" type="1">
+<li><em>Certains / Plusieurs / Trois y sont allés.</em></li>
+<li><em>Assez a été dit.</em></li>
+</ol>
+</div>
+<ul>
+<li>La liaison en <span class="api">/p/</span> est en revanche <strong>possible</strong> après <em>beaucoup</em> et <em>trop</em>.</li>
+</ul>
+<div class="exemples">
+<ol start="45" type="1">
+<li><em>Beaucoup(_)y ont contribué.</em></li>
+<li><em>Trop(_)a été dit sur ce sujet.</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="après-le-verbe" class="level3">
+<h3 class="anchored" data-anchor-id="après-le-verbe"><span class="header-section-number">5.3.6.3</span> Après le verbe</h3>
+<ul>
+<li>La liaison est <strong>possible</strong> entre le verbe et son premier complément ou ajout, et entre un ajout et le complément qui le suit.</li>
+</ul>
+<div class="exemples">
+<ol start="47" type="1">
+<li><em>Les enfants dînent(_)à l’extérieur.</em></li>
+<li><em>Ils vont moins(_)à Paris ces temps-ci.</em></li>
+<li><em>Ils vont rarement(_)à Paris.</em></li>
+</ol>
+</div>
+<ul>
+<li><strong>Au-delà du premier complément</strong>, elle est impossible…</li>
+<li>… sauf si ce complément est un pronom (<em>rien</em>, <em>tout</em>) ou un adverbe léger.</li>
+</ul>
+<div class="exemples">
+<ol start="50" type="1">
+<li><em>Il doit [ses succès] à Lou.</em></li>
+<li><em>Il accompagne [son fils] rarement à Paris.</em></li>
+<li><em>Il doit tout(_)à Marie.</em></li>
+<li><em>Il dépensait moins(_)hier.</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="les-temps-composés" class="level3">
+<h3 class="anchored" data-anchor-id="les-temps-composés"><span class="header-section-number">5.3.6.4</span> Les temps composés</h3>
+<ul>
+<li><strong>Avant le participe passé</strong>, la liaison est possible : le participe peut être vu comme le premier complément de l’auxiliaire.</li>
+</ul>
+<div class="exemples">
+<ol start="54" type="1">
+<li><em>Diane n’a jamais(_)armé Lou.</em></li>
+<li><em>Lou a tout(_)expliqué à Victor.</em></li>
+</ol>
+</div>
+<ul>
+<li><strong>Après le participe passé</strong>, elle est difficile.</li>
+</ul>
+<div class="exemples">
+<ol start="56" type="1">
+<li><em>Ils sont(_)allés à la plage.</em></li>
+<li><em>Ils ont mis un déguisement.</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="le-complément-prédicatif" class="level3">
+<h3 class="anchored" data-anchor-id="le-complément-prédicatif"><span class="header-section-number">5.3.6.5</span> Le complément prédicatif</h3>
+<ul>
+<li>La liaison est possible entre un verbe support et un nom prédicatif sans déterminant (<em>envie</em>, <em>ombrage</em>, <em>peur</em>, etc.), même après un participe passé.</li>
+<li>Elle l’est aussi avec un complément attribut (complexe prédicatif non léger), même après un participe passé.</li>
+</ul>
+<div class="exemples">
+<ol start="58" type="1">
+<li><em>Ils avaient(_)envie de venir.</em></li>
+<li><em>Ils ont pris(_)ombrage de votre proposition.</em></li>
+<li><em>Ils se sont mis(_)en colère.</em></li>
+</ol>
+</div>
+<hr>
+</section>
+</section>
+<section id="la-liaison-dans-les-autres-syntagmes" class="level2">
+<h2 class="anchored" data-anchor-id="la-liaison-dans-les-autres-syntagmes"><span class="header-section-number">5.3.7</span> La liaison dans les autres syntagmes</h2>
+<section id="syntagmes-adjectival-et-adverbial" class="level3">
+<h3 class="anchored" data-anchor-id="syntagmes-adjectival-et-adverbial"><span class="header-section-number">5.3.7.1</span> Syntagmes adjectival et adverbial</h3>
+<ul>
+<li>Dans le syntagme adjectival, la liaison est <strong>facultative</strong> :
+<ul>
+<li>avant l’adjectif (cas le plus fréquent) ;</li>
+<li>après l’adjectif, devant un complément ou un ajout.</li>
+</ul></li>
+</ul>
+<div class="exemples">
+<ol start="61" type="1">
+<li><em>Ils sont très(_)heureux.</em></li>
+<li><em>Ils sont fidèles(_)à leurs habitudes.</em></li>
+<li><em>Ils sont heureux(_)à en mourir.</em></li>
+</ol>
+</div>
+<ul>
+<li>Elle est facultative entre un ajout et l’adverbe qui le suit.</li>
+<li>Après l’adverbe, il n’y a généralement pas de liaison, sauf dans quelques séquences en style formel.</li>
+</ul>
+<div class="exemples">
+<ol start="64" type="1">
+<li><em>très(_)étonnamment</em></li>
+<li><em>contrairement(_)à vous</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="syntagme-prépositionnel" class="level3">
+<h3 class="anchored" data-anchor-id="syntagme-prépositionnel"><span class="header-section-number">5.3.7.2</span> Syntagme prépositionnel</h3>
+<ul>
+<li>Entre une préposition et son complément, la liaison est en général <strong>facultative</strong>.</li>
+<li>Sa fréquence dépend de la longueur et de la fréquence de la préposition : elle est très fréquente après les monosyllabes comme <em>chez</em> ou <em>dans</em>.</li>
+</ul>
+<div class="exemples">
+<ol start="66" type="1">
+<li><em>après(_)approbation</em>, <em>après(_)une bonne sieste</em></li>
+<li><em>dans(_)une heure</em></li>
+</ol>
+</div>
+<div class="attention-box">
+<ul>
+<li>Liaison <strong>obligatoire</strong> après <em>quant</em> : <em>quant_à moi</em></li>
+<li>Liaison <strong>impossible</strong> après <em>à travers</em>, <em>envers</em>, <em>vers</em> : leur <em>s</em> final est purement graphique.</li>
+</ul>
+</div>
+<hr>
+<section id="syntagme-prépositionnel-en-et-sans" class="level4">
+<h4 class="anchored" data-anchor-id="syntagme-prépositionnel-en-et-sans"><span class="header-section-number">5.3.7.2.1</span> Syntagme prépositionnel : <em>en</em> et <em>sans</em></h4>
+<ul>
+<li>Après <em>en</em> et <em>sans</em>, la liaison est <strong>obligatoire</strong> devant :
+<ul>
+<li>un participe présent ou un infinitif ;</li>
+<li>un nom sans déterminant.</li>
+</ul></li>
+<li>Elle est <strong>facultative</strong> devant un SN avec déterminant.</li>
+</ul>
+<div class="exemples">
+<ol start="68" type="1">
+<li><em>en_arrivant chez lui</em></li>
+<li><em>j’étais capable d’assumer, euh, une profession sans_être non plus, euh, totalement je-m’en-foutiste.</em> (Corpus ACSYNT, LADE)</li>
+<li><em>en_automne</em>, <em>sans_hésitation</em>, <em>sans_arrêt</em></li>
+<li><em>en(_)une heure</em>, <em>sans(_)une hésitation</em></li>
+</ol>
+</div>
+<hr>
+</section>
+</section>
+</section>
+<section id="la-coordination" class="level2">
+<h2 class="anchored" data-anchor-id="la-coordination"><span class="header-section-number">5.3.8</span> La coordination</h2>
+<ul>
+<li>Au pluriel, la liaison est <strong>facultative avant</strong> la conjonction.</li>
+</ul>
+<div class="exemples">
+<ol start="72" type="1">
+<li><em>l’enfant et l’homme</em> / <em>les hommes(_)et les femmes</em></li>
+<li><em>un homme heureux et fier</em> / <em>des hommes heureux(_)et fiers</em></li>
+</ol>
+</div>
+<ul>
+<li>Elle est <strong>impossible</strong> entre deux éléments juxtaposés et <strong>après <em>et</em></strong> (le <em>t</em> est purement graphique).</li>
+<li><em>mais</em> est la seule conjonction qui a une forme de liaison : elle est <strong>facultative</strong> après lui.</li>
+</ul>
+<div class="exemples">
+<ol start="74" type="1">
+<li><em>Ils sont heureux, habiles, et fiers.</em></li>
+<li><em>Ils sont las, et épuisés.</em></li>
+<li><em>Ils sont heureux mais(_)épuisés.</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="soit" class="level2">
+<h2 class="anchored" data-anchor-id="soit"><span class="header-section-number">5.3.9</span> <em>Soit</em></h2>
+<ul>
+<li>Après la conjonction <em>soit</em>, la liaison est considérée comme fautive…</li>
+</ul>
+<div class="exemples">
+<ol start="77" type="1">
+<li><em>Les sociétés et les personnes sont soit en France soit en Cambodge soit en Chine.</em> (RFI, <em>Le journal</em>, 24 nov. 2004)</li>
+</ol>
+</div>
+<ul>
+<li>… même si certains la font.</li>
+</ul>
+<div class="exemples">
+<ol start="78" type="1">
+<li><em>en Dordogne, soit_en Nouvelle-Aquitaine</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="la-liaison-et-la-position-dans-la-phrase" class="level2">
+<h2 class="anchored" data-anchor-id="la-liaison-et-la-position-dans-la-phrase"><span class="header-section-number">5.3.10</span> La liaison et la position dans la phrase</h2>
+<section id="les-frontières-de-groupe-intonatif" class="level3">
+<h3 class="anchored" data-anchor-id="les-frontières-de-groupe-intonatif"><span class="header-section-number">5.3.10.1</span> Les frontières de groupe intonatif</h3>
+<ul>
+<li>La liaison n’est <strong>jamais possible</strong> après une frontière de groupe intonatif, par exemple avant <em>et</em> quand le premier conjoint est une phrase.</li>
+<li>Après un adverbe en prosodie <strong>incidente</strong>, elle est impossible ; après le même adverbe en prosodie <strong>intégrée</strong>, elle est possible.</li>
+</ul>
+<div class="exemples">
+<ol start="79" type="1">
+<li><em>Paul est, souvent, arrivé à l’heure.</em></li>
+<li><em>Paul est souvent(_)arrivé à l’heure.</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="début-de-phrase" class="level3">
+<h3 class="anchored" data-anchor-id="début-de-phrase"><span class="header-section-number">5.3.10.2</span> Début de phrase</h3>
+<ul>
+<li>En début de phrase, tous les ajouts sauf <em>jamais</em> sont en prosodie incidente : pas de liaison.</li>
+<li>C’est le cas de <em>apparemment</em> (virgule) et aussi de <em>souvent</em>, même sans virgule.</li>
+<li>Pas de liaison non plus après un constituant disloqué (prosodie incidente).</li>
+</ul>
+<div class="exemples">
+<ol start="81" type="1">
+<li><em>Souvent il l’avait invité là-bas […]</em> (S. Dormann, 1993)</li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="début-de-phrase-linterrogation-partielle" class="level3">
+<h3 class="anchored" data-anchor-id="début-de-phrase-linterrogation-partielle"><span class="header-section-number">5.3.10.3</span> Début de phrase : l’interrogation partielle</h3>
+<ul>
+<li>Dans une interrogative partielle, la liaison dépend du mot interrogatif initial :
+<ul>
+<li><em>quels</em>, <em>quelles</em> (adjectifs extraits) : liaison <strong>obligatoire</strong> ;</li>
+<li><em>lesquels</em>, <em>lesquelles</em>, <em>auxquels</em>, <em>auxquelles</em>, <em>desquels</em>, <em>desquelles</em> : <strong>jamais</strong> de liaison ;</li>
+<li><em>comment</em>, <em>quand</em>, <em>quand est-ce que</em> (réanalysé comme un seul mot) : liaison <strong>possible</strong>, du moins pour certains locuteurs.</li>
+</ul></li>
+</ul>
+<div class="exemples">
+<ol start="82" type="1">
+<li><em>Quelles_ont été vos conclusions ?</em></li>
+<li><em>Lesquels avez-vous bus ?</em></li>
+<li><em>% Quand(_)est le spectacle ?</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="début-de-subordonnée" class="level3">
+<h3 class="anchored" data-anchor-id="début-de-subordonnée"><span class="header-section-number">5.3.10.4</span> Début de subordonnée</h3>
+<ul>
+<li>En début de subordonnée, la liaison est <strong>possible</strong> après le subordonnant (marqueur).</li>
+</ul>
+<div class="exemples">
+<ol start="85" type="1">
+<li><em>Je viendrai quand(_)on m’invitera.</em></li>
+<li><em>une histoire dont(_)on se serait bien passé</em></li>
+</ol>
+</div>
+<hr>
+</section>
+</section>
+<section id="les-facteurs-de-la-liaison-facultative" class="level2">
+<h2 class="anchored" data-anchor-id="les-facteurs-de-la-liaison-facultative"><span class="header-section-number">5.3.11</span> Les facteurs de la liaison facultative</h2>
+<section id="une-fréquence-très-variable" class="level3">
+<h3 class="anchored" data-anchor-id="une-fréquence-très-variable"><span class="header-section-number">5.3.11.1</span> Une fréquence très variable</h3>
+<ul>
+<li>La fréquence des liaisons facultatives varie fortement, comme le montrent les grandes divergences entre études sur corpus oraux.</li>
+</ul>
+<div class="exemples">
+<ol start="87" type="1">
+<li><em>dans(_)</em> : liaison dans 75 à 90 % des cas</li>
+<li><em>pendant(_)</em> : liaison dans moins de 10 % des cas</li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="la-construction-syntaxique" class="level3">
+<h3 class="anchored" data-anchor-id="la-construction-syntaxique"><span class="header-section-number">5.3.11.2</span> La construction syntaxique</h3>
+<ul>
+<li>Entre nom et adjectif épithète, la liaison est facultative, mais sa fréquence dépend de l’ordre :</li>
+</ul>
+<div class="exemples">
+<ol start="89" type="1">
+<li>adjectif + nom, liaison fréquente : <em>les intrépides(_)héritiers</em></li>
+<li>nom + adjectif, liaison peu fréquente : <em>les héritiers(_)intrépides</em></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="la-fréquence-du-premier-mot" class="level3">
+<h3 class="anchored" data-anchor-id="la-fréquence-du-premier-mot"><span class="header-section-number">5.3.11.3</span> La fréquence du premier mot</h3>
+<ul>
+<li>La liaison est plus fréquente après un mot fréquent.</li>
+</ul>
+<div class="exemples">
+<ol start="91" type="1">
+<li><em>un petit(_)ennui</em> : liaison fréquente</li>
+<li><em>ce maudit(_)ennui</em> : liaison rare</li>
+</ol>
+</div>
+<div class="attention-box">
+<p>C’est la fréquence de la <strong>forme</strong> qui compte, pas celle du lexème : la liaison est plus fréquente après <em>est</em> et <em>sont</em> qu’après <em>suis</em> ou <em>sommes</em>, toutes formes de <em>être</em>.</p>
+<div class="exemples">
+<ol start="93" type="1">
+<li><em>Elle est(_) après ils sont(_)allés dans la région, euh, en Corrèze.</em> (Corpus ACSYNT, GOLE)</li>
+<li><em>J’y suis attachée.</em> (Corpus ACSYNT, GOLE)</li>
+</ol>
+</div>
+</div>
+<hr>
+</section>
+<section id="la-collocation" class="level3">
+<h3 class="anchored" data-anchor-id="la-collocation"><span class="header-section-number">5.3.11.4</span> La collocation</h3>
+<ul>
+<li>La liaison est <strong>beaucoup plus probable</strong> quand les deux mots sont souvent employés ensemble (collocation).</li>
+</ul>
+<div class="exemples">
+<ol start="95" type="1">
+<li><em>Jeux_olympiques</em>, <em>accent(_)aigu</em>, <em>pieds(_)et poings liés</em></li>
+</ol>
+</div>
+<ul>
+<li>Après <em>toujours</em>, la liaison est plutôt rare, sauf dans l’expression figée <em>toujours est-il</em>.</li>
+</ul>
+<div class="exemples">
+<ol start="96" type="1">
+<li><em>il a toujours(_)appelé pour les anniversaires</em> : liaison rare</li>
+<li><em>Toujours_est-il que…</em> : liaison très fréquente</li>
+</ol>
+</div>
+<hr>
+</section>
+</section>
+</section>
+<section id="la-liaison-et-la-variation" class="level1">
+<h1><span class="header-section-number">5.4</span> La liaison et la variation</h1>
+<section id="une-classification-problématique" class="level2">
+<h2 class="anchored" data-anchor-id="une-classification-problématique"><span class="header-section-number">5.4.1</span> Une classification problématique</h2>
+<ul>
+<li>Sans cohésion syntaxique, pas de liaison</li>
+<li>« obligatoire » (ex. un [n] ami)</li>
+<li>« facultative » (ex. amis [z/0] intimes)</li>
+<li>« interdite » (ex. les [0] héros).</li>
+</ul>
+<p>Mais cette classification pose problème :</p>
+<ul>
+<li>Les analyses du corpus <em>Phonologie du Français Contemporain</em> (PFC) remettent en question ces étiquettes (Durand et al.&nbsp;2011).</li>
+<li>Même dans des contextes réputés <strong>obligatoires</strong>, la liaison n’est réalisée que <strong>presque toujours</strong> :
+<ul>
+<li>par exemple après un mot invariable monosyllabique (<em>dans_une heure</em> <span class="api">/dɑ̃.zyn.œʁ/</span>) (Mallet 2008 ; Adda-Decker et al.&nbsp;2012) ;</li>
+<li>dans la catégorie « obligatoire » de Delattre, la réalisation varie selon des facteurs morphologiques et catégoriels (Durand &amp; Lyche 2008).</li>
+</ul></li>
+</ul>
+<div class="attention-box">
+<p>« Obligatoire » décrit une <strong>tendance très forte</strong>, pas une règle sans exception.</p>
+</div>
+<hr>
+</section>
+<section id="les-facteurs-sociolinguistiques" class="level2">
+<h2 class="anchored" data-anchor-id="les-facteurs-sociolinguistiques"><span class="header-section-number">5.4.2</span> Les facteurs sociolinguistiques</h2>
+<ul>
+<li><strong>Registre</strong> : la fréquence des liaisons facultatives augmente du registre familier au registre soutenu (Delattre 1947).</li>
+<li><strong>Style</strong> : le protocole PFC recueille trois modalités, plus ou moins surveillées.
+<ul>
+<li>La liaison est plus fréquente en lecture, puis en conversation guidée, puis en conversation spontanée (Eychenne et al.&nbsp;2014).</li>
+</ul></li>
+</ul>
+<div class="exemples">
+<ol start="98" type="1">
+<li>lecture &gt; conversation guidée &gt; conversation spontanée</li>
+</ol>
+</div>
+<hr>
+<section id="les-facteurs-sociolinguistiques-âge-et-sexe" class="level3">
+<h3 class="anchored" data-anchor-id="les-facteurs-sociolinguistiques-âge-et-sexe"><span class="header-section-number">5.4.2.1</span> Les facteurs sociolinguistiques : âge et sexe</h3>
+<ul>
+<li><strong>Âge</strong> : les locuteurs plus âgés font plus de liaisons, surtout en conversation spontanée (Malécot 1975 ; Ashby 1981).</li>
+<li><strong>Sexe</strong> : les résultats divergent.
+<ul>
+<li>plus de liaisons chez les femmes (Malécot 1975 ; Booij &amp; De Jong 1987) ;</li>
+<li>plus de liaisons chez les hommes (Ashby 1981) ;</li>
+<li>aucune différence significative dans les études récentes (Durand et al.&nbsp;2011).</li>
+</ul></li>
+</ul>
+<div class="remarque-box" data-titre="À retenir">
+<p>Pour l’âge, les résultats sont convergents. Pour le sexe, ils sont contradictoires, et les études récentes ne trouvent pas d’effet.</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="étude-de-cas-hutin-et-al.-2022" class="level2">
+<h2 class="anchored" data-anchor-id="étude-de-cas-hutin-et-al.-2022"><span class="header-section-number">5.4.3</span> Étude de cas : Hutin et al.&nbsp;(2022)</h2>
+<div class="objectif-box" data-titre="Objectifs">
+<ul>
+<li>Montrer ce qu’une étude sur corpus apporte à l’analyse de la liaison</li>
+<li>Discuter ses limites et l’utilité d’analyser les patrons d’erreurs fréquents</li>
+</ul>
+</div>
+<section id="question-de-recherche" class="level3">
+<h3 class="anchored" data-anchor-id="question-de-recherche"><span class="header-section-number">5.4.3.1</span> Question de recherche</h3>
+<div class="question-box" data-titre="Question de recherche">
+<p>La liaison après le verbe <em>être</em> conjugué (<em>était_un homme</em>) est-elle réalisée ? De quoi dépend-elle ?</p>
+</div>
+<ul>
+<li>Trois corpus de parole :
+<ul>
+<li><strong>ESTER</strong> : radio, discours préparé, voire lu sur prompteur</li>
+<li><strong>ETAPE</strong> : émissions de débat</li>
+<li><strong>NCCFr</strong> : conversations entre amis, style informel</li>
+</ul></li>
+<li>Variables étudiées : <strong>style de parole</strong>, <strong>genre</strong> du locuteur, <strong>évolution diachronique</strong></li>
+</ul>
+<div class="lecture-box" data-titre="Référence">
+<p>Hutin et al.&nbsp;(2022), <em>CMLF 2022</em>, SHS Web of Conferences 138, 10004. <a href="https://doi.org/10.1051/shsconf/202213810004" class="uri">https://doi.org/10.1051/shsconf/202213810004</a></p>
+</div>
+<hr>
+</section>
+<section id="pourquoi-était-une" class="level3">
+<h3 class="anchored" data-anchor-id="pourquoi-était-une"><span class="header-section-number">5.4.3.2</span> Pourquoi « était un(e) » ?</h3>
+<div class="question-box">
+<p>Pourquoi, à votre avis, choisir de s’intéresser à <em>était un(e)</em> ?</p>
+</div>
+<div class="incremental">
+<ul class="incremental">
+<li><em>être</em> est l’un des verbes les plus <strong>fréquents</strong> : beaucoup d’occurrences</li>
+<li>la liaison y est <strong>facultative</strong> : on peut observer de la <strong>variation</strong></li>
+<li><em>un/une</em> commence toujours par une <strong>voyelle</strong> : le contexte est constant</li>
+<li>la séquence est facile à <strong>rechercher automatiquement</strong> dans un corpus</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="sélection-des-données" class="level3">
+<h3 class="anchored" data-anchor-id="sélection-des-données"><span class="header-section-number">5.4.3.3</span> Sélection des données</h3>
+<ul>
+<li>On ne garde que « <strong>verbe conjugué + objet</strong> » (<em>était un homme</em>)</li>
+<li>et non « verbe conjugué + adverbe » (<em>était un peu</em>)</li>
+</ul>
+<div class="question-box fragment">
+<p>Pourquoi exclure <em>était un peu</em> ?</p>
+</div>
+<div class="fragment">
+<ul>
+<li>La construction syntaxique change, et la liaison en dépend.</li>
+<li>On compare donc des cas <strong>comparables</strong>.</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Au total : <strong>5049 occurrences</strong> du verbe <em>être</em> conjugué suivi de <em>un/une</em>.</p>
+</div>
+<hr>
+</section>
+<section id="méthode-de-lalignement-à-lécoute" class="level3">
+<h3 class="anchored" data-anchor-id="méthode-de-lalignement-à-lécoute"><span class="header-section-number">5.4.3.4</span> Méthode : de l’alignement à l’écoute</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>1. Alignement automatique</strong></p>
+<ul>
+<li>L’aligneur forcé décide si la consonne de liaison est présente</li>
+<li>Rapide, applicable à des milliers d’occurrences</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>2. Vérification perceptuelle</strong></p>
+<ul>
+<li>Des annotateurs humains réécoutent les occurrences</li>
+<li>Ils repèrent les <strong>alignements erronés</strong> et leur cause</li>
+</ul>
+</div>
+</div>
+<div class="question-box fragment">
+<p>Comment mesurer si l’aligneur est fiable ?</p>
+</div>
+<p>→ en comparant sa sortie à l’écoute humaine</p>
+<hr>
+</section>
+<section id="pourquoi-laligneur-se-trompe-t-il" class="level3">
+<h3 class="anchored" data-anchor-id="pourquoi-laligneur-se-trompe-t-il"><span class="header-section-number">5.4.3.5</span> Pourquoi l’aligneur se trompe-t-il ?</h3>
+<div class="question-box">
+<p>Selon vous, quelles erreurs trouvera-t-on dans chaque corpus ?</p>
+</div>
+<div class="fragment">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 91%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Corpus</th>
+<th style="text-align: left;">Principales sources d’erreur</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>NCCFr</strong></td>
+<td style="text-align: left;">prosodies inhabituelles (46,53 %), disfluences (32,64 %)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>ESTER</strong></td>
+<td style="text-align: left;">problèmes de bande passante (37,31 %), bruit de fond (15,38 %)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>ETAPE</strong></td>
+<td style="text-align: left;">source non identifiée (28,89 %), chevauchement de parole (23,87 %), prosodie inhabituelle (14,32 %), disfluences (10,80 %)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="fragment">
+<p>Les sources d’erreur sont corrélées de façon significative au corpus (χ² = 397.13, df = 14, p &lt; 0.0001).</p>
+</div>
+<hr>
+</section>
+<section id="interpréter-les-erreurs" class="level3">
+<h3 class="anchored" data-anchor-id="interpréter-les-erreurs"><span class="header-section-number">5.4.3.6</span> Interpréter les erreurs</h3>
+<ul>
+<li><strong>NCCFr</strong> : erreurs attendues, liées au <strong>cadre dialogique</strong>. On y trouve des prosodies inhabituelles, des disfluences et, dans une moindre mesure, un son moins audible (locuteur éloigné du micro), quelques chevauchements de parole et un peu d’hypo-articulation.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li><strong>ESTER</strong> : plus surprenant, car ce sont des enregistrements <strong>professionnels</strong>. Les problèmes de bande passante viennent probablement de la parole d’<strong>invités au téléphone</strong>, et le bruit de fond sans doute de la même cause.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>ETAPE</strong> : beaucoup d’erreurs <strong>sans source identifiée</strong>, malgré des enregistrements professionnels. Les chevauchements, prosodies inhabituelles et disfluences sont sans doute dus aux <strong>débats</strong>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Selon le genre</strong> : chez les femmes comme chez les hommes, la cause principale est la <strong>prosodie inhabituelle</strong>. Viennent ensuite les problèmes de <strong>bande passante</strong> chez les femmes et le <strong>chevauchement de parole</strong> chez les hommes.</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="résultat-1-les-liaisons-fautives" class="level3">
+<h3 class="anchored" data-anchor-id="résultat-1-les-liaisons-fautives"><span class="header-section-number">5.4.3.7</span> Résultat 1 : les liaisons fautives</h3>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>Parmi les <strong>1659 liaisons</strong> observées : <strong>8 liaisons fautives</strong></li>
+<li>Dans <strong>7 cas sur 8</strong>, un <strong>[t]</strong> est réalisé :
+<ul>
+<li>alors qu’un <strong>[z]</strong> est attendu (5 cas)</li>
+<li>ou qu’<strong>aucune consonne</strong> n’est attendue (2 cas)</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><img src="images/clipboard-62529361.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="fragment">
+<div class="remarque-box" data-titre="Interprétation">
+<p>Il y a sans doute une <strong>pression paradigmatique</strong> en faveur de [t] comme consonne de liaison après un verbe conjugué, du moins après <em>être</em>, mais cette pression reste <strong>légère</strong>.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="résultat-2-le-style-de-parole" class="level3">
+<h3 class="anchored" data-anchor-id="résultat-2-le-style-de-parole"><span class="header-section-number">5.4.3.8</span> Résultat 2 : le style de parole</h3>
+<div class="question-box">
+<p>Dans quel corpus s’attend-on à trouver le plus de liaisons ?</p>
+</div>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Plus le style est <strong>soutenu</strong> (discours préparé, voire prompté, d’ESTER), <strong>plus</strong> on trouve de liaisons.</li>
+<li>Plus le style est <strong>informel</strong> (NCCFr), <strong>moins</strong> on en trouve.</li>
+<li>Δ = <strong>53,69 %</strong> entre ESTER et NCCFr</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img src="images/clipboard-1694989022.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="résultat-3-le-genre" class="level3">
+<h3 class="anchored" data-anchor-id="résultat-3-le-genre"><span class="header-section-number">5.4.3.9</span> Résultat 3 : le genre</h3>
+<div class="question-box">
+<p>Les hommes font-ils plus de liaisons que les femmes ?</p>
+</div>
+<div class="fragment">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 29%">
+<col style="width: 59%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Corpus</th>
+<th style="text-align: left;">Test</th>
+<th style="text-align: center;">Significatif ?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>ETAPE</strong></td>
+<td style="text-align: left;">χ² = 3.8693, df = 1, p = 0.04918</td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>tout juste (p &lt; 0,05)</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>ESTER</strong></td>
+<td style="text-align: left;">χ² = 3.0069, df = 1, p = 0.08291</td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>non</strong></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>NCCFr</strong></td>
+<td style="text-align: left;">χ² = 0.0032815, df = 1, p = 0.9543</td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>non</strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="fragment">
+<ul>
+<li>La tendance en faveur de la liaison chez les hommes dans ETAPE va dans le sens d’<strong>Ashby (1981)</strong>.</li>
+<li>Mais dans l’ensemble, les résultats ne sont pas significatifs, ce qui soutient <strong>Durand et al.&nbsp;(2011)</strong>.</li>
+</ul>
+</div>
+</section>
+<section id="résultat-4-lévolution-diachronique" class="level3">
+<h3 class="anchored" data-anchor-id="résultat-4-lévolution-diachronique"><span class="header-section-number">5.4.3.10</span> Résultat 4 : l’évolution diachronique</h3>
+<div class="question-box">
+<p>La liaison après <em>être</em> est-elle en progression ou en recul ?</p>
+</div>
+<div class="fragment">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Parole radiophonique</th>
+<th style="text-align: center;">Liaisons réalisées après <em>être</em> conjugué</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">années 1960</td>
+<td style="text-align: center;">près de <strong>96 %</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">années 2010</td>
+<td style="text-align: center;"><strong>67,50 %</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Tendance à la <strong>baisse</strong> : Δ = 28,36 %</li>
+<li>Les quelques formes qui font exception (<em>sommes</em>, <em>êtes</em>) sont trop peu représentées pour remettre ce résultat en question.</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="discussion" class="level3">
+<h3 class="anchored" data-anchor-id="discussion"><span class="header-section-number">5.4.3.11</span> Discussion</h3>
+<div class="retenir-box">
+<ul>
+<li>La liaison après <em>être</em> est une variable <strong>stylistique</strong> plus que <strong>sociale</strong> (genre).</li>
+<li>Elle est en <strong>recul</strong> depuis les années 1960.</li>
+<li>L’alignement automatique permet de traiter des milliers d’occurrences, mais la <strong>vérification humaine</strong> reste indispensable.</li>
+</ul>
+</div>
+<hr>
+</section>
+</section>
+</section>
+<section id="évaluer-une-annotation" class="level1">
+<h1><span class="header-section-number">5.5</span> Évaluer une annotation</h1>
+<div class="retenir-box" data-titre="Pourquoi évaluer une annotation ?">
+<p>L’étude de cas de <strong>Hutin et al.&nbsp;(2022)</strong> le montre : l’alignement automatique permet de traiter des milliers d’occurrences, mais seule la <strong>vérification humaine</strong> permet de savoir s’il est fiable. On apprend donc :</p>
+<ul>
+<li>de la <strong>fiabilité</strong> : comparer l’aligneur à l’écoute humaine (précision, rappel, score F1), et les annotateurs entre eux (kappa) ;</li>
+<li>des <strong>erreurs</strong> : leur analyse (prosodie inhabituelle, disfluences, bande passante…) dit aussi quelque chose des corpus eux-mêmes.</li>
+</ul>
+</div>
+<hr>
+<section id="annotation-automatique-le-score-f1" class="level2">
+<h2 class="anchored" data-anchor-id="annotation-automatique-le-score-f1"><span class="header-section-number">5.5.1</span> Annotation automatique : le score F1</h2>
+<p>L’écoute humaine sert de <strong>référence</strong>. Pour la liaison :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 39%">
+<col style="width: 39%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Liaison entendue</th>
+<th style="text-align: center;">Pas de liaison entendue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>L’aligneur détecte une liaison</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>Vrais Positifs (TP)</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>Faux Positifs (FP)</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>L’aligneur ne détecte rien</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>Faux Négatifs (FN)</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>Vrais Négatifs (TN)</strong></span></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="question-box">
+<p>Comment calculer la précision ? Et le rappel ?</p>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="math inline">\(\text{Précision} = \frac{TP}{TP + FP}\)</span> : parmi les liaisons détectées, combien sont réellement entendues ?</li>
+<li><span class="math inline">\(\text{Rappel} = \frac{TP}{TP + FN}\)</span> : parmi les liaisons entendues, combien l’aligneur a-t-il trouvées ?</li>
+<li><span class="math inline">\(F1 = 2 \times \frac{\text{Précision} \times \text{Rappel}}{\text{Précision} + \text{Rappel}}\)</span></li>
+</ul>
+</div>
+<p><img src="images/clipboard-2243199603.png" class="img-fluid" width="2000"></p>
+<hr>
+<div class="definition-box" data-titre="Score F1, précision et rappel">
+<p>La formule du score F1 est la suivante :</p>
+<p><span class="math display">\[F1 = 2 \times \frac{\text{Précision} \times \text{Rappel}}{\text{Précision} + \text{Rappel}}\]</span></p>
+<p>La précision est définie de la manière suivante :</p>
+<p><span class="math display">\[\text{Précision} = \frac{TP}{TP + FP}\]</span></p>
+<p>Et l’équation pour le rappel est la suivante :</p>
+<p><span class="math display">\[\text{Rappel} = \frac{TP}{TP + FN}\]</span></p>
+<p>Ici, <span class="math inline">\(TP\)</span> désigne les vrais positifs, <span class="math inline">\(FP\)</span> les faux positifs et <span class="math inline">\(FN\)</span> les faux négatifs.</p>
+</div>
+<div class="remarque-box" data-titre="Pourquoi la moyenne harmonique ?">
+<p>La moyenne harmonique est utilisée à la place de la moyenne arithmétique, car la première pénalise les différences importantes. En cas de haute précision mais de faible rappel (ou vice versa), le score F1 diminuera considérablement, reflétant un déséquilibre.</p>
+</div>
+<hr>
+<section id="matrice-de-confusion" class="level3">
+<h3 class="anchored" data-anchor-id="matrice-de-confusion"><span class="header-section-number">5.5.1.1</span> Matrice de confusion</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 41%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Valeur Réelle : Positive</th>
+<th style="text-align: center;">Valeur Réelle : Négative</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Valeur Prédite : Positive</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>Vrais Positifs (TP)</strong></span><br></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>Faux Positifs (FP)</strong></span><br></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Valeur Prédite : Négative</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>Faux Négatifs (FN)</strong></span><br></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>Vrais Négatifs (TN)</strong></span><br></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="mini-exercice-f1-dun-système-de-transcription" class="level3">
+<h3 class="anchored" data-anchor-id="mini-exercice-f1-dun-système-de-transcription"><span class="header-section-number">5.5.1.2</span> Mini-exercice : F1 d’un système de transcription</h3>
+<p>Un système de reconnaissance automatique de la parole (ASR) est testé sur un extrait de corpus oral comportant <strong>100 structures à liaison obligatoire ou potentielle</strong>. On souhaite évaluer l’aptitude du modèle à transcrire correctement le mot cible en capturant la liaison réalisée.</p>
+<ul>
+<li>La liaison était prononcée et l’ASR l’a correctement identifiée et transcrite. 18</li>
+<li>Aucune liaison n’a été faite à l’oral, mais l’ASR en a généré une (Erreur de Type I). 2</li>
+<li>Une liaison était présente à l’oral, mais l’ASR l’a manquée (Erreur de Type II). 6</li>
+<li>Aucune liaison à l’oral et l’ASR n’en a pas généré. 74</li>
+</ul>
+<p>Questions</p>
+<ol type="1">
+<li>Calculez la <strong>Précision</strong> de la détection de liaison.</li>
+<li>Calculez le <strong>Rappel</strong> (ou sensibilité) du système.</li>
+<li>Calculez le <strong>Score F1</strong> global de cette transcription.</li>
+</ol>
+<hr>
+<p>Solution</p>
+<section id="calcul-de-la-précision" class="level4">
+<h4 class="anchored" data-anchor-id="calcul-de-la-précision"><span class="header-section-number">5.5.1.2.1</span> 1. Calcul de la Précision</h4>
+<p>La précision mesure la proportion de liaisons correctement identifiées parmi toutes celles détectées par l’outil :</p>
+<p><span class="math display">\[\text{Précision} = \frac{TP}{TP + FP} = \frac{18}{18 + 2} = \frac{18}{20} = 0{,}90\]</span></p>
+<hr>
+</section>
+<section id="calcul-du-rappel" class="level4">
+<h4 class="anchored" data-anchor-id="calcul-du-rappel"><span class="header-section-number">5.5.1.2.2</span> 2. Calcul du Rappel</h4>
+<p>Le rappel mesure la capacité de l’ASR à capturer toutes les liaisons effectivement prononcées dans l’audio :</p>
+<p><span class="math display">\[\text{Rappel} = \frac{TP}{TP + FN} = \frac{18}{18 + 6} = \frac{18}{24} = 0{,}75 \]</span></p>
+<hr>
+</section>
+<section id="calcul-du-score-f1" class="level4">
+<h4 class="anchored" data-anchor-id="calcul-du-score-f1"><span class="header-section-number">5.5.1.2.3</span> 3. Calcul du Score F1</h4>
+<p>Le score F1 combine la précision et le rappel par leur moyenne harmonique :</p>
+<p><span class="math display">\[F1 = 2 \times \frac{\text{Précision} \times \text{Rappel}}{\text{Précision} + \text{Rappel}}\]</span></p>
+<p><span class="math display">\[F1 = 2 \times \frac{0{,}90 \times 0{,}75}{0{,}90 + 0{,}75} = 2 \times \frac{0{,}675}{1{,}65} = \frac{1{,}35}{1{,}65} \approx 0{,}818 \quad (81{,}8\%)\]</span></p>
+<p><em>Le modèle de transcription automatique obtient un <strong>score F1 de 81,8 %</strong> sur l’identification des liaisons.</em></p>
+<hr>
+<p>Mini-exercice : F1 d’un annotateur automatique de liaisons</p>
+<p>Un script de règles annote automatiquement 100 contextes de liaison (obligatoire ou potentielle) extraits d’un corpus oral. On compare ses prédictions à une annotation manuelle réalisée à l’écoute, qui sert de référence. On souhaite évaluer l’aptitude du script à repérer les liaisons réellement réalisées.</p>
+<p>La liaison était réalisée et le script l’a correctement annotée comme réalisée. 21 Aucune liaison n’a été faite à l’oral, mais le script en a annoté une (Erreur de Type I). 7 Une liaison était réalisée à l’oral, mais le script l’a manquée (Erreur de Type II). 3 Aucune liaison à l’oral et le script n’en a pas annoté. 69</p>
+<p>Questions</p>
+<p>Calculez la Précision de la détection de liaison. Calculez le Rappel (ou sensibilité) du script. Calculez le Score F1 global de cette annotation. Comparez avec le système ASR de l’exercice précédent : quel type d’erreur chacun commet-il surtout ?</p>
+<hr>
+<p>Calcul de la Précision</p>
+<p>La précision mesure la proportion de liaisons correctement identifiées parmi toutes celles annotées par le script :</p>
+<p><span class="math display">\[\text{Précision} = \frac{TP}{TP + FP} = \frac{21}{21 + 7} = \frac{21}{28} = 0{,}75\]</span></p>
+<hr>
+<p>Calcul du Rappel</p>
+<p>Le rappel mesure la capacité du script à capturer toutes les liaisons effectivement réalisées à l’oral :</p>
+<p><span class="math display">\[\text{Rappel} = \frac{TP}{TP + FN} = \frac{21}{21 + 3} = \frac{21}{24} = 0{,}875\]</span></p>
+<hr>
+<p>Calcul du Score F1</p>
+<p>Le score F1 combine la précision et le rappel par leur moyenne harmonique :</p>
+<p><span class="math display">\[F1 = 2 \times \frac{\text{Précision} \times \text{Rappel}}{\text{Précision} + \text{Rappel}}\]</span> <span class="math display">\[F1 = 2 \times \frac{0{,}75 \times 0{,}875}{0{,}75 + 0{,}875} = 2 \times \frac{0{,}65625}{1{,}625} = \frac{1{,}3125}{1{,}625} \approx 0{,}808 \quad (80{,}8\%)\]</span></p>
+<hr>
+</section>
+</section>
+</section>
+<section id="annotation-manuelle-le-kappa-de-cohen" class="level2">
+<h2 class="anchored" data-anchor-id="annotation-manuelle-le-kappa-de-cohen"><span class="header-section-number">5.5.2</span> Annotation manuelle : le kappa de Cohen</h2>
+<p>Le kappa de Cohen (<span class="math inline">\(\kappa\)</span>) mesure l’<strong>accord entre deux annotateurs</strong> (accord inter-annotateurs) qui classent les mêmes données dans les mêmes catégories.</p>
+<div class="definition-box" data-titre="Kappa de Cohen">
+<p>La formule du kappa est la suivante :</p>
+<p><span class="math display">\[\kappa = \frac{p_o - p_e}{1 - p_e}\]</span></p>
+<p>L’accord observé est défini de la manière suivante :</p>
+<p><span class="math display">\[p_o = \frac{\text{nombre de cas où les deux annotateurs sont d'accord}}{\text{nombre total de cas}}\]</span></p>
+<p>Et l’équation pour l’accord attendu par hasard est la suivante :</p>
+<p><span class="math display">\[p_e = \sum_{k} p_{A}(k) \times p_{B}(k)\]</span></p>
+<div class="etapes">
+<ol type="1">
+<li>Prendre la catégorie 1 <span class="math inline">\(\rightarrow\)</span> (part de A) <span class="math inline">\(\times\)</span> (part de B)</li>
+<li>Prendre la catégorie 2 <span class="math inline">\(\rightarrow\)</span> (part de A) <span class="math inline">\(\times\)</span> (part de B)</li>
+<li>Faire de même pour toutes les autres catégories.</li>
+<li>Additionner tous les résultats obtenus.</li>
+</ol>
+</div>
+<p>Ici, <span class="math inline">\(p_{A}(k)\)</span> et <span class="math inline">\(p_{B}(k)\)</span> désignent la proportion de cas que l’annotateur A et l’annotateur B ont classés dans la catégorie <span class="math inline">\(k\)</span>.</p>
+</div>
+<div class="remarque-box" data-titre="Pourquoi pas le simple pourcentage d'accord ?">
+<p>On utilise le kappa à la place du simple pourcentage d’accord, car le second ne tient pas compte du hasard. Deux annotateurs qui répondent au hasard seront parfois d’accord ; le kappa retire cette part et ne mesure que l’accord <strong>au-delà du hasard</strong>.</p>
+</div>
+<hr>
+<section id="matrice-daccord-entre-annotateurs" class="level3">
+<h3 class="anchored" data-anchor-id="matrice-daccord-entre-annotateurs"><span class="header-section-number">5.5.2.1</span> Matrice d’accord entre annotateurs</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 41%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Annotateur B : Oui</th>
+<th style="text-align: center;">Annotateur B : Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Annotateur A : Oui</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>Accord : 40</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>Désaccord : 10</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Annotateur A : Non</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>Désaccord : 5</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>Accord : 45</strong></span></td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<ul>
+<li>Accord observé : <span class="math inline">\(p_o = \frac{40 + 45}{100} = 0{,}85\)</span></li>
+<li>A dit <em>oui</em> dans 50 % des cas, B dans 45 % des cas</li>
+<li>Accord par hasard : <span class="math inline">\(p_e = (0{,}50 \times 0{,}45) + (0{,}50 \times 0{,}55) = 0{,}50\)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<p><span class="math display">\[\kappa = \frac{0{,}85 - 0{,}50}{1 - 0{,}50} = 0{,}70\]</span></p>
+</div>
+<hr>
+</section>
+<section id="interpréter-le-kappa" class="level3">
+<h3 class="anchored" data-anchor-id="interpréter-le-kappa"><span class="header-section-number">5.5.2.2</span> Interpréter le kappa</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Valeur de <span class="math inline">\(\kappa\)</span></th>
+<th style="text-align: left;">Accord</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">&lt; 0</td>
+<td style="text-align: left;"><span style="color: #e74c3c; font-weight: bold;"><strong>Inférieur au hasard</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0,00 – 0,20</td>
+<td style="text-align: left;"><span style="color: #e74c3c; font-weight: bold;"><strong>Très faible</strong></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0,21 – 0,40</td>
+<td style="text-align: left;">Faible</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0,41 – 0,60</td>
+<td style="text-align: left;">Modéré</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">0,61 – 0,80</td>
+<td style="text-align: left;"><span style="color: #27ae60; font-weight: bold;"><strong>Fort</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0,81 – 1,00</td>
+<td style="text-align: left;"><span style="color: #27ae60; font-weight: bold;"><strong>Presque parfait</strong></span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="ref">Landis &amp; Koch (1977)</span></p>
+<div class="fragment">
+<p>Notre exemple (<span class="math inline">\(\kappa = 0{,}70\)</span>) : 85 % d’accord brut, mais un accord <strong>fort</strong> une fois le hasard retiré.</p>
+</div>
+</section>
+</section>
+<section id="exercice-calculer-le-kappa" class="level2">
+<h2 class="anchored" data-anchor-id="exercice-calculer-le-kappa"><span class="header-section-number">5.5.3</span> Exercice : calculer le kappa</h2>
+<p>Deux annotateurs indiquent pour 50 participes passés s’ils sont <strong>accordés</strong> (oui) ou non.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Annotateur B : Oui</th>
+<th style="text-align: center;">Annotateur B : Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Annotateur A : Oui</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>21</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>4</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Annotateur A : Non</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>4</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>21</strong></span></td>
+</tr>
+</tbody>
+</table>
+<div class="question-box">
+<p>Calculez <span class="math inline">\(p_o\)</span>, <span class="math inline">\(p_e\)</span> et <span class="math inline">\(\kappa\)</span>. Comment qualifier l’accord ?</p>
+</div>
+<div class="fragment reponse">
+<ul>
+<li><span class="math inline">\(p_o = \frac{21 + 21}{50} = 0{,}84\)</span></li>
+<li>A dit <em>oui</em> : <span class="math inline">\(\frac{25}{50} = 0{,}50\)</span> · B dit <em>oui</em> : <span class="math inline">\(\frac{25}{50} = 0{,}50\)</span></li>
+<li><span class="math inline">\(p_e = (0{,}50 \times 0{,}50) + (0{,}50 \times 0{,}50) = 0{,}50\)</span></li>
+<li><span class="math inline">\(\kappa = \frac{0{,}84 - 0{,}50}{1 - 0{,}50} = 0{,}68\)</span> → accord <strong>fort</strong></li>
+</ul>
+</div>
+<hr>
+<section id="exercice-90-daccord-cest-bien" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-90-daccord-cest-bien"><span class="header-section-number">5.5.3.1</span> Exercice : 90 % d’accord, c’est bien ?</h3>
+<p>Deux annotateurs indiquent pour 100 occurrences si le participe passé est employé avec l’auxiliaire <em>avoir</em>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Annotateur B : Oui</th>
+<th style="text-align: center;">Annotateur B : Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Annotateur A : Oui</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>85</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>5</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Annotateur A : Non</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>5</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>5</strong></span></td>
+</tr>
+</tbody>
+</table>
+<div class="question-box">
+<p>Calculez <span class="math inline">\(p_o\)</span>, <span class="math inline">\(p_e\)</span> et <span class="math inline">\(\kappa\)</span>. Comparez avec l’exercice précédent.</p>
+</div>
+<div class="fragment reponse">
+<ul>
+<li><span class="math inline">\(p_o = \frac{85 + 5}{100} = 0{,}90\)</span></li>
+<li>A dit <em>oui</em> : <span class="math inline">\(0{,}90\)</span> · B dit <em>oui</em> : <span class="math inline">\(0{,}90\)</span></li>
+<li><span class="math inline">\(p_e = (0{,}90 \times 0{,}90) + (0{,}10 \times 0{,}10) = 0{,}82\)</span></li>
+<li><span class="math inline">\(\kappa = \frac{0{,}90 - 0{,}82}{1 - 0{,}82} = \frac{0{,}08}{0{,}18} \approx 0{,}44\)</span> → accord seulement <strong>modéré</strong></li>
+<li>Quand une catégorie domine, le hasard produit déjà beaucoup d’accord : un accord brut élevé ne suffit pas.</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="exercice-kappa-avec-trois-catégories" class="level3">
+<h3 class="anchored"><span class="header-section-number">5.5.3.2</span> Exercice : kappa avec trois catégories</h3>
+<p>Deux annotateurs étiquettent 60 mots comme <strong>nom</strong>, <strong>verbe</strong> ou <strong>adjectif</strong>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 29%">
+<col style="width: 29%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">B : Nom</th>
+<th style="text-align: center;">B : Verbe</th>
+<th style="text-align: center;">B : Adjectif</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A : Nom</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>18</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>2</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>0</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>A : Verbe</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>1</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>17</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>2</strong></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>A : Adjectif</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>1</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>1</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>18</strong></span></td>
+</tr>
+</tbody>
+</table>
+<div class="question-box">
+<p>Calculez <span class="math inline">\(p_o\)</span>, <span class="math inline">\(p_e\)</span> et <span class="math inline">\(\kappa\)</span>.</p>
+</div>
+<div class="fragment reponse">
+<ul>
+<li><span class="math inline">\(p_o = \frac{18 + 17 + 18}{60} = \frac{53}{60} \approx 0{,}88\)</span></li>
+<li>Chaque annotateur utilise chaque catégorie 20 fois sur 60 : <span class="math inline">\(p_A(k) = p_B(k) = \frac{1}{3}\)</span></li>
+<li><span class="math inline">\(p_e = 3 \times \left(\frac{1}{3} \times \frac{1}{3}\right) = \frac{1}{3} \approx 0{,}33\)</span></li>
+<li><span class="math inline">\(\kappa = \frac{53/60 - 20/60}{1 - 20/60} = \frac{33}{40} \approx 0{,}83\)</span> → accord <strong>presque parfait</strong></li>
+</ul>
+</div>
+<div class="hidden">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>categories         <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"oui"</span>, <span class="st">"non"</span>)   <span class="co"># liaison entendue ?</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>taille_echantillon <span class="ot">&lt;-</span> <span class="dv">20</span>                <span class="co"># les 20 extraits</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>part_double        <span class="ot">&lt;-</span> <span class="dv">1</span>                 <span class="co"># B écoute aussi les 20 extraits</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>annotateurs        <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>graine             <span class="ot">&lt;-</span> <span class="dv">2026</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">preparer_annotation</span>(resultats, categories, taille_echantillon, annotateurs, part_double, graine)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Couper les extraits : un fichier par occurrence, nommé d'après son id (occ_0001.wav…)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"tuneR"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) <span class="fu">install.packages</span>(<span class="st">"tuneR"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tuneR)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>cle <span class="ot">&lt;-</span> <span class="fu">suppressMessages</span>(<span class="fu">read_csv2</span>(<span class="st">"cle_echantillon.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>))   <span class="co"># créé par la cellule A1</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">dir.create</span>(<span class="st">"extraits"</span>, <span class="at">showWarnings =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="fu">seq_len</span>(<span class="fu">nrow</span>(cle))) {</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  e <span class="ot">&lt;-</span> cle[i, ]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  son <span class="ot">&lt;-</span> <span class="fu">readWave</span>(<span class="fu">str_c</span>(e<span class="sc">$</span>name_recording, <span class="st">".wav"</span>), <span class="at">from =</span> e<span class="sc">$</span>debut, <span class="at">to =</span> e<span class="sc">$</span>fin, <span class="at">units =</span> <span class="st">"seconds"</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeWave</span>(son, <span class="fu">file.path</span>(<span class="st">"extraits"</span>, <span class="fu">str_c</span>(e<span class="sc">$</span>id, <span class="st">".wav"</span>)))</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu">zip</span>(<span class="st">"extraits_audio.zip"</span>, <span class="fu">list.files</span>(<span class="st">"extraits"</span>, <span class="at">full.names =</span> <span class="cn">TRUE</span>), <span class="at">flags =</span> <span class="st">"-j"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="notes">
+<ul>
+<li>accord participe passé</li>
+</ul>
+</div>
+<hr>
+<section id="exercices-sentraîner-au-kappa" class="level2">
+<h2 class="anchored" data-anchor-id="exercices-sentraîner-au-kappa"><span class="header-section-number">5.5.4</span> Exercices : s’entraîner au kappa</h2>
+<section id="rappel-des-étapes" class="level3">
+<h3 class="anchored" data-anchor-id="rappel-des-étapes"><span class="header-section-number">5.5.4.1</span> Rappel des étapes</h3>
+<div class="methode-box" data-titre="Calculer un kappa">
+<div class="etapes">
+<ol type="1">
+<li>Remplir le tableau d’accord</li>
+<li>Accord observé : <span class="math inline">\(p_o = \frac{\text{accords}}{N}\)</span></li>
+<li>Accord attendu par hasard : <span class="math inline">\(p_e = \sum_{k} p_{A}(k) \times p_{B}(k)\)</span></li>
+<li><span class="math inline">\(\kappa = \frac{p_o - p_e}{1 - p_e}\)</span></li>
+<li>Interpréter (Landis &amp; Koch, 1977)</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="exercice-1-annoter-soi-même-les-liaisons" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-1-annoter-soi-même-les-liaisons"><span class="header-section-number">5.5.4.2</span> Exercice 1 : annoter soi-même les liaisons</h3>
+<p>Par deux, écoutez les <strong>20 extraits</strong> sans vous concerter. Pour chacun, notez : <strong>liaison entendue ?</strong> oui / non.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Annotateur B : Oui</th>
+<th style="text-align: center;">Annotateur B : Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Annotateur A : Oui</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>…</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>…</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Annotateur A : Non</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>…</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>…</strong></span></td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<ul>
+<li>Calculez <span class="math inline">\(p_o\)</span>, <span class="math inline">\(p_e\)</span> et <span class="math inline">\(\kappa\)</span> entre vous deux.</li>
+<li>Comparez ensuite <strong>votre</strong> annotation à celle de l’<strong>aligneur</strong> (<code>liaison_realisee</code>) : calculez un second <span class="math inline">\(\kappa\)</span> humain–machine.</li>
+<li>L’aligneur est-il un « bon annotateur » ?</li>
+</ul>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ann <span class="ot">&lt;-</span> <span class="fu">lire_annotations</span>(<span class="at">fichier_cle =</span> <span class="st">"cle_echantillon.csv"</span>,</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>                        <span class="at">fichier_A   =</span> <span class="st">"annotation_A.xlsx"</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>                        <span class="at">fichier_B   =</span> <span class="st">"annotation_B.xlsx"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>                        <span class="at">fichier_A2  =</span> <span class="st">"annotation_A_jour2.xlsx"</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">accord</span>(ann<span class="sc">$</span>A, ann<span class="sc">$</span>B, <span class="st">"A"</span>, <span class="st">"B"</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># L'aligneur comme troisième annotateur : liaison_realisee → oui / non</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>aligneur <span class="ot">&lt;-</span> ann<span class="sc">$</span>annotations <span class="sc">|&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(id, <span class="at">annotation =</span> <span class="fu">if_else</span>(<span class="fu">as.logical</span>(liaison_realisee), <span class="st">"oui"</span>, <span class="st">"non"</span>))</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">accord</span>(ann<span class="sc">$</span>A, aligneur, <span class="st">"A"</span>, <span class="st">"aligneur"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="fu">accord</span>(ann<span class="sc">$</span>B, aligneur, <span class="st">"B"</span>, <span class="st">"aligneur"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</section>
+<section id="exercice-2-discuter-les-désaccords" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-2-discuter-les-désaccords"><span class="header-section-number">5.5.4.3</span> Exercice 2 : discuter les désaccords</h3>
+<ol type="1">
+<li>Réécoutez <strong>uniquement</strong> les extraits sur lesquels vous n’êtes pas d’accord.</li>
+<li>Rédigez ensemble <strong>une règle d’annotation</strong> pour trancher ces cas (liste des désaccords : sortie de <code>accord(ann$A, ann$B, "A", "B")</code>).</li>
+</ol>
+<div class="fragment">
+<div class="exemple-box">
+<p>« Une consonne de liaison faible mais audible compte comme une liaison réalisée. »</p>
+</div>
+</div>
+</section>
+</section>
+</div>
+</section>
+<section id="exercice-3-le-piège-de-la-catégorie-dominante" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-3-le-piège-de-la-catégorie-dominante"><span class="header-section-number">5.5.4.4</span> Exercice 3 : le piège de la catégorie dominante</h3>
+<p>Deux annotateurs écoutent 50 liaisons après <em>les</em> et <em>des</em>, presque toujours réalisées.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Annotateur B : Oui</th>
+<th style="text-align: center;">Annotateur B : Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Annotateur A : Oui</strong></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>45</strong></span></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>2</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Annotateur A : Non</strong></td>
+<td style="text-align: center;"><span style="color: #e74c3c; font-weight: bold;"><strong>2</strong></span></td>
+<td style="text-align: center;"><span style="color: #27ae60; font-weight: bold;"><strong>1</strong></span></td>
+</tr>
+</tbody>
+</table>
+<div class="question-box">
+<p>Calculez <span class="math inline">\(p_o\)</span>, <span class="math inline">\(p_e\)</span> et <span class="math inline">\(\kappa\)</span>.</p>
+</div>
+<div class="fragment reponse">
+<ul>
+<li><span class="math inline">\(p_o = \frac{45 + 1}{50} = 0{,}92\)</span></li>
+<li>A dit <em>oui</em> : <span class="math inline">\(\frac{47}{50} = 0{,}94\)</span> · B dit <em>oui</em> : <span class="math inline">\(\frac{47}{50} = 0{,}94\)</span></li>
+<li><span class="math inline">\(p_e = (0{,}94 \times 0{,}94) + (0{,}06 \times 0{,}06) = 0{,}8836 + 0{,}0036 = 0{,}8872\)</span></li>
+<li><span class="math inline">\(\kappa = \frac{0{,}92 - 0{,}8872}{1 - 0{,}8872} = \frac{0{,}0328}{0{,}1128} \approx 0{,}29\)</span> → accord <strong>faible</strong></li>
+<li>92 % d’accord brut… mais deux annotateurs qui répondraient presque toujours <em>oui</em> au hasard feraient presque aussi bien.</li>
+</ul>
+</div>
+</section>
+<section id="exercice-4-retrouver-les-cases-manquantes" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-4-retrouver-les-cases-manquantes"><span class="header-section-number">5.5.4.5</span> Exercice 4 : retrouver les cases manquantes</h3>
+<p>Deux annotateurs ont annoté <strong>50</strong> extraits :</p>
+<ul>
+<li>l’annotateur A a répondu <em>oui</em> <strong>30</strong> fois ;</li>
+<li>l’annotateur B a répondu <em>oui</em> <strong>25</strong> fois ;</li>
+<li>ils sont d’accord sur <strong>41</strong> extraits.</li>
+</ul>
+<div class="question-box">
+<p>Reconstruisez le tableau d’accord, puis calculez <span class="math inline">\(\kappa\)</span>.</p>
+</div>
+<div class="fragment reponse">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">B : Oui</th>
+<th style="text-align: center;">B : Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A : Oui</strong></td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>A : Non</strong></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">18</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="math inline">\(p_o = \frac{41}{50} = 0{,}82\)</span></li>
+<li><span class="math inline">\(p_e = (0{,}60 \times 0{,}50) + (0{,}40 \times 0{,}50) = 0{,}50\)</span></li>
+<li><span class="math inline">\(\kappa = \frac{0{,}82 - 0{,}50}{1 - 0{,}50} = 0{,}64\)</span> → accord <strong>fort</strong></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">verifier_kappa</span>(<span class="at">oui_oui =</span> <span class="dv">23</span>, <span class="at">oui_non =</span> <span class="dv">7</span>, <span class="at">non_oui =</span> <span class="dv">2</span>, <span class="at">non_non =</span> <span class="dv">18</span>, <span class="at">exercice =</span> <span class="st">"Exercice 4"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</section>
+<section id="exercice-5-prédire-avant-de-calculer" class="level3">
+<h3 class="anchored" data-anchor-id="exercice-5-prédire-avant-de-calculer"><span class="header-section-number">5.5.4.6</span> Exercice 5 : prédire avant de calculer</h3>
+<div class="question-box">
+<p>Classez ces trois tableaux du <span class="math inline">\(\kappa\)</span> le plus <strong>faible</strong> au plus <strong>élevé</strong>, <strong>sans calculer</strong>. Vérifiez ensuite.</p>
+</div>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Tableau 1</strong> (N = 100)</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Oui</th>
+<th style="text-align: center;">Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Oui</strong></td>
+<td style="text-align: center;">45</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Non</strong></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">45</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" style="width:33%;">
+<p><strong>Tableau 2</strong> (N = 100)</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Oui</th>
+<th style="text-align: center;">Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Oui</strong></td>
+<td style="text-align: center;">85</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Non</strong></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" style="width:33%;">
+<p><strong>Tableau 3</strong> (N = 100)</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Oui</th>
+<th style="text-align: center;">Non</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Oui</strong></td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Non</strong></td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">40</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="fragment reponse">
+<ul>
+<li>Tableau 1 : <span class="math inline">\(p_o = 0{,}90\)</span>, <span class="math inline">\(p_e = 0{,}50\)</span> → <span class="math inline">\(\kappa = 0{,}80\)</span></li>
+<li>Tableau 2 : <span class="math inline">\(p_o = 0{,}90\)</span>, <span class="math inline">\(p_e = 0{,}82\)</span> → <span class="math inline">\(\kappa \approx 0{,}44\)</span></li>
+<li>Tableau 3 : <span class="math inline">\(p_o = 0{,}80\)</span>, <span class="math inline">\(p_e = 0{,}50\)</span> → <span class="math inline">\(\kappa = 0{,}60\)</span></li>
+<li>Classement : <strong>Tableau 2</strong> &lt; <strong>Tableau 3</strong> &lt; <strong>Tableau 1</strong></li>
+<li>Les tableaux 1 et 2 ont le <strong>même accord brut</strong>, mais pas le même <span class="math inline">\(\kappa\)</span>.</li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+<section id="détail-du-calcul" class="level1">
+<h1><span class="header-section-number">5.6</span> Détail du calcul</h1>
+<p><span class="math display">\[\kappa = \frac{p_o - p_e}{1 - p_e}\]</span></p>
+<ul>
+<li><span class="math inline">\(p_o\)</span> = accord observé = (cases de la diagonale) / N</li>
+<li><span class="math inline">\(p_e\)</span> = accord attendu par hasard = <span class="math inline">\(p_{\text{Oui}}^{A} \times p_{\text{Oui}}^{B} + p_{\text{Non}}^{A} \times p_{\text{Non}}^{B}\)</span>
+<ul>
+<li><span class="math inline">\(p_{\text{Oui}}^{A}\)</span> = total de la ligne « Oui » / N ; <span class="math inline">\(p_{\text{Oui}}^{B}\)</span> = total de la colonne « Oui » / N</li>
+</ul></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Tableau 1</strong></p>
+<p><span class="math inline">\(p_o = \frac{45 + 45}{100} = 0{,}90\)</span></p>
+<p>Marges : A = 50/50, B = 50/50</p>
+<p><span class="math inline">\(p_e = 0{,}5 \times 0{,}5 + 0{,}5 \times 0{,}5 = 0{,}50\)</span></p>
+<p><span class="math inline">\(\kappa = \frac{0{,}90 - 0{,}50}{1 - 0{,}50} = \frac{0{,}40}{0{,}50} = 0{,}80\)</span></p>
+</div><div class="column" style="width:33%;">
+<p><strong>Tableau 2</strong></p>
+<p><span class="math inline">\(p_o = \frac{85 + 5}{100} = 0{,}90\)</span></p>
+<p>Marges : A = 90/10, B = 90/10</p>
+<p><span class="math inline">\(p_e = 0{,}9 \times 0{,}9 + 0{,}1 \times 0{,}1 = 0{,}82\)</span></p>
+<p><span class="math inline">\(\kappa = \frac{0{,}90 - 0{,}82}{1 - 0{,}82} = \frac{0{,}08}{0{,}18} \approx 0{,}44\)</span></p>
+</div><div class="column" style="width:33%;">
+<p><strong>Tableau 3</strong></p>
+<p><span class="math inline">\(p_o = \frac{40 + 40}{100} = 0{,}80\)</span></p>
+<p>Marges : A = 50/50, B = 50/50</p>
+<p><span class="math inline">\(p_e = 0{,}5 \times 0{,}5 + 0{,}5 \times 0{,}5 = 0{,}50\)</span></p>
+<p><span class="math inline">\(\kappa = \frac{0{,}80 - 0{,}50}{1 - 0{,}50} = \frac{0{,}30}{0{,}50} = 0{,}60\)</span></p>
+</div>
+</div>
+<div class="fragment">
+<p>🔎 <strong>Sans calculer :</strong> dans le tableau 2, presque tout est « Oui » (90 %). Deux annotateurs qui répondraient « Oui » au hasard 9 fois sur 10 seraient déjà d’accord 82 % du temps. Les 90 % observés ne dépassent donc ce hasard que de peu. Dans les tableaux 1 et 3, les catégories sont équilibrées : le hasard ne donne que 50 % d’accord, et c’est l’accord brut qui fait la différence (90 % &gt; 80 %).</p>
+</div>
+</section>
+<section id="atelier-les-liaisons-dans-un-corpus-colab" class="level1">
+<h1><span class="header-section-number">5.7</span> Atelier : les liaisons dans un corpus Colab</h1>
+<div class="lecture-box" data-titre="La démarche de Hutin et al. (2022), à petite échelle">
+<p>Comme dans l’étude de cas : repérer les liaisons dans un corpus aligné automatiquement, les réécouter, mesurer l’accord entre annotateurs et la fiabilité de l’aligneur, puis examiner les erreurs.</p>
+<p><a href="https://colab.research.google.com/drive/1CTNpVm_S2Ak7AgSiDOheEuLWPe1s5dSc" class="uri">https://colab.research.google.com/drive/1CTNpVm_S2Ak7AgSiDOheEuLWPe1s5dSc</a></p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/004_pp_final.html" class="pagination-link" aria-label="Les crêpes, virgule, j'en ai mangé">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Les crêpes, virgule, j’en ai mangé</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
