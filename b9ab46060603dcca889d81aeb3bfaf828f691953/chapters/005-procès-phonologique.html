@@ -1,0 +1,3568 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>procès-phonologique – Fonetiek en fonologie</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/004-atelier-praat.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f61564a4d0f1d005cf51de876db663fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e40e8a8fea6366c7a952465869e681f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f61564a4d0f1d005cf51de876db663fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Geen resultaten",
+    "search-matching-documents-text": "Gevonden documenten",
+    "search-copy-link-title": "Kopieer link om te zoeken",
+    "search-hide-matches-text": "Extra overeenkomsten verbergen",
+    "search-more-match-text": "meer overeenkomst in dit document",
+    "search-more-matches-text": "meer overeenkomsten in dit document",
+    "search-clear-button-title": "Wissen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuleren",
+    "search-submit-button-title": "Verzenden",
+    "search-label": "Zoeken"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/001_intro_phon_phon.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/005-procès-phonologique.html">Processus phonologiques</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Zoeken" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Fonetiek en fonologie</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Schakel donkere modus"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Zoeken"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Schakel sectie">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/001_intro_phon_phon.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rappels de phonétique et phonologie</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/002-voyelles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Voyelles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/003-consonnes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Consonnes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/004-atelier-praat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atelier Praat</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/005-procès-phonologique.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Processus phonologiques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/001_intro_phon_phon.html">Chapters</a></li><li class="breadcrumb-item"><a href="../chapters/005-procès-phonologique.html">Processus phonologiques</a></li></ol></nav></header>
+
+
+
+
+
+<div class="hidden">
+<p>Processus phonologiques</p>
+<hr>
+<div class="objectifs-box">
+<div class="objectifs-title">
+<p>Objectifs du chapitre</p>
+</div>
+<ul>
+<li>Décrire un phonème comme un faisceau de traits distinctifs</li>
+<li>Distinguer traits de sonorité, catégoriels, de lieu et de manière, et utiliser l’échelle de sonorité</li>
+<li>Reconnaître et nommer les principaux processus phonologiques : assimilation (progressive, régressive), harmonie, coalescence, épenthèse, élision, métathèse</li>
+<li>Formuler une règle phonologique avec la notation A → B / C _ D et les traits</li>
+<li>Expliquer l’assimilation du voisement en français et le rôle des frontières de mots (#) et de morphèmes (+)</li>
+<li>Distinguer variantes combinatoires et phonèmes (le cas de [j] et [j̥])</li>
+<li>Expliquer le dévoisement final, l’allongement vocalique et la contrainte du voisement automatique, et ce qu’ils révèlent du français de Belgique</li>
+</ul>
+</div>
+<hr>
+<style>
+.question { font-weight: 700; color: #1f4e79; }
+.reponse { border-left: 6px solid #2e8b57; background: #eef7f1; padding: .35em .7em; margin-top: .4em; border-radius: 4px; }
+.reponse strong { color: #2e8b57 !important; }
+.indice { color: #6b6b6b; font-style: italic; margin-top: .4em; }
+.reveal .question { font-size: .85em; }
+.reveal .slides .question, .reveal .slides .question * { color: #1f4e79 !important; }
+.reveal .slides .reponse strong { color: #2e8b57 !important; }
+.reveal .reponse, .reveal .indice { font-size: .8em; }
+.reveal .reponse::before { content: "Réponse"; display: block; font-weight: 700; color: #2e8b57; font-size: .8em; text-transform: uppercase; letter-spacing: .05em; margin-bottom: .2em; }
+.reveal .indice::before { content: "Indice · "; font-weight: 700; font-style: normal; }
+details.reponse-site, details.indice-site { margin: .4em 0; }
+details.reponse-site > summary { cursor: pointer; font-weight: 700; color: #2e8b57; }
+details.indice-site > summary { cursor: pointer; font-style: italic; color: #6b6b6b; }
+/* Couleurs des tableaux de traits : « .reveal .slides » est nécessaire pour passer devant
+   la règle du thème « .reveal .slides span, … strong { color: grey !important } » */
+.c-bleu, .c-bleu *, .reveal .slides .c-bleu, .reveal .slides .c-bleu * { color: #2563eb !important; }
+.c-vert, .c-vert *, .reveal .slides .c-vert, .reveal .slides .c-vert * { color: #16a34a !important; }
+.c-rouge, .c-rouge *, .reveal .slides .c-rouge, .reveal .slides .c-rouge * { color: #dc2626 !important; }
+.c-cyan, .c-cyan *, .reveal .slides .c-cyan, .reveal .slides .c-cyan * { color: #06b6d4 !important; }
+.c-rouge-vif, .c-rouge-vif *, .reveal .slides .c-rouge-vif, .reveal .slides .c-rouge-vif * { color: #ff0000 !important; }
+</style>
+<script>
+/* Site : chaque .reponse / .indice devient un bloc à déplier (les diapos gardent les fragments) */
+document.addEventListener('DOMContentLoaded', function () {
+  if (document.querySelector('.reveal')) return;
+  document.querySelectorAll('div.reponse, div.indice').forEach(function (el) {
+    var ind = el.classList.contains('indice');
+    var d = document.createElement('details'); d.className = ind ? 'indice-site' : 'reponse-site';
+    var s = document.createElement('summary'); s.textContent = ind ? 'Indice' : 'Réponse';
+    el.parentNode.insertBefore(d, el); d.appendChild(s); d.appendChild(el);
+  });
+});
+</script>
+<section id="les-traits" class="level1">
+<h1><span class="header-section-number">5.1</span> Les traits</h1>
+<ul>
+<li><p>Possible de décomposer ce son en différentes propriétés/caractéristiques articulatoires</p></li>
+<li><p>« traits » articulatoires</p></li>
+<li><p>phonème = abréviation pour matrice de traits complète</p>
+<ul>
+<li><p>/d/: [+ dental; + occlusive; + sonore]</p></li>
+<li><p>/t/ : [+ dental; + occlusive; - sonore]</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="les-traits-distinctifs" class="level1">
+<h1><span class="header-section-number">5.2</span> Les traits distinctifs</h1>
+<section id="quest-ce-quun-trait-distinctif" class="level2">
+<h2 class="anchored" data-anchor-id="quest-ce-quun-trait-distinctif"><span class="header-section-number">5.2.1</span> Qu’est-ce qu’un trait distinctif ?</h2>
+<ul>
+<li>Un phonème = un <strong>faisceau de traits</strong> binaires (+/–) qui le distingue de tous les autres phonèmes de la langue (Chomsky &amp; Halle 1968)
+<ul>
+<li>/d/ est [+voix], /t/ est [–voix]</li>
+</ul></li>
+<li>Les traits correspondent <strong>en gros</strong> aux propriétés articulatoires, mais
+<ul>
+<li>certaines distinctions sont <strong>simplifiées</strong></li>
+<li>certains traits <strong>nouveaux</strong> sont introduits pour décrire des <strong>classes</strong> de phonèmes : [±sonorant], [±approximant]</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="quatre-types-de-traits" class="level2">
+<h2 class="anchored" data-anchor-id="quatre-types-de-traits"><span class="header-section-number">5.2.2</span> Quatre types de traits</h2>
+<ol type="1">
+<li><span class="violet">Traits de sonorité</span> (laryngaux) : [±voix]</li>
+<li><span class="violet">Traits catégoriels</span> : [±vocalique], [±sonorant], [±approximant]</li>
+<li><span class="violet">Traits de lieu</span> : [±labial], [±dental], [±palatal], [±vélaire], [±uvulaire]</li>
+<li><span class="violet">Traits de manière</span> : [±continuant], [±nasal], [±latéral]</li>
+</ol>
+<hr>
+</section>
+<section id="les-traits-catégoriels" class="level2">
+<h2 class="anchored" data-anchor-id="les-traits-catégoriels"><span class="header-section-number">5.2.3</span> Les traits catégoriels</h2>
+<ul>
+<li>[±vocalique] : voyelles [+] vs consonnes et glides [–]</li>
+<li>[±sonorant] : la consonne <strong>facilite</strong> la vibration des plis vocaux
+<ul>
+<li>[+] : nasales /m, n, ɲ, ŋ/ et liquides /l, r/ (et toutes les voyelles et glides)</li>
+<li>[–] : occlusives et fricatives (obstruantes)</li>
+</ul></li>
+<li>[±approximant] : l’air passe <strong>librement</strong> par la bouche
+<ul>
+<li>[+] : liquides /l, r/ (et glides, voyelles)</li>
+<li>[–] : toutes les autres consonnes</li>
+</ul></li>
+</ul>
+<div class="petit">
+<p>Tous les phonèmes [+sonorant] sont aussi [+voix], sauf en contexte d’assimilation.</p>
+</div>
+<hr>
+</section>
+<section id="léchelle-de-sonorité" class="level2">
+<h2 class="anchored" data-anchor-id="léchelle-de-sonorité"><span class="header-section-number">5.2.4</span> L’échelle de sonorité</h2>
+<div class="centre" style="font-size:1.2em">
+<p>voyelles &gt; glides &gt; liquides &gt; nasales &gt; occlusives et fricatives</p>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 52%">
+<col style="width: 10%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Classe</th>
+<th>Obstacle</th>
+<th>sonorant</th>
+<th>approximant</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Glides</td>
+<td>minimal, l’air passe sans problème</td>
+<td>+</td>
+<td>+</td>
+</tr>
+<tr class="even">
+<td>Liquides</td>
+<td>obstacle, mais l’air passe (p.&nbsp;ex. sur les côtés)</td>
+<td>+</td>
+<td>+</td>
+</tr>
+<tr class="odd">
+<td>Nasales</td>
+<td>obstacle buccal, l’air passe par le nez</td>
+<td>+</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Occlusives, fricatives</td>
+<td>obstacle sérieux qui gêne le passage de l’air</td>
+<td>–</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+<div class="petit">
+<p>Un processus qui touche les nasales et les glides touche aussi les liquides ; l’inverse n’est pas vrai (p.&nbsp;ex. le dévoisement après une sourde touche glides et liquides, pas les nasales).</p>
+</div>
+<hr>
+</section>
+<section id="les-traits-de-lieu-et-de-manière" class="level2">
+<h2 class="anchored" data-anchor-id="les-traits-de-lieu-et-de-manière"><span class="header-section-number">5.2.5</span> Les traits de lieu et de manière</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="violet">Lieu</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Phonétique</th>
+<th>Phonologie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>bilabiales</td>
+<td>[+labial]</td>
+</tr>
+<tr class="even">
+<td>labiodentales</td>
+<td>[+labial]</td>
+</tr>
+<tr class="odd">
+<td>dentales</td>
+<td>[+dental]</td>
+</tr>
+<tr class="even">
+<td>alvéolaires</td>
+<td>[+dental]</td>
+</tr>
+<tr class="odd">
+<td>palato-alvéolaires</td>
+<td>[+palatal]</td>
+</tr>
+<tr class="even">
+<td>palatales</td>
+<td>[+palatal]</td>
+</tr>
+<tr class="odd">
+<td>vélaires</td>
+<td>[+vélaire]</td>
+</tr>
+<tr class="even">
+<td>uvulaires</td>
+<td>[+uvulaire]</td>
+</tr>
+</tbody>
+</table>
+<p>/f/ = [+labial, –dental, –palatal, –vélaire, –uvulaire]</p>
+</div><div class="column" style="width:50%;">
+<p><span class="violet">Manière</span></p>
+<ul>
+<li>[±continuant] : obstacle <strong>partiel</strong> [+] (fricatives, liquides) vs <strong>complet</strong> [–] (occlusives, nasales)</li>
+<li>[±nasal] : l’air sort par le nez [+] ou par la bouche [–]</li>
+<li>[±latéral] : l’air passe sur les côtés de la langue [+] (/l/ seulement)</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="tableau-synthétique" class="level2">
+<h2 class="anchored" data-anchor-id="tableau-synthétique"><span class="header-section-number">5.2.6</span> Tableau synthétique</h2>
+<div class="petit">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>p</th>
+<th>t</th>
+<th>k</th>
+<th>b</th>
+<th>d</th>
+<th>ɡ</th>
+<th>f</th>
+<th>s</th>
+<th>ʃ</th>
+<th>v</th>
+<th>z</th>
+<th>ʒ</th>
+<th>m</th>
+<th>n</th>
+<th>ɲ</th>
+<th>ŋ</th>
+<th>l</th>
+<th>r</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[vocalique]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>[approximant]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>+</td>
+</tr>
+<tr class="odd">
+<td>[sonorant]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+<tr class="even">
+<td>[voix]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+<tr class="odd">
+<td>[continuant]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>+</td>
+</tr>
+<tr class="even">
+<td>[nasal]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>[latéral]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>[labial]</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>[dental]</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>[palatal]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>[vélaire]</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>[uvulaire]</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+<section id="traits-équipollents-et-privatifs" class="level2">
+<h2 class="anchored" data-anchor-id="traits-équipollents-et-privatifs"><span class="header-section-number">5.2.7</span> Traits équipollents et privatifs</h2>
+<ul>
+<li><span class="violet">Traits équipollents</span> : les deux valeurs définissent chacune un groupe <strong>homogène</strong>
+<ul>
+<li>[±sonorant] : sonantes vs obstruantes</li>
+</ul></li>
+<li><span class="violet">Traits privatifs</span> : seule la valeur positive définit un groupe homogène ; la valeur négative regroupe des phonèmes <strong>hétérogènes</strong>
+<ul>
+<li>[±latéral] : /l/ vs tout le reste</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="questions-13-généralisations" class="level2">
+<h2 class="anchored" data-anchor-id="questions-13-généralisations"><span class="header-section-number">5.2.8</span> Questions (1/3) : généralisations</h2>
+<p><span class="question">Tous les phonèmes [+approximant] (/l/, /r/) sont aussi [+sonorant], mais l’inverse n’est pas vrai (/m/ est [+sonorant, –approximant]). <strong>Formulez deux autres généralisations</strong> à partir du tableau synthétique.</span></p>
+<div class="fragment indice">
+<p>Comparez deux lignes du tableau, par exemple [nasal] et [sonorant], ou [sonorant] et [voix] : quand une ligne a « + », que vaut toujours l’autre ? Et l’inverse est-il vrai ?</p>
+</div>
+<div class="fragment reponse">
+<ul>
+<li>Tous les [+nasal] sont [+sonorant], mais pas l’inverse (/l/ est [+sonorant, –nasal]).</li>
+<li>Tous les [+sonorant] sont [+voix], mais pas l’inverse (/b/ est [+voix, –sonorant]).</li>
+<li>Tous les [+latéral] sont [+approximant], mais pas l’inverse (/r/ est [+approximant, –latéral]).</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="questions-33-traits-partagés" class="level2">
+<h2 class="anchored" data-anchor-id="questions-33-traits-partagés"><span class="header-section-number">5.2.9</span> Questions (3/3) : traits partagés</h2>
+<p><span class="question">Indiquez les traits partagés par :</span></p>
+<ol type="a">
+<li>les fricatives</li>
+<li>les nasales et les liquides</li>
+<li>les consonnes sourdes</li>
+</ol>
+<div class="fragment reponse">
+<ol type="a">
+<li>Fricatives : [–vocalique, –sonorant, –approximant, +continuant, –nasal, –latéral]</li>
+<li>Nasales et liquides : [–vocalique, +sonorant, +voix]</li>
+<li>Consonnes sourdes : [–vocalique, –sonorant, –approximant, –voix, –nasal, –latéral]</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="altérations" class="level1">
+<h1><span class="header-section-number">5.3</span> Altérations</h1>
+<p>Six types d’altérations, illustrés par des exemples de différentes langues :</p>
+<ul>
+<li>assimilations (progressives et régressives)</li>
+<li>harmonie</li>
+<li>coalescence</li>
+<li>épenthèse</li>
+<li>élision</li>
+<li>métathèse</li>
+</ul>
+<hr>
+<section id="assimilations-progressives-assembler-à-bord-dun-bateau-en-oowekyala" class="level2">
+<h2 class="anchored" data-anchor-id="assimilations-progressives-assembler-à-bord-dun-bateau-en-oowekyala"><span class="header-section-number">5.3.1</span> Assimilations progressives : « assembler à bord d’un bateau » en oowekyala 🪶</h2>
+<p><strong>Phonologie</strong> /q’atu-χs/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 5%">
+<col style="width: 13%">
+<col style="width: 20%">
+<col style="width: 24%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">q’</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">u</th>
+<th style="text-align: center;">χ</th>
+<th style="text-align: center;">s</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>lieu</td>
+<td style="text-align: center;">uvulaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;"><span class="c-bleu">—</span></td>
+<td style="text-align: center;"><span class="c-vert">uvulaire</span></td>
+<td style="text-align: center;">alvéolaire</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [q’atu-χʷs]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 5%">
+<col style="width: 13%">
+<col style="width: 20%">
+<col style="width: 24%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">q’</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">u</th>
+<th style="text-align: center;">χʷ</th>
+<th style="text-align: center;">s</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>lieu</td>
+<td style="text-align: center;">uvulaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;"><span class="c-bleu">—</span></td>
+<td style="text-align: center;"><span class="c-vert">uvulaire</span></td>
+<td style="text-align: center;">alvéolaire</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<section id="assimilations-progressives-faire-du-petit-bois-en-oowekyala" class="level3">
+<h3 class="anchored" data-anchor-id="assimilations-progressives-faire-du-petit-bois-en-oowekyala"><span class="header-section-number">5.3.1.1</span> Assimilations progressives : « faire du petit bois » en oowekyala 🪶</h3>
+<p><strong>Phonologie</strong> /ʔamastu-gila/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 4%">
+<col style="width: 9%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">ʔ</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">s</th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">u</th>
+<th style="text-align: center;">g</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;">a</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>lieu</td>
+<td style="text-align: center;">glottale</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">bilabiale</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;"><span class="c-bleu">—</span></td>
+<td style="text-align: center;"><span class="c-vert">vélaire</span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [ʔamastu-gʷila]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 4%">
+<col style="width: 9%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">ʔ</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">s</th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">u</th>
+<th style="text-align: center;">gʷ</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;">a</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>lieu</td>
+<td style="text-align: center;">glottale</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">bilabiale</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;"><span class="c-bleu">—</span></td>
+<td style="text-align: center;"><span class="c-vert">vélaire</span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+</section>
+<section id="assimilations-régressives-con-pedro-en-espagnol" class="level2">
+<h2 class="anchored" data-anchor-id="assimilations-régressives-con-pedro-en-espagnol"><span class="header-section-number">5.3.2</span> Assimilations régressives : con Pedro en espagnol 🇪🇸</h2>
+<p><strong>Phonologie</strong> /kon pedro/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">n</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">e</th>
+<th style="text-align: center;">d</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">o</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>lieu</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>alvéolaire</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>bilabiale</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [kom ˈpeðɾo]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">e</th>
+<th style="text-align: center;">ð</th>
+<th style="text-align: center;">ɾ</th>
+<th style="text-align: center;">o</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>lieu</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>bilabiale</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>bilabiale</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<section id="assimilations-régressives-con-diego-en-espagnol" class="level3">
+<h3 class="anchored" data-anchor-id="assimilations-régressives-con-diego-en-espagnol"><span class="header-section-number">5.3.2.1</span> Assimilations régressives : con Diego en espagnol 🇪🇸</h3>
+<p><strong>Phonologie</strong> /kon diego/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 27%">
+<col style="width: 27%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">n</th>
+<th style="text-align: center;">d</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">e</th>
+<th style="text-align: center;">g</th>
+<th style="text-align: center;">o</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>lieu</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>alvéolaire</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>alvéolaire</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [kon ˈdjeɣo]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 5%">
+<col style="width: 27%">
+<col style="width: 27%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">n</th>
+<th style="text-align: center;">d</th>
+<th style="text-align: center;">j</th>
+<th style="text-align: center;">e</th>
+<th style="text-align: center;">ɣ</th>
+<th style="text-align: center;">o</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>lieu</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>alvéolaire</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>alvéolaire</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+<section id="assimilations-régressives-con-carlos-en-espagnol" class="level3">
+<h3 class="anchored" data-anchor-id="assimilations-régressives-con-carlos-en-espagnol"><span class="header-section-number">5.3.2.2</span> Assimilations régressives : con Carlos en espagnol 🇪🇸</h3>
+<p><strong>Phonologie</strong> /kon karlos/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 4%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 4%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">n</th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">s</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>lieu</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>alvéolaire</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>vélaire</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [koŋ ˈkaɾlos]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 4%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 4%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">ŋ</th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">ɾ</th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">s</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>lieu</td>
+<td style="text-align: center;">vélaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>vélaire</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>vélaire</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">alvéolaire</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">alvéolaire</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+</section>
+<section id="harmonie-supervision-en-malais" class="level2">
+<h2 class="anchored" data-anchor-id="harmonie-supervision-en-malais"><span class="header-section-number">5.3.3</span> Harmonie : « supervision » en malais 🇲🇾</h2>
+<p><strong>Phonologie</strong> /pəŋawasan/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 4%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">ə</th>
+<th style="text-align: center;">ŋ</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">w</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">s</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-rouge">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>son</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-rouge">−</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="odd">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge"><strong>−</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [pəŋãw̃ãsan]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 4%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">ə</th>
+<th style="text-align: center;">ŋ</th>
+<th style="text-align: center;">ã</th>
+<th style="text-align: center;">w̃</th>
+<th style="text-align: center;">ã</th>
+<th style="text-align: center;">s</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-rouge">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>son</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-rouge">−</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="odd">
+<td>nasal</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge"><strong>−</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<section id="harmonie-faire-pleurer-en-malais" class="level3">
+<h3 class="anchored" data-anchor-id="harmonie-faire-pleurer-en-malais"><span class="header-section-number">5.3.3.1</span> Harmonie : « faire pleurer » en malais 🇲🇾</h3>
+<p><strong>Phonologie</strong> /məratappi/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 20%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">ə</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-rouge">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>son</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-rouge">+</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="odd">
+<td>nasal</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge"><strong>−</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [mə̃ratappi]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 20%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">ə̃</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+<td style="text-align: center;"><span class="c-rouge">+</span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>son</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;"><span class="c-rouge">+</span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="odd">
+<td>nasal</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge"><strong>−</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+</section>
+<section id="coalescence-wa-inkosi-wenkosi-des-chefs" class="level2">
+<h2 class="anchored" data-anchor-id="coalescence-wa-inkosi-wenkosi-des-chefs"><span class="header-section-number">5.3.4</span> Coalescence : wa + inkosi → [wenkosi] « des chefs »</h2>
+<p><strong>Phonologie</strong> /wa + inkosi/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 6%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">w</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">n</th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">s</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>bas</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>arrière</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [wenkosi]</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">w</th>
+<th style="text-align: center;"><span class="c-cyan"><strong>e</strong></span></th>
+<th style="text-align: center;">n</th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">o</th>
+<th style="text-align: center;">s</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-cyan"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>bas</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-cyan"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>arrière</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<section id="coalescence-wa-umfazi-womfazi-de-la-femme" class="level3">
+<h3 class="anchored" data-anchor-id="coalescence-wa-umfazi-womfazi-de-la-femme"><span class="header-section-number">5.3.4.1</span> Coalescence : wa + umfazi → [womfazi] « de la femme »</h3>
+<p><strong>Phonologie</strong> /wa + umfazi/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 6%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">w</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">u</th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">f</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">z</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>bas</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>arrière</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [womfazi]</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">w</th>
+<th style="text-align: center;"><span class="c-cyan"><strong>o</strong></span></th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">f</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">z</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-cyan"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+</tr>
+<tr class="even">
+<td>bas</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-cyan"><strong>−</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="odd">
+<td>arrière</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>arrondi</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">−</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+</section>
+<section id="épenthèse-le-village-en-basque" class="level2">
+<h2 class="anchored" data-anchor-id="épenthèse-le-village-en-basque"><span class="header-section-number">5.3.5</span> Épenthèse : « le village » en basque 🌊</h2>
+<p><strong>Phonologie</strong> /erri + e/</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">e</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">∅</th>
+<th style="text-align: center;">e</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+</tr>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>arrière</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [erri je]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 22%">
+<col style="width: 29%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">e</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;"><span class="c-rouge-vif"><strong>j</strong></span></th>
+<th style="text-align: center;">e</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+</tr>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>arrière</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<section id="épenthèse-le-fil-en-basque" class="level3">
+<h3 class="anchored" data-anchor-id="épenthèse-le-fil-en-basque"><span class="header-section-number">5.3.5.1</span> Épenthèse : « le fil » en basque 🌊</h3>
+<p><strong>Phonologie</strong> /ari + e/</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">∅</th>
+<th style="text-align: center;">e</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+</tr>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>arrière</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [ari je]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 24%">
+<col style="width: 31%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;"><span class="c-rouge-vif"><strong>j</strong></span></th>
+<th style="text-align: center;">e</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu">−</span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu">+</span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">+</span></td>
+</tr>
+<tr class="odd">
+<td>haut</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+<tr class="even">
+<td>arrière</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-rouge-vif"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert">−</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+</section>
+<section id="élision-lami" class="level2">
+<h2 class="anchored" data-anchor-id="élision-lami"><span class="header-section-number">5.3.6</span> Élision : L’ami 🇫🇷</h2>
+<p><strong>Phonologie</strong> /lə ami/</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;">ə</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [lami]</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;"><span class="c-vert"><strong>∅</strong></span></th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">m</th>
+<th style="text-align: center;">i</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert"><strong>∅</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert"><strong>∅</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<section id="élision-tigre-en-wallonie" class="level3">
+<h3 class="anchored" data-anchor-id="élision-tigre-en-wallonie"><span class="header-section-number">5.3.6.1</span> Élision : « tigre » en wallonie 🐓</h3>
+<p><strong>Phonologie</strong> /tigʁ/</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">g</th>
+<th style="text-align: center;">ʁ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+</tr>
+<tr class="even">
+<td>son</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-cyan"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [tig̊ʰ]</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">t</th>
+<th style="text-align: center;">i</th>
+<th style="text-align: center;">g̊ʰ</th>
+<th style="text-align: center;"><span class="c-vert"><strong>∅</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert"><strong>∅</strong></span></td>
+</tr>
+<tr class="even">
+<td>son</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert"><strong>∅</strong></span></td>
+</tr>
+<tr class="odd">
+<td>voisé</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-cyan"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>∅</strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</section>
+</section>
+<section id="métathèse-index-en-leti-malaysie" class="level2">
+<h2 class="anchored" data-anchor-id="métathèse-index-en-leti-malaysie"><span class="header-section-number">5.3.7</span> Métathèse : « index » en leti (Malaysie) 🇲🇾</h2>
+<p><strong>Phonologie</strong> /ukar ppalu/</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">u</th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;">u</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [ukra ppalu]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">u</th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">r</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">p</th>
+<th style="text-align: center;">a</th>
+<th style="text-align: center;">l</th>
+<th style="text-align: center;">u</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>−</strong></span></td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+</tr>
+<tr class="even">
+<td>syll</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;">+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<section id="métathèse-demander-en-anglais-californie-du-sud" class="level3">
+<h3 class="anchored" data-anchor-id="métathèse-demander-en-anglais-californie-du-sud"><span class="header-section-number">5.3.7.1</span> Métathèse : « demander » en anglais (Californie du sud) 🏖️</h3>
+<p><strong>Phonologie</strong> /æsk/</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">æ</th>
+<th style="text-align: center;">s</th>
+<th style="text-align: center;">k</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+</tr>
+<tr class="even">
+<td>cont</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+</tr>
+<tr class="odd">
+<td>lieu</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-bleu"><strong>alvéolaire</strong></span></td>
+<td style="text-align: center;"><span class="c-vert"><strong>vélaire</strong></span></td>
+</tr>
+</tbody>
+</table>
+<p><span class="question">Quel trait change entre la forme phonologique et la forme phonétique ?</span></p>
+<div class="fragment">
+<p><strong>Phonétique</strong> [æks]</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">æ</th>
+<th style="text-align: center;">k</th>
+<th style="text-align: center;">s</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cons</td>
+<td style="text-align: center;">−</td>
+<td style="text-align: center;"><span class="c-vert"><strong>+</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+</tr>
+<tr class="even">
+<td>cont</td>
+<td style="text-align: center;">+</td>
+<td style="text-align: center;"><span class="c-vert"><strong>−</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>+</strong></span></td>
+</tr>
+<tr class="odd">
+<td>lieu</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><span class="c-vert"><strong>vélaire</strong></span></td>
+<td style="text-align: center;"><span class="c-bleu"><strong>alvéolaire</strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+<section id="quelques-altérations-en-français" class="level1">
+<h1><span class="header-section-number">5.4</span> Quelques altérations en français</h1>
+<p><span class="question">1. Transcrivez en orthographe traditionnelle les énoncés suivants.</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ol type="1">
+<li>[œ̃ sak̬ də sabl]</li>
+<li>[lə kap̬ blɑ̃]</li>
+<li>[yn pat̬ də ʃa]</li>
+</ol>
+</div><div class="column" style="width:50%;">
+<ol start="4" type="1">
+<li>[sə vaz̥ kase]</li>
+<li>[la pʁ̥ɛs]</li>
+<li>[la pɔʁ̥ tetʁ̥wat]</li>
+</ol>
+</div>
+</div>
+<div class="fragment reponse">
+<p>1. un sac de sable · 2. le cap blanc · 3. une patte de chat · 4. ce vase cassé · 5. la presse · 6. la porte étroite</p>
+</div>
+<div class="fragment">
+<p><span class="question">2. Qu’observez-vous respectivement dans les énoncés 1 à 3 et 4 à 6 ?</span></p>
+</div>
+<div class="fragment reponse">
+<ul>
+<li>Les énoncés 1 à 3 présentent le diacritique ̬ (voisement).</li>
+<li>Les énoncés 4 à 6 présentent le diacritique ̥ (dévoisement).</li>
+</ul>
+</div>
+<hr>
+<section id="quelques-altérations-en-français-explication" class="level2">
+<h2 class="anchored" data-anchor-id="quelques-altérations-en-français-explication"><span class="header-section-number">5.4.1</span> Quelques altérations en français : explication</h2>
+<p><span class="question">3. Expliquez l’utilisation de ces diacritiques à partir des processus phonologiques décrits précédemment.</span></p>
+<div class="fragment reponse">
+<ol type="1">
+<li>[œ̃ sak̬ də sabl] : assimilation régressive du voisement</li>
+<li>[lə kap̬ blɑ̃] : assimilation régressive du voisement</li>
+<li>[yn pat̬ də ʃa] : assimilation régressive du voisement</li>
+<li>[sə vaz̥ kase] : assimilation régressive du voisement</li>
+<li>[la pʁ̥ɛs] : assimilation régressive du voisement</li>
+<li>[la pɔʁ̥ tetʁ̥wat] : assimilation régressive [pɔʁ̥t] et progressive [etʁ̥wat] du voisement</li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="assimilations-en-français" class="level2">
+<h2 class="anchored" data-anchor-id="assimilations-en-français"><span class="header-section-number">5.4.2</span> Assimilations en français</h2>
+<div class="side-by-side">
+<p>Mettez votre main sur votre larynx et ressentez les vibrations de vos plis vocaux lors de la prononciation de “bien” et de “pied”.</p>
+<p><img src="images/clipboard-1412154378.png" class="img-fluid"></p>
+</div>
+<hr>
+<section id="quel-est-le-statut-de-j-et-de-j" class="level3">
+<h3 class="anchored" data-anchor-id="quel-est-le-statut-de-j-et-de-j"><span class="header-section-number">5.4.2.1</span> Quel est le statut de [j] et de [j̥] ?</h3>
+<div class="petit">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variante</th>
+<th style="text-align: left;">Contexte ?</th>
+<th style="text-align: left;">Exemples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">[j] sonore</td>
+<td style="text-align: left;">???</td>
+<td style="text-align: left;"><em>hier</em> [jɛʁ], <em>hiérarchie</em> [jeʁaʁʃi], <em>yod</em> [jɔd], <em>iode</em> [jɔd], <em>ion</em> [jɔ̃], <em>ionien</em> [jɔnjɛ̃], <em>hiatus</em> [jatys], <em>hyacinthe</em> [jasɛ̃t], <em>iambe</em> [jɑ̃b], <em>famille</em> [famij], <em>béquille</em> [bekij], <em>nouilles</em> [nuj], <em>andouille</em> [ɑ̃duj], <em>groseilles</em> [ɡʁozɛj], <em>oeil</em> [œj], <em>deuil</em> [dœj], <em>ail</em> [aj], <em>mien</em> [mjɛ̃], <em>arménien</em> [aʁmenjɛ̃], <em>bien</em> [bjɛ̃], <em>canadien</em> [kanadjɛ̃], <em>viens</em> [vjɛ̃], <em>arlésien</em> [aʁlezjɛ̃], <em>collégien</em> [kɔleʒjɛ̃], <em>lien</em> [ljɛ̃], <em>aïeul</em> [ajœl], <em>renvoyer</em> [ʁɑ̃vwaje], <em>païen</em> [pajɛ̃], <em>cahier</em> [kaje], <em>citoyen</em> [sitwajɛ̃], <em>trier</em> [tʁije], <em>tablier</em> [tablije]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">[j̥] sourd</td>
+<td style="text-align: left;">???</td>
+<td style="text-align: left;"><span class="fragment highlight-red" data-fragment-index="1"><em>p</em></span><em>ied</em> [<span class="fragment highlight-red" data-fragment-index="1">p</span>j̥e], <span class="fragment highlight-red" data-fragment-index="1"><em>t</em></span><em>iers</em> [<span class="fragment highlight-red" data-fragment-index="1">t</span>j̥ɛʁ], <em>ira<span class="fragment highlight-red" data-fragment-index="1">qu</span>ien</em> [iʁa<span class="fragment highlight-red" data-fragment-index="1">k</span>j̥ɛ̃], <span class="fragment highlight-red" data-fragment-index="1"><em>f</em></span><em>ier</em> [<span class="fragment highlight-red" data-fragment-index="1">f</span>j̥ɛʁ], <span class="fragment highlight-red" data-fragment-index="1"><em>s</em></span><em>ien</em> [<span class="fragment highlight-red" data-fragment-index="1">s</span>j̥ɛ̃], <span class="fragment highlight-red" data-fragment-index="1"><em>ch</em></span><em>ien</em> [<span class="fragment highlight-red" data-fragment-index="1">ʃ</span>j̥ɛ̃], <em>chan<span class="fragment highlight-red" data-fragment-index="1">t</span>ier</em> [ʃɑ̃<span class="fragment highlight-red" data-fragment-index="1">t</span>j̥e], <em>a<span class="fragment highlight-red" data-fragment-index="1">ss</span>iette</em> [a<span class="fragment highlight-red" data-fragment-index="1">s</span>j̥ɛt], <span class="fragment highlight-red" data-fragment-index="1"><em>ch</em></span><em>iasme</em> [<span class="fragment highlight-red" data-fragment-index="1">k</span>j̥asm]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span class="question">Dans quels contextes trouve-t-on [j] et [j̥] ? Quel est leur statut ?</span></p>
+<hr>
+</section>
+<section id="un-indice" class="level3">
+<h3 class="anchored" data-anchor-id="un-indice"><span class="header-section-number">5.4.2.2</span> Un indice</h3>
+<div class="side-by-side">
+<p>Un indice</p>
+<p><img src="images/clipboard-1271553658.png" class="img-fluid"></p>
+</div>
+<hr>
+</section>
+<section id="statut-de-j-et-de-j-réponse" class="level3">
+<h3 class="anchored" data-anchor-id="statut-de-j-et-de-j-réponse"><span class="header-section-number">5.4.2.3</span> Statut de [j] et de [j̥] : réponse</h3>
+<div class="reponse">
+<div class="petit">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 9%">
+<col style="width: 89%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variante</th>
+<th style="text-align: left;">Contexte ?</th>
+<th style="text-align: left;">Exemples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">[j] sonore</td>
+<td style="text-align: left;">initiale, devant voyelle ; finale, après voyelle ; après /m n b d v z ʒ l ʁ/, devant voyelle ; intervocalique</td>
+<td style="text-align: left;"><em>hier</em> [jɛʁ], <em>hiérarchie</em> [jeʁaʁʃi], <em>yod</em> [jɔd], <em>iode</em> [jɔd], <em>ion</em> [jɔ̃], <em>ionien</em> [jɔnjɛ̃], <em>hiatus</em> [jatys], <em>hyacinthe</em> [jasɛ̃t], <em>iambe</em> [jɑ̃b], <em>famille</em> [famij], <em>béquille</em> [bekij], <em>nouilles</em> [nuj], <em>andouille</em> [ɑ̃duj], <em>groseilles</em> [ɡʁozɛj], <em>oeil</em> [œj], <em>deuil</em> [dœj], <em>ail</em> [aj], <em>mien</em> [mjɛ̃], <em>arménien</em> [aʁmenjɛ̃], <em>bien</em> [bjɛ̃], <em>canadien</em> [kanadjɛ̃], <em>viens</em> [vjɛ̃], <em>arlésien</em> [aʁlezjɛ̃], <em>collégien</em> [kɔleʒjɛ̃], <em>lien</em> [ljɛ̃], <em>aïeul</em> [ajœl], <em>renvoyer</em> [ʁɑ̃vwaje], <em>païen</em> [pajɛ̃], <em>cahier</em> [kaje], <em>citoyen</em> [sitwajɛ̃], <em>trier</em> [tʁije], <em>tablier</em> [tablije]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">[j̥] sourd</td>
+<td style="text-align: left;">après /<span class="fragment highlight-red" data-fragment-index="1">p t k f s ʃ</span>/, devant voyelle</td>
+<td style="text-align: left;"><span class="fragment highlight-red" data-fragment-index="1"><em>p</em></span><em>ied</em> [<span class="fragment highlight-red" data-fragment-index="1">p</span>j̥e], <span class="fragment highlight-red" data-fragment-index="1"><em>t</em></span><em>iers</em> [<span class="fragment highlight-red" data-fragment-index="1">t</span>j̥ɛʁ], <em>ira<span class="fragment highlight-red" data-fragment-index="1">qu</span>ien</em> [iʁa<span class="fragment highlight-red" data-fragment-index="1">k</span>j̥ɛ̃], <span class="fragment highlight-red" data-fragment-index="1"><em>f</em></span><em>ier</em> [<span class="fragment highlight-red" data-fragment-index="1">f</span>j̥ɛʁ], <span class="fragment highlight-red" data-fragment-index="1"><em>s</em></span><em>ien</em> [<span class="fragment highlight-red" data-fragment-index="1">s</span>j̥ɛ̃], <span class="fragment highlight-red" data-fragment-index="1"><em>ch</em></span><em>ien</em> [<span class="fragment highlight-red" data-fragment-index="1">ʃ</span>j̥ɛ̃], <em>chan<span class="fragment highlight-red" data-fragment-index="1">t</span>ier</em> [ʃɑ̃<span class="fragment highlight-red" data-fragment-index="1">t</span>j̥e], <em>a<span class="fragment highlight-red" data-fragment-index="1">ss</span>iette</em> [a<span class="fragment highlight-red" data-fragment-index="1">s</span>j̥ɛt], <span class="fragment highlight-red" data-fragment-index="1"><em>ch</em></span><em>iasme</em> [<span class="fragment highlight-red" data-fragment-index="1">k</span>j̥asm]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>[j] et [j̥] sont en distribution complémentaire : ce sont deux variantes combinatoires (allophones) du même phonème /j/ 🔎.</p>
+</div>
+<hr>
+</section>
+<section id="le-rôle-de-la-structure-morphologique" class="level3">
+<h3 class="anchored" data-anchor-id="le-rôle-de-la-structure-morphologique"><span class="header-section-number">5.4.2.4</span> Le rôle de la structure morphologique</h3>
+<ul>
+<li>Le domaine d’application des règles phonologiques peut dépendre de la structure morpho-syntaxique de l’énoncé. Dans la tradition générative, les frontières de mots sont indiquées par # et les frontières morphémiques par +.</li>
+<li>L’énoncé suivant « copiez la carte » peut donc être transcrit comme # kɔpi + e # la # kaʀt #</li>
+</ul>
+<hr>
+</section>
+<section id="assimilation-du-voisement-et-frontières-de-mots" class="level3">
+<h3 class="anchored" data-anchor-id="assimilation-du-voisement-et-frontières-de-mots"><span class="header-section-number">5.4.2.5</span> Assimilation du voisement et frontières de mots</h3>
+<p><span class="question">Observez les exemples suivants et essayez de déterminer le rôle de la structure morphologique.</span></p>
+<div class="columns petit">
+<div class="column" style="width:50%;">
+<ul>
+<li>f : chef de gare [ʃɛf̬ də gaːʀ]</li>
+<li>s : grosse dame [gʀos̬ dam]</li>
+<li>ʃ : vache du Québec [vaʃ dy kebɛk] (avec le son [ʃ] sonorisé)</li>
+<li>p : pipe de plâtre [pip̬ də platʀ̥]</li>
+<li>t : je vais te garder [ʒvɛ t̬ gaʀde]</li>
+<li>k : sac de sable [sak̬ də sabl]</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>ʀ : gare ton auto [gaʀ̥ tɔ̃ noto]</li>
+<li>v : brève concurrence [bʀɛv̥ kɔ̃kyʀɑ̃ːs]</li>
+<li>z : rose foncé [ʀoz̥ fɔ̃se]</li>
+<li>ʒ : je travaille [ʒ tʀ̥avaj]</li>
+<li>b : robe sale [ʀɔb̥ sal]</li>
+<li>d : chapeau de paille [ʃapo d̥ paj]</li>
+</ul>
+</div>
+</div>
+<div class="fragment">
+<p><span class="question">Quelles règles pouvez-vous en déduire ?</span></p>
+</div>
+<div class="fragment reponse">
+<ul>
+<li>[-son] → [-voix] / _ # [-voix, -son]</li>
+<li>[-son] → [+voix] / _ # [+voix, -son]</li>
+<li>[ʀ] → [+voix] / C[-voix, -son] _</li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="que-nous-apprend-la-phonologie-de-laboratoire" class="level3">
+<h3 class="anchored" data-anchor-id="que-nous-apprend-la-phonologie-de-laboratoire"><span class="header-section-number">5.4.2.6</span> Que nous apprend la phonologie de laboratoire ?</h3>
+<p>Le voisement tardif s’explique par les propriétés physiologiques et acoustiques de l’appareil phonatoire : la mise en vibration des cordes vocales demande un certain temps.</p>
+<ul>
+<li><strong>Voisement phonologique</strong> : distinction binaire entre plosives sourdes (/p, t, k/) et voisées (/b, d, g/), présente dans des langues comme l’anglais et le français.</li>
+<li><strong>Voisement phonétique</strong> : manifestations acoustiques, perceptuelles et vibratoires (VOT, vibration des cordes vocales), utilisées différemment selon les langues pour exprimer ces catégories.
+<ul>
+<li><em>Français</em> : implémentation de type « français » (voisement négatif pour les occlusives « voisées »).</li>
+<li><em>Anglais</em> : implémentation avec aspiration pour les sourdes ([pʰ, tʰ, kʰ]) et dévoisement partiel pour les voisées.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="implémentation-du-voisement-et-assimilation" class="level3">
+<h3 class="anchored" data-anchor-id="implémentation-du-voisement-et-assimilation"><span class="header-section-number">5.4.2.7</span> Implémentation du voisement et assimilation</h3>
+<div class="side-by-side">
+<ul>
+<li>Les plosives [+voix] déclenchent une <strong>assimilation régressive du voisement (RVA)</strong> uniquement dans les langues employant l’implémentation de type « français » (VOT négatif).</li>
+<li><em>Exemples de dialectes germaniques concernés</em> : l’afrikaans, le néerlandais (occidental et méridional), l’anglais écossais, le frison occidental, l’allemand de Rhénanie et le yiddish (variétés orientales).</li>
+</ul>
+<p><img src="images/clipboard-3007971355.png" class="img-fluid"></p>
+</div>
+<hr>
+</section>
+<section id="partition-articulatoire-phonologie-de-laboratoire" class="level3">
+<h3 class="anchored" data-anchor-id="partition-articulatoire-phonologie-de-laboratoire"><span class="header-section-number">5.4.2.8</span> Partition articulatoire (phonologie de laboratoire)</h3>
+<p><img src="images/clipboard-1012897261.png" class="img-fluid"></p>
+<div class="side-by-side">
+<p><img src="images/clipboard-347866762.png" class="img-fluid"></p>
+<p><img src="images/clipboard-3942994262.png" class="img-fluid"></p>
+</div>
+<hr>
+</section>
+<section id="assimilation-catégorique-ou-graduelle" class="level3">
+<h3 class="anchored" data-anchor-id="assimilation-catégorique-ou-graduelle"><span class="header-section-number">5.4.2.9</span> Assimilation catégorique ou graduelle ?</h3>
+<ul>
+<li>L’assimilation du voisement en français est traditionnellement considérée comme un phénomène catégorique (« tout ou rien ») et principalement régressif : la consonne suivante influence la consonne précédente.</li>
+<li>Des études récentes en français et dans d’autres langues (par ex. le hongrois) remettent en cause cette vision : l’assimilation du voisement serait plutôt un phénomène graduel, avec différents degrés de variation phonétique.</li>
+<li>Cette approche s’inscrit dans une conception plus générale des processus d’assimilation comme des phénomènes continus plutôt que strictement discrets.</li>
+</ul>
+<hr>
+</section>
+<section id="une-étude-sur-corpus" class="level3">
+<h3 class="anchored" data-anchor-id="une-étude-sur-corpus"><span class="header-section-number">5.4.2.10</span> Une étude sur corpus</h3>
+<ul>
+<li>Plus de 100 heures de parole issues de journaux radiophoniques et télévisés : environ 100 000 séquences consonantiques de type C1#C2.</li>
+<li>Quatre configurations de contact consonantique :
+<ul>
+<li>[-voix]#[+voix] : favorable à l’assimilation du voisement</li>
+<li>[+voix]#[-voix] : favorable à l’assimilation du voisement</li>
+<li>[-voix]#[-voix]</li>
+<li>[+voix]#[+voix]</li>
+</ul></li>
+</ul>
+<div class="side-by-side">
+<p>Mesure</p>
+<p><img src="images/clipboard-1231678680.png" class="img-fluid"></p>
+</div>
+<hr>
+</section>
+<section id="une-étude-sur-corpus-résultats" class="level3">
+<h3 class="anchored" data-anchor-id="une-étude-sur-corpus-résultats"><span class="header-section-number">5.4.2.11</span> Une étude sur corpus : résultats</h3>
+<p><span class="question">À votre avis, l’assimilation du voisement est-elle plutôt catégorique ou graduelle ? Est-ce la même chose pour les occlusives et les fricatives ?</span></p>
+<div class="fragment reponse">
+<p>Le plus souvent <strong>catégorique</strong> plutôt que partielle : les consonnes tendent à adopter pleinement la valeur de voisement de la consonne voisine. Cette tendance varie selon le type de consonne :</p>
+<ul>
+<li>les occlusives présentent une assimilation vers [-voisé] (désonorisation) relativement catégorique ;</li>
+<li>les fricatives montrent une désonorisation plus graduelle et moins systématique.</li>
+</ul>
+</div>
+<hr>
+</section>
+</section>
+<section id="dévoisement-final" class="level2">
+<h2 class="anchored" data-anchor-id="dévoisement-final"><span class="header-section-number">5.4.3</span> Dévoisement final</h2>
+<p><img src="images/clipboard-2296547459.png" class="img-fluid"></p>
+<hr>
+<section id="dévoisement-final-observation" class="level3">
+<h3 class="anchored" data-anchor-id="dévoisement-final-observation"><span class="header-section-number">5.4.3.1</span> Dévoisement final : observation</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ul>
+<li>rouge /ʁuʒ/ [ʁ<u><strong>uː</strong></u>ʃ]</li>
+<li>ligue /lig/ [l<u><strong>iː</strong></u>k]</li>
+<li>brave /bʁav/ [bʁ<u><strong>aː</strong></u>f]</li>
+<li>bague /bag/ [b<u><strong>aː</strong></u>k]</li>
+<li>Liège /ljɛʒ/ [lj<u><strong>ɛː</strong></u>ʃ]</li>
+<li>douze /duz/ [d<u><strong>uː</strong></u>s]</li>
+</ul>
+</div><div class="column" style="width:55%;">
+<p><span class="question">1. Comparez la forme phonologique et la forme phonétique : que devient l’obstruante finale ?</span></p>
+<div class="fragment reponse">
+<p>Elle se dévoise : /ʒ/ → [ʃ], /g/ → [k], /v/ → [f], /z/ → [s].</p>
+</div>
+<div class="fragment">
+<p><span class="question">2. Que remarquez-vous sur la voyelle précédente ?</span></p>
+</div>
+<div class="fragment reponse">
+<p>Elle est allongée (voyelles soulignées).</p>
+</div>
+<div class="fragment">
+<p><span class="question">3. Le dévoisement se limite-t-il à la finale absolue ?</span></p>
+</div>
+<div class="fragment reponse">
+<p>Non : on le trouve aussi en coda syllabique. <em>Il tombe encore</em> /il tɔ̃b ɑ̃kɔʁ/ [il t<u><strong>ɔ̃ː</strong></u>p ɑ̃kɔʀ̥]</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="dévoisement-final-illustration" class="level3">
+<h3 class="anchored" data-anchor-id="dévoisement-final-illustration"><span class="header-section-number">5.4.3.2</span> Dévoisement final : illustration</h3>
+<div class="side-by-side">
+<p><img src="images/clipboard-1244343455.png" class="img-fluid" width="152"></p>
+<p><img src="images/clipboard-3338178952.png" class="img-fluid" width="606"></p>
+</div>
+<hr>
+</section>
+<section id="la-contrainte-du-voisement-automatique-avc" class="level3">
+<h3 class="anchored" data-anchor-id="la-contrainte-du-voisement-automatique-avc"><span class="header-section-number">5.4.3.3</span> La contrainte du voisement automatique (AVC)</h3>
+<div class="side-by-side">
+<p><img src="images/z_automatic_voicing_constraint.gif" class="img-fluid" width="269"></p>
+<p><img src="images/s_automatic_voicing_constraint.gif" class="img-fluid" width="269"></p>
+</div>
+<ul>
+<li>« Voicing requires a sufficient airflow through the adducted vocal cords » (Ohala, 2011)</li>
+<li>Δp &lt; P<sub>supra</sub> − P<sub>sub</sub></li>
+<li>« Among obstruents there will be a greater tendency for fricatives to be voiceless than stops » (Ohala, 2011)</li>
+</ul>
+<hr>
+</section>
+<section id="contourner-lavc" class="level3">
+<h3 class="anchored" data-anchor-id="contourner-lavc"><span class="header-section-number">5.4.3.4</span> Contourner l’AVC</h3>
+<ul>
+<li>Pour contourner l’AVC, on peut raccourcir la fricative voisée et/ou allonger la voyelle précédente :
+<ul>
+<li>longue fricative voisée = courte voyelle précédente</li>
+<li>courte fricative voisée = longue voyelle précédente</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p><span class="question">Quid du français de Belgique ?</span></p>
+</div>
+<hr>
+</section>
+<section id="français-de-france-et-français-de-belgique" class="level3">
+<h3 class="anchored" data-anchor-id="français-de-france-et-français-de-belgique"><span class="header-section-number">5.4.3.5</span> Français de France et français de Belgique</h3>
+<ul>
+<li>Le français de France 🇫🇷 est a priori une variété dont le voisement phonologique se manifeste principalement à travers le voisement phonétique.</li>
+<li>Le français de Belgique 🇧🇪 : le dévoisement final est attesté ; un allongement de la voyelle précédente est également attesté.</li>
+</ul>
+<p><span class="question">Le français belge compense-t-il le faible poids d’un indice acoustique en encodant le voisement phonologique « sous-jacent » à travers l’indice de durée vocalique ?</span></p>
+<hr>
+</section>
+<section id="français-de-france-et-français-de-belgique-résultats" class="level3">
+<h3 class="anchored" data-anchor-id="français-de-france-et-français-de-belgique-résultats"><span class="header-section-number">5.4.3.6</span> Français de France et français de Belgique : résultats</h3>
+<p><img src="images/clipboard-3233943119.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="et-donc" class="level3">
+<h3 class="anchored" data-anchor-id="et-donc"><span class="header-section-number">5.4.3.7</span> Et donc ?</h3>
+<div class="reponse">
+<ul>
+<li>Le voisement en France : principalement par le voisement de la fricative.</li>
+<li>Le voisement en Belgique : en cas de dévoisement final, la longueur vocalique est encodée dans le système phonologique pour compenser le dévoisement.</li>
+</ul>
+</div>
+<p><span class="question">Nord vs Sud ? Un continuum ?</span></p>
+<hr>
+</section>
+<section id="en-conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="en-conclusion"><span class="header-section-number">5.4.3.8</span> En conclusion…</h3>
+<p><img src="images/clipboard-1246408130.png" class="img-fluid" width="645"></p>
+</section>
+</section>
+</section>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Gekopieerd!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Gekopieerd!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/004-atelier-praat.html" class="pagination-link" aria-label="Atelier Praat">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Atelier Praat</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
