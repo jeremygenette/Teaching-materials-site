@@ -733,22 +733,11 @@
     ]
   },
   {
-    "objectID": "chapters/003-consonnes.html#une-vocoïde",
-    "href": "chapters/003-consonnes.html#une-vocoïde",
-    "title": "3.1 Définitions",
-    "section": "3.7.1 Une vocoïde",
-    "text": "3.7.1 Une vocoïde\n\n\n\nDimension phonétique : c’est une vocoïde (Pike, 1943) : un son avec vibration des plis vocaux, résonance supraglottique et aucune obstruction au centre de la bouche. Les voyelles et les semi-voyelles sont des vocoïdes.\nDimension phonologique : elle ne peut pas former le noyau d’une syllabe en français\n\n\n\n\n\n\n\n3.7.1.1 Les nasales\n\n\n\nObstruction complète dans la cavité buccale (comme les occlusives)\nLe voile du palais est abaissé : l’air sort par la cavité nasale\nLieux d’articulation : souvent les mêmes contrastes que les obstruantes, mais\n\nlimités vers l’arrière à la luette (uvulaire)\ncar plus en arrière, l’air ne pourrait plus passer par la cavité nasale\n\nEn français : [m] mou, [n] net, [ɲ] vigne, [ŋ] camping\n\n\n\n\n\n\n\n\n3.7.1.2 [m], nasale bilabiale\n\n\n\n\n\n\n3.7.1.3 [n], nasale alvéolaire",
-    "crumbs": [
-      "Chapters",
-      "Consonnes"
-    ]
-  },
-  {
     "objectID": "chapters/003-consonnes.html#les-latérales",
     "href": "chapters/003-consonnes.html#les-latérales",
     "title": "3.1 Définitions",
-    "section": "3.7.2 Les latérales",
-    "text": "3.7.2 Les latérales\n\n3.7.2.1 Articulation\n\n\n\nLes côtés de la langue se resserrent vers le centre de la bouche\nL’air s’écoule sur les côtés de la langue\n\nou d’un seul côté\n\nEn français : une seule latérale, [l] lit\n\n\n\n\n\n\n\n\n3.7.2.2 [l], latérale\n\n\n\n\n\n\n3.7.2.3 [ala], latérale entre voyelles\n\n\n\n\n\n\n3.7.2.4 Modes d’articulation\n\nApproximante\nFricative\nAffriquée\nBattue (tap) ou flap\n\n\n\n\n3.7.2.5 Lieu d’articulation\n\nSouvent moins de contrastes que pour les obstruantes ; généralement coronales\nLe plus souvent dentales/alvéolaires\nPas limitées aux coronales :\n\ndorso-palatale, p. ex. en italien\nvélaire, p. ex. en wahgi\n\n\n\n\n\n3.7.2.6 Voisement\n\nGénéralement voix modale\nParfois voix craquée ou soufflée\nEn français, [l] peut être dévoisé après une consonne sourde : classe [kl̥as] (voir L’assimilation)",
+    "section": "3.7.1 Les latérales",
+    "text": "3.7.1 Les latérales\n\n3.7.1.1 Articulation\n\n\n\nLes côtés de la langue se resserrent vers le centre de la bouche\nL’air s’écoule sur les côtés de la langue\n\nou d’un seul côté\n\nEn français : une seule latérale, [l] lit\n\n\n\n\n\n\n\n\n3.7.1.2 [l], latérale\n\n\n\n\n\n\n3.7.1.3 [ala], latérale entre voyelles\n\n\n\n\n\n\n3.7.1.4 Modes d’articulation\n\nApproximante\nFricative\nAffriquée\nBattue (tap) ou flap\n\n\n\n\n3.7.1.5 Lieu d’articulation\n\nSouvent moins de contrastes que pour les obstruantes ; généralement coronales\nLe plus souvent dentales/alvéolaires\nPas limitées aux coronales :\n\ndorso-palatale, p. ex. en italien\nvélaire, p. ex. en wahgi\n\n\n\n\n\n3.7.1.6 Voisement\n\nGénéralement voix modale\nParfois voix craquée ou soufflée\nEn français, [l] peut être dévoisé après une consonne sourde : classe [kl̥as] (voir L’assimilation)",
     "crumbs": [
       "Chapters",
       "Consonnes"
@@ -758,8 +747,8 @@
     "objectID": "chapters/003-consonnes.html#les-approximantes",
     "href": "chapters/003-consonnes.html#les-approximantes",
     "title": "3.1 Définitions",
-    "section": "3.7.3 Les approximantes",
-    "text": "3.7.3 Les approximantes\n\n3.7.3.1 Définition\n\nVocoïdes avec un peu plus de constriction que les voyelles\nLeur lieu d’articulation correspond plus ou moins à celui des voyelles fermées :\n\npalatale : [j] – [i]\nlabio-vélaire : [w] – [u]\nlabio-palatale : [ɥ] – [y]\nvélaire : [ɰ] – [ɯ]\n\n\n\n\n\n3.7.3.2 Les semi-voyelles du français\n\nSons intermédiaires entre voyelles et consonnes : toujours sonores et orales, mais ils ne peuvent pas constituer une syllabe à eux seuls\n\n\n\n\n\n\n\n\n\n\n\nGlide\nVoyelle proche\nPropriétés\nGraphie\nExemples\n\n\n\n\n[j]\n[i]\npalatale, non arrondie\ni, y + voyelle\npied, yeux\n\n\n[ɥ]\n[y]\npalatale, arrondie\nu + voyelle\nhuit, fruit\n\n\n[w]\n[u]\nvélaire, arrondie\nou, w + voyelle\noui, week-end",
+    "section": "3.7.2 Les approximantes",
+    "text": "3.7.2 Les approximantes\n\n3.7.2.1 Définition\n\nVocoïdes avec un peu plus de constriction que les voyelles\nLeur lieu d’articulation correspond plus ou moins à celui des voyelles fermées :\n\npalatale : [j] – [i]\nlabio-vélaire : [w] – [u]\nlabio-palatale : [ɥ] – [y]\nvélaire : [ɰ] – [ɯ]\n\n\n\n\n\n3.7.2.2 Les semi-voyelles du français\n\nSons intermédiaires entre voyelles et consonnes : toujours sonores et orales, mais ils ne peuvent pas constituer une syllabe à eux seuls\n\n\n\n\n\n\n\n\n\n\n\nGlide\nVoyelle proche\nPropriétés\nGraphie\nExemples\n\n\n\n\n[j]\n[i]\npalatale, non arrondie\ni, y + voyelle\npied, yeux\n\n\n[ɥ]\n[y]\npalatale, arrondie\nu + voyelle\nhuit, fruit\n\n\n[w]\n[u]\nvélaire, arrondie\nou, w + voyelle\noui, week-end",
     "crumbs": [
       "Chapters",
       "Consonnes"
@@ -769,8 +758,8 @@
     "objectID": "chapters/003-consonnes.html#les-vibrantes",
     "href": "chapters/003-consonnes.html#les-vibrantes",
     "title": "3.1 Définitions",
-    "section": "3.7.4 Les vibrantes",
-    "text": "3.7.4 Les vibrantes\n\n3.7.4.1 Mécanisme\n\nVibration de l’articulateur actif contre la cible\nContrôle aérodynamique, comme le voisement\n\npetite ouverture & flux d’air d’une certaine force\neffet Bernoulli\n\nOuverture & fermeture régulières\n\n\n\n\n3.7.4.2 Caractéristiques acoustiques\n\n\n\nRelâchement périodique de l’air\nPériodes beaucoup plus longues que celles des voyelles\n➔ Question : quelle fréquence ?\n\n\n\n\n\n\n\n\n3.7.4.3 [r], vibrante\n\n\n\n\n\n\n3.7.4.4 Lieu d’articulation\n\nAlvéolaire (français)\nUvulaire (français)\n\n\n\n\n3.7.4.5 Voisement\n\nGénéralement voisées\n\nparfois variation allophonique (cf. néerlandais, français)\npeut aussi être phonologique\n\n\n\n\n\n3.7.4.6 Le /r/ en français\n\nRéalisations variées selon les régions et les locuteurs :\n\n[ʁ] fricative uvulaire sonore\n[χ] fricative uvulaire sourde\n[ʀ] vibrante uvulaire\n[r] vibrante apicale (régions, générations plus âgées)\n\nrat [ʁa] ou [ra], verre [vɛʁ] ou [vɛr] : même mot, même sens\n\n\n➔ Variation libre : la différence phonétique n’est pas conditionnée par le contexte et ne change pas le sens. On transcrit le phonème /r/ (ou /ʁ/).",
+    "section": "3.7.3 Les vibrantes",
+    "text": "3.7.3 Les vibrantes\n\n3.7.3.1 Mécanisme\n\nVibration de l’articulateur actif contre la cible\nContrôle aérodynamique, comme le voisement\n\npetite ouverture & flux d’air d’une certaine force\neffet Bernoulli\n\nOuverture & fermeture régulières\n\n\n\n\n3.7.3.2 Caractéristiques acoustiques\n\n\n\nRelâchement périodique de l’air\nPériodes beaucoup plus longues que celles des voyelles\n➔ Question : quelle fréquence ?\n\n\n\n\n\n\n\n\n3.7.3.3 [r], vibrante\n\n\n\n\n\n\n3.7.3.4 Lieu d’articulation\n\nAlvéolaire (français)\nUvulaire (français)\n\n\n\n\n3.7.3.5 Voisement\n\nGénéralement voisées\n\nparfois variation allophonique (cf. néerlandais, français)\npeut aussi être phonologique\n\n\n\n\n\n3.7.3.6 Le /r/ en français\n\nRéalisations variées selon les régions et les locuteurs :\n\n[ʁ] fricative uvulaire sonore\n[χ] fricative uvulaire sourde\n[ʀ] vibrante uvulaire\n[r] vibrante apicale (régions, générations plus âgées)\n\nrat [ʁa] ou [ra], verre [vɛʁ] ou [vɛr] : même mot, même sens\n\n\n➔ Variation libre : la différence phonétique n’est pas conditionnée par le contexte et ne change pas le sens. On transcrit le phonème /r/ (ou /ʁ/).",
     "crumbs": [
       "Chapters",
       "Consonnes"
@@ -780,8 +769,8 @@
     "objectID": "chapters/003-consonnes.html#mise-au-point-les-lieux-darticulation",
     "href": "chapters/003-consonnes.html#mise-au-point-les-lieux-darticulation",
     "title": "3.1 Définitions",
-    "section": "3.7.5 Mise au point : les lieux d’articulation",
-    "text": "3.7.5 Mise au point : les lieux d’articulation\nTradition française\n\n\n\n\n\n\n\n\n\n\n\n\n\nbilabiale\nlabiodentale\ndentale\npalatale\nvélaire\nuvulaire\n\n\n\n\nocclusive\n[p] [b]\n\n[t] [d]\n\n[k] [ɡ]\n\n\n\nnasale\n[m]\n\n[n]\n[ɲ]\n[ŋ]\n\n\n\nfricative\n\n[f] [v]\n[s] [z]\n[ʃ] [ʒ]\n\n[ʁ]\n\n\nvibrante\n\n\n\n\n\n[ʀ]\n\n\n\nTradition internationale (API)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nbilabiale\nlabiodentale\nalvéolaire\npostalvéolaire\npalatale\nvélaire\nuvulaire\n\n\n\n\nocclusive\n[p] [b]\n\n[t] [d]\n\n\n[k] [ɡ]\n\n\n\nnasale\n[m]\n\n[n]\n\n[ɲ]\n[ŋ]\n\n\n\nfricative\n\n[f] [v]\n[s] [z]\n[ʃ] [ʒ]\n\n\n[ʁ]\n\n\nvibrante\n\n\n\n\n\n\n[ʀ]\n\n\n\n\n\nJaune : la tradition française classe [t d n] et [s z] comme dentales. L’API distingue une zone dentale · alvéolaire : [s z] y sont plutôt alvéolaires.\nBleu : la tradition française classe [ʃ ʒ] parmi les palatales, avec [ɲ]. Pour l’API, ce sont des postalvéolaires : seul [ɲ] est palatal.\n\n\n\nCes classements varient parfois légèrement selon les phonéticiens et reposent sur certaines observations phonétiques.",
+    "section": "3.7.4 Mise au point : les lieux d’articulation",
+    "text": "3.7.4 Mise au point : les lieux d’articulation\nTradition française\n\n\n\n\n\n\n\n\n\n\n\n\n\nbilabiale\nlabiodentale\ndentale\npalatale\nvélaire\nuvulaire\n\n\n\n\nocclusive\n[p] [b]\n\n[t] [d]\n\n[k] [ɡ]\n\n\n\nnasale\n[m]\n\n[n]\n[ɲ]\n[ŋ]\n\n\n\nfricative\n\n[f] [v]\n[s] [z]\n[ʃ] [ʒ]\n\n[ʁ]\n\n\nvibrante\n\n\n\n\n\n[ʀ]\n\n\n\nTradition internationale (API)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nbilabiale\nlabiodentale\nalvéolaire\npostalvéolaire\npalatale\nvélaire\nuvulaire\n\n\n\n\nocclusive\n[p] [b]\n\n[t] [d]\n\n\n[k] [ɡ]\n\n\n\nnasale\n[m]\n\n[n]\n\n[ɲ]\n[ŋ]\n\n\n\nfricative\n\n[f] [v]\n[s] [z]\n[ʃ] [ʒ]\n\n\n[ʁ]\n\n\nvibrante\n\n\n\n\n\n\n[ʀ]\n\n\n\n\n\nJaune : la tradition française classe [t d n] et [s z] comme dentales. L’API distingue une zone dentale · alvéolaire : [s z] y sont plutôt alvéolaires.\nBleu : la tradition française classe [ʃ ʒ] parmi les palatales, avec [ɲ]. Pour l’API, ce sont des postalvéolaires : seul [ɲ] est palatal.\n\n\n\nCes classements varient parfois légèrement selon les phonéticiens et reposent sur certaines observations phonétiques.",
     "crumbs": [
       "Chapters",
       "Consonnes"
